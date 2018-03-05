@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-16 13:29+0000\n"
-"PO-Revision-Date: 2017-09-25 00:31-0400\n"
+"PO-Revision-Date: 2018-02-11 09:30-0500\n"
 "Last-Translator: rdymac <rdy@aol.es>\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -18,12 +18,12 @@ msgstr ""
 
 #: gui/qt/main_window.py:2516
 msgid " These settings affects the fields in the Send tab"
-msgstr " Estas definições afetam os campos na aba Enviar"
+msgstr " Estas definições afetam os campos no separador Enviar"
 
 #: gui/qt/main_window.py:557
 #, python-format
 msgid "%(txs)s new transactions received. Total amount received in the new transactions %(amount)s"
-msgstr "Recebidas %(txs)s novas transacções. Montante total recebido nas novas transacções %(amount)s"
+msgstr "%(txs)s novas transações recebidas. Quantia total recebida nas novas transações %(amount)s"
 
 #: gui/qt/main_window.py:511
 msgid "&About"
@@ -55,7 +55,7 @@ msgstr "&Ficheiro"
 
 #: gui/qt/main_window.py:506
 msgid "&From QR code"
-msgstr "&Por código QR"
+msgstr "&De código QR"
 
 #: gui/qt/main_window.py:503
 msgid "&From file"
@@ -91,7 +91,7 @@ msgstr "&Carregar transação"
 
 #: gui/qt/main_window.py:453
 msgid "&Master Public Keys"
-msgstr "&Chaves públicas mestras"
+msgstr "&Chaves Públicas Mestras"
 
 #: gui/qt/main_window.py:493
 msgid "&Network"
@@ -119,7 +119,7 @@ msgstr "&Palavra-passe"
 
 #: gui/qt/main_window.py:500
 msgid "&Pay to many"
-msgstr "&Pagar para vários"
+msgstr "&Pagar a vários"
 
 #: gui/qt/main_window.py:494
 msgid "&Plugins"
@@ -195,7 +195,7 @@ msgstr "Uma taxa de transação sugerida será adicionada a este campo. Pode alt
 
 #: gui/qt/installwizard.py:346 gui/kivy/uix/dialogs/installwizard.py:789
 msgid "Add Cosigner"
-msgstr "Adicionar co-assinante"
+msgstr "Adicionar cossignatário"
 
 #: gui/qt/main_window.py:1361
 msgid "Additional fees"
@@ -231,7 +231,7 @@ msgstr "Quantia enviada:"
 
 #: gui/qt/main_window.py:1354
 msgid "Amount to be sent"
-msgstr "Montante a enviar"
+msgstr "Quantia a enviar"
 
 #: gui/qt/main_window.py:1023
 msgid "Amount to be sent."
@@ -251,7 +251,7 @@ msgstr "Semente BIP39"
 
 #: gui/qt/seed_dialog.py:71
 msgid "BIP39 seeds can be imported in Electrum so that users can access funds locked in other wallets."
-msgstr "Sementes BIP39 podem ser importadas no Electrum para que os utilizadores possam aceder a fundos guardados em outras carteiras."
+msgstr "Sementes BIP39 podem ser importadas no Electrum para que os utilizadores possam aceder a fundos guardados noutras carteiras."
 
 #: gui/qt/installwizard.py:78 gui/qt/installwizard.py:111
 #: gui/qt/installwizard.py:112
@@ -277,11 +277,11 @@ msgstr "Antes de reportar um erro, atualize para a versão mais recente do Elect
 
 #: gui/qt/main_window.py:1303
 msgid "Bitcoin Address is None"
-msgstr "Não há nenhum endereço da Bitcoin"
+msgstr "Endereço da Bitcoin é Nenhum"
 
 #: gui/qt/main_window.py:749
 msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Endereço Bitcoin onde o pagamento deve ser recebido. Observe que cada solicitação de pagamento usa um endereço Bitcoin diferente."
+msgstr "Endereço Bitcoin onde o pagamento deve ser recebido. Note que cada solicitação de pagamento usa um endereço Bitcoin diferente."
 
 #: gui/qt/main_window.py:1045
 msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
@@ -293,11 +293,11 @@ msgstr "Blockchain"
 
 #: gui/qt/transaction_dialog.py:100
 msgid "Broadcast"
-msgstr "Difundir"
+msgstr "Transmitir"
 
 #: gui/qt/main_window.py:1444
 msgid "Broadcasting transaction..."
-msgstr "Transmitindo a transacção..."
+msgstr "A transmitir a transação..."
 
 #: gui/qt/main_window.py:2879
 msgid "Bump Fee"
@@ -323,7 +323,7 @@ msgstr "Não é possível ler o ficheiro"
 #: gui/qt/network_dialog.py:365
 #, python-format
 msgid "Chain split detected at block %d"
-msgstr "Cadeia dividida detectada no bloco %d"
+msgstr "Cadeia dividida detetada no bloco %d"
 
 #: gui/qt/password_dialog.py:57
 msgid "Change Password"
@@ -331,11 +331,11 @@ msgstr "Mudar senha"
 
 #: gui/kivy/main_window.py:894
 msgid "Changing PIN code."
-msgstr "Alterando o código PIN."
+msgstr "A alterar o código PIN."
 
 #: gui/qt/main_window.py:2825
 msgid "Child Pays for Parent"
-msgstr "Filho paga pelo pai"
+msgstr "Filho paga pelo Pai"
 
 #: gui/qt/history_list.py:176
 msgid "Child pays for parent"
@@ -343,7 +343,7 @@ msgstr "Filho paga pelo pai"
 
 #: gui/qt/installwizard.py:28
 msgid "Choose a password to encrypt your wallet keys."
-msgstr "Escolha uma senha para criptografar as suas chaves da carteira."
+msgstr "Escolha uma palavra-passe para encriptar as chaves da sua carteira."
 
 #: gui/kivy/main_window.py:104
 msgid "Choose a server"
@@ -351,7 +351,7 @@ msgstr "Escolha um servidor"
 
 #: gui/qt/main_window.py:2609
 msgid "Choose coin (UTXO) selection method.  The following are available:\n\n"
-msgstr "Escolha o método de seleção de moeda (UTXO). Estão disponíveis:\n\n"
+msgstr "Escolha o método de seleção de moeda (UTXO). Estão disponíveis os seguintes:\n\n"
 
 #: gui/qt/installwizard.py:536
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
@@ -359,11 +359,11 @@ msgstr "Escolha o número de assinaturas necessárias para desbloquear fundos na
 
 #: gui/qt/main_window.py:2546
 msgid "Choose which online block explorer to use for functions that open a web browser"
-msgstr "Selecione o explorador de blocos online para usar com funções que abram num navegador web"
+msgstr "Selecione qual o explorador de blocos online a usar para funções que abrem um navegador web"
 
 #: gui/kivy/main_window.py:116
 msgid "Choose your chain"
-msgstr "Selecione a sua blockchain"
+msgstr "Selecione a sua cadeia"
 
 #: gui/qt/installwizard.py:153
 msgid "Choose..."
@@ -381,11 +381,11 @@ msgstr "Fechar"
 
 #: gui/qt/main_window.py:147
 msgid "Co&ins"
-msgstr "Bitco&ins"
+msgstr "Mo&edas"
 
 #: gui/qt/main_window.py:2611 gui/kivy/uix/dialogs/settings.py:159
 msgid "Coin selection"
-msgstr "Seleção de bitcoin"
+msgstr "Seleção de moeda"
 
 #: gui/qt/main_window.py:149
 msgid "Con&sole"
@@ -397,19 +397,19 @@ msgstr "Con&tactos"
 
 #: gui/qt/password_dialog.py:83
 msgid "Confirm Passphrase:"
-msgstr "Confirme a frase-passe:"
+msgstr "Confirme Frase-passe:"
 
 #: gui/qt/password_dialog.py:98
 msgid "Confirm Password:"
-msgstr "Confirme a palavra-passe:"
+msgstr "Confirme Palavra-passe:"
 
 #: gui/qt/installwizard.py:367 gui/kivy/uix/dialogs/installwizard.py:777
 msgid "Confirm Seed"
-msgstr "Confirme a Semente"
+msgstr "Confirme Semente"
 
 #: gui/kivy/main_window.py:910
 msgid "Confirm new PIN"
-msgstr "Confirme o novo PIN"
+msgstr "Confirme novo PIN"
 
 #: gui/qt/network_dialog.py:358
 #, python-format
@@ -486,11 +486,11 @@ msgstr "Apagar"
 
 #: gui/qt/main_window.py:1678
 msgid "Delete invoice?"
-msgstr "Apagar a fatura?"
+msgstr "Apagar fatura?"
 
 #: gui/kivy/main_window.py:849
 msgid "Delete wallet?"
-msgstr "Apagar a carteira?"
+msgstr "Apagar carteira?"
 
 #: gui/kivy/uix/dialogs/settings.py:146
 msgid "Denomination"
@@ -504,7 +504,7 @@ msgstr "Descrição"
 
 #: gui/qt/main_window.py:1008
 msgid "Description of the transaction (not mandatory)."
-msgstr "Descrição da transação (opcional)."
+msgstr "Descrição da transação (não obrigatório)."
 
 #: gui/qt/history_list.py:168 gui/qt/invoice_list.py:79
 msgid "Details"
@@ -516,7 +516,7 @@ msgstr "Desligado"
 
 #: gui/qt/main_window.py:1082
 msgid "Display the details of your transactions before signing it."
-msgstr ""
+msgstr "Mostrar os detalhes das suas transações antes de as validar."
 
 #: gui/qt/seed_dialog.py:45
 msgid "Do not store it electronically."
@@ -546,11 +546,11 @@ msgstr "Editar %s"
 
 #: gui/qt/main_window.py:2444
 msgid "Edit fees manually"
-msgstr "Editar as taxas manualmente"
+msgstr "Editar taxas manualmente"
 
 #: gui/kivy/main_window.py:244
 msgid "Electrum App"
-msgstr "App do Electrum"
+msgstr "App Electrum"
 
 #: gui/qt/main_window.py:2763
 msgid "Electrum Plugins"
@@ -558,7 +558,7 @@ msgstr "Plugins do Electrum"
 
 #: gui/qt/installwizard.py:485
 msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "O Electrum comunica com servidores remotos para receber informação sobre as suas transações e endereços. Todos os servidores cumprem o mesmo propósito, apenas diferindo em hardware. Na maioria dos casos vai desejar que o Electrum selecione um servidor aleatoriamente, contudo se tiver uma preferência pode escolher um servidor manualmente."
+msgstr "O Electrum comunica com servidores remotos para receber informação sobre as suas transações e endereços. Todos os servidores cumprem o mesmo propósito, apenas diferindo no hardware. Na maioria dos casos vai desejar que o Electrum selecione um servidor aleatoriamente. No entanto pode selecionar um servidor manualmente se preferir."
 
 #: gui/qt/network_dialog.py:272
 msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
@@ -610,7 +610,7 @@ msgstr "O Electrum não conseguiu produzir uma exportação da transação."
 
 #: gui/qt/main_window.py:532
 msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "O ponto central do Electrum é a velocidade, com baixo uso de recursos e a simplificação do uso de Bitcoins. Não precisa de realizar cópias de segurança regulares porque a sua carteira pode ser recuperada a partir de uma frase secreta que pode memorizar ou escrever num papel. O tempo necessário para o arranque é mínimo porque o Electrum opera em conjunção com servidores de alta-performance que se ocupam das partes mais complicadas do sistema de Bitcoins.\n\n"
+msgstr "O ponto central do Electrum é a velocidade, com baixo uso de recursos e a simplificação da Bitcoin. Não precisa de realizar cópias de segurança regulares porque a sua carteira pode ser recuperada a partir de uma frase secreta que pode memorizar ou escrever num papel. O tempos de arranque são instantâneos porque o Electrum opera em conjunto com servidores de alta-performance que se ocupam das partes mais complicadas do sistema Bitcoin.\n\n"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -622,7 +622,7 @@ msgstr "Encriptar o ficheiro da carteira"
 
 #: gui/qt/main_window.py:1980
 msgid "Encrypt/decrypt Message"
-msgstr "Encriptar/desencriptar mensagem"
+msgstr "Encriptar/desencriptar Mensagem"
 
 #: gui/qt/main_window.py:1998
 msgid "Encrypted"
@@ -638,7 +638,7 @@ msgstr "Digite a palavra-passe"
 
 #: gui/qt/installwizard.py:360 gui/kivy/uix/dialogs/installwizard.py:564
 msgid "Enter Seed"
-msgstr "Introduza a semente"
+msgstr "Digite a Semente"
 
 #: gui/qt/main_window.py:391
 msgid "Enter a filename for the copy of your wallet"
@@ -670,7 +670,7 @@ msgstr "Introduza as chaves privadas:"
 
 #: gui/qt/installwizard.py:349
 msgid "Enter their master private key (xprv) if you want to be able to sign for them."
-msgstr ""
+msgstr "Insira a chave mestra privada (xprv) se quiser poder assinar para eles."
 
 #: gui/kivy/uix/dialogs/wallets.py:59
 msgid "Enter wallet name"
@@ -731,7 +731,7 @@ msgstr "Exportar"
 
 #: gui/qt/main_window.py:2210
 msgid "Export History"
-msgstr "Exportar o histórico"
+msgstr "Exportar Histórico"
 
 #: gui/qt/main_window.py:2108
 msgid "Exposing a single private key can compromise your entire wallet!"
@@ -739,7 +739,7 @@ msgstr "Revelar uma só chave privada pode comprometer toda a sua carteira!"
 
 #: gui/qt/seed_dialog.py:60
 msgid "Extend this seed with custom words"
-msgstr ""
+msgstr "Alargar esta semente com palavras personalizadas"
 
 #: gui/qt/main_window.py:1772
 msgid "Failed to update password"
@@ -771,7 +771,7 @@ msgstr "Ficheiro"
 
 #: gui/qt/main_window.py:2893
 msgid "Final"
-msgstr ""
+msgstr "Final"
 
 #: gui/qt/main_window.py:476
 msgid "Find"
@@ -796,7 +796,7 @@ msgstr "De"
 #: gui/qt/installwizard.py:527
 #, python-format
 msgid "From %d cosigners"
-msgstr "De %d cosignatários"
+msgstr "De %d cossignatários"
 
 #: gui/qt/network_dialog.py:65
 msgid "Height"
@@ -824,11 +824,11 @@ msgstr "Servidor anfitrião"
 
 #: gui/qt/installwizard.py:492
 msgid "How do you want to connect to a server? "
-msgstr "Como deseja ligar a um servidor? "
+msgstr "Como deseja ligar-se a um servidor? "
 
 #: gui/qt/seed_dialog.py:72
 msgid "However, BIP39 seeds do not include a version number, which compromises compatibility with future wallet software."
-msgstr "Contudo, sementes BIP39 não incluem um número de versão, o que compromete a sua compatibilidade com software de carteiras futuro."
+msgstr "Contudo, sementes BIP39 não incluem um número de versão, o que compromete a sua compatibilidade no futuro com software de carteiras."
 
 #: gui/qt/main_window.py:2705
 msgid "Identity"
@@ -836,11 +836,11 @@ msgstr "Identidade"
 
 #: gui/qt/network_dialog.py:296
 msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain."
-msgstr "Se 'ligar automaticamente' estiver ligado, o Electrum tentará sempre utilizar um servidor na blockchain mais longa."
+msgstr "Se 'ligar automaticamente' estiver ligado, o Electrum tentará sempre utilizar um servidor que estiver na blockchain mais longa."
 
 #: gui/qt/network_dialog.py:297
 msgid "If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
-msgstr "Se estiver desativado terá de selecionar um servidor que queira usar. O Electrum avisará caso o seu servidor esteja atrasado."
+msgstr "Se estiver desativado, terá de selecionar um servidor que queira usar. O Electrum vai aviscaso o seu servidor esteja atrasado."
 
 #: gui/qt/main_window.py:2456
 msgid "If the fee is low"
@@ -848,11 +848,11 @@ msgstr "Se a taxa for demasiado baixa"
 
 #: gui/qt/main_window.py:1070
 msgid "If you check this box, your transaction will be marked as non-final,"
-msgstr ""
+msgstr "Se verificar esta caixa, a sua transação será marcada como não-final,"
 
 #: gui/kivy/uix/dialogs/installwizard.py:528
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
-msgstr "Se se esquecer do seu PIN ou perder o seu dispositivo, a sua semente será a única forma de recuperar os seus fundos."
+msgstr "Se se esquecer do seu PIN ou perder o seu dispositivo, a sua frase semente será a única forma de recuperar os seus fundos."
 
 #: gui/qt/installwizard.py:370
 msgid "If you lose your seed, your money will be permanently lost."
@@ -889,7 +889,7 @@ msgstr "Especialmente, NÃO UTILIZE serviços para 'resgatar as chaves privadas 
 
 #: gui/qt/main_window.py:2595
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
-msgstr "Em alguns casos, utiliza até três endereços de troco de forma a dividir grandes quantias de e obfuscar o endereço do destinatário."
+msgstr "Em alguns casos, utiliza até três endereços de troco de forma a dividir grandes quantias de ofuscar o endereço do destinatário."
 
 #: gui/qt/history_list.py:172
 msgid "Increase fee"
@@ -901,7 +901,7 @@ msgstr "Informação"
 
 #: gui/qt/main_window.py:2842
 msgid "Input amount"
-msgstr ""
+msgstr "Introduzir valor"
 
 #: gui/qt/main_window.py:2072
 msgid "Input raw transaction"
@@ -965,7 +965,7 @@ msgstr "Atalho do teclado: pressione \"!\" para enviar todas as suas moedas."
 
 #: plugins/labels/qt.py:30
 msgid "Label Settings"
-msgstr "Definições de Rótulos"
+msgstr "Definições de Etiquetas"
 
 #: gui/qt/main_window.py:2382 gui/kivy/uix/dialogs/settings.py:138
 msgid "Language"
@@ -985,11 +985,11 @@ msgstr "Carregar uma transação"
 
 #: gui/qt/main_window.py:2086
 msgid "Lookup transaction"
-msgstr ""
+msgstr "Consultar transação"
 
 #: gui/qt/main_window.py:376
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Certifique-se de que possui a semente ou as chaves privadas antes de requerer que Bitcoins sejam enviados para esta carteira."
+msgstr "Certifique-se de que possui a frase semente ou as chaves privadas antes de requerer que Bitcoins sejam enviados para esta carteira."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1002,7 +1002,7 @@ msgstr "Chaves Públicas Mestras"
 
 #: gui/qt/main_window.py:1038
 msgid "Max"
-msgstr "Máximo"
+msgstr "Máx"
 
 #: gui/qt/main_window.py:2869
 msgid "Max fee exceeded"
@@ -1010,11 +1010,11 @@ msgstr "Taxa máxima excedida"
 
 #: gui/qt/main_window.py:2437
 msgid "Max static fee"
-msgstr "Taxa estática máxima"
+msgstr "Taxa fixa máxima"
 
 #: gui/qt/main_window.py:2437
 msgid "Max value of the static fee slider"
-msgstr ""
+msgstr "Valor máx da barra de deslizamento da taxa fixa"
 
 #: gui/qt/main_window.py:1661
 msgid "Memo"
@@ -1084,7 +1084,7 @@ msgstr "Próximo"
 
 #: gui/kivy/main_window.py:630
 msgid "No Wallet"
-msgstr "Sem carteira"
+msgstr "Sem Carteira"
 
 #: gui/qt/main_window.py:527
 msgid "No donation address for this server"
@@ -1130,15 +1130,15 @@ msgstr "Note que se tiver congelado alguns dos seus endereços, os fundos dispon
 
 #: gui/qt/main_window.py:1072
 msgid "Note that some merchants do not accept non-final transactions until they are confirmed."
-msgstr ""
+msgstr "Repare que alguns comerciantes não aceitam transações não-finais até que elas estejam confirmadas."
 
 #: gui/kivy/uix/dialogs/__init__.py:93
 msgid "Nothing set !"
-msgstr ""
+msgstr "Nada estabelecido !"
 
 #: gui/qt/main_window.py:2401
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-msgstr "Número de zeros apresentados a seguir ao ponto decimal. Por exemplo, se for definido como 2, \"1.\" será apresentado como \"1.00\""
+msgstr "Número de zeros apresentados a seguir ao ponto decimal. Por exemplo, se isto estiver definido como 2, \"1.\" será apresentado como \"1.00\""
 
 #: gui/qt/installwizard.py:225 gui/qt/installwizard.py:229 gui/qt/util.py:161
 #: gui/qt/util.py:600
@@ -1176,7 +1176,7 @@ msgstr "Opções"
 
 #: gui/qt/main_window.py:2845
 msgid "Output amount"
-msgstr ""
+msgstr "Quantia de saída"
 
 #: gui/qt/transaction_dialog.py:265
 msgid "Outputs"
@@ -1184,7 +1184,7 @@ msgstr "Saídas"
 
 #: gui/qt/network_dialog.py:191
 msgid "Overview"
-msgstr ""
+msgstr "Visão Geral"
 
 #: gui/kivy/uix/dialogs/installwizard.py:816
 msgid "PIN mismatch"
@@ -1233,7 +1233,7 @@ msgstr "Pagar a"
 
 #: gui/qt/main_window.py:1610
 msgid "Pay to many"
-msgstr "Pagar para vários"
+msgstr "Pagar a vários"
 
 #: gui/qt/qrwindow.py:53
 msgid "Payment Request"
@@ -1254,20 +1254,20 @@ msgstr "Pendente"
 
 #: gui/qt/installwizard.py:26
 msgid "Please enter a seed phrase or a master key (xpub or xprv):"
-msgstr "Por favor introduza uma semente ou chave mestra (xpub ou xprv):"
+msgstr "Por favor introduza uma frase semente ou chave mestra (xpub ou xprv):"
 
 #: gui/qt/installwizard.py:24
 msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
-msgstr "Por favor introduza uma semente, uma chave mestra, uma lista de endereços Bitcoin ou uma lista de chaves privadas"
+msgstr "Por favor introduza uma frase semente, uma chave mestra, uma lista de endereços Bitcoin ou uma lista de chaves privadas"
 
 #: gui/qt/installwizard.py:348
 msgid "Please enter the master public key (xpub) of your cosigner."
-msgstr "Por favor introduza a chave pública mestra (xpub) do seu cosignatário."
+msgstr "Por favor introduza a chave pública mestra (xpub) do seu cossignatário."
 
 #: gui/qt/installwizard.py:27
 #, python-format
 msgid "Please enter the master public key of cosigner #%d:"
-msgstr "Por favor introduza a chave pública mestra do seu cosignatário #%d:"
+msgstr "Por favor introduza a chave pública mestra do seu cossignatário #%d:"
 
 #: gui/qt/main_window.py:861 gui/qt/password_dialog.py:197
 msgid "Please enter your password"
@@ -1275,19 +1275,19 @@ msgstr "Por favor, digite a sua palavra-passe"
 
 #: gui/qt/installwizard.py:31
 msgid "Please enter your seed derivation passphrase. Note: this is NOT your encryption password. Leave this field empty if you did not use one or are unsure."
-msgstr "Por favor introduza a sua frase-passe de derivação de semente. Nota: NÃO é a sua palavra-passe de encriptação. Deixe este campo em branco se não tiver usado uma ou não tiver a certeza."
+msgstr "Por favor introduza a sua frase-passe de derivação de semente. Nota: esta NÃO é a sua palavra-passe de encriptação. Deixe este campo em branco se não tiver usado uma ou não tiver a certeza."
 
 #: gui/qt/installwizard.py:361
 msgid "Please enter your seed phrase in order to restore your wallet."
-msgstr "Por favor introduza a sua semente para restaurar a sua carteira."
+msgstr "Por favor introduza a sua frase semente para restaurar a sua carteira."
 
 #: gui/kivy/main_window.py:389
 msgid "Please install the Barcode Scanner app from ZXing"
-msgstr "Por favor instale a app Barcode Scanner de ZXing"
+msgstr "Por favor instale a app Barcode Scanner da ZXing"
 
 #: gui/kivy/uix/dialogs/installwizard.py:790
 msgid "Please paste your cosigners master public key, or scan it using the camera button."
-msgstr "Por favor introduza a chave pública mestra dos cosignatários, ou leia-a tocando no botão da câmara."
+msgstr "Por favor introduza a chave pública mestra dos cossignatários, ou leia-a usando o botão da câmara."
 
 #: gui/qt/main_window.py:537
 msgid "Please report any bugs as issues on github:<br/>"
@@ -1299,7 +1299,7 @@ msgstr "Por favor reinicie o Electrum para ativar as novas definições de GUI"
 
 #: gui/kivy/uix/dialogs/installwizard.py:778
 msgid "Please retype your seed phrase, to confirm that you properly saved it"
-msgstr "Por favor escreva a sua semente de forma a confirmar que a guardou adequadamente"
+msgstr "Por favor reescreva a sua frase semente, para confirmar que a guardou adequadamente"
 
 #: gui/qt/seed_dialog.py:37
 #, python-format
@@ -1308,11 +1308,11 @@ msgstr "Por favor guarde estas %d palavras em papel (a ordem é importante). "
 
 #: gui/qt/installwizard.py:476
 msgid "Please share it with your cosigners."
-msgstr "Por favor partilhe-a com os seus cosignatários."
+msgstr "Por favor partilhe com os seus cossignatários."
 
 #: gui/kivy/uix/dialogs/installwizard.py:563
 msgid "Please type your seed phrase using the virtual keyboard."
-msgstr "Por favor escreva a sua semente usando o teclado virtual."
+msgstr "Por favor escreva a sua frase semente usando o teclado virtual."
 
 #: gui/qt/util.py:230
 msgid "Please wait"
@@ -1333,7 +1333,7 @@ msgstr "Preferências"
 
 #: gui/qt/installwizard.py:187
 msgid "Press 'Next' to create this wallet, or choose another file."
-msgstr "Clique em \"Próximo\" para criar esta carteira ou selecione outro ficheiro."
+msgstr "Clique em \"Próximo\" para criar esta carteira, ou selecione outro ficheiro."
 
 #: gui/qt/installwizard.py:193
 msgid "Press 'Next' to open this wallet."
@@ -1365,7 +1365,7 @@ msgstr "Continuar?"
 
 #: gui/qt/main_window.py:2454
 msgid "Propose Replace-By-Fee"
-msgstr "Propor Substituição de Taxa"
+msgstr "Propor Substituição-Por-Taxa"
 
 #: gui/qt/network_dialog.py:192
 msgid "Proxy"
@@ -1393,7 +1393,7 @@ msgstr "Código QR copiado para a área de transferência"
 
 #: gui/qt/qrcodewidget.py:108
 msgid "QR code saved to file"
-msgstr "Código QR guardado para um ficheiro"
+msgstr "Código QR guardado para ficheiro"
 
 #: gui/qt/qrtextedit.py:38 gui/qt/qrtextedit.py:63
 msgid "Read QR code"
@@ -1417,11 +1417,11 @@ msgstr "Destinatário dos fundos."
 
 #: gui/qt/installwizard.py:403
 msgid "Recovery successful"
-msgstr "A recuperação foi bem sucedida"
+msgstr "Recuperação bem sucedida"
 
 #: gui/qt/address_dialog.py:74
 msgid "Redeem Script"
-msgstr ""
+msgstr "Resgatar Script"
 
 #: gui/qt/main_window.py:1224
 msgid "Remove"
@@ -1438,7 +1438,7 @@ msgstr "Substituível"
 
 #: gui/qt/main_window.py:542
 msgid "Reporting Bugs"
-msgstr "Relatar falhas"
+msgstr "A relatar Bugs"
 
 #: gui/qt/main_window.py:782
 msgid "Request expires"
@@ -1488,7 +1488,7 @@ msgstr "Guardar como ficheiro BIP70"
 
 #: gui/qt/main_window.py:1670
 msgid "Save invoice to file"
-msgstr "Guardar fatura como ficheiro"
+msgstr "Guardar fatura para ficheiro"
 
 #: gui/qt/main_window.py:1743 gui/qt/seed_dialog.py:179
 #: gui/kivy/main_window.py:888
@@ -1501,23 +1501,23 @@ msgstr "Tipo de Semente"
 
 #: gui/qt/main_window.py:2117
 msgid "Select file to export your private keys to"
-msgstr "Selecione um ficheiro para o qual serão exportadas as suas chaves privadas"
+msgstr "Selecione um ficheiro para onde sexportar as suas chaves privadas"
 
 #: gui/qt/main_window.py:2214
 msgid "Select file to export your wallet transactions to"
-msgstr "Selecione um ficheiro para o qual serão exportadas as transações da sua carteira"
+msgstr "Selecione um ficheiro para onde exportar as transações da sua carteira"
 
 #: gui/qt/main_window.py:2200
 msgid "Select file to save your labels"
-msgstr "Selecione um ficheiro para guardar os seus rótulos"
+msgstr "Selecione um ficheiro para guardar as suas etiquetas"
 
 #: gui/qt/network_dialog.py:204
 msgid "Select server automatically"
-msgstr "Selecionar o servidor automaticamente"
+msgstr "Selecionar servidor automaticamente"
 
 #: gui/qt/installwizard.py:491
 msgid "Select server manually"
-msgstr "Selecionar um servidor manualmente"
+msgstr "Selecionar servidor manualmente"
 
 #: gui/qt/main_window.py:907
 msgid "Select where to save your payment request"
@@ -1529,7 +1529,7 @@ msgstr "Selecione onde deseja guardar a sua transação assinada"
 
 #: gui/qt/main_window.py:2381
 msgid "Select which language is used in the GUI (after restart)."
-msgstr "Selecione que língua deve ser utilizada na interface gráfica (após reiniciar)."
+msgstr "Selecione qual o idioma que é usado na interface gráfica (após reiniciar)."
 
 #: gui/qt/main_window.py:2060
 msgid "Select your transaction file"
@@ -1551,12 +1551,12 @@ msgstr "Servidor"
 #: gui/qt/main_window.py:683
 #, python-format
 msgid "Server is lagging (%d blocks)"
-msgstr "O servidor está atrasado (%d blocos)"
+msgstr "O servidor está a atrasar (%d blocos)"
 
 #: gui/kivy/main_window.py:640
 #, python-format
 msgid "Server lagging (%d blocks)"
-msgstr "O servidor está atrasado (%d blocos)"
+msgstr "O servidor atrasado (%d blocos)"
 
 #: gui/qt/network_dialog.py:217
 msgid "Server peers"
@@ -1581,15 +1581,15 @@ msgstr "Mostrar como Código QR"
 
 #: gui/qt/main_window.py:2446
 msgid "Show fee edit box in send tab."
-msgstr "Mostrar o campo de edição de taxa na aba Enviar."
+msgstr "Mostrar campo de edição de taxa no separador enviar."
 
 #: gui/qt/main_window.py:2697
 msgid "Show history rates"
-msgstr ""
+msgstr "Mostrar histórico de preços"
 
 #: gui/qt/__init__.py:107
 msgid "Show/Hide"
-msgstr ""
+msgstr "Mostrar/Esconder"
 
 #: gui/qt/main_window.py:1947 gui/qt/transaction_dialog.py:97
 msgid "Sign"
@@ -1597,7 +1597,7 @@ msgstr "Assinar"
 
 #: gui/qt/main_window.py:1925
 msgid "Sign/verify Message"
-msgstr ""
+msgstr "Assinar/verificar Mensagem"
 
 #: gui/qt/main_window.py:1663 gui/qt/main_window.py:1941
 msgid "Signature"
@@ -1609,32 +1609,32 @@ msgstr "Assinatura verificada"
 
 #: gui/qt/main_window.py:1406
 msgid "Signing transaction..."
-msgstr ""
+msgstr "A assinar transação..."
 
 #: gui/qt/transaction_dialog.py:209
 msgid "Size:"
-msgstr ""
+msgstr "Tamanho:"
 
 #: gui/qt/main_window.py:2698
 msgid "Source"
-msgstr ""
+msgstr "Fonte"
 
 #: gui/qt/main_window.py:2625
 msgid "Spend only confirmed coins"
-msgstr ""
+msgstr "Gastar apenas moedas confirmadas"
 
 #: gui/qt/main_window.py:2626
 msgid "Spend only confirmed inputs."
-msgstr ""
+msgstr "Gastar apenas entradas confirmadas."
 
 #: gui/qt/invoice_list.py:36 gui/qt/request_list.py:41
 #: gui/qt/network_dialog.py:276
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: gui/qt/transaction_dialog.py:191
 msgid "Status:"
-msgstr ""
+msgstr "Estado:"
 
 #: gui/qt/main_window.py:1775 gui/qt/main_window.py:2736
 msgid "Success"
@@ -1642,11 +1642,11 @@ msgstr "Concluído"
 
 #: gui/qt/main_window.py:2300
 msgid "Sweep"
-msgstr ""
+msgstr "Varrer"
 
 #: gui/qt/main_window.py:2285
 msgid "Sweep private keys"
-msgstr ""
+msgstr "Varrer chaves privadas"
 
 #: gui/qt/main_window.py:680 gui/kivy/main_window.py:638
 msgid "Synchronizing..."
@@ -1655,7 +1655,8 @@ msgstr "A sincronizar..."
 #: gui/kivy/main_window.py:709
 msgid "Text copied to clipboard.\n"
 "Tap again to display it as QR code."
-msgstr ""
+msgstr "Texto copiado para área de transferência.\n"
+"Toque novamente para mostrar como código QR."
 
 #: gui/qt/main_window.py:1046
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
@@ -1663,29 +1664,30 @@ msgstr "O valor da taxa pode ser decidido livremente pelo remetente. Contudo, tr
 
 #: gui/qt/main_window.py:1024
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
-msgstr ""
+msgstr "O valor será mostrado a vermelho se não tiver fundos suficientes na sua carteira."
 
 #: gui/qt/main_window.py:780
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr ""
+msgstr "O endereço bictoin nunca expira e será sempre parte desta carteira electrum."
 
 #: gui/qt/main_window.py:1009
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
-msgstr "A descrição não é enviada para o destinatário dos fundos. É guardada no ficheiro da sua carteira e apresentada na aba 'Histórico'."
+msgstr "A descrição não é enviada para o destinatário dos fundos. É guardada no ficheiro da sua carteira, e apresentada no separador \"Histórico\"."
 
 #: gui/qt/main_window.py:1365
 msgid "The fee for this transaction seems unusually high."
-msgstr ""
+msgstr "A taxa para esta transação parece extraordinariamente alta."
 
 #: gui/qt/installwizard.py:259
 #, python-format
 msgid "The file '%s' contains an incompletely created wallet.\n"
 "Do you want to complete its creation now?"
-msgstr ""
+msgstr "O separador '%s' contém uma carteira incompleta.\n"
+"Quer completar a sua criação agora?"
 
 #: gui/qt/installwizard.py:243 gui/qt/installwizard.py:264
 msgid "The file was removed"
-msgstr ""
+msgstr "O ficheiro foi removido"
 
 #: gui/qt/main_window.py:2343
 msgid "The following addresses were added"
@@ -1693,7 +1695,7 @@ msgstr "Os seguintes endereços foram adicionados"
 
 #: gui/qt/main_window.py:2464
 msgid "The following alias providers are available:"
-msgstr ""
+msgstr "Estão disponíveis os seguintes fornecedores de pseudónimos:"
 
 #: gui/qt/main_window.py:2345
 msgid "The following inputs could not be imported"
@@ -1702,73 +1704,74 @@ msgstr "Não foi possível importar as seguintes entradas"
 #: gui/qt/installwizard.py:248
 #, python-format
 msgid "The format of your wallet '%s' must be upgraded for Electrum. This change will not be backward compatible"
-msgstr ""
+msgstr "O formato da sua carteira '%s' tem de ser atualizado para Electrum. Esta alteração não será retro-compatível"
 
 #: gui/qt/installwizard.py:235
 #, python-format
 msgid "The wallet '%s' contains multiple accounts, which are no longer supported in Electrum 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
-msgstr ""
+msgstr "A carteira '%s' contém contas múltiplas, as quais deixaram de ser suportados no Electrum 2.7.\n\n"
+"Quer dividir a sua carteira em múltiplos ficheiros?"
 
 #: gui/qt/network_dialog.py:273
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
-msgstr ""
+msgstr "Esta blockchain é utilizada para verificar as transações enviadas pelo seu servidor de transações."
 
 #: gui/qt/installwizard.py:186
 msgid "This file does not exist."
-msgstr ""
+msgstr "Este ficheiro não existe."
 
 #: gui/qt/installwizard.py:190
 msgid "This file is encrypted."
-msgstr ""
+msgstr "Este ficheiro está encriptado."
 
 #: gui/qt/main_window.py:778
 msgid "This information is seen by the recipient if you send them a signed payment request."
-msgstr ""
+msgstr "Esta informação é vista pelo destinatário se lhe enviar um pedido de pagamento assinado."
 
 #: gui/qt/main_window.py:2100
 msgid "This is a watching-only wallet"
-msgstr "Esta é um carteira só de leitura"
+msgstr "Esta é uma carteira de apenas-visualização"
 
 #: gui/qt/network_dialog.py:287
 msgid "This is the height of your local copy of the blockchain."
-msgstr ""
+msgstr "Esta é a altura da sua cópia local do blockchain."
 
 #: gui/qt/main_window.py:2597
 msgid "This may result in higher transactions fees."
-msgstr ""
+msgstr "Isto poderá resultar em taxas de transação mais altas."
 
 #: gui/qt/main_window.py:375
 msgid "This means you will not be able to spend Bitcoins with it."
-msgstr ""
+msgstr "Isto significa que não poderá gastar Bitcoins com ela."
 
 #: gui/qt/main_window.py:861
 msgid "This payment request will be signed."
-msgstr ""
+msgstr "Este pedido de pagamento será assinado."
 
 #: gui/qt/seed_dialog.py:38
 msgid "This seed will allow you to recover your wallet in case of computer failure."
-msgstr "Esta semente vai-lhe permitir recuperar a sua carteira no caso de haver uma falha no computador."
+msgstr "Esta semente vai permitir-lhe recuperar a sua carteira em caso de falha do computador."
 
 #: gui/qt/transaction_dialog.py:141
 msgid "This transaction is not saved. Close anyway?"
-msgstr ""
+msgstr "Esta transação não foi guardada. Fechar na mesma?"
 
 #: gui/qt/main_window.py:1345
 msgid "This transaction requires a higher fee, or it will not be propagated by the network"
-msgstr "Esta transação requer uma taxa mais elevada, caso contrário não será propagada pela rede"
+msgstr "Esta transação requer uma taxa mais alta, ou não será propagada pela rede"
 
 #: gui/qt/main_window.py:1838
 msgid "This wallet has no seed"
-msgstr ""
+msgstr "Esta carteira não tem semente"
 
 #: gui/qt/main_window.py:374
 msgid "This wallet is watching-only."
-msgstr ""
+msgstr "Esta carteira é apenas-visualização."
 
 #: gui/qt/installwizard.py:412
 msgid "This wallet was restored offline. It may contain more addresses than displayed."
-msgstr "Esta carteira foi restaurada offline. Pode conter mais endereços do que aqueles que são apresentados."
+msgstr "Esta carteira foi restaurada offline. Pode conter mais endereços do que os apresentados."
 
 #: gui/qt/installwizard.py:371
 msgid "To make sure that you have properly saved your seed, please retype it here."
@@ -1804,31 +1807,31 @@ msgstr "Transação:"
 
 #: gui/qt/main_window.py:2702
 msgid "Transactions"
-msgstr ""
+msgstr "Transações"
 
 #: gui/qt/main_window.py:540
 msgid "Try to explain not only what the bug is, but how it occurs."
-msgstr ""
+msgstr "Tente explicar não só qual é o bug, mas também como ocorre."
 
 #: gui/qt/main_window.py:401
 msgid "Unable to create backup"
-msgstr ""
+msgstr "Incapaz de criar cópia de segurança"
 
 #: gui/qt/main_window.py:2161
 msgid "Unable to create csv"
-msgstr "Não foi possível criar csv"
+msgstr "Incapaz de criar csv"
 
 #: gui/qt/main_window.py:2231
 msgid "Unable to export history"
-msgstr ""
+msgstr "Incapaz de exportar histórico"
 
 #: gui/qt/main_window.py:2067
 msgid "Unable to read file or no transaction found"
-msgstr "Não foi possível ler o ficheiro ou nenhuma transação foi encontrada"
+msgstr "Incapaz de ler ficheiro ou nenhuma transação encontrada"
 
 #: gui/qt/transaction_dialog.py:185
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: gui/qt/network_dialog.py:203
 msgid "Use SSL"
@@ -1836,7 +1839,7 @@ msgstr "Usar SSL"
 
 #: gui/qt/network_dialog.py:255
 msgid "Use Tor Proxy"
-msgstr "Usar Proxy Tor"
+msgstr "Usar Proxy TOR"
 
 #: gui/qt/network_dialog.py:77 gui/qt/network_dialog.py:140
 msgid "Use as server"
@@ -1852,7 +1855,7 @@ msgstr "Usar taxas dinâmicas"
 
 #: gui/qt/main_window.py:2425
 msgid "Use fees recommended by the server."
-msgstr "Usar as taxas recomendadas pelo servidor."
+msgstr "Usar taxas recomendadas pelo servidor."
 
 #: gui/qt/main_window.py:2592
 msgid "Use multiple change addresses"
@@ -1860,27 +1863,27 @@ msgstr "Utilizar múltiplos endereços de troco"
 
 #: gui/qt/main_window.py:2493
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
-msgstr ""
+msgstr "Use setconfig para definir ssl_chain e ssl_privkey."
 
 #: gui/kivy/uix/dialogs/installwizard.py:785
 msgid "Use the camera button to scan a QR code."
-msgstr ""
+msgstr "Use o botão da câmara para ler um código QR."
 
 #: gui/qt/password_dialog.py:172
 msgid "Use this dialog to add a password to your wallet."
-msgstr ""
+msgstr "Use este diálogo para adicionar uma palavra-passe à sua carteira."
 
 #: gui/qt/password_dialog.py:178
 msgid "Use this dialog to change your password."
-msgstr ""
+msgstr "Use este diálogo para alterar a sua palavra-passe."
 
 #: gui/qt/main_window.py:533
 msgid "Uses icons from the Icons8 icon pack (icons8.com)."
-msgstr ""
+msgstr "Usa ícones do conjunto Icons8 (icons8.com)."
 
 #: gui/qt/main_window.py:2583
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
-msgstr "Utilizar endereços de troco faz com que seja mais difícil para outras pessoas seguir as suas transações."
+msgstr "Utilizar endereços de troco faz com que seja mais difícil para outras pessoas rastrear as suas transações."
 
 #: gui/qt/main_window.py:1951
 msgid "Verify"
@@ -1892,111 +1895,113 @@ msgstr "Versão"
 
 #: gui/qt/main_window.py:2567
 msgid "Video Device"
-msgstr ""
+msgstr "Dispositivo de Vídeo"
 
 #: gui/qt/history_list.py:178
 msgid "View invoice"
-msgstr ""
+msgstr "Ver Fatura"
 
 #: gui/qt/history_list.py:180 gui/qt/contact_list.py:82
 msgid "View on block explorer"
-msgstr ""
+msgstr "Ver no explorador de blocos"
 
 #: gui/qt/seed_dialog.py:41
 msgid "WARNING"
-msgstr "ATENÇÃO"
+msgstr "AVISO"
 
 #: gui/qt/main_window.py:2107
 msgid "WARNING: ALL your private keys are secret."
-msgstr "ATENÇÃO: TODAS as suas chaves privadas são secretas."
+msgstr "AVISO: TODAS as suas chaves privadas são secretas."
 
 #: gui/qt/main_window.py:1292
 #, python-format
 msgid "WARNING: the alias \"%s\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
-msgstr ""
+msgstr "AVISO: o pseudónimo \"%s\" não pode ser validado via verificação adicional de segurança, DNSSEC, e como tal pode não estar correto."
 
 #: gui/qt/main_window.py:1162
 msgid "Waiting for fee estimates..."
-msgstr ""
+msgstr "A aguardar por estimativas de taxas..."
 
 #: gui/qt/installwizard.py:150
 msgid "Wallet"
-msgstr ""
+msgstr "Carteira"
 
 #: gui/qt/main_window.py:399
 msgid "Wallet backup created"
-msgstr ""
+msgstr "Cópia de segurança da carteira criada"
 
 #: gui/qt/transaction_dialog.py:229
 msgid "Wallet change address"
-msgstr ""
+msgstr "Endereço de troco da carteira"
 
 #: gui/qt/transaction_dialog.py:226
 msgid "Wallet receive address"
-msgstr ""
+msgstr "Endereço de recebimento da carteira"
 
 #: gui/qt/main_window.py:1365 gui/qt/util.py:191 gui/qt/seed_dialog.py:70
 #: gui/qt/transaction_dialog.py:141
 msgid "Warning"
-msgstr "Atenção"
+msgstr "Aviso"
 
 #: gui/qt/main_window.py:926
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
-msgstr ""
+msgstr "Aviso: O endereço seguinte não será recuperado automaticamente se restaurar a sua carteira a partir da semente; pode ter que o adicionar manualmente.\n\n"
+"Isto ocorre porque você tem demasiados endereços não usados na sua carteira. Para evitar esta situação, use primeiro os endereços existentes.\n\n"
+"Ainda assim criar?"
 
 #: gui/qt/seed_dialog.py:74
 msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
-msgstr ""
+msgstr "Não garantimos que importações BIP39 sejam sempre suportados no Electrum."
 
 #: gui/qt/main_window.py:1921
 msgid "Wrong signature"
-msgstr ""
+msgstr "Assinatura errada"
 
 #: gui/qt/network_dialog.py:366
 msgid "You are following branch"
-msgstr ""
+msgstr "Está a seguir ramo"
 
 #: gui/qt/__init__.py:145
 msgid "You are using Electrum in offline mode; restart Electrum if you want to get connected"
-msgstr ""
+msgstr "Está a usar o Electrum em modo desligado; reinicie o Electrum se quiser ficar ligado"
 
 #: gui/qt/main_window.py:921
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
-msgstr ""
+msgstr "Está a usar uma carteira não-determinística, que não permite a criação de novos endereços."
 
 #: gui/qt/main_window.py:998
 msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Pode introduzir um endereço Bitcoin, um rótulo das sua lista de contactos (uma lista de terminações será proposta), ou um alias (um endereço tipo email que redireciona para um endereço de Bitcoin)"
+msgstr "Pode introduzir um endereço Bitcoin, uma etiqueta da sua lista de contactos (uma lista de terminações será proposta), ou um pseudónimo (um endereço tipo email que redireciona para um endereço Bitcoin)"
 
 #: gui/qt/main_window.py:1608
 msgid "You may load a CSV file using the file icon."
-msgstr ""
+msgstr "Pode carregar um ficheiro CSV usando o ícone de ficheiro."
 
 #: gui/qt/installwizard.py:240
 msgid "Your accounts have been moved to"
-msgstr ""
+msgstr "As suas contas foram movidas para"
 
 #: gui/qt/password_dialog.py:175
 msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr ""
+msgstr "As suas bitcoins estão protegidas por palavra-passe. No entanto, a sua carteira não está encriptada."
 
 #: plugins/labels/qt.py:53
 msgid "Your labels have been synchronised."
-msgstr ""
+msgstr "As suas etiquetas foram sincronizadas."
 
 #: gui/qt/main_window.py:2204
 msgid "Your labels were exported to"
-msgstr ""
+msgstr "As suas etiquetas foram exportadas para"
 
 #: gui/qt/main_window.py:2191
 msgid "Your labels were imported from"
-msgstr "Os seus rótulos foram importados de"
+msgstr "As suas etiquetas foram importadas de"
 
 #: gui/qt/seed_dialog.py:128
 msgid "Your seed extension is"
-msgstr ""
+msgstr "A extensão da sua semente é"
 
 #: gui/qt/installwizard.py:369
 msgid "Your seed is important!"
@@ -2004,35 +2009,35 @@ msgstr "A sua semente é importante!"
 
 #: gui/qt/network_dialog.py:366
 msgid "Your server is on branch"
-msgstr ""
+msgstr "O seu servidor está no ramo"
 
 #: gui/qt/installwizard.py:378 gui/qt/seed_dialog.py:182
 msgid "Your wallet generation seed is:"
-msgstr ""
+msgstr "A semente de geração da sua carteira é:"
 
 #: gui/qt/main_window.py:2233
 msgid "Your wallet history has been successfully exported."
-msgstr ""
+msgstr "O histórico da sua carteira foi exportado com sucesso."
 
 #: gui/qt/password_dialog.py:171
 msgid "Your wallet is not protected."
-msgstr ""
+msgstr "A sua carteira não está protegida."
 
 #: gui/qt/password_dialog.py:177
 msgid "Your wallet is password protected and encrypted."
-msgstr ""
+msgstr "A sua carteira está encriptada e protegida com palavra-passe."
 
 #: gui/qt/installwizard.py:252
 msgid "Your wallet was upgraded successfully"
-msgstr ""
+msgstr "A sua carteira foi atualizada com sucesso"
 
 #: gui/qt/main_window.py:2402
 msgid "Zeros after decimal point"
-msgstr ""
+msgstr "Zeros depois do ponto decimal"
 
 #: gui/qt/main_window.py:1071
 msgid "and you will have the possiblity, while it is unconfirmed, to replace it with a transaction that pays a higher fee."
-msgstr ""
+msgstr "e terá a possibilidade, enquanto não estiver confirmado, de a substituir por uma transação que paga uma taxa mais alta."
 
 #: gui/qt/main_window.py:1109
 msgid "are frozen"
@@ -2040,11 +2045,11 @@ msgstr "estão congelados"
 
 #: gui/qt/network_dialog.py:355 gui/qt/network_dialog.py:367
 msgid "blocks"
-msgstr ""
+msgstr "blocos"
 
 #: gui/qt/main_window.py:1822
 msgid "cosigner"
-msgstr ""
+msgstr "cossignatário"
 
 #: gui/qt/main_window.py:1585
 msgid "from your wallet?"
@@ -2056,7 +2061,7 @@ msgstr "json"
 
 #: gui/kivy/uix/dialogs/fee_dialog.py:95
 msgid "low fee"
-msgstr ""
+msgstr "taxa baixa"
 
 #: gui/qt/main_window.py:1467
 msgid "please wait..."
@@ -2064,7 +2069,7 @@ msgstr "Por favor, aguarde…"
 
 #: gui/qt/main_window.py:2255
 msgid "unconfirmed"
-msgstr ""
+msgstr "não confirmado"
 
 #: gui/qt/transaction_dialog.py:210 gui/qt/transaction_dialog.py:258
 msgid "unknown"
@@ -2072,13 +2077,13 @@ msgstr "desconhecido"
 
 #: gui/qt/transaction_dialog.py:198
 msgid "unknown (low fee)"
-msgstr ""
+msgstr "não confirmado (taxa baixa)"
 
 #: gui/qt/main_window.py:2253
 msgid "unverified"
-msgstr ""
+msgstr "não verificado"
 
 #: gui/qt/main_window.py:363
 msgid "watching only"
-msgstr "só de leitura"
+msgstr "apenas visualização"
 
