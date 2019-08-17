@@ -507,7 +507,7 @@ msgstr "Voltar"
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:52
 #: electrum/gui/kivy/uix/ui_screens/status.kv:33 electrum/gui/kivy/main.kv:392
 msgid "Balance"
-msgstr "Balanço"
+msgstr "Saldo"
 
 #: electrum/gui/text.py:71
 msgid "Banner"
@@ -594,7 +594,7 @@ msgstr "Aumentar comissão"
 
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:173
 msgid "Bump fee"
-msgstr ""
+msgstr "Aumentar comissão"
 
 #: electrum/gui/qt/util.py:405
 msgid "CSV"
@@ -610,7 +610,7 @@ msgstr "Valores da calibraçao:"
 
 #: electrum/gui/qt/main_window.py:3347
 msgid "Can't CPFP: unknown fee for parent transaction."
-msgstr ""
+msgstr "CPFP não foi possível: taxa desconhecida para transação pai."
 
 #: electrum/gui/qt/main_window.py:3424
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:210
@@ -843,7 +843,7 @@ msgstr "Seleção de moedas"
 
 #: electrum/plugins/coldcard/qt.py:98
 msgid "Coldcard Status"
-msgstr ""
+msgstr "Status do Coldcard"
 
 #: electrum/plugins/coldcard/__init__.py:6
 msgid "Coldcard Wallet"
@@ -1070,7 +1070,7 @@ msgstr "Relatório de falhas"
 
 #: electrum/plugins/revealer/qt.py:115
 msgid "Create a new Revealer"
-msgstr ""
+msgstr "Criar um novo Revealer"
 
 #: electrum/plugins/trustedcoin/trustedcoin.py:534 electrum/base_wizard.py:187
 msgid "Create a new seed"
@@ -1098,7 +1098,7 @@ msgstr "Erro Crítico"
 
 #: electrum/gui/qt/main_window.py:3432
 msgid "Current Fee"
-msgstr ""
+msgstr "Taxa atual"
 
 #: electrum/gui/qt/main_window.py:3433
 msgid "Current Fee rate"
@@ -1152,7 +1152,7 @@ msgstr "Data: {}"
 
 #: electrum/gui/qt/main_window.py:3040
 msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
-msgstr ""
+msgstr "Debug logs pode ser armazenado no disco. Isto é utíl para resolver problemas."
 
 #: electrum/base_wizard.py:310
 msgid "Debug message"
@@ -1279,7 +1279,7 @@ msgstr "Distribuído por Electrum Technologies GmbH"
 
 #: electrum/gui/qt/exception_window.py:74
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
-msgstr ""
+msgstr "Não insira informações confidenciais / privadas aqui. O relatório será visível no rastreador de problemas público."
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Do not pair"
@@ -1351,7 +1351,7 @@ msgstr "Tempo Estimado"
 
 #: electrum/plugins/revealer/qt.py:133
 msgid "Each revealer should be used only once."
-msgstr ""
+msgstr "Cada revealer deve ser usado somente uma vez."
 
 #: electrum/gui/qt/main_window.py:2878
 msgid "Edit fees manually"
@@ -1470,7 +1470,7 @@ msgstr "Encriptar"
 
 #: electrum/plugins/revealer/qt.py:269
 msgid "Encrypt custom secret"
-msgstr ""
+msgstr "Criptografar segredo personalizado"
 
 #: electrum/gui/qt/password_dialog.py:125
 #: electrum/gui/qt/password_dialog.py:207
@@ -1479,7 +1479,7 @@ msgstr "Criptografar o arquivo da carteira"
 
 #: electrum/plugins/revealer/qt.py:250
 msgid "Encrypt {}'s seed"
-msgstr ""
+msgstr "Criptografar {} da semente"
 
 #: electrum/gui/qt/main_window.py:2453
 msgid "Encrypt/decrypt Message"
@@ -1732,7 +1732,7 @@ msgstr "Erro ao decriptar mensagem"
 
 #: electrum/plugins/trustedcoin/qt.py:134
 msgid "Error getting TrustedCoin account info."
-msgstr ""
+msgstr "Erro para obter informações de conta TrustedCoin"
 
 #: electrum/gui/qt/main_window.py:2566
 msgid "Error getting transaction from network"
@@ -1926,7 +1926,7 @@ msgstr "Versão do firmware (ou aplicativo \"Bitcoin\") muito antiga para suport
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
-msgstr ""
+msgstr "Versão do firmware muito antiga."
 
 #: electrum/plugins/ledger/ledger.py:37
 msgid "Firmware version too old. Please update at"
@@ -1948,7 +1948,7 @@ msgstr "Para mais informações, visite"
 
 #: electrum/gui/qt/main_window.py:242
 msgid "For security reasons we advise that you always use the latest version of Electrum."
-msgstr ""
+msgstr "Por razões de segurança nós aconselhamos que você use a última versão da Electrum."
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:53
 msgid "Fork detected at block {}"
@@ -2029,11 +2029,14 @@ msgid "GreenAddress requires your signature \n"
 "to verify that transaction is instant.\n"
 "Please enter your password to sign a\n"
 "verification request."
-msgstr ""
+msgstr "GreenAddress requer sua assinatura \n "
+"para verificar se a transação é instantânea.\n"
+"Por favor digite sua senha para assinar um\n"
+"pedido de verificação."
 
 #: electrum/plugin.py:449
 msgid "Handler not found for"
-msgstr ""
+msgstr "Manipulador não encontrado para"
 
 #: electrum/base_wizard.py:250
 msgid "Hardware Keystore"
@@ -2096,7 +2099,7 @@ msgstr "Como você deseja se conectar a um servidor? "
 
 #: electrum/plugins/cosigner_pool/qt.py:207
 msgid "However, hardware wallets do not support message decryption, which makes them not compatible with the current design of cosigner pool."
-msgstr ""
+msgstr "No entanto, as carteiras de hardware não suportam a descriptografia de mensagens, o que as torna incompatíveis com o design atual do pool de cossignatários."
 
 #: electrum/gui/qt/seed_dialog.py:75
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
@@ -2158,7 +2161,7 @@ msgstr "Se você não sabe do que se trata, deixe este campo em branco."
 #: electrum/plugins/trezor/qt.py:34 electrum/plugins/keepkey/qt.py:34
 #: electrum/plugins/safe_t/qt.py:34
 msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr ""
+msgstr "Se você esquecer uma frase secreta, não poderá acessar nenhum bitcoin na carteira por trás dela. Uma senha não é um PIN. Apenas mude isso se tiver certeza de que está fazendo."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:826
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
@@ -2166,7 +2169,7 @@ msgstr "Se você esquecer seu PIN ou perder seu dispositivo, sua frase de sement
 
 #: electrum/plugins/revealer/qt.py:727
 msgid "If you have an old printer, or want optimal precision"
-msgstr ""
+msgstr "Se você tem uma impressora antiga ou deseja precisão ideal"
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:679
 msgid "If you have lost your Google Authenticator account, you can request a new secret. You will need to retype your seed."
@@ -2174,11 +2177,11 @@ msgstr "Se você perder seu conta do Google Authenticator, você pode requisitar
 
 #: electrum/plugins/trustedcoin/qt.py:116
 msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
-msgstr ""
+msgstr "Se você perdeu seu segundo fator, precisa restaurar sua carteira a partir da semente para solicitar um novo código."
 
 #: electrum/plugins/trustedcoin/qt.py:136
 msgid "If you keep experiencing network problems, try using a Tor proxy."
-msgstr ""
+msgstr "Se você continuar tendo problemas de rede, tente usar um proxy Tor."
 
 #: electrum/gui/qt/installwizard.py:432
 msgid "If you lose your seed, your money will be permanently lost."
@@ -2186,7 +2189,7 @@ msgstr "Se você perder sua semente, seu dinheiro será perdido permanentemente.
 
 #: electrum/gui/qt/installwizard.py:276
 msgid "If you use a passphrase, make sure it is correct."
-msgstr ""
+msgstr "Se você usar uma frase secreta, verifique se ela está correta."
 
 #: electrum/gui/qt/main_window.py:1086
 msgid "If you want to create new addresses, use a deterministic wallet instead."
@@ -2194,15 +2197,15 @@ msgstr "Se você deseja criar novos endereços, use uma carteira determinista."
 
 #: electrum/base_wizard.py:304
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
-msgstr ""
+msgstr "Se o seu dispositivo não for detectado no Windows, vá para \"Configurações\", \"Dispositivos\", \"Dispositivos conectados\" e clique em \"Remover dispositivo\". Em seguida, conecte seu dispositivo novamente."
 
 #: electrum/gui/qt/main_window.py:2267
 msgid "If your wallet contains funds, make sure you have saved its seed."
-msgstr ""
+msgstr "Se a sua carteira contiver fundos, verifique se salvou suas sementes."
 
 #: electrum/plugins/hw_wallet/plugin.py:178
 msgid "Ignore and continue?"
-msgstr ""
+msgstr "Ignorar e continuar?"
 
 #: electrum/gui/qt/main_window.py:591 electrum/gui/qt/main_window.py:594
 #: electrum/gui/qt/main_window.py:2768
@@ -2227,7 +2230,7 @@ msgstr "Importar arquivo"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:297
 msgid "Import pairing from the Digital Bitbox desktop app"
-msgstr ""
+msgstr "Importar o pareamento do Digital Bitbox desktop app"
 
 #: electrum/gui/qt/main_window.py:2796
 msgid "Import private keys"
@@ -2241,7 +2244,9 @@ msgstr "Especialmente, NÃO UTILIZE serviços para 'resgatar as chaves privadas 
 msgid "In seedless mode, the mnemonic seed words are never shown to the user.\n"
 "There is no backup, and the user has a proof of this.\n"
 "This is an advanced feature, only suggested to be used in redundant multisig setups."
-msgstr ""
+msgstr "No modo sem sementes, as palavras-semente mnemônicas nunca são mostradas ao usuário.\n"
+"Não há backup e o usuário tem uma prova disso.\n"
+"Este é um recurso avançado, sugerido apenas para ser usado em configurações redundantes de vários usuários."
 
 #: electrum/gui/qt/main_window.py:3065
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
@@ -2253,7 +2258,7 @@ msgstr "No próximo bloco"
 
 #: electrum/gui/qt/transaction_dialog.py:262
 msgid "Included in block: {}"
-msgstr ""
+msgstr "Incluído no bloco: {}"
 
 #: electrum/gui/qt/history_list.py:498
 msgid "Income"
@@ -2395,7 +2400,7 @@ msgstr "Senha de uso único inválida."
 
 #: electrum/plugins/coldcard/coldcard.py:196
 msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
-msgstr ""
+msgstr "Magic xpub inválida. Certifique-se de que seu dispositivo {} esteja configurado para a cadeia correta."
 
 #: electrum/gui/qt/main_window.py:2019
 #: electrum/gui/kivy/uix/ui_screens/invoice.kv:17
@@ -2417,19 +2422,19 @@ msgstr "Faturas"
 
 #: electrum/gui/qt/installwizard.py:34
 msgid "It also contains your master public key that allows watching your addresses."
-msgstr ""
+msgstr "Ele também contém sua chave pública mestre que permite observar seus endereços."
 
 #: electrum/gui/qt/main_window.py:2579
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
-msgstr ""
+msgstr "Não pode ser \"backupeada\" simplesmente exportando essas chaves privadas."
 
 #: electrum/gui/qt/main_window.py:3471
 msgid "It conflicts with current history."
-msgstr ""
+msgstr "Está em conflito com a história atual."
 
 #: electrum/plugins/cosigner_pool/__init__.py:5
 msgid "It sends and receives partially signed transactions from/to your cosigner wallet."
-msgstr ""
+msgstr "Envia e recebe transações parcialmente assinadas de / para sua carteira de cossignatário."
 
 #: electrum/i18n.py:60
 msgid "Italian"
@@ -2477,7 +2482,7 @@ msgstr ""
 
 #: electrum/plugins/labels/__init__.py:6
 msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
-msgstr ""
+msgstr "Rótulos, IDs de transações e endereços são criptografados antes de serem enviados ao servidor remoto."
 
 #: electrum/plugins/trezor/qt.py:480 electrum/plugins/keepkey/qt.py:446
 #: electrum/plugins/safe_t/qt.py:353 electrum/gui/qt/main_window.py:2823
@@ -2487,7 +2492,7 @@ msgstr "Idioma"
 
 #: electrum/gui/qt/update_checker.py:51 electrum/gui/qt/update_checker.py:83
 msgid "Latest version: {}"
-msgstr ""
+msgstr "Última versão: {}"
 
 #: electrum/i18n.py:63
 msgid "Latvian"
@@ -2525,7 +2530,7 @@ msgstr "Deixe o dispositivo gerar uma nova seed completa, randomicamente"
 
 #: electrum/plugins/hw_wallet/plugin.py:112
 msgid "Library version for '{}' is incompatible."
-msgstr ""
+msgstr "A versão da biblioteca para '{}' é incompatível."
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:19
 msgid "Licence"
@@ -2541,11 +2546,11 @@ msgstr "Linha #"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:256
 msgid "Load a wallet from the micro SD card"
-msgstr ""
+msgstr "Carregar uma carteira no cartão micro SD"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:233
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
-msgstr ""
+msgstr "Carregar uma carteira do cartão micro SD (a semente atual é sobrescrita)"
 
 #: electrum/gui/qt/main_window.py:2545
 msgid "Load transaction"
@@ -2573,7 +2578,7 @@ msgstr "Taxa baixa"
 #: electrum/plugins/safe_t/safe_t.py:265
 #: electrum/plugins/coldcard/coldcard.py:668
 msgid "Make sure it is in the correct state."
-msgstr ""
+msgstr "Certifique-se de que está no estado correto."
 
 #: electrum/plugins/hw_wallet/plugin.py:125
 msgid "Make sure you install it with python3"
@@ -2642,19 +2647,19 @@ msgstr "Taxa de mineração"
 
 #: electrum/plugins/hw_wallet/plugin.py:124
 msgid "Missing libraries for {}."
-msgstr ""
+msgstr "Bibliotecas ausentes para {}."
 
 #: electrum/base_crash_reporter.py:68
 msgid "Missing report URL."
-msgstr ""
+msgstr "URL do relatório ausente."
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:300
 msgid "Mobile pairing options"
-msgstr ""
+msgstr "Opções de pareamento móvel"
 
 #: electrum/plugins/revealer/qt.py:221
 msgid "More info at: {}"
-msgstr ""
+msgstr "Mais informações em: {}"
 
 #: electrum/gui/qt/installwizard.py:649
 msgid "Multi-Signature Wallet"
@@ -2662,11 +2667,11 @@ msgstr "Carteira Multi-Assinatura"
 
 #: electrum/base_wizard.py:133
 msgid "Multi-signature wallet"
-msgstr ""
+msgstr "Carteira Multi-Assinatura"
 
 #: electrum/plugins/ledger/auth2fa.py:88 electrum/plugins/ledger/auth2fa.py:130
 msgid "NOT DEVICE PIN - see above"
-msgstr ""
+msgstr "SEM DISPOSITIVO PIN - veja acima"
 
 #: electrum/gui/qt/contact_list.py:47 electrum/gui/qt/main_window.py:2205
 msgid "Name"
@@ -2675,7 +2680,7 @@ msgstr "Nome"
 #: electrum/plugins/trezor/qt.py:494 electrum/plugins/keepkey/qt.py:460
 #: electrum/plugins/safe_t/qt.py:367
 msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
-msgstr ""
+msgstr "Nomeie isso {}. Se você tiver vários dispositivos, os rótulos deles os ajudarão a diferenciá-los."
 
 #: electrum/gui/text.py:157 electrum/gui/qt/network_dialog.py:54
 #: electrum/gui/qt/main_window.py:2125
@@ -2685,7 +2690,7 @@ msgstr "Rede"
 
 #: electrum/interface.py:174
 msgid "Network request timed out."
-msgstr ""
+msgstr "Requisição de rede expirou."
 
 #: electrum/gui/qt/util.py:60 electrum/gui/qt/exception_window.py:87
 #: electrum/gui/qt/request_list.py:78 electrum/gui/qt/invoice_list.py:78
@@ -2724,7 +2729,7 @@ msgstr "Novo contato"
 
 #: electrum/gui/qt/main_window.py:706
 msgid "New transaction: {}"
-msgstr ""
+msgstr "Nova transação: {}"
 
 #: electrum/plugins/revealer/qt.py:127 electrum/plugins/trustedcoin/qt.py:222
 #: electrum/gui/qt/installwizard.py:130
@@ -2738,7 +2743,7 @@ msgstr "Não"
 
 #: electrum/gui/kivy/uix/dialogs/invoices.py:125
 msgid "No Amount"
-msgstr ""
+msgstr "Sem quantidade"
 
 #: electrum/util.py:181 electrum/util.py:187
 msgid "No Data"
@@ -2774,11 +2779,11 @@ msgstr "Nenhum dispositivo hardware detectado."
 
 #: electrum/wallet.py:128
 msgid "No inputs found. (Note that inputs need to be confirmed)"
-msgstr ""
+msgstr "Nenhuma entrada encontrada. (Observe que as entradas precisam ser confirmadas)"
 
 #: electrum/gui/qt/main_window.py:2234
 msgid "No keystore"
-msgstr ""
+msgstr "Sem keystore"
 
 #: electrum/gui/qt/main_window.py:1039
 msgid "No message or amount"
@@ -2794,11 +2799,11 @@ msgstr "Sem saídas"
 
 #: electrum/gui/kivy/main_window.py:999
 msgid "No saved invoices."
-msgstr ""
+msgstr "Nenhuma fatura salva."
 
 #: electrum/gui/kivy/main_window.py:1011
 msgid "No saved requests."
-msgstr ""
+msgstr "Nenhuma solicitação salva"
 
 #: electrum/gui/kivy/main_window.py:327
 msgid "No wallet loaded."
@@ -2861,15 +2866,15 @@ msgstr "Note que essa NÃO é sua senha de criptografia."
 #: electrum/plugins/trustedcoin/trustedcoin.py:82
 #: electrum/plugins/trustedcoin/trustedcoin.py:98
 msgid "Note that your coins are not locked in this service.  You may withdraw your funds at any time and at no cost, without the remote server, by using the 'restore wallet' option with your wallet seed."
-msgstr ""
+msgstr "Note que suas moedas não estão bloqueadas neste serviço. Você pode retirar seus fundos a qualquer momento e sem nenhum custo, sem o servidor remoto, usando a opção 'restaurar carteira' com sua semente da Google Wallet."
 
 #: electrum/gui/qt/installwizard.py:35 electrum/gui/qt/password_dialog.py:278
 msgid "Note: If you enable this setting, you will need your hardware device to open your wallet."
-msgstr ""
+msgstr "Nota: Se você habilitar essa configuração, precisará do seu dispositivo de hardware para abrir sua carteira."
 
 #: electrum/gui/qt/main_window.py:3481
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
-msgstr ""
+msgstr "Nota: esta é uma transação offline, se você quiser que a rede a veja, você precisa transmiti-la."
 
 #: electrum/gui/kivy/uix/dialogs/__init__.py:95
 msgid "Nothing set !"
@@ -2877,11 +2882,11 @@ msgstr "Nada definido!"
 
 #: electrum/plot.py:15
 msgid "Nothing to plot."
-msgstr ""
+msgstr "Nada para plotar."
 
 #: electrum/gui/qt/history_list.py:477
 msgid "Nothing to summarize."
-msgstr ""
+msgstr "Nada para resumir."
 
 #: electrum/gui/qt/main_window.py:2844
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
@@ -2905,11 +2910,11 @@ msgstr "Offline"
 #: electrum/plugins/ledger/ledger.py:370 electrum/plugins/trezor/trezor.py:82
 #: electrum/plugins/keepkey/keepkey.py:53 electrum/plugins/safe_t/safe_t.py:54
 msgid "Offline signing with {} is not supported for legacy inputs."
-msgstr ""
+msgstr "A assinatura off-line com {} não é suportada para entradas herdadas."
 
 #: electrum/base_wizard.py:308
 msgid "On Linux, you might have to add a new permission to your udev rules."
-msgstr ""
+msgstr "No Linux, você pode ter que adicionar uma nova permissão às suas regras do udev."
 
 #: electrum/gui/qt/main_window.py:1971
 msgid "One output per line."
@@ -2917,7 +2922,7 @@ msgstr "Uma saída por linha."
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:39
 msgid "One-server mode"
-msgstr ""
+msgstr "Modo servidor único"
 
 #: electrum/gui/qt/main_window.py:2989
 msgid "Online Block Explorer"
@@ -2929,20 +2934,20 @@ msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/network.kv:40
 msgid "Only connect to a single server"
-msgstr ""
+msgstr "Conecte-se apenas a um único servidor"
 
 #: electrum/plugins/trezor/qt.py:607 electrum/plugins/keepkey/qt.py:550
 #: electrum/plugins/safe_t/qt.py:480
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr ""
+msgstr "Somente scripts OP_RETURN, com um push constante, são suportados."
 
 #: electrum/plugins/revealer/qt.py:732
 msgid "Open calibration pdf"
-msgstr ""
+msgstr "Abrir calibração pdf"
 
 #: electrum/plugins/cosigner_pool/qt.py:176
 msgid "Open your cosigner wallet to retrieve it."
-msgstr ""
+msgstr "Abra sua carteira de cossignatário para recuperá-lo."
 
 #: electrum/gui/qt/util.py:807
 msgid "Open {} file"
@@ -2963,13 +2968,13 @@ msgstr "Opções"
 
 #: electrum/plugins/hw_wallet/qt.py:225 electrum/base_wizard.py:342
 msgid "Outdated device firmware"
-msgstr ""
+msgstr "Firmware de dispositivo desatualizado"
 
 #: electrum/plugins/trezor/trezor.py:285
 #: electrum/plugins/keepkey/keepkey.py:155
 #: electrum/plugins/safe_t/safe_t.py:139
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
-msgstr ""
+msgstr "Firmware {} desatualizado para o dispositivo rotulado {}. Por favor, baixe o firmware atualizado de {}"
 
 #: electrum/gui/qt/main_window.py:3369
 msgid "Output amount"
@@ -3004,7 +3009,7 @@ msgstr "Incompatibilidade PIN"
 #: electrum/plugins/trezor/qt.py:516 electrum/plugins/keepkey/qt.py:482
 #: electrum/plugins/safe_t/qt.py:389
 msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr ""
+msgstr "A proteção por PIN é altamente recomendada. Um PIN é sua única proteção contra alguém que rouba seus bitcoins se eles obtiverem acesso físico ao seu {}."
 
 #: electrum/plugins/trezor/qt.py:475 electrum/plugins/keepkey/qt.py:440
 #: electrum/plugins/safe_t/qt.py:348
@@ -3017,7 +3022,7 @@ msgstr "Pago"
 
 #: electrum/wallet.py:414
 msgid "Partially signed"
-msgstr ""
+msgstr "Parcialmente assinado"
 
 #: electrum/gui/kivy/main_window.py:1082
 msgid "Passphrase"
@@ -3030,12 +3035,12 @@ msgstr "FraseSecreta:"
 #: electrum/plugins/trezor/qt.py:476 electrum/plugins/keepkey/qt.py:441
 #: electrum/plugins/safe_t/qt.py:349
 msgid "Passphrases"
-msgstr ""
+msgstr "Frases Secretas"
 
 #: electrum/plugins/trezor/qt.py:23 electrum/plugins/keepkey/qt.py:23
 #: electrum/plugins/safe_t/qt.py:23
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
-msgstr ""
+msgstr "As Frases Secretas permitem que você acesse novas carteiras, cada uma escondida atrás de uma senha específica sensível a maiúsculas e minúsculas."
 
 #: electrum/gui/qt/network_dialog.py:271 electrum/gui/qt/installwizard.py:185
 #: electrum/gui/qt/password_dialog.py:299 electrum/gui/qt/main_window.py:2119
@@ -3054,12 +3059,12 @@ msgstr "A senha está desativada, esta carteira não está protegida"
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:152
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:167
 msgid "Password must have at least 4 characters."
-msgstr ""
+msgstr "A senha deve ter pelo menos 4 caracteres."
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:155
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:170
 msgid "Password must have less than 64 characters."
-msgstr ""
+msgstr "A senha deve ter menos de 64 caracteres."
 
 #: electrum/gui/qt/main_window.py:2174
 msgid "Password was updated successfully"
@@ -3123,19 +3128,19 @@ msgstr "Persa"
 
 #: electrum/base_crash_reporter.py:58
 msgid "Please briefly describe what led to the error (optional):"
-msgstr ""
+msgstr "Por favor, descreva brevemente o que levou ao erro (opcional):"
 
 #: electrum/plugins/email_requests/qt.py:253
 msgid "Please check your connection and credentials."
-msgstr ""
+msgstr "Por favor, verifique sua conexão e credenciais."
 
 #: electrum/gui/kivy/uix/dialogs/crash_reporter.py:127
 msgid "Please check your network connection."
-msgstr ""
+msgstr "Por favor, verifique sua conexão de rede."
 
 #: electrum/plugins/hw_wallet/qt.py:163
 msgid "Please check your {} device"
-msgstr ""
+msgstr "Por favor, verifique o seu {} dispositivo"
 
 #: electrum/gui/qt/history_list.py:621
 msgid "Please confirm"
@@ -3164,7 +3169,7 @@ msgstr "Por favor, digite sua senha."
 
 #: electrum/plugins/cosigner_pool/qt.py:212
 msgid "Please enter your password to decrypt it."
-msgstr ""
+msgstr "Por favor, digite sua senha para descriptografá-lo."
 
 #: electrum/gui/qt/installwizard.py:423
 msgid "Please enter your seed phrase in order to restore your wallet."
@@ -3172,7 +3177,7 @@ msgstr "Digite sua frase de semente para restaurar sua carteira."
 
 #: electrum/plugins/coldcard/qt.py:111
 msgid "Please initialize your Coldcard while disconnected."
-msgstr ""
+msgstr "Por favor, inicialize seu Coldcard enquanto estiver desconectado."
 
 #: electrum/plugin.py:540
 msgid "Please insert your {}"
@@ -3180,7 +3185,7 @@ msgstr "Por favor insira seu {}"
 
 #: electrum/base_wizard.py:608
 msgid "Please note that websites and other wallets may not support these addresses yet."
-msgstr ""
+msgstr "Por favor, note que sites e outras carteiras podem não suportar esses endereços ainda."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:1136
 msgid "Please paste your cosigners master public key, or scan it using the camera button."
@@ -3192,7 +3197,7 @@ msgstr "Informe quaisquer erros como problemas no github: <br/>"
 
 #: electrum/gui/qt/exception_window.py:115
 msgid "Please report this issue manually"
-msgstr ""
+msgstr "Por favor, informe este problema manualmente"
 
 #: electrum/gui/qt/main_window.py:3249
 msgid "Please restart Electrum to activate the new GUI settings"
@@ -3213,7 +3218,7 @@ msgstr "Por favor, escaneie um endereço Bitcoin ou uma requisição de pagament
 
 #: electrum/plugin.py:557
 msgid "Please select which {} device to use:"
-msgstr ""
+msgstr "Selecione o dispositivo {} a ser usado:"
 
 #: electrum/gui/qt/installwizard.py:587
 msgid "Please share it with your cosigners."
@@ -3225,11 +3230,11 @@ msgstr "Por favor, assine esta transação para salva-lá"
 
 #: electrum/plugins/trustedcoin/kivy.py:108 electrum/base_wizard.py:336
 msgid "Please try again."
-msgstr ""
+msgstr "Por favor, tente novamente."
 
 #: electrum/base_wizard.py:646
 msgid "Please type it here."
-msgstr ""
+msgstr "Por favor, digite aqui."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:865
 msgid "Please type your seed phrase using the virtual keyboard."
