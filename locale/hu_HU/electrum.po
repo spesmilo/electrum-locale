@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 09:41+0000\n"
-"PO-Revision-Date: 2023-04-27 09:41\n"
+"POT-Creation-Date: 2023-05-04 11:34+0000\n"
+"PO-Revision-Date: 2023-05-04 11:34\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -148,7 +148,7 @@ msgstr "Bő&vítmények"
 
 #: electrum/gui/qt/main_window.py:686
 msgid "&Private keys"
-msgstr "&Privát kulcsok"
+msgstr "&Titkos kulcsok"
 
 #: electrum/gui/qt/main_window.py:679
 msgid "&Quit"
@@ -194,7 +194,7 @@ msgstr "&Nézet"
 msgid "&Wallet"
 msgstr "&Tárca"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:607
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:613
 msgid "(Touch {} of {})"
 msgstr "(Érintes {}/{})"
 
@@ -242,7 +242,7 @@ msgstr "A \"díjfizetés másodlagos tranzakcióval\" (CPFP - Child Pays For Par
 msgid "A backup does not contain information about your local balance in the channel."
 msgstr "Egy biztonsági mentés nem tartalmaz információkat a csatornán lévő helyi egyenlegedről."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:186
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:191
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr "Egy biztonsági mentés automatikusan létrejön, amikor új tárcát készítesz."
 
@@ -319,7 +319,9 @@ msgstr "Társ-aláíró hozzáadása"
 msgid "Add extra data to your channel funding transactions, so that a static backup can be recovered from your seed.\n\n"
 "Note that static backups only allow you to request a force-close with the remote node. This assumes that the remote node is still online, did not lose its data, and accepts to force close the channel.\n\n"
 "If this is enabled, other nodes cannot open a channel to you. Channel recovery data is encrypted, so that only your wallet can decrypt it. However, blockchain analysis will be able to tell that the transaction was probably created by Electrum."
-msgstr ""
+msgstr "További adatok hozzáadása a csatorna finanszírozási tranzakcióihoz, hogy egy statikus biztonsági mentés helyreállítható legyen a magról.\n\n"
+"Fontos tudni, hogy a statikus biztonsági mentések csak arra alkalmasak, hogy a távoli csomópontnál kérni lehessen a kényszerített lezárást. Ez feltételezi, hogy a távoli csomópont még mindig online, nem vesztette el az adatait, és elfogadja a csatorna kényszerített lezárását.\n\n\n"
+"Ha ez engedélyezve van, más csomópontok nem tudnak csatornát nyitni feléd. A csatorna helyreállítási adatai titkosítva vannak, így csak a tárcád tudja visszafejteni azokat. A blokkláncelemzés azonban képes lesz megállapítani, hogy a tranzakciót valószínűleg az Electrum hozta létre."
 
 #: electrum/gui/qt/receive_tab.py:153
 msgid "Add lightning requests to bitcoin URIs"
@@ -382,7 +384,7 @@ msgstr "Cím vágólapra másolva"
 msgid "Address is frozen"
 msgstr "Cím lefagyasztva"
 
-#: electrum/gui/qt/main_window.py:1980 electrum/wallet.py:728
+#: electrum/gui/qt/main_window.py:1980 electrum/wallet.py:730
 #: electrum/plugins/hw_wallet/plugin.py:132
 msgid "Address not in wallet."
 msgstr "A cím nem tartozik ehhez a tárcához."
@@ -425,7 +427,7 @@ msgstr "Összes"
 msgid "All fields must be filled out"
 msgstr "Minden mezőt ki kell tölteni"
 
-#: electrum/wallet.py:1980
+#: electrum/wallet.py:1996
 msgid "All outputs are non-change is_mine"
 msgstr "Egyik kimenet sem visszajáró, viszont mind saját"
 
@@ -514,7 +516,7 @@ msgid "Amount too low"
 msgstr "Az összeg túl alacsony"
 
 #: electrum/gui/qt/receive_tab.py:313 electrum/gui/kivy/uix/screens.py:522
-#: electrum/wallet.py:2952 electrum/wallet.py:2957
+#: electrum/wallet.py:2968 electrum/wallet.py:2973
 msgid "Amount too small to be received onchain"
 msgstr "Az összeg túl alacsony a blokkláncon való fogadáshoz"
 
@@ -532,7 +534,7 @@ msgstr "Hiba történt"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "Egy titkosított tranzakció került letöltésre a társ-aláírós szerverről."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:182
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:187
 msgid "An uninitialized Digital Bitbox is detected."
 msgstr "Egy nem inicializált Digital Bitbox észlelhető."
 
@@ -543,7 +545,8 @@ msgstr "Egy névtelen {}"
 #: electrum/gui/messages.py:56
 msgid "Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n\n"
 "Are you sure?"
-msgstr ""
+msgstr "A tárca egy másik példányának (ugyanaz a mag) van már nyitott csatornája ugyanezzel a távoli csomóponttal. Ha létrehozod ezt a csatornát, akkor nem fogod tudni mindkét tárcát egyszerre használni.\n\n"
+"Folytatod?"
 
 #: electrum/gui/qt/settings_dialog.py:388
 msgid "Appearance"
@@ -578,7 +581,7 @@ msgstr "Biztos, hogy törlöd a \"{}\" tárcát?"
 msgid "Are you sure you want to disable trampoline?"
 msgstr "Biztosan ki akarod kapcsolni a trampoline-t?"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:315
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:320
 msgid "Are you sure you want to erase the Digital Bitbox?"
 msgstr "Biztosan törlöd a Digital Bitbox-ot?"
 
@@ -589,13 +592,13 @@ msgstr "Biztosan folytatod?"
 
 #: electrum/gui/qt/history_list.py:805
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:344
-#: electrum/gui/qml/qetxdetails.py:388
+#: electrum/gui/qml/qetxdetails.py:396
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr "Biztosan törlöd ezt, és további {} hozzá tartozó másodlagos tranzakciót?"
 
 #: electrum/gui/qt/history_list.py:803
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:341
-#: electrum/gui/qml/qetxdetails.py:385
+#: electrum/gui/qml/qetxdetails.py:393
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Biztosan eltávolítod ezt a tranzakciót?"
 
@@ -846,7 +849,7 @@ msgstr "Küldhet"
 
 #: electrum/gui/qt/main_window.py:2648
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:255
-#: electrum/gui/qml/qetxfinalizer.py:758 electrum/gui/qml/qetxfinalizer.py:759
+#: electrum/gui/qml/qetxfinalizer.py:760 electrum/gui/qml/qetxfinalizer.py:761
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "Díjfizetés másodlagos tranzakcióval nem lehetséges: az eredeti tranzakció díja ismeretlen."
 
@@ -901,8 +904,8 @@ msgstr "A tranzakció nem törölhető"
 msgid "Cannot create child transaction"
 msgstr "A másodlagos tranzakció nem hozható létre"
 
-#: electrum/gui/qml/qetxfinalizer.py:533 electrum/gui/qml/qetxfinalizer.py:640
-#: electrum/gui/qml/qetxfinalizer.py:793
+#: electrum/gui/qml/qetxfinalizer.py:535 electrum/gui/qml/qetxfinalizer.py:642
+#: electrum/gui/qml/qetxfinalizer.py:795
 msgid "Cannot determine dynamic fees, not connected"
 msgstr "Nem határozható meg automatikusan a díj, nincs internetkapcsolat"
 
@@ -1117,7 +1120,7 @@ msgstr "Kínai (hagyományos)"
 msgid "Choose Homescreen"
 msgstr "Kezdőképernyő kiválasztása"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:331
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:336
 msgid "Choose a backup file:"
 msgstr "Válassz biztonsági másolatot:"
 
@@ -1149,7 +1152,7 @@ msgstr "Válaszd ki az érme (UTXO) választási módot. Az alábbiak állnak re
 msgid "Choose from peers"
 msgstr "Válassz a partnerek közül"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:246
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:251
 msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "Válaszd ki a Digital Bitbox inicializálásának módját:"
 
@@ -1469,7 +1472,7 @@ msgstr "Csatlakozva {0} csomópontokhoz."
 #: electrum/network.py:508
 #, python-brace-format
 msgid "Connected to {0} nodes."
-msgstr "Csatlakozva {0} csomóponthoz."
+msgstr "Csatl. {0} csomóponthoz."
 
 #: electrum/gui/qt/lightning_dialog.py:77
 msgid "Connected to {} peers"
@@ -1570,19 +1573,19 @@ msgstr "A csatornát nem lehetett lezárni: "
 msgid "Could not connect to channel peer"
 msgstr "Nem sikerült csatlakozni a csatornához tartozó partnerhez"
 
-#: electrum/wallet.py:1987
+#: electrum/wallet.py:2003
 msgid "Could not figure out which outputs to keep"
 msgstr "Nem sikerült kitalálni, melyik kimeneteket kellene megtartani"
 
-#: electrum/wallet.py:2140
+#: electrum/wallet.py:2156
 msgid "Could not find coins for output"
 msgstr "Nem sikerült érméket találni a kimenethez"
 
-#: electrum/wallet.py:2136
+#: electrum/wallet.py:2152
 msgid "Could not find suitable output"
 msgstr "Nem található megfelelő kimenet"
 
-#: electrum/wallet.py:2056 electrum/wallet.py:2101 electrum/wallet.py:2115
+#: electrum/wallet.py:2072 electrum/wallet.py:2117 electrum/wallet.py:2131
 msgid "Could not find suitable outputs"
 msgstr "Nem találhatók megfelelő kimenetek"
 
@@ -1602,13 +1605,13 @@ msgstr "Nem sikerült a vágólap tartalmának értelmezése"
 msgid "Could not retrieve Terms of Service:"
 msgstr "Nem sikerült letölteni az Általános Szerződési Feltételeket:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:495
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:508
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:501
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:514
 msgid "Could not sign message"
 msgstr "Nem sikerült aláírni az üzenetet"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:472
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:485
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:478
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:491
 msgid "Could not sign message."
 msgstr "Az üzenet aláírása sikertelen."
 
@@ -1632,7 +1635,7 @@ msgstr "Új Revealer készítése"
 msgid "Create a new seed"
 msgstr "Új mag létrehozása"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:226
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:231
 msgid "Create a wallet using the current seed"
 msgstr "Új pénztárca készítése, a jelenlegi mag használatával"
 
@@ -1738,7 +1741,7 @@ msgstr "Visszafejtés"
 
 #: electrum/gui/kivy/main_window.py:1454
 msgid "Decrypt your private key?"
-msgstr "Visszafejted a privát kulcsodat?"
+msgstr "Visszafejted a titkos kulcsodat?"
 
 #: electrum/i18n.py:82
 msgid "Default"
@@ -1835,7 +1838,7 @@ msgstr "Érvényes Lightning fizetési kérelem detektálva, de nincs nyitotta c
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:35
 msgid "Developers"
-msgstr ""
+msgstr "Fejlesztők"
 
 #: electrum/plugins/keepkey/qt.py:446 electrum/plugins/safe_t/qt.py:354
 #: electrum/plugins/trezor/qt.py:620
@@ -1848,7 +1851,7 @@ msgstr "Eszköz azonosító"
 msgid "Device Label"
 msgstr "Eszköz címke"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:129
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:134
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "Eszközkommunikációs hiba. Kérjük, húzd ki és dugd be újra a Digital Bitbox-ot."
 
@@ -1899,7 +1902,7 @@ msgstr "Terjesztő: Electrum Technologies GmbH"
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
 msgstr "Ne adj itt meg semmiféle privát információt, mivel a jelentés látható lesz a nyilvános hibajelentések listáján."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:288
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:293
 msgid "Do not pair"
 msgstr "Ne párosítsa"
 
@@ -2056,7 +2059,7 @@ msgstr "Az Electrum a pénztárca címeit elküldi egy szervernek, hogy lekérde
 
 #: electrum/gui/messages.py:44
 msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
-msgstr ""
+msgstr "Az Electrum statikus csatorna biztonsági mentéseket használ. Ha elveszíted a tárcafájlt, akkor a távoli féltől kell kérned a csatorna kényszerített lezárását, hogy visszakapd a pénzedet. Ez feltételezi, hogy a távoli partner elérhető, és nem vesztette el a saját adatait."
 
 #: electrum/gui/qt/installwizard.py:239
 msgid "Electrum wallet"
@@ -2081,7 +2084,7 @@ msgstr "Az Electrum nem tudta értelmezni a tranzakciódat"
 
 #: electrum/gui/qt/main_window.py:2344
 msgid "Electrum was unable to produce a private key-export."
-msgstr "Az Electrum nem tudta exportálni a privát kulcsot."
+msgstr "Az Electrum nem tudta exportálni a titkos kulcsot."
 
 #: electrum/gui/qt/history_list.py:847
 msgid "Electrum was unable to produce a transaction export."
@@ -2171,7 +2174,7 @@ msgstr "Titkosított"
 
 #: electrum/plugins/coldcard/coldcard.py:302
 #: electrum/plugins/ledger/ledger.py:1300
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:453
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:458
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "A {} eszközön jelenleg nem támogatott a titkosítás és a visszafejtés"
 
@@ -2236,7 +2239,7 @@ msgstr "Adj meg egy címkét az eszköz elnevezéséhez:"
 
 #: electrum/base_wizard.py:230
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
+msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy titkos kulcsokat."
 
 #: electrum/gui/qt/send_tab.py:789
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -2248,7 +2251,7 @@ msgstr "Írd be a Bitcoin címeket a \"Pénzküldés ide\" mezőbe."
 msgid "Enter a new PIN for your {}:"
 msgstr "Adj meg egy új PIN kódot a {} eszköznek:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:183
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:188
 msgid "Enter a new password below."
 msgstr "Adj meg egy új jelszót."
 
@@ -2286,20 +2289,20 @@ msgstr "Új jelszó megadása"
 msgid "Enter passphrase on device?"
 msgstr "Kulcsszöveg megadása az eszközön?"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:147
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:150
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:162
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:165
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:152
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:155
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:167
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:170
 msgid "Enter password:"
 msgstr "Írj be egy jelszót:"
 
 #: electrum/gui/qt/main_window.py:2507
 msgid "Enter private keys"
-msgstr "Add meg a privát kulcsokat"
+msgstr "Add meg a titkos kulcsokat"
 
 #: electrum/gui/qt/main_window.py:2401
 msgid "Enter private keys:"
-msgstr "Add meg a privát kulcsokat:"
+msgstr "Add meg a titkos kulcsokat:"
 
 #: electrum/gui/qml/qeinvoice.py:302
 msgid "Enter the amount you want to send"
@@ -2307,7 +2310,7 @@ msgstr "Írd be a küldeni kívánt összeget"
 
 #: electrum/plugins/keepkey/qt.py:257 electrum/plugins/safe_t/qt.py:131
 msgid "Enter the master private key beginning with xprv:"
-msgstr "Add meg az \"xprv\" kezdetű privát mesterkulcsot:"
+msgstr "Add meg az \"xprv\" kezdetű titkos mesterkulcsot:"
 
 #: electrum/plugins/keepkey/clientbase.py:75
 #: electrum/plugins/safe_t/clientbase.py:80
@@ -2315,7 +2318,7 @@ msgstr "Add meg az \"xprv\" kezdetű privát mesterkulcsot:"
 msgid "Enter the passphrase to unlock this wallet:"
 msgstr "Add meg a kulcsszöveget a tárca feloldásához:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:140
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:145
 msgid "Enter the password used when the backup was created:"
 msgstr "Add meg a biztonsági mentés létrehozásakor használt jelszót:"
 
@@ -2331,7 +2334,7 @@ msgstr "Add meg a kétfaktoros pénztárcához tartozó magot:"
 
 #: electrum/gui/qt/installwizard.py:486
 msgid "Enter their master private key (xprv) if you want to be able to sign for them."
-msgstr "Vagy add meg az xprv-vel kezdődő privát mesterkulcsot, ha szeretnél az ő privát kulcsaival is aláírni."
+msgstr "Vagy add meg a titkos mesterkulcsukat (xprv), ha szeretnél nevükben is aláírni."
 
 #: electrum/gui/kivy/uix/dialogs/wallets.py:71
 msgid "Enter wallet name"
@@ -2341,9 +2344,9 @@ msgstr "Add meg a pénztárca nevét"
 msgid "Enter your BIP39 mnemonic:"
 msgstr "Írd be a BIP39 magot (12/24 szó):"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:193
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:203
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:198
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:208
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:213
 msgid "Enter your Digital Bitbox password:"
 msgstr "Írd be Digital Bitbox jelszavát:"
 
@@ -2373,7 +2376,7 @@ msgstr "Írd be a jelszavad"
 msgid "Enter your password or choose another file."
 msgstr "Add meg a jelszót, vagy válassz egy másik fájlt."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:228
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:233
 msgid "Erase the Digital Bitbox"
 msgstr "Digital Bitbox törlése"
 
@@ -2538,7 +2541,7 @@ msgstr "Kérelmek exportálása"
 
 #: electrum/gui/qt/main_window.py:2278
 msgid "Exposing a single private key can compromise your entire wallet!"
-msgstr "A privát kulcsod publikálása az egész tárcád elvesztésével járhat!"
+msgstr "A titkos kulcsod felfedése az egész tárcád elvesztésével járhat!"
 
 #: electrum/gui/qt/seed_dialog.py:82
 msgid "Extend this seed with custom words"
@@ -2654,7 +2657,7 @@ msgstr "Fájl létrehozva"
 
 #: electrum/gui/qt/history_list.py:552
 msgid "Filter by Date"
-msgstr "Szűrése dátum szerint"
+msgstr "Szűrés dátum alapján"
 
 #: electrum/gui/qt/main_window.py:698
 msgid "Find"
@@ -2801,7 +2804,7 @@ msgstr "Befagyasztott"
 msgid "Fulfilled HTLCs"
 msgstr "Teljesített HTLC-k"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:240
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:245
 msgid "Full 2FA enabled. This is not supported yet."
 msgstr "A teljes kétfaktoros hitelesítés engedélyezve van. Ez még nem támogatott."
 
@@ -2830,7 +2833,7 @@ msgstr "Az ezen a csatornán lévő összegek nem lesznek helyreállíthatók a 
 msgid "Funds will be sent to the invoice fallback address."
 msgstr "Az összegek a kiváltó címre kerülnek átküldésre."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:248
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:253
 msgid "Generate a new random wallet"
 msgstr "Új véletlenszerű tárca létrehozása"
 
@@ -2960,7 +2963,8 @@ msgstr "Ha nincs engedélyezve, akkor manuálisan kell kiválasztanod egy szerve
 #: electrum/gui/messages.py:20
 msgid "If this option is checked, your client will complete reverse swaps before the funding transaction is confirmed.\n\n"
 "Note you are at risk of losing the funds in the swap, if the funding transaction never confirms."
-msgstr ""
+msgstr "Ha ez az opció be van jelölve, a kliens a fordított csereügyleteket még a finanszírozási tranzakció megerősítése előtt befejezi.\n\n"
+"Fontos tudni, hogy fennáll a csereügyletben lévő pénzeszközök elvesztésének kockázata, ha a finanszírozási tranzakciót soha nem erősítik meg."
 
 #: electrum/gui/qt/seed_dialog.py:288
 msgid "If unsure, try restoring as '{}'."
@@ -3031,7 +3035,7 @@ msgstr "Ha elveszíted a magot, akkor a tárcában lévő összes pénz véglege
 msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
 msgstr "Ha elveszíted a tárca fájlodat, a biztonsági mentés csak arra ad lehetőséget, hogy a csatornád zárását kérd; így az összegek a blokkláncra kerülnek átküldésre."
 
-#: electrum/wallet.py:2891
+#: electrum/wallet.py:2907
 msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
 msgstr "Ha ezt a tranzakciót nem nem megbízható eszköztől kaptad, ne fogadd el egynél többször az aláírását,\n"
@@ -3039,7 +3043,7 @@ msgstr "Ha ezt a tranzakciót nem nem megbízható eszköztől kaptad, ne fogadd
 
 #: electrum/gui/messages.py:30
 msgid "If you request a force-close, your node will pretend that it has lost its data and ask the remote node to broadcast their latest state. Doing so from time to time helps make sure that nodes are honest, because your node can punish them if they broadcast a revoked state."
-msgstr ""
+msgstr "Ha kényszerített lezárás kérsz, a csomópont úgy tesz, mintha elveszítette volna az adatait, és megkéri a távoli csomópontot, hogy küldje ki a legutóbbi állapotát. Ha ezt időről időre megteszed, segít megbizonyosodni arról, hogy a csomópontok őszinték, mert a csomópontod megbüntetheti őket, ha visszavont állapotot sugároznak."
 
 #: electrum/gui/qt/installwizard.py:337
 msgid "If you use a passphrase, make sure it is correct."
@@ -3071,7 +3075,7 @@ msgstr "Bitcoin címek importálása"
 
 #: electrum/base_wizard.py:150
 msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin címek vagy privát kulcsok importálása"
+msgstr "Bitcoin címek vagy titkos kulcsok importálása"
 
 #: electrum/gui/kivy/main_window.py:1465
 msgid "Import Channel Backup?"
@@ -3089,13 +3093,13 @@ msgstr "Csatornák mentésének importálása"
 msgid "Import invoices"
 msgstr "Fizetési kérelmek importálása"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:289
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:294
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr "Párosítás importálása a Digital Bitbox asztali alkalmazásból"
 
 #: electrum/gui/qt/main_window.py:2505
 msgid "Import private keys"
-msgstr "Privát kulcsok importálása"
+msgstr "Titkos kulcsok importálása"
 
 #: electrum/gui/qt/receive_tab.py:157
 msgid "Import requests"
@@ -3103,7 +3107,7 @@ msgstr "Kérelmek importálása"
 
 #: electrum/gui/qt/main_window.py:2279
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
-msgstr "SOHA NE használd a 'privát kulcs beváltása' szolgáltatást harmadik félnél."
+msgstr "SOHA NE használd a 'titkos kulcs beváltása' szolgáltatást harmadik félnél."
 
 #: electrum/invoices.py:53
 msgid "In progress"
@@ -3134,7 +3138,7 @@ msgstr "A következő blokkban"
 msgid "Incorrect password"
 msgstr "Hibás jelszó"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:201
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:206
 msgid "Incorrect password entered."
 msgstr "Helytelen jelszó."
 
@@ -3270,7 +3274,7 @@ msgstr "Hibás nyilvános kulcs"
 msgid "Invalid amount"
 msgstr "Hibás összeg"
 
-#: electrum/wallet.py:1115 electrum/wallet.py:1129
+#: electrum/wallet.py:1131 electrum/wallet.py:1145
 msgid "Invalid invoice format"
 msgstr "Érvénytelen formátumú fizetési kérelem"
 
@@ -3351,7 +3355,7 @@ msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítség
 
 #: electrum/gui/qt/main_window.py:2271
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
-msgstr "Nem készíthető róla biztonsági mentés, egyszerűen a privát kulcsok exportálásával."
+msgstr "Nem készíthető róla biztonsági mentés, egyszerűen a titkos kulcsok exportálásával."
 
 #: electrum/gui/qt/main_window.py:2754 electrum/gui/qml/qewallet.py:588
 msgid "It conflicts with current history."
@@ -3590,11 +3594,12 @@ msgstr "A Lightning fizetés nem érhető el ehhez a tárcához."
 #: electrum/gui/messages.py:50
 msgid "Lightning payments require finding a path through the Lightning Network. You may use trampoline routing, or local routing (gossip).\n\n"
 "Downloading the network gossip uses quite some bandwidth and storage, and is not recommended on mobile devices. If you use trampoline, you can only open channels with trampoline nodes."
-msgstr ""
+msgstr "A Lightning fizetésekhez a Lightning hálózaton keresztül kell utat találni. Használhatsz a trampoline útvonalválasztást vagy a helyi útvonalválasztást (gossip adatok).\n\n"
+"A gossip adatok letöltése meglehetősen nagy sávszélességet és tárhelyet igényel, és mobileszközökön nem ajánlott. Ha a trampoline útvonalválasztást használsz, csak trampoline csomópontokkal nyithatsz csatornát."
 
 #: electrum/gui/messages.py:40
 msgid "Lightning support in Electrum is experimental. Do not put large amounts in lightning channels."
-msgstr ""
+msgstr "A Lightning még csak kísérleti fázisban van az Electrumban. Ne tegyél nagy összegeket Lightning csatornákba."
 
 #: electrum/gui/kivy/uix/ui_screens/status.kv:35
 msgid "Lightning:"
@@ -3604,11 +3609,11 @@ msgstr "Lightning:"
 msgid "Line #"
 msgstr "Sor #"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:249
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:254
 msgid "Load a wallet from the micro SD card"
 msgstr "Pénztárca betöltése SD kártyáról"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:227
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:232
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "Pénztárca betöltése SD kártyáról (ez felülírja a jelenlegi magot)"
 
@@ -3622,17 +3627,21 @@ msgstr "Biztonsági mentés betöltése"
 msgid "Load transaction"
 msgstr "Tranzakció betöltése"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:339
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:344
 msgid "Loading backup..."
 msgstr "Biztonsági mentés betöltése..."
 
-#: electrum/wallet.py:101 electrum/wallet.py:846
+#: electrum/wallet.py:101 electrum/wallet.py:848
 msgid "Local"
 msgstr "Helyi"
 
 #: electrum/gui/qt/main_window.py:726
 msgid "Local &Watchtower"
 msgstr "Helyi &őrtorony"
+
+#: electrum/wallet.py:852
+msgid "Local (future: {})"
+msgstr ""
 
 #: electrum/gui/qt/__init__.py:203
 msgid "Local Watchtower"
@@ -3700,7 +3709,7 @@ msgstr "Bizonyosodj meg róla, hogy python3-al telepíted"
 
 #: electrum/gui/qt/main_window.py:547
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Ellenőrizd, hogy birtokában vagy a pénztárca magjának vagy a privát kulcsoknak, mielőtt bitcoint kérnél ebbe a tárcába."
+msgstr "Ellenőrizd, hogy rendelkezésedre áll a tárca magja vagy a titkos kulcsok, mielőtt bitcoint kérnél ebbe a tárcába."
 
 #: electrum/plugins/coldcard/qt.py:136
 msgid "Master Fingerprint"
@@ -3726,7 +3735,7 @@ msgstr "Maximum"
 
 #: electrum/gui/qt/main_window.py:2722
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:271
-#: electrum/gui/qml/qetxfinalizer.py:804
+#: electrum/gui/qml/qetxfinalizer.py:806
 msgid "Max fee exceeded"
 msgstr "Maximum tranzakciós díj meghaladva"
 
@@ -3806,7 +3815,7 @@ msgstr "Hiányzó előző tranzakció."
 msgid "Missing report URL."
 msgstr "Hiányzó jelentés URL."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:291
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Mobile pairing options"
 msgstr "Mobil párosítási opciók"
 
@@ -3971,7 +3980,7 @@ msgstr "Nem történt hiba."
 msgid "No existing accounts found."
 msgstr "Nincs meg a meglévő fiók."
 
-#: electrum/gui/qml/qetxfinalizer.py:800
+#: electrum/gui/qml/qetxfinalizer.py:802
 msgid "No fee"
 msgstr "Nincs díj"
 
@@ -4059,7 +4068,7 @@ msgstr "Most nem"
 msgid "Not Verified"
 msgstr "Nem megerősített"
 
-#: electrum/gui/qml/qebitcoin.py:113
+#: electrum/gui/qml/qebitcoin.py:112
 msgid "Not a master key"
 msgstr "Nem egy mesterkulcs"
 
@@ -4082,7 +4091,7 @@ msgstr "Nincs bekapcsolva"
 
 #: electrum/gui/qt/main_window.py:1695 electrum/gui/qt/send_tab.py:285
 #: electrum/gui/kivy/uix/dialogs/confirm_tx_dialog.py:130
-#: electrum/gui/qml/qetxfinalizer.py:313
+#: electrum/gui/qml/qetxfinalizer.py:315
 msgid "Not enough funds"
 msgstr "Nem áll rendelkezésre elegendő összeg"
 
@@ -4094,7 +4103,7 @@ msgstr "Nem áll rendelkezésre elegendő összeg a címen."
 msgid "Not enough funds."
 msgstr "Nem áll rendelkezésre elegendő összeg."
 
-#: electrum/wallet.py:828
+#: electrum/wallet.py:830
 msgid "Not verified"
 msgstr "Nem megerősített"
 
@@ -4359,7 +4368,7 @@ msgstr "Fizetve!"
 msgid "Parents"
 msgstr "Eredeti tranzakciók"
 
-#: electrum/wallet.py:855
+#: electrum/wallet.py:861
 msgid "Partially signed"
 msgstr "Részlegesen aláírt"
 
@@ -4403,13 +4412,13 @@ msgstr "A jelszó túl rövid (legalább {0} karakter)"
 msgid "Password mismatch"
 msgstr "A jelszó nem egyezik"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:146
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:161
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:151
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:166
 msgid "Password must have at least 4 characters."
 msgstr "A jelszónak legalább 4 karakterből kell állnia."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:149
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:164
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:154
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:169
 msgid "Password must have less than 64 characters."
 msgstr "A jelszó maximum 64 karakter hosszú lehet."
 
@@ -4652,7 +4661,7 @@ msgstr "Illeszd be a társ-aláíród nyilvános mesterkulcsát, vagy szkenneld 
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Kérjük jelentsd a hibákat az alábbi github oldalon:<br/>"
 
-#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:259
+#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:261
 msgid "Please report this issue manually"
 msgstr "Kérjük jelentsd ezt a hibát manuálisan"
 
@@ -4826,15 +4835,15 @@ msgstr "Adatvédelmi elemzés"
 #: electrum/gui/qt/main_window.py:1950 electrum/gui/qt/main_window.py:1955
 #: electrum/gui/qt/address_list.py:294
 msgid "Private key"
-msgstr "Privát kulcs"
+msgstr "Titkos kulcs"
 
 #: electrum/gui/qt/main_window.py:2273
 msgid "Private keys"
-msgstr "Privát kulcsok"
+msgstr "Titkos kulcsok"
 
 #: electrum/gui/qt/main_window.py:2353
 msgid "Private keys exported."
-msgstr "Privát kulcsok exportálva."
+msgstr "Titkos kulcsok exportálva."
 
 #: electrum/gui/qml/qedaemon.py:276
 msgid "Problem deleting wallet"
@@ -4944,7 +4953,7 @@ msgstr "Kérdés"
 msgid "Quit"
 msgstr "Kilépés"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:184
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:189
 msgid "REMEMBER THE PASSWORD!"
 msgstr "NE FELEJTSD EL EZT A JELSZÓT!"
 
@@ -5354,7 +5363,7 @@ msgstr "Dátum kiválasztása"
 
 #: electrum/gui/qt/main_window.py:2287
 msgid "Select file to export your private keys to"
-msgstr "Melyik fájlba exportálja a privát kulcsokat"
+msgstr "Válaszd ki a fájlt a titkos kulcsok exportálásához"
 
 #: electrum/gui/qt/history_list.py:831
 msgid "Select file to export your wallet transactions to"
@@ -5647,7 +5656,7 @@ msgstr "Aláírás"
 msgid "Signature verified"
 msgstr "Aláírás ellenőrizve"
 
-#: electrum/wallet.py:850
+#: electrum/wallet.py:856
 msgid "Signed"
 msgstr "Aláírva"
 
@@ -5655,23 +5664,23 @@ msgstr "Aláírva"
 msgid "Signing"
 msgstr "Aláírás"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:605
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:611
 msgid "Signing large transaction. Please be patient ..."
 msgstr "Nagy tranzakció aláírása folyamatban. Légy türelmes..."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:475
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:481
 msgid "Signing message ..."
 msgstr "Üzenet aláírása folyamatban..."
 
 #: electrum/gui/qt/main_window.py:1227 electrum/plugins/ledger/ledger.py:687
 #: electrum/plugins/ledger/ledger.py:700
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:610
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:616
 msgid "Signing transaction..."
 msgstr "Tranzakció aláírása folyamatban..."
 
 #: electrum/gui/qt/main_window.py:1963
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Egy címmel aláírás azt jelenti, hogy az aláírás a címhez tartozó privát kulccsal történik, az ellenőrzés pedig a nyilvános kulccsal. Az általad megadott címhez nem tartozik egyedi nyilvános kulcs, tehát nem lehet vele aláírni sem."
+msgstr "Egy címmel aláírás azt jelenti, hogy az aláírás a címhez tartozó titkos kulccsal történik, az ellenőrzés pedig a nyilvános kulccsal. Az általad megadott címhez nem tartozik egyedi nyilvános kulcs, tehát nem lehet vele aláírni sem."
 
 #: electrum/plugins/trezor/qt.py:288
 msgid "Single seed (BIP39)"
@@ -5837,7 +5846,7 @@ msgstr "Begyűjtés"
 
 #: electrum/gui/qt/main_window.py:2397
 msgid "Sweep private keys"
-msgstr "Privát kulcsok begyűjtése"
+msgstr "Titkos kulcsok begyűjtése"
 
 #: electrum/gui/qt/receive_tab.py:137
 msgid "Switch between text and QR code view"
@@ -5904,7 +5913,7 @@ msgstr "Thai"
 msgid "Thanks for reporting this issue!"
 msgstr "Köszönjük, hogy bejelentetted a hibát!"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:224
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:229
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "A Digital Bitbox már tartalmaz egy magot. Válassz egy lehetőséget:"
 
@@ -5956,7 +5965,9 @@ msgstr "A csatornához tartozó partner képes Trampoline fizetéseket továbbí
 msgid "The channel you created is not recoverable from seed.\n"
 "To prevent fund losses, please save this backup on another device.\n"
 "It may be imported in another Electrum wallet with the same seed."
-msgstr ""
+msgstr "A létrehozott csatorna nem állítható vissza a magból.\n"
+"A pénz elvesztésének megelőzése érdekében, mentsd ezt a biztonsági másolatot egy másik eszközre.\n"
+"Ez importálható egy ugyanazzal a maggal rendelkező, másik Electrum tárcába."
 
 #: electrum/gui/qt/send_tab.py:98
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -5968,7 +5979,7 @@ msgstr "A megjegyzés nem lesz elküldve el a címzett számára. A saját tárc
 msgid "The device was disconnected."
 msgstr "Az eszköz nincs csatlakoztatva."
 
-#: electrum/wallet.py:2885
+#: electrum/wallet.py:2901
 msgid "The fee could not be verified. Signing non-segwit inputs is risky:\n"
 "if this transaction was maliciously modified before you sign,\n"
 "you might end up paying a higher mining fee than displayed."
@@ -5976,7 +5987,7 @@ msgstr "A díj nem ellenőrizhető. Nem-segwit bemenetek aláírása veszélyes:
 "ha a tranzakció valaki más által módosítva volt az aláírás előtt, akkor\n"
 "a bányászköltség nagyobb lehet az eredetinél."
 
-#: electrum/wallet.py:2914 electrum/wallet.py:2919
+#: electrum/wallet.py:2930 electrum/wallet.py:2935
 msgid "The fee for this transaction seems unusually high."
 msgstr "A tranzakció díja szokatlanul magasnak tűnik."
 
@@ -6010,15 +6021,15 @@ msgstr "Az alábbi bemenetek nem lettek importálva"
 msgid "The funding transaction has been detected."
 msgstr "A fedezetet biztosító tranzakciót detektálták."
 
-#: electrum/wallet.py:2880
+#: electrum/wallet.py:2896
 msgid "The input amounts could not be verified as the previous transactions are missing.\n"
 "The amount of money being spent CANNOT be verified."
 msgstr "A bemeneti összegek ellenőrzése nem sikerült, mert hiányoznak a korábbi tranzakciók.\n"
 "Az elküldésre kerülő összeg NEM ELLENŐRIZHETŐ."
 
-#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:540
-#: electrum/gui/qml/qetxfinalizer.py:647 electrum/wallet.py:1918
-#: electrum/wallet.py:2181
+#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:542
+#: electrum/gui/qml/qetxfinalizer.py:649 electrum/wallet.py:1934
+#: electrum/wallet.py:2197
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "Az új egységdíjnak nagyobbnak kell lennie a réginél."
 
@@ -6030,7 +6041,7 @@ msgstr "A következő lépésben a pénztárca magja kerül létrehozásra. Ez a
 msgid "The operation is undefined. Not just in Electrum, but in general."
 msgstr "Ez a művelet nincs definiálva. Nem csak az Electrumban, hanem egyáltalán."
 
-#: electrum/wallet.py:2147 electrum/wallet.py:2201
+#: electrum/wallet.py:2163 electrum/wallet.py:2217
 msgid "The output value remaining after fee is too low."
 msgstr "A díjon felül fennmaradó kimeneti összeg túl alacsony."
 
@@ -6113,7 +6124,7 @@ msgstr "Még vannak nem kifizetett kérelmek. Biztos, hogy törlöd?"
 msgid "There is a new update available"
 msgstr "Új frissítés elérhető"
 
-#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:257
+#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:259
 msgid "There was a problem with the automatic reporting:"
 msgstr "Hiba történt az automatikus hibajelentés közben:"
 
@@ -6126,7 +6137,7 @@ msgstr "Emiatt a kétlépcsős hitelesítés ki van kapcsolva."
 msgid "This UTXO has {} parent transactions in your wallet."
 msgstr "Ehhez az egyenleggel rendelkező kimeneti címhez {} egy szülő tranzakció tartozik a tárcádban."
 
-#: electrum/wallet.py:2964
+#: electrum/wallet.py:2980
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Ez a cím már használva volt. Az anonimitásod növelése érdekében ne használd ezt a címet többször."
 
@@ -6175,17 +6186,17 @@ msgstr "Ez a fájl egy hardvereszközzel került titkosításra."
 msgid "This file is encrypted with a password."
 msgstr "Ez a fájl jelszóval van titkosítva."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:755
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:761
 msgid "This function is only available after pairing your {} with a mobile device."
 msgstr "Ez a funkció akkor válik elérhetővé, miután a {0} eszközt párosítod egy mobileszközzel."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:758
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:764
 msgid "This function is only available for p2pkh keystores when using {}."
 msgstr "Ez a funkció csak akkor elérhető p2pkh kulcstárhoz, ha a {0} eszközt használsz."
 
 #: electrum/plugins/coldcard/coldcard.py:612
-#: electrum/plugins/ledger/ledger.py:1438
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:752
+#: electrum/plugins/ledger/ledger.py:1451
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:758
 msgid "This function is only available for standard wallets when using {}."
 msgstr "Ez a funkció csak akkor érhető el általános tárcához ha a {0} eszközt használsz."
 
@@ -6218,7 +6229,7 @@ msgstr "Ez egy csatorna biztonsági mentés."
 msgid "This is a static channel backup"
 msgstr "Ez egy statikus csatorna biztonsági mentés"
 
-#: electrum/gui/qt/main_window.py:2266 electrum/wallet.py:724
+#: electrum/gui/qt/main_window.py:2266 electrum/wallet.py:726
 msgid "This is a watching-only wallet"
 msgstr "Ez egy figyelő-tárca"
 
@@ -6228,7 +6239,7 @@ msgstr "Ez egy figyelő-tárca."
 
 #: electrum/gui/kivy/main_window.py:1441
 msgid "This is a watching-only wallet. It does not contain private keys."
-msgstr "Ez egy figyelő-tárca, nem tartalmaz privát kulcsokat."
+msgstr "Ez egy figyelő-tárca, nem tartalmaz titkos kulcsokat."
 
 #: electrum/gui/qt/installwizard.py:55
 msgid "This is discouraged."
@@ -6274,15 +6285,15 @@ msgstr "Ez a bővítmény kétlépcsős hitelesítést ad hozzá a tárcádhoz."
 msgid "This plugin facilitates the use of multi-signatures wallets."
 msgstr "Ezzel a bővítménnyel társ-aláírós tárcákat használhatsz."
 
-#: electrum/wallet.py:2950 electrum/wallet.py:2955
+#: electrum/wallet.py:2966 electrum/wallet.py:2971
 msgid "This request cannot be paid on-chain"
 msgstr "Ez a kérelem nem fizethető ki a blokkláncon"
 
-#: electrum/wallet.py:2960
+#: electrum/wallet.py:2976
 msgid "This request does not have a Lightning invoice."
 msgstr "Ehhez a kérelmehez nem tartozik Lighning fizetési kérelem."
 
-#: electrum/wallet.py:2945
+#: electrum/wallet.py:2961
 msgid "This request has expired"
 msgstr "Ez a kérelem lejárt"
 
@@ -6300,7 +6311,7 @@ msgstr "Ez a beállítás a Küldés lapot, valamint az összes egyenleggel kapc
 
 #: electrum/gui/messages.py:63
 msgid "This summary covers only on-chain transactions (no lightning!). Capital gains are computed by attaching an acquisition price to each UTXO in the wallet, and uses the order of blockchain events (not FIFO)."
-msgstr ""
+msgstr "Ez az összefoglaló csak a blokkláncon lévő tranzakciókra vonatkozik (Lightning nélkül!). A tőkenyereség kiszámítása úgy történik, hogy a tárcában lévő, minden egyenleggel rendelkező kimeneti címhez egy beszerzési árat rendelünk, és a blokklánc eseményeinek sorrendjét használjuk (nem FIFO)."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:575
 msgid "This transaction has {} change outputs."
@@ -6318,7 +6329,7 @@ msgstr "Ez a tranzakció csak a te gépeden létezik.\n"
 "A jelenleg csatlakozott szerver nem tud róla.\n"
 "Kiküldheted most, vagy egyszerűen törölheted."
 
-#: electrum/wallet.py:2908
+#: electrum/wallet.py:2924
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr "A tranzakciónak egy magasabb díjat kell megadni, különben a  jelenlegi szerver nem fogja továbbítani."
 
@@ -6327,8 +6338,8 @@ msgid "This transaction will spend unconfirmed coins."
 msgstr "Ez a tranzakció még nem megerősített érméket is elkölt."
 
 #: electrum/plugins/coldcard/coldcard.py:530
-#: electrum/plugins/ledger/ledger.py:1427
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:728
+#: electrum/plugins/ledger/ledger.py:1440
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:734
 #: electrum/plugins/keepkey/keepkey.py:297
 #: electrum/plugins/safe_t/safe_t.py:267 electrum/plugins/trezor/trezor.py:318
 #: electrum/plugins/jade/jade.py:447
@@ -6366,7 +6377,7 @@ msgstr "Ez egy figyelő-tárca."
 #: electrum/plugins/trustedcoin/qt.py:98
 #: electrum/plugins/trustedcoin/qml.py:277
 msgid "This wallet was restored from seed, and it contains two master private keys."
-msgstr "Ez a pénztárca magból volt visszaállítva, és két privát mesterkulcsot is tartalmaz."
+msgstr "Ez a pénztárca magból volt visszaállítva, és két titkos mesterkulcsot is tartalmaz."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:417
 msgid "This will save fees, but might have unwanted effects in terms of privacy"
@@ -6384,14 +6395,14 @@ msgstr "Ez a {} eszköz csak base58 címekre tud küldeni."
 msgid "To"
 msgstr "Befejező dátum"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:477
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:608
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:612
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:483
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:614
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:618
 msgid "To cancel, briefly touch the blinking light or wait for the timeout."
 msgstr "A megszakításhoz érintsd meg rövid ideig a villogó fényt, vagy várd meg, amíg lejár."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:317
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:341
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:322
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:346
 msgid "To cancel, briefly touch the light or wait for the timeout."
 msgstr "A megszakításhoz érintsd meg rövid ideig a fényt, vagy várd meg, amíg lejár."
 
@@ -6399,20 +6410,20 @@ msgstr "A megszakításhoz érintsd meg rövid ideig a fényt, vagy várd meg, a
 msgid "To channel"
 msgstr "Erre a csatornára:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:476
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:606
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:611
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:482
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:612
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:617
 msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
 msgstr "A folytatáshoz érintsd meg a Digital Bitbox villogó fényét 3 másodpercig."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:316
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:340
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:321
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:345
 msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
 msgstr "A folytatáshoz érintsd meg a Digital Bitbox fényét 3 másodpercig."
 
 #: electrum/base_wizard.py:261
 msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
-msgstr "Költő pénztárca létrehozásához írj be egy privát mesterkulcsot (xprv/yprv/zprv)."
+msgstr "Költő pénztárca létrehozásához írj be egy titkos mesterkulcsot (xprv/yprv/zprv)."
 
 #: electrum/base_wizard.py:260
 msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
@@ -6504,7 +6515,9 @@ msgstr "Teljes méret"
 msgid "Trampoline routing is enabled, but this channel is with a non-trampoline node.\n"
 "This channel may still be used for receiving, but it is frozen for sending.\n"
 "If you want to keep using this channel, you need to disable trampoline routing in your preferences."
-msgstr ""
+msgstr "A trampoline útválasztás engedélyezve van, de ez a csatorna egy nem trampoline csomóponthoz kapcsolódik.\n"
+"Ez a csatorna továbbra is használható fogadásra, de küldésre fagyasztva van.\n"
+"Ha továbbra is használni szeretnéd ezt a csatornát, akkor a beállításokban ki kell kapcsolni a trampoline útválasztást."
 
 #: electrum/gui/qt/transaction_dialog.py:598
 #: electrum/gui/qt/transaction_dialog.py:940
@@ -6544,7 +6557,7 @@ msgstr "A tranzakció nem menthető el."
 msgid "Transaction exported successfully"
 msgstr "Tranzakció sikeresen exportálva"
 
-#: electrum/wallet.py:1908 electrum/wallet.py:2171
+#: electrum/wallet.py:1924 electrum/wallet.py:2187
 msgid "Transaction is final"
 msgstr "A tranzakció végleges"
 
@@ -6625,7 +6638,7 @@ msgstr "Szeretnél újra megpróbálni csatlakozni?"
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Ne csak azt írd le, hogy mi maga a hiba, hanem próbáld meg azt is leírni, hogy az hogyan fordult elő."
 
-#: electrum/wallet.py:2909
+#: electrum/wallet.py:2925
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Próbáld meg növelni a díjat, vagy válassz egy szervert aminek alacsonyabb a minimum továbbítási díja."
 
@@ -6692,7 +6705,7 @@ msgstr "Nem lehet aláírni a tranzakciót"
 
 #: electrum/gui/qt/balance_dialog.py:177 electrum/gui/qt/balance_dialog.py:198
 #: electrum/gui/qt/main_window.py:951 electrum/wallet.py:98
-#: electrum/wallet.py:830 electrum/invoices.py:58
+#: electrum/wallet.py:832 electrum/invoices.py:58
 msgid "Unconfirmed"
 msgstr "Nem megerősített"
 
@@ -6700,7 +6713,7 @@ msgstr "Nem megerősített"
 msgid "Unconfirmed parent"
 msgstr "Nem megerősített eredeti tranzakció"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:206
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:211
 msgid "Unexpected error occurred."
 msgstr "Váratlan hiba történt."
 
@@ -6773,7 +6786,7 @@ msgstr "Nincs fizetve"
 msgid "Unrealized capital gains"
 msgstr "Nem realizált tőkenyereség"
 
-#: electrum/wallet.py:855
+#: electrum/wallet.py:861
 msgid "Unsigned"
 msgstr "Nincs aláírva"
 
@@ -6784,6 +6797,10 @@ msgstr "Nem támogatott eszköz firmware (túl régi)"
 #: electrum/crypto.py:213
 msgid "Unsupported password hash version"
 msgstr "Nem támogatott jelszó ellenőrzőösszeg verzió"
+
+#: electrum/gui/qml/qebitcoin.py:129
+msgid "Unsupported wallet type"
+msgstr ""
 
 #: electrum/gui/qt/address_list.py:57
 #: electrum/gui/kivy/uix/dialogs/addresses.py:248
@@ -6818,7 +6835,7 @@ msgstr "Egy BIP39 mnemonic feltöltése a mag létrehozásához"
 #: electrum/plugins/keepkey/keepkey.py:216
 #: electrum/plugins/safe_t/safe_t.py:174
 msgid "Upload a master private key"
-msgstr "Egy privát mesterkulcs feltöltése"
+msgstr "Egy titkos mesterkulcs feltöltése"
 
 #: electrum/gui/qt/network_dialog.py:255
 msgid "Use Tor Proxy"
@@ -6958,7 +6975,7 @@ msgstr "FIGYELEM"
 
 #: electrum/gui/qt/main_window.py:2277
 msgid "WARNING: ALL your private keys are secret."
-msgstr "FIGYELEM: Az ÖSSZES privát kulcsod titkos."
+msgstr "FIGYELEM: Az ÖSSZES titkos kulcsod bizalmas."
 
 #: electrum/gui/qt/main_window.py:2270
 msgid "WARNING: This is a multi-signature wallet."
@@ -7059,8 +7076,8 @@ msgstr "Tárcák"
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:487
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:115
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:220
-#: electrum/gui/qml/qetxfinalizer.py:342 electrum/wallet.py:2879
-#: electrum/wallet.py:2884 electrum/wallet.py:2890
+#: electrum/gui/qml/qetxfinalizer.py:344 electrum/wallet.py:2895
+#: electrum/wallet.py:2900 electrum/wallet.py:2906
 #: electrum/plugins/revealer/qt.py:184 electrum/plugins/revealer/qt.py:217
 msgid "Warning"
 msgstr "Figyelem"
@@ -7166,7 +7183,7 @@ msgid "Wrong PIN"
 msgstr "Hibás PIN kód"
 
 #: electrum/base_wizard.py:578 electrum/base_wizard.py:586
-#: electrum/gui/qml/qebitcoin.py:121 electrum/gui/qml/qebitcoin.py:126
+#: electrum/gui/qml/qebitcoin.py:120 electrum/gui/qml/qebitcoin.py:125
 msgid "Wrong key type"
 msgstr "Hibás kulcs típus"
 
@@ -7244,7 +7261,7 @@ msgstr "Használhatod egy kényszerített lezárás kérelmezésére."
 msgid "You can't broadcast a transaction without a live network connection."
 msgstr "Nem lehet elküldeni a tranzakciót internetkapcsolat nélkül."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:185
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:190
 msgid "You cannot access your coins or a backup without the password."
 msgstr "A jelszó nélkül nem férsz hozzá a pénzedhez vagy a biztonsági mentéshez."
 
@@ -7260,7 +7277,7 @@ msgstr "Csatorna biztonsági mentéseket nem lehet Lightning fizetésekre haszn�
 msgid "You do not have liquidity in your active channels."
 msgstr "Nincs fedezeted az aktív csatornáidon."
 
-#: electrum/wallet.py:2974
+#: electrum/wallet.py:2990
 msgid "You do not have the capacity to receive this amount with Lightning."
 msgstr "Nincs meg az elegendő kapacitásod, hogy ezt az összeget Lightning segítségével fogadd."
 
@@ -7289,11 +7306,11 @@ msgstr "Írj be egy Bitcoin címet, egy címkét a névjegyekből (kitöltést s
 msgid "You may extend your seed with custom words."
 msgstr "Kiegészítheted a magot további szavakkal."
 
-#: electrum/wallet.py:2976
+#: electrum/wallet.py:2992
 msgid "You may have that capacity if you rebalance your channels."
 msgstr "Elérhetővé válhat ez a kapacitás, ha átrendezed a csatornáid egyenlegét."
 
-#: electrum/wallet.py:2978
+#: electrum/wallet.py:2994
 msgid "You may have that capacity if you swap some of your funds."
 msgstr "Elérhetővé válhat ez a kapacitás, ha cserélsz bizonyos összegeket."
 
@@ -7313,7 +7330,7 @@ msgstr "Valószínűleg egy programkönyvtár nem kompatibilis."
 msgid "You might have to unplug and plug it in again."
 msgstr "Esetleg ki kellhet húznod, majd visszadugni."
 
-#: electrum/wallet.py:2969
+#: electrum/wallet.py:2985
 msgid "You must be online to receive Lightning payments."
 msgstr "Online kell lenned Lightning fizetések fogadásához."
 
@@ -7443,7 +7460,7 @@ msgstr "A címkék szinkronizálása sikeres."
 
 #: electrum/gui/messages.py:26
 msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
-msgstr ""
+msgstr "A csomópontod meg fog egyezni a tranzakciós díjról a távoli csomóponttal. A csatorna lezárásának ez a módja általában a legalacsonyabb díjakat eredményezi."
 
 #: electrum/gui/qt/seed_dialog.py:186
 msgid "Your seed extension is"
@@ -7618,7 +7635,7 @@ msgstr "aktív"
 msgid "add inputs and outputs"
 msgstr "be- és kimenetek hozzáadása"
 
-#: electrum/wallet.py:3079
+#: electrum/wallet.py:3095
 msgid "address already in wallet"
 msgstr "cím már benne van a pénztárcában"
 
@@ -7626,7 +7643,7 @@ msgstr "cím már benne van a pénztárcában"
 msgid "are frozen"
 msgstr "le van fagyasztva"
 
-#: electrum/wallet.py:2910
+#: electrum/wallet.py:2926
 msgid "below relay fee"
 msgstr "továbbítási díj alatt"
 
@@ -7666,11 +7683,11 @@ msgstr "minden Revealer egyszeri használatú, csak egy titokhoz használd."
 msgid "file size"
 msgstr "fájlméret"
 
-#: electrum/wallet.py:2921
+#: electrum/wallet.py:2937
 msgid "high fee rate"
 msgstr "magas egységdíj"
 
-#: electrum/wallet.py:2916
+#: electrum/wallet.py:2932
 msgid "high fee ratio"
 msgstr "magas a díj aránya"
 
@@ -7722,6 +7739,10 @@ msgstr "több mint {} év múlva"
 msgid "in submarine swap"
 msgstr "egy submarine cserén"
 
+#: electrum/wallet.py:852 electrum/wallet.py:1528
+msgid "in {} blocks"
+msgstr ""
+
 #: electrum/util.py:830
 msgid "in {} seconds"
 msgstr "{} másodpercen belül"
@@ -7730,13 +7751,13 @@ msgstr "{} másodpercen belül"
 msgid "initialized"
 msgstr "inicializálva"
 
-#: electrum/wallet.py:3076
+#: electrum/wallet.py:3092
 msgid "invalid address"
 msgstr "érvénytelen cím"
 
-#: electrum/wallet.py:3175
+#: electrum/wallet.py:3191
 msgid "invalid private key"
-msgstr "érvénytelen privát kulcs"
+msgstr "érvénytelen titkos kulcs"
 
 #: electrum/gui/qt/main_window.py:2375 electrum/gui/qt/main_window.py:2378
 msgid "invoices"
@@ -7766,7 +7787,7 @@ msgstr "betöltve"
 msgid "loading"
 msgstr "betöltés"
 
-#: electrum/wallet.py:3178
+#: electrum/wallet.py:3194
 msgid "not implemented type"
 msgstr "ismeretlen típus"
 
@@ -7842,7 +7863,8 @@ msgstr "nem érhető el"
 #: electrum/gui/qt/transaction_dialog.py:819
 #: electrum/gui/qt/qrreader/qtmultimedia/camera_dialog.py:284
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:183
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1538
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1532
+#: electrum/wallet.py:1554
 msgid "unknown"
 msgstr "ismeretlen"
 
@@ -7908,7 +7930,7 @@ msgstr "{} cím"
 msgid "{} channels"
 msgstr "{} csatorna"
 
-#: electrum/wallet.py:826
+#: electrum/wallet.py:828
 msgid "{} confirmations"
 msgstr "{} megerősítés"
 
@@ -8012,7 +8034,7 @@ msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 #: ../gui/qml/components/About.qml:73
 msgctxt "About|"
 msgid "Developers"
-msgstr ""
+msgstr "Fejlesztők"
 
 #: ../gui/qml/components/About.qml:85
 msgctxt "About|"
@@ -8521,12 +8543,12 @@ msgctxt "ConfirmTxDialog|"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:220
+#: ../gui/qml/components/ConfirmTxDialog.qml:226
 msgctxt "ConfirmTxDialog|"
 msgid "Finalize"
 msgstr "Véglegesítés"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:221
+#: ../gui/qml/components/ConfirmTxDialog.qml:227
 msgctxt "ConfirmTxDialog|"
 msgid "Pay"
 msgstr "Fizetés"
@@ -8592,7 +8614,7 @@ msgctxt "CpfpBumpFeeDialog|"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: ../gui/qml/components/CpfpBumpFeeDialog.qml:221
+#: ../gui/qml/components/CpfpBumpFeeDialog.qml:227
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Ok"
 msgstr "OK"
@@ -8762,7 +8784,7 @@ msgstr "Másik cím beolvasása"
 #: ../gui/qml/components/ImportAddressesKeysDialog.qml:86
 msgctxt "ImportAddressesKeysDialog|"
 msgid "Scan another private key"
-msgstr "Másik privát kulcs beolvasása"
+msgstr "Másik titkos kulcs beolvasása"
 
 #: ../gui/qml/components/ImportAddressesKeysDialog.qml:111
 msgctxt "ImportAddressesKeysDialog|"
@@ -9329,7 +9351,7 @@ msgstr "PIN kód megadása"
 #: ../gui/qml/components/Pin.qml:74
 msgctxt "Pin|"
 msgid "Enter New PIN"
-msgstr "Add meg az új PIN-kódot"
+msgstr "Új PIN-kód"
 
 #: ../gui/qml/components/Pin.qml:74
 msgctxt "Pin|"
@@ -9409,7 +9431,7 @@ msgstr "Tárca működése"
 #: ../gui/qml/components/Preferences.qml:238
 msgctxt "Preferences|"
 msgid "Spend unconfirmed"
-msgstr "Nem megerősített elköltése"
+msgstr "Nem megerősített összegek elköltése"
 
 #: ../gui/qml/components/Preferences.qml:245
 msgctxt "Preferences|"
@@ -9562,7 +9584,7 @@ msgctxt "RbfBumpFeeDialog|"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: ../gui/qml/components/RbfBumpFeeDialog.qml:234
+#: ../gui/qml/components/RbfBumpFeeDialog.qml:240
 msgctxt "RbfBumpFeeDialog|"
 msgid "Ok"
 msgstr "OK"
@@ -9607,7 +9629,7 @@ msgctxt "RbfCancelDialog|"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: ../gui/qml/components/RbfCancelDialog.qml:193
+#: ../gui/qml/components/RbfCancelDialog.qml:199
 msgctxt "RbfCancelDialog|"
 msgid "Ok"
 msgstr "OK"
@@ -9946,94 +9968,94 @@ msgctxt "TxDetails|"
 msgid "Outputs"
 msgstr "Kimenetek"
 
-#: ../gui/qml/components/TxDetails.qml:309
+#: ../gui/qml/components/TxDetails.qml:315
 msgctxt "TxDetails|"
 msgid "Bump fee"
 msgstr "Tranzakciós díj megemelése"
 
-#: ../gui/qml/components/TxDetails.qml:325
+#: ../gui/qml/components/TxDetails.qml:331
 msgctxt "TxDetails|"
 msgid "Cancel Tx"
 msgstr "Törlés"
 
-#: ../gui/qml/components/TxDetails.qml:336
+#: ../gui/qml/components/TxDetails.qml:342
 msgctxt "TxDetails|"
 msgid "Sign"
 msgstr "Aláírás"
 
-#: ../gui/qml/components/TxDetails.qml:345
+#: ../gui/qml/components/TxDetails.qml:351
 msgctxt "TxDetails|"
 msgid "Broadcast"
 msgstr "Kiküldés"
 
-#: ../gui/qml/components/TxDetails.qml:354
+#: ../gui/qml/components/TxDetails.qml:360
 msgctxt "TxDetails|"
 msgid "Share"
 msgstr "Megosztás"
 
-#: ../gui/qml/components/TxDetails.qml:362
+#: ../gui/qml/components/TxDetails.qml:368
 msgctxt "TxDetails|"
 msgid "This transaction is complete. Please share it with an online device"
 msgstr "Ez a tranzakció kész. Oszd meg egy online eszközzel"
 
-#: ../gui/qml/components/TxDetails.qml:364
+#: ../gui/qml/components/TxDetails.qml:370
 msgctxt "TxDetails|"
 msgid "This transaction should be signed. Present this QR code to the signing device"
 msgstr "Ezt a tranzakciót még alá kell írni. Olvasd le a QR-kódot az aláíró eszközön"
 
-#: ../gui/qml/components/TxDetails.qml:367
+#: ../gui/qml/components/TxDetails.qml:373
 msgctxt "TxDetails|"
 msgid "Note: this wallet can sign, but has not signed this transaction yet"
 msgstr "Megjegyzés: ez a tárca képes aláírásra, de ez a tranzakció még nincs aláírva"
 
-#: ../gui/qml/components/TxDetails.qml:369
+#: ../gui/qml/components/TxDetails.qml:375
 msgctxt "TxDetails|"
 msgid "Transaction is partially signed by this wallet. Present this QR code to the next co-signer"
 msgstr "A tranzakció részben alá van írva ezzel a tárcával. Olvasd be a QR-kódot a következő társ-aláírónál"
 
-#: ../gui/qml/components/TxDetails.qml:381
+#: ../gui/qml/components/TxDetails.qml:387
 msgctxt "TxDetails|"
 msgid "Save"
 msgstr "Mentés"
 
-#: ../gui/qml/components/TxDetails.qml:390
+#: ../gui/qml/components/TxDetails.qml:396
 msgctxt "TxDetails|"
 msgid "Remove"
 msgstr "Törlés"
 
-#: ../gui/qml/components/TxDetails.qml:426
+#: ../gui/qml/components/TxDetails.qml:432
 msgctxt "TxDetails|"
 msgid "Transaction added to wallet history."
 msgstr "Tranzakció hozzáadva a pénztárca előzményeihez."
 
-#: ../gui/qml/components/TxDetails.qml:427
+#: ../gui/qml/components/TxDetails.qml:433
 msgctxt "TxDetails|"
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "Ne feledd: ez egy offline tranzakció. Ahhoz, hogy mások is láthassák, el kell küldened."
 
-#: ../gui/qml/components/TxDetails.qml:439
+#: ../gui/qml/components/TxDetails.qml:445
 msgctxt "TxDetails|"
 msgid "Transaction was broadcast successfully"
 msgstr "Tranzakció sikeresen kiküldve"
 
-#: ../gui/qml/components/TxDetails.qml:459
+#: ../gui/qml/components/TxDetails.qml:465
 msgctxt "TxDetails|"
 msgid "Transaction fee updated."
 msgstr "Tranzakciós díj frissítve"
 
-#: ../gui/qml/components/TxDetails.qml:460
-#: ../gui/qml/components/TxDetails.qml:488
-#: ../gui/qml/components/TxDetails.qml:515
+#: ../gui/qml/components/TxDetails.qml:466
+#: ../gui/qml/components/TxDetails.qml:494
+#: ../gui/qml/components/TxDetails.qml:521
 msgctxt "TxDetails|"
 msgid "You still need to sign and broadcast this transaction."
 msgstr "Ezt a tranzakciót még alá kell írnod és kiküldeni."
 
-#: ../gui/qml/components/TxDetails.qml:487
+#: ../gui/qml/components/TxDetails.qml:493
 msgctxt "TxDetails|"
 msgid "CPFP fee bump transaction created."
 msgstr "Díjfizetés másodlagos tranzakcióval tranzakciója létrehozva."
 
-#: ../gui/qml/components/TxDetails.qml:514
+#: ../gui/qml/components/TxDetails.qml:520
 msgctxt "TxDetails|"
 msgid "Cancel transaction created."
 msgstr "Törlő tranzakció létrehozva."
@@ -10118,32 +10140,32 @@ msgctxt "WCBIP39Refine|"
 msgid "Derivation path"
 msgstr "Származtatási útvonal"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:31
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:34
 msgctxt "WCConfirmSeed|"
 msgid "Your seed is important!"
 msgstr "A mag nagyon fontos!"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:32
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:35
 msgctxt "WCConfirmSeed|"
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "Ha elveszíted a magot, akkor a tárcában lévő összes pénz véglegesen elveszik."
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:33
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:36
 msgctxt "WCConfirmSeed|"
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Írd be ide újra a magot, hogy megbizonyosodhass róla, hogy megfelelően leírtad."
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:38
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:40
 msgctxt "WCConfirmSeed|"
 msgid "Confirm your seed (re-enter)"
 msgstr "Mag jóváhagyása (írd be)"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:44
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:46
 msgctxt "WCConfirmSeed|"
 msgid "Enter your seed"
 msgstr "Írd be a magot"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:51
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:53
 msgctxt "WCConfirmSeed|"
 msgid "Enter your custom word(s)"
 msgstr "Add meg az saját szavadat/szavaidat"
@@ -10174,208 +10196,208 @@ msgctxt "WCCosignerKeystore|"
 msgid "Cosigner seed"
 msgstr "Társ-aláíró mag"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:22
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:24
 #, qt-format
 msgctxt "WCCreateSeed|"
 msgid "Please save these %1 words on paper (order is important)."
 msgstr "Írd le ezt a %1 szót egy papírra (a sorrend is fontos)."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:23
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:25
 msgctxt "WCCreateSeed|"
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "A mag segítségével adatvesztés esetén is vissza tudod állítani a pénztárcádat."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:25
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:27
 msgctxt "WCCreateSeed|"
 msgid "WARNING"
 msgstr "FIGYELEM"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:27
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:29
 msgctxt "WCCreateSeed|"
 msgid "Never disclose your seed."
 msgstr "Ne oszd meg másokkal ezt a magot."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:28
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:30
 msgctxt "WCCreateSeed|"
 msgid "Never type it on a website."
 msgstr "Soha ne írd be semmilyen weboldalra."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:29
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:31
 msgctxt "WCCreateSeed|"
 msgid "Do not store it electronically."
 msgstr "Ne tárold elektronikusan (interneten / számítógépen / mobiltelefonon)."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:54
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:56
 msgctxt "WCCreateSeed|"
 msgid "Your wallet generation seed is:"
 msgstr "A pénztárca helyreállításához szükséges mag:"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:71
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:73
 msgctxt "WCCreateSeed|"
 msgid "Extend seed with custom words"
 msgstr "Mag meghosszabbítása saját szavakkal"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:78
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:80
 msgctxt "WCCreateSeed|"
 msgid "Enter your custom word(s)"
 msgstr "Add meg az saját szavadat/szavaidat"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:38
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:39
 msgctxt "WCHaveMasterKey|"
 msgid "Error: invalid master key"
 msgstr "Hiba: érvénytelen mesterkulcs"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:45
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:46
 msgctxt "WCHaveMasterKey|"
 msgid "Error: duplicate master public key"
 msgstr "Hiba: dupla nyilvános mesterkulcs"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:60
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:61
 msgctxt "WCHaveMasterKey|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr "Ez a nyilvános mesterkulcsod. Oszd meg a társ-aláírókkal"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:83
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:84
 msgctxt "WCHaveMasterKey|"
 msgid "Master public key"
 msgstr "Nyilvános mesterkulcs"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:102
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:103
 #, qt-format
 msgctxt "WCHaveMasterKey|"
 msgid "Cosigner #%1 of %2"
 msgstr "%1. társaláíró (összesen: %2)"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:109
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:110
 msgctxt "WCHaveMasterKey|"
 msgid "Enter cosigner master public key"
 msgstr "Add meg a társaláíró nyilvános mesterkulcsát"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:110
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:111
 msgctxt "WCHaveMasterKey|"
 msgid "Create keystore from a master key"
 msgstr "Kulcstár készítése egy mesterkulcsból"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:147
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:148
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a cosigner master public key"
 msgstr "Társaláíró nyilvános mesterkulcsának beolvasása"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:148
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:149
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a master key"
 msgstr "Mesterkulcs beolvasása"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:39
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:40
 msgctxt "WCHaveSeed|"
 msgid "Electrum seeds are the default seed type."
 msgstr "Az Electrum magok az alapértelmezett típusúak."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:40
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:41
 msgctxt "WCHaveSeed|"
 msgid "If you are restoring from a seed previously created by Electrum, choose this option"
 msgstr "Ha olyan magból állítod helyre, amelyet az Electrum készített, ezt a lehetőséget válaszd"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:43
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:44
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "Lehetőség van más pénztárcák által generált BIP39 magok beimportálására az Electrum pénztárcába."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:45
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:46
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "Viszont az Electrum nem hoz létre új BIP39-es magokat, mivel azok nem felelnek meg a biztonsági igényeinknek."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:46
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:47
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
 msgstr "A BIP39-es magok nem tartalmaznak verziószámot, ezáltal csökkenthetik a jövőbeli szoftverekkel való kompatibilitást."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:49
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:50
 msgctxt "WCHaveSeed|"
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "Lehetőség van SLIP39 magok importálására az Electrum tárcába, és ezáltal elérni más tárcákban tárolt összeget."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:51
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:52
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Viszont, nem hozunk létre SLIP39 magokat."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:68
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:69
 msgctxt "WCHaveSeed|"
 msgid "Error: duplicate master public key"
 msgstr "Hiba: dupla nyilvános mesterkulcs"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:91
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:92
 msgctxt "WCHaveSeed|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr "Ez a nyilvános mesterkulcsod. Oszd meg a társ-aláírókkal"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:115
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:116
 msgctxt "WCHaveSeed|"
 msgid "Master public key"
 msgstr "Nyilvános mesterkulcs"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:136
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:137
 #, qt-format
 msgctxt "WCHaveSeed|"
 msgid "Cosigner #%1 of %2"
 msgstr "%1. társaláíró (összesen: %2)"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:142
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:143
 msgctxt "WCHaveSeed|"
 msgid "Seed Type"
 msgstr "Mag típusa"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:152
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:153
 msgctxt "WCHaveSeed|"
 msgid "Electrum"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:153
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:154
 msgctxt "WCHaveSeed|"
 msgid "BIP39"
 msgstr "BIP39"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:173
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
 msgctxt "WCHaveSeed|"
 msgid "Enter cosigner seed"
 msgstr "Társ-aláíró mag megadása"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:173
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
 msgctxt "WCHaveSeed|"
 msgid "Enter your seed"
 msgstr "Írd be a magot"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:209
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:197
 msgctxt "WCHaveSeed|"
 msgid "Extend seed with custom words"
 msgstr "Mag meghosszabbítása saját szavakkal"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:217
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:205
 msgctxt "WCHaveSeed|"
 msgid "Enter your custom word(s)"
 msgstr "Add meg az saját szavadat/szavaidat"
 
-#: ../gui/qml/components/wizard/WCImport.qml:31
+#: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
+msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy titkos kulcsokat."
 
-#: ../gui/qml/components/wizard/WCImport.qml:67
+#: ../gui/qml/components/wizard/WCImport.qml:68
 msgctxt "WCImport|"
 msgid "Scan another address"
 msgstr "Másik cím beolvasása"
 
-#: ../gui/qml/components/wizard/WCImport.qml:69
-msgctxt "WCImport|"
-msgid "Scan another private key"
-msgstr "Másik privát kulcs beolvasása"
-
 #: ../gui/qml/components/wizard/WCImport.qml:70
 msgctxt "WCImport|"
+msgid "Scan another private key"
+msgstr "Másik titkos kulcs beolvasása"
+
+#: ../gui/qml/components/wizard/WCImport.qml:71
+msgctxt "WCImport|"
 msgid "Scan a private key or an address"
-msgstr "Privát kulcs vagy egy cím beolvasása"
+msgstr "Titkos kulcs vagy egy cím beolvasása"
 
 #: ../gui/qml/components/wizard/WCKeystoreType.qml:17
 msgctxt "WCKeystoreType|"
@@ -10498,172 +10520,172 @@ msgstr "Társ-aláírós pénztárca"
 #: ../gui/qml/components/wizard/WCWalletType.qml:42
 msgctxt "WCWalletType|"
 msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin címek vagy privát kulcsok importálása"
+msgstr "Bitcoin címek vagy titkos kulcsok importálása"
 
 #: ../gui/qml/components/WalletDetails.qml:20
 msgctxt "WalletDetails|"
 msgid "Enable Lightning for this wallet?"
 msgstr "Bekapcsolod a Lightningot a tárcához?"
 
-#: ../gui/qml/components/WalletDetails.qml:60
+#: ../gui/qml/components/WalletDetails.qml:57
 msgctxt "WalletDetails|"
 msgid "Wallet details"
 msgstr "Tárca adatai"
 
-#: ../gui/qml/components/WalletDetails.qml:82
+#: ../gui/qml/components/WalletDetails.qml:79
 msgctxt "WalletDetails|"
 msgid "HD"
 msgstr "HD"
 
-#: ../gui/qml/components/WalletDetails.qml:89
+#: ../gui/qml/components/WalletDetails.qml:86
 msgctxt "WalletDetails|"
 msgid "Watch only"
 msgstr "Csak figyelő"
 
-#: ../gui/qml/components/WalletDetails.qml:97
+#: ../gui/qml/components/WalletDetails.qml:94
 msgctxt "WalletDetails|"
 msgid "Encrypted"
 msgstr "Titkosított"
 
-#: ../gui/qml/components/WalletDetails.qml:105
+#: ../gui/qml/components/WalletDetails.qml:102
 msgctxt "WalletDetails|"
 msgid "HW"
 msgstr "Hardver"
 
-#: ../gui/qml/components/WalletDetails.qml:113
+#: ../gui/qml/components/WalletDetails.qml:110
 msgctxt "WalletDetails|"
 msgid "Lightning"
 msgstr "Lightning"
 
-#: ../gui/qml/components/WalletDetails.qml:121
-#: ../gui/qml/components/WalletDetails.qml:138
+#: ../gui/qml/components/WalletDetails.qml:118
+#: ../gui/qml/components/WalletDetails.qml:135
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Mag"
 
-#: ../gui/qml/components/WalletDetails.qml:161
+#: ../gui/qml/components/WalletDetails.qml:158
 msgctxt "WalletDetails|"
 msgid "Tap to show seed"
 msgstr "Érintsd meg a mag megjelenítéséhez"
 
-#: ../gui/qml/components/WalletDetails.qml:183
-#: ../gui/qml/components/WalletDetails.qml:206
+#: ../gui/qml/components/WalletDetails.qml:180
+#: ../gui/qml/components/WalletDetails.qml:203
 msgctxt "WalletDetails|"
 msgid "Lightning Node ID"
 msgstr "Lightning csomópont azonosító"
 
-#: ../gui/qml/components/WalletDetails.qml:217
+#: ../gui/qml/components/WalletDetails.qml:214
 msgctxt "WalletDetails|"
 msgid "2FA"
 msgstr "Kétlépcsős"
 
-#: ../gui/qml/components/WalletDetails.qml:225
+#: ../gui/qml/components/WalletDetails.qml:222
 msgctxt "WalletDetails|"
 msgid "disabled (can sign without server)"
 msgstr "kikapcsolva (szerver nélkül aláírható)"
 
-#: ../gui/qml/components/WalletDetails.qml:226
+#: ../gui/qml/components/WalletDetails.qml:223
 msgctxt "WalletDetails|"
 msgid "enabled"
 msgstr "engedélyezett"
 
-#: ../gui/qml/components/WalletDetails.qml:231
+#: ../gui/qml/components/WalletDetails.qml:228
 msgctxt "WalletDetails|"
 msgid "Remaining TX"
 msgstr "Hátralévő tranzakciók"
 
-#: ../gui/qml/components/WalletDetails.qml:240
+#: ../gui/qml/components/WalletDetails.qml:237
 msgctxt "WalletDetails|"
 msgid "unknown"
 msgstr "ismeretlen"
 
-#: ../gui/qml/components/WalletDetails.qml:247
+#: ../gui/qml/components/WalletDetails.qml:244
 msgctxt "WalletDetails|"
 msgid "Billing"
 msgstr "Számlázás"
 
-#: ../gui/qml/components/WalletDetails.qml:296
+#: ../gui/qml/components/WalletDetails.qml:293
 msgctxt "WalletDetails|"
 msgid "Keystore"
 msgstr "Kulcstár"
 
-#: ../gui/qml/components/WalletDetails.qml:318
+#: ../gui/qml/components/WalletDetails.qml:315
 msgctxt "WalletDetails|"
 msgid "Keystore type"
 msgstr "Kulcstár típusa"
 
-#: ../gui/qml/components/WalletDetails.qml:330
+#: ../gui/qml/components/WalletDetails.qml:327
 msgctxt "WalletDetails|"
 msgid "Imported addresses"
 msgstr "Importált címek"
 
-#: ../gui/qml/components/WalletDetails.qml:331
+#: ../gui/qml/components/WalletDetails.qml:328
 msgctxt "WalletDetails|"
 msgid "Imported keys"
 msgstr "Importált kulcsok"
 
-#: ../gui/qml/components/WalletDetails.qml:342
+#: ../gui/qml/components/WalletDetails.qml:339
 msgctxt "WalletDetails|"
 msgid "Derivation prefix"
 msgstr "Származtatási előtag"
 
-#: ../gui/qml/components/WalletDetails.qml:354
+#: ../gui/qml/components/WalletDetails.qml:351
 msgctxt "WalletDetails|"
 msgid "BIP32 fingerprint"
 msgstr "BIP32 ujjlenyomat"
 
-#: ../gui/qml/components/WalletDetails.qml:368
-#: ../gui/qml/components/WalletDetails.qml:388
+#: ../gui/qml/components/WalletDetails.qml:365
+#: ../gui/qml/components/WalletDetails.qml:385
 msgctxt "WalletDetails|"
 msgid "Master Public Key"
 msgstr "Nyilvános mesterkulcs"
 
-#: ../gui/qml/components/WalletDetails.qml:411
+#: ../gui/qml/components/WalletDetails.qml:408
 msgctxt "WalletDetails|"
 msgid "Delete Wallet"
 msgstr "Tárca törlése"
 
-#: ../gui/qml/components/WalletDetails.qml:418
+#: ../gui/qml/components/WalletDetails.qml:415
 msgctxt "WalletDetails|"
 msgid "Change Password"
 msgstr "Jelszó megváltoztatása"
 
-#: ../gui/qml/components/WalletDetails.qml:427
+#: ../gui/qml/components/WalletDetails.qml:424
 msgctxt "WalletDetails|"
 msgid "Add addresses"
 msgstr "Címek hozzáadása"
 
-#: ../gui/qml/components/WalletDetails.qml:428
+#: ../gui/qml/components/WalletDetails.qml:425
 msgctxt "WalletDetails|"
 msgid "Add keys"
 msgstr "Kulcsok hozzáadása"
 
-#: ../gui/qml/components/WalletDetails.qml:435
+#: ../gui/qml/components/WalletDetails.qml:432
 msgctxt "WalletDetails|"
 msgid "Enable Lightning"
 msgstr "Lightning engedélyezése"
 
-#: ../gui/qml/components/WalletDetails.qml:452
-#: ../gui/qml/components/WalletDetails.qml:492
+#: ../gui/qml/components/WalletDetails.qml:449
+#: ../gui/qml/components/WalletDetails.qml:500
 msgctxt "WalletDetails|"
 msgid "Enter new password"
 msgstr "Új jelszó megadása"
 
-#: ../gui/qml/components/WalletDetails.qml:453
-#: ../gui/qml/components/WalletDetails.qml:493
+#: ../gui/qml/components/WalletDetails.qml:450
+#: ../gui/qml/components/WalletDetails.qml:501
 msgctxt "WalletDetails|"
 msgid "If you forget your password, you'll need to restore from seed. Please make sure you have your seed stored safely"
 msgstr "Ha elfelejted a jelszavad, a magból kell helyreállítanod a tárcát. Feltétlenül tárold a magot egy biztonságos helyen."
 
-#: ../gui/qml/components/WalletDetails.qml:462
-#: ../gui/qml/components/WalletDetails.qml:469
-#: ../gui/qml/components/WalletDetails.qml:475
-#: ../gui/qml/components/WalletDetails.qml:481
+#: ../gui/qml/components/WalletDetails.qml:459
+#: ../gui/qml/components/WalletDetails.qml:467
+#: ../gui/qml/components/WalletDetails.qml:477
+#: ../gui/qml/components/WalletDetails.qml:487
 msgctxt "WalletDetails|"
 msgid "Error"
 msgstr "Hiba"
 
-#: ../gui/qml/components/WalletDetails.qml:463
+#: ../gui/qml/components/WalletDetails.qml:460
 msgctxt "WalletDetails|"
 msgid "Password change failed"
 msgstr "Jelszó megváltoztatása sikertelen"
@@ -10768,42 +10790,42 @@ msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Tárcák"
 
-#: ../gui/qml/components/Wallets.qml:93
+#: ../gui/qml/components/Wallets.qml:94
 msgctxt "Wallets|"
 msgid "Current"
 msgstr "Jelenlegi"
 
-#: ../gui/qml/components/Wallets.qml:100
+#: ../gui/qml/components/Wallets.qml:101
 msgctxt "Wallets|"
 msgid "Active"
 msgstr "Aktív"
 
-#: ../gui/qml/components/Wallets.qml:106
+#: ../gui/qml/components/Wallets.qml:107
 msgctxt "Wallets|"
 msgid "Not loaded"
 msgstr "Nincs betöltve"
 
-#: ../gui/qml/components/Wallets.qml:121
+#: ../gui/qml/components/Wallets.qml:122
 msgctxt "Wallets|"
 msgid "Create Wallet"
 msgstr "Tárca létrehozása"
 
-#: ../gui/qml/components/wizard/Wizard.qml:165
+#: ../gui/qml/components/wizard/Wizard.qml:172
 msgctxt "Wizard|"
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: ../gui/qml/components/wizard/Wizard.qml:172
+#: ../gui/qml/components/wizard/Wizard.qml:179
 msgctxt "Wizard|"
 msgid "Back"
 msgstr "Vissza"
 
-#: ../gui/qml/components/wizard/Wizard.qml:178
+#: ../gui/qml/components/wizard/Wizard.qml:185
 msgctxt "Wizard|"
 msgid "Next"
 msgstr "Következő"
 
-#: ../gui/qml/components/wizard/Wizard.qml:187
+#: ../gui/qml/components/wizard/Wizard.qml:194
 msgctxt "Wizard|"
 msgid "Finish"
 msgstr "Befejezés"
@@ -10823,27 +10845,27 @@ msgctxt "main|"
 msgid "About"
 msgstr "Névjegy"
 
-#: ../gui/qml/components/main.qml:388
+#: ../gui/qml/components/main.qml:400
 msgctxt "main|"
 msgid "Error"
 msgstr "Hiba"
 
-#: ../gui/qml/components/main.qml:465
+#: ../gui/qml/components/main.qml:477
 msgctxt "main|"
 msgid "Close Electrum?"
 msgstr "Electrum bezárása?"
 
-#: ../gui/qml/components/main.qml:527
+#: ../gui/qml/components/main.qml:539
 msgctxt "main|"
 msgid "Payment Succeeded"
 msgstr "Sikeres fizetés"
 
-#: ../gui/qml/components/main.qml:530
+#: ../gui/qml/components/main.qml:542
 msgctxt "main|"
 msgid "Payment Failed"
 msgstr "Fizetés sikertelen"
 
-#: ../gui/qml/components/main.qml:548
+#: ../gui/qml/components/main.qml:560
 msgctxt "main|"
 msgid "Enter current password"
 msgstr "Add meg aktuális jelszavad"

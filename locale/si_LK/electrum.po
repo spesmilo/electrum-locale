@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 09:41+0000\n"
-"PO-Revision-Date: 2023-04-27 09:41\n"
+"POT-Creation-Date: 2023-05-04 11:34+0000\n"
+"PO-Revision-Date: 2023-05-04 11:34\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "Language: si_LK\n"
@@ -194,7 +194,7 @@ msgstr "&දැක්ම"
 msgid "&Wallet"
 msgstr "&පසුම්බිය"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:607
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:613
 msgid "(Touch {} of {})"
 msgstr "({} න් {} ස්පර්ශ කරන්න)"
 
@@ -242,7 +242,7 @@ msgstr "CPFP යනු ඉහළ ගාස්තුවක් සමඟ තහව
 msgid "A backup does not contain information about your local balance in the channel."
 msgstr ""
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:186
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:191
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr "නව මුදල් පසුම්බියක් ජනනය කිරීමේදී උපස්ථයක් ස්වයංක්‍රීයව සුරැකේ."
 
@@ -382,7 +382,7 @@ msgstr "ලිපිනය පසුරු පුවරුවට පිටපත
 msgid "Address is frozen"
 msgstr "ලිපිනය ශීත කර ඇත"
 
-#: electrum/gui/qt/main_window.py:1980 electrum/wallet.py:728
+#: electrum/gui/qt/main_window.py:1980 electrum/wallet.py:730
 #: electrum/plugins/hw_wallet/plugin.py:132
 msgid "Address not in wallet."
 msgstr "ලිපිනය මුදල් පසුම්බියේ නැත."
@@ -425,7 +425,7 @@ msgstr "සියලුම"
 msgid "All fields must be filled out"
 msgstr "සියලුම ක්ෂේත්ර පිරවිය යුතුය"
 
-#: electrum/wallet.py:1980
+#: electrum/wallet.py:1996
 msgid "All outputs are non-change is_mine"
 msgstr "සියලුම ප්‍රතිදානයන් වෙනස් නොවන is_mine වේ"
 
@@ -514,7 +514,7 @@ msgid "Amount too low"
 msgstr "ප්‍රමාණය ඉතා අඩුය"
 
 #: electrum/gui/qt/receive_tab.py:313 electrum/gui/kivy/uix/screens.py:522
-#: electrum/wallet.py:2952 electrum/wallet.py:2957
+#: electrum/wallet.py:2968 electrum/wallet.py:2973
 msgid "Amount too small to be received onchain"
 msgstr "ඔන්චේන් ලැබීමට නොහැකි තරම් කුඩා මුදල"
 
@@ -532,7 +532,7 @@ msgstr "දෝෂයක් සිදු විය"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "සංකේතාත්මක ගනුදෙනුවක් cosigning pool වෙතින් ලබා ගන්නා ලදී."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:182
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:187
 msgid "An uninitialized Digital Bitbox is detected."
 msgstr "ආරම්භ නොකළ ඩිජිටල් බිට්බොක්ස් එකක් අනාවරණය වේ."
 
@@ -578,7 +578,7 @@ msgstr "ඔබට පසුම්බිය {} මැකීමට අවශ්‍
 msgid "Are you sure you want to disable trampoline?"
 msgstr ""
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:315
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:320
 msgid "Are you sure you want to erase the Digital Bitbox?"
 msgstr "ඔබට ඩිජිටල් බිට්බොක්ස් මැකීමට අවශ්‍ය බව විශ්වාසද?"
 
@@ -589,13 +589,13 @@ msgstr "ඔබට ඉදිරියට යාමට අවශ්‍ය බව �
 
 #: electrum/gui/qt/history_list.py:805
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:344
-#: electrum/gui/qml/qetxdetails.py:388
+#: electrum/gui/qml/qetxdetails.py:396
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr "ඔබට මෙම ගනුදෙනුව සහ {} ළමා ගනුදෙනු ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?"
 
 #: electrum/gui/qt/history_list.py:803
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:341
-#: electrum/gui/qml/qetxdetails.py:385
+#: electrum/gui/qml/qetxdetails.py:393
 msgid "Are you sure you want to remove this transaction?"
 msgstr "ඔබට මෙම ගනුදෙනුව ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?"
 
@@ -846,7 +846,7 @@ msgstr "යැවිය හැක"
 
 #: electrum/gui/qt/main_window.py:2648
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:255
-#: electrum/gui/qml/qetxfinalizer.py:758 electrum/gui/qml/qetxfinalizer.py:759
+#: electrum/gui/qml/qetxfinalizer.py:760 electrum/gui/qml/qetxfinalizer.py:761
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "CPFP කළ නොහැක: මාපිය ගනුදෙනු සඳහා නොදන්නා ගාස්තුව."
 
@@ -901,8 +901,8 @@ msgstr "ගනුදෙනුව අවලංගු කළ නොහැක"
 msgid "Cannot create child transaction"
 msgstr "ළමා ගනුදෙනුව නිර්මාණය කළ නොහැක"
 
-#: electrum/gui/qml/qetxfinalizer.py:533 electrum/gui/qml/qetxfinalizer.py:640
-#: electrum/gui/qml/qetxfinalizer.py:793
+#: electrum/gui/qml/qetxfinalizer.py:535 electrum/gui/qml/qetxfinalizer.py:642
+#: electrum/gui/qml/qetxfinalizer.py:795
 msgid "Cannot determine dynamic fees, not connected"
 msgstr ""
 
@@ -1117,7 +1117,7 @@ msgstr "චීන සම්ප්රදායික"
 msgid "Choose Homescreen"
 msgstr "Homescreen තෝරන්න"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:331
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:336
 msgid "Choose a backup file:"
 msgstr "උපස්ථ ගොනුවක් තෝරන්න:"
 
@@ -1149,7 +1149,7 @@ msgstr "කාසි (UTXO) තේරීමේ ක්‍රමය තෝරන�
 msgid "Choose from peers"
 msgstr "සම වයසේ මිතුරන්ගෙන් තෝරන්න"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:246
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:251
 msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "ඔබගේ ඩිජිටල් බිට්බොක්ස් ආරම්භ කරන ආකාරය තෝරන්න:"
 
@@ -1570,19 +1570,19 @@ msgstr "නාලිකාව වැසීමට නොහැකි විය: "
 msgid "Could not connect to channel peer"
 msgstr ""
 
-#: electrum/wallet.py:1987
+#: electrum/wallet.py:2003
 msgid "Could not figure out which outputs to keep"
 msgstr "කුමන නිමැවුම් තබා ගත යුතුද යන්න සොයා ගැනීමට නොහැකි විය"
 
-#: electrum/wallet.py:2140
+#: electrum/wallet.py:2156
 msgid "Could not find coins for output"
 msgstr "නිමැවුම සඳහා කාසි සොයා ගැනීමට නොහැකි විය"
 
-#: electrum/wallet.py:2136
+#: electrum/wallet.py:2152
 msgid "Could not find suitable output"
 msgstr "සුදුසු ප්‍රතිදානය සොයා ගැනීමට නොහැකි විය"
 
-#: electrum/wallet.py:2056 electrum/wallet.py:2101 electrum/wallet.py:2115
+#: electrum/wallet.py:2072 electrum/wallet.py:2117 electrum/wallet.py:2131
 msgid "Could not find suitable outputs"
 msgstr "සුදුසු නිමැවුම් සොයා ගැනීමට නොහැකි විය"
 
@@ -1602,13 +1602,13 @@ msgstr ""
 msgid "Could not retrieve Terms of Service:"
 msgstr "සේවා කොන්දේසි ලබා ගැනීමට නොහැකි විය:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:495
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:508
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:501
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:514
 msgid "Could not sign message"
 msgstr "පණිවිඩය අත්සන් කිරීමට නොහැකි විය"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:472
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:485
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:478
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:491
 msgid "Could not sign message."
 msgstr "පණිවිඩය අත්සන් කිරීමට නොහැකි විය."
 
@@ -1632,7 +1632,7 @@ msgstr "නව හෙළිකරන්නෙකු සාදන්න"
 msgid "Create a new seed"
 msgstr "නව බීජයක් සාදන්න"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:226
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:231
 msgid "Create a wallet using the current seed"
 msgstr "වත්මන් බීජය භාවිතයෙන් පසුම්බියක් සාදන්න"
 
@@ -1848,7 +1848,7 @@ msgstr "උපාංග හැඳුනුම්පත"
 msgid "Device Label"
 msgstr "උපාංග ලේබලය"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:129
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:134
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "උපාංග සන්නිවේදන දෝෂයකි. කරුණාකර ඔබගේ ඩිජිටල් බිට්බොක්ස් ප්ලග් ඉවත් කර නැවත සම්බන්ධ කරන්න."
 
@@ -1899,7 +1899,7 @@ msgstr "Electrum Technologies GmbH විසින් බෙදා හරින�
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
 msgstr "මෙහි සංවේදී/පුද්ගලික තොරතුරු ඇතුළත් නොකරන්න. වාර්තාව මහජන නිකුතු ට්රැකර් මත දෘශ්යමාන වනු ඇත."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:288
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:293
 msgid "Do not pair"
 msgstr "යුගල නොකරන්න"
 
@@ -2170,7 +2170,7 @@ msgstr "සංකේතනය කර ඇත"
 
 #: electrum/plugins/coldcard/coldcard.py:302
 #: electrum/plugins/ledger/ledger.py:1300
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:453
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:458
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "සංකේතනය සහ විකේතනය දැනට {} සඳහා සහය නොදක්වයි"
 
@@ -2247,7 +2247,7 @@ msgstr "'ගෙවීමට ගෙවන්න' ක්ෂේත්‍රයේ �
 msgid "Enter a new PIN for your {}:"
 msgstr "ඔබගේ {} සඳහා නව PIN එකක් ඇතුළු කරන්න:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:183
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:188
 msgid "Enter a new password below."
 msgstr "පහතින් නව මුරපදයක් ඇතුළත් කරන්න."
 
@@ -2285,10 +2285,10 @@ msgstr "නව මුරපදය ඇතුළත් කරන්න"
 msgid "Enter passphrase on device?"
 msgstr "උපාංගයේ මුර-වැකිකඩ ඇතුළු කරන්නද?"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:147
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:150
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:162
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:165
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:152
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:155
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:167
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:170
 msgid "Enter password:"
 msgstr "මුරපදය ඇතුළත් කරන්න:"
 
@@ -2314,7 +2314,7 @@ msgstr "xprv සමඟින් ආරම්භ වන ප්‍රධාන ප
 msgid "Enter the passphrase to unlock this wallet:"
 msgstr "මෙම මුදල් පසුම්බිය අගුලු හැරීමට මුර-වැකිකඩ ඇතුලත් කරන්න:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:140
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:145
 msgid "Enter the password used when the backup was created:"
 msgstr "උපස්ථය සාදන විට භාවිතා කළ මුරපදය ඇතුළත් කරන්න:"
 
@@ -2340,9 +2340,9 @@ msgstr "පසුම්බියේ නම ඇතුළත් කරන්න"
 msgid "Enter your BIP39 mnemonic:"
 msgstr "ඔබගේ BIP39 සිහිවටනය ඇතුලත් කරන්න:"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:193
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:203
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:198
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:208
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:213
 msgid "Enter your Digital Bitbox password:"
 msgstr "ඔබගේ ඩිජිටල් බිට්බොක්ස් මුරපදය ඇතුළත් කරන්න:"
 
@@ -2372,7 +2372,7 @@ msgstr "ඔබගේ මුරපදය ඇතුලත් කරන්න"
 msgid "Enter your password or choose another file."
 msgstr "ඔබගේ මුරපදය ඇතුළත් කරන්න හෝ වෙනත් ගොනුවක් තෝරන්න."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:228
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:233
 msgid "Erase the Digital Bitbox"
 msgstr "ඩිජිටල් බිට්බොක්ස් එක මකන්න"
 
@@ -2800,7 +2800,7 @@ msgstr "ශීත කළ"
 msgid "Fulfilled HTLCs"
 msgstr "සම්පුර්ණ කරන ලද HTLCs"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:240
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:245
 msgid "Full 2FA enabled. This is not supported yet."
 msgstr "සම්පූර්ණ 2FA සබල කර ඇත. මෙය තවමත් සහාය නොදක්වයි."
 
@@ -2829,7 +2829,7 @@ msgstr "මෙම නාලිකාවේ ඇති අරමුදල් න�
 msgid "Funds will be sent to the invoice fallback address."
 msgstr "අරමුදල් ඉන්වොයිස් ආපසු හැරීමේ ලිපිනයට යවනු ලැබේ."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:248
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:253
 msgid "Generate a new random wallet"
 msgstr "නව අහඹු පසුම්බියක් ජනනය කරන්න"
 
@@ -3030,7 +3030,7 @@ msgstr "ඔබේ බීජය නැති වුවහොත් ඔබේ ම�
 msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
 msgstr "ඔබට ඔබේ මුදල් පසුම්බි ගොනුව නැති වුවහොත්, උපස්ථයක් සමඟ ඔබට කළ හැකි එකම දෙය ඔබේ නාලිකාව වසා දමන ලෙස ඉල්ලා සිටීමයි, එවිට ඔබේ අරමුදල් දාමය මත යවනු ලැබේ."
 
-#: electrum/wallet.py:2891
+#: electrum/wallet.py:2907
 msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
 msgstr "ඔබට මෙම ගනුදෙනුව ලැබුණේ විශ්වාස නොකළ උපාංගයකින් නම්, එය එක් වරකට වඩා අත්සන් කිරීමට පිළිගන්න එපා,\n"
@@ -3088,7 +3088,7 @@ msgstr "නාලිකා උපස්ථය ආයාත කරන්න"
 msgid "Import invoices"
 msgstr ""
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:289
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:294
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr "Digital Bitbox ඩෙස්ක්ටොප් යෙදුමෙන් යුගල කිරීම ආයාත කරන්න"
 
@@ -3133,7 +3133,7 @@ msgstr "ඊළඟ බ්ලොක් එකේ"
 msgid "Incorrect password"
 msgstr "වැරදි මුරපදය"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:201
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:206
 msgid "Incorrect password entered."
 msgstr "වැරදි මුරපදය ඇතුළත් කර ඇත."
 
@@ -3269,7 +3269,7 @@ msgstr "වලංගු නොවන පොදු යතුර"
 msgid "Invalid amount"
 msgstr "වලංගු නොවන මුදල"
 
-#: electrum/wallet.py:1115 electrum/wallet.py:1129
+#: electrum/wallet.py:1131 electrum/wallet.py:1145
 msgid "Invalid invoice format"
 msgstr ""
 
@@ -3603,11 +3603,11 @@ msgstr "අකුණු:"
 msgid "Line #"
 msgstr "පේළිය #"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:249
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:254
 msgid "Load a wallet from the micro SD card"
 msgstr "මයික්‍රෝ එස්ඩී කාඩ්පතෙන් පසුම්බියක් පූරණය කරන්න"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:227
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:232
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "මයික්‍රෝ එස්ඩී කාඩ්පතෙන් පසුම්බියක් පූරණය කරන්න (වත්මන් බීජය උඩින් ලියැවී ඇත)"
 
@@ -3621,17 +3621,21 @@ msgstr "උපස්ථය පූරණය කරන්න"
 msgid "Load transaction"
 msgstr "ගනුදෙනුව පැටවීම"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:339
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:344
 msgid "Loading backup..."
 msgstr "උපස්ථය පූරණය කරමින්..."
 
-#: electrum/wallet.py:101 electrum/wallet.py:846
+#: electrum/wallet.py:101 electrum/wallet.py:848
 msgid "Local"
 msgstr "දේශීය"
 
 #: electrum/gui/qt/main_window.py:726
 msgid "Local &Watchtower"
 msgstr "දේශීය &මුරගල"
+
+#: electrum/wallet.py:852
+msgid "Local (future: {})"
+msgstr ""
 
 #: electrum/gui/qt/__init__.py:203
 msgid "Local Watchtower"
@@ -3725,7 +3729,7 @@ msgstr "උපරිම"
 
 #: electrum/gui/qt/main_window.py:2722
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:271
-#: electrum/gui/qml/qetxfinalizer.py:804
+#: electrum/gui/qml/qetxfinalizer.py:806
 msgid "Max fee exceeded"
 msgstr "උපරිම ගාස්තුව ඉක්මවා ඇත"
 
@@ -3805,7 +3809,7 @@ msgstr "පෙර tx අස්ථානගත වී ඇත."
 msgid "Missing report URL."
 msgstr "වාර්තා URL අස්ථානගත වී ඇත."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:291
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:296
 msgid "Mobile pairing options"
 msgstr "ජංගම යුගල විකල්ප"
 
@@ -3970,7 +3974,7 @@ msgstr "ව්යතිරේක හමු වී නැත."
 msgid "No existing accounts found."
 msgstr "පවතින ගිණුම් කිසිවක් හමු නොවීය."
 
-#: electrum/gui/qml/qetxfinalizer.py:800
+#: electrum/gui/qml/qetxfinalizer.py:802
 msgid "No fee"
 msgstr ""
 
@@ -4058,7 +4062,7 @@ msgstr "දැන් නෙවෙයි"
 msgid "Not Verified"
 msgstr "සත්‍යාපනය කර නැත"
 
-#: electrum/gui/qml/qebitcoin.py:113
+#: electrum/gui/qml/qebitcoin.py:112
 msgid "Not a master key"
 msgstr ""
 
@@ -4081,7 +4085,7 @@ msgstr "සබල කර නැත"
 
 #: electrum/gui/qt/main_window.py:1695 electrum/gui/qt/send_tab.py:285
 #: electrum/gui/kivy/uix/dialogs/confirm_tx_dialog.py:130
-#: electrum/gui/qml/qetxfinalizer.py:313
+#: electrum/gui/qml/qetxfinalizer.py:315
 msgid "Not enough funds"
 msgstr "ප්‍රමාණවත් අරමුදල් නැහැ"
 
@@ -4093,7 +4097,7 @@ msgstr "ලිපිනය මත ප්රමාණවත් අරමුදල
 msgid "Not enough funds."
 msgstr ""
 
-#: electrum/wallet.py:828
+#: electrum/wallet.py:830
 msgid "Not verified"
 msgstr "සත්‍යාපනය කර නැත"
 
@@ -4358,7 +4362,7 @@ msgstr ""
 msgid "Parents"
 msgstr ""
 
-#: electrum/wallet.py:855
+#: electrum/wallet.py:861
 msgid "Partially signed"
 msgstr "අර්ධ වශයෙන් අත්සන් කර ඇත"
 
@@ -4402,13 +4406,13 @@ msgstr "මුරපදය කෙටි වැඩියි (අවම අක්�
 msgid "Password mismatch"
 msgstr "මුරපදය නොගැලපීම"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:146
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:161
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:151
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:166
 msgid "Password must have at least 4 characters."
 msgstr "මුරපදයේ අවම වශයෙන් අක්ෂර 4ක්වත් තිබිය යුතුය."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:149
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:164
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:154
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:169
 msgid "Password must have less than 64 characters."
 msgstr "මුරපදයේ අක්ෂර 64 ට වඩා අඩු විය යුතුය."
 
@@ -4651,7 +4655,7 @@ msgstr "කරුණාකර ඔබේ cosigners ප්‍රධාන පො�
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "කරුණාකර github:<br/>හි ගැටළු ලෙස කිසියම් දෝෂයක් වාර්තා කරන්න"
 
-#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:259
+#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:261
 msgid "Please report this issue manually"
 msgstr "කරුණාකර මෙම ගැටලුව හස්තීයව වාර්තා කරන්න"
 
@@ -4943,7 +4947,7 @@ msgstr "ප්රශ්නය"
 msgid "Quit"
 msgstr "ඉවත්"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:184
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:189
 msgid "REMEMBER THE PASSWORD!"
 msgstr "මුරපදය මතක තබා ගන්න!"
 
@@ -5646,7 +5650,7 @@ msgstr "අත්සන"
 msgid "Signature verified"
 msgstr "අත්සන තහවුරු කර ඇත"
 
-#: electrum/wallet.py:850
+#: electrum/wallet.py:856
 msgid "Signed"
 msgstr "අත්සන් කළා"
 
@@ -5654,17 +5658,17 @@ msgstr "අත්සන් කළා"
 msgid "Signing"
 msgstr "අත්සන් කරනවා"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:605
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:611
 msgid "Signing large transaction. Please be patient ..."
 msgstr "විශාල ගනුදෙනුවක් අත්සන් කිරීම. කරුණාකර ඉවසන්න..."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:475
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:481
 msgid "Signing message ..."
 msgstr "පණිවිඩය අත්සන් කරමින්..."
 
 #: electrum/gui/qt/main_window.py:1227 electrum/plugins/ledger/ledger.py:687
 #: electrum/plugins/ledger/ledger.py:700
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:610
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:616
 msgid "Signing transaction..."
 msgstr "ගනුදෙනුව අත්සන් කරමින්..."
 
@@ -5903,7 +5907,7 @@ msgstr "තායි"
 msgid "Thanks for reporting this issue!"
 msgstr ""
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:224
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:229
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "ඩිජිටල් බිට්බොක්ස් දැනටමත් සීඩ් කර ඇත. විකල්පයක් තෝරන්න:"
 
@@ -5967,7 +5971,7 @@ msgstr "විස්තරය අරමුදල් ලබන්නාට යව
 msgid "The device was disconnected."
 msgstr "උපාංගය විසන්ධි විය."
 
-#: electrum/wallet.py:2885
+#: electrum/wallet.py:2901
 msgid "The fee could not be verified. Signing non-segwit inputs is risky:\n"
 "if this transaction was maliciously modified before you sign,\n"
 "you might end up paying a higher mining fee than displayed."
@@ -5975,7 +5979,7 @@ msgstr "ගාස්තුව සත්‍යාපනය කළ නොහැක
 "ඔබ අත්සන් කිරීමට පෙර මෙම ගනුදෙනුව ද්වේශ සහගත ලෙස වෙනස් කර ඇත්නම්,\n"
 "ඔබට ප්‍රදර්ශනය කිරීමට වඩා වැඩි පතල් ගාස්තුවක් ගෙවීමට සිදු විය හැක."
 
-#: electrum/wallet.py:2914 electrum/wallet.py:2919
+#: electrum/wallet.py:2930 electrum/wallet.py:2935
 msgid "The fee for this transaction seems unusually high."
 msgstr "මෙම ගනුදෙනුව සඳහා ගාස්තුව අසාමාන්‍ය ලෙස ඉහළ බව පෙනේ."
 
@@ -6009,15 +6013,15 @@ msgstr "පහත යෙදවුම් ආයාත කළ නොහැක"
 msgid "The funding transaction has been detected."
 msgstr ""
 
-#: electrum/wallet.py:2880
+#: electrum/wallet.py:2896
 msgid "The input amounts could not be verified as the previous transactions are missing.\n"
 "The amount of money being spent CANNOT be verified."
 msgstr "පෙර ගනුදෙනු අස්ථානගත වී ඇති බැවින් ආදාන අගයන් සත්‍යාපනය කළ නොහැකි විය.\n"
 "වියදම් කරන මුදල් ප්‍රමාණය සත්‍යාපනය කළ නොහැක."
 
-#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:540
-#: electrum/gui/qml/qetxfinalizer.py:647 electrum/wallet.py:1918
-#: electrum/wallet.py:2181
+#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:542
+#: electrum/gui/qml/qetxfinalizer.py:649 electrum/wallet.py:1934
+#: electrum/wallet.py:2197
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "නව ගාස්තු අනුපාතය පැරණි ගාස්තු අනුපාතයට වඩා වැඩි විය යුතුය."
 
@@ -6029,7 +6033,7 @@ msgstr "ඊළඟ පියවර ඔබේ මුදල් පසුම්බ�
 msgid "The operation is undefined. Not just in Electrum, but in general."
 msgstr "මෙහෙයුම නිර්වචනය කර නැත. Electrum වල පමණක් නොව පොදුවේ."
 
-#: electrum/wallet.py:2147 electrum/wallet.py:2201
+#: electrum/wallet.py:2163 electrum/wallet.py:2217
 msgid "The output value remaining after fee is too low."
 msgstr "ගාස්තුවෙන් පසු ඉතිරිව ඇති නිමැවුම් අගය ඉතා අඩුය."
 
@@ -6112,7 +6116,7 @@ msgstr ""
 msgid "There is a new update available"
 msgstr "නව යාවත්කාලීනයක් තිබේ"
 
-#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:257
+#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:259
 msgid "There was a problem with the automatic reporting:"
 msgstr "ස්වයංක්‍රීය වාර්තාකරණයේ ගැටලුවක් විය:"
 
@@ -6125,7 +6129,7 @@ msgstr "එබැවින්, ද්වි-සාධක සත්‍යාප�
 msgid "This UTXO has {} parent transactions in your wallet."
 msgstr ""
 
-#: electrum/wallet.py:2964
+#: electrum/wallet.py:2980
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "මෙම ලිපිනය දැනටමත් භාවිතා කර ඇත. වඩා හොඳ පෞද්ගලිකත්වය සඳහා, නව ගෙවීම් සඳහා එය නැවත භාවිතා නොකරන්න."
 
@@ -6174,17 +6178,17 @@ msgstr "මෙම ගොනුව දෘඪාංග උපාංගයක් �
 msgid "This file is encrypted with a password."
 msgstr "මෙම ගොනුව මුරපදයකින් සංකේතනය කර ඇත."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:755
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:761
 msgid "This function is only available after pairing your {} with a mobile device."
 msgstr "මෙම කාර්යය ලබා ගත හැක්කේ ඔබගේ {} ජංගම උපාංගයක් සමඟ යුගල කිරීමෙන් පසුව පමණි."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:758
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:764
 msgid "This function is only available for p2pkh keystores when using {}."
 msgstr "මෙම කාර්යය ලබා ගත හැක්කේ {} භාවිතා කරන විට p2pkh යතුරු ගබඩා සඳහා පමණි."
 
 #: electrum/plugins/coldcard/coldcard.py:612
-#: electrum/plugins/ledger/ledger.py:1438
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:752
+#: electrum/plugins/ledger/ledger.py:1451
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:758
 msgid "This function is only available for standard wallets when using {}."
 msgstr "මෙම කාර්යය ලබා ගත හැක්කේ {} භාවිතා කරන විට සම්මත පසුම්බි සඳහා පමණි."
 
@@ -6217,7 +6221,7 @@ msgstr ""
 msgid "This is a static channel backup"
 msgstr "මෙය ස්ථිතික නාලිකා උපස්ථයකි"
 
-#: electrum/gui/qt/main_window.py:2266 electrum/wallet.py:724
+#: electrum/gui/qt/main_window.py:2266 electrum/wallet.py:726
 msgid "This is a watching-only wallet"
 msgstr "මෙය නැරඹීමට පමණක් මුදල් පසුම්බියකි"
 
@@ -6273,15 +6277,15 @@ msgstr "මෙම ප්ලගිනය ඔබේ මුදල් පසුම�
 msgid "This plugin facilitates the use of multi-signatures wallets."
 msgstr "මෙම ප්ලගිනය බහු-අත්සන පසුම්බි භාවිතයට පහසුකම් සපයයි."
 
-#: electrum/wallet.py:2950 electrum/wallet.py:2955
+#: electrum/wallet.py:2966 electrum/wallet.py:2971
 msgid "This request cannot be paid on-chain"
 msgstr "මෙම ඉල්ලීම දාමය මත ගෙවිය නොහැක"
 
-#: electrum/wallet.py:2960
+#: electrum/wallet.py:2976
 msgid "This request does not have a Lightning invoice."
 msgstr "මෙම ඉල්ලීමට අකුණු ඉන්වොයිසියක් නොමැත."
 
-#: electrum/wallet.py:2945
+#: electrum/wallet.py:2961
 msgid "This request has expired"
 msgstr "මෙම ඉල්ලීම කල් ඉකුත් වී ඇත"
 
@@ -6317,7 +6321,7 @@ msgstr "මෙම ගනුදෙනුව ලබා ගත හැක්කේ �
 "දැනට සම්බන්ධිත සේවාදායකය ඒ ගැන දන්නේ නැත.\n"
 "ඔබට එය දැන් විකාශනය කළ හැකිය, නැතහොත් එය සරලව ඉවත් කළ හැකිය."
 
-#: electrum/wallet.py:2908
+#: electrum/wallet.py:2924
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr "මෙම ගනුදෙනුව සඳහා ඉහළ ගාස්තුවක් අවශ්‍ය වේ, නැතහොත් එය ඔබගේ වත්මන් සේවාදායකය විසින් ප්‍රචාරණය නොකරනු ඇත."
 
@@ -6326,8 +6330,8 @@ msgid "This transaction will spend unconfirmed coins."
 msgstr ""
 
 #: electrum/plugins/coldcard/coldcard.py:530
-#: electrum/plugins/ledger/ledger.py:1427
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:728
+#: electrum/plugins/ledger/ledger.py:1440
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:734
 #: electrum/plugins/keepkey/keepkey.py:297
 #: electrum/plugins/safe_t/safe_t.py:267 electrum/plugins/trezor/trezor.py:318
 #: electrum/plugins/jade/jade.py:447
@@ -6383,14 +6387,14 @@ msgstr "මෙම {} උපාංගයට යැවිය හැක්කේ Ba
 msgid "To"
 msgstr "වෙත"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:477
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:608
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:612
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:483
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:614
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:618
 msgid "To cancel, briefly touch the blinking light or wait for the timeout."
 msgstr "අවලංගු කිරීමට, දැල්වෙන ආලෝකය කෙටියෙන් ස්පර්ශ කරන්න හෝ කල් ඉකුත් වන තෙක් රැඳී සිටින්න."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:317
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:341
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:322
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:346
 msgid "To cancel, briefly touch the light or wait for the timeout."
 msgstr "අවලංගු කිරීමට, කෙටියෙන් ආලෝකය ස්පර්ශ කරන්න හෝ කල් ඉකුත් වන තෙක් රැඳී සිටින්න."
 
@@ -6398,14 +6402,14 @@ msgstr "අවලංගු කිරීමට, කෙටියෙන් ආල�
 msgid "To channel"
 msgstr "නාලිකාවට"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:476
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:606
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:611
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:482
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:612
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:617
 msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
 msgstr "ඉදිරියට යාමට, තත්පර 3ක් සඳහා ඩිජිටල් බිට්බොක්ස් හි දැල්වෙන ආලෝකය ස්පර්ශ කරන්න."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:316
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:340
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:321
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:345
 msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
 msgstr "ඉදිරියට යාමට, තත්පර 3ක් සඳහා ඩිජිටල් බිට්බොක්ස් ආලෝකය ස්පර්ශ කරන්න."
 
@@ -6543,7 +6547,7 @@ msgstr "ගනුදෙනුව සුරැකීමට නොහැකි ව
 msgid "Transaction exported successfully"
 msgstr "ගනුදෙනුව සාර්ථකව අපනයනය කරන ලදී"
 
-#: electrum/wallet.py:1908 electrum/wallet.py:2171
+#: electrum/wallet.py:1924 electrum/wallet.py:2187
 msgid "Transaction is final"
 msgstr "ගනුදෙනුව අවසානයි"
 
@@ -6624,7 +6628,7 @@ msgstr "නැවත සම්බන්ධ වීමට උත්සාහ ක�
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "දෝෂය යනු කුමක්ද යන්න පමණක් නොව එය සිදුවන්නේ කෙසේද යන්න පැහැදිලි කිරීමට උත්සාහ කරන්න."
 
-#: electrum/wallet.py:2909
+#: electrum/wallet.py:2925
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "ඔබේ ගනුදෙනු ගාස්තුව වැඩි කිරීමට උත්සාහ කරන්න, නැතහොත් අඩු රිලේ ගාස්තුවක් සහිත සේවාදායකයක් භාවිතා කරන්න."
 
@@ -6691,7 +6695,7 @@ msgstr ""
 
 #: electrum/gui/qt/balance_dialog.py:177 electrum/gui/qt/balance_dialog.py:198
 #: electrum/gui/qt/main_window.py:951 electrum/wallet.py:98
-#: electrum/wallet.py:830 electrum/invoices.py:58
+#: electrum/wallet.py:832 electrum/invoices.py:58
 msgid "Unconfirmed"
 msgstr "තහවුරු කර නැත"
 
@@ -6699,7 +6703,7 @@ msgstr "තහවුරු කර නැත"
 msgid "Unconfirmed parent"
 msgstr "තහවුරු නොකළ දෙමාපියන්"
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:206
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:211
 msgid "Unexpected error occurred."
 msgstr "අනපේක්ෂිත දෝෂයක් සිදු විය."
 
@@ -6772,7 +6776,7 @@ msgstr "නොගෙවූ"
 msgid "Unrealized capital gains"
 msgstr "යථාර්ථවාදී නොවන ප්‍රාග්ධන ලාභ"
 
-#: electrum/wallet.py:855
+#: electrum/wallet.py:861
 msgid "Unsigned"
 msgstr "අත්සන් නොකළ"
 
@@ -6783,6 +6787,10 @@ msgstr ""
 #: electrum/crypto.py:213
 msgid "Unsupported password hash version"
 msgstr "සහාය නොදක්වන මුරපදය හැෂ් අනුවාදය"
+
+#: electrum/gui/qml/qebitcoin.py:129
+msgid "Unsupported wallet type"
+msgstr ""
 
 #: electrum/gui/qt/address_list.py:57
 #: electrum/gui/kivy/uix/dialogs/addresses.py:248
@@ -7058,8 +7066,8 @@ msgstr "පසුම්බි"
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:487
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:115
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:220
-#: electrum/gui/qml/qetxfinalizer.py:342 electrum/wallet.py:2879
-#: electrum/wallet.py:2884 electrum/wallet.py:2890
+#: electrum/gui/qml/qetxfinalizer.py:344 electrum/wallet.py:2895
+#: electrum/wallet.py:2900 electrum/wallet.py:2906
 #: electrum/plugins/revealer/qt.py:184 electrum/plugins/revealer/qt.py:217
 msgid "Warning"
 msgstr "අවවාදයයි"
@@ -7165,7 +7173,7 @@ msgid "Wrong PIN"
 msgstr "වැරදි PIN අංකය"
 
 #: electrum/base_wizard.py:578 electrum/base_wizard.py:586
-#: electrum/gui/qml/qebitcoin.py:121 electrum/gui/qml/qebitcoin.py:126
+#: electrum/gui/qml/qebitcoin.py:120 electrum/gui/qml/qebitcoin.py:125
 msgid "Wrong key type"
 msgstr "වැරදි යතුරු වර්ගය"
 
@@ -7243,7 +7251,7 @@ msgstr ""
 msgid "You can't broadcast a transaction without a live network connection."
 msgstr "සජීවී ජාල සම්බන්ධතාවයකින් තොරව ඔබට ගනුදෙනුවක් විකාශනය කළ නොහැක."
 
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:185
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:190
 msgid "You cannot access your coins or a backup without the password."
 msgstr "මුරපදය නොමැතිව ඔබට ඔබේ කාසි හෝ උපස්ථයකට ප්‍රවේශ විය නොහැක."
 
@@ -7259,7 +7267,7 @@ msgstr "අකුණු ගෙවීම් සිදු කිරීමට ඔ�
 msgid "You do not have liquidity in your active channels."
 msgstr ""
 
-#: electrum/wallet.py:2974
+#: electrum/wallet.py:2990
 msgid "You do not have the capacity to receive this amount with Lightning."
 msgstr ""
 
@@ -7288,11 +7296,11 @@ msgstr "ඔබට Bitcoin ලිපිනයක්, ඔබේ සම්බන්
 msgid "You may extend your seed with custom words."
 msgstr "ඔබට අභිරුචි වචන සමඟ ඔබේ බීජය දිගු කළ හැකිය."
 
-#: electrum/wallet.py:2976
+#: electrum/wallet.py:2992
 msgid "You may have that capacity if you rebalance your channels."
 msgstr "ඔබ ඔබේ නාලිකා නැවත සමතුලිත කළහොත් ඔබට එම හැකියාව තිබිය හැක."
 
-#: electrum/wallet.py:2978
+#: electrum/wallet.py:2994
 msgid "You may have that capacity if you swap some of your funds."
 msgstr "ඔබ ඔබේ අරමුදල් සමහරක් හුවමාරු කර ගන්නේ නම් ඔබට එම හැකියාව තිබිය හැක."
 
@@ -7312,7 +7320,7 @@ msgstr "ඔබට නොගැලපෙන පුස්තකාලයක් ත
 msgid "You might have to unplug and plug it in again."
 msgstr "ඔබට එය පේනුවෙන් ඉවත් කර නැවත පේනුගත කිරීමට සිදු විය හැක."
 
-#: electrum/wallet.py:2969
+#: electrum/wallet.py:2985
 msgid "You must be online to receive Lightning payments."
 msgstr "අකුණු ගෙවීම් ලබා ගැනීමට ඔබ සබැඳිව සිටිය යුතුය."
 
@@ -7616,7 +7624,7 @@ msgstr "ක්රියාකාරී"
 msgid "add inputs and outputs"
 msgstr "යෙදවුම් සහ ප්‍රතිදාන එකතු කරන්න"
 
-#: electrum/wallet.py:3079
+#: electrum/wallet.py:3095
 msgid "address already in wallet"
 msgstr "ලිපිනය දැනටමත් මුදල් පසුම්බියේ ඇත"
 
@@ -7624,7 +7632,7 @@ msgstr "ලිපිනය දැනටමත් මුදල් පසුම්
 msgid "are frozen"
 msgstr "ශීත කර ඇත"
 
-#: electrum/wallet.py:2910
+#: electrum/wallet.py:2926
 msgid "below relay fee"
 msgstr "රිලේ ගාස්තුව පහතින්"
 
@@ -7664,11 +7672,11 @@ msgstr "සෑම හෙළිදරව් කරන්නෙකුම එක්
 msgid "file size"
 msgstr "ගොනු ප්රමාණය"
 
-#: electrum/wallet.py:2921
+#: electrum/wallet.py:2937
 msgid "high fee rate"
 msgstr "ඉහළ ගාස්තු අනුපාතය"
 
-#: electrum/wallet.py:2916
+#: electrum/wallet.py:2932
 msgid "high fee ratio"
 msgstr "ඉහළ ගාස්තු අනුපාතය"
 
@@ -7720,6 +7728,10 @@ msgstr ""
 msgid "in submarine swap"
 msgstr ""
 
+#: electrum/wallet.py:852 electrum/wallet.py:1528
+msgid "in {} blocks"
+msgstr ""
+
 #: electrum/util.py:830
 msgid "in {} seconds"
 msgstr ""
@@ -7728,11 +7740,11 @@ msgstr ""
 msgid "initialized"
 msgstr "ආරම්භ කරන ලදී"
 
-#: electrum/wallet.py:3076
+#: electrum/wallet.py:3092
 msgid "invalid address"
 msgstr "වලංගු නොවන ලිපිනය"
 
-#: electrum/wallet.py:3175
+#: electrum/wallet.py:3191
 msgid "invalid private key"
 msgstr "වලංගු නොවන පුද්ගලික යතුර"
 
@@ -7764,7 +7776,7 @@ msgstr "පටවා ඇත"
 msgid "loading"
 msgstr "පැටවීම"
 
-#: electrum/wallet.py:3178
+#: electrum/wallet.py:3194
 msgid "not implemented type"
 msgstr "ක්රියාත්මක නොකළ වර්ගය"
 
@@ -7840,7 +7852,8 @@ msgstr "ලබා ගත නොහැක"
 #: electrum/gui/qt/transaction_dialog.py:819
 #: electrum/gui/qt/qrreader/qtmultimedia/camera_dialog.py:284
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:183
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1538
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1532
+#: electrum/wallet.py:1554
 msgid "unknown"
 msgstr "නොදන්නා"
 
@@ -7906,7 +7919,7 @@ msgstr ""
 msgid "{} channels"
 msgstr "{} නාලිකා"
 
-#: electrum/wallet.py:826
+#: electrum/wallet.py:828
 msgid "{} confirmations"
 msgstr "{} තහවුරු කිරීම්"
 
@@ -8519,12 +8532,12 @@ msgctxt "ConfirmTxDialog|"
 msgid "Outputs"
 msgstr "ප්රතිදාන"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:220
+#: ../gui/qml/components/ConfirmTxDialog.qml:226
 msgctxt "ConfirmTxDialog|"
 msgid "Finalize"
 msgstr "අවසන් කරන්න"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:221
+#: ../gui/qml/components/ConfirmTxDialog.qml:227
 msgctxt "ConfirmTxDialog|"
 msgid "Pay"
 msgstr "ගෙවන්න"
@@ -8590,7 +8603,7 @@ msgctxt "CpfpBumpFeeDialog|"
 msgid "Outputs"
 msgstr "ප්රතිදාන"
 
-#: ../gui/qml/components/CpfpBumpFeeDialog.qml:221
+#: ../gui/qml/components/CpfpBumpFeeDialog.qml:227
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Ok"
 msgstr ""
@@ -9560,7 +9573,7 @@ msgctxt "RbfBumpFeeDialog|"
 msgid "Outputs"
 msgstr "ප්රතිදාන"
 
-#: ../gui/qml/components/RbfBumpFeeDialog.qml:234
+#: ../gui/qml/components/RbfBumpFeeDialog.qml:240
 msgctxt "RbfBumpFeeDialog|"
 msgid "Ok"
 msgstr ""
@@ -9605,7 +9618,7 @@ msgctxt "RbfCancelDialog|"
 msgid "Outputs"
 msgstr "ප්රතිදාන"
 
-#: ../gui/qml/components/RbfCancelDialog.qml:193
+#: ../gui/qml/components/RbfCancelDialog.qml:199
 msgctxt "RbfCancelDialog|"
 msgid "Ok"
 msgstr ""
@@ -9944,94 +9957,94 @@ msgctxt "TxDetails|"
 msgid "Outputs"
 msgstr "ප්රතිදාන"
 
-#: ../gui/qml/components/TxDetails.qml:309
+#: ../gui/qml/components/TxDetails.qml:315
 msgctxt "TxDetails|"
 msgid "Bump fee"
 msgstr "බම්ප් ගාස්තුව"
 
-#: ../gui/qml/components/TxDetails.qml:325
+#: ../gui/qml/components/TxDetails.qml:331
 msgctxt "TxDetails|"
 msgid "Cancel Tx"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:336
+#: ../gui/qml/components/TxDetails.qml:342
 msgctxt "TxDetails|"
 msgid "Sign"
 msgstr "අත්සන් කරන්න"
 
-#: ../gui/qml/components/TxDetails.qml:345
+#: ../gui/qml/components/TxDetails.qml:351
 msgctxt "TxDetails|"
 msgid "Broadcast"
 msgstr "විකාශනය"
 
-#: ../gui/qml/components/TxDetails.qml:354
+#: ../gui/qml/components/TxDetails.qml:360
 msgctxt "TxDetails|"
 msgid "Share"
 msgstr "බෙදාගන්න"
 
-#: ../gui/qml/components/TxDetails.qml:362
+#: ../gui/qml/components/TxDetails.qml:368
 msgctxt "TxDetails|"
 msgid "This transaction is complete. Please share it with an online device"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:364
+#: ../gui/qml/components/TxDetails.qml:370
 msgctxt "TxDetails|"
 msgid "This transaction should be signed. Present this QR code to the signing device"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:367
+#: ../gui/qml/components/TxDetails.qml:373
 msgctxt "TxDetails|"
 msgid "Note: this wallet can sign, but has not signed this transaction yet"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:369
+#: ../gui/qml/components/TxDetails.qml:375
 msgctxt "TxDetails|"
 msgid "Transaction is partially signed by this wallet. Present this QR code to the next co-signer"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:381
+#: ../gui/qml/components/TxDetails.qml:387
 msgctxt "TxDetails|"
 msgid "Save"
 msgstr "සුරකින්න"
 
-#: ../gui/qml/components/TxDetails.qml:390
+#: ../gui/qml/components/TxDetails.qml:396
 msgctxt "TxDetails|"
 msgid "Remove"
 msgstr "ඉවත් කරන්න"
 
-#: ../gui/qml/components/TxDetails.qml:426
+#: ../gui/qml/components/TxDetails.qml:432
 msgctxt "TxDetails|"
 msgid "Transaction added to wallet history."
 msgstr "ගනුදෙනුව පසුම්බි ඉතිහාසයට එක් කරන ලදී."
 
-#: ../gui/qml/components/TxDetails.qml:427
+#: ../gui/qml/components/TxDetails.qml:433
 msgctxt "TxDetails|"
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "සටහන: මෙය නොබැඳි ගනුදෙනුවකි, ඔබට ජාලය එය දැකීමට අවශ්‍ය නම්, ඔබ එය විකාශනය කළ යුතුය."
 
-#: ../gui/qml/components/TxDetails.qml:439
+#: ../gui/qml/components/TxDetails.qml:445
 msgctxt "TxDetails|"
 msgid "Transaction was broadcast successfully"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:459
+#: ../gui/qml/components/TxDetails.qml:465
 msgctxt "TxDetails|"
 msgid "Transaction fee updated."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:460
-#: ../gui/qml/components/TxDetails.qml:488
-#: ../gui/qml/components/TxDetails.qml:515
+#: ../gui/qml/components/TxDetails.qml:466
+#: ../gui/qml/components/TxDetails.qml:494
+#: ../gui/qml/components/TxDetails.qml:521
 msgctxt "TxDetails|"
 msgid "You still need to sign and broadcast this transaction."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:487
+#: ../gui/qml/components/TxDetails.qml:493
 msgctxt "TxDetails|"
 msgid "CPFP fee bump transaction created."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:514
+#: ../gui/qml/components/TxDetails.qml:520
 msgctxt "TxDetails|"
 msgid "Cancel transaction created."
 msgstr ""
@@ -10116,32 +10129,32 @@ msgctxt "WCBIP39Refine|"
 msgid "Derivation path"
 msgstr "ව්යුත්පන්න මාර්ගය"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:31
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:34
 msgctxt "WCConfirmSeed|"
 msgid "Your seed is important!"
 msgstr "ඔබේ බීජය වැදගත් වේ!"
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:32
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:35
 msgctxt "WCConfirmSeed|"
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "ඔබේ බීජය නැති වුවහොත් ඔබේ මුදල් සදාකාලිකවම අහිමි වනු ඇත."
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:33
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:36
 msgctxt "WCConfirmSeed|"
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "ඔබ ඔබේ බීජය නිවැරදිව සුරැකී ඇති බව තහවුරු කර ගැනීමට කරුණාකර එය මෙහි නැවත ටයිප් කරන්න."
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:38
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:40
 msgctxt "WCConfirmSeed|"
 msgid "Confirm your seed (re-enter)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:44
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:46
 msgctxt "WCConfirmSeed|"
 msgid "Enter your seed"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCConfirmSeed.qml:51
+#: ../gui/qml/components/wizard/WCConfirmSeed.qml:53
 msgctxt "WCConfirmSeed|"
 msgid "Enter your custom word(s)"
 msgstr ""
@@ -10172,205 +10185,205 @@ msgctxt "WCCosignerKeystore|"
 msgid "Cosigner seed"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:22
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:24
 #, qt-format
 msgctxt "WCCreateSeed|"
 msgid "Please save these %1 words on paper (order is important)."
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:23
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:25
 msgctxt "WCCreateSeed|"
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "මෙම බීජය මඟින් පරිගණකය අසමත් වුවහොත් ඔබේ මුදල් පසුම්බිය නැවත ලබා ගැනීමට ඔබට ඉඩ සලසයි."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:25
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:27
 msgctxt "WCCreateSeed|"
 msgid "WARNING"
 msgstr "අවවාදයයි"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:27
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:29
 msgctxt "WCCreateSeed|"
 msgid "Never disclose your seed."
 msgstr "ඔබේ බීජ කිසි විටෙකත් හෙළි නොකරන්න."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:28
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:30
 msgctxt "WCCreateSeed|"
 msgid "Never type it on a website."
 msgstr "එය කිසිවිටෙක වෙබ් අඩවියක ටයිප් නොකරන්න."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:29
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:31
 msgctxt "WCCreateSeed|"
 msgid "Do not store it electronically."
 msgstr "එය ඉලෙක්ට්රොනිකව ගබඩා නොකරන්න."
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:54
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:56
 msgctxt "WCCreateSeed|"
 msgid "Your wallet generation seed is:"
 msgstr "ඔබේ පසුම්බි පරම්පරාවේ බීජය:"
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:71
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:73
 msgctxt "WCCreateSeed|"
 msgid "Extend seed with custom words"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCCreateSeed.qml:78
+#: ../gui/qml/components/wizard/WCCreateSeed.qml:80
 msgctxt "WCCreateSeed|"
 msgid "Enter your custom word(s)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:38
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:39
 msgctxt "WCHaveMasterKey|"
 msgid "Error: invalid master key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:45
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:46
 msgctxt "WCHaveMasterKey|"
 msgid "Error: duplicate master public key"
 msgstr "දෝෂය: ප්‍රධාන පොදු යතුර අනුපිටපත් කරන්න"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:60
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:61
 msgctxt "WCHaveMasterKey|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:83
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:84
 msgctxt "WCHaveMasterKey|"
 msgid "Master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:102
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:103
 #, qt-format
 msgctxt "WCHaveMasterKey|"
 msgid "Cosigner #%1 of %2"
-msgstr ""
-
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:109
-msgctxt "WCHaveMasterKey|"
-msgid "Enter cosigner master public key"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCHaveMasterKey.qml:110
 msgctxt "WCHaveMasterKey|"
+msgid "Enter cosigner master public key"
+msgstr ""
+
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:111
+msgctxt "WCHaveMasterKey|"
 msgid "Create keystore from a master key"
 msgstr "ප්‍රධාන යතුරකින් යතුරු ගබඩාවක් සාදන්න"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:147
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:148
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a cosigner master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:148
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:149
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a master key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:39
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:40
 msgctxt "WCHaveSeed|"
 msgid "Electrum seeds are the default seed type."
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:40
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:41
 msgctxt "WCHaveSeed|"
 msgid "If you are restoring from a seed previously created by Electrum, choose this option"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:43
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:44
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "BIP39 බීජ Electrum තුළ ආනයනය කළ හැකි අතර, පරිශීලකයින්ට වෙනත් පසුම්බිවල අගුලු දමා ඇති අරමුදල් වෙත ප්‍රවේශ විය හැක."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:45
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:46
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "කෙසේ වෙතත්, අපි BIP39 බීජ නිපදවන්නේ නැත, මන්ද ඒවා අපගේ ආරක්ෂිත ප්‍රමිතියට අනුකූල නොවන බැවිනි."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:46
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:47
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
 msgstr "BIP39 බීජවල අනුවාද අංකයක් ඇතුළත් නොවේ, එය අනාගත මෘදුකාංග සමඟ ගැළපීම අඩාල කරයි."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:49
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:50
 msgctxt "WCHaveSeed|"
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "SLIP39 බීජ ඉලෙක්ට්‍රම් තුළ ආනයනය කළ හැකි අතර එමඟින් පරිශීලකයින්ට වෙනත් පසුම්බිවල අගුලු දමා ඇති අරමුදල් වෙත ප්‍රවේශ විය හැක."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:51
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:52
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "කෙසේ වෙතත්, අපි SLIP39 බීජ නිපදවන්නේ නැත."
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:68
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:69
 msgctxt "WCHaveSeed|"
 msgid "Error: duplicate master public key"
 msgstr "දෝෂය: ප්‍රධාන පොදු යතුර අනුපිටපත් කරන්න"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:91
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:92
 msgctxt "WCHaveSeed|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:115
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:116
 msgctxt "WCHaveSeed|"
 msgid "Master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:136
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:137
 #, qt-format
 msgctxt "WCHaveSeed|"
 msgid "Cosigner #%1 of %2"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:142
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:143
 msgctxt "WCHaveSeed|"
 msgid "Seed Type"
 msgstr "බීජ වර්ගය"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:152
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:153
 msgctxt "WCHaveSeed|"
 msgid "Electrum"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:153
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:154
 msgctxt "WCHaveSeed|"
 msgid "BIP39"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:173
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
 msgctxt "WCHaveSeed|"
 msgid "Enter cosigner seed"
 msgstr "cosigner seed ඇතුලත් කරන්න"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:173
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
 msgctxt "WCHaveSeed|"
 msgid "Enter your seed"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:209
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:197
 msgctxt "WCHaveSeed|"
 msgid "Extend seed with custom words"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:217
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:205
 msgctxt "WCHaveSeed|"
 msgid "Enter your custom word(s)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCImport.qml:31
+#: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Bitcoin ලිපින ලැයිස්තුවක් ඇතුළත් කරන්න (මෙය නැරඹීමට පමණක් මුදල් පසුම්බියක් සාදනු ඇත) හෝ පුද්ගලික යතුරු ලැයිස්තුවක්."
 
-#: ../gui/qml/components/wizard/WCImport.qml:67
+#: ../gui/qml/components/wizard/WCImport.qml:68
 msgctxt "WCImport|"
 msgid "Scan another address"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCImport.qml:69
+#: ../gui/qml/components/wizard/WCImport.qml:70
 msgctxt "WCImport|"
 msgid "Scan another private key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCImport.qml:70
+#: ../gui/qml/components/wizard/WCImport.qml:71
 msgctxt "WCImport|"
 msgid "Scan a private key or an address"
 msgstr ""
@@ -10503,165 +10516,165 @@ msgctxt "WalletDetails|"
 msgid "Enable Lightning for this wallet?"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:60
+#: ../gui/qml/components/WalletDetails.qml:57
 msgctxt "WalletDetails|"
 msgid "Wallet details"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:82
+#: ../gui/qml/components/WalletDetails.qml:79
 msgctxt "WalletDetails|"
 msgid "HD"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:89
+#: ../gui/qml/components/WalletDetails.qml:86
 msgctxt "WalletDetails|"
 msgid "Watch only"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:97
+#: ../gui/qml/components/WalletDetails.qml:94
 msgctxt "WalletDetails|"
 msgid "Encrypted"
 msgstr "සංකේතනය කර ඇත"
 
-#: ../gui/qml/components/WalletDetails.qml:105
+#: ../gui/qml/components/WalletDetails.qml:102
 msgctxt "WalletDetails|"
 msgid "HW"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:113
+#: ../gui/qml/components/WalletDetails.qml:110
 msgctxt "WalletDetails|"
 msgid "Lightning"
 msgstr "අකුණු"
 
-#: ../gui/qml/components/WalletDetails.qml:121
-#: ../gui/qml/components/WalletDetails.qml:138
+#: ../gui/qml/components/WalletDetails.qml:118
+#: ../gui/qml/components/WalletDetails.qml:135
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "බීජ"
 
-#: ../gui/qml/components/WalletDetails.qml:161
+#: ../gui/qml/components/WalletDetails.qml:158
 msgctxt "WalletDetails|"
 msgid "Tap to show seed"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:183
-#: ../gui/qml/components/WalletDetails.qml:206
+#: ../gui/qml/components/WalletDetails.qml:180
+#: ../gui/qml/components/WalletDetails.qml:203
 msgctxt "WalletDetails|"
 msgid "Lightning Node ID"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:217
+#: ../gui/qml/components/WalletDetails.qml:214
 msgctxt "WalletDetails|"
 msgid "2FA"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:225
+#: ../gui/qml/components/WalletDetails.qml:222
 msgctxt "WalletDetails|"
 msgid "disabled (can sign without server)"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:226
+#: ../gui/qml/components/WalletDetails.qml:223
 msgctxt "WalletDetails|"
 msgid "enabled"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:231
+#: ../gui/qml/components/WalletDetails.qml:228
 msgctxt "WalletDetails|"
 msgid "Remaining TX"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:240
+#: ../gui/qml/components/WalletDetails.qml:237
 msgctxt "WalletDetails|"
 msgid "unknown"
 msgstr "නොදන්නා"
 
-#: ../gui/qml/components/WalletDetails.qml:247
+#: ../gui/qml/components/WalletDetails.qml:244
 msgctxt "WalletDetails|"
 msgid "Billing"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:296
+#: ../gui/qml/components/WalletDetails.qml:293
 msgctxt "WalletDetails|"
 msgid "Keystore"
 msgstr "යතුරු ගබඩාව"
 
-#: ../gui/qml/components/WalletDetails.qml:318
+#: ../gui/qml/components/WalletDetails.qml:315
 msgctxt "WalletDetails|"
 msgid "Keystore type"
 msgstr "යතුරු ගබඩා වර්ගය"
 
-#: ../gui/qml/components/WalletDetails.qml:330
+#: ../gui/qml/components/WalletDetails.qml:327
 msgctxt "WalletDetails|"
 msgid "Imported addresses"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:331
+#: ../gui/qml/components/WalletDetails.qml:328
 msgctxt "WalletDetails|"
 msgid "Imported keys"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:342
+#: ../gui/qml/components/WalletDetails.qml:339
 msgctxt "WalletDetails|"
 msgid "Derivation prefix"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:354
+#: ../gui/qml/components/WalletDetails.qml:351
 msgctxt "WalletDetails|"
 msgid "BIP32 fingerprint"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:368
-#: ../gui/qml/components/WalletDetails.qml:388
+#: ../gui/qml/components/WalletDetails.qml:365
+#: ../gui/qml/components/WalletDetails.qml:385
 msgctxt "WalletDetails|"
 msgid "Master Public Key"
 msgstr "ප්රධාන පොදු යතුර"
 
-#: ../gui/qml/components/WalletDetails.qml:411
+#: ../gui/qml/components/WalletDetails.qml:408
 msgctxt "WalletDetails|"
 msgid "Delete Wallet"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:418
+#: ../gui/qml/components/WalletDetails.qml:415
 msgctxt "WalletDetails|"
 msgid "Change Password"
 msgstr "මුරපදය වෙනස් කරන්න"
 
-#: ../gui/qml/components/WalletDetails.qml:427
+#: ../gui/qml/components/WalletDetails.qml:424
 msgctxt "WalletDetails|"
 msgid "Add addresses"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:428
+#: ../gui/qml/components/WalletDetails.qml:425
 msgctxt "WalletDetails|"
 msgid "Add keys"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:435
+#: ../gui/qml/components/WalletDetails.qml:432
 msgctxt "WalletDetails|"
 msgid "Enable Lightning"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:452
-#: ../gui/qml/components/WalletDetails.qml:492
+#: ../gui/qml/components/WalletDetails.qml:449
+#: ../gui/qml/components/WalletDetails.qml:500
 msgctxt "WalletDetails|"
 msgid "Enter new password"
 msgstr "නව මුරපදය ඇතුළත් කරන්න"
 
-#: ../gui/qml/components/WalletDetails.qml:453
-#: ../gui/qml/components/WalletDetails.qml:493
+#: ../gui/qml/components/WalletDetails.qml:450
+#: ../gui/qml/components/WalletDetails.qml:501
 msgctxt "WalletDetails|"
 msgid "If you forget your password, you'll need to restore from seed. Please make sure you have your seed stored safely"
 msgstr ""
 
-#: ../gui/qml/components/WalletDetails.qml:462
-#: ../gui/qml/components/WalletDetails.qml:469
-#: ../gui/qml/components/WalletDetails.qml:475
-#: ../gui/qml/components/WalletDetails.qml:481
+#: ../gui/qml/components/WalletDetails.qml:459
+#: ../gui/qml/components/WalletDetails.qml:467
+#: ../gui/qml/components/WalletDetails.qml:477
+#: ../gui/qml/components/WalletDetails.qml:487
 msgctxt "WalletDetails|"
 msgid "Error"
 msgstr "දෝෂයකි"
 
-#: ../gui/qml/components/WalletDetails.qml:463
+#: ../gui/qml/components/WalletDetails.qml:460
 msgctxt "WalletDetails|"
 msgid "Password change failed"
 msgstr ""
@@ -10766,42 +10779,42 @@ msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "පසුම්බි"
 
-#: ../gui/qml/components/Wallets.qml:93
+#: ../gui/qml/components/Wallets.qml:94
 msgctxt "Wallets|"
 msgid "Current"
 msgstr ""
 
-#: ../gui/qml/components/Wallets.qml:100
+#: ../gui/qml/components/Wallets.qml:101
 msgctxt "Wallets|"
 msgid "Active"
 msgstr ""
 
-#: ../gui/qml/components/Wallets.qml:106
+#: ../gui/qml/components/Wallets.qml:107
 msgctxt "Wallets|"
 msgid "Not loaded"
 msgstr ""
 
-#: ../gui/qml/components/Wallets.qml:121
+#: ../gui/qml/components/Wallets.qml:122
 msgctxt "Wallets|"
 msgid "Create Wallet"
 msgstr ""
 
-#: ../gui/qml/components/wizard/Wizard.qml:165
+#: ../gui/qml/components/wizard/Wizard.qml:172
 msgctxt "Wizard|"
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
-#: ../gui/qml/components/wizard/Wizard.qml:172
+#: ../gui/qml/components/wizard/Wizard.qml:179
 msgctxt "Wizard|"
 msgid "Back"
 msgstr "ආපසු"
 
-#: ../gui/qml/components/wizard/Wizard.qml:178
+#: ../gui/qml/components/wizard/Wizard.qml:185
 msgctxt "Wizard|"
 msgid "Next"
 msgstr "ඊළඟ"
 
-#: ../gui/qml/components/wizard/Wizard.qml:187
+#: ../gui/qml/components/wizard/Wizard.qml:194
 msgctxt "Wizard|"
 msgid "Finish"
 msgstr ""
@@ -10821,27 +10834,27 @@ msgctxt "main|"
 msgid "About"
 msgstr "ගැන"
 
-#: ../gui/qml/components/main.qml:388
+#: ../gui/qml/components/main.qml:400
 msgctxt "main|"
 msgid "Error"
 msgstr "දෝෂයකි"
 
-#: ../gui/qml/components/main.qml:465
+#: ../gui/qml/components/main.qml:477
 msgctxt "main|"
 msgid "Close Electrum?"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:527
+#: ../gui/qml/components/main.qml:539
 msgctxt "main|"
 msgid "Payment Succeeded"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:530
+#: ../gui/qml/components/main.qml:542
 msgctxt "main|"
 msgid "Payment Failed"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:548
+#: ../gui/qml/components/main.qml:560
 msgctxt "main|"
 msgid "Enter current password"
 msgstr ""
