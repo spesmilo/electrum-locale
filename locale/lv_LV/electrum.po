@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-04 11:34+0000\n"
-"PO-Revision-Date: 2023-05-04 11:34\n"
+"POT-Creation-Date: 2023-05-11 14:41+0000\n"
+"PO-Revision-Date: 2023-05-11 14:41\n"
 "Last-Translator: \n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-#: electrum/exchange_rate.py:656
+#: electrum/exchange_rate.py:659
 msgid "  (No FX rate available)"
 msgstr "  (valūtas kurss nav pieejams)"
 
@@ -61,7 +61,7 @@ msgstr "Zie&dot serverim"
 msgid "&Encrypt/decrypt message"
 msgstr "&Šifrēt vai atšifrēt ziņojumu"
 
-#: electrum/gui/qt/history_list.py:557 electrum/gui/qt/main_window.py:689
+#: electrum/gui/qt/history_list.py:558 electrum/gui/qt/main_window.py:689
 #: electrum/gui/qt/main_window.py:695
 msgid "&Export"
 msgstr "&Eksportēt"
@@ -138,7 +138,7 @@ msgstr "&Parole"
 msgid "&Pay to many"
 msgstr "&Maksāt vairākiem"
 
-#: electrum/gui/qt/history_list.py:556
+#: electrum/gui/qt/history_list.py:557
 msgid "&Plot"
 msgstr "&Grafiks"
 
@@ -174,7 +174,7 @@ msgstr "&Sēkla"
 msgid "&Sign/verify message"
 msgstr "&Parakstīt vai pārbaudīt ziņojumu"
 
-#: electrum/gui/qt/history_list.py:555
+#: electrum/gui/qt/history_list.py:556
 msgid "&Summary"
 msgstr "&Kopsavilkums"
 
@@ -234,7 +234,7 @@ msgstr ""
 msgid "4. Type the numbers in the software"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2653
+#: electrum/gui/qt/main_window.py:2655
 msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
 msgstr ""
 
@@ -294,7 +294,7 @@ msgstr ""
 msgid "Accept Word"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:423 electrum/gui/qt/history_list.py:653
+#: electrum/gui/qt/history_list.py:423 electrum/gui/qt/history_list.py:654
 msgid "Acquisition price"
 msgstr "Iegādes cena"
 
@@ -337,7 +337,7 @@ msgstr "Pievienot bitcoin summām tūkstošu atdalītājus"
 msgid "Add to History"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:319 electrum/gui/qt/utxo_list.py:306
+#: electrum/gui/qt/address_list.py:320 electrum/gui/qt/utxo_list.py:306
 msgid "Add to coin control"
 msgstr ""
 
@@ -357,12 +357,12 @@ msgstr "Papildu komisijas maksas"
 msgid "Additional {} satoshis are going to be added."
 msgstr "Tiks pievienoti papildu {} satoshi."
 
-#: electrum/gui/qt/main_window.py:1403 electrum/gui/qt/main_window.py:1715
-#: electrum/gui/qt/main_window.py:1953 electrum/gui/qt/main_window.py:2029
+#: electrum/gui/qt/main_window.py:1405 electrum/gui/qt/main_window.py:1717
+#: electrum/gui/qt/main_window.py:1955 electrum/gui/qt/main_window.py:2031
 #: electrum/gui/qt/receive_tab.py:217 electrum/gui/qt/receive_tab.py:293
 #: electrum/gui/qt/contact_list.py:53 electrum/gui/qt/address_dialog.py:57
 #: electrum/gui/qt/address_dialog.py:69 electrum/gui/qt/address_dialog.py:70
-#: electrum/gui/qt/util.py:464 electrum/gui/qt/address_list.py:150
+#: electrum/gui/qt/util.py:464 electrum/gui/qt/address_list.py:151
 #: electrum/gui/qt/request_list.py:67 electrum/gui/qt/request_list.py:199
 #: electrum/gui/qt/utxo_list.py:61 electrum/gui/qt/invoice_list.py:180
 msgid "Address"
@@ -382,7 +382,7 @@ msgstr "Adrese iekopēta starpliktuvē"
 msgid "Address is frozen"
 msgstr "Adrese ir iesaldēta"
 
-#: electrum/gui/qt/main_window.py:1980 electrum/wallet.py:730
+#: electrum/gui/qt/main_window.py:1982 electrum/wallet.py:732
 #: electrum/plugins/hw_wallet/plugin.py:132
 msgid "Address not in wallet."
 msgstr "Adrese nav maciņā."
@@ -425,7 +425,7 @@ msgstr "Viss"
 msgid "All fields must be filled out"
 msgstr "Ir jāaizpilda visi lauki"
 
-#: electrum/wallet.py:1996
+#: electrum/wallet.py:2015
 msgid "All outputs are non-change is_mine"
 msgstr ""
 
@@ -470,8 +470,8 @@ msgid "Always check your backups."
 msgstr ""
 
 #: electrum/gui/stdio.py:121 electrum/gui/qt/utxo_dialog.py:68
-#: electrum/gui/qt/history_list.py:428 electrum/gui/qt/main_window.py:1400
-#: electrum/gui/qt/main_window.py:1453 electrum/gui/qt/send_tab.py:109
+#: electrum/gui/qt/history_list.py:428 electrum/gui/qt/main_window.py:1402
+#: electrum/gui/qt/main_window.py:1455 electrum/gui/qt/send_tab.py:109
 #: electrum/gui/qt/channel_details.py:87
 #: electrum/gui/qt/lightning_tx_dialog.py:66 electrum/gui/qt/request_list.py:65
 #: electrum/gui/qt/rebalance_dialog.py:42 electrum/gui/qt/utxo_list.py:64
@@ -514,7 +514,7 @@ msgid "Amount too low"
 msgstr "Pārāk maza summa"
 
 #: electrum/gui/qt/receive_tab.py:313 electrum/gui/kivy/uix/screens.py:522
-#: electrum/wallet.py:2968 electrum/wallet.py:2973
+#: electrum/wallet.py:2989 electrum/wallet.py:2994
 msgid "Amount too small to be received onchain"
 msgstr "Summa ir pārāk maza, lai to saņemtu uz ķēdes"
 
@@ -586,13 +586,13 @@ msgstr ""
 msgid "Are you sure you want to proceed?"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:805
+#: electrum/gui/qt/history_list.py:806
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:344
 #: electrum/gui/qml/qetxdetails.py:396
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr "Vai tiešām vēlaties izņemt šo transakciju un {} bērnu transakcijas?"
 
-#: electrum/gui/qt/history_list.py:803
+#: electrum/gui/qt/history_list.py:804
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:341
 #: electrum/gui/qml/qetxdetails.py:393
 msgid "Are you sure you want to remove this transaction?"
@@ -606,7 +606,7 @@ msgstr "Armēņu"
 msgid "At block height: {}"
 msgstr "Bloka augstumā: {}"
 
-#: electrum/lnutil.py:1477
+#: electrum/lnutil.py:1503
 msgid "At least a hostname must be supplied after the at symbol."
 msgstr "Pēc simbola \"@\" ir jānorāda vismaz resursdatora nosaukums."
 
@@ -658,23 +658,23 @@ msgstr "Electrum var importēt BIP39 sēklas, lai lietotāji varētu piekļūt c
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
 msgstr "BIP39 sēklas neiekļauj versijas numuru, tas nākotnē var traucēt programmatūras saderībai."
 
-#: electrum/gui/qt/main_window.py:1435
+#: electrum/gui/qt/main_window.py:1437
 msgid "BIP70 invoice saved as {}"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:645
+#: electrum/gui/qt/history_list.py:646
 msgid "BTC Fiat price"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:641
+#: electrum/gui/qt/history_list.py:642
 msgid "BTC balance"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:662
+#: electrum/gui/qt/history_list.py:663
 msgid "BTC incoming"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:666
+#: electrum/gui/qt/history_list.py:667
 msgid "BTC outgoing"
 msgstr ""
 
@@ -705,7 +705,7 @@ msgstr "Rezerves kopija saglabāta:"
 
 #: electrum/gui/stdio.py:121 electrum/gui/stdio.py:133
 #: electrum/gui/qt/history_list.py:429 electrum/gui/qt/main_window.py:957
-#: electrum/gui/qt/address_list.py:152 electrum/gui/qt/address_list.py:153
+#: electrum/gui/qt/address_list.py:153 electrum/gui/qt/address_list.py:154
 #: electrum/gui/kivy/uix/ui_screens/status.kv:39 electrum/gui/text.py:158
 #: electrum/gui/text.py:206
 msgid "Balance"
@@ -735,7 +735,7 @@ msgstr ""
 msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
 msgstr "Pirms ziņot par problēmu, pārliecinieties vai izmantojat jaunāko Electrum versiju (jaunāko laidienu vai git HEAD), un iekļaujiet versijas numuru jūsu ziņojumā."
 
-#: electrum/gui/qt/history_list.py:634
+#: electrum/gui/qt/history_list.py:635
 msgid "Begin"
 msgstr ""
 
@@ -843,13 +843,13 @@ msgstr "Var saņemt"
 msgid "Can send"
 msgstr "Var sūtīt"
 
-#: electrum/gui/qt/main_window.py:2648
+#: electrum/gui/qt/main_window.py:2650
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:255
-#: electrum/gui/qml/qetxfinalizer.py:760 electrum/gui/qml/qetxfinalizer.py:761
+#: electrum/gui/qml/qetxfinalizer.py:764 electrum/gui/qml/qetxfinalizer.py:765
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "Neizdevās palielināt komisijas maksu: nav zināma oriģinālās transakcijas komisija."
 
-#: electrum/gui/qt/history_list.py:686
+#: electrum/gui/qt/history_list.py:687
 msgid "Can't plot history."
 msgstr "Nevar izveidot vēstures grafiku."
 
@@ -863,7 +863,7 @@ msgstr "Nevar izveidot vēstures grafiku."
 msgid "Cancel"
 msgstr "Atcelt"
 
-#: electrum/gui/qt/history_list.py:789
+#: electrum/gui/qt/history_list.py:790
 msgid "Cancel (double-spend)"
 msgstr "Atcelt (iztērēt divreiz)"
 
@@ -888,20 +888,20 @@ msgstr "Nevar pievienot šo līdzparakstītāju:"
 msgid "Cannot broadcast transaction"
 msgstr "Neizdevās apraidīt transakciju"
 
-#: electrum/wallet.py:231
+#: electrum/wallet.py:233
 msgid "Cannot bump fee"
 msgstr "Nevar paaugstināt komisijas maksu"
 
-#: electrum/wallet.py:235
+#: electrum/wallet.py:237
 msgid "Cannot cancel transaction"
 msgstr "Neizdevās atcelt transakciju"
 
-#: electrum/wallet.py:239
+#: electrum/wallet.py:241
 msgid "Cannot create child transaction"
 msgstr ""
 
-#: electrum/gui/qml/qetxfinalizer.py:535 electrum/gui/qml/qetxfinalizer.py:642
-#: electrum/gui/qml/qetxfinalizer.py:795
+#: electrum/gui/qml/qetxfinalizer.py:539 electrum/gui/qml/qetxfinalizer.py:646
+#: electrum/gui/qml/qetxfinalizer.py:799
 msgid "Cannot determine dynamic fees, not connected"
 msgstr ""
 
@@ -909,7 +909,7 @@ msgstr ""
 msgid "Cannot import channel backup."
 msgstr "Neizdevās importēt kanāla rezerves kopiju."
 
-#: electrum/gui/qt/__init__.py:349 electrum/gui/qt/__init__.py:371
+#: electrum/gui/qt/__init__.py:349 electrum/gui/qt/__init__.py:374
 msgid "Cannot load wallet"
 msgstr ""
 
@@ -926,7 +926,7 @@ msgstr "Nevar nolasīt failu"
 msgid "Cannot save backup without STORAGE permission"
 msgstr "Nevar saglabāt dublējumu bez STORAGE atļaujas"
 
-#: electrum/gui/qt/main_window.py:1984
+#: electrum/gui/qt/main_window.py:1986
 msgid "Cannot sign messages with this type of address:"
 msgstr "Nevar parakstīt ziņojumus ar šāda tipa adresi:"
 
@@ -955,11 +955,11 @@ msgstr "Kapacitāte"
 msgid "Capital Gains"
 msgstr "Kapitāla pieaugums"
 
-#: electrum/gui/qt/history_list.py:674
+#: electrum/gui/qt/history_list.py:675
 msgid "Cash flow"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2773
+#: electrum/gui/qt/main_window.py:2775
 msgid "Certificate mismatch"
 msgstr "Sertifikātu neatbilstība"
 
@@ -1002,7 +1002,7 @@ msgstr "Kanāla rezerves kopija"
 msgid "Channel Backup "
 msgstr "Kanāla rezerves kopija "
 
-#: electrum/gui/qt/main_window.py:2208
+#: electrum/gui/qt/main_window.py:2210
 msgid "Channel Backup:"
 msgstr "Kanāla rezerves kopija:"
 
@@ -1090,7 +1090,7 @@ msgstr ""
 msgid "Checking for updates..."
 msgstr "Pārbauda atjauninājumus..."
 
-#: electrum/gui/qt/main_window.py:2650
+#: electrum/gui/qt/main_window.py:2652
 msgid "Child Pays for Parent"
 msgstr "Bērns maksā par vecākiem"
 
@@ -1100,7 +1100,7 @@ msgid "Child pays\n"
 msgstr "Bērns maksā\n"
 "par vecākiem"
 
-#: electrum/gui/qt/history_list.py:787
+#: electrum/gui/qt/history_list.py:788
 msgid "Child pays for parent"
 msgstr "Bērns maksā par vecākiem"
 
@@ -1222,10 +1222,10 @@ msgid "Clipboard is empty"
 msgstr "Starpliktuve ir tukša"
 
 #: electrum/gui/qt/watchtower_dialog.py:98 electrum/gui/qt/update_checker.py:63
-#: electrum/gui/qt/main_window.py:2047 electrum/gui/qt/main_window.py:2116
+#: electrum/gui/qt/main_window.py:2049 electrum/gui/qt/main_window.py:2118
 #: electrum/gui/qt/transaction_dialog.py:458 electrum/gui/qt/util.py:198
 #: electrum/gui/qt/channels_list.py:269 electrum/gui/qt/qrcodewidget.py:185
-#: electrum/gui/qt/__init__.py:208 electrum/gui/qt/lightning_dialog.py:59
+#: electrum/gui/qt/__init__.py:207 electrum/gui/qt/lightning_dialog.py:59
 #: electrum/gui/kivy/uix/ui_screens/about.kv:54
 #: electrum/gui/kivy/uix/dialogs/qr_dialog.py:83
 msgid "Close"
@@ -1476,7 +1476,7 @@ msgstr "Savienots ar {} dalībniekiem"
 msgid "Connecting"
 msgstr ""
 
-#: electrum/lnutil.py:1441
+#: electrum/lnutil.py:1467
 msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "Savienojuma virknēm jābūt <mezgla_publiskā_atslēga>@<resursdators>:<ports> formātā"
 
@@ -1505,7 +1505,7 @@ msgstr "Kooperatīvā aizvēršana"
 msgid "Cooperative close?"
 msgstr "Kooperatīvā aizvēršana?"
 
-#: electrum/gui/qt/my_treeview.py:417 electrum/gui/qt/history_list.py:727
+#: electrum/gui/qt/my_treeview.py:435 electrum/gui/qt/history_list.py:728
 #: electrum/gui/qt/transaction_dialog.py:309
 #: electrum/gui/qt/transaction_dialog.py:353 electrum/gui/qt/util.py:204
 msgid "Copy"
@@ -1567,19 +1567,19 @@ msgstr "Neizdevās atvērt kanālu: "
 msgid "Could not connect to channel peer"
 msgstr ""
 
-#: electrum/wallet.py:2003
+#: electrum/wallet.py:2022
 msgid "Could not figure out which outputs to keep"
 msgstr ""
 
-#: electrum/wallet.py:2156
+#: electrum/wallet.py:2175
 msgid "Could not find coins for output"
 msgstr ""
 
-#: electrum/wallet.py:2152
+#: electrum/wallet.py:2171
 msgid "Could not find suitable output"
 msgstr ""
 
-#: electrum/wallet.py:2072 electrum/wallet.py:2117 electrum/wallet.py:2131
+#: electrum/wallet.py:2091 electrum/wallet.py:2136 electrum/wallet.py:2150
 msgid "Could not find suitable outputs"
 msgstr ""
 
@@ -1653,7 +1653,7 @@ msgstr ""
 msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
 msgstr "Izveidojot jaunu maksājuma pieprasījumu, viena no jūsu adresēm tiks izmantota atkārtoti un jau esošais pieprasījums tiks pārrakstīts. Turpināt tik un tā?"
 
-#: electrum/gui/qt/main_window.py:1458
+#: electrum/gui/qt/main_window.py:1460
 msgid "Creation time"
 msgstr "Izveidošanas laiks"
 
@@ -1701,12 +1701,12 @@ msgstr "Dāņu"
 msgid "Dark"
 msgstr "Tumša"
 
-#: electrum/gui/qt/__init__.py:209
+#: electrum/gui/qt/__init__.py:208
 msgid "Dark/Light"
 msgstr "Tumšs/gaišs"
 
 #: electrum/gui/stdio.py:121 electrum/gui/qt/history_list.py:426
-#: electrum/gui/qt/history_list.py:637
+#: electrum/gui/qt/history_list.py:638
 #: electrum/gui/qt/lightning_tx_dialog.py:73 electrum/gui/qt/request_list.py:63
 #: electrum/gui/qt/locktimeedit.py:38 electrum/gui/qt/invoice_list.py:65
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:156 electrum/gui/text.py:158
@@ -1729,7 +1729,7 @@ msgstr "Atkļūdošanas ziņojums"
 msgid "Decrease payment"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2112
+#: electrum/gui/qt/main_window.py:2114
 msgid "Decrypt"
 msgstr "Atšifrēt"
 
@@ -1773,7 +1773,7 @@ msgstr "Dzēst pieprasījumu?"
 msgid "Delete requests"
 msgstr "Dzēst pieprasījumus"
 
-#: electrum/gui/qt/main_window.py:1891
+#: electrum/gui/qt/main_window.py:1893
 msgid "Delete wallet file?"
 msgstr "Dzēst maciņa failu?"
 
@@ -1785,12 +1785,12 @@ msgstr "Dzēst maciņu?"
 msgid "Denomination"
 msgstr "Apzīmējums"
 
-#: electrum/gui/qt/main_window.py:1860 electrum/gui/qt/address_dialog.py:99
+#: electrum/gui/qt/main_window.py:1862 electrum/gui/qt/address_dialog.py:99
 msgid "Derivation path"
 msgstr "Atvasinājuma ceļš"
 
 #: electrum/gui/stdio.py:121 electrum/gui/qt/history_list.py:427
-#: electrum/gui/qt/main_window.py:1409 electrum/gui/qt/main_window.py:1456
+#: electrum/gui/qt/main_window.py:1411 electrum/gui/qt/main_window.py:1458
 #: electrum/gui/qt/receive_tab.py:55 electrum/gui/qt/send_tab.py:99
 #: electrum/gui/qt/request_list.py:64 electrum/gui/qt/invoice_list.py:66
 #: electrum/gui/kivy/uix/ui_screens/send.kv:129
@@ -1808,12 +1808,12 @@ msgstr "Transakcijas apraksts (nav obligāts)."
 msgid "Description:"
 msgstr ""
 
-#: electrum/lnutil.py:352
+#: electrum/lnutil.py:354
 msgid "Destination node"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:749 electrum/gui/qt/history_list.py:767
-#: electrum/gui/qt/channels_list.py:251 electrum/gui/qt/address_list.py:286
+#: electrum/gui/qt/history_list.py:750 electrum/gui/qt/history_list.py:768
+#: electrum/gui/qt/channels_list.py:251 electrum/gui/qt/address_list.py:287
 #: electrum/gui/qt/invoice_list.py:176
 msgid "Details"
 msgstr "Sīkāka informācija"
@@ -1917,7 +1917,7 @@ msgstr ""
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr "Vai vēlaties izveidot jaunu sēklu, vai atjaunot maciņu no esošas sēklas?"
 
-#: electrum/gui/qt/main_window.py:1700 electrum/gui/kivy/main_window.py:755
+#: electrum/gui/qt/main_window.py:1702 electrum/gui/kivy/main_window.py:755
 msgid "Do you want to create your first channel?"
 msgstr "Vai vēlaties izveidot savu pirmo kanālu?"
 
@@ -1937,7 +1937,7 @@ msgstr "Vai vēlaties dzēst veco failu"
 msgid "Do you want to open it now?"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1361
+#: electrum/gui/qt/main_window.py:1363
 msgid "Do you want to remove {} from your wallet?"
 msgstr "Vai vēlaties izņemt no maciņa {}?"
 
@@ -1987,7 +1987,7 @@ msgstr "Šajā laikā līdzekļus nevarēs atgūt no sēklas, un, ja pazaudēsie
 msgid "Dutch"
 msgstr "Nīderlandiešu"
 
-#: electrum/util.py:146
+#: electrum/util.py:147
 msgid "Dynamic fee estimates not available"
 msgstr "Dinamiskā komisijas maksas aprēķināšana nav pieejama."
 
@@ -1999,7 +1999,7 @@ msgstr "Aptuvenais laiks"
 msgid "ETA: fee rate is based on average confirmation time estimates"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:772
+#: electrum/gui/qt/history_list.py:773
 msgid "Edit"
 msgstr ""
 
@@ -2011,7 +2011,7 @@ msgstr ""
 msgid "Edit fees manually"
 msgstr ""
 
-#: electrum/gui/qt/contact_list.py:95 electrum/gui/qt/address_list.py:291
+#: electrum/gui/qt/contact_list.py:95 electrum/gui/qt/address_list.py:292
 msgid "Edit {}"
 msgstr "Rediģēt \"{}\""
 
@@ -2019,7 +2019,7 @@ msgstr "Rediģēt \"{}\""
 msgid "Electrum"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2573
+#: electrum/gui/qt/main_window.py:2575
 msgid "Electrum Plugins"
 msgstr "Electrum spraudņi"
 
@@ -2066,23 +2066,23 @@ msgstr "Electrum neizdevās iekopēt maciņa failu norādītajā atrašanās vie
 msgid "Electrum was unable to deserialize the transaction:"
 msgstr "Electrum neizdevās deserializēt transakciju:"
 
-#: electrum/gui/qt/main_window.py:2185
+#: electrum/gui/qt/main_window.py:2187
 msgid "Electrum was unable to open your transaction file"
 msgstr "Electrum neizdevās atvērt transakcijas failu"
 
-#: electrum/gui/qt/main_window.py:2134
+#: electrum/gui/qt/main_window.py:2136
 msgid "Electrum was unable to parse your transaction"
 msgstr "Electrum neizdevās izparsēt transakciju"
 
-#: electrum/gui/qt/main_window.py:2344
+#: electrum/gui/qt/main_window.py:2346
 msgid "Electrum was unable to produce a private key-export."
 msgstr "Electrum neizdevās izveidot privātās atslēgas eksportu."
 
-#: electrum/gui/qt/history_list.py:847
+#: electrum/gui/qt/history_list.py:848
 msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum neizdevās izveidot transakcijas eksportu."
 
-#: electrum/gui/qt/main_window.py:2775
+#: electrum/gui/qt/main_window.py:2777
 msgid "Electrum will now exit."
 msgstr "Electrum tagad izies."
 
@@ -2090,7 +2090,7 @@ msgstr "Electrum tagad izies."
 msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1812
+#: electrum/gui/qt/main_window.py:1814
 msgid "Enable"
 msgstr "Aktivizēt"
 
@@ -2108,7 +2108,7 @@ msgstr ""
 msgid "Enable Passphrases"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:609
+#: electrum/gui/qt/history_list.py:610
 msgid "Enable fiat exchange rate with history."
 msgstr ""
 
@@ -2125,7 +2125,7 @@ msgstr ""
 msgid "Enable update check"
 msgstr "Aktivizēt atjauninājumu pārbaudi"
 
-#: electrum/gui/qt/main_window.py:1788 electrum/gui/kivy/main_window.py:1482
+#: electrum/gui/qt/main_window.py:1790 electrum/gui/kivy/main_window.py:1482
 #: electrum/plugins/keepkey/qt.py:351 electrum/plugins/safe_t/qt.py:229
 #: electrum/plugins/trezor/qt.py:495
 msgid "Enabled"
@@ -2135,7 +2135,7 @@ msgstr "Aktivizēts"
 msgid "Enabled, non-recoverable channels"
 msgstr "Aktivizēts, neatkopjamie kanāli"
 
-#: electrum/gui/qt/main_window.py:2108
+#: electrum/gui/qt/main_window.py:2110
 msgid "Encrypt"
 msgstr "Šifrēt"
 
@@ -2152,20 +2152,20 @@ msgstr "Šifrēt maciņa failu"
 msgid "Encrypt {}'s seed"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2083
+#: electrum/gui/qt/main_window.py:2085
 msgid "Encrypt/decrypt Message"
 msgstr "Šifrēt vai atšifrēt ziņojumu"
 
-#: electrum/gui/qt/address_list.py:297
+#: electrum/gui/qt/address_list.py:298
 msgid "Encrypt/decrypt message"
 msgstr "Šifrēt vai atšifrēt ziņojumu"
 
-#: electrum/gui/qt/main_window.py:2103
+#: electrum/gui/qt/main_window.py:2105
 msgid "Encrypted"
 msgstr "Šifrēts"
 
 #: electrum/plugins/coldcard/coldcard.py:302
-#: electrum/plugins/ledger/ledger.py:1300
+#: electrum/plugins/ledger/ledger.py:1301
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:458
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr ""
@@ -2175,7 +2175,7 @@ msgstr ""
 msgid "Encryption and decryption are not implemented by {}"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:635
+#: electrum/gui/qt/history_list.py:636
 msgid "End"
 msgstr "Beigas"
 
@@ -2252,7 +2252,7 @@ msgstr ""
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2498
+#: electrum/gui/qt/main_window.py:2500
 msgid "Enter addresses"
 msgstr "Ievadiet adreses"
 
@@ -2287,11 +2287,11 @@ msgstr ""
 msgid "Enter password:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2507
+#: electrum/gui/qt/main_window.py:2509
 msgid "Enter private keys"
 msgstr "Ievadiet privātās atslēgas"
 
-#: electrum/gui/qt/main_window.py:2401
+#: electrum/gui/qt/main_window.py:2403
 msgid "Enter private keys:"
 msgstr "Ievadiet privātās atslēgas:"
 
@@ -2373,7 +2373,7 @@ msgstr ""
 #: electrum/gui/qt/util.py:258 electrum/gui/qt/installwizard.py:325
 #: electrum/gui/qt/installwizard.py:329 electrum/gui/qt/installwizard.py:335
 #: electrum/gui/qt/installwizard.py:344 electrum/gui/qt/__init__.py:348
-#: electrum/gui/qt/__init__.py:370 electrum/gui/qml/qeswaphelper.py:375
+#: electrum/gui/qt/__init__.py:373 electrum/gui/qml/qeswaphelper.py:375
 #: electrum/gui/qml/qeswaphelper.py:415 electrum/slip39.py:351
 #: electrum/plugins/trustedcoin/kivy.py:69
 #: electrum/plugins/trustedcoin/kivy.py:71
@@ -2419,7 +2419,7 @@ msgstr ""
 msgid "Error getting TrustedCoin account info."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2251 electrum/gui/qt/main_window.py:2257
+#: electrum/gui/qt/main_window.py:2253 electrum/gui/qt/main_window.py:2259
 msgid "Error getting transaction from network"
 msgstr "Gadījās kļūda, saņemot transakciju no tīkla"
 
@@ -2471,7 +2471,7 @@ msgstr "Esperanto"
 msgid "Estimate"
 msgstr "Aprēķins"
 
-#: electrum/gui/qt/__init__.py:211
+#: electrum/gui/qt/__init__.py:210
 msgid "Exit Electrum"
 msgstr "Iziet no Electrum"
 
@@ -2483,7 +2483,7 @@ msgstr "Derīguma termiņš"
 msgid "Expiration period of your request."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1461
+#: electrum/gui/qt/main_window.py:1463
 msgid "Expiration time"
 msgstr "Derīguma termiņš"
 
@@ -2491,7 +2491,7 @@ msgstr "Derīguma termiņš"
 msgid "Expired"
 msgstr "Izbeidzies"
 
-#: electrum/gui/qt/main_window.py:1412 electrum/invoices.py:131
+#: electrum/gui/qt/main_window.py:1414 electrum/invoices.py:131
 msgid "Expires"
 msgstr "Beidzas"
 
@@ -2500,8 +2500,8 @@ msgstr "Beidzas"
 msgid "Expiry"
 msgstr "Derīguma termiņš"
 
-#: electrum/gui/qt/history_list.py:835 electrum/gui/qt/main_window.py:1436
-#: electrum/gui/qt/main_window.py:2291 electrum/gui/qt/contact_list.py:145
+#: electrum/gui/qt/history_list.py:836 electrum/gui/qt/main_window.py:1438
+#: electrum/gui/qt/main_window.py:2293 electrum/gui/qt/contact_list.py:145
 msgid "Export"
 msgstr "Eksportēt"
 
@@ -2509,7 +2509,7 @@ msgstr "Eksportēt"
 msgid "Export Backup"
 msgstr "Eksportēt rezerves kopiju"
 
-#: electrum/gui/qt/history_list.py:827
+#: electrum/gui/qt/history_list.py:828
 msgid "Export History"
 msgstr "Eksportēt vēsturi"
 
@@ -2529,7 +2529,7 @@ msgstr "Eksportēt rēķinus"
 msgid "Export requests"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2278
+#: electrum/gui/qt/main_window.py:2280
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "Vienas privātās atslēgas atklāšana var apdraudēt visa maciņa drošību!"
 
@@ -2559,11 +2559,11 @@ msgstr "Neizdevās atšifrēt izmantojot aparatūras ierīci."
 msgid "Failed to display QR code."
 msgstr "Neizdevās attēlot QR kodu."
 
-#: electrum/util.py:186
+#: electrum/util.py:187
 msgid "Failed to export to file."
 msgstr "Neizdevās eksportēt failā."
 
-#: electrum/util.py:178
+#: electrum/util.py:179
 msgid "Failed to import from file."
 msgstr "Neizdevās importēt failā."
 
@@ -2575,19 +2575,19 @@ msgstr ""
 msgid "Failed to send transaction to cosigning pool"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1671
+#: electrum/gui/qt/main_window.py:1673
 msgid "Failed to update password"
 msgstr "Neizdevās atjaunot paroli"
 
-#: electrum/gui/qt/main_window.py:1470 electrum/gui/qt/main_window.py:1471
+#: electrum/gui/qt/main_window.py:1472 electrum/gui/qt/main_window.py:1473
 msgid "Fallback address"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1752
+#: electrum/gui/qt/main_window.py:1754
 msgid "False"
 msgstr "Nē"
 
-#: electrum/gui/qt/main_window.py:1463
+#: electrum/gui/qt/main_window.py:1465
 msgid "Features"
 msgstr ""
 
@@ -2597,7 +2597,7 @@ msgstr ""
 msgid "Fee"
 msgstr "Komisijas maksa"
 
-#: electrum/gui/qt/main_window.py:2700
+#: electrum/gui/qt/main_window.py:2702
 msgid "Fee for child"
 msgstr "Komisijas maksa par bērnu"
 
@@ -2613,11 +2613,11 @@ msgstr ""
 msgid "Fees are paid by the sender."
 msgstr "Komisijas maksas maksā sūtītājs"
 
-#: electrum/gui/qt/settings_dialog.py:390 electrum/gui/qt/address_list.py:147
+#: electrum/gui/qt/settings_dialog.py:390 electrum/gui/qt/address_list.py:148
 msgid "Fiat"
 msgstr "Valsts nauda"
 
-#: electrum/gui/qt/history_list.py:649
+#: electrum/gui/qt/history_list.py:650
 msgid "Fiat balance"
 msgstr ""
 
@@ -2625,11 +2625,11 @@ msgstr ""
 msgid "Fiat currency"
 msgstr "Valsts nauda"
 
-#: electrum/gui/qt/history_list.py:664
+#: electrum/gui/qt/history_list.py:665
 msgid "Fiat incoming"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:668
+#: electrum/gui/qt/history_list.py:669
 msgid "Fiat outgoing"
 msgstr ""
 
@@ -2641,11 +2641,11 @@ msgstr "Fails"
 msgid "File Backup"
 msgstr "Faila rezerves kopija"
 
-#: electrum/gui/qt/main_window.py:1766
+#: electrum/gui/qt/main_window.py:1768
 msgid "File created"
 msgstr "Fails izveidots"
 
-#: electrum/gui/qt/history_list.py:552
+#: electrum/gui/qt/history_list.py:553
 msgid "Filter by Date"
 msgstr ""
 
@@ -2736,8 +2736,8 @@ msgstr "Formāts: adrese, summa"
 msgid "Forwarding"
 msgstr ""
 
-#: electrum/gui/qt/channels_list.py:259 electrum/gui/qt/address_list.py:305
-#: electrum/gui/qt/address_list.py:311 electrum/gui/qt/utxo_list.py:311
+#: electrum/gui/qt/channels_list.py:259 electrum/gui/qt/address_list.py:306
+#: electrum/gui/qt/address_list.py:312 electrum/gui/qt/utxo_list.py:311
 #: electrum/gui/qt/utxo_list.py:325
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:503
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:507
@@ -3024,7 +3024,7 @@ msgstr "Ja pazaudēsiet sēklu, jūsu nauda tiks neatgriezeniski zaudēta."
 msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
 msgstr "Ja pazaudēsiet maciņa failu, vienīgais, ko varat darīt ar rezerves kopiju, ir pieprasīt kanāla slēgšanu, lai jūsu līdzekļi tiktu nosūtīti uz ķēdi."
 
-#: electrum/wallet.py:2907
+#: electrum/wallet.py:2928
 msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
 msgstr ""
@@ -3045,7 +3045,7 @@ msgstr "Ja vēlaties izveidot jaunu adresi, izmantojiet deterministisko maciņu.
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
 msgstr "Ja ierīce Windows sistēmā nav konstatēta, dodieties uz sadaļu \"Iestatījumi\", \"Ierīces\", \"Pievienotās ierīces\" un veiciet \"Noņemt ierīci\". Tad atkārtoti pievienojiet ierīci."
 
-#: electrum/gui/qt/main_window.py:1893
+#: electrum/gui/qt/main_window.py:1895
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr "Ja maciņā ir līdzekļi, pārliecinieties, vai esat saglabājuši tā sēklu."
 
@@ -3053,7 +3053,7 @@ msgstr "Ja maciņā ir līdzekļi, pārliecinieties, vai esat saglabājuši tā 
 msgid "Ignore and continue?"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2474 electrum/gui/qt/contact_list.py:144
+#: electrum/gui/qt/main_window.py:2476 electrum/gui/qt/contact_list.py:144
 msgid "Import"
 msgstr "Importēt"
 
@@ -3069,7 +3069,7 @@ msgstr "Importēt Bitcoin adreses vai privātās atslēgas"
 msgid "Import Channel Backup?"
 msgstr "Importēt kanāla rezerves kopiju?"
 
-#: electrum/gui/qt/main_window.py:690 electrum/gui/qt/main_window.py:2498
+#: electrum/gui/qt/main_window.py:690 electrum/gui/qt/main_window.py:2500
 msgid "Import addresses"
 msgstr "Importēt adreses"
 
@@ -3085,7 +3085,7 @@ msgstr "Importēt rēķinus"
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2505
+#: electrum/gui/qt/main_window.py:2507
 msgid "Import private keys"
 msgstr "Importēt privātās atslēgas"
 
@@ -3093,7 +3093,7 @@ msgstr "Importēt privātās atslēgas"
 msgid "Import requests"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2279
+#: electrum/gui/qt/main_window.py:2281
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "Jo īpaši, neievadiet privāto atslēgu trešo pušu piedāvātajos pakalpojumus."
 
@@ -3120,7 +3120,7 @@ msgstr ""
 msgid "In the next block"
 msgstr ""
 
-#: electrum/util.py:159
+#: electrum/util.py:160
 msgid "Incorrect password"
 msgstr "Nepareiza parole"
 
@@ -3132,7 +3132,7 @@ msgstr ""
 msgid "Incorrect seed"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:784
+#: electrum/gui/qt/history_list.py:785
 msgid "Increase fee"
 msgstr "Paaugstināt komisijas maksu"
 
@@ -3171,15 +3171,15 @@ msgstr ""
 msgid "Initiator:"
 msgstr "Ierosinātājs:"
 
-#: electrum/gui/qt/main_window.py:2667
+#: electrum/gui/qt/main_window.py:2669
 msgid "Input amount"
 msgstr "Ievada summa"
 
-#: electrum/gui/qt/main_window.py:2207
+#: electrum/gui/qt/main_window.py:2209
 msgid "Input channel backup"
 msgstr "Ievadkanāla rezerves kopija"
 
-#: electrum/gui/qt/main_window.py:2193
+#: electrum/gui/qt/main_window.py:2195
 #: electrum/gui/qt/transaction_dialog.py:679
 #: electrum/gui/qt/transaction_dialog.py:701
 msgid "Input raw transaction"
@@ -3205,7 +3205,7 @@ msgstr ""
 msgid "Insufficient balance"
 msgstr ""
 
-#: electrum/util.py:141
+#: electrum/util.py:142
 msgid "Insufficient funds"
 msgstr "Nav pietiekoši daudz līdzekļu"
 
@@ -3213,7 +3213,7 @@ msgstr "Nav pietiekoši daudz līdzekļu"
 msgid "Integers weights can also be used in conjunction with '!', e.g. set one amount to '2!' and another to '3!' to split your coins 40-60."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1376
+#: electrum/gui/qt/main_window.py:1378
 msgid "Invalid Address"
 msgstr "Nederīga adrese"
 
@@ -3231,7 +3231,7 @@ msgstr "Nederīga Bitcoin adrese"
 msgid "Invalid Bitcoin address"
 msgstr "Nederīga Bitcoin adrese"
 
-#: electrum/gui/qt/main_window.py:1974 electrum/gui/qt/main_window.py:2002
+#: electrum/gui/qt/main_window.py:1976 electrum/gui/qt/main_window.py:2004
 msgid "Invalid Bitcoin address."
 msgstr "Nederīga Bitcoin adrese."
 
@@ -3239,7 +3239,7 @@ msgstr "Nederīga Bitcoin adrese."
 msgid "Invalid Fee"
 msgstr "Nederīga komisijas maksa"
 
-#: electrum/util.py:1249
+#: electrum/util.py:1253
 msgid "Invalid JSON code."
 msgstr "Nederīgs JSON kods."
 
@@ -3252,7 +3252,7 @@ msgstr "Atrastas nederīgas līnijas:"
 msgid "Invalid PIN"
 msgstr "Nederīgs PIN"
 
-#: electrum/gui/qt/main_window.py:2077
+#: electrum/gui/qt/main_window.py:2079
 msgid "Invalid Public key"
 msgstr "Nederīga publiskā atslēga"
 
@@ -3260,7 +3260,7 @@ msgstr "Nederīga publiskā atslēga"
 msgid "Invalid amount"
 msgstr "Nederīga summa"
 
-#: electrum/wallet.py:1131 electrum/wallet.py:1145
+#: electrum/wallet.py:1134 electrum/wallet.py:1148
 msgid "Invalid invoice format"
 msgstr ""
 
@@ -3284,7 +3284,7 @@ msgstr ""
 msgid "Invalid mnemonic word"
 msgstr ""
 
-#: electrum/lnutil.py:1483
+#: electrum/lnutil.py:1509
 msgid "Invalid node ID, must be 33 bytes and hexadecimal"
 msgstr "Nederīgs mezgla ID, jābūt 33 baitiem un heksadecimālam"
 
@@ -3339,11 +3339,11 @@ msgstr "Rēķini"
 msgid "It also contains your master public key that allows watching your addresses."
 msgstr "Tas satur arī jūsu galveno publisko atslēgu, kura ļauj skatīt jūsu adreses."
 
-#: electrum/gui/qt/main_window.py:2271
+#: electrum/gui/qt/main_window.py:2273
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
 msgstr "Tam nevar izveidot \"rezerves kopiju\" vienkārši eksportējot šīs privātās atslēgas."
 
-#: electrum/gui/qt/main_window.py:2754 electrum/gui/qml/qewallet.py:588
+#: electrum/gui/qt/main_window.py:2756 electrum/gui/qml/qewallet.py:588
 msgid "It conflicts with current history."
 msgstr "Tas ir pretrunā ar pašreizējo vēsturi."
 
@@ -3399,7 +3399,7 @@ msgstr "Tastatūras saīsne: \"!\", lai nosūtītu visu summu."
 msgid "Keystore"
 msgstr "Atslēgu glabātuve"
 
-#: electrum/gui/qt/main_window.py:1779
+#: electrum/gui/qt/main_window.py:1781
 msgid "Keystore type"
 msgstr "Atslēgu glabātuves tips"
 
@@ -3407,7 +3407,7 @@ msgstr "Atslēgu glabātuves tips"
 msgid "Kyrgyz"
 msgstr "Kirgīzu"
 
-#: electrum/gui/qt/address_list.py:151 electrum/gui/qt/utxo_list.py:63
+#: electrum/gui/qt/address_list.py:152 electrum/gui/qt/utxo_list.py:63
 msgid "Label"
 msgstr "Etiķete"
 
@@ -3484,7 +3484,7 @@ msgid "Light"
 msgstr "Gaiša"
 
 #: electrum/gui/qt/balance_dialog.py:179 electrum/gui/qt/balance_dialog.py:213
-#: electrum/gui/qt/main_window.py:953 electrum/gui/qt/main_window.py:1784
+#: electrum/gui/qt/main_window.py:953 electrum/gui/qt/main_window.py:1786
 #: electrum/gui/qt/receive_tab.py:219 electrum/gui/qt/settings_dialog.py:391
 #: electrum/gui/kivy/uix/ui_screens/status.kv:46
 msgid "Lightning"
@@ -3502,12 +3502,12 @@ msgstr "Lightning kanāls"
 msgid "Lightning Gossip"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1446
+#: electrum/gui/qt/main_window.py:1448
 #: electrum/gui/qt/lightning_tx_dialog.py:93
 msgid "Lightning Invoice"
 msgstr "Lightning rēķins"
 
-#: electrum/gui/qt/main_window.py:1567 electrum/gui/qt/__init__.py:201
+#: electrum/gui/qt/main_window.py:1569 electrum/gui/qt/__init__.py:200
 #: electrum/gui/qt/lightning_dialog.py:47
 msgid "Lightning Network"
 msgstr "Lightning tīkls"
@@ -3516,7 +3516,7 @@ msgstr "Lightning tīkls"
 msgid "Lightning Network Statistics"
 msgstr "Lightning tīkla statistika"
 
-#: electrum/gui/qt/main_window.py:1803
+#: electrum/gui/qt/main_window.py:1805
 msgid "Lightning Node ID:"
 msgstr "Lightning mezgla ID:"
 
@@ -3544,11 +3544,11 @@ msgstr ""
 msgid "Lightning invoices are also supported."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1817 electrum/gui/kivy/main_window.py:839
+#: electrum/gui/qt/main_window.py:1819 electrum/gui/kivy/main_window.py:839
 msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
 msgstr "Lightning šobrīd ir pieejams tikai HD maciņiem ar p2wpkh adresēm."
 
-#: electrum/gui/qt/main_window.py:1116 electrum/gui/qt/main_window.py:2141
+#: electrum/gui/qt/main_window.py:1116 electrum/gui/qt/main_window.py:2143
 #: electrum/gui/qt/send_tab.py:505
 msgid "Lightning is disabled"
 msgstr "Lightning ir deaktivizēts"
@@ -3557,7 +3557,7 @@ msgstr "Lightning ir deaktivizēts"
 msgid "Lightning is not available for this wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1728 electrum/gui/kivy/main_window.py:1510
+#: electrum/gui/qt/main_window.py:1730 electrum/gui/kivy/main_window.py:1510
 msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
 msgstr ""
 
@@ -3569,7 +3569,7 @@ msgstr "Lightning nav aktivizēts šim maciņam."
 msgid "Lightning is not enabled."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1743 electrum/gui/kivy/main_window.py:1524
+#: electrum/gui/qt/main_window.py:1745 electrum/gui/kivy/main_window.py:1524
 msgid "Lightning keys have been initialized."
 msgstr "Lightning atslēgas ir inicializētas."
 
@@ -3602,11 +3602,11 @@ msgstr ""
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2209
+#: electrum/gui/qt/main_window.py:2211
 msgid "Load backup"
 msgstr "Ielādēt rezerves kopiju"
 
-#: electrum/gui/qt/main_window.py:2195
+#: electrum/gui/qt/main_window.py:2197
 #: electrum/gui/qt/transaction_dialog.py:681
 #: electrum/gui/qt/transaction_dialog.py:703
 msgid "Load transaction"
@@ -3616,7 +3616,7 @@ msgstr "Ielādēt transakciju"
 msgid "Loading backup..."
 msgstr ""
 
-#: electrum/wallet.py:101 electrum/wallet.py:848
+#: electrum/wallet.py:101 electrum/wallet.py:850
 msgid "Local"
 msgstr "Vietējs"
 
@@ -3624,11 +3624,11 @@ msgstr "Vietējs"
 msgid "Local &Watchtower"
 msgstr "Lokāls &Sargtornis"
 
-#: electrum/wallet.py:852
+#: electrum/wallet.py:854
 msgid "Local (future: {})"
 msgstr ""
 
-#: electrum/gui/qt/__init__.py:203
+#: electrum/gui/qt/__init__.py:202
 msgid "Local Watchtower"
 msgstr "Vietējs &Sargtornis"
 
@@ -3668,7 +3668,7 @@ msgstr ""
 msgid "Looks like you have entered a valid seed of type '{}' but this dialog does not support such seeds."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2227
+#: electrum/gui/qt/main_window.py:2229
 msgid "Lookup transaction"
 msgstr "Apsekot transakciju"
 
@@ -3700,7 +3700,7 @@ msgstr "Pirms pieprasāt Bitcoin uz šo maciņu, pārliecinieties, ka esat sēkl
 msgid "Master Fingerprint"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1855 electrum/gui/qt/installwizard.py:729
+#: electrum/gui/qt/main_window.py:1857 electrum/gui/qt/installwizard.py:729
 #: electrum/gui/kivy/main_window.py:831 electrum/gui/kivy/main_window.py:833
 #: electrum/gui/kivy/uix/ui_screens/status.kv:57
 #: electrum/gui/kivy/uix/ui_screens/status.kv:60
@@ -3718,9 +3718,9 @@ msgstr ""
 msgid "Max"
 msgstr "Maks."
 
-#: electrum/gui/qt/main_window.py:2722
+#: electrum/gui/qt/main_window.py:2724
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:271
-#: electrum/gui/qml/qetxfinalizer.py:806
+#: electrum/gui/qml/qetxfinalizer.py:810
 msgid "Max fee exceeded"
 msgstr "Ir pārsniegta maksimālā komisijas maksa"
 
@@ -3740,7 +3740,7 @@ msgstr "Atmiņas pūla dziļums"
 msgid "Merge signatures from"
 msgstr "Apvienot parakstus no"
 
-#: electrum/gui/qt/main_window.py:2023 electrum/gui/qt/main_window.py:2090
+#: electrum/gui/qt/main_window.py:2025 electrum/gui/qt/main_window.py:2092
 #: electrum/gui/qt/invoice_list.py:201
 msgid "Message"
 msgstr "Ziņojums"
@@ -3832,7 +3832,7 @@ msgstr "Daudzparakstu maciņš"
 msgid "NOT DEVICE PIN - see above"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1717 electrum/gui/qt/contact_list.py:52
+#: electrum/gui/qt/main_window.py:1719 electrum/gui/qt/contact_list.py:52
 msgid "Name"
 msgstr "Nosaukums"
 
@@ -3841,8 +3841,8 @@ msgstr "Nosaukums"
 msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
 msgstr ""
 
-#: electrum/gui/qt/network_dialog.py:61 electrum/gui/qt/main_window.py:1572
-#: electrum/gui/qt/__init__.py:199 electrum/gui/kivy/main.kv:532
+#: electrum/gui/qt/network_dialog.py:61 electrum/gui/qt/main_window.py:1574
+#: electrum/gui/qt/__init__.py:198 electrum/gui/kivy/main.kv:532
 #: electrum/gui/kivy/uix/ui_screens/network.kv:3 electrum/gui/text.py:213
 msgid "Network"
 msgstr "Tīkls"
@@ -3874,7 +3874,7 @@ msgstr "Nekad neievadiet to tīmekļa vietnēs."
 msgid "New Channel"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1707 electrum/gui/qt/main_window.py:1709
+#: electrum/gui/qt/main_window.py:1709 electrum/gui/qt/main_window.py:1711
 msgid "New Contact"
 msgstr "Jauns kontakts"
 
@@ -3916,7 +3916,7 @@ msgstr ""
 msgid "No"
 msgstr "Nē"
 
-#: electrum/util.py:264 electrum/util.py:270
+#: electrum/util.py:268 electrum/util.py:274
 msgid "No Data"
 msgstr "Nav datu"
 
@@ -3949,7 +3949,7 @@ msgstr "Nav summas"
 msgid "No auth code"
 msgstr ""
 
-#: electrum/exchange_rate.py:669
+#: electrum/exchange_rate.py:672
 msgid "No data"
 msgstr "Nav datu"
 
@@ -3965,7 +3965,7 @@ msgstr "Kļūdas netika konstatētas."
 msgid "No existing accounts found."
 msgstr ""
 
-#: electrum/gui/qml/qetxfinalizer.py:802
+#: electrum/gui/qml/qetxfinalizer.py:806
 msgid "No fee"
 msgstr ""
 
@@ -3985,7 +3985,7 @@ msgstr "Aparatūras ierīce netika atrasta."
 msgid "No inputs found."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1780
+#: electrum/gui/qt/main_window.py:1782
 msgid "No keystore"
 msgstr "Nav atslēgu glabātuves"
 
@@ -3997,7 +3997,7 @@ msgstr "Maciņā vairs nav adrešu."
 msgid "No outputs"
 msgstr "Nav izvadu"
 
-#: electrum/lnutil.py:375
+#: electrum/lnutil.py:377
 msgid "No path found"
 msgstr ""
 
@@ -4013,7 +4013,7 @@ msgstr ""
 msgid "No wallet loaded."
 msgstr "Nav ielādēts maciņš."
 
-#: electrum/gui/qt/main_window.py:1806 electrum/gui/qt/channels_list.py:254
+#: electrum/gui/qt/main_window.py:1808 electrum/gui/qt/channels_list.py:254
 #: electrum/gui/qt/channels_list.py:255
 msgid "Node ID"
 msgstr "Mezgla ID"
@@ -4057,7 +4057,7 @@ msgstr "Nepārbaudīts"
 msgid "Not a master key"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1816 electrum/gui/kivy/main_window.py:838
+#: electrum/gui/qt/main_window.py:1818 electrum/gui/kivy/main_window.py:838
 #: electrum/gui/kivy/main_window.py:1489
 msgid "Not available for this wallet."
 msgstr "Nav pieejams šim maciņam."
@@ -4074,9 +4074,9 @@ msgstr "Nav savienots"
 msgid "Not enabled"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1695 electrum/gui/qt/send_tab.py:285
+#: electrum/gui/qt/main_window.py:1697 electrum/gui/qt/send_tab.py:285
 #: electrum/gui/kivy/uix/dialogs/confirm_tx_dialog.py:130
-#: electrum/gui/qml/qetxfinalizer.py:315
+#: electrum/gui/qml/qetxfinalizer.py:317
 msgid "Not enough funds"
 msgstr "Nav pietiekami daudz līdzekļu"
 
@@ -4088,11 +4088,11 @@ msgstr "Adresē nav pietiekami daudz līdzekļu."
 msgid "Not enough funds."
 msgstr ""
 
-#: electrum/wallet.py:830
+#: electrum/wallet.py:832
 msgid "Not verified"
 msgstr "Nepārbaudīts"
 
-#: electrum/util.py:1414
+#: electrum/util.py:1418
 msgid "Not yet available"
 msgstr "Pagaidām nav pieejams"
 
@@ -4121,7 +4121,7 @@ msgstr "Piezīme: Ja aktivizēsiet šo iestatījumu, jums būs nepieciešama apa
 msgid "Note: This camera generates frames of relatively low resolution; QR scanning accuracy may be affected"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2764
+#: electrum/gui/qt/main_window.py:2766
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "Piezīme: Šī ir bezsaistes transakcija, lai tīkls to redzētu tā ir jāpārraida."
 
@@ -4133,7 +4133,7 @@ msgstr "Nekas nav iestatīts !"
 msgid "Nothing to plot."
 msgstr "Nav no kā izveidot grafiku."
 
-#: electrum/gui/qt/history_list.py:618
+#: electrum/gui/qt/history_list.py:619
 msgid "Nothing to summarize."
 msgstr "Nav ko apkopot."
 
@@ -4176,7 +4176,7 @@ msgstr "Uz ķēdes"
 msgid "Onchain"
 msgstr "Uz ķēdes"
 
-#: electrum/gui/qt/main_window.py:1397
+#: electrum/gui/qt/main_window.py:1399
 msgid "Onchain Invoice"
 msgstr "Rēķins uz ķēdes"
 
@@ -4293,7 +4293,7 @@ msgstr ""
 msgid "Outpoint"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2670
+#: electrum/gui/qt/main_window.py:2672
 msgid "Output amount"
 msgstr "Izvada summa"
 
@@ -4301,7 +4301,7 @@ msgstr "Izvada summa"
 msgid "Output point"
 msgstr "Izvada punkts"
 
-#: electrum/gui/qt/main_window.py:1407
+#: electrum/gui/qt/main_window.py:1409
 #: electrum/gui/qt/transaction_dialog.py:241
 msgid "Outputs"
 msgstr "Izvadi"
@@ -4353,7 +4353,7 @@ msgstr ""
 msgid "Parents"
 msgstr ""
 
-#: electrum/wallet.py:861
+#: electrum/wallet.py:863
 msgid "Partially signed"
 msgstr "Daļēji parakstīts"
 
@@ -4375,7 +4375,7 @@ msgstr ""
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr ""
 
-#: electrum/gui/qt/network_dialog.py:240 electrum/gui/qt/main_window.py:1561
+#: electrum/gui/qt/network_dialog.py:240 electrum/gui/qt/main_window.py:1563
 #: electrum/gui/qt/installwizard.py:222 electrum/gui/qt/password_dialog.py:305
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:47
 msgid "Password"
@@ -4385,7 +4385,7 @@ msgstr "Parole"
 msgid "Password Strength"
 msgstr "Paroles stiprums"
 
-#: electrum/gui/qt/main_window.py:1673
+#: electrum/gui/qt/main_window.py:1675
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Parole ir deaktivizēta, šis maciņš nav aizsargāts"
 
@@ -4419,7 +4419,7 @@ msgstr ""
 msgid "Password updated successfully"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1673
+#: electrum/gui/qt/main_window.py:1675
 msgid "Password was updated successfully"
 msgstr "Parole veiksmīgi atjaunināta"
 
@@ -4463,8 +4463,8 @@ msgstr ""
 msgid "PayServer Settings"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:751 electrum/gui/qt/main_window.py:1465
-#: electrum/gui/qt/main_window.py:1466
+#: electrum/gui/qt/history_list.py:752 electrum/gui/qt/main_window.py:1467
+#: electrum/gui/qt/main_window.py:1468
 msgid "Payment Hash"
 msgstr "Maksājuma jaucējsumma"
 
@@ -4547,7 +4547,7 @@ msgstr "Gaida"
 msgid "Performing swap..."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:687
+#: electrum/gui/qt/history_list.py:688
 msgid "Perhaps some dependencies are missing..."
 msgstr "Iespējams, kādas atkarības nav apmierinātas..."
 
@@ -4567,7 +4567,7 @@ msgstr "Lūdzu, pārbaudiet savu tīkla savienojumu."
 msgid "Please check your {} device"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:808
+#: electrum/gui/qt/history_list.py:809
 msgid "Please confirm"
 msgstr "Lūdzu, apstipriniet"
 
@@ -4587,7 +4587,7 @@ msgstr ""
 msgid "Please create a backup of your wallet file!"
 msgstr "Lūdzu, izveidojiet sava maciņa faila rezerves kopiju!"
 
-#: electrum/lnworker.py:2543
+#: electrum/lnworker.py:2545
 msgid "Please enable gossip"
 msgstr ""
 
@@ -4646,11 +4646,11 @@ msgstr "Lūdzu, ielīmējiet papildparakstītāja galveno publisko atslēgu, vai
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Lūdzu, ziņojiet par kļūdām uz github:<br/>"
 
-#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:261
+#: electrum/gui/qt/exception_window.py:121 electrum/gui/qml/qeapp.py:262
 msgid "Please report this issue manually"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2535
+#: electrum/gui/qt/main_window.py:2537
 msgid "Please restart Electrum to activate the new GUI settings"
 msgstr "Lūdzu, pārstartējiet Electrum, lai aktivizētu jaunos saskarnes iestatījumus"
 
@@ -4720,7 +4720,7 @@ msgstr "Poļu"
 msgid "Port"
 msgstr "Ports"
 
-#: electrum/lnutil.py:1450
+#: electrum/lnutil.py:1476
 msgid "Port number must be decimal"
 msgstr "Porta numuram jābūt decimālam"
 
@@ -4736,19 +4736,19 @@ msgstr ""
 msgid "Position in mempool"
 msgstr "Pozīcija atmiņas pūlā"
 
-#: electrum/gui/qt/main_window.py:714 electrum/gui/qt/main_window.py:1564
+#: electrum/gui/qt/main_window.py:714 electrum/gui/qt/main_window.py:1566
 #: electrum/gui/qt/settings_dialog.py:54
 #: electrum/gui/qt/confirm_tx_dialog.py:191
 msgid "Preferences"
 msgstr "Iestatījumi"
 
-#: electrum/gui/qt/history_list.py:752
+#: electrum/gui/qt/history_list.py:753
 #: electrum/gui/qt/lightning_tx_dialog.py:89
 #: electrum/gui/qt/lightning_tx_dialog.py:90
 msgid "Preimage"
 msgstr "Pirmattēls"
 
-#: electrum/gui/qt/main_window.py:2464
+#: electrum/gui/qt/main_window.py:2466
 msgid "Preparing sweep transaction..."
 msgstr "Sagatavo izslaucīšanas transakciju..."
 
@@ -4817,16 +4817,16 @@ msgstr ""
 msgid "Privacy analysis"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1950 electrum/gui/qt/main_window.py:1955
-#: electrum/gui/qt/address_list.py:294
+#: electrum/gui/qt/main_window.py:1952 electrum/gui/qt/main_window.py:1957
+#: electrum/gui/qt/address_list.py:295
 msgid "Private key"
 msgstr "Privātā atslēga"
 
-#: electrum/gui/qt/main_window.py:2273
+#: electrum/gui/qt/main_window.py:2275
 msgid "Private keys"
 msgstr "Privātās atslēgas"
 
-#: electrum/gui/qt/main_window.py:2353
+#: electrum/gui/qt/main_window.py:2355
 msgid "Private keys exported."
 msgstr "Privātās atslēgas eksportētas."
 
@@ -4888,12 +4888,12 @@ msgstr "Starpniekservera iestatījumi tiek izmantoti visiem savienojumiem: Elect
 msgid "Proxy user"
 msgstr "Starpniekservera lietotājs"
 
-#: electrum/gui/qt/main_window.py:1449 electrum/gui/qt/main_window.py:1451
+#: electrum/gui/qt/main_window.py:1451 electrum/gui/qt/main_window.py:1453
 #: electrum/gui/qt/address_dialog.py:80
 msgid "Public Key"
 msgstr "Publiskā atslēga"
 
-#: electrum/gui/qt/main_window.py:2098
+#: electrum/gui/qt/main_window.py:2100
 msgid "Public key"
 msgstr "Publiskā atslēga"
 
@@ -4905,7 +4905,7 @@ msgstr "Publiskās atslēgas"
 msgid "QR Reader Error"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1928 electrum/gui/qt/util.py:724
+#: electrum/gui/qt/main_window.py:1930 electrum/gui/qt/util.py:724
 msgid "QR code"
 msgstr "QR kods"
 
@@ -4994,7 +4994,7 @@ msgstr ""
 msgid "Ready to encrypt for revealer {}"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:671
+#: electrum/gui/qt/history_list.py:672
 msgid "Realized capital gains"
 msgstr ""
 
@@ -5049,7 +5049,7 @@ msgstr ""
 msgid "Redeem Script"
 msgstr "Izpirkšanas skripts"
 
-#: electrum/gui/qt/history_list.py:794
+#: electrum/gui/qt/history_list.py:795
 msgid "Related invoices"
 msgstr ""
 
@@ -5080,7 +5080,7 @@ msgstr "Attālā dalībnieka ID"
 msgid "Remote reserve:"
 msgstr "Attālā rezerve:"
 
-#: electrum/gui/qt/history_list.py:769
+#: electrum/gui/qt/history_list.py:770
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:202
 msgid "Remove"
 msgstr "Izņemt"
@@ -5089,15 +5089,15 @@ msgstr "Izņemt"
 msgid "Remove channel backup?"
 msgstr "Noņemt kanāla rezerves kopiju?"
 
-#: electrum/gui/qt/address_list.py:317 electrum/gui/qt/utxo_list.py:304
+#: electrum/gui/qt/address_list.py:318 electrum/gui/qt/utxo_list.py:304
 msgid "Remove from coin control"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:299
+#: electrum/gui/qt/address_list.py:300
 msgid "Remove from wallet"
 msgstr "Izņemt no maciņa"
 
-#: electrum/gui/qt/main_window.py:1386
+#: electrum/gui/qt/main_window.py:1388
 msgid "Remove {} from your list of contacts?"
 msgstr "Izņemt {} no kontaktu saraksta?"
 
@@ -5161,7 +5161,7 @@ msgstr "Pieprasa konta informāciju no TrustedCoin servera..."
 msgid "Requesting {} channels..."
 msgstr "Tiek pieprasīti {} kanāli..."
 
-#: electrum/gui/qt/main_window.py:1417
+#: electrum/gui/qt/main_window.py:1419
 msgid "Requestor"
 msgstr "Pieprasītājs"
 
@@ -5182,11 +5182,11 @@ msgstr ""
 msgid "Required package 'PIL' is not available - Please install it."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2633
+#: electrum/gui/qt/main_window.py:2635
 msgid "Requires"
 msgstr "Pieprasa"
 
-#: electrum/gui/qt/main_window.py:1589 electrum/plugins/safe_t/qt.py:403
+#: electrum/gui/qt/main_window.py:1591 electrum/plugins/safe_t/qt.py:403
 #: electrum/plugins/trezor/qt.py:669
 msgid "Reset"
 msgstr "Atstatīt"
@@ -5263,7 +5263,7 @@ msgstr "Saglabāt rezerves kopiju un aizvērt iespiedu kārtā"
 msgid "Save channel backup"
 msgstr "Saglabāt kanāla rezerves kopiju"
 
-#: electrum/gui/qt/main_window.py:1426
+#: electrum/gui/qt/main_window.py:1428
 msgid "Save invoice to file"
 msgstr "Saglabāt rēķinu failā"
 
@@ -5295,7 +5295,7 @@ msgstr "Notiek ierīču skenēšana..."
 msgid "Scrambled words"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1772 electrum/gui/qt/main_window.py:1954
+#: electrum/gui/qt/main_window.py:1774 electrum/gui/qt/main_window.py:1956
 msgid "Script type"
 msgstr "Skripta tips"
 
@@ -5307,7 +5307,7 @@ msgstr "Skripta tips un atvasinājuma ceļš"
 msgid "Security Card Challenge"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1565 electrum/gui/qt/seed_dialog.py:380
+#: electrum/gui/qt/main_window.py:1567 electrum/gui/qt/seed_dialog.py:380
 #: electrum/gui/kivy/uix/ui_screens/status.kv:62
 #: electrum/gui/kivy/uix/ui_screens/status.kv:67
 msgid "Seed"
@@ -5321,7 +5321,7 @@ msgstr ""
 msgid "Seed Type"
 msgstr "Sēklas tips"
 
-#: electrum/gui/qt/main_window.py:1775
+#: electrum/gui/qt/main_window.py:1777
 msgid "Seed available"
 msgstr "Sēkla pieejama"
 
@@ -5341,15 +5341,15 @@ msgstr "Izvēlieties ierīci"
 msgid "Select backup type:"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:588
+#: electrum/gui/qt/history_list.py:589
 msgid "Select date"
 msgstr "Izvēlieties datumu"
 
-#: electrum/gui/qt/main_window.py:2287
+#: electrum/gui/qt/main_window.py:2289
 msgid "Select file to export your private keys to"
 msgstr "Izvēlieties failu, lai eksportētu privātās atslēgas"
 
-#: electrum/gui/qt/history_list.py:831
+#: electrum/gui/qt/history_list.py:832
 msgid "Select file to export your wallet transactions to"
 msgstr "Izvēlieties failu, lai eksportētu maciņa transakcijas"
 
@@ -5357,7 +5357,7 @@ msgstr "Izvēlieties failu, lai eksportētu maciņa transakcijas"
 msgid "Select file to save your {}"
 msgstr "Izvēlieties failu, lai saglabātu {}"
 
-#: electrum/gui/qt/main_window.py:1842
+#: electrum/gui/qt/main_window.py:1844
 msgid "Select keystore"
 msgstr ""
 
@@ -5410,7 +5410,7 @@ msgstr "Izvēlieties sēklas garumu:"
 msgid "Select your server automatically"
 msgstr "Izvēlēties serveri automātiski"
 
-#: electrum/gui/qt/main_window.py:2175
+#: electrum/gui/qt/main_window.py:2177
 msgid "Select your transaction file"
 msgstr "Izvēlieties transakcijas failu"
 
@@ -5538,19 +5538,19 @@ msgstr "Kopīgot rēķinu"
 msgid "Short Channel ID"
 msgstr "Īsais kanāla ID"
 
-#: electrum/gui/qt/history_list.py:554
+#: electrum/gui/qt/history_list.py:555
 msgid "Show Capital Gains"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:553
+#: electrum/gui/qt/history_list.py:554
 msgid "Show Fiat Values"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:127
+#: electrum/gui/qt/address_list.py:128
 msgid "Show Fiat balances"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:126
+#: electrum/gui/qt/address_list.py:127
 msgid "Show Filter"
 msgstr ""
 
@@ -5602,7 +5602,7 @@ msgstr ""
 msgid "Show report contents"
 msgstr "Radīt ziņojuma saturu"
 
-#: electrum/gui/qt/__init__.py:207
+#: electrum/gui/qt/__init__.py:206
 msgid "Show/Hide"
 msgstr "Rādīt/slēpt"
 
@@ -5614,7 +5614,7 @@ msgstr "Rādīt/slēpt"
 msgid "Showing address ..."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2039
+#: electrum/gui/qt/main_window.py:2041
 #: electrum/gui/qt/transaction_dialog.py:449
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:197
 msgid "Sign"
@@ -5624,23 +5624,23 @@ msgstr "Parakstīt"
 msgid "Sign this transaction?"
 msgstr "Parakstīt šo transakciju?"
 
-#: electrum/gui/qt/main_window.py:2016
+#: electrum/gui/qt/main_window.py:2018
 msgid "Sign/verify Message"
 msgstr "Parakstīt vai pārbaudīt ziņojumu"
 
-#: electrum/gui/qt/address_list.py:296
+#: electrum/gui/qt/address_list.py:297
 msgid "Sign/verify message"
 msgstr "Parakstīt vai pārbaudīt ziņojumu"
 
-#: electrum/gui/qt/main_window.py:1419 electrum/gui/qt/main_window.py:2033
+#: electrum/gui/qt/main_window.py:1421 electrum/gui/qt/main_window.py:2035
 msgid "Signature"
 msgstr "Paraksts"
 
-#: electrum/gui/qt/main_window.py:2011
+#: electrum/gui/qt/main_window.py:2013
 msgid "Signature verified"
 msgstr "Paraksts pārbaudīts"
 
-#: electrum/wallet.py:856
+#: electrum/wallet.py:858
 msgid "Signed"
 msgstr "Parakstīts"
 
@@ -5662,7 +5662,7 @@ msgstr ""
 msgid "Signing transaction..."
 msgstr "Paraksta transakciju..."
 
-#: electrum/gui/qt/main_window.py:1963
+#: electrum/gui/qt/main_window.py:1965
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Parakstīšana ar adresi faktiski nozīmē parakstīšanu ar atbilstošo privāto atslēgu un verifikāciju ar atbilstošo publisko atslēgu. Jūsu ievadītajai adresei nav unikālas publiskās atslēgas, tāpēc šīs darbības nevar veikt."
 
@@ -5767,8 +5767,8 @@ msgstr ""
 msgid "Submarine swap"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1674 electrum/gui/qt/main_window.py:2535
-#: electrum/gui/qt/main_window.py:2766 electrum/lnutil.py:356
+#: electrum/gui/qt/main_window.py:1676 electrum/gui/qt/main_window.py:2537
+#: electrum/gui/qt/main_window.py:2768 electrum/lnutil.py:358
 msgid "Success"
 msgstr "Veiksme"
 
@@ -5780,7 +5780,7 @@ msgstr ""
 msgid "Suggest Peer"
 msgstr "Ieteikt dalībnieku"
 
-#: electrum/gui/qt/history_list.py:628
+#: electrum/gui/qt/history_list.py:629
 msgid "Summary"
 msgstr "Kopsavilkums"
 
@@ -5824,11 +5824,11 @@ msgstr ""
 msgid "Swedish"
 msgstr "Zviedru"
 
-#: electrum/gui/qt/main_window.py:2418
+#: electrum/gui/qt/main_window.py:2420
 msgid "Sweep"
 msgstr "Izslaucīt"
 
-#: electrum/gui/qt/main_window.py:2397
+#: electrum/gui/qt/main_window.py:2399
 msgid "Sweep private keys"
 msgstr "Izslaucīt privātās atslēgas"
 
@@ -5870,7 +5870,7 @@ msgstr "Testnet tīkla monētas ir bezvērtīgas."
 msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
 msgstr "Testnet tīkls ir atsevišķs no galvenā Bitcoin tīkla. To izmanto testēšanai."
 
-#: electrum/gui/qt/main_window.py:1477
+#: electrum/gui/qt/main_window.py:1479
 msgid "Text"
 msgstr "Teksts"
 
@@ -5901,11 +5901,11 @@ msgstr ""
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1621
+#: electrum/gui/qt/main_window.py:1623
 msgid "The Lightning Network graph is fully synced."
 msgstr "Lightning tīkla diagramma ir pilnībā sinhronizēta."
 
-#: electrum/gui/qt/main_window.py:1625
+#: electrum/gui/qt/main_window.py:1627
 msgid "The Lightning Network graph is syncing...\n"
 "Payments are more likely to succeed with a more complete graph."
 msgstr "Sinhronizē Lightning tīkla diagrammu... \n"
@@ -5917,7 +5917,7 @@ msgstr "Sinhronizē Lightning tīkla diagrammu... \n"
 msgid "The PIN cannot be longer than 9 characters."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2774
+#: electrum/gui/qt/main_window.py:2776
 msgid "The SSL certificate provided by the main server did not match the fingerprint passed in with the --serverfingerprint option."
 msgstr "Galvenā servera sniegtais SSL sertifikāts neatbilda ievadītajam pirkstu nospiedumam ar iespēju --serverfingerprint."
 
@@ -5961,7 +5961,7 @@ msgstr "Apraksts netiks nosūtīts līdzekļu saņēmējam. Tas tiks saglabāts 
 msgid "The device was disconnected."
 msgstr ""
 
-#: electrum/wallet.py:2901
+#: electrum/wallet.py:2922
 msgid "The fee could not be verified. Signing non-segwit inputs is risky:\n"
 "if this transaction was maliciously modified before you sign,\n"
 "you might end up paying a higher mining fee than displayed."
@@ -5969,7 +5969,7 @@ msgstr "Komisijas maksu neizdevās pārbaudīt. Parakstīt ne-segwit ievadus ir 
 "ja šī transakcija pirms parakstīšanas tika ļaunprātīgi modificēta,\n"
 "iespējams samaksāt lielāku komisijas maksu nekā parādīts."
 
-#: electrum/wallet.py:2930 electrum/wallet.py:2935
+#: electrum/wallet.py:2951 electrum/wallet.py:2956
 msgid "The fee for this transaction seems unusually high."
 msgstr "Šīs transakcijas komisijas maksa šķiet neparasti augsta."
 
@@ -5987,7 +5987,7 @@ msgstr "Fails tika izņemts"
 msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2485
+#: electrum/gui/qt/main_window.py:2487
 msgid "The following addresses were added"
 msgstr "Šādas adreses tika pievienotas"
 
@@ -5995,7 +5995,7 @@ msgstr "Šādas adreses tika pievienotas"
 msgid "The following alias providers are available:"
 msgstr "Ir pieejami šādi aizstājvārdu nodrošinātāji:"
 
-#: electrum/gui/qt/main_window.py:2490
+#: electrum/gui/qt/main_window.py:2492
 msgid "The following inputs could not be imported"
 msgstr "Šādus ievadus neizdevās importēt"
 
@@ -6003,15 +6003,15 @@ msgstr "Šādus ievadus neizdevās importēt"
 msgid "The funding transaction has been detected."
 msgstr ""
 
-#: electrum/wallet.py:2896
+#: electrum/wallet.py:2917
 msgid "The input amounts could not be verified as the previous transactions are missing.\n"
 "The amount of money being spent CANNOT be verified."
 msgstr "Ievadītās summas neizdevās pārbaudīt, jo trūkst iepriekšējo transakciju.\n"
 "Naudas summu, kura tiks tērēta NEVAR pārbaudīt."
 
-#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:542
-#: electrum/gui/qml/qetxfinalizer.py:649 electrum/wallet.py:1934
-#: electrum/wallet.py:2197
+#: electrum/gui/qt/rbf_dialog.py:123 electrum/gui/qml/qetxfinalizer.py:546
+#: electrum/gui/qml/qetxfinalizer.py:653 electrum/wallet.py:1953
+#: electrum/wallet.py:2216
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "Jaunajai komisijas maksas likmei jābūt augstākai par iepriekšējo."
 
@@ -6019,11 +6019,11 @@ msgstr "Jaunajai komisijas maksas likmei jābūt augstākai par iepriekšējo."
 msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1967
+#: electrum/gui/qt/main_window.py:1969
 msgid "The operation is undefined. Not just in Electrum, but in general."
 msgstr "Šī darbība nav definēta. Ne tikai Electrum, bet vispārīgi."
 
-#: electrum/wallet.py:2163 electrum/wallet.py:2217
+#: electrum/wallet.py:2182 electrum/wallet.py:2236
 msgid "The output value remaining after fee is too low."
 msgstr ""
 
@@ -6031,7 +6031,7 @@ msgstr ""
 msgid "The platform QR detection library is not available."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2658
+#: electrum/gui/qt/main_window.py:2660
 msgid "The proposed fee is computed using your fee/kB settings, applied to the total size of both child and parent transactions. After you broadcast a CPFP transaction, it is normal to see a new unconfirmed transaction in your history."
 msgstr ""
 
@@ -6106,7 +6106,7 @@ msgstr ""
 msgid "There is a new update available"
 msgstr ""
 
-#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:259
+#: electrum/gui/qt/exception_window.py:119 electrum/gui/qml/qeapp.py:260
 msgid "There was a problem with the automatic reporting:"
 msgstr "Gadījās kļūda, ar automātisko ziņošanu:"
 
@@ -6119,7 +6119,7 @@ msgstr ""
 msgid "This UTXO has {} parent transactions in your wallet."
 msgstr ""
 
-#: electrum/wallet.py:2980
+#: electrum/wallet.py:3001
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Šī adrese jau ir izmantota. Lai nodrošinātu labāku privātumu, nelietojiet to jauniem maksājumiem."
 
@@ -6177,7 +6177,7 @@ msgid "This function is only available for p2pkh keystores when using {}."
 msgstr "Šī funkcija ir pieejama tikai p2pkh atslēgu glabātuvēm, kad izmanto {}."
 
 #: electrum/plugins/coldcard/coldcard.py:612
-#: electrum/plugins/ledger/ledger.py:1451
+#: electrum/plugins/ledger/ledger.py:1453
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:758
 msgid "This function is only available for standard wallets when using {}."
 msgstr ""
@@ -6211,11 +6211,11 @@ msgstr "Šī ir kanāla rezerves kopija"
 msgid "This is a static channel backup"
 msgstr "Šī ir statiskā kanāla rezerves kopija"
 
-#: electrum/gui/qt/main_window.py:2266 electrum/wallet.py:726
+#: electrum/gui/qt/main_window.py:2268 electrum/wallet.py:728
 msgid "This is a watching-only wallet"
 msgstr "Šis maciņš ir tikai skatīšanai"
 
-#: electrum/gui/qt/main_window.py:1977 electrum/gui/qt/main_window.py:2056
+#: electrum/gui/qt/main_window.py:1979 electrum/gui/qt/main_window.py:2058
 msgid "This is a watching-only wallet."
 msgstr "Šis maciņš ir tikai skatīšanai."
 
@@ -6267,15 +6267,15 @@ msgstr ""
 msgid "This plugin facilitates the use of multi-signatures wallets."
 msgstr ""
 
-#: electrum/wallet.py:2966 electrum/wallet.py:2971
+#: electrum/wallet.py:2987 electrum/wallet.py:2992
 msgid "This request cannot be paid on-chain"
 msgstr ""
 
-#: electrum/wallet.py:2976
+#: electrum/wallet.py:2997
 msgid "This request does not have a Lightning invoice."
 msgstr ""
 
-#: electrum/wallet.py:2961
+#: electrum/wallet.py:2982
 msgid "This request has expired"
 msgstr ""
 
@@ -6311,7 +6311,7 @@ msgstr "Šis darījums ir pieejams tikai jūsu lokālajā ierīcē.\n"
 "Pašreiz savienotais serveris par to neko nezina.\n"
 "Tagad varat to pārraidīt vai vienkārši noņemt."
 
-#: electrum/wallet.py:2924
+#: electrum/wallet.py:2945
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr ""
 
@@ -6320,7 +6320,7 @@ msgid "This transaction will spend unconfirmed coins."
 msgstr ""
 
 #: electrum/plugins/coldcard/coldcard.py:530
-#: electrum/plugins/ledger/ledger.py:1440
+#: electrum/plugins/ledger/ledger.py:1442
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:734
 #: electrum/plugins/keepkey/keepkey.py:297
 #: electrum/plugins/safe_t/safe_t.py:267 electrum/plugins/trezor/trezor.py:318
@@ -6336,7 +6336,7 @@ msgstr ""
 msgid "This version supports a maximum of {} characters."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1910 electrum/plugins/revealer/qt.py:291
+#: electrum/gui/qt/main_window.py:1912 electrum/plugins/revealer/qt.py:291
 msgid "This wallet has no seed"
 msgstr "Maciņam nav sēklas"
 
@@ -6473,11 +6473,11 @@ msgstr ""
 msgid "Too short."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2710
+#: electrum/gui/qt/main_window.py:2712
 msgid "Total fee"
 msgstr "Kopējā komisijas maksa"
 
-#: electrum/gui/qt/main_window.py:2712
+#: electrum/gui/qt/main_window.py:2714
 msgid "Total feerate"
 msgstr "Kopējais komisijas maksas līmenis"
 
@@ -6489,7 +6489,7 @@ msgstr "Kopā saņemts"
 msgid "Total sent"
 msgstr "Kopā nosūtīts"
 
-#: electrum/gui/qt/main_window.py:2664
+#: electrum/gui/qt/main_window.py:2666
 msgid "Total size"
 msgstr "Kopējais izmērs"
 
@@ -6504,7 +6504,7 @@ msgstr ""
 msgid "Transaction"
 msgstr "Transakcija"
 
-#: electrum/gui/qt/history_list.py:771 electrum/gui/qt/main_window.py:2227
+#: electrum/gui/qt/history_list.py:772 electrum/gui/qt/main_window.py:2229
 #: electrum/gui/qt/transaction_dialog.py:427
 msgid "Transaction ID"
 msgstr "Transakcijas ID"
@@ -6513,7 +6513,7 @@ msgstr "Transakcijas ID"
 msgid "Transaction ID:"
 msgstr "Transakcijas ID:"
 
-#: electrum/gui/qt/main_window.py:2763
+#: electrum/gui/qt/main_window.py:2765
 msgid "Transaction added to wallet history."
 msgstr "Transakcija pievienota maciņa vēsturei."
 
@@ -6529,7 +6529,7 @@ msgstr "Transakciju neizdevās pārraidīt sīknaudas izvadu dēļ.\n"
 "Dažu izvadu vērtība ir pārāk maza, iespējams, mazāka par 1000 satoshi.\n"
 "Pārbaudiet mērvienības, pārliecinieties, vai neesat sajaucis, piemēram, mBTC un BTC."
 
-#: electrum/gui/qt/main_window.py:2753 electrum/gui/qml/qewallet.py:588
+#: electrum/gui/qt/main_window.py:2755 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."
 msgstr "Neizdevās saglabāt transakciju."
 
@@ -6537,7 +6537,7 @@ msgstr "Neizdevās saglabāt transakciju."
 msgid "Transaction exported successfully"
 msgstr "Transakcija veiksmīgi eksportēta"
 
-#: electrum/wallet.py:1924 electrum/wallet.py:2187
+#: electrum/wallet.py:1943 electrum/wallet.py:2206
 msgid "Transaction is final"
 msgstr ""
 
@@ -6545,7 +6545,7 @@ msgstr ""
 msgid "Transaction is too large in size."
 msgstr "Transakcijas izmērs ir pārāk liels."
 
-#: electrum/util.py:170
+#: electrum/util.py:171
 msgid "Transaction is unrelated to this wallet."
 msgstr ""
 
@@ -6570,7 +6570,7 @@ msgstr "Transakcija nesaistīta ar jūsu maciņu"
 msgid "Transaction uses non-standard version."
 msgstr "Transakcija izmantoto nestandarta versiju."
 
-#: electrum/gui/qt/main_window.py:2194
+#: electrum/gui/qt/main_window.py:2196
 msgid "Transaction:"
 msgstr "Transakcija:"
 
@@ -6586,7 +6586,7 @@ msgstr ""
 msgid "Trezor wallet"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1754
+#: electrum/gui/qt/main_window.py:1756
 msgid "True"
 msgstr "Jā"
 
@@ -6618,7 +6618,7 @@ msgstr ""
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Mēģiniet paskaidrot, kad notiek kļūda un kā to iespējams atkārtot."
 
-#: electrum/wallet.py:2925
+#: electrum/wallet.py:2946
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Mēģiniet paaugstināt komisijas maksu vai izmantojiet serveri ar zemāku komisijas maksas pārraides slieksni."
 
@@ -6638,11 +6638,11 @@ msgstr ""
 msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
 msgstr ""
 
-#: electrum/gui/qt/watchtower_dialog.py:46 electrum/gui/qt/address_list.py:154
+#: electrum/gui/qt/watchtower_dialog.py:46 electrum/gui/qt/address_list.py:155
 msgid "Tx"
 msgstr "Transakcijas"
 
-#: electrum/gui/qt/address_list.py:149
+#: electrum/gui/qt/address_list.py:150
 msgid "Type"
 msgstr "Tips"
 
@@ -6658,15 +6658,15 @@ msgstr "Ukraiņu"
 msgid "Unable to create backup"
 msgstr "Neizdevās izveidot rezerves kopiju"
 
-#: electrum/gui/qt/main_window.py:2347
+#: electrum/gui/qt/main_window.py:2349
 msgid "Unable to create csv"
 msgstr "Neizdevās izveidot csv"
 
-#: electrum/gui/qt/history_list.py:848
+#: electrum/gui/qt/history_list.py:849
 msgid "Unable to export history"
 msgstr "Vēstures eksportēšana neizdevās"
 
-#: electrum/gui/qt/main_window.py:2186
+#: electrum/gui/qt/main_window.py:2188
 msgid "Unable to read file or no transaction found"
 msgstr "Neizdevās nolasīt failu vai arī netika atrasta neviena transakcija"
 
@@ -6685,7 +6685,7 @@ msgstr ""
 
 #: electrum/gui/qt/balance_dialog.py:177 electrum/gui/qt/balance_dialog.py:198
 #: electrum/gui/qt/main_window.py:951 electrum/wallet.py:98
-#: electrum/wallet.py:832 electrum/invoices.py:58
+#: electrum/wallet.py:834 electrum/invoices.py:58
 msgid "Unconfirmed"
 msgstr "Neapstiprināta"
 
@@ -6701,7 +6701,7 @@ msgstr ""
 msgid "Unexpected password hash version"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:307 electrum/gui/qt/address_list.py:312
+#: electrum/gui/qt/address_list.py:308 electrum/gui/qt/address_list.py:313
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:505
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:509
 msgid "Unfreeze"
@@ -6736,8 +6736,8 @@ msgid "Units"
 msgstr ""
 
 #: electrum/gui/qt/transaction_dialog.py:758
-#: electrum/gui/qt/invoice_list.py:125 electrum/util.py:802
-#: electrum/util.py:814 electrum/lnutil.py:357 electrum/invoices.py:51
+#: electrum/gui/qt/invoice_list.py:125 electrum/util.py:806
+#: electrum/util.py:818 electrum/lnutil.py:359 electrum/invoices.py:51
 msgid "Unknown"
 msgstr "Nezināms"
 
@@ -6762,11 +6762,11 @@ msgstr ""
 msgid "Unpaid"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:657
+#: electrum/gui/qt/history_list.py:658
 msgid "Unrealized capital gains"
 msgstr ""
 
-#: electrum/wallet.py:861
+#: electrum/wallet.py:863
 msgid "Unsigned"
 msgstr "Neparakstīts"
 
@@ -6778,7 +6778,7 @@ msgstr ""
 msgid "Unsupported password hash version"
 msgstr ""
 
-#: electrum/gui/qml/qebitcoin.py:129
+#: electrum/gui/qml/qebitcoin.py:136
 msgid "Unsupported wallet type"
 msgstr ""
 
@@ -6898,7 +6898,7 @@ msgstr "vērtība"
 msgid "Verified block headers"
 msgstr "Pārbaudītās bloku galvenes"
 
-#: electrum/gui/qt/main_window.py:2043
+#: electrum/gui/qt/main_window.py:2045
 msgid "Verify"
 msgstr "Pārbaudīt"
 
@@ -6923,7 +6923,7 @@ msgstr "Video ierīce"
 msgid "Vietnamese"
 msgstr "Vjetnamiešu"
 
-#: electrum/gui/qt/history_list.py:781
+#: electrum/gui/qt/history_list.py:782
 msgid "View Channel"
 msgstr "Skatīt kanālu"
 
@@ -6931,16 +6931,16 @@ msgstr "Skatīt kanālu"
 msgid "View in payserver"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:792 electrum/gui/qt/history_list.py:796
+#: electrum/gui/qt/history_list.py:793 electrum/gui/qt/history_list.py:797
 msgid "View invoice"
 msgstr "Skatīt rēķinu"
 
-#: electrum/gui/qt/history_list.py:756 electrum/gui/qt/invoice_list.py:192
+#: electrum/gui/qt/history_list.py:757 electrum/gui/qt/invoice_list.py:192
 msgid "View log"
 msgstr "Skatīt žurnālu"
 
-#: electrum/gui/qt/history_list.py:798 electrum/gui/qt/contact_list.py:100
-#: electrum/gui/qt/address_list.py:302
+#: electrum/gui/qt/history_list.py:799 electrum/gui/qt/contact_list.py:100
+#: electrum/gui/qt/address_list.py:303
 msgid "View on block explorer"
 msgstr "Skatīt blokķēdes pārlūkā"
 
@@ -6953,11 +6953,11 @@ msgstr ""
 msgid "WARNING"
 msgstr "BRĪDINĀJUMS"
 
-#: electrum/gui/qt/main_window.py:2277
+#: electrum/gui/qt/main_window.py:2279
 msgid "WARNING: ALL your private keys are secret."
 msgstr "BRĪDINĀJUMS: VISAS privātās atslēgas ir slepenas."
 
-#: electrum/gui/qt/main_window.py:2270
+#: electrum/gui/qt/main_window.py:2272
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "BRĪDINĀJUMS: šis ir daudzparakstu maciņš."
 
@@ -6985,7 +6985,7 @@ msgstr ""
 msgid "Wallet Balance"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1746
+#: electrum/gui/qt/main_window.py:1748
 msgid "Wallet Information"
 msgstr "Maciņa informācija"
 
@@ -7005,15 +7005,15 @@ msgstr "Maciņa atlikuma adrese"
 msgid "Wallet creation failed"
 msgstr "Maciņa izveide neizdevās"
 
-#: electrum/wallet.py:243
+#: electrum/wallet.py:245
 msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
 msgstr "Konstatēts maciņa faila bojājums. Lūdzu, atjaunojiet maciņu no sēklas un salīdziniet adreses abos failos"
 
-#: electrum/gui/qt/main_window.py:1905
+#: electrum/gui/qt/main_window.py:1907
 msgid "Wallet file not found: {}"
 msgstr "Maciņa fails nav atrasts: {}"
 
-#: electrum/gui/qt/main_window.py:1762
+#: electrum/gui/qt/main_window.py:1764
 msgid "Wallet name"
 msgstr "Maciņa nosaukums"
 
@@ -7025,7 +7025,7 @@ msgstr "Maciņš nav šifrēts"
 msgid "Wallet receiving address"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1903 electrum/gui/kivy/main_window.py:1322
+#: electrum/gui/qt/main_window.py:1905 electrum/gui/kivy/main_window.py:1322
 msgid "Wallet removed: {}"
 msgstr "Maciņš izņemts: {}"
 
@@ -7033,7 +7033,7 @@ msgstr "Maciņš izņemts: {}"
 msgid "Wallet setup file exported successfully"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1769
+#: electrum/gui/qt/main_window.py:1771
 msgid "Wallet type"
 msgstr "Maciņa tips"
 
@@ -7056,8 +7056,8 @@ msgstr "Maciņi"
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:487
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:115
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:220
-#: electrum/gui/qml/qetxfinalizer.py:344 electrum/wallet.py:2895
-#: electrum/wallet.py:2900 electrum/wallet.py:2906
+#: electrum/gui/qml/qetxfinalizer.py:346 electrum/wallet.py:2916
+#: electrum/wallet.py:2921 electrum/wallet.py:2927
 #: electrum/plugins/revealer/qt.py:184 electrum/plugins/revealer/qt.py:217
 msgid "Warning"
 msgstr "Brīdinājums"
@@ -7086,7 +7086,7 @@ msgstr "Brīdinājums: Nākamā adrese netiks atgūta automātiski, ja atjaunosi
 msgid "Warning: do not use this if it makes you pick a weaker password."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1732 electrum/gui/kivy/main_window.py:1514
+#: electrum/gui/qt/main_window.py:1734 electrum/gui/kivy/main_window.py:1514
 msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet everytime you create a new channel. Create lightning keys?"
 msgstr ""
 
@@ -7163,7 +7163,8 @@ msgid "Wrong PIN"
 msgstr "Nepareizs PIN"
 
 #: electrum/base_wizard.py:578 electrum/base_wizard.py:586
-#: electrum/gui/qml/qebitcoin.py:120 electrum/gui/qml/qebitcoin.py:125
+#: electrum/gui/qml/qebitcoin.py:120 electrum/gui/qml/qebitcoin.py:129
+#: electrum/gui/qml/qebitcoin.py:133
 msgid "Wrong key type"
 msgstr "Nepareizs atslēgas tips"
 
@@ -7171,7 +7172,7 @@ msgstr "Nepareizs atslēgas tips"
 msgid "Wrong password"
 msgstr "Nepareiza parole"
 
-#: electrum/gui/qt/main_window.py:2013
+#: electrum/gui/qt/main_window.py:2015
 msgid "Wrong signature"
 msgstr "Nepareizs paraksts"
 
@@ -7197,8 +7198,8 @@ msgstr "Jūs atrodaties Testnet režīmā."
 msgid "You are most likely using an outdated version of Electrum. Please update."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1113 electrum/gui/qt/main_window.py:2243
-#: electrum/gui/qt/main_window.py:2395
+#: electrum/gui/qt/main_window.py:1113 electrum/gui/qt/main_window.py:2245
+#: electrum/gui/qt/main_window.py:2397
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:861
 #: electrum/gui/qml/qeswaphelper.py:425 electrum/plugins/payserver/qt.py:63
 #: electrum/plugins/labels/labels.py:176 electrum/plugins/labels/labels.py:180
@@ -7257,7 +7258,7 @@ msgstr "Kanālu rezerves kopijas nevar izmantot Lightning maksājumu veikšanai.
 msgid "You do not have liquidity in your active channels."
 msgstr ""
 
-#: electrum/wallet.py:2990
+#: electrum/wallet.py:3011
 msgid "You do not have the capacity to receive this amount with Lightning."
 msgstr ""
 
@@ -7286,11 +7287,11 @@ msgstr "Jūs varat ievadīt Bitcoin adresi, etiķeti no kontaktu saraksta (sarak
 msgid "You may extend your seed with custom words."
 msgstr "Jūs varat pagarināt sēklu ar papildu vārdiem."
 
-#: electrum/wallet.py:2992
+#: electrum/wallet.py:3013
 msgid "You may have that capacity if you rebalance your channels."
 msgstr ""
 
-#: electrum/wallet.py:2994
+#: electrum/wallet.py:3015
 msgid "You may have that capacity if you swap some of your funds."
 msgstr ""
 
@@ -7310,11 +7311,11 @@ msgstr "Jums, iespējams, ir nesaderīga bibliotēka."
 msgid "You might have to unplug and plug it in again."
 msgstr ""
 
-#: electrum/wallet.py:2985
+#: electrum/wallet.py:3006
 msgid "You must be online to receive Lightning payments."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1695
+#: electrum/gui/qt/main_window.py:1697
 msgid "You need at least {} to open a channel."
 msgstr "Nepieciešams vismaz {}, lai atvērtu kanālu."
 
@@ -7398,12 +7399,12 @@ msgstr "Jūsu Bitcoin ir aizsargāti ar paroli. Tomēr, jūsu maciņš nav šifr
 msgid "Your channels can send {}."
 msgstr "Jūsu kanāli var sūtīt {}."
 
-#: electrum/gui/qt/main_window.py:1794 electrum/gui/kivy/main_window.py:1498
+#: electrum/gui/qt/main_window.py:1796 electrum/gui/kivy/main_window.py:1498
 msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1798 electrum/gui/kivy/main_window.py:1502
+#: electrum/gui/qt/main_window.py:1800 electrum/gui/kivy/main_window.py:1502
 msgid "Your channels cannot be recovered from seed. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
 msgstr ""
@@ -7490,7 +7491,7 @@ msgstr "Maciņa atjaunošanas sēkla ir:"
 msgid "Your wallet has {} prepaid transactions."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:850
+#: electrum/gui/qt/history_list.py:851
 msgid "Your wallet history has been successfully exported."
 msgstr "Maciņa vēsture ir veiksmīgi eksportēta."
 
@@ -7571,35 +7572,35 @@ msgstr ""
 msgid "[s] - send stored payment order"
 msgstr ""
 
-#: electrum/util.py:853
+#: electrum/util.py:857
 msgid "about 1 day ago"
 msgstr ""
 
-#: electrum/util.py:843
+#: electrum/util.py:847
 msgid "about 1 hour ago"
 msgstr ""
 
-#: electrum/util.py:863
+#: electrum/util.py:867
 msgid "about 1 month ago"
 msgstr ""
 
-#: electrum/util.py:873
+#: electrum/util.py:877
 msgid "about 1 year ago"
 msgstr ""
 
-#: electrum/util.py:858
+#: electrum/util.py:862
 msgid "about {} days ago"
 msgstr ""
 
-#: electrum/util.py:848
+#: electrum/util.py:852
 msgid "about {} hours ago"
 msgstr ""
 
-#: electrum/util.py:838
+#: electrum/util.py:842
 msgid "about {} minutes ago"
 msgstr ""
 
-#: electrum/util.py:868
+#: electrum/util.py:872
 msgid "about {} months ago"
 msgstr ""
 
@@ -7611,7 +7612,7 @@ msgstr ""
 msgid "add inputs and outputs"
 msgstr "pievienot ievadus un izvadus"
 
-#: electrum/wallet.py:3095
+#: electrum/wallet.py:3116
 msgid "address already in wallet"
 msgstr "adrese jau ir maciņā"
 
@@ -7619,7 +7620,7 @@ msgstr "adrese jau ir maciņā"
 msgid "are frozen"
 msgstr "ir iesaldēti"
 
-#: electrum/wallet.py:2926
+#: electrum/wallet.py:2947
 msgid "below relay fee"
 msgstr ""
 
@@ -7639,15 +7640,15 @@ msgstr ""
 msgid "can receive"
 msgstr "var saņemt"
 
-#: electrum/gui/qt/address_list.py:213
+#: electrum/gui/qt/address_list.py:214
 msgid "change"
 msgstr "atlikums"
 
-#: electrum/gui/qt/main_window.py:2387 electrum/gui/qt/main_window.py:2390
+#: electrum/gui/qt/main_window.py:2389 electrum/gui/qt/main_window.py:2392
 msgid "contacts"
 msgstr "kontakti"
 
-#: electrum/gui/qt/main_window.py:1835
+#: electrum/gui/qt/main_window.py:1837
 msgid "cosigner"
 msgstr "papildparakstītājs"
 
@@ -7659,47 +7660,47 @@ msgstr ""
 msgid "file size"
 msgstr "faila izmērs"
 
-#: electrum/wallet.py:2937
+#: electrum/wallet.py:2958
 msgid "high fee rate"
 msgstr ""
 
-#: electrum/wallet.py:2932
+#: electrum/wallet.py:2953
 msgid "high fee ratio"
 msgstr ""
 
-#: electrum/util.py:855
+#: electrum/util.py:859
 msgid "in about 1 day"
 msgstr ""
 
-#: electrum/util.py:845
+#: electrum/util.py:849
 msgid "in about 1 hour"
 msgstr ""
 
-#: electrum/util.py:865
+#: electrum/util.py:869
 msgid "in about 1 month"
 msgstr ""
 
-#: electrum/util.py:875
+#: electrum/util.py:879
 msgid "in about 1 year"
 msgstr ""
 
-#: electrum/util.py:860
+#: electrum/util.py:864
 msgid "in about {} days"
 msgstr ""
 
-#: electrum/util.py:850
+#: electrum/util.py:854
 msgid "in about {} hours"
 msgstr ""
 
-#: electrum/util.py:840
+#: electrum/util.py:844
 msgid "in about {} minutes"
 msgstr ""
 
-#: electrum/util.py:870
+#: electrum/util.py:874
 msgid "in about {} months"
 msgstr ""
 
-#: electrum/util.py:835
+#: electrum/util.py:839
 msgid "in less than a minute"
 msgstr ""
 
@@ -7707,7 +7708,7 @@ msgstr ""
 msgid "in new channel"
 msgstr ""
 
-#: electrum/util.py:880
+#: electrum/util.py:884
 msgid "in over {} years"
 msgstr ""
 
@@ -7715,11 +7716,11 @@ msgstr ""
 msgid "in submarine swap"
 msgstr ""
 
-#: electrum/wallet.py:852 electrum/wallet.py:1528
+#: electrum/wallet.py:854 electrum/wallet.py:1531
 msgid "in {} blocks"
 msgstr ""
 
-#: electrum/util.py:830
+#: electrum/util.py:834
 msgid "in {} seconds"
 msgstr ""
 
@@ -7727,15 +7728,15 @@ msgstr ""
 msgid "initialized"
 msgstr "inicializēts"
 
-#: electrum/wallet.py:3092
+#: electrum/wallet.py:3113
 msgid "invalid address"
 msgstr "nederīga adrese"
 
-#: electrum/wallet.py:3191
+#: electrum/wallet.py:3212
 msgid "invalid private key"
 msgstr "nederīga privātā atslēga"
 
-#: electrum/gui/qt/main_window.py:2375 electrum/gui/qt/main_window.py:2378
+#: electrum/gui/qt/main_window.py:2377 electrum/gui/qt/main_window.py:2380
 msgid "invoices"
 msgstr "rēķini"
 
@@ -7743,15 +7744,15 @@ msgstr "rēķini"
 msgid "json"
 msgstr "json"
 
-#: electrum/gui/qt/main_window.py:1837
+#: electrum/gui/qt/main_window.py:1839
 msgid "keystore"
 msgstr "atslēgu glabātuve"
 
-#: electrum/gui/qt/main_window.py:2369 electrum/gui/qt/main_window.py:2372
+#: electrum/gui/qt/main_window.py:2371 electrum/gui/qt/main_window.py:2374
 msgid "labels"
 msgstr "etiķetes"
 
-#: electrum/util.py:833
+#: electrum/util.py:837
 msgid "less than a minute ago"
 msgstr ""
 
@@ -7763,7 +7764,7 @@ msgstr ""
 msgid "loading"
 msgstr ""
 
-#: electrum/wallet.py:3194
+#: electrum/wallet.py:3215
 msgid "not implemented type"
 msgstr "tips nav ieviests"
 
@@ -7775,7 +7776,7 @@ msgstr "open_channel iestājās noildze"
 msgid "or type an existing revealer code below and click 'next':"
 msgstr ""
 
-#: electrum/util.py:878
+#: electrum/util.py:882
 msgid "over {} years ago"
 msgstr ""
 
@@ -7791,11 +7792,11 @@ msgstr ""
 msgid "proxy enabled"
 msgstr "starpniekserveris aktivizēts"
 
-#: electrum/gui/qt/address_list.py:216
+#: electrum/gui/qt/address_list.py:217
 msgid "receiving"
 msgstr "saņemšana"
 
-#: electrum/gui/qt/main_window.py:2381 electrum/gui/qt/main_window.py:2384
+#: electrum/gui/qt/main_window.py:2383 electrum/gui/qt/main_window.py:2386
 msgid "requests"
 msgstr "pieprasījumi"
 
@@ -7835,12 +7836,12 @@ msgstr ""
 msgid "unavailable"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1861 electrum/gui/qt/main_window.py:1870
+#: electrum/gui/qt/main_window.py:1863 electrum/gui/qt/main_window.py:1872
 #: electrum/gui/qt/transaction_dialog.py:819
 #: electrum/gui/qt/qrreader/qtmultimedia/camera_dialog.py:284
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:183
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1532
-#: electrum/wallet.py:1554
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1535
+#: electrum/wallet.py:1557
 msgid "unknown"
 msgstr "nezināms"
 
@@ -7868,7 +7869,7 @@ msgstr ""
 msgid "watching only"
 msgstr "tikai skatīšanai"
 
-#: electrum/gui/qt/main_window.py:1751
+#: electrum/gui/qt/main_window.py:1753
 msgid "watching-only"
 msgstr "tikai skatīšanai"
 
@@ -7889,7 +7890,7 @@ msgstr "{:2d} minūtes"
 msgid "{:d} words"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:778
+#: electrum/gui/qt/history_list.py:779
 msgid "{}"
 msgstr ""
 
@@ -7898,7 +7899,7 @@ msgstr ""
 msgid "{} Settings"
 msgstr "{} iestatījumi"
 
-#: electrum/gui/qt/address_list.py:240
+#: electrum/gui/qt/address_list.py:241
 msgid "{} addresses"
 msgstr ""
 
@@ -7906,7 +7907,7 @@ msgstr ""
 msgid "{} channels"
 msgstr "{} kanāli"
 
-#: electrum/wallet.py:828
+#: electrum/wallet.py:830
 msgid "{} confirmations"
 msgstr "{} apstiprinājumi"
 
@@ -7947,7 +7948,7 @@ msgstr "pieejami {} izvadi ({} kopā)"
 msgid "{} plugin does not support this type of wallet."
 msgstr ""
 
-#: electrum/util.py:828
+#: electrum/util.py:832
 msgid "{} seconds ago"
 msgstr ""
 
@@ -8112,6 +8113,46 @@ msgstr ""
 #: ../gui/qml/components/Addresses.qml:63
 msgctxt "Addresses|"
 msgid "addresses"
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:12
+msgctxt "BIP39RecoveryDialog|"
+msgid "Detect BIP39 accounts"
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:40
+msgctxt "BIP39RecoveryDialog|"
+msgid "Scanning for accounts..."
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:43
+msgctxt "BIP39RecoveryDialog|"
+msgid "Choose an account to restore."
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:44
+msgctxt "BIP39RecoveryDialog|"
+msgid "No existing accounts found."
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:46
+msgctxt "BIP39RecoveryDialog|"
+msgid "Recovery failed"
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:47
+msgctxt "BIP39RecoveryDialog|"
+msgid "Recovery cancelled"
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:117
+msgctxt "BIP39RecoveryDialog|"
+msgid "script type"
+msgstr ""
+
+#: ../gui/qml/components/BIP39RecoveryDialog.qml:125
+msgctxt "BIP39RecoveryDialog|"
+msgid "derivation path"
 msgstr ""
 
 #: ../gui/qml/components/BalanceDetails.qml:43
@@ -8519,12 +8560,12 @@ msgctxt "ConfirmTxDialog|"
 msgid "Outputs"
 msgstr "Izvadi"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:226
+#: ../gui/qml/components/ConfirmTxDialog.qml:201
 msgctxt "ConfirmTxDialog|"
 msgid "Finalize"
 msgstr "Noslēgt"
 
-#: ../gui/qml/components/ConfirmTxDialog.qml:227
+#: ../gui/qml/components/ConfirmTxDialog.qml:202
 msgctxt "ConfirmTxDialog|"
 msgid "Pay"
 msgstr "Maksāt"
@@ -8590,7 +8631,7 @@ msgctxt "CpfpBumpFeeDialog|"
 msgid "Outputs"
 msgstr "Izvadi"
 
-#: ../gui/qml/components/CpfpBumpFeeDialog.qml:227
+#: ../gui/qml/components/CpfpBumpFeeDialog.qml:202
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Ok"
 msgstr ""
@@ -8918,14 +8959,19 @@ msgctxt "LightningPaymentDetails|"
 msgid "Label"
 msgstr "Etiķete"
 
-#: ../gui/qml/components/LightningPaymentDetails.qml:138
-#: ../gui/qml/components/LightningPaymentDetails.qml:160
+#: ../gui/qml/components/LightningPaymentDetails.qml:137
+msgctxt "LightningPaymentDetails|"
+msgid "Technical properties"
+msgstr ""
+
+#: ../gui/qml/components/LightningPaymentDetails.qml:143
+#: ../gui/qml/components/LightningPaymentDetails.qml:165
 msgctxt "LightningPaymentDetails|"
 msgid "Payment hash"
 msgstr "Maksājuma jaucējsumma"
 
-#: ../gui/qml/components/LightningPaymentDetails.qml:171
-#: ../gui/qml/components/LightningPaymentDetails.qml:193
+#: ../gui/qml/components/LightningPaymentDetails.qml:176
+#: ../gui/qml/components/LightningPaymentDetails.qml:198
 msgctxt "LightningPaymentDetails|"
 msgid "Preimage"
 msgstr "Pirmattēls"
@@ -9560,7 +9606,7 @@ msgctxt "RbfBumpFeeDialog|"
 msgid "Outputs"
 msgstr "Izvadi"
 
-#: ../gui/qml/components/RbfBumpFeeDialog.qml:240
+#: ../gui/qml/components/RbfBumpFeeDialog.qml:215
 msgctxt "RbfBumpFeeDialog|"
 msgid "Ok"
 msgstr ""
@@ -9605,7 +9651,7 @@ msgctxt "RbfCancelDialog|"
 msgid "Outputs"
 msgstr "Izvadi"
 
-#: ../gui/qml/components/RbfCancelDialog.qml:199
+#: ../gui/qml/components/RbfCancelDialog.qml:174
 msgctxt "RbfCancelDialog|"
 msgid "Ok"
 msgstr ""
@@ -9898,142 +9944,152 @@ msgctxt "TxDetails|"
 msgid "Amount withdrawn from channels"
 msgstr "No kanāliem izņemtā summa"
 
-#: ../gui/qml/components/TxDetails.qml:96
+#: ../gui/qml/components/TxDetails.qml:97
 msgctxt "TxDetails|"
 msgid "Transaction fee"
 msgstr "Transakcijas komisijas maksa"
 
-#: ../gui/qml/components/TxDetails.qml:111
+#: ../gui/qml/components/TxDetails.qml:114
 msgctxt "TxDetails|"
 msgid "Transaction fee rate"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:123
+#: ../gui/qml/components/TxDetails.qml:127
 msgctxt "TxDetails|"
 msgid "Status"
 msgstr "Statuss"
 
-#: ../gui/qml/components/TxDetails.qml:133
+#: ../gui/qml/components/TxDetails.qml:137
 msgctxt "TxDetails|"
 msgid "Mempool depth"
 msgstr "Atmiņas pūla dziļums"
 
-#: ../gui/qml/components/TxDetails.qml:145
+#: ../gui/qml/components/TxDetails.qml:149
 msgctxt "TxDetails|"
 msgid "Date"
 msgstr "Datums"
 
-#: ../gui/qml/components/TxDetails.qml:156
-msgctxt "TxDetails|"
-msgid "Mined at"
-msgstr ""
-
-#: ../gui/qml/components/TxDetails.qml:169
+#: ../gui/qml/components/TxDetails.qml:162
 msgctxt "TxDetails|"
 msgid "Label"
 msgstr "Etiķete"
 
-#: ../gui/qml/components/TxDetails.qml:230
-#: ../gui/qml/components/TxDetails.qml:253
+#: ../gui/qml/components/TxDetails.qml:222
+msgctxt "TxDetails|"
+msgid "Technical properties"
+msgstr ""
+
+#: ../gui/qml/components/TxDetails.qml:227
+msgctxt "TxDetails|"
+msgid "Mined at"
+msgstr ""
+
+#: ../gui/qml/components/TxDetails.qml:239
+#: ../gui/qml/components/TxDetails.qml:262
 msgctxt "TxDetails|"
 msgid "Transaction ID"
 msgstr "Transakcijas ID"
 
-#: ../gui/qml/components/TxDetails.qml:264
+#: ../gui/qml/components/TxDetails.qml:273
 msgctxt "TxDetails|"
 msgid "Outputs"
 msgstr "Izvadi"
 
-#: ../gui/qml/components/TxDetails.qml:315
+#: ../gui/qml/components/TxDetails.qml:298
 msgctxt "TxDetails|"
 msgid "Bump fee"
 msgstr "Palielināt komisijas maksu"
 
-#: ../gui/qml/components/TxDetails.qml:331
+#: ../gui/qml/components/TxDetails.qml:314
 msgctxt "TxDetails|"
 msgid "Cancel Tx"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:342
+#: ../gui/qml/components/TxDetails.qml:325
 msgctxt "TxDetails|"
 msgid "Sign"
 msgstr "Parakstīt"
 
-#: ../gui/qml/components/TxDetails.qml:351
+#: ../gui/qml/components/TxDetails.qml:334
 msgctxt "TxDetails|"
 msgid "Broadcast"
 msgstr "Apraide"
 
-#: ../gui/qml/components/TxDetails.qml:360
+#: ../gui/qml/components/TxDetails.qml:343
 msgctxt "TxDetails|"
 msgid "Share"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:368
+#: ../gui/qml/components/TxDetails.qml:351
 msgctxt "TxDetails|"
 msgid "This transaction is complete. Please share it with an online device"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:370
+#: ../gui/qml/components/TxDetails.qml:353
 msgctxt "TxDetails|"
 msgid "This transaction should be signed. Present this QR code to the signing device"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:373
+#: ../gui/qml/components/TxDetails.qml:356
 msgctxt "TxDetails|"
 msgid "Note: this wallet can sign, but has not signed this transaction yet"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:375
+#: ../gui/qml/components/TxDetails.qml:358
 msgctxt "TxDetails|"
 msgid "Transaction is partially signed by this wallet. Present this QR code to the next co-signer"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:387
+#: ../gui/qml/components/TxDetails.qml:370
 msgctxt "TxDetails|"
 msgid "Save"
 msgstr "Saglabāt"
 
-#: ../gui/qml/components/TxDetails.qml:396
+#: ../gui/qml/components/TxDetails.qml:379
 msgctxt "TxDetails|"
 msgid "Remove"
 msgstr "Izņemt"
 
-#: ../gui/qml/components/TxDetails.qml:432
+#: ../gui/qml/components/TxDetails.qml:415
 msgctxt "TxDetails|"
 msgid "Transaction added to wallet history."
 msgstr "Transakcija pievienota maciņa vēsturei."
 
-#: ../gui/qml/components/TxDetails.qml:433
+#: ../gui/qml/components/TxDetails.qml:416
 msgctxt "TxDetails|"
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "Piezīme: Šī ir bezsaistes transakcija, lai tīkls to redzētu tā ir jāpārraida."
 
-#: ../gui/qml/components/TxDetails.qml:445
+#: ../gui/qml/components/TxDetails.qml:428
 msgctxt "TxDetails|"
 msgid "Transaction was broadcast successfully"
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:465
+#: ../gui/qml/components/TxDetails.qml:448
 msgctxt "TxDetails|"
 msgid "Transaction fee updated."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:466
-#: ../gui/qml/components/TxDetails.qml:494
-#: ../gui/qml/components/TxDetails.qml:521
+#: ../gui/qml/components/TxDetails.qml:449
+#: ../gui/qml/components/TxDetails.qml:477
+#: ../gui/qml/components/TxDetails.qml:504
 msgctxt "TxDetails|"
 msgid "You still need to sign and broadcast this transaction."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:493
+#: ../gui/qml/components/TxDetails.qml:476
 msgctxt "TxDetails|"
 msgid "CPFP fee bump transaction created."
 msgstr ""
 
-#: ../gui/qml/components/TxDetails.qml:520
+#: ../gui/qml/components/TxDetails.qml:503
 msgctxt "TxDetails|"
 msgid "Cancel transaction created."
+msgstr ""
+
+#: ../gui/qml/components/controls/TxOutput.qml:46
+msgctxt "TxOutput|"
+msgid "Tx Output"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCAutoConnect.qml:17
@@ -10056,65 +10112,60 @@ msgctxt "WCAutoConnect|"
 msgid "Select servers manually"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:87
-msgctxt "WCBIP39Refine|"
-msgid "Script type and Derivation path"
-msgstr "Skripta tips un atvasinājuma ceļš"
-
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:90
-msgctxt "WCBIP39Refine|"
-msgid "Detect Existing Accounts"
-msgstr ""
-
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:96
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:89
 msgctxt "WCBIP39Refine|"
 msgid "Choose the type of addresses in your wallet."
 msgstr "Izvēlieties adreses tipu savā maciņā."
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:103
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:96
 msgctxt "WCBIP39Refine|"
 msgid "legacy (p2pkh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:109
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:102
 msgctxt "WCBIP39Refine|"
 msgid "wrapped segwit (p2wpkh-p2sh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:116
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:109
 msgctxt "WCBIP39Refine|"
 msgid "native segwit (p2wpkh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:124
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:117
 msgctxt "WCBIP39Refine|"
 msgid "legacy multisig (p2sh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:130
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:123
 msgctxt "WCBIP39Refine|"
 msgid "p2sh-segwit multisig (p2wsh-p2sh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:137
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:130
 msgctxt "WCBIP39Refine|"
 msgid "native segwit multisig (p2wsh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:143
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:136
 msgctxt "WCBIP39Refine|"
 msgid "You can override the suggested derivation path."
 msgstr "Jūs varat pārrakstīt ieteikto atvasinājuma ceļu."
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:144
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:137
 msgctxt "WCBIP39Refine|"
 msgid "If you are not sure what this is, leave this field unchanged."
 msgstr "Ja nezināt, kas tas ir, atstājiet šo lauku nemainītu."
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:150
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:141
 msgctxt "WCBIP39Refine|"
 msgid "Derivation path"
 msgstr "Atvasinājuma ceļš"
+
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:161
+msgctxt "WCBIP39Refine|"
+msgid "Detect Existing Accounts"
+msgstr ""
 
 #: ../gui/qml/components/wizard/WCConfirmSeed.qml:34
 msgctxt "WCConfirmSeed|"
@@ -10228,38 +10279,43 @@ msgctxt "WCHaveMasterKey|"
 msgid "Error: duplicate master public key"
 msgstr "Kļūda: dubulta galvenā publiskā atslēga"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:61
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:50
+msgctxt "WCHaveMasterKey|"
+msgid "Error: master public key types do not match"
+msgstr ""
+
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:65
 msgctxt "WCHaveMasterKey|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:84
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:88
 msgctxt "WCHaveMasterKey|"
 msgid "Master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:103
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:107
 #, qt-format
 msgctxt "WCHaveMasterKey|"
 msgid "Cosigner #%1 of %2"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:110
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:114
 msgctxt "WCHaveMasterKey|"
 msgid "Enter cosigner master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:111
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:115
 msgctxt "WCHaveMasterKey|"
 msgid "Create keystore from a master key"
 msgstr "Izveidot atslēgu glabātuvi, no galvenās atslēgas"
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:148
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:152
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a cosigner master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:149
+#: ../gui/qml/components/wizard/WCHaveMasterKey.qml:153
 msgctxt "WCHaveMasterKey|"
 msgid "Scan a master key"
 msgstr ""
@@ -10304,53 +10360,58 @@ msgctxt "WCHaveSeed|"
 msgid "Error: duplicate master public key"
 msgstr "Kļūda: dubulta galvenā publiskā atslēga"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:92
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:72
+msgctxt "WCHaveSeed|"
+msgid "Error: master public key types do not match"
+msgstr ""
+
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:95
 msgctxt "WCHaveSeed|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:116
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:119
 msgctxt "WCHaveSeed|"
 msgid "Master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:137
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:140
 #, qt-format
 msgctxt "WCHaveSeed|"
 msgid "Cosigner #%1 of %2"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:143
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:146
 msgctxt "WCHaveSeed|"
 msgid "Seed Type"
 msgstr "Sēklas tips"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:153
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:156
 msgctxt "WCHaveSeed|"
 msgid "Electrum"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:154
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:157
 msgctxt "WCHaveSeed|"
 msgid "BIP39"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:178
 msgctxt "WCHaveSeed|"
 msgid "Enter cosigner seed"
 msgstr "Ievadiet līdzparakstītāja sēklu"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:175
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:178
 msgctxt "WCHaveSeed|"
 msgid "Enter your seed"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:197
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:200
 msgctxt "WCHaveSeed|"
 msgid "Extend seed with custom words"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:205
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:208
 msgctxt "WCHaveSeed|"
 msgid "Enter your custom word(s)"
 msgstr ""
@@ -10806,42 +10867,42 @@ msgctxt "Wizard|"
 msgid "Finish"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:55
+#: ../gui/qml/components/main.qml:54
 msgctxt "main|"
 msgid "Network"
 msgstr "Tīkls"
 
-#: ../gui/qml/components/main.qml:65
+#: ../gui/qml/components/main.qml:64
 msgctxt "main|"
 msgid "Preferences"
 msgstr "Iestatījumi"
 
-#: ../gui/qml/components/main.qml:75
+#: ../gui/qml/components/main.qml:74
 msgctxt "main|"
 msgid "About"
 msgstr "Par"
 
-#: ../gui/qml/components/main.qml:400
+#: ../gui/qml/components/main.qml:399 ../gui/qml/components/main.qml:498
 msgctxt "main|"
 msgid "Error"
 msgstr "Kļūda"
 
-#: ../gui/qml/components/main.qml:477
+#: ../gui/qml/components/main.qml:476
 msgctxt "main|"
 msgid "Close Electrum?"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:539
+#: ../gui/qml/components/main.qml:538
 msgctxt "main|"
 msgid "Payment Succeeded"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:542
+#: ../gui/qml/components/main.qml:541
 msgctxt "main|"
 msgid "Payment Failed"
 msgstr ""
 
-#: ../gui/qml/components/main.qml:560
+#: ../gui/qml/components/main.qml:559
 msgctxt "main|"
 msgid "Enter current password"
 msgstr ""
