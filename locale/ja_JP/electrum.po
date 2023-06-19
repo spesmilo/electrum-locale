@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-31 11:13+0000\n"
-"PO-Revision-Date: 2023-05-31 11:13\n"
+"POT-Creation-Date: 2023-06-19 12:55+0000\n"
+"PO-Revision-Date: 2023-06-19 12:56\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-#: electrum/exchange_rate.py:646
+#: electrum/exchange_rate.py:673
 msgid "  (No FX rate available)"
 msgstr "  （法定通貨レート利用不可）"
 
@@ -61,8 +61,8 @@ msgstr "サーバーへ寄付"
 msgid "&Encrypt/decrypt message"
 msgstr "メッセージの暗号化・解読"
 
-#: electrum/gui/qt/history_list.py:560 electrum/gui/qt/main_window.py:689
-#: electrum/gui/qt/main_window.py:695
+#: electrum/gui/qt/main_window.py:689 electrum/gui/qt/main_window.py:695
+#: electrum/gui/qt/history_list.py:567
 msgid "&Export"
 msgstr "エクスポート"
 
@@ -138,7 +138,7 @@ msgstr "パスワード"
 msgid "&Pay to many"
 msgstr "複数送金"
 
-#: electrum/gui/qt/history_list.py:559
+#: electrum/gui/qt/history_list.py:566
 msgid "&Plot"
 msgstr "プロット"
 
@@ -174,7 +174,7 @@ msgstr "シード"
 msgid "&Sign/verify message"
 msgstr "メッセージの署名・署名確認"
 
-#: electrum/gui/qt/history_list.py:558
+#: electrum/gui/qt/history_list.py:565
 msgid "&Summary"
 msgstr "概要"
 
@@ -234,7 +234,7 @@ msgstr "3. Revealerを紙にそっと押し当て、下部と右部に一番近�
 msgid "4. Type the numbers in the software"
 msgstr "4. ソフトウェアに数値を入力してください。"
 
-#: electrum/gui/qt/main_window.py:2667
+#: electrum/gui/qt/main_window.py:2679
 msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
 msgstr "CPFPとは、未承認の出力を消費するトランザクションを作り、高い手数料をつけて自分に送り返すことです。目的は、子トランザクションの高い手数料を得るインセンティブがあるマイナーに親トランザクションを同時に承認してもらうことです。"
 
@@ -294,7 +294,7 @@ msgstr "許可"
 msgid "Accept Word"
 msgstr "単語を承認"
 
-#: electrum/gui/qt/history_list.py:424 electrum/gui/qt/history_list.py:656
+#: electrum/gui/qt/history_list.py:431 electrum/gui/qt/history_list.py:663
 msgid "Acquisition price"
 msgstr "価格"
 
@@ -337,7 +337,7 @@ msgstr "ビットコインの残高に1000区切りの目印を付ける"
 msgid "Add to History"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:322 electrum/gui/qt/utxo_list.py:306
+#: electrum/gui/qt/address_list.py:328 electrum/gui/qt/utxo_list.py:311
 msgid "Add to coin control"
 msgstr ""
 
@@ -357,14 +357,14 @@ msgstr "追加手数料"
 msgid "Additional {} satoshis are going to be added."
 msgstr "{} satoshi が追加されます。"
 
-#: electrum/gui/qt/address_list.py:153 electrum/gui/qt/invoice_list.py:180
+#: electrum/gui/qt/invoice_list.py:182 electrum/gui/qt/receive_tab.py:217
+#: electrum/gui/qt/receive_tab.py:293 electrum/gui/qt/main_window.py:1428
+#: electrum/gui/qt/main_window.py:1741 electrum/gui/qt/main_window.py:1979
+#: electrum/gui/qt/main_window.py:2055 electrum/gui/qt/request_list.py:67
+#: electrum/gui/qt/request_list.py:201 electrum/gui/qt/address_list.py:153
+#: electrum/gui/qt/utxo_list.py:61 electrum/gui/qt/util.py:464
 #: electrum/gui/qt/address_dialog.py:57 electrum/gui/qt/address_dialog.py:69
 #: electrum/gui/qt/address_dialog.py:70 electrum/gui/qt/contact_list.py:53
-#: electrum/gui/qt/request_list.py:67 electrum/gui/qt/request_list.py:199
-#: electrum/gui/qt/receive_tab.py:217 electrum/gui/qt/receive_tab.py:293
-#: electrum/gui/qt/utxo_list.py:61 electrum/gui/qt/util.py:464
-#: electrum/gui/qt/main_window.py:1416 electrum/gui/qt/main_window.py:1729
-#: electrum/gui/qt/main_window.py:1967 electrum/gui/qt/main_window.py:2043
 msgid "Address"
 msgstr "アドレス"
 
@@ -378,11 +378,11 @@ msgstr "アドレスの詳細"
 msgid "Address copied to clipboard"
 msgstr "アドレスがクリップボードにコピーされました"
 
-#: electrum/gui/qt/utxo_list.py:153
+#: electrum/gui/qt/utxo_list.py:158
 msgid "Address is frozen"
 msgstr "アドレスは凍結されています"
 
-#: electrum/plugins/hw_wallet/plugin.py:132 electrum/gui/qt/main_window.py:1994
+#: electrum/plugins/hw_wallet/plugin.py:132 electrum/gui/qt/main_window.py:2006
 #: electrum/wallet.py:732
 msgid "Address not in wallet."
 msgstr "アドレスはウォレットの中にありません"
@@ -399,12 +399,12 @@ msgstr "ノードのアドレスが不明です: "
 msgid "Addresses"
 msgstr "アドレス"
 
-#: electrum/plugins/safe_t/qt.py:497 electrum/plugins/keepkey/qt.py:567
+#: electrum/plugins/keepkey/qt.py:567 electrum/plugins/safe_t/qt.py:497
 #: electrum/plugins/trezor/qt.py:763
 msgid "Advanced"
 msgstr "高度な機能"
 
-#: electrum/plugins/safe_t/qt.py:261 electrum/plugins/keepkey/qt.py:385
+#: electrum/plugins/keepkey/qt.py:385 electrum/plugins/safe_t/qt.py:261
 #: electrum/plugins/trezor/qt.py:527
 msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
 msgstr "パスフレーズを無効化すると、空のパスフレーズを持つウォレットとしかペアリングできません。もしパスフレーズが空でないならば、インストールウィザードから新しいウォレットを作る必要があります。パスフレーズを再有効化して、パスフレーズを入力することでいつでも再びこのウォレットを使うことができます。"
@@ -417,7 +417,7 @@ msgstr "この遅延の後、資金はあなたのウォレットシードから
 msgid "Alias"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:513 electrum/gui/qt/history_list.py:536
+#: electrum/gui/qt/history_list.py:520 electrum/gui/qt/history_list.py:543
 msgid "All"
 msgstr "全部"
 
@@ -461,7 +461,7 @@ msgstr "また、RBFトランザクションをバッチ処理する場合、BIP
 msgid "Alternatively"
 msgstr "もしくは"
 
-#: electrum/gui/qt/main_window.py:1285
+#: electrum/gui/qt/main_window.py:1297
 msgid "Alternatively, you can save a backup of your wallet file from the File menu"
 msgstr "ファイルメニューからあなたのウォレットファイルのバックアップを保存することもできます"
 
@@ -469,18 +469,18 @@ msgstr "ファイルメニューからあなたのウォレットファイルの
 msgid "Always check your backups."
 msgstr "必ずバックアップを確認してください。"
 
-#: electrum/gui/qt/channel_details.py:87 electrum/gui/qt/send_tab.py:109
-#: electrum/gui/qt/rebalance_dialog.py:42 electrum/gui/qt/utxo_dialog.py:68
-#: electrum/gui/qt/history_list.py:429 electrum/gui/qt/invoice_list.py:67
-#: electrum/gui/qt/request_list.py:65 electrum/gui/qt/utxo_list.py:64
-#: electrum/gui/qt/lightning_tx_dialog.py:66
-#: electrum/gui/qt/main_window.py:1413 electrum/gui/qt/main_window.py:1466
+#: electrum/gui/stdio.py:121 electrum/gui/qt/invoice_list.py:67
+#: electrum/gui/qt/main_window.py:1425 electrum/gui/qt/main_window.py:1478
+#: electrum/gui/qt/utxo_dialog.py:68 electrum/gui/qt/lightning_tx_dialog.py:66
+#: electrum/gui/qt/channel_details.py:87 electrum/gui/qt/request_list.py:65
+#: electrum/gui/qt/history_list.py:436 electrum/gui/qt/utxo_list.py:64
+#: electrum/gui/qt/send_tab.py:109 electrum/gui/qt/rebalance_dialog.py:42
 #: electrum/gui/text.py:158 electrum/gui/text.py:221 electrum/gui/text.py:349
-#: electrum/gui/kivy/uix/ui_screens/send.kv:111
-#: electrum/gui/kivy/uix/ui_screens/send.kv:112
+#: electrum/gui/qml/qetypes.py:106
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:93
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:94
-#: electrum/gui/qml/qetypes.py:106 electrum/gui/stdio.py:121
+#: electrum/gui/kivy/uix/ui_screens/send.kv:111
+#: electrum/gui/kivy/uix/ui_screens/send.kv:112
 msgid "Amount"
 msgstr "金額"
 
@@ -513,7 +513,7 @@ msgid "Amount too low"
 msgstr "金額が少なすぎます"
 
 #: electrum/gui/qt/receive_tab.py:313 electrum/gui/kivy/uix/screens.py:522
-#: electrum/wallet.py:2989 electrum/wallet.py:2994
+#: electrum/wallet.py:2991 electrum/wallet.py:2996
 msgid "Amount too small to be received onchain"
 msgstr "オンチェーンで受け取るには残高が少なすぎます"
 
@@ -548,7 +548,7 @@ msgstr ""
 msgid "Appearance"
 msgstr "外観"
 
-#: electrum/plugins/safe_t/qt.py:378 electrum/plugins/keepkey/qt.py:471
+#: electrum/plugins/keepkey/qt.py:471 electrum/plugins/safe_t/qt.py:378
 #: electrum/plugins/trezor/qt.py:644
 msgid "Apply"
 msgstr "適用"
@@ -557,7 +557,7 @@ msgstr "適用"
 msgid "Arabic"
 msgstr "アラビア語"
 
-#: electrum/plugins/safe_t/qt.py:321 electrum/plugins/keepkey/qt.py:411
+#: electrum/plugins/keepkey/qt.py:411 electrum/plugins/safe_t/qt.py:321
 #: electrum/plugins/trezor/qt.py:587
 msgid "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -581,20 +581,18 @@ msgstr ""
 msgid "Are you sure you want to erase the Digital Bitbox?"
 msgstr "本当にDigital Bitbox を消去してよろしいですか？"
 
-#: electrum/plugins/safe_t/qt.py:272 electrum/plugins/keepkey/qt.py:396
+#: electrum/plugins/keepkey/qt.py:396 electrum/plugins/safe_t/qt.py:272
 #: electrum/plugins/trezor/qt.py:538
 msgid "Are you sure you want to proceed?"
 msgstr "続行してもよろしいですか？"
 
-#: electrum/gui/qt/history_list.py:808
+#: electrum/gui/qt/history_list.py:817 electrum/gui/qml/qetxdetails.py:402
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:344
-#: electrum/gui/qml/qetxdetails.py:402
 msgid "Are you sure you want to remove this transaction and {} child transactions?"
 msgstr "本当にこの取引と {} の子取引を削除しますか？"
 
-#: electrum/gui/qt/history_list.py:806
+#: electrum/gui/qt/history_list.py:815 electrum/gui/qml/qetxdetails.py:399
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:341
-#: electrum/gui/qml/qetxdetails.py:399
 msgid "Are you sure you want to remove this transaction?"
 msgstr "本当にこの取引を削除しますか？"
 
@@ -606,7 +604,7 @@ msgstr "アルメニア語"
 msgid "At block height: {}"
 msgstr "ブロック高: {}"
 
-#: electrum/lnutil.py:1503
+#: electrum/lnutil.py:1520
 msgid "At least a hostname must be supplied after the at symbol."
 msgstr "少なくともアットマークの後にホスト名が必要です。"
 
@@ -658,23 +656,23 @@ msgstr "ElectrumはBIP39(+BIP44)対応ウォレットのシードをインポー
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
 msgstr "BIP39のシードはバージョン番号を含みません。これは将来のソフトに対する妥協です。"
 
-#: electrum/gui/qt/main_window.py:1448
+#: electrum/gui/qt/main_window.py:1460
 msgid "BIP70 invoice saved as {}"
 msgstr "BIP70の請求書は{}として保存されました"
 
-#: electrum/gui/qt/history_list.py:648
+#: electrum/gui/qt/history_list.py:655
 msgid "BTC Fiat price"
 msgstr "BTCの法定通貨の価格"
 
-#: electrum/gui/qt/history_list.py:644
+#: electrum/gui/qt/history_list.py:651
 msgid "BTC balance"
 msgstr "BTC残高"
 
-#: electrum/gui/qt/history_list.py:665
+#: electrum/gui/qt/history_list.py:672
 msgid "BTC incoming"
 msgstr "入金BTC"
 
-#: electrum/gui/qt/history_list.py:669
+#: electrum/gui/qt/history_list.py:676
 msgid "BTC outgoing"
 msgstr "出金BTC"
 
@@ -703,11 +701,11 @@ msgstr "バックアップが設定されていません"
 msgid "Backup saved:"
 msgstr "バックアップを保存しました: "
 
+#: electrum/gui/stdio.py:121 electrum/gui/stdio.py:133
+#: electrum/gui/qt/main_window.py:969 electrum/gui/qt/history_list.py:437
 #: electrum/gui/qt/address_list.py:155 electrum/gui/qt/address_list.py:156
-#: electrum/gui/qt/history_list.py:430 electrum/gui/qt/main_window.py:957
 #: electrum/gui/text.py:158 electrum/gui/text.py:206
-#: electrum/gui/kivy/uix/ui_screens/status.kv:39 electrum/gui/stdio.py:121
-#: electrum/gui/stdio.py:133
+#: electrum/gui/kivy/uix/ui_screens/status.kv:39
 msgid "Balance"
 msgstr "残高"
 
@@ -723,7 +721,7 @@ msgstr "基本単位"
 msgid "Base unit of your wallet."
 msgstr "金額表示の単位を設定します。(円と銭のようなものです)"
 
-#: electrum/gui/qt/invoice_list.py:164
+#: electrum/gui/qt/invoice_list.py:166
 msgid "Batch pay invoices"
 msgstr "請求書をバッチ支払い"
 
@@ -735,7 +733,7 @@ msgstr ""
 msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
 msgstr "バグを報告する前に、最新版のElectrum(最新リリースもしくはgit HEAD版) を実行しているか確認して下さい。報告の際は、Electrumのバージョン番号も記入して下さい。"
 
-#: electrum/gui/qt/history_list.py:637
+#: electrum/gui/qt/history_list.py:644
 msgid "Begin"
 msgstr "開始"
 
@@ -755,8 +753,8 @@ msgstr "BitBox02の状態"
 msgid "Bitcoin Address is None"
 msgstr "ビットコインアドレスがありません"
 
-#: electrum/gui/qt/request_list.py:201 electrum/gui/qt/receive_tab.py:215
-#: electrum/gui/qt/receive_tab.py:291
+#: electrum/gui/qt/receive_tab.py:215 electrum/gui/qt/receive_tab.py:291
+#: electrum/gui/qt/request_list.py:203
 msgid "Bitcoin URI"
 msgstr ""
 
@@ -776,7 +774,7 @@ msgstr "ブロックチェーン"
 msgid "Bootloader"
 msgstr "ブートローダー"
 
-#: electrum/plugins/safe_t/qt.py:355 electrum/plugins/keepkey/qt.py:447
+#: electrum/plugins/keepkey/qt.py:447 electrum/plugins/safe_t/qt.py:355
 #: electrum/plugins/trezor/qt.py:621
 msgid "Bootloader Hash"
 msgstr "ブートローダーのハッシュ値"
@@ -843,27 +841,26 @@ msgstr "受け取り可能"
 msgid "Can send"
 msgstr "終わり"
 
-#: electrum/gui/qt/main_window.py:2662
+#: electrum/gui/qt/main_window.py:2674 electrum/gui/qml/qetxfinalizer.py:764
+#: electrum/gui/qml/qetxfinalizer.py:765
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:255
-#: electrum/gui/qml/qetxfinalizer.py:764 electrum/gui/qml/qetxfinalizer.py:765
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "CPFP不可: 親取引の手数料が不明です。"
 
-#: electrum/gui/qt/history_list.py:689
+#: electrum/gui/qt/history_list.py:696
 msgid "Can't plot history."
 msgstr "履歴のプロットが出来ません。"
 
-#: electrum/plugins/trustedcoin/qt.py:229 electrum/plugins/keepkey/qt.py:82
-#: electrum/plugins/trezor/qt.py:70 electrum/gui/qt/util.py:222
-#: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:164
-#: electrum/gui/qt/installwizard.py:742
+#: electrum/plugins/keepkey/qt.py:82 electrum/plugins/trezor/qt.py:70
+#: electrum/plugins/trustedcoin/qt.py:229 electrum/gui/qt/installwizard.py:103
+#: electrum/gui/qt/installwizard.py:164 electrum/gui/qt/installwizard.py:742
+#: electrum/gui/qt/util.py:222 electrum/gui/kivy/main_window.py:1296
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:201
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:597
-#: electrum/gui/kivy/main_window.py:1296
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: electrum/gui/qt/history_list.py:792
+#: electrum/gui/qt/history_list.py:801
 msgid "Cancel (double-spend)"
 msgstr "キャンセル(二重支払い)"
 
@@ -926,7 +923,7 @@ msgstr "ファイルを読み込めません"
 msgid "Cannot save backup without STORAGE permission"
 msgstr "ストレージの権限がなければバックアップを保存できません。"
 
-#: electrum/gui/qt/main_window.py:1998
+#: electrum/gui/qt/main_window.py:2010
 msgid "Cannot sign messages with this type of address:"
 msgstr "このアドレスにはメッセージの署名ができません"
 
@@ -951,15 +948,15 @@ msgstr "QRスキャナーを開始できません: 初期化に失敗しまし�
 msgid "Capacity"
 msgstr "容量"
 
-#: electrum/gui/qt/history_list.py:425
+#: electrum/gui/qt/history_list.py:432
 msgid "Capital Gains"
 msgstr "キャピタルゲイン"
 
-#: electrum/gui/qt/history_list.py:677
+#: electrum/gui/qt/history_list.py:684
 msgid "Cash flow"
 msgstr "キャッシュフロー"
 
-#: electrum/gui/qt/main_window.py:2787
+#: electrum/gui/qt/main_window.py:2799
 msgid "Certificate mismatch"
 msgstr "証明書のミスマッチ"
 
@@ -976,7 +973,7 @@ msgstr "お釣り"
 msgid "Change Address"
 msgstr "アドレスの変更"
 
-#: electrum/plugins/safe_t/qt.py:230 electrum/plugins/keepkey/qt.py:352
+#: electrum/plugins/keepkey/qt.py:352 electrum/plugins/safe_t/qt.py:230
 #: electrum/plugins/trezor/qt.py:496
 msgid "Change PIN"
 msgstr "PINの変更"
@@ -1002,13 +999,12 @@ msgstr "チャネルのバックアップ"
 msgid "Channel Backup "
 msgstr "チャネルのバックアップ"
 
-#: electrum/gui/qt/main_window.py:2222
+#: electrum/gui/qt/main_window.py:2234
 msgid "Channel Backup:"
 msgstr "チャネルのバックアップ: "
 
-#: electrum/gui/qt/channel_details.py:181
-#: electrum/gui/qt/channel_details.py:182 electrum/gui/qt/invoice_list.py:201
-#: electrum/gui/qt/channels_list.py:52
+#: electrum/gui/qt/invoice_list.py:203 electrum/gui/qt/channel_details.py:181
+#: electrum/gui/qt/channel_details.py:182 electrum/gui/qt/channels_list.py:52
 msgid "Channel ID"
 msgstr "Channel ID"
 
@@ -1041,7 +1037,7 @@ msgstr "チャネルがクローズされましたが、CSVの遅延のため最
 msgid "Channel details"
 msgstr "Channelの詳細"
 
-#: electrum/gui/qt/main_window.py:1292
+#: electrum/gui/qt/main_window.py:1304
 #: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:250
 msgid "Channel established."
 msgstr "チャネルが確立されました。"
@@ -1063,8 +1059,8 @@ msgid "Channel updates to query."
 msgstr "要求するチャネルアップデート。"
 
 #: electrum/gui/qt/main_window.py:228 electrum/gui/qt/channels_list.py:383
-#: electrum/gui/text.py:102 electrum/gui/kivy/main.kv:539
-#: electrum/gui/kivy/uix/ui_screens/lightning.kv:23
+#: electrum/gui/text.py:102 electrum/gui/kivy/uix/ui_screens/lightning.kv:23
+#: electrum/gui/kivy/main.kv:539
 msgid "Channels"
 msgstr "Channels"
 
@@ -1080,8 +1076,8 @@ msgstr "Electrumをウォッチタワーとして設定したい場合にはオ�
 msgid "Check this box to request a new secret. You will need to retype your seed."
 msgstr "新しいシークレットをリクエストする場合にはチェックしてください。再度シードを入力する必要があります。"
 
-#: electrum/plugins/safe_t/clientbase.py:30
 #: electrum/plugins/keepkey/clientbase.py:28
+#: electrum/plugins/safe_t/clientbase.py:30
 #: electrum/plugins/trezor/clientbase.py:38
 msgid "Check your {} device to continue"
 msgstr "続行するためには{}デバイスを確認してください"
@@ -1090,7 +1086,7 @@ msgstr "続行するためには{}デバイスを確認してください"
 msgid "Checking for updates..."
 msgstr "アップデートを確認しています"
 
-#: electrum/gui/qt/main_window.py:2664
+#: electrum/gui/qt/main_window.py:2676
 msgid "Child Pays for Parent"
 msgstr "スタックしている親（取引情報）に対して子（受取アドレス、釣銭アドレス）の手数料を支払う"
 
@@ -1099,7 +1095,7 @@ msgid "Child pays\n"
 "for parent"
 msgstr "スタックしている親（取引情報）に対して子（受取アドレス、釣銭アドレス）の手数料を支払う"
 
-#: electrum/gui/qt/history_list.py:790
+#: electrum/gui/qt/history_list.py:799
 msgid "Child pays for parent"
 msgstr "スタックしている親（取引情報）に対して子（受取アドレス、釣銭アドレス）の手数料を支払う"
 
@@ -1155,8 +1151,8 @@ msgstr "Digital Bitboxを初期化する方法を選んでください: "
 msgid "Choose how you want to initialize your {}."
 msgstr "{}を初期化する方法を選んでください。"
 
-#: electrum/plugins/safe_t/safe_t.py:161
 #: electrum/plugins/keepkey/keepkey.py:203
+#: electrum/plugins/safe_t/safe_t.py:161
 msgid "Choose how you want to initialize your {}.\n\n"
 "The first two methods are secure as no secret information is entered into your computer.\n\n"
 "For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
@@ -1189,8 +1185,8 @@ msgstr "チェーンを選択してください"
 msgid "Choose..."
 msgstr "選択..."
 
-#: electrum/gui/qt/send_tab.py:130 electrum/gui/qt/new_channel_dialog.py:67
-#: electrum/gui/qt/receive_tab.py:74
+#: electrum/gui/qt/receive_tab.py:74 electrum/gui/qt/send_tab.py:130
+#: electrum/gui/qt/new_channel_dialog.py:67
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:136
 msgid "Clear"
 msgstr "クリア"
@@ -1199,7 +1195,7 @@ msgstr "クリア"
 msgid "Clear all gossip"
 msgstr "全てのゴシップをクリア"
 
-#: electrum/plugins/safe_t/qt.py:433 electrum/plugins/keepkey/qt.py:503
+#: electrum/plugins/keepkey/qt.py:503 electrum/plugins/safe_t/qt.py:433
 #: electrum/plugins/trezor/qt.py:699
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
 msgstr "一定時間操作がないとセッションを消去します。セッションがタイムアウトした場合、このデバイスを使うにはもう一度PINとパスフレーズ(有効化されていれば)を入力しなければなりません。"
@@ -1217,25 +1213,25 @@ msgstr ""
 msgid "Clipboard"
 msgstr ""
 
-#: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:163
 #: electrum/gui/kivy/uix/screens.py:327
+#: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:163
 msgid "Clipboard is empty"
 msgstr "クリップボードが空です"
 
-#: electrum/gui/qt/__init__.py:207 electrum/gui/qt/watchtower_dialog.py:98
-#: electrum/gui/qt/update_checker.py:63
+#: electrum/gui/qt/lightning_dialog.py:59 electrum/gui/qt/__init__.py:207
+#: electrum/gui/qt/main_window.py:2073 electrum/gui/qt/main_window.py:2142
 #: electrum/gui/qt/transaction_dialog.py:458
-#: electrum/gui/qt/lightning_dialog.py:59 electrum/gui/qt/util.py:198
-#: electrum/gui/qt/qrcodewidget.py:185 electrum/gui/qt/main_window.py:2061
-#: electrum/gui/qt/main_window.py:2130 electrum/gui/qt/channels_list.py:269
-#: electrum/gui/kivy/uix/dialogs/qr_dialog.py:83
+#: electrum/gui/qt/update_checker.py:63 electrum/gui/qt/channels_list.py:269
+#: electrum/gui/qt/qrcodewidget.py:185 electrum/gui/qt/util.py:198
+#: electrum/gui/qt/watchtower_dialog.py:98
 #: electrum/gui/kivy/uix/ui_screens/about.kv:54
+#: electrum/gui/kivy/uix/dialogs/qr_dialog.py:83
 msgid "Close"
 msgstr "閉じる"
 
+#: electrum/lnworker.py:918
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:498
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:521
-#: electrum/lnworker.py:918
 msgid "Close channel"
 msgstr "チャネルのクローズ"
 
@@ -1259,11 +1255,11 @@ msgstr ""
 msgid "Coin control"
 msgstr ""
 
-#: electrum/gui/qt/utxo_list.py:128
+#: electrum/gui/qt/utxo_list.py:133
 msgid "Coin control active"
 msgstr "コインコントロールが有効です"
 
-#: electrum/gui/qt/utxo_list.py:141
+#: electrum/gui/qt/utxo_list.py:146
 msgid "Coin selected to be spent"
 msgstr "支払いに選択されたコイン"
 
@@ -1316,7 +1312,7 @@ msgstr "コンソール"
 msgid "Con&tacts"
 msgstr "アドレス帳"
 
-#: electrum/plugins/safe_t/qt.py:320 electrum/plugins/keepkey/qt.py:410
+#: electrum/plugins/keepkey/qt.py:410 electrum/plugins/safe_t/qt.py:320
 #: electrum/plugins/trezor/qt.py:586
 msgid "Confirm Device Wipe"
 msgstr "デバイスの消去を確認"
@@ -1342,7 +1338,7 @@ msgstr "シードの確認"
 msgid "Confirm Seed Extension"
 msgstr "拡張シードの確認"
 
-#: electrum/plugins/safe_t/qt.py:258 electrum/plugins/keepkey/qt.py:382
+#: electrum/plugins/keepkey/qt.py:382 electrum/plugins/safe_t/qt.py:258
 #: electrum/plugins/trezor/qt.py:524
 msgid "Confirm Toggle Passphrase Protection"
 msgstr "パスフレーズ保護の切り替えを確認"
@@ -1359,8 +1355,8 @@ msgstr "操作を確認"
 msgid "Confirm force close?"
 msgstr "強制的にクローズしてよろしいですか?"
 
-#: electrum/plugins/safe_t/clientbase.py:22
 #: electrum/plugins/keepkey/clientbase.py:21
+#: electrum/plugins/safe_t/clientbase.py:22
 msgid "Confirm internal entropy on your {} device to begin"
 msgstr "{}デバイスで開始するにあたって内部エントロピーを確認"
 
@@ -1372,74 +1368,74 @@ msgstr "新しいPINコードの確認"
 msgid "Confirm new password"
 msgstr "新しいパスワードの確認 "
 
-#: electrum/plugins/safe_t/clientbase.py:25
 #: electrum/plugins/keepkey/clientbase.py:24
+#: electrum/plugins/safe_t/clientbase.py:25
 #: electrum/plugins/trezor/clientbase.py:29
 msgid "Confirm on your {} device the message to sign"
 msgstr "{}デバイスで署名するメッセージを確認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:205
 #: electrum/plugins/keepkey/clientbase.py:206
+#: electrum/plugins/safe_t/clientbase.py:205
 #: electrum/plugins/trezor/clientbase.py:175
 msgid "Confirm on your {} device to change your PIN"
 msgstr "{}デバイスでPINの変更を確認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:197
 #: electrum/plugins/keepkey/clientbase.py:198
+#: electrum/plugins/safe_t/clientbase.py:197
 #: electrum/plugins/trezor/clientbase.py:167
 msgid "Confirm on your {} device to change your home screen"
 msgstr "{}デバイスでホーム画面の変更を確認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:203
 #: electrum/plugins/keepkey/clientbase.py:204
+#: electrum/plugins/safe_t/clientbase.py:203
 #: electrum/plugins/trezor/clientbase.py:173
 msgid "Confirm on your {} device to disable PIN protection"
 msgstr "{}デバイスでPIN保護の無効化を承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:184
 #: electrum/plugins/keepkey/clientbase.py:185
+#: electrum/plugins/safe_t/clientbase.py:184
 #: electrum/plugins/trezor/clientbase.py:153
 msgid "Confirm on your {} device to disable passphrases"
 msgstr "{}デバイスでパスフレーズの無効化を承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:186
 #: electrum/plugins/keepkey/clientbase.py:187
+#: electrum/plugins/safe_t/clientbase.py:186
 #: electrum/plugins/trezor/clientbase.py:155
 msgid "Confirm on your {} device to enable passphrases"
 msgstr "{}デバイスでPIN保護の有効化を承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:207
 #: electrum/plugins/keepkey/clientbase.py:208
+#: electrum/plugins/safe_t/clientbase.py:207
 #: electrum/plugins/trezor/clientbase.py:177
 msgid "Confirm on your {} device to set a PIN"
 msgstr "{}デバイスでPINの設定を確認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:24
 #: electrum/plugins/keepkey/clientbase.py:23
+#: electrum/plugins/safe_t/clientbase.py:24
 #: electrum/plugins/trezor/clientbase.py:27
 msgid "Confirm on your {} that you want to wipe it clean"
 msgstr "{}で内容の消去を承認してください。"
 
-#: electrum/plugins/safe_t/clientbase.py:192
 #: electrum/plugins/keepkey/clientbase.py:193
+#: electrum/plugins/safe_t/clientbase.py:192
 #: electrum/plugins/trezor/clientbase.py:162
 msgid "Confirm the new label on your {} device"
 msgstr "{}デバイスの新しいラベルを承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:26
 #: electrum/plugins/keepkey/clientbase.py:25
+#: electrum/plugins/safe_t/clientbase.py:26
 #: electrum/plugins/trezor/clientbase.py:31
 msgid "Confirm the total amount spent and the transaction fee on your {} device"
 msgstr "支払い金額とトランザクション手数料を{}デバイスで承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:21
 #: electrum/plugins/keepkey/clientbase.py:20
+#: electrum/plugins/safe_t/clientbase.py:21
 #: electrum/plugins/trezor/clientbase.py:21
 msgid "Confirm the transaction output on your {} device"
 msgstr "{}デバイスでトランザクションのアウトプットを承認してください"
 
-#: electrum/plugins/safe_t/clientbase.py:28
 #: electrum/plugins/keepkey/clientbase.py:27
+#: electrum/plugins/safe_t/clientbase.py:28
 #: electrum/plugins/trezor/clientbase.py:33
 msgid "Confirm wallet address on your {} device"
 msgstr "あなたの{}デバイスでウォレットのアドレスを確認してください"
@@ -1448,7 +1444,7 @@ msgstr "あなたの{}デバイスでウォレットのアドレスを確認し�
 msgid "Confirmed. Signing Transaction..."
 msgstr "確認できました。トランザクションに署名中..."
 
-#: electrum/gui/qt/main_window.py:946 electrum/network.py:447
+#: electrum/network.py:447 electrum/gui/qt/main_window.py:958
 msgid "Connected"
 msgstr "接続されました"
 
@@ -1478,7 +1474,7 @@ msgstr "{}個のピアに接続"
 msgid "Connecting"
 msgstr ""
 
-#: electrum/lnutil.py:1467
+#: electrum/lnutil.py:1484
 msgid "Connection strings must be in <node_pubkey>@<host>:<port> format"
 msgstr "接続先の文字列は<ノード公開鍵>@<ホスト>:<ポート> の形式である必要があります"
 
@@ -1507,9 +1503,9 @@ msgstr "協力的なクローズ"
 msgid "Cooperative close?"
 msgstr "協力的にクローズしますか？"
 
-#: electrum/gui/qt/history_list.py:730
 #: electrum/gui/qt/transaction_dialog.py:309
-#: electrum/gui/qt/transaction_dialog.py:353 electrum/gui/qt/my_treeview.py:437
+#: electrum/gui/qt/transaction_dialog.py:353
+#: electrum/gui/qt/history_list.py:737 electrum/gui/qt/my_treeview.py:438
 #: electrum/gui/qt/util.py:204
 msgid "Copy"
 msgstr "コピー"
@@ -1560,9 +1556,9 @@ msgstr "共同署名プール"
 msgid "Could not automatically pair with device for given keystore."
 msgstr "与えられたキーストアのデバイスと自動的にペアリングできませんでした。"
 
+#: electrum/gui/qml/qechanneldetails.py:213
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:444
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:546
-#: electrum/gui/qml/qechanneldetails.py:213
 msgid "Could not close channel: "
 msgstr "チャネルをクローズできませんでした: "
 
@@ -1590,7 +1586,7 @@ msgstr "適切なアウトプットが見つかりませんでした"
 msgid "Could not force close channel: "
 msgstr "チャネルを強制クローズ出来ませんでした: "
 
-#: electrum/gui/qt/main_window.py:1276
+#: electrum/gui/qt/main_window.py:1288
 msgid "Could not open channel: {}"
 msgstr "チャネルを開設できませんでした: {}"
 
@@ -1628,7 +1624,7 @@ msgstr "リクエストを作成"
 msgid "Create a new Revealer"
 msgstr "Revealerの新規作成"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:556 electrum/base_wizard.py:210
+#: electrum/base_wizard.py:210 electrum/plugins/trustedcoin/trustedcoin.py:558
 msgid "Create a new seed"
 msgstr "新しいシードを作る"
 
@@ -1644,7 +1640,7 @@ msgstr "マスター鍵からキーストアを作る"
 msgid "Create new wallet"
 msgstr "新しいウォレットを作る"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:553
+#: electrum/plugins/trustedcoin/trustedcoin.py:555
 msgid "Create or restore"
 msgstr "作成または復元"
 
@@ -1656,7 +1652,7 @@ msgstr "回復可能なチャネルを作成"
 msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
 msgstr "新しい支払いリクエストを作ると、あなたのアドレスが一つ再使用され、既存のリクエストを上書きしてしまいます。続行しますか？"
 
-#: electrum/gui/qt/main_window.py:1471
+#: electrum/gui/qt/main_window.py:1483
 msgid "Creation time"
 msgstr ""
 
@@ -1680,7 +1676,7 @@ msgstr "現在のレート"
 msgid "Current version: {}"
 msgstr "現在のバージョン: {}"
 
-#: electrum/gui/qt/history_list.py:513 electrum/gui/qt/history_list.py:533
+#: electrum/gui/qt/history_list.py:520 electrum/gui/qt/history_list.py:540
 msgid "Custom"
 msgstr "カスタム"
 
@@ -1708,11 +1704,11 @@ msgstr "ダーク"
 msgid "Dark/Light"
 msgstr "ダーク/ライト"
 
-#: electrum/gui/qt/locktimeedit.py:38 electrum/gui/qt/history_list.py:427
-#: electrum/gui/qt/history_list.py:640 electrum/gui/qt/invoice_list.py:65
-#: electrum/gui/qt/request_list.py:63 electrum/gui/qt/lightning_tx_dialog.py:73
-#: electrum/gui/text.py:158 electrum/gui/kivy/uix/dialogs/tx_dialog.py:156
-#: electrum/gui/stdio.py:121
+#: electrum/gui/stdio.py:121 electrum/gui/qt/invoice_list.py:65
+#: electrum/gui/qt/lightning_tx_dialog.py:73 electrum/gui/qt/request_list.py:63
+#: electrum/gui/qt/history_list.py:434 electrum/gui/qt/history_list.py:647
+#: electrum/gui/qt/locktimeedit.py:38 electrum/gui/text.py:158
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:156
 msgid "Date"
 msgstr "日付"
 
@@ -1732,7 +1728,7 @@ msgstr "デバッグ情報"
 msgid "Decrease payment"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2126
+#: electrum/gui/qt/main_window.py:2138
 msgid "Decrypt"
 msgstr "解読する"
 
@@ -1744,11 +1740,11 @@ msgstr "秘密鍵を復号しますか？"
 msgid "Default"
 msgstr "既定"
 
-#: electrum/gui/qt/invoice_list.py:193 electrum/gui/qt/contact_list.py:97
-#: electrum/gui/qt/request_list.py:206 electrum/gui/qt/main_window.py:677
-#: electrum/gui/qt/channels_list.py:281 electrum/gui/qt/channels_list.py:283
-#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:499
+#: electrum/gui/qt/invoice_list.py:195 electrum/gui/qt/main_window.py:677
+#: electrum/gui/qt/request_list.py:208 electrum/gui/qt/channels_list.py:281
+#: electrum/gui/qt/channels_list.py:283 electrum/gui/qt/contact_list.py:97
 #: electrum/gui/kivy/uix/ui_screens/status.kv:76
+#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:499
 msgid "Delete"
 msgstr "削除"
 
@@ -1764,7 +1760,7 @@ msgstr ""
 msgid "Delete invoice?"
 msgstr "請求を削除しますか?"
 
-#: electrum/gui/qt/invoice_list.py:165
+#: electrum/gui/qt/invoice_list.py:167
 msgid "Delete invoices"
 msgstr "請求書を削除する"
 
@@ -1772,11 +1768,11 @@ msgstr "請求書を削除する"
 msgid "Delete request?"
 msgstr "リクエストを削除しますか？"
 
-#: electrum/gui/qt/request_list.py:183
+#: electrum/gui/qt/request_list.py:185
 msgid "Delete requests"
 msgstr "リクエストを削除"
 
-#: electrum/gui/qt/main_window.py:1905
+#: electrum/gui/qt/main_window.py:1917
 msgid "Delete wallet file?"
 msgstr "ウォレットのファイルを削除しますか？"
 
@@ -1788,17 +1784,17 @@ msgstr "ウォレットを削除しますか?"
 msgid "Denomination"
 msgstr "デノミネーション"
 
-#: electrum/gui/qt/address_dialog.py:99 electrum/gui/qt/main_window.py:1874
+#: electrum/gui/qt/main_window.py:1886 electrum/gui/qt/address_dialog.py:99
 msgid "Derivation path"
 msgstr "派生パス"
 
-#: electrum/gui/qt/send_tab.py:99 electrum/gui/qt/history_list.py:428
-#: electrum/gui/qt/invoice_list.py:66 electrum/gui/qt/request_list.py:64
-#: electrum/gui/qt/receive_tab.py:55 electrum/gui/qt/main_window.py:1422
-#: electrum/gui/qt/main_window.py:1469 electrum/gui/text.py:158
-#: electrum/gui/text.py:220 electrum/gui/text.py:348
+#: electrum/gui/stdio.py:121 electrum/gui/qt/invoice_list.py:66
+#: electrum/gui/qt/receive_tab.py:55 electrum/gui/qt/main_window.py:1434
+#: electrum/gui/qt/main_window.py:1481 electrum/gui/qt/request_list.py:64
+#: electrum/gui/qt/history_list.py:435 electrum/gui/qt/send_tab.py:99
+#: electrum/gui/text.py:158 electrum/gui/text.py:220 electrum/gui/text.py:348
+#: electrum/gui/kivy/uix/ui_screens/receive.kv:112
 #: electrum/gui/kivy/uix/ui_screens/send.kv:129
-#: electrum/gui/kivy/uix/ui_screens/receive.kv:112 electrum/gui/stdio.py:121
 msgid "Description"
 msgstr "備考"
 
@@ -1806,18 +1802,18 @@ msgstr "備考"
 msgid "Description of the transaction (not mandatory)."
 msgstr "取引の備考 (空欄可)"
 
-#: electrum/gui/qt/transaction_dialog.py:429
 #: electrum/gui/qt/lightning_tx_dialog.py:74
+#: electrum/gui/qt/transaction_dialog.py:429
 msgid "Description:"
 msgstr ""
 
-#: electrum/lnutil.py:354
+#: electrum/lnutil.py:361
 msgid "Destination node"
 msgstr "終端ノード"
 
-#: electrum/gui/qt/address_list.py:289 electrum/gui/qt/history_list.py:752
-#: electrum/gui/qt/history_list.py:770 electrum/gui/qt/invoice_list.py:176
-#: electrum/gui/qt/channels_list.py:251
+#: electrum/gui/qt/invoice_list.py:178 electrum/gui/qt/channels_list.py:251
+#: electrum/gui/qt/history_list.py:761 electrum/gui/qt/history_list.py:779
+#: electrum/gui/qt/address_list.py:295
 msgid "Details"
 msgstr "詳細"
 
@@ -1837,13 +1833,13 @@ msgstr "有効なライトニングインボイスを検出しましたが、オ
 msgid "Developers"
 msgstr "開発者たち"
 
-#: electrum/plugins/safe_t/qt.py:354 electrum/plugins/keepkey/qt.py:446
+#: electrum/plugins/keepkey/qt.py:446 electrum/plugins/safe_t/qt.py:354
 #: electrum/plugins/trezor/qt.py:620
 msgid "Device ID"
 msgstr "デバイス ID"
 
-#: electrum/plugins/safe_t/qt.py:350 electrum/plugins/safe_t/qt.py:374
 #: electrum/plugins/keepkey/qt.py:442 electrum/plugins/keepkey/qt.py:467
+#: electrum/plugins/safe_t/qt.py:350 electrum/plugins/safe_t/qt.py:374
 #: electrum/plugins/trezor/qt.py:616 electrum/plugins/trezor/qt.py:640
 msgid "Device Label"
 msgstr "デバイスのラベル"
@@ -1868,22 +1864,22 @@ msgstr "Digital Revealer ({}_{}) がPNGとPDFで以下に保存されました: 
 msgid "Direct parent"
 msgstr ""
 
-#: electrum/plugins/safe_t/qt.py:455 electrum/plugins/keepkey/qt.py:525
+#: electrum/plugins/keepkey/qt.py:525 electrum/plugins/safe_t/qt.py:455
 #: electrum/plugins/trezor/qt.py:721
 msgid "Disable PIN"
 msgstr "PINを無効化"
 
-#: electrum/plugins/safe_t/qt.py:228 electrum/plugins/keepkey/qt.py:350
+#: electrum/plugins/keepkey/qt.py:350 electrum/plugins/safe_t/qt.py:228
 #: electrum/plugins/trezor/qt.py:494
 msgid "Disable Passphrases"
 msgstr "パスフレーズの無効化"
 
-#: electrum/plugins/safe_t/qt.py:229 electrum/plugins/keepkey/qt.py:351
+#: electrum/plugins/keepkey/qt.py:351 electrum/plugins/safe_t/qt.py:229
 #: electrum/plugins/trezor/qt.py:495
 msgid "Disabled"
 msgstr "無効"
 
-#: electrum/gui/kivy/main_window.py:970 electrum/network.py:445
+#: electrum/network.py:445 electrum/gui/kivy/main_window.py:970
 msgid "Disconnected"
 msgstr "切断されました"
 
@@ -1916,11 +1912,11 @@ msgstr "電子機器などに保存しないで下さい。"
 msgid "Do you have something to hide ?"
 msgstr "何か隠したいものはありますか？"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:554 electrum/base_wizard.py:208
+#: electrum/base_wizard.py:208 electrum/plugins/trustedcoin/trustedcoin.py:556
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr "新しいシードを作りますか？それとも既存のシードを使ってウォレットを復元しますか？"
 
-#: electrum/gui/qt/main_window.py:1714 electrum/gui/kivy/main_window.py:755
+#: electrum/gui/qt/main_window.py:1726 electrum/gui/kivy/main_window.py:755
 msgid "Do you want to create your first channel?"
 msgstr "最初のチャネルを作成しますか?"
 
@@ -1940,7 +1936,7 @@ msgstr "次の古いファイルを削除しますか？"
 msgid "Do you want to open it now?"
 msgstr "今開きたいですか？"
 
-#: electrum/gui/qt/main_window.py:1374
+#: electrum/gui/qt/main_window.py:1386
 msgid "Do you want to remove {} from your wallet?"
 msgstr "ウォレットから {} を削除しますか？"
 
@@ -2002,7 +1998,7 @@ msgstr "見積もり時間"
 msgid "ETA: fee rate is based on average confirmation time estimates"
 msgstr "見積もり時間：取引手数料は平均的な承認時間の見積りに基づきます"
 
-#: electrum/gui/qt/history_list.py:775
+#: electrum/gui/qt/history_list.py:784
 msgid "Edit"
 msgstr ""
 
@@ -2014,7 +2010,7 @@ msgstr ""
 msgid "Edit fees manually"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:294 electrum/gui/qt/contact_list.py:95
+#: electrum/gui/qt/address_list.py:300 electrum/gui/qt/contact_list.py:95
 msgid "Edit {}"
 msgstr "{} を編集"
 
@@ -2022,7 +2018,7 @@ msgstr "{} を編集"
 msgid "Electrum"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2587
+#: electrum/gui/qt/main_window.py:2599
 msgid "Electrum Plugins"
 msgstr "Electurm プラグイン"
 
@@ -2070,23 +2066,23 @@ msgstr "ウォレットファイルを保存出来ませんでした。"
 msgid "Electrum was unable to deserialize the transaction:"
 msgstr "トランザクションを復号できませんでした："
 
-#: electrum/gui/qt/main_window.py:2199
+#: electrum/gui/qt/main_window.py:2211
 msgid "Electrum was unable to open your transaction file"
 msgstr "取引情報ファイルを開けませんでした"
 
-#: electrum/gui/qt/main_window.py:2148
+#: electrum/gui/qt/main_window.py:2160
 msgid "Electrum was unable to parse your transaction"
 msgstr "取引情報を読み取れませんでした"
 
-#: electrum/gui/qt/main_window.py:2358
+#: electrum/gui/qt/main_window.py:2370
 msgid "Electrum was unable to produce a private key-export."
 msgstr "秘密鍵のエクスポートができませんでした"
 
-#: electrum/gui/qt/history_list.py:850
+#: electrum/gui/qt/history_list.py:859
 msgid "Electrum was unable to produce a transaction export."
 msgstr "エクスポートできませんでした。"
 
-#: electrum/gui/qt/main_window.py:2789
+#: electrum/gui/qt/main_window.py:2801
 msgid "Electrum will now exit."
 msgstr "Electrumは終了します。"
 
@@ -2094,7 +2090,7 @@ msgstr "Electrumは終了します。"
 msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
 msgstr "Electrumの照準はスピード・使用リソース削減・使いやすさの3点に定めています。"
 
-#: electrum/gui/qt/main_window.py:1826
+#: electrum/gui/qt/main_window.py:1838
 msgid "Enable"
 msgstr "有効化"
 
@@ -2102,17 +2098,17 @@ msgstr "有効化"
 msgid "Enable Lightning?"
 msgstr "ライトニングを有効化しますか？"
 
-#: electrum/plugins/safe_t/qt.py:123 electrum/plugins/keepkey/qt.py:249
+#: electrum/plugins/keepkey/qt.py:249 electrum/plugins/safe_t/qt.py:123
 #: electrum/plugins/trezor/qt.py:362
 msgid "Enable PIN protection"
 msgstr "PINによる保護を有効にする"
 
-#: electrum/plugins/safe_t/qt.py:228 electrum/plugins/keepkey/qt.py:350
+#: electrum/plugins/keepkey/qt.py:350 electrum/plugins/safe_t/qt.py:228
 #: electrum/plugins/trezor/qt.py:494
 msgid "Enable Passphrases"
 msgstr "パスフレーズを有効化"
 
-#: electrum/gui/qt/history_list.py:612
+#: electrum/gui/qt/history_list.py:619
 msgid "Enable fiat exchange rate with history."
 msgstr "法定通貨の交換レートの履歴を有効にする。"
 
@@ -2120,7 +2116,7 @@ msgstr "法定通貨の交換レートの履歴を有効にする。"
 msgid "Enable output value rounding"
 msgstr "金額の丸めを有効にする"
 
-#: electrum/plugins/safe_t/qt.py:157 electrum/plugins/keepkey/qt.py:283
+#: electrum/plugins/keepkey/qt.py:283 electrum/plugins/safe_t/qt.py:157
 #: electrum/plugins/trezor/qt.py:385
 msgid "Enable passphrases"
 msgstr "パスフレーズを有効化"
@@ -2129,8 +2125,8 @@ msgstr "パスフレーズを有効化"
 msgid "Enable update check"
 msgstr "更新の確認の有効化"
 
-#: electrum/plugins/safe_t/qt.py:229 electrum/plugins/keepkey/qt.py:351
-#: electrum/plugins/trezor/qt.py:495 electrum/gui/qt/main_window.py:1802
+#: electrum/plugins/keepkey/qt.py:351 electrum/plugins/safe_t/qt.py:229
+#: electrum/plugins/trezor/qt.py:495 electrum/gui/qt/main_window.py:1814
 #: electrum/gui/kivy/main_window.py:1482
 msgid "Enabled"
 msgstr "有効"
@@ -2139,7 +2135,7 @@ msgstr "有効"
 msgid "Enabled, non-recoverable channels"
 msgstr "有効化された、回復不能なチャネル"
 
-#: electrum/gui/qt/main_window.py:2122
+#: electrum/gui/qt/main_window.py:2134
 msgid "Encrypt"
 msgstr "暗号化する"
 
@@ -2156,15 +2152,15 @@ msgstr "ウォレットの暗号化"
 msgid "Encrypt {}'s seed"
 msgstr "{}のシードを暗号化"
 
-#: electrum/gui/qt/main_window.py:2097
+#: electrum/gui/qt/main_window.py:2109
 msgid "Encrypt/decrypt Message"
 msgstr "メッセージの暗号化・解読"
 
-#: electrum/gui/qt/address_list.py:300
+#: electrum/gui/qt/address_list.py:306
 msgid "Encrypt/decrypt message"
 msgstr "メッセージの暗号化/復号化"
 
-#: electrum/gui/qt/main_window.py:2117
+#: electrum/gui/qt/main_window.py:2129
 msgid "Encrypted"
 msgstr "暗号文"
 
@@ -2174,12 +2170,12 @@ msgstr "暗号文"
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "暗号化と復号は現在{}でサポートされていません"
 
-#: electrum/plugins/safe_t/safe_t.py:33 electrum/plugins/jade/jade.py:241
-#: electrum/plugins/keepkey/keepkey.py:35 electrum/plugins/trezor/trezor.py:75
+#: electrum/plugins/jade/jade.py:241 electrum/plugins/keepkey/keepkey.py:35
+#: electrum/plugins/safe_t/safe_t.py:33 electrum/plugins/trezor/trezor.py:75
 msgid "Encryption and decryption are not implemented by {}"
 msgstr "暗号化と復号は{}で実装されていません"
 
-#: electrum/gui/qt/history_list.py:638
+#: electrum/gui/qt/history_list.py:645
 msgid "End"
 msgstr "終り"
 
@@ -2187,7 +2183,7 @@ msgstr "終り"
 msgid "English"
 msgstr "英語"
 
-#: electrum/plugins/safe_t/qt.py:56 electrum/plugins/keepkey/qt.py:173
+#: electrum/plugins/keepkey/qt.py:173 electrum/plugins/safe_t/qt.py:56
 #: electrum/plugins/trezor/qt.py:149
 msgid "Enter PIN"
 msgstr "PINを入力"
@@ -2228,7 +2224,7 @@ msgid "Enter a descriptive name for your multisig account.\n"
 msgstr "あなたのマルチシグアカウントを説明する名前を入力してください。\n"
 "あとで名前をこのマルチシグアカウントを一意に特定するのに使うことができます"
 
-#: electrum/plugins/safe_t/qt.py:97 electrum/plugins/keepkey/qt.py:221
+#: electrum/plugins/keepkey/qt.py:221 electrum/plugins/safe_t/qt.py:97
 #: electrum/plugins/trezor/qt.py:271
 msgid "Enter a label to name your device:"
 msgstr "あなたのデバイスの名前としてラベルを入力してください: "
@@ -2241,8 +2237,8 @@ msgstr "ビットコインのアドレス又は秘密鍵のリストを入力し
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "「送信先」にアドレスのリストを入力して下さい。"
 
-#: electrum/plugins/safe_t/clientbase.py:55
 #: electrum/plugins/keepkey/clientbase.py:53
+#: electrum/plugins/safe_t/clientbase.py:55
 #: electrum/plugins/trezor/clientbase.py:280
 msgid "Enter a new PIN for your {}:"
 msgstr "{}の新しいPINを入力してください: "
@@ -2251,13 +2247,13 @@ msgstr "{}の新しいPINを入力してください: "
 msgid "Enter a new password below."
 msgstr "以下に新しいパスワードを入力してください。"
 
-#: electrum/plugins/safe_t/clientbase.py:75
 #: electrum/plugins/keepkey/clientbase.py:70
+#: electrum/plugins/safe_t/clientbase.py:75
 #: electrum/plugins/trezor/clientbase.py:297
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr "このウォレットを生成するパスフレーズを入力してください。このウォレットを使う度に、{}があなたにパスフレーズを要求します。パスフレーズを忘れると、ウォレット内のビットコインにアクセスできなくなります。"
 
-#: electrum/gui/qt/main_window.py:2512
+#: electrum/gui/qt/main_window.py:2524
 msgid "Enter addresses"
 msgstr "アドレスを入力"
 
@@ -2292,11 +2288,11 @@ msgstr "デバイスにパスフレーズを入力しますか?"
 msgid "Enter password:"
 msgstr "パスワードの入力:"
 
-#: electrum/gui/qt/main_window.py:2521
+#: electrum/gui/qt/main_window.py:2533
 msgid "Enter private keys"
 msgstr "秘密鍵を入力"
 
-#: electrum/gui/qt/main_window.py:2415
+#: electrum/gui/qt/main_window.py:2427
 msgid "Enter private keys:"
 msgstr "秘密鍵を入力："
 
@@ -2304,12 +2300,12 @@ msgstr "秘密鍵を入力："
 msgid "Enter the amount you want to send"
 msgstr ""
 
-#: electrum/plugins/safe_t/qt.py:131 electrum/plugins/keepkey/qt.py:257
+#: electrum/plugins/keepkey/qt.py:257 electrum/plugins/safe_t/qt.py:131
 msgid "Enter the master private key beginning with xprv:"
 msgstr "xprvから始まるマスター秘密鍵を入力してください: "
 
-#: electrum/plugins/safe_t/clientbase.py:80
 #: electrum/plugins/keepkey/clientbase.py:75
+#: electrum/plugins/safe_t/clientbase.py:80
 #: electrum/plugins/trezor/clientbase.py:302
 msgid "Enter the passphrase to unlock this wallet:"
 msgstr "このウォレットを復号するためにはパスフレーズを入力してください: "
@@ -2336,7 +2332,7 @@ msgstr "共同署名が必要な場合、要求元のマスター秘密鍵(xprv)
 msgid "Enter wallet name"
 msgstr "ウォレット名を入力"
 
-#: electrum/plugins/safe_t/qt.py:129 electrum/plugins/keepkey/qt.py:255
+#: electrum/plugins/keepkey/qt.py:255 electrum/plugins/safe_t/qt.py:129
 msgid "Enter your BIP39 mnemonic:"
 msgstr "BIP39ニーモニックを入力してください: "
 
@@ -2350,7 +2346,7 @@ msgstr "Digital Bitbox のパスワードを入力してください: "
 msgid "Enter your PIN"
 msgstr "PINコードを入力してください"
 
-#: electrum/plugins/safe_t/qt.py:144 electrum/plugins/keepkey/qt.py:270
+#: electrum/plugins/keepkey/qt.py:270 electrum/plugins/safe_t/qt.py:144
 msgid "Enter your PIN (digits 1-9):"
 msgstr "1-9の数字でPINを入力してください: "
 
@@ -2358,8 +2354,8 @@ msgstr "1-9の数字でPINを入力してください: "
 msgid "Enter your PIN code to proceed"
 msgstr "続行するにはPINを入力してください"
 
-#: electrum/plugins/safe_t/clientbase.py:60
 #: electrum/plugins/keepkey/clientbase.py:58
+#: electrum/plugins/safe_t/clientbase.py:60
 #: electrum/plugins/trezor/clientbase.py:285
 msgid "Enter your current {} PIN:"
 msgstr "現在の() PINを入力してください: "
@@ -2376,17 +2372,17 @@ msgstr "パスワードを入力して下さい。"
 msgid "Erase the Digital Bitbox"
 msgstr "Digital Bitboxを消去"
 
-#: electrum/plugins/trustedcoin/kivy.py:69
-#: electrum/plugins/trustedcoin/kivy.py:71
-#: electrum/plugins/trustedcoin/kivy.py:84
+#: electrum/plugins/trustedcoin/trustedcoin.py:705
 #: electrum/plugins/trustedcoin/qml.py:127
 #: electrum/plugins/trustedcoin/qml.py:423
-#: electrum/plugins/trustedcoin/trustedcoin.py:703
+#: electrum/plugins/trustedcoin/kivy.py:69
+#: electrum/plugins/trustedcoin/kivy.py:71
+#: electrum/plugins/trustedcoin/kivy.py:84 electrum/slip39.py:351
 #: electrum/gui/qt/__init__.py:348 electrum/gui/qt/__init__.py:373
-#: electrum/gui/qt/util.py:258 electrum/gui/qt/installwizard.py:325
-#: electrum/gui/qt/installwizard.py:329 electrum/gui/qt/installwizard.py:335
-#: electrum/gui/qt/installwizard.py:344 electrum/gui/qml/qeswaphelper.py:375
-#: electrum/gui/qml/qeswaphelper.py:415 electrum/slip39.py:351
+#: electrum/gui/qt/installwizard.py:325 electrum/gui/qt/installwizard.py:329
+#: electrum/gui/qt/installwizard.py:335 electrum/gui/qt/installwizard.py:344
+#: electrum/gui/qt/util.py:258 electrum/gui/qml/qeswaphelper.py:375
+#: electrum/gui/qml/qeswaphelper.py:415
 msgid "Error"
 msgstr "エラー"
 
@@ -2398,8 +2394,8 @@ msgstr "支払請求の追加に失敗"
 msgid "Error combining partial transactions"
 msgstr "部分的なトランザクションの結合でエラー"
 
-#: electrum/plugins/trustedcoin/kivy.py:82
 #: electrum/plugins/trustedcoin/qml.py:124
+#: electrum/plugins/trustedcoin/kivy.py:82
 msgid "Error connecting to server"
 msgstr "サーバー接続エラー"
 
@@ -2412,8 +2408,8 @@ msgstr "{}サーバー接続エラー"
 msgid "Error creating payment"
 msgstr "支払いを作成中にエラーが発生しました"
 
-#: electrum/gui/qt/receive_tab.py:325 electrum/gui/kivy/uix/screens.py:536
-#: electrum/gui/qml/qewallet.py:648
+#: electrum/gui/qt/receive_tab.py:325 electrum/gui/qml/qewallet.py:648
+#: electrum/gui/kivy/uix/screens.py:536
 msgid "Error creating payment request"
 msgstr "支払請求の作成に失敗"
 
@@ -2425,7 +2421,7 @@ msgstr "メッセージ復号エラー"
 msgid "Error getting TrustedCoin account info."
 msgstr "TrustedCoinのアカウント情報の取得エラー"
 
-#: electrum/gui/qt/main_window.py:2265 electrum/gui/qt/main_window.py:2271
+#: electrum/gui/qt/main_window.py:2277 electrum/gui/qt/main_window.py:2283
 msgid "Error getting transaction from network"
 msgstr "ネットワークから取引情報を取得できませんでした"
 
@@ -2489,7 +2485,7 @@ msgstr "有効期限"
 msgid "Expiration period of your request."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1474
+#: electrum/gui/qt/main_window.py:1486
 msgid "Expiration time"
 msgstr ""
 
@@ -2497,7 +2493,7 @@ msgstr ""
 msgid "Expired"
 msgstr "期限切れ"
 
-#: electrum/gui/qt/main_window.py:1425 electrum/invoices.py:131
+#: electrum/invoices.py:131 electrum/gui/qt/main_window.py:1437
 msgid "Expires"
 msgstr "有効期限"
 
@@ -2506,8 +2502,8 @@ msgstr "有効期限"
 msgid "Expiry"
 msgstr "有効期限"
 
-#: electrum/gui/qt/history_list.py:838 electrum/gui/qt/contact_list.py:145
-#: electrum/gui/qt/main_window.py:1449 electrum/gui/qt/main_window.py:2305
+#: electrum/gui/qt/main_window.py:1461 electrum/gui/qt/main_window.py:2317
+#: electrum/gui/qt/history_list.py:847 electrum/gui/qt/contact_list.py:145
 msgid "Export"
 msgstr "エクスポート"
 
@@ -2515,7 +2511,7 @@ msgstr "エクスポート"
 msgid "Export Backup"
 msgstr "バックアップのエクスポート"
 
-#: electrum/gui/qt/history_list.py:830
+#: electrum/gui/qt/history_list.py:839
 msgid "Export History"
 msgstr "履歴をエクスポート"
 
@@ -2535,7 +2531,7 @@ msgstr ""
 msgid "Export requests"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2292
+#: electrum/gui/qt/main_window.py:2304
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "どのアドレスの秘密鍵でもどれかひとつが漏洩すると、ウォレットにある他のアドレス全てが危険に晒されます。くれぐれもご注意ください！"
 
@@ -2581,29 +2577,29 @@ msgstr "'支払先'の行のパースに失敗しました"
 msgid "Failed to send transaction to cosigning pool"
 msgstr "共同署名プールへのトランザクションの送信に失敗"
 
-#: electrum/gui/qt/main_window.py:1685
+#: electrum/gui/qt/main_window.py:1697
 msgid "Failed to update password"
 msgstr "パスワードを変更できませんでした"
 
-#: electrum/gui/qt/main_window.py:1483 electrum/gui/qt/main_window.py:1484
+#: electrum/gui/qt/main_window.py:1495 electrum/gui/qt/main_window.py:1496
 msgid "Fallback address"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1766
+#: electrum/gui/qt/main_window.py:1778
 msgid "False"
 msgstr "誤"
 
-#: electrum/gui/qt/main_window.py:1476
+#: electrum/gui/qt/main_window.py:1488
 msgid "Features"
 msgstr ""
 
+#: electrum/gui/qt/lightning_tx_dialog.py:71
 #: electrum/gui/qt/transaction_dialog.py:819
 #: electrum/gui/qt/transaction_dialog.py:821
-#: electrum/gui/qt/lightning_tx_dialog.py:71
 msgid "Fee"
 msgstr "手数料"
 
-#: electrum/gui/qt/main_window.py:2714
+#: electrum/gui/qt/main_window.py:2726
 msgid "Fee for child"
 msgstr "子取引の手数料"
 
@@ -2611,11 +2607,11 @@ msgstr "子取引の手数料"
 msgid "Fee rounding"
 msgstr "手数料の丸め"
 
-#: electrum/gui/qt/confirm_tx_dialog.py:691 electrum/gui/qt/rbf_dialog.py:88
+#: electrum/gui/qt/rbf_dialog.py:88 electrum/gui/qt/confirm_tx_dialog.py:691
 msgid "Fee target"
 msgstr ""
 
-#: electrum/gui/qt/send_tab.py:105 electrum/gui/qt/confirm_tx_dialog.py:677
+#: electrum/gui/qt/confirm_tx_dialog.py:677 electrum/gui/qt/send_tab.py:105
 msgid "Fees are paid by the sender."
 msgstr "手数料は送金者によって支払われます。"
 
@@ -2623,7 +2619,7 @@ msgstr "手数料は送金者によって支払われます。"
 msgid "Fiat"
 msgstr "通貨"
 
-#: electrum/gui/qt/history_list.py:652
+#: electrum/gui/qt/history_list.py:659
 msgid "Fiat balance"
 msgstr "法定通貨の残高"
 
@@ -2631,11 +2627,11 @@ msgstr "法定通貨の残高"
 msgid "Fiat currency"
 msgstr "法定通貨"
 
-#: electrum/gui/qt/history_list.py:667
+#: electrum/gui/qt/history_list.py:674
 msgid "Fiat incoming"
 msgstr "法定通貨の入金"
 
-#: electrum/gui/qt/history_list.py:671
+#: electrum/gui/qt/history_list.py:678
 msgid "Fiat outgoing"
 msgstr "法定通貨の出金"
 
@@ -2647,11 +2643,11 @@ msgstr "ファイル"
 msgid "File Backup"
 msgstr "ファイルのバックアップ"
 
-#: electrum/gui/qt/main_window.py:1780
+#: electrum/gui/qt/main_window.py:1792
 msgid "File created"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:555
+#: electrum/gui/qt/history_list.py:562
 msgid "Filter by Date"
 msgstr ""
 
@@ -2659,8 +2655,8 @@ msgstr ""
 msgid "Find"
 msgstr "検索"
 
-#: electrum/plugins/coldcard/qt.py:138 electrum/plugins/safe_t/qt.py:353
-#: electrum/plugins/keepkey/qt.py:445 electrum/plugins/trezor/qt.py:619
+#: electrum/plugins/coldcard/qt.py:138 electrum/plugins/keepkey/qt.py:445
+#: electrum/plugins/safe_t/qt.py:353 electrum/plugins/trezor/qt.py:619
 msgid "Firmware Version"
 msgstr "ファームウェアバージョン"
 
@@ -2696,8 +2692,8 @@ msgstr "ライトニングのリクエストでは、期限切れになった後
 msgid "For hardware device; include xpubs"
 msgstr "ハードウェアデバイス用; xpubを含む"
 
-#: electrum/plugins/trustedcoin/__init__.py:6
 #: electrum/plugins/trustedcoin/qt.py:179
+#: electrum/plugins/trustedcoin/__init__.py:6
 msgid "For more information, visit"
 msgstr "詳しい情報については、こちらを参照"
 
@@ -2742,27 +2738,27 @@ msgstr "書式: アドレス, 金額"
 msgid "Forwarding"
 msgstr "転送中"
 
-#: electrum/gui/qt/address_list.py:308 electrum/gui/qt/address_list.py:314
-#: electrum/gui/qt/utxo_list.py:311 electrum/gui/qt/utxo_list.py:325
-#: electrum/gui/qt/channels_list.py:259
+#: electrum/gui/qt/channels_list.py:259 electrum/gui/qt/address_list.py:314
+#: electrum/gui/qt/address_list.py:320 electrum/gui/qt/utxo_list.py:316
+#: electrum/gui/qt/utxo_list.py:330
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:503
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:507
 msgid "Freeze"
 msgstr "凍結"
 
-#: electrum/gui/qt/utxo_list.py:317
+#: electrum/gui/qt/utxo_list.py:322
 msgid "Freeze Address"
 msgstr "アドレスを凍結する"
 
-#: electrum/gui/qt/utxo_list.py:331
+#: electrum/gui/qt/utxo_list.py:336
 msgid "Freeze Addresses"
 msgstr "アドレスを凍結する"
 
-#: electrum/gui/qt/utxo_list.py:313
+#: electrum/gui/qt/utxo_list.py:318
 msgid "Freeze Coin"
 msgstr "コインを凍結する"
 
-#: electrum/gui/qt/utxo_list.py:327
+#: electrum/gui/qt/utxo_list.py:332
 msgid "Freeze Coins"
 msgstr "コインを凍結する"
 
@@ -2778,7 +2774,7 @@ msgstr "凍結(送信用)"
 msgid "French"
 msgstr "フランス語"
 
-#: electrum/gui/qt/history_list.py:548
+#: electrum/gui/qt/history_list.py:555
 msgid "From"
 msgstr "送金元"
 
@@ -2791,8 +2787,8 @@ msgstr "チャネルから"
 msgid "From {0} cosigners"
 msgstr "{0} の共同署名者から"
 
-#: electrum/gui/qt/balance_dialog.py:175 electrum/gui/qt/balance_dialog.py:193
-#: electrum/gui/qt/main_window.py:949
+#: electrum/gui/qt/main_window.py:961 electrum/gui/qt/balance_dialog.py:175
+#: electrum/gui/qt/balance_dialog.py:193
 msgid "Frozen"
 msgstr "凍結済み"
 
@@ -2804,7 +2800,7 @@ msgstr "達成されたHTLC"
 msgid "Full 2FA enabled. This is not supported yet."
 msgstr "完全二要素認証が有効です。これはまだサポートされていません。"
 
-#: electrum/gui/qt/utxo_list.py:295
+#: electrum/gui/qt/utxo_list.py:300
 msgid "Fully spend"
 msgstr ""
 
@@ -2894,7 +2890,7 @@ msgstr "ホームページ"
 msgid "Homescreen"
 msgstr "ホーム画面"
 
-#: electrum/gui/qt/invoice_list.py:201
+#: electrum/gui/qt/invoice_list.py:203
 msgid "Hops"
 msgstr "ホップ"
 
@@ -2930,7 +2926,7 @@ msgstr "しかしながら、我々はSLIP39シードは生成しません。"
 msgid "Hungarian"
 msgstr "ハンガリー語"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:557 electrum/base_wizard.py:211
+#: electrum/base_wizard.py:211 electrum/plugins/trustedcoin/trustedcoin.py:559
 msgid "I already have a seed"
 msgstr "既存のシードを使用する"
 
@@ -2977,7 +2973,7 @@ msgstr "あなたがオンラインなら、「{}」を押して続行してく�
 msgid "If you check this box, your unconfirmed transactions will be consolidated into a single transaction."
 msgstr "このボックスをチェックすると、あなたの未検証取引は１つに統合されます"
 
-#: electrum/plugins/safe_t/qt.py:458 electrum/plugins/keepkey/qt.py:528
+#: electrum/plugins/keepkey/qt.py:528 electrum/plugins/safe_t/qt.py:458
 #: electrum/plugins/trezor/qt.py:724
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
 msgstr "もしPINコードが無効化されている場合、物理的にあなたの{} デバイスを持っている誰かがあなたのBitcoinを使用することが出来ます。"
@@ -2991,7 +2987,7 @@ msgstr "よく分からない場合、ここは記入しないで下さい"
 msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
 msgstr "このチャネルを強制クローズすると、チャネル内のあなたの資金は{}ブロックの間利用不可能になります。"
 
-#: electrum/plugins/safe_t/qt.py:33 electrum/plugins/keepkey/qt.py:33
+#: electrum/plugins/keepkey/qt.py:33 electrum/plugins/safe_t/qt.py:33
 #: electrum/plugins/trezor/qt.py:33
 msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "パスフレーズを忘れると、ウォレット内のビットコインにはアクセスすることができなくなります。パスフレーズはPINではありません。これを確実に理解している場合のみ変更してください。"
@@ -3025,12 +3021,12 @@ msgid "If you lose your seed, your money will be permanently lost."
 msgstr "シードを紛失してしまうと、何らかの理由でウォレットが使えなくなった場合に、資金を復活させることができなくなります。"
 
 #: electrum/gui/qt/channels_list.py:180
-#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:565
 #: electrum/gui/qml/qechanneldetails.py:235
+#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:565
 msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
 msgstr "ウォレットファイルを紛失した場合にバックアップからできることは、オンチェーンで子産を送って貰えるようにチャネルのクローズをリクエストすることだけです。"
 
-#: electrum/wallet.py:2928
+#: electrum/wallet.py:2930
 msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
 msgstr "このトランザクションを信頼できないデバイスから受け取った場合、一度だけしか署名を承認しないでください。\n"
@@ -3052,7 +3048,7 @@ msgstr "新しいアドレスを作る場合はHDウォレットを使用して�
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
 msgstr "Windowsでデバイスが検出されない場合、設定-デバイス-接続デバイス に行き、デバイスを外してからもう一度デバイスを接続して下さい。"
 
-#: electrum/gui/qt/main_window.py:1907
+#: electrum/gui/qt/main_window.py:1919
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr "ウォレットに残高がある場合、シードの保管状況をよく確認して下さい。"
 
@@ -3060,7 +3056,7 @@ msgstr "ウォレットに残高がある場合、シードの保管状況をよ
 msgid "Ignore and continue?"
 msgstr "無視して続行しますか?"
 
-#: electrum/gui/qt/contact_list.py:144 electrum/gui/qt/main_window.py:2488
+#: electrum/gui/qt/main_window.py:2500 electrum/gui/qt/contact_list.py:144
 msgid "Import"
 msgstr "インポート"
 
@@ -3076,7 +3072,7 @@ msgstr "ビットコインアドレスまたは秘密鍵のインポート"
 msgid "Import Channel Backup?"
 msgstr "チャネルバックアップをインポートしますか？"
 
-#: electrum/gui/qt/main_window.py:690 electrum/gui/qt/main_window.py:2512
+#: electrum/gui/qt/main_window.py:690 electrum/gui/qt/main_window.py:2524
 msgid "Import addresses"
 msgstr "アドレスをインポート"
 
@@ -3092,7 +3088,7 @@ msgstr ""
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr "Digital Bitboxのデスクトップアプリからペアリングをインポート"
 
-#: electrum/gui/qt/main_window.py:2519
+#: electrum/gui/qt/main_window.py:2531
 msgid "Import private keys"
 msgstr "秘密鍵をインポート"
 
@@ -3100,7 +3096,7 @@ msgstr "秘密鍵をインポート"
 msgid "Import requests"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2293
+#: electrum/gui/qt/main_window.py:2305
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "特に、外部サービスで「秘密鍵をインポート」のような機能は使わないほうがよいでしょう。"
 
@@ -3137,11 +3133,11 @@ msgstr "パスワードが不正です"
 msgid "Incorrect password entered."
 msgstr "入力されたパスワードが違います。"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:755
+#: electrum/plugins/trustedcoin/trustedcoin.py:757
 msgid "Incorrect seed"
 msgstr "シードが違います。"
 
-#: electrum/gui/qt/history_list.py:787
+#: electrum/gui/qt/history_list.py:796
 msgid "Increase fee"
 msgstr "手数料を増やす"
 
@@ -3157,7 +3153,7 @@ msgstr "インドネシア語"
 msgid "Info"
 msgstr "情報"
 
-#: electrum/plugins/safe_t/qt.py:495 electrum/plugins/keepkey/qt.py:565
+#: electrum/plugins/keepkey/qt.py:565 electrum/plugins/safe_t/qt.py:495
 #: electrum/plugins/trezor/qt.py:761 electrum/gui/qt/util.py:266
 msgid "Information"
 msgstr "情報"
@@ -3166,13 +3162,12 @@ msgstr "情報"
 msgid "Initialization of Ledger HW devices is currently disabled."
 msgstr "レッジャーハードウェアデバイスの初期化は現在無効です"
 
-#: electrum/plugins/safe_t/safe_t.py:188
 #: electrum/plugins/keepkey/keepkey.py:230
-#: electrum/plugins/trezor/trezor.py:235
+#: electrum/plugins/safe_t/safe_t.py:188 electrum/plugins/trezor/trezor.py:235
 msgid "Initialize Device"
 msgstr "デバイスの初期化"
 
-#: electrum/plugins/safe_t/qt.py:357 electrum/plugins/keepkey/qt.py:450
+#: electrum/plugins/keepkey/qt.py:450 electrum/plugins/safe_t/qt.py:357
 #: electrum/plugins/trezor/qt.py:623
 msgid "Initialized"
 msgstr "初期化済"
@@ -3181,17 +3176,17 @@ msgstr "初期化済"
 msgid "Initiator:"
 msgstr "開始者: "
 
-#: electrum/gui/qt/main_window.py:2681
+#: electrum/gui/qt/main_window.py:2693
 msgid "Input amount"
 msgstr "入力値"
 
-#: electrum/gui/qt/main_window.py:2221
+#: electrum/gui/qt/main_window.py:2233
 msgid "Input channel backup"
 msgstr "チャネルバックアップを入力"
 
+#: electrum/gui/qt/main_window.py:2219
 #: electrum/gui/qt/transaction_dialog.py:679
 #: electrum/gui/qt/transaction_dialog.py:701
-#: electrum/gui/qt/main_window.py:2207
 msgid "Input raw transaction"
 msgstr "RAW形式の取引情報を読み込む"
 
@@ -3223,12 +3218,12 @@ msgstr "残高不足"
 msgid "Integers weights can also be used in conjunction with '!', e.g. set one amount to '2!' and another to '3!' to split your coins 40-60."
 msgstr "整数の重みは「!」と組み合わせて使うこともできます。例えば、ある量を「2!」に、別の量を「3!」に設定して、コインを40-60に分けることができます。"
 
-#: electrum/gui/qt/main_window.py:1389
+#: electrum/gui/qt/main_window.py:1401
 msgid "Invalid Address"
 msgstr "アドレスが不正です"
 
-#: electrum/gui/qt/send_tab.py:623 electrum/gui/text.py:550
-#: electrum/gui/stdio.py:191
+#: electrum/gui/stdio.py:191 electrum/gui/qt/send_tab.py:623
+#: electrum/gui/text.py:550
 msgid "Invalid Amount"
 msgstr "金額が不正です"
 
@@ -3237,11 +3232,11 @@ msgstr "金額が不正です"
 msgid "Invalid Bitcoin Address"
 msgstr "無効なビットコインアドレスです"
 
-#: electrum/gui/text.py:622 electrum/gui/stdio.py:186
+#: electrum/gui/stdio.py:186 electrum/gui/text.py:622
 msgid "Invalid Bitcoin address"
 msgstr "無効なビットコインアドレスです"
 
-#: electrum/gui/qt/main_window.py:1988 electrum/gui/qt/main_window.py:2016
+#: electrum/gui/qt/main_window.py:2000 electrum/gui/qt/main_window.py:2028
 msgid "Invalid Bitcoin address."
 msgstr "無効なビットコインアドレスです。"
 
@@ -3249,7 +3244,7 @@ msgstr "無効なビットコインアドレスです。"
 msgid "Invalid Fee"
 msgstr "無効な手数料です"
 
-#: electrum/util.py:1254
+#: electrum/util.py:1251
 msgid "Invalid JSON code."
 msgstr "無効なJSONコードです"
 
@@ -3257,12 +3252,12 @@ msgstr "無効なJSONコードです"
 msgid "Invalid Lines found:"
 msgstr "不正なエントリーが見つかりました："
 
-#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:327
 #: electrum/gui/kivy/main_window.py:1201
+#: electrum/gui/kivy/uix/dialogs/tx_dialog.py:327
 msgid "Invalid PIN"
 msgstr "PINが不正です"
 
-#: electrum/gui/qt/main_window.py:2091
+#: electrum/gui/qt/main_window.py:2103
 msgid "Invalid Public key"
 msgstr "無効な秘密鍵です"
 
@@ -3294,16 +3289,16 @@ msgstr "ニーモニックのパディングが不正です。"
 msgid "Invalid mnemonic word"
 msgstr "不正なニーモニックの単語"
 
-#: electrum/lnutil.py:1509
+#: electrum/lnutil.py:1526
 msgid "Invalid node ID, must be 33 bytes and hexadecimal"
 msgstr "無効なノードIDです。33バイトの16進数でなければなりません。"
 
-#: electrum/plugins/trustedcoin/kivy.py:67
+#: electrum/plugins/trustedcoin/trustedcoin.py:363
+#: electrum/plugins/trustedcoin/trustedcoin.py:738
 #: electrum/plugins/trustedcoin/qml.py:243
 #: electrum/plugins/trustedcoin/qml.py:416
 #: electrum/plugins/trustedcoin/qml.py:419
-#: electrum/plugins/trustedcoin/trustedcoin.py:361
-#: electrum/plugins/trustedcoin/trustedcoin.py:736
+#: electrum/plugins/trustedcoin/kivy.py:67
 msgid "Invalid one-time password."
 msgstr "無効なワンタイムパスワードです。"
 
@@ -3332,8 +3327,8 @@ msgstr ""
 msgid "Invoice is not a valid Lightning invoice: "
 msgstr "以下は有効なライトニングの請求書ではありません: "
 
-#: electrum/gui/qt/send_tab.py:413 electrum/gui/kivy/uix/screens.py:232
-#: electrum/gui/qml/qeinvoice.py:535
+#: electrum/gui/qt/send_tab.py:413 electrum/gui/qml/qeinvoice.py:535
+#: electrum/gui/kivy/uix/screens.py:232
 msgid "Invoice requires unknown or incompatible Lightning feature"
 msgstr "この請求書は不明な、もしくは仕様上互換性のないライトニングの機能を必要としています"
 
@@ -3349,11 +3344,11 @@ msgstr "請求記録"
 msgid "It also contains your master public key that allows watching your addresses."
 msgstr "それにはあなたのアドレスを監視することが出来るマスター公開鍵も含まれています。"
 
-#: electrum/gui/qt/main_window.py:2285
+#: electrum/gui/qt/main_window.py:2297
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
 msgstr "これらの秘密鍵を出力してもバックアップにはなりません。"
 
-#: electrum/gui/qt/main_window.py:2768 electrum/gui/qml/qewallet.py:588
+#: electrum/gui/qt/main_window.py:2780 electrum/gui/qml/qewallet.py:588
 msgid "It conflicts with current history."
 msgstr "それは現在の履歴と矛盾します。"
 
@@ -3409,7 +3404,7 @@ msgstr "\"!\" と打つと、現在の全残高を送ることができます。
 msgid "Keystore"
 msgstr "キーストア"
 
-#: electrum/gui/qt/main_window.py:1793
+#: electrum/gui/qt/main_window.py:1805
 msgid "Keystore type"
 msgstr "キーストアのタイプ"
 
@@ -3445,7 +3440,7 @@ msgstr ""
 msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
 msgstr "リモートサーバーに送信される前にラベル、トランザクションID、アドレスは暗号化されます。"
 
-#: electrum/plugins/safe_t/qt.py:356 electrum/plugins/keepkey/qt.py:449
+#: electrum/plugins/keepkey/qt.py:449 electrum/plugins/safe_t/qt.py:356
 #: electrum/plugins/trezor/qt.py:622 electrum/gui/qt/settings_dialog.py:71
 #: electrum/gui/kivy/uix/dialogs/settings.py:165
 msgid "Language"
@@ -3475,9 +3470,8 @@ msgstr "Ledgerウォレットの認証"
 msgid "Ledger wallet"
 msgstr "Ledgerウォレット"
 
-#: electrum/plugins/safe_t/safe_t.py:171
 #: electrum/plugins/keepkey/keepkey.py:213
-#: electrum/plugins/trezor/trezor.py:220
+#: electrum/plugins/safe_t/safe_t.py:171 electrum/plugins/trezor/trezor.py:220
 msgid "Let the device generate a completely new seed randomly"
 msgstr "デバイスにランダムなシードを新しく一から生成させる"
 
@@ -3493,9 +3487,9 @@ msgstr "ライセンス"
 msgid "Light"
 msgstr "ライト"
 
-#: electrum/gui/qt/settings_dialog.py:392 electrum/gui/qt/balance_dialog.py:179
-#: electrum/gui/qt/balance_dialog.py:213 electrum/gui/qt/receive_tab.py:219
-#: electrum/gui/qt/main_window.py:953 electrum/gui/qt/main_window.py:1798
+#: electrum/gui/qt/settings_dialog.py:392 electrum/gui/qt/receive_tab.py:219
+#: electrum/gui/qt/main_window.py:965 electrum/gui/qt/main_window.py:1810
+#: electrum/gui/qt/balance_dialog.py:179 electrum/gui/qt/balance_dialog.py:213
 #: electrum/gui/kivy/uix/ui_screens/status.kv:46
 msgid "Lightning"
 msgstr "ライトニング"
@@ -3512,13 +3506,13 @@ msgstr ""
 msgid "Lightning Gossip"
 msgstr "ライトニングゴシップ"
 
+#: electrum/gui/qt/main_window.py:1471
 #: electrum/gui/qt/lightning_tx_dialog.py:93
-#: electrum/gui/qt/main_window.py:1459
 msgid "Lightning Invoice"
 msgstr "ライトニングの請求書"
 
-#: electrum/gui/qt/__init__.py:200 electrum/gui/qt/lightning_dialog.py:47
-#: electrum/gui/qt/main_window.py:1581
+#: electrum/gui/qt/lightning_dialog.py:47 electrum/gui/qt/__init__.py:200
+#: electrum/gui/qt/main_window.py:1593
 msgid "Lightning Network"
 msgstr "ライトニングネットワーク"
 
@@ -3526,7 +3520,7 @@ msgstr "ライトニングネットワーク"
 msgid "Lightning Network Statistics"
 msgstr "ライトニングネットワークの統計"
 
-#: electrum/gui/qt/main_window.py:1817
+#: electrum/gui/qt/main_window.py:1829
 msgid "Lightning Node ID:"
 msgstr "ライトニングノードID"
 
@@ -3534,7 +3528,7 @@ msgstr "ライトニングノードID"
 msgid "Lightning Payment"
 msgstr "ライトニング支払い"
 
-#: electrum/gui/qt/request_list.py:203 electrum/gui/qt/receive_tab.py:297
+#: electrum/gui/qt/receive_tab.py:297 electrum/gui/qt/request_list.py:205
 msgid "Lightning Request"
 msgstr ""
 
@@ -3542,7 +3536,7 @@ msgstr ""
 msgid "Lightning Routing"
 msgstr "ライトニングルーティング"
 
-#: electrum/gui/qt/balance_dialog.py:180 electrum/gui/qt/main_window.py:954
+#: electrum/gui/qt/main_window.py:966 electrum/gui/qt/balance_dialog.py:180
 msgid "Lightning frozen"
 msgstr "ライトニング(凍結)"
 
@@ -3554,12 +3548,12 @@ msgstr "ライトニングゴシップが無効です。"
 msgid "Lightning invoices are also supported."
 msgstr "ライトニングの請求書もサポートされています。"
 
-#: electrum/gui/qt/main_window.py:1831 electrum/gui/kivy/main_window.py:839
+#: electrum/gui/qt/main_window.py:1843 electrum/gui/kivy/main_window.py:839
 msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
 msgstr "ライトニングは現在p2wpkhアドレスのHDウォレットでのみ利用可能です。"
 
-#: electrum/gui/qt/send_tab.py:505 electrum/gui/qt/main_window.py:1118
-#: electrum/gui/qt/main_window.py:2155
+#: electrum/gui/qt/main_window.py:1130 electrum/gui/qt/main_window.py:2167
+#: electrum/gui/qt/send_tab.py:505
 msgid "Lightning is disabled"
 msgstr "ライトニングは無効化されています"
 
@@ -3567,7 +3561,7 @@ msgstr "ライトニングは無効化されています"
 msgid "Lightning is not available for this wallet."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1742 electrum/gui/kivy/main_window.py:1510
+#: electrum/gui/qt/main_window.py:1754 electrum/gui/kivy/main_window.py:1510
 msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
 msgstr "このウォレットは古いバージョンのElectrumで作られたため、ライトニングが有効ではありません。ライトニングのキーを作成しますか?"
 
@@ -3579,7 +3573,7 @@ msgstr "このウォレットではライトニングは有効化されていま
 msgid "Lightning is not enabled."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1757 electrum/gui/kivy/main_window.py:1524
+#: electrum/gui/qt/main_window.py:1769 electrum/gui/kivy/main_window.py:1524
 msgid "Lightning keys have been initialized."
 msgstr "ライトニングの鍵が初期化されました。"
 
@@ -3612,13 +3606,13 @@ msgstr "micro SDカードからウォレットをロードする"
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "micro SDカードからウォレットをロードする(現在のシードは上書きされます)"
 
-#: electrum/gui/qt/main_window.py:2223
+#: electrum/gui/qt/main_window.py:2235
 msgid "Load backup"
 msgstr "バックアップの読み込み"
 
+#: electrum/gui/qt/main_window.py:2221
 #: electrum/gui/qt/transaction_dialog.py:681
 #: electrum/gui/qt/transaction_dialog.py:703
-#: electrum/gui/qt/main_window.py:2209
 msgid "Load transaction"
 msgstr "取引情報を読み込む"
 
@@ -3670,7 +3664,7 @@ msgstr ""
 msgid "Long Channel ID"
 msgstr "長いチャネルID"
 
-#: electrum/gui/qt/utxo_list.py:293
+#: electrum/gui/qt/utxo_list.py:298
 msgid "Long Output point"
 msgstr ""
 
@@ -3678,7 +3672,7 @@ msgstr ""
 msgid "Looks like you have entered a valid seed of type '{}' but this dialog does not support such seeds."
 msgstr "'{}'というタイプの有効なシードを入力したようですが、このダイアログではそのようなシードをサポートしていません。"
 
-#: electrum/gui/qt/main_window.py:2241
+#: electrum/gui/qt/main_window.py:2253
 msgid "Lookup transaction"
 msgstr "取引を参照"
 
@@ -3710,12 +3704,12 @@ msgstr "このウォレットへのビットコインの送金を請求する場
 msgid "Master Fingerprint"
 msgstr "マスターフィンガープリント"
 
-#: electrum/gui/qt/installwizard.py:729 electrum/gui/qt/main_window.py:1869
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1025
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:1029
+#: electrum/gui/qt/main_window.py:1881 electrum/gui/qt/installwizard.py:729
+#: electrum/gui/kivy/main_window.py:831 electrum/gui/kivy/main_window.py:833
 #: electrum/gui/kivy/uix/ui_screens/status.kv:57
 #: electrum/gui/kivy/uix/ui_screens/status.kv:60
-#: electrum/gui/kivy/main_window.py:831 electrum/gui/kivy/main_window.py:833
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1025
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:1029
 msgid "Master Public Key"
 msgstr "マスター公開鍵"
 
@@ -3723,14 +3717,13 @@ msgstr "マスター公開鍵"
 msgid "Matrix"
 msgstr "マトリックス"
 
-#: electrum/gui/qt/send_tab.py:122 electrum/gui/qt/swap_dialog.py:55
+#: electrum/gui/qt/swap_dialog.py:55 electrum/gui/qt/send_tab.py:122
 #: electrum/gui/qt/new_channel_dialog.py:64
 msgid "Max"
 msgstr "最大"
 
-#: electrum/gui/qt/main_window.py:2736
+#: electrum/gui/qt/main_window.py:2748 electrum/gui/qml/qetxfinalizer.py:810
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:271
-#: electrum/gui/qml/qetxfinalizer.py:810
 msgid "Max fee exceeded"
 msgstr "最高手数料に達した"
 
@@ -3750,8 +3743,8 @@ msgstr "Mempoolの深さ"
 msgid "Merge signatures from"
 msgstr "署名の合併"
 
-#: electrum/gui/qt/invoice_list.py:201 electrum/gui/qt/main_window.py:2037
-#: electrum/gui/qt/main_window.py:2104
+#: electrum/gui/qt/invoice_list.py:203 electrum/gui/qt/main_window.py:2049
+#: electrum/gui/qt/main_window.py:2116
 msgid "Message"
 msgstr "メッセージ"
 
@@ -3796,13 +3789,13 @@ msgstr "金額が未入力です"
 msgid "Missing libraries for {}."
 msgstr "{}のライブラリが見つかりません。"
 
-#: electrum/plugins/ledger/ledger.py:579 electrum/plugins/safe_t/safe_t.py:52
-#: electrum/plugins/keepkey/keepkey.py:54
+#: electrum/plugins/keepkey/keepkey.py:54 electrum/plugins/safe_t/safe_t.py:52
+#: electrum/plugins/ledger/ledger.py:579
 msgid "Missing previous tx for legacy input."
 msgstr "レガシーインプットのためのトランザクションが見つかりません。"
 
-#: electrum/plugins/bitbox02/bitbox02.py:409
 #: electrum/plugins/trezor/trezor.py:92
+#: electrum/plugins/bitbox02/bitbox02.py:409
 msgid "Missing previous tx."
 msgstr "トランザクションが見つかりません。"
 
@@ -3842,18 +3835,18 @@ msgstr "マルチシグウォレット"
 msgid "NOT DEVICE PIN - see above"
 msgstr "デバイスのPINではありません - 上を見てください"
 
-#: electrum/gui/qt/contact_list.py:52 electrum/gui/qt/main_window.py:1731
+#: electrum/gui/qt/main_window.py:1743 electrum/gui/qt/contact_list.py:52
 msgid "Name"
 msgstr "名前"
 
-#: electrum/plugins/safe_t/qt.py:370 electrum/plugins/keepkey/qt.py:463
+#: electrum/plugins/keepkey/qt.py:463 electrum/plugins/safe_t/qt.py:370
 #: electrum/plugins/trezor/qt.py:636
 msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
 msgstr "これを{}と命名します。複数のデバイスがある場合、それらのラベルで見分けることができるでしょう。"
 
-#: electrum/gui/qt/network_dialog.py:59 electrum/gui/qt/__init__.py:198
-#: electrum/gui/qt/main_window.py:1586 electrum/gui/text.py:213
-#: electrum/gui/kivy/main.kv:532 electrum/gui/kivy/uix/ui_screens/network.kv:3
+#: electrum/gui/qt/__init__.py:198 electrum/gui/qt/main_window.py:1598
+#: electrum/gui/qt/network_dialog.py:59 electrum/gui/text.py:213
+#: electrum/gui/kivy/uix/ui_screens/network.kv:3 electrum/gui/kivy/main.kv:532
 msgid "Network"
 msgstr "ネットワーク"
 
@@ -3866,7 +3859,7 @@ msgstr "ネットワークのセットアップ"
 msgid "Network request timed out."
 msgstr "ネットワーク要求の時間切れです。"
 
-#: electrum/gui/qt/exception_window.py:92 electrum/invoices.py:63
+#: electrum/invoices.py:63 electrum/gui/qt/exception_window.py:92
 msgid "Never"
 msgstr "無期限"
 
@@ -3884,7 +3877,7 @@ msgstr "Webサイトで入力したりしないで下さい。"
 msgid "New Channel"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1721 electrum/gui/qt/main_window.py:1723
+#: electrum/gui/qt/main_window.py:1733 electrum/gui/qt/main_window.py:1735
 msgid "New Contact"
 msgstr "新規連絡先"
 
@@ -3910,9 +3903,9 @@ msgstr "新しい取引: {}"
 
 #: electrum/plugins/revealer/qt.py:127 electrum/plugins/trustedcoin/qt.py:230
 #: electrum/gui/qt/installwizard.py:165
-#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:588
 #: electrum/gui/kivy/uix/ui_screens/first_screen.kv:44
 #: electrum/gui/kivy/uix/ui_screens/initial_network_setup.kv:15
+#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:588
 msgid "Next"
 msgstr "次へ"
 
@@ -3920,7 +3913,7 @@ msgstr "次へ"
 msgid "Next share"
 msgstr "次のシェア"
 
-#: electrum/plugins/safe_t/qt.py:227 electrum/plugins/keepkey/qt.py:349
+#: electrum/plugins/keepkey/qt.py:349 electrum/plugins/safe_t/qt.py:227
 #: electrum/plugins/trezor/qt.py:493
 #: electrum/gui/kivy/uix/dialogs/question.py:56
 msgid "No"
@@ -3930,8 +3923,8 @@ msgstr "いいえ"
 msgid "No Data"
 msgstr "データ無し"
 
-#: electrum/gui/kivy/uix/screens.py:299 electrum/gui/kivy/uix/screens.py:559
 #: electrum/gui/kivy/uix/ui_screens/send.kv:129
+#: electrum/gui/kivy/uix/screens.py:299 electrum/gui/kivy/uix/screens.py:559
 msgid "No Description"
 msgstr "説明なし"
 
@@ -3959,7 +3952,7 @@ msgstr "金額なし"
 msgid "No auth code"
 msgstr ""
 
-#: electrum/exchange_rate.py:659
+#: electrum/exchange_rate.py:687
 msgid "No data"
 msgstr "データ無し"
 
@@ -3995,7 +3988,7 @@ msgstr "ハードウエアデバイスは検出されませんでした。"
 msgid "No inputs found."
 msgstr "入力が見つかりません。"
 
-#: electrum/gui/qt/main_window.py:1794
+#: electrum/gui/qt/main_window.py:1806
 msgid "No keystore"
 msgstr "キーストアがありません"
 
@@ -4007,7 +4000,7 @@ msgstr "ウォレットにはこれ以上アドレスがありません。"
 msgid "No outputs"
 msgstr "出力がありません(残高不足)"
 
-#: electrum/lnutil.py:377
+#: electrum/lnutil.py:384
 msgid "No path found"
 msgstr "パスが見つかりません"
 
@@ -4023,7 +4016,7 @@ msgstr "有効なシェアがありません。"
 msgid "No wallet loaded."
 msgstr "ウォレットがロードされていません"
 
-#: electrum/gui/qt/main_window.py:1820 electrum/gui/qt/channels_list.py:254
+#: electrum/gui/qt/main_window.py:1832 electrum/gui/qt/channels_list.py:254
 #: electrum/gui/qt/channels_list.py:255
 msgid "Node ID"
 msgstr "ノードID"
@@ -4041,13 +4034,13 @@ msgstr "ノード"
 msgid "Nodes in database."
 msgstr "データベース内のノード"
 
-#: electrum/gui/qt/settings_dialog.py:314 electrum/gui/qt/history_list.py:529
+#: electrum/gui/qt/settings_dialog.py:314 electrum/gui/qt/history_list.py:536
+#: electrum/gui/kivy/main_window.py:157
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:125
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:126
 #: electrum/gui/kivy/uix/dialogs/fx_dialog.py:137
 #: electrum/gui/kivy/uix/dialogs/settings.py:205
 #: electrum/gui/kivy/uix/dialogs/settings.py:260
-#: electrum/gui/kivy/main_window.py:157
 msgid "None"
 msgstr "なし"
 
@@ -4067,16 +4060,16 @@ msgstr "未検証"
 msgid "Not a master key"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1830 electrum/gui/kivy/main_window.py:838
+#: electrum/gui/qt/main_window.py:1842 electrum/gui/kivy/main_window.py:838
 #: electrum/gui/kivy/main_window.py:1489
 msgid "Not available for this wallet."
 msgstr "このウォレットでは使用できません"
 
-#: electrum/gui/qt/main_window.py:968 electrum/gui/qt/main_window.py:970
-#: electrum/gui/text.py:208 electrum/gui/kivy/main.kv:443
+#: electrum/network.py:508 electrum/gui/stdio.py:139
+#: electrum/gui/qt/main_window.py:980 electrum/gui/qt/main_window.py:982
+#: electrum/gui/text.py:208 electrum/gui/kivy/main_window.py:1232
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:14
-#: electrum/gui/kivy/main_window.py:1232 electrum/gui/stdio.py:139
-#: electrum/network.py:508
+#: electrum/gui/kivy/main.kv:443
 msgid "Not connected"
 msgstr "未接続"
 
@@ -4084,9 +4077,9 @@ msgstr "未接続"
 msgid "Not enabled"
 msgstr "有効になっていません"
 
-#: electrum/gui/qt/send_tab.py:285 electrum/gui/qt/main_window.py:1709
-#: electrum/gui/kivy/uix/dialogs/confirm_tx_dialog.py:130
+#: electrum/gui/qt/main_window.py:1721 electrum/gui/qt/send_tab.py:285
 #: electrum/gui/qml/qetxfinalizer.py:317
+#: electrum/gui/kivy/uix/dialogs/confirm_tx_dialog.py:130
 msgid "Not enough funds"
 msgstr "残高が不足"
 
@@ -4102,7 +4095,7 @@ msgstr ""
 msgid "Not verified"
 msgstr "未検証"
 
-#: electrum/util.py:1419
+#: electrum/util.py:1416
 msgid "Not yet available"
 msgstr "まだ使用できません"
 
@@ -4131,7 +4124,7 @@ msgstr "注意：この設定を有効にすると、ウォレットを開く際
 msgid "Note: This camera generates frames of relatively low resolution; QR scanning accuracy may be affected"
 msgstr "注意：このカメラは比較的低解像度のフレームを生成するため、QRスキャンの精度に影響を与える可能性があります。"
 
-#: electrum/gui/qt/main_window.py:2778
+#: electrum/gui/qt/main_window.py:2790
 msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
 msgstr "注意：これはオフラインの取引です。ネットワークに認識させるにはこれをブロードキャストする必要があります。"
 
@@ -4143,7 +4136,7 @@ msgstr "何もセットされていません！"
 msgid "Nothing to plot."
 msgstr "プロットする記録がありません。"
 
-#: electrum/gui/qt/history_list.py:621
+#: electrum/gui/qt/history_list.py:628
 msgid "Nothing to summarize."
 msgstr "要約する対象がありません。"
 
@@ -4151,12 +4144,12 @@ msgstr "要約する対象がありません。"
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "数字で小数点以下に表示するゼロの数を設定します。例えば2にした場合、\"1.\" の代わりに \"1.00\" と表示されます。"
 
-#: electrum/plugins/audio_modem/qt.py:71
-#: electrum/gui/qt/confirm_tx_dialog.py:370 electrum/gui/qt/util.py:216
-#: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:243
-#: electrum/gui/kivy/uix/ui_screens/proxy.kv:64
-#: electrum/gui/kivy/uix/ui_screens/server.kv:44
+#: electrum/plugins/audio_modem/qt.py:71 electrum/gui/qt/util.py:216
+#: electrum/gui/qt/confirm_tx_dialog.py:370
 #: electrum/gui/kivy/main_window.py:1295
+#: electrum/gui/kivy/uix/ui_screens/server.kv:44
+#: electrum/gui/kivy/uix/ui_screens/proxy.kv:64
+#: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:243
 msgid "OK"
 msgstr "OK"
 
@@ -4168,7 +4161,7 @@ msgstr "OP_RETURNのペイロードが大きすぎます。\n"
 msgid "OR"
 msgstr "または"
 
-#: electrum/gui/qt/main_window.py:927 electrum/gui/text.py:200
+#: electrum/gui/qt/main_window.py:939 electrum/gui/text.py:200
 #: electrum/gui/kivy/main_window.py:956
 msgid "Offline"
 msgstr "オフライン"
@@ -4177,8 +4170,8 @@ msgstr "オフライン"
 msgid "On Linux, you might have to add a new permission to your udev rules."
 msgstr "Linuxでは、udevルールに新しい許可を追加する必要があります。"
 
-#: electrum/gui/qt/balance_dialog.py:178 electrum/gui/qt/balance_dialog.py:208
-#: electrum/gui/qt/main_window.py:952
+#: electrum/gui/qt/main_window.py:964 electrum/gui/qt/balance_dialog.py:178
+#: electrum/gui/qt/balance_dialog.py:208
 msgid "On-chain"
 msgstr "オンチェーン"
 
@@ -4186,7 +4179,7 @@ msgstr "オンチェーン"
 msgid "Onchain"
 msgstr "オンチェーン"
 
-#: electrum/gui/qt/main_window.py:1410
+#: electrum/gui/qt/main_window.py:1422
 msgid "Onchain Invoice"
 msgstr "オンチェーンの請求書"
 
@@ -4218,7 +4211,7 @@ msgstr "アドレスアウトプットのみが{}によってサポートされ�
 msgid "Only connect to a single server"
 msgstr "単一のサーバーのみに接続する"
 
-#: electrum/plugins/safe_t/qt.py:483 electrum/plugins/keepkey/qt.py:553
+#: electrum/plugins/keepkey/qt.py:553 electrum/plugins/safe_t/qt.py:483
 #: electrum/plugins/trezor/qt.py:749
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
 msgstr "リカバリ用シードを書き留めて、デバイス内のウォレットが空になっている状態であることを確認してからデバイスを消去してください。さもなくば、ビットコインは永久に失われるでしょう。"
@@ -4259,7 +4252,7 @@ msgstr "OpenAlias"
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAliasは記録・コインの受取・送金の共同署名などを行います。"
 
-#: electrum/gui/qt/main_window.py:1277
+#: electrum/gui/qt/main_window.py:1289
 msgid "Opening channel..."
 msgstr "チャネルを開いています..."
 
@@ -4284,13 +4277,12 @@ msgstr "他の既知のサーバー"
 msgid "Other options"
 msgstr "その他のオプション"
 
-#: electrum/plugins/hw_wallet/qt.py:250 electrum/base_wizard.py:375
+#: electrum/base_wizard.py:375 electrum/plugins/hw_wallet/qt.py:250
 msgid "Outdated device firmware"
 msgstr "デバイスのファームウェアが古くなっています"
 
-#: electrum/plugins/safe_t/safe_t.py:133
 #: electrum/plugins/keepkey/keepkey.py:175
-#: electrum/plugins/trezor/trezor.py:303
+#: electrum/plugins/safe_t/safe_t.py:133 electrum/plugins/trezor/trezor.py:303
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
 msgstr "古い{}ファームウェアです({}というラベルのデバイス)。{}から更新されたファームウェアをダウンロードしてください。"
 
@@ -4298,13 +4290,13 @@ msgstr "古い{}ファームウェアです({}というラベルのデバイス)
 msgid "Outdated {} firmware for device labelled {}. Please update using a Blockstream Green companion app"
 msgstr "古い {} のファームウェア（{}というラベルのデバイス）です。Blockstream Green比較アプリを使って更新してください。"
 
-#: electrum/gui/qt/watchtower_dialog.py:45
 #: electrum/gui/qt/transaction_dialog.py:309
 #: electrum/gui/qt/transaction_dialog.py:353
+#: electrum/gui/qt/watchtower_dialog.py:45
 msgid "Outpoint"
 msgstr "アウトポイント"
 
-#: electrum/gui/qt/main_window.py:2684
+#: electrum/gui/qt/main_window.py:2696
 msgid "Output amount"
 msgstr "出力値"
 
@@ -4312,8 +4304,8 @@ msgstr "出力値"
 msgid "Output point"
 msgstr "出力ポイント"
 
+#: electrum/gui/qt/main_window.py:1432
 #: electrum/gui/qt/transaction_dialog.py:241
-#: electrum/gui/qt/main_window.py:1420
 msgid "Outputs"
 msgstr "受け手"
 
@@ -4325,7 +4317,7 @@ msgstr "概要"
 msgid "PIN Code"
 msgstr "PIN コード"
 
-#: electrum/plugins/safe_t/qt.py:387 electrum/plugins/keepkey/qt.py:480
+#: electrum/plugins/keepkey/qt.py:480 electrum/plugins/safe_t/qt.py:387
 #: electrum/plugins/trezor/qt.py:653
 msgid "PIN Protection"
 msgstr "PINコードによる保護"
@@ -4338,12 +4330,12 @@ msgstr "PINは無効です"
 msgid "PIN not updated"
 msgstr "PINが更新されていません"
 
-#: electrum/plugins/safe_t/qt.py:392 electrum/plugins/keepkey/qt.py:485
+#: electrum/plugins/keepkey/qt.py:485 electrum/plugins/safe_t/qt.py:392
 #: electrum/plugins/trezor/qt.py:658
 msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
 msgstr "PINによる保護が強く推奨されます。あなたの{}が物理的に誰かに盗まれたとき、PINはあなたのビットコインを守る唯一の保護手段です。"
 
-#: electrum/plugins/safe_t/qt.py:351 electrum/plugins/keepkey/qt.py:443
+#: electrum/plugins/keepkey/qt.py:443 electrum/plugins/safe_t/qt.py:351
 #: electrum/plugins/trezor/qt.py:617
 msgid "PIN set"
 msgstr "PINを設定しました"
@@ -4376,18 +4368,18 @@ msgstr "パスフレーズ"
 msgid "Passphrase:"
 msgstr "パスフレーズ："
 
-#: electrum/plugins/safe_t/qt.py:352 electrum/plugins/keepkey/qt.py:444
+#: electrum/plugins/keepkey/qt.py:444 electrum/plugins/safe_t/qt.py:352
 #: electrum/plugins/trezor/qt.py:618
 msgid "Passphrases"
 msgstr "パスフレーズ"
 
-#: electrum/plugins/safe_t/qt.py:22 electrum/plugins/keepkey/qt.py:22
+#: electrum/plugins/keepkey/qt.py:22 electrum/plugins/safe_t/qt.py:22
 #: electrum/plugins/trezor/qt.py:22
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "パスフレーズによって、特定の(大文字小文字を区別する)パスフレーズに対応する新しいウォレットにアクセスすることができます。"
 
-#: electrum/gui/qt/network_dialog.py:238 electrum/gui/qt/password_dialog.py:305
-#: electrum/gui/qt/installwizard.py:222 electrum/gui/qt/main_window.py:1575
+#: electrum/gui/qt/password_dialog.py:305 electrum/gui/qt/main_window.py:1587
+#: electrum/gui/qt/installwizard.py:222 electrum/gui/qt/network_dialog.py:238
 #: electrum/gui/kivy/uix/ui_screens/proxy.kv:47
 msgid "Password"
 msgstr "パスワード"
@@ -4396,7 +4388,7 @@ msgstr "パスワード"
 msgid "Password Strength"
 msgstr "パスワードの強度"
 
-#: electrum/gui/qt/main_window.py:1687
+#: electrum/gui/qt/main_window.py:1699
 msgid "Password is disabled, this wallet is not protected"
 msgstr "パスワードは無効化されており、ウォレットは保護されていません"
 
@@ -4430,7 +4422,7 @@ msgstr "{}のパスワード更新"
 msgid "Password updated successfully"
 msgstr "パスワードの変更に成功しました"
 
-#: electrum/gui/qt/main_window.py:1687
+#: electrum/gui/qt/main_window.py:1699
 msgid "Password was updated successfully"
 msgstr "パスワードを変更しました"
 
@@ -4446,14 +4438,13 @@ msgstr "クリップボードから貼り付け"
 msgid "Paste invoice from clipboard"
 msgstr ""
 
-#: electrum/gui/qt/send_tab.py:129 electrum/gui/qt/invoice_list.py:184
-#: electrum/gui/qt/invoice_list.py:186
-#: electrum/gui/kivy/uix/ui_screens/send.kv:154
+#: electrum/gui/qt/invoice_list.py:186 electrum/gui/qt/invoice_list.py:188
+#: electrum/gui/qt/send_tab.py:129 electrum/gui/kivy/uix/ui_screens/send.kv:154
 msgid "Pay"
 msgstr "支払い"
 
 #: electrum/gui/qt/send_tab.py:732 electrum/gui/text.py:651
-#: electrum/gui/kivy/uix/screens.py:421 electrum/gui/qml/qewallet.py:602
+#: electrum/gui/qml/qewallet.py:602 electrum/gui/kivy/uix/screens.py:421
 msgid "Pay lightning invoice?"
 msgstr "ライトニング請求書を支払いますか？"
 
@@ -4461,7 +4452,7 @@ msgstr "ライトニング請求書を支払いますか？"
 msgid "Pay onchain"
 msgstr "オンチェーンで支払"
 
-#: electrum/gui/qt/send_tab.py:86 electrum/gui/qt/contact_list.py:96
+#: electrum/gui/qt/contact_list.py:96 electrum/gui/qt/send_tab.py:86
 #: electrum/gui/text.py:347
 msgid "Pay to"
 msgstr "送信先"
@@ -4474,8 +4465,8 @@ msgstr ""
 msgid "PayServer Settings"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:754 electrum/gui/qt/main_window.py:1478
-#: electrum/gui/qt/main_window.py:1479
+#: electrum/gui/qt/main_window.py:1490 electrum/gui/qt/main_window.py:1491
+#: electrum/gui/qt/history_list.py:763
 msgid "Payment Hash"
 msgstr "支払いハッシュ"
 
@@ -4487,7 +4478,7 @@ msgstr "送金が受領されました"
 msgid "Payment Request"
 msgstr "支払い請求"
 
-#: electrum/gui/qt/main_window.py:1182 electrum/gui/qt/main_window.py:1185
+#: electrum/gui/qt/main_window.py:1194 electrum/gui/qt/main_window.py:1197
 #: electrum/gui/kivy/main_window.py:314
 msgid "Payment failed"
 msgstr "支払いに失敗しました"
@@ -4496,9 +4487,9 @@ msgstr "支払いに失敗しました"
 msgid "Payment failed: "
 msgstr ""
 
-#: electrum/gui/qt/channel_details.py:89
 #: electrum/gui/qt/lightning_tx_dialog.py:86
 #: electrum/gui/qt/lightning_tx_dialog.py:87
+#: electrum/gui/qt/channel_details.py:89
 msgid "Payment hash"
 msgstr "支払いハッシュ"
 
@@ -4511,7 +4502,7 @@ msgstr ""
 msgid "Payment in progress..."
 msgstr ""
 
-#: electrum/gui/qt/invoice_list.py:197
+#: electrum/gui/qt/invoice_list.py:199
 msgid "Payment log"
 msgstr "支払いログ"
 
@@ -4523,22 +4514,22 @@ msgstr "支払いログ"
 msgid "Payment received"
 msgstr "支払いが受領されました"
 
-#: electrum/gui/qt/main_window.py:1146
+#: electrum/gui/qt/main_window.py:1158
 msgid "Payment received:"
 msgstr "支払いが受領されました:"
 
-#: electrum/gui/qt/send_tab.py:635 electrum/gui/kivy/main_window.py:469
-#: electrum/gui/qml/qeinvoice.py:484
+#: electrum/gui/qt/send_tab.py:635 electrum/gui/qml/qeinvoice.py:484
+#: electrum/gui/kivy/main_window.py:469
 msgid "Payment request has expired"
 msgstr "支払請求の期限が切れています"
 
-#: electrum/gui/qt/main_window.py:1173
+#: electrum/gui/qt/main_window.py:1185
 msgid "Payment sent"
 msgstr "送金完了"
 
-#: electrum/gui/qt/send_tab.py:774 electrum/gui/text.py:665
-#: electrum/gui/text.py:696 electrum/gui/kivy/main_window.py:1221
-#: electrum/gui/stdio.py:232
+#: electrum/gui/stdio.py:232 electrum/gui/qt/send_tab.py:774
+#: electrum/gui/text.py:665 electrum/gui/text.py:696
+#: electrum/gui/kivy/main_window.py:1221
 msgid "Payment sent."
 msgstr "取引情報を送信しました。"
 
@@ -4558,7 +4549,7 @@ msgstr "承認待ち"
 msgid "Performing swap..."
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:690
+#: electrum/gui/qt/history_list.py:697
 msgid "Perhaps some dependencies are missing..."
 msgstr "何か依存関係が間違っているようです..."
 
@@ -4578,7 +4569,7 @@ msgstr "ネットワーク接続を確認してください。"
 msgid "Please check your {} device"
 msgstr "{} デバイスをチェックして下さい"
 
-#: electrum/gui/qt/history_list.py:811
+#: electrum/gui/qt/history_list.py:820
 msgid "Please confirm"
 msgstr "確認して下さい"
 
@@ -4598,7 +4589,7 @@ msgstr "トランザクション詳細をJadeデバイスで承認してくだ�
 msgid "Please create a backup of your wallet file!"
 msgstr "あなたのウォレットファイルのバックアップを作成してください!"
 
-#: electrum/lnworker.py:2548
+#: electrum/lnworker.py:2549
 msgid "Please enable gossip"
 msgstr "ゴシップを有効化してください"
 
@@ -4644,8 +4635,8 @@ msgid "Please insert your {}"
 msgstr "{} を挿入して下さい"
 
 #: electrum/gui/qt/channels_list.py:179
-#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:564
 #: electrum/gui/qml/qechanneldetails.py:234
+#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:564
 msgid "Please note that channel backups cannot be used to restore your channels."
 msgstr "チャネルのバックアップはチャネルを復元するのには使えないということにご注意ください。"
 
@@ -4661,7 +4652,7 @@ msgstr "バグがありましたら、Githubにてissueとしてご報告下さ�
 msgid "Please report this issue manually"
 msgstr "この問題は手動で報告して下さい"
 
-#: electrum/gui/qt/main_window.py:2549
+#: electrum/gui/qt/main_window.py:2561
 msgid "Please restart Electrum to activate the new GUI settings"
 msgstr "GUIの設定の変更は、次回の起動時に反映されます。"
 
@@ -4690,12 +4681,12 @@ msgstr "{} デバイスを選択して下さい:"
 msgid "Please share it with your cosigners."
 msgstr "これは、共同署名者で共有して下さい。"
 
-#: electrum/gui/qt/main_window.py:1297
+#: electrum/gui/qt/main_window.py:1309
 #: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:255
 msgid "Please sign and broadcast the funding transaction"
 msgstr "ファンディング(入金)トランザクションに署名してブロードキャストしてください"
 
-#: electrum/plugins/trustedcoin/kivy.py:108 electrum/base_wizard.py:371
+#: electrum/base_wizard.py:371 electrum/plugins/trustedcoin/kivy.py:108
 msgid "Please try again."
 msgstr "再試行して下さい。"
 
@@ -4715,12 +4706,11 @@ msgstr "少々お待ちください"
 msgid "Please wait while Electrum checks for available updates."
 msgstr "アップデート可能なelectrumのバージョンがあるか確認しています。"
 
+#: electrum/gui/stdio.py:222 electrum/gui/qt/main_window.py:1138
 #: electrum/gui/qt/installwizard.py:168 electrum/gui/qt/installwizard.py:593
-#: electrum/gui/qt/main_window.py:1126 electrum/gui/text.py:659
-#: electrum/gui/text.py:686
+#: electrum/gui/text.py:659 electrum/gui/text.py:686
 #: electrum/gui/kivy/uix/dialogs/password_dialog.py:246
 #: electrum/gui/kivy/uix/dialogs/password_dialog.py:282
-#: electrum/gui/stdio.py:222
 msgid "Please wait..."
 msgstr "少々お待ち下さい..."
 
@@ -4732,7 +4722,7 @@ msgstr "ポーランド語"
 msgid "Port"
 msgstr "ポート"
 
-#: electrum/lnutil.py:1476
+#: electrum/lnutil.py:1493
 msgid "Port number must be decimal"
 msgstr "ポート番号は数字でなければいけません"
 
@@ -4748,19 +4738,18 @@ msgstr "ポルトガル語 (ブラジル)"
 msgid "Position in mempool"
 msgstr "mempoolの中の位置"
 
-#: electrum/gui/qt/settings_dialog.py:54
-#: electrum/gui/qt/confirm_tx_dialog.py:191 electrum/gui/qt/main_window.py:714
-#: electrum/gui/qt/main_window.py:1578
+#: electrum/gui/qt/settings_dialog.py:54 electrum/gui/qt/main_window.py:714
+#: electrum/gui/qt/main_window.py:1590 electrum/gui/qt/confirm_tx_dialog.py:191
 msgid "Preferences"
 msgstr "設定"
 
-#: electrum/gui/qt/history_list.py:755
 #: electrum/gui/qt/lightning_tx_dialog.py:89
 #: electrum/gui/qt/lightning_tx_dialog.py:90
+#: electrum/gui/qt/history_list.py:764
 msgid "Preimage"
 msgstr "プレイメージ"
 
-#: electrum/gui/qt/main_window.py:2478
+#: electrum/gui/qt/main_window.py:2490
 msgid "Preparing sweep transaction..."
 msgstr "トランザクションのスイープ(取り込み)を準備中..."
 
@@ -4808,8 +4797,8 @@ msgstr "作成するには次を押してください"
 msgid "Press Next to open"
 msgstr "開くには次を押してください"
 
-#: electrum/gui/kivy/uix/dialogs/installwizard.py:621
 #: electrum/gui/kivy/main_window.py:734
+#: electrum/gui/kivy/uix/dialogs/installwizard.py:621
 msgid "Press again to exit"
 msgstr "もう一度押して終了"
 
@@ -4825,20 +4814,20 @@ msgstr "前のシェア"
 msgid "Printer Calibration"
 msgstr "プリンター調整"
 
-#: electrum/gui/qt/utxo_list.py:291
+#: electrum/gui/qt/utxo_list.py:296
 msgid "Privacy analysis"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:297 electrum/gui/qt/main_window.py:1964
-#: electrum/gui/qt/main_window.py:1969
+#: electrum/gui/qt/main_window.py:1976 electrum/gui/qt/main_window.py:1981
+#: electrum/gui/qt/address_list.py:303
 msgid "Private key"
 msgstr "秘密鍵"
 
-#: electrum/gui/qt/main_window.py:2287
+#: electrum/gui/qt/main_window.py:2299
 msgid "Private keys"
 msgstr "秘密鍵"
 
-#: electrum/gui/qt/main_window.py:2367
+#: electrum/gui/qt/main_window.py:2379
 msgid "Private keys exported."
 msgstr "秘密鍵をエクスポートしました。"
 
@@ -4879,8 +4868,8 @@ msgstr "Trezorハードウェアウォレットのサポートを提供"
 msgid "Provides support for air-gapped transaction signing."
 msgstr "物理的に隔離されたトランザクションの署名のサポートを提供"
 
-#: electrum/gui/qt/network_dialog.py:214 electrum/gui/kivy/main.kv:455
-#: electrum/gui/kivy/uix/ui_screens/proxy.kv:3
+#: electrum/gui/qt/network_dialog.py:214
+#: electrum/gui/kivy/uix/ui_screens/proxy.kv:3 electrum/gui/kivy/main.kv:455
 msgid "Proxy"
 msgstr "プロキシ"
 
@@ -4900,12 +4889,12 @@ msgstr "Proxyの設定はElectrumサーバーの他、全ての接続に適用�
 msgid "Proxy user"
 msgstr "プロキシ ユーザー名"
 
-#: electrum/gui/qt/address_dialog.py:80 electrum/gui/qt/main_window.py:1462
-#: electrum/gui/qt/main_window.py:1464
+#: electrum/gui/qt/main_window.py:1474 electrum/gui/qt/main_window.py:1476
+#: electrum/gui/qt/address_dialog.py:80
 msgid "Public Key"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2112
+#: electrum/gui/qt/main_window.py:2124
 msgid "Public key"
 msgstr "公開鍵"
 
@@ -4917,7 +4906,7 @@ msgstr "公開鍵"
 msgid "QR Reader Error"
 msgstr "QRリーダーのエラー"
 
-#: electrum/gui/qt/util.py:724 electrum/gui/qt/main_window.py:1942
+#: electrum/gui/qt/main_window.py:1954 electrum/gui/qt/util.py:724
 msgid "QR code"
 msgstr "QR コード"
 
@@ -4941,7 +4930,7 @@ msgstr "無効なピクセルフォーマットのビデオフレーム用のQR�
 msgid "QR reader failed to load. This may happen if you are using an older version of PyQt5."
 msgstr "QRリーダーの読み込みに失敗しました。これは古いバージョンのPyQt5を使用している場合に発生する可能性があります。"
 
-#: electrum/gui/qt/main_window.py:1306
+#: electrum/gui/qt/main_window.py:1318
 #: electrum/gui/kivy/uix/dialogs/question.py:57
 msgid "Question"
 msgstr "質問"
@@ -4962,8 +4951,8 @@ msgstr "生"
 msgid "Raw Transaction"
 msgstr "生トランザクション"
 
-#: electrum/plugins/safe_t/clientbase.py:57
 #: electrum/plugins/keepkey/clientbase.py:55
+#: electrum/plugins/safe_t/clientbase.py:57
 #: electrum/plugins/trezor/clientbase.py:282
 msgid "Re-enter the new PIN for your {}.\n\n"
 "NOTE: the positions of the numbers have changed!"
@@ -4974,24 +4963,24 @@ msgstr "{}のための新しいPINを再入力してください。\n\n"
 msgid "Read QR code"
 msgstr "QRコードの読み取り"
 
-#: electrum/gui/qt/qrtextedit.py:92 electrum/gui/qt/util.py:770
-#: electrum/gui/qt/util.py:793
+#: electrum/gui/qt/util.py:770 electrum/gui/qt/util.py:793
+#: electrum/gui/qt/qrtextedit.py:92
 msgid "Read QR code from camera"
 msgstr "QRコードをカメラから読み込む"
 
+#: electrum/gui/qt/util.py:536 electrum/gui/qt/util.py:771
 #: electrum/gui/qt/send_tab.py:165 electrum/gui/qt/qrtextedit.py:64
 #: electrum/gui/qt/qrtextedit.py:74 electrum/gui/qt/qrtextedit.py:93
-#: electrum/gui/qt/util.py:536 electrum/gui/qt/util.py:771
 msgid "Read QR code from screen"
 msgstr "QRコードをスクリーンから読み込む"
 
-#: electrum/gui/qt/send_tab.py:164 electrum/gui/qt/qrtextedit.py:73
-#: electrum/gui/qt/util.py:535
+#: electrum/gui/qt/util.py:535 electrum/gui/qt/send_tab.py:164
+#: electrum/gui/qt/qrtextedit.py:73
 msgid "Read QR code with camera"
 msgstr ""
 
-#: electrum/gui/qt/qrtextedit.py:65 electrum/gui/qt/qrtextedit.py:75
 #: electrum/gui/qt/util.py:537 electrum/gui/qt/util.py:810
+#: electrum/gui/qt/qrtextedit.py:65 electrum/gui/qt/qrtextedit.py:75
 msgid "Read file"
 msgstr "ファイルから読み込む"
 
@@ -5007,7 +4996,7 @@ msgstr ""
 msgid "Ready to encrypt for revealer {}"
 msgstr "Revealer {} の暗号化の準備ができました"
 
-#: electrum/gui/qt/history_list.py:674
+#: electrum/gui/qt/history_list.py:681
 msgid "Realized capital gains"
 msgstr "実現された収益"
 
@@ -5015,8 +5004,8 @@ msgstr "実現された収益"
 msgid "Really delete this wallet?"
 msgstr ""
 
-#: electrum/gui/qt/rebalance_dialog.py:19 electrum/gui/qt/channels_list.py:238
-#: electrum/gui/qt/channels_list.py:362
+#: electrum/gui/qt/channels_list.py:238 electrum/gui/qt/channels_list.py:362
+#: electrum/gui/qt/rebalance_dialog.py:19
 msgid "Rebalance channels"
 msgstr "チャネルのリバランス"
 
@@ -5053,9 +5042,8 @@ msgstr "受け取り先が指定されていません。"
 msgid "Recipient of the funds."
 msgstr "Bitcoinの送信先のアドレスです。"
 
-#: electrum/plugins/safe_t/safe_t.py:172
 #: electrum/plugins/keepkey/keepkey.py:214
-#: electrum/plugins/trezor/trezor.py:221
+#: electrum/plugins/safe_t/safe_t.py:172 electrum/plugins/trezor/trezor.py:221
 msgid "Recover from a seed you have previously written down"
 msgstr "前に書き留めておいたシードから復元する"
 
@@ -5063,7 +5051,7 @@ msgstr "前に書き留めておいたシードから復元する"
 msgid "Redeem Script"
 msgstr "文字列に変換"
 
-#: electrum/gui/qt/history_list.py:797
+#: electrum/gui/qt/history_list.py:806
 msgid "Related invoices"
 msgstr "関係する請求書"
 
@@ -5085,7 +5073,7 @@ msgstr ""
 msgid "Remote dust limit"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1293
+#: electrum/gui/qt/main_window.py:1305
 #: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:251
 msgid "Remote peer ID"
 msgstr "リモートピアID"
@@ -5094,7 +5082,7 @@ msgstr "リモートピアID"
 msgid "Remote reserve:"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:772
+#: electrum/gui/qt/history_list.py:781
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:202
 msgid "Remove"
 msgstr "消去"
@@ -5103,15 +5091,15 @@ msgstr "消去"
 msgid "Remove channel backup?"
 msgstr "チャネルバックアップを削除しますか？"
 
-#: electrum/gui/qt/address_list.py:320 electrum/gui/qt/utxo_list.py:304
+#: electrum/gui/qt/address_list.py:326 electrum/gui/qt/utxo_list.py:309
 msgid "Remove from coin control"
 msgstr ""
 
-#: electrum/gui/qt/address_list.py:302
+#: electrum/gui/qt/address_list.py:308
 msgid "Remove from wallet"
 msgstr "ウォレットから削除"
 
-#: electrum/gui/qt/main_window.py:1399
+#: electrum/gui/qt/main_window.py:1411
 msgid "Remove {} from your list of contacts?"
 msgstr "連絡先リストから {} を削除しますか？"
 
@@ -5148,7 +5136,7 @@ msgstr "リクエストを強制クローズ"
 msgid "Request force-close from remote peer?"
 msgstr "リモートピアからの強制クローズを要求しますか？"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:770
+#: electrum/plugins/trustedcoin/trustedcoin.py:772
 msgid "Request rejected by server"
 msgstr "サーバーから要求が拒否されました。"
 
@@ -5175,7 +5163,7 @@ msgstr "TrustedCoinのサーバーにアカウント情報を要求していま�
 msgid "Requesting {} channels..."
 msgstr "{}チャネルをリクエスト中..."
 
-#: electrum/gui/qt/main_window.py:1430
+#: electrum/gui/qt/main_window.py:1442
 msgid "Requestor"
 msgstr "請求者"
 
@@ -5196,24 +5184,24 @@ msgstr "要求されたパッケージ'PIL'が利用できません。インス�
 msgid "Required package 'PIL' is not available - Please install it."
 msgstr "要求されたパッケージ'PIL'が利用できません。インストールしてください。"
 
-#: electrum/gui/qt/main_window.py:2647
+#: electrum/gui/qt/main_window.py:2659
 msgid "Requires"
 msgstr "必要事項"
 
 #: electrum/plugins/safe_t/qt.py:403 electrum/plugins/trezor/qt.py:669
-#: electrum/gui/qt/main_window.py:1603
+#: electrum/gui/qt/main_window.py:1615
 msgid "Reset"
 msgstr "リセット"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:641
+#: electrum/plugins/trustedcoin/trustedcoin.py:643
 msgid "Restore 2FA wallet"
 msgstr "二要素認証ウォレットの復旧"
 
-#: electrum/plugins/trustedcoin/trustedcoin.py:630
+#: electrum/plugins/trustedcoin/trustedcoin.py:632
 msgid "Restore two-factor Wallet"
 msgstr "二要素認証ウォレットの復旧"
 
-#: electrum/gui/qt/invoice_list.py:188
+#: electrum/gui/qt/invoice_list.py:190
 msgid "Retry"
 msgstr "再試行"
 
@@ -5261,7 +5249,7 @@ msgstr "SLIP39シェア"
 msgid "Safe-T mini wallet"
 msgstr "Safe-T mini ウォレット"
 
-#: electrum/gui/qt/send_tab.py:128 electrum/gui/qt/qrcodewidget.py:181
+#: electrum/gui/qt/qrcodewidget.py:181 electrum/gui/qt/send_tab.py:128
 msgid "Save"
 msgstr "保存"
 
@@ -5273,11 +5261,11 @@ msgstr "バックアップを保存"
 msgid "Save backup and force-close"
 msgstr "バックアップを保存して強制クローズ"
 
-#: electrum/gui/qt/main_window.py:1287
+#: electrum/gui/qt/main_window.py:1299
 msgid "Save channel backup"
 msgstr "チャネルバックアップを保存"
 
-#: electrum/gui/qt/main_window.py:1439
+#: electrum/gui/qt/main_window.py:1451
 msgid "Save invoice to file"
 msgstr "請求をファイルへ保存"
 
@@ -5309,7 +5297,7 @@ msgstr "デバイスをスキャン中"
 msgid "Scrambled words"
 msgstr "シャッフルされた単語"
 
-#: electrum/gui/qt/main_window.py:1786 electrum/gui/qt/main_window.py:1968
+#: electrum/gui/qt/main_window.py:1798 electrum/gui/qt/main_window.py:1980
 msgid "Script type"
 msgstr "スクリプトタイプ"
 
@@ -5321,7 +5309,7 @@ msgstr "Script type and Derivation path"
 msgid "Security Card Challenge"
 msgstr "セキュリティカードの認証"
 
-#: electrum/gui/qt/seed_dialog.py:381 electrum/gui/qt/main_window.py:1579
+#: electrum/gui/qt/main_window.py:1591 electrum/gui/qt/seed_dialog.py:381
 #: electrum/gui/kivy/uix/ui_screens/status.kv:62
 #: electrum/gui/kivy/uix/ui_screens/status.kv:67
 msgid "Seed"
@@ -5339,7 +5327,7 @@ msgstr ""
 msgid "Seed Type"
 msgstr "シードタイプ"
 
-#: electrum/gui/qt/main_window.py:1789
+#: electrum/gui/qt/main_window.py:1801
 msgid "Seed available"
 msgstr "有効なシード"
 
@@ -5359,15 +5347,15 @@ msgstr "デバイスを選択して下さい"
 msgid "Select backup type:"
 msgstr "バックアップタイプを選択: "
 
-#: electrum/gui/qt/history_list.py:591
+#: electrum/gui/qt/history_list.py:598
 msgid "Select date"
 msgstr "日付の選択"
 
-#: electrum/gui/qt/main_window.py:2301
+#: electrum/gui/qt/main_window.py:2313
 msgid "Select file to export your private keys to"
 msgstr "プライベートキーのエクスポート先ファイルを選択"
 
-#: electrum/gui/qt/history_list.py:834
+#: electrum/gui/qt/history_list.py:843
 msgid "Select file to export your wallet transactions to"
 msgstr "取引履歴をエクスポートするファイルを選択"
 
@@ -5375,7 +5363,7 @@ msgstr "取引履歴をエクスポートするファイルを選択"
 msgid "Select file to save your {}"
 msgstr "{} を保存するファイルを選択"
 
-#: electrum/gui/qt/main_window.py:1856
+#: electrum/gui/qt/main_window.py:1868
 msgid "Select keystore"
 msgstr "キーストアを選択"
 
@@ -5420,7 +5408,7 @@ msgstr "トランザクションを保存する場所を選択してください
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "GUIに使う言語を設定します(再起動が必要)。"
 
-#: electrum/plugins/safe_t/qt.py:114 electrum/plugins/keepkey/qt.py:240
+#: electrum/plugins/keepkey/qt.py:240 electrum/plugins/safe_t/qt.py:114
 msgid "Select your seed length:"
 msgstr "シードの長さを選択: "
 
@@ -5428,7 +5416,7 @@ msgstr "シードの長さを選択: "
 msgid "Select your server automatically"
 msgstr "サーバーを自動的に選択する"
 
-#: electrum/gui/qt/main_window.py:2189
+#: electrum/gui/qt/main_window.py:2201
 msgid "Select your transaction file"
 msgstr "取引情報の保存先を選択"
 
@@ -5474,8 +5462,8 @@ msgid "Sent HTLC with ID {}"
 msgstr "ID {}のHTLCを送信しました"
 
 #: electrum/gui/qt/network_dialog.py:101 electrum/gui/qt/network_dialog.py:294
-#: electrum/gui/kivy/main.kv:449 electrum/gui/kivy/uix/ui_screens/server.kv:3
-#: electrum/gui/kivy/uix/ui_screens/server.kv:19
+#: electrum/gui/kivy/uix/ui_screens/server.kv:3
+#: electrum/gui/kivy/uix/ui_screens/server.kv:19 electrum/gui/kivy/main.kv:449
 msgid "Server"
 msgstr "サーバ"
 
@@ -5483,7 +5471,7 @@ msgstr "サーバ"
 msgid "Server fee"
 msgstr "サーバー手数料"
 
-#: electrum/gui/qt/main_window.py:943 electrum/gui/kivy/main_window.py:966
+#: electrum/gui/qt/main_window.py:955 electrum/gui/kivy/main_window.py:966
 msgid "Server is lagging ({} blocks)"
 msgstr "サーバーが遅延中 ({} blocks)"
 
@@ -5503,12 +5491,12 @@ msgstr "履歴を要求するのに使うサーバー"
 msgid "Service Error"
 msgstr ""
 
-#: electrum/plugins/safe_t/qt.py:424 electrum/plugins/keepkey/qt.py:494
+#: electrum/plugins/keepkey/qt.py:494 electrum/plugins/safe_t/qt.py:424
 #: electrum/plugins/trezor/qt.py:690
 msgid "Session Timeout"
 msgstr "セッションタイムアウト"
 
-#: electrum/plugins/safe_t/qt.py:230 electrum/plugins/keepkey/qt.py:352
+#: electrum/plugins/keepkey/qt.py:352 electrum/plugins/safe_t/qt.py:230
 #: electrum/plugins/trezor/qt.py:496
 msgid "Set a PIN"
 msgstr "PINを設定"
@@ -5521,9 +5509,9 @@ msgstr "お釣りの値を他の送金先アドレスと同じ精度にする"
 msgid "Set wallet file encryption."
 msgstr "ウォレットのファイルを暗号化する"
 
-#: electrum/plugins/audio_modem/qt.py:52 electrum/plugins/labels/qt.py:35
-#: electrum/plugins/safe_t/qt.py:496 electrum/plugins/payserver/qt.py:58
-#: electrum/plugins/keepkey/qt.py:566 electrum/plugins/trezor/qt.py:762
+#: electrum/plugins/keepkey/qt.py:566 electrum/plugins/safe_t/qt.py:496
+#: electrum/plugins/audio_modem/qt.py:52 electrum/plugins/trezor/qt.py:762
+#: electrum/plugins/labels/qt.py:35 electrum/plugins/payserver/qt.py:58
 #: electrum/gui/text.py:213 electrum/gui/kivy/main.kv:542
 msgid "Settings"
 msgstr "設定"
@@ -5556,11 +5544,11 @@ msgstr "請求書を共有"
 msgid "Short Channel ID"
 msgstr "短いチャネルID"
 
-#: electrum/gui/qt/history_list.py:557
+#: electrum/gui/qt/history_list.py:564
 msgid "Show Capital Gains"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:556
+#: electrum/gui/qt/history_list.py:563
 msgid "Show Fiat Values"
 msgstr ""
 
@@ -5584,8 +5572,8 @@ msgstr ""
 msgid "Show address on {}"
 msgstr ""
 
-#: electrum/gui/qt/qrtextedit.py:22 electrum/gui/qt/qrtextedit.py:94
 #: electrum/gui/qt/transaction_dialog.py:572 electrum/gui/qt/util.py:741
+#: electrum/gui/qt/qrtextedit.py:22 electrum/gui/qt/qrtextedit.py:94
 msgid "Show as QR code"
 msgstr "QRコードの表示"
 
@@ -5609,10 +5597,10 @@ msgstr "Jadeで表示"
 msgid "Show on Ledger"
 msgstr "Ledgerで表示"
 
-#: electrum/plugins/coldcard/qt.py:43 electrum/plugins/safe_t/qt.py:83
+#: electrum/plugins/coldcard/qt.py:43 electrum/plugins/keepkey/qt.py:207
+#: electrum/plugins/safe_t/qt.py:83 electrum/plugins/trezor/qt.py:246
 #: electrum/plugins/digitalbitbox/qt.py:39 electrum/plugins/bitbox02/qt.py:49
-#: electrum/plugins/bitbox02/qt.py:65 electrum/plugins/keepkey/qt.py:207
-#: electrum/plugins/trezor/qt.py:246
+#: electrum/plugins/bitbox02/qt.py:65
 msgid "Show on {}"
 msgstr "{}で表示"
 
@@ -5625,15 +5613,15 @@ msgid "Show/Hide"
 msgstr "表示/非表示"
 
 #: electrum/plugins/coldcard/coldcard.py:425
-#: electrum/plugins/coldcard/coldcard.py:444
-#: electrum/plugins/ledger/ledger.py:506 electrum/plugins/ledger/ledger.py:1046
-#: electrum/plugins/jade/jade.py:323 electrum/plugins/jade/jade.py:342
+#: electrum/plugins/coldcard/coldcard.py:444 electrum/plugins/jade/jade.py:323
+#: electrum/plugins/jade/jade.py:342 electrum/plugins/ledger/ledger.py:506
+#: electrum/plugins/ledger/ledger.py:1046
 #: electrum/plugins/bitbox02/bitbox02.py:631
 msgid "Showing address ..."
 msgstr "アドレスを表示 ..."
 
+#: electrum/gui/qt/main_window.py:2065
 #: electrum/gui/qt/transaction_dialog.py:449
-#: electrum/gui/qt/main_window.py:2053
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:197
 msgid "Sign"
 msgstr "署名"
@@ -5642,19 +5630,19 @@ msgstr "署名"
 msgid "Sign this transaction?"
 msgstr "このトランザクションに署名しますか？"
 
-#: electrum/gui/qt/main_window.py:2030
+#: electrum/gui/qt/main_window.py:2042
 msgid "Sign/verify Message"
 msgstr "メッセージの署名・署名確認"
 
-#: electrum/gui/qt/address_list.py:299
+#: electrum/gui/qt/address_list.py:305
 msgid "Sign/verify message"
 msgstr "メッセージの署名/検証"
 
-#: electrum/gui/qt/main_window.py:1432 electrum/gui/qt/main_window.py:2047
+#: electrum/gui/qt/main_window.py:1444 electrum/gui/qt/main_window.py:2059
 msgid "Signature"
 msgstr "署名"
 
-#: electrum/gui/qt/main_window.py:2025
+#: electrum/gui/qt/main_window.py:2037
 msgid "Signature verified"
 msgstr "署名認証完了"
 
@@ -5676,11 +5664,11 @@ msgstr "メッセージに署名中..."
 
 #: electrum/plugins/ledger/ledger.py:687 electrum/plugins/ledger/ledger.py:700
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:616
-#: electrum/gui/qt/main_window.py:1233
+#: electrum/gui/qt/main_window.py:1245
 msgid "Signing transaction..."
 msgstr "取引の署名中..."
 
-#: electrum/gui/qt/main_window.py:1977
+#: electrum/gui/qt/main_window.py:1989
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "アドレスによる署名とは、実際には対応する秘密鍵で署名し、対応する公開鍵で検証するということを意味します。あなたが入力したアドレスは対応する唯一の公開鍵を持っていないので、この処理を実行することができません。"
 
@@ -5740,7 +5728,7 @@ msgstr "承認されたコインだけ使用"
 msgid "Spend only confirmed inputs."
 msgstr "承認された入力だけ使用"
 
-#: electrum/gui/qt/seed_dialog.py:289 electrum/base_wizard.py:147
+#: electrum/base_wizard.py:147 electrum/gui/qt/seed_dialog.py:289
 msgid "Standard wallet"
 msgstr "スタンダードウォレット"
 
@@ -5760,10 +5748,9 @@ msgstr "Static"
 msgid "Static: the fee slider uses static values"
 msgstr "固定: 手数料の調節スライダーで固定の値が使われます"
 
-#: electrum/gui/qt/network_dialog.py:275
-#: electrum/gui/qt/watchtower_dialog.py:47 electrum/gui/qt/invoice_list.py:68
-#: electrum/gui/qt/request_list.py:66 electrum/gui/qt/channels_list.py:58
-#: electrum/gui/kivy/main.kv:444
+#: electrum/gui/qt/invoice_list.py:68 electrum/gui/qt/request_list.py:66
+#: electrum/gui/qt/channels_list.py:58 electrum/gui/qt/watchtower_dialog.py:47
+#: electrum/gui/qt/network_dialog.py:275 electrum/gui/kivy/main.kv:444
 msgid "Status"
 msgstr "状態"
 
@@ -5771,8 +5758,8 @@ msgstr "状態"
 msgid "Status:"
 msgstr "状態 :"
 
-#: electrum/plugins/safe_t/clientbase.py:98
 #: electrum/plugins/keepkey/clientbase.py:90
+#: electrum/plugins/safe_t/clientbase.py:98
 #: electrum/plugins/trezor/clientbase.py:335
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr "ステップ {}/24。あなたの{}に書かれているシード単語を入力してください。"
@@ -5785,8 +5772,8 @@ msgstr "サブマリンスワップ"
 msgid "Submarine swap"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1688 electrum/gui/qt/main_window.py:2549
-#: electrum/gui/qt/main_window.py:2780 electrum/lnutil.py:358
+#: electrum/lnutil.py:365 electrum/gui/qt/main_window.py:1700
+#: electrum/gui/qt/main_window.py:2561 electrum/gui/qt/main_window.py:2792
 msgid "Success"
 msgstr "成功"
 
@@ -5798,7 +5785,7 @@ msgstr ""
 msgid "Suggest Peer"
 msgstr "ピアを提案"
 
-#: electrum/gui/qt/history_list.py:631
+#: electrum/gui/qt/history_list.py:638
 msgid "Summary"
 msgstr "要約"
 
@@ -5842,11 +5829,11 @@ msgstr ""
 msgid "Swedish"
 msgstr "スウェーデン語"
 
-#: electrum/gui/qt/main_window.py:2432
+#: electrum/gui/qt/main_window.py:2444
 msgid "Sweep"
 msgstr "スイープ"
 
-#: electrum/gui/qt/main_window.py:2411
+#: electrum/gui/qt/main_window.py:2423
 msgid "Sweep private keys"
 msgstr "秘密鍵のスイープ"
 
@@ -5854,9 +5841,9 @@ msgstr "秘密鍵のスイープ"
 msgid "Switch between text and QR code view"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:940 electrum/gui/text.py:203
-#: electrum/gui/kivy/main_window.py:964 electrum/gui/qml/qewallet.py:286
-#: electrum/gui/stdio.py:130
+#: electrum/gui/stdio.py:130 electrum/gui/qt/main_window.py:952
+#: electrum/gui/text.py:203 electrum/gui/qml/qewallet.py:286
+#: electrum/gui/kivy/main_window.py:964
 msgid "Synchronizing..."
 msgstr "同期中..."
 
@@ -5888,22 +5875,22 @@ msgstr "テストネットのコインは無価値です。"
 msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
 msgstr "テストネットはメインのBitcoinネットワークとは別のものです。テストに使用されます。"
 
-#: electrum/gui/qt/main_window.py:1490
+#: electrum/gui/qt/main_window.py:1502
 msgid "Text"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1069
+#: electrum/gui/qt/main_window.py:1081
 msgid "Text copied to Clipboard"
 msgstr ""
 
-#: electrum/gui/qt/util.py:707 electrum/gui/qt/qrcodewidget.py:170
+#: electrum/gui/qt/qrcodewidget.py:170 electrum/gui/qt/util.py:707
 msgid "Text copied to clipboard"
 msgstr "クリップボードにコピーされました"
 
-#: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:122
-#: electrum/gui/kivy/uix/dialogs/qr_dialog.py:91
-#: electrum/gui/kivy/uix/dialogs/request_dialog.py:228
 #: electrum/gui/kivy/main_window.py:534
+#: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:122
+#: electrum/gui/kivy/uix/dialogs/request_dialog.py:228
+#: electrum/gui/kivy/uix/dialogs/qr_dialog.py:91
 msgid "Text copied to clipboard."
 msgstr "テキストをクリップボードにコピーしました"
 
@@ -5919,23 +5906,23 @@ msgstr ""
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "Digital Bitbox には既にシードが存在します。以下のオプションから選んでください: "
 
-#: electrum/gui/qt/main_window.py:1635
+#: electrum/gui/qt/main_window.py:1647
 msgid "The Lightning Network graph is fully synced."
 msgstr "ライトニングネットワークのグラフは完全に同期されています。"
 
-#: electrum/gui/qt/main_window.py:1639
+#: electrum/gui/qt/main_window.py:1651
 msgid "The Lightning Network graph is syncing...\n"
 "Payments are more likely to succeed with a more complete graph."
 msgstr "ライトニングネットワークのグラフを同期中です...\n"
 "より完全なグラフであれば、支払いが成功しやすくなります。"
 
-#: electrum/plugins/safe_t/clientbase.py:64
 #: electrum/plugins/keepkey/clientbase.py:62
+#: electrum/plugins/safe_t/clientbase.py:64
 #: electrum/plugins/trezor/clientbase.py:291
 msgid "The PIN cannot be longer than 9 characters."
 msgstr "PINは9文字より長くてはいけません。"
 
-#: electrum/gui/qt/main_window.py:2788
+#: electrum/gui/qt/main_window.py:2800
 msgid "The SSL certificate provided by the main server did not match the fingerprint passed in with the --serverfingerprint option."
 msgstr " --serverfingerprint オプションで指定されたフィンガープリントとメインサーバーのSSL証明書が一致しません。"
 
@@ -5947,7 +5934,7 @@ msgstr "{}によって生成されたアドレスが一致しません!"
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "手数料は送信者が決めることができますが、手数料の少ない取引情報は確定まで時間がかかることがあります。"
 
-#: electrum/gui/qt/send_tab.py:104 electrum/gui/qt/confirm_tx_dialog.py:676
+#: electrum/gui/qt/confirm_tx_dialog.py:676 electrum/gui/qt/send_tab.py:104
 msgid "The amount to be received by the recipient."
 msgstr "受取り手によって受け取られる残高。"
 
@@ -5973,13 +5960,13 @@ msgstr ""
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "備考欄は受信者には送られることはありません。ウォレットファイルに保存されて、後で「履歴」タブで確認することができます。"
 
-#: electrum/plugins/safe_t/safe_t.py:220
-#: electrum/plugins/keepkey/keepkey.py:253 electrum/plugins/trezor/qt.py:264
+#: electrum/plugins/keepkey/keepkey.py:253
+#: electrum/plugins/safe_t/safe_t.py:220 electrum/plugins/trezor/qt.py:264
 #: electrum/plugins/trezor/trezor.py:264
 msgid "The device was disconnected."
 msgstr "デバイスから切断されました。"
 
-#: electrum/wallet.py:2922
+#: electrum/wallet.py:2924
 msgid "The fee could not be verified. Signing non-segwit inputs is risky:\n"
 "if this transaction was maliciously modified before you sign,\n"
 "you might end up paying a higher mining fee than displayed."
@@ -5987,7 +5974,7 @@ msgstr "手数料が確認できませんでした。セグウィットでない
 "もしもこのトランザクションが署名前に悪意をもって変更されていた場合には、\n"
 "あなたは表示されているよりも多くのマイナー手数料を支払うことになるかもしれません。"
 
-#: electrum/wallet.py:2951 electrum/wallet.py:2956
+#: electrum/wallet.py:2953 electrum/wallet.py:2958
 msgid "The fee for this transaction seems unusually high."
 msgstr "取引手数料が一般より高く設定されているようです。"
 
@@ -6006,7 +5993,7 @@ msgstr "ファイルは削除されました"
 msgid "The firmware of your hardware device is too old. If possible, you should upgrade it. You can ignore this error and try to continue, however things are likely to break."
 msgstr "ハードウェアデバイスのファームウェアが古すぎます。可能なら、アップグレードすべきです。壊れる可能性がありますが、このエラーを無視して続行することもできます。"
 
-#: electrum/gui/qt/main_window.py:2499
+#: electrum/gui/qt/main_window.py:2511
 msgid "The following addresses were added"
 msgstr "以下のアドレスが追加されました"
 
@@ -6014,7 +6001,7 @@ msgstr "以下のアドレスが追加されました"
 msgid "The following alias providers are available:"
 msgstr "下記のエイリアスプロバイダーが利用可能："
 
-#: electrum/gui/qt/main_window.py:2504
+#: electrum/gui/qt/main_window.py:2516
 msgid "The following inputs could not be imported"
 msgstr "以下の入力はインポートできませんでした"
 
@@ -6022,7 +6009,7 @@ msgstr "以下の入力はインポートできませんでした"
 msgid "The funding transaction has been detected."
 msgstr ""
 
-#: electrum/wallet.py:2917
+#: electrum/wallet.py:2919
 msgid "The input amounts could not be verified as the previous transactions are missing.\n"
 "The amount of money being spent CANNOT be verified."
 msgstr "前のトランザクションが発見できないため入力金額が検証できませんでした。\n"
@@ -6038,7 +6025,7 @@ msgstr "新しい手数料率は前よりも高い必要があります。"
 msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
 msgstr "次のステップではウォレットのシード値を生成します。シードはあなたのコンピュータには保存されず、紙に書いて保存されるべきです。マルウェアから保護するためにこれをオフラインで行って、後であなたのウォレットをオンラインにする方がよいかもしれません。"
 
-#: electrum/gui/qt/main_window.py:1981
+#: electrum/gui/qt/main_window.py:1993
 msgid "The operation is undefined. Not just in Electrum, but in general."
 msgstr "このオペレーションは未定義です。これはElectrumではなく、一般的な問題です。"
 
@@ -6050,7 +6037,7 @@ msgstr "手数料を支払った後に残るアウトプットの値が小さす
 msgid "The platform QR detection library is not available."
 msgstr "プラットフォームのQR検出ライブラリは利用できません。"
 
-#: electrum/gui/qt/main_window.py:2672
+#: electrum/gui/qt/main_window.py:2684
 msgid "The proposed fee is computed using your fee/kB settings, applied to the total size of both child and parent transactions. After you broadcast a CPFP transaction, it is normal to see a new unconfirmed transaction in your history."
 msgstr "提案された手数料は、あなたのキロバイトあたり手数料の設定を使用して計算され、子トランザクションと親トランザクションの合計サイズに適用されます。通常、CPFPトランザクションをブロードキャストした後、履歴に新たな未承認トランザクションが表示されます。"
 
@@ -6085,7 +6072,7 @@ msgstr "取引情報のブロードキャストにてサーバーが予期せぬ
 msgid "The set is complete!"
 msgstr "セットは完全です！"
 
-#: electrum/submarine_swaps.py:87
+#: electrum/submarine_swaps.py:84
 msgid "The swap server errored or is unreachable."
 msgstr ""
 
@@ -6145,7 +6132,7 @@ msgstr "したがって、二要素認証は無効化されています。"
 msgid "This UTXO has {} parent transactions in your wallet."
 msgstr ""
 
-#: electrum/wallet.py:3001
+#: electrum/wallet.py:3003
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "アドレスはすでに使用されています。プライバシー上の問題になるので、新しい支払いのためにこれを再利用しないでください。"
 
@@ -6169,7 +6156,7 @@ msgstr "このチャネルは受け取り用として凍結されています。
 msgid "This channel is frozen for sending. It will not be used for outgoing payments."
 msgstr "このチャネルは送金用として凍結されています。外部への支払いには利用されません。"
 
-#: electrum/gui/qt/main_window.py:1294
+#: electrum/gui/qt/main_window.py:1306
 #: electrum/gui/kivy/uix/dialogs/lightning_open_channel.py:252
 msgid "This channel will be usable after {} confirmations"
 msgstr "このチャネルは{}承認後に利用可能になります"
@@ -6216,8 +6203,8 @@ msgstr "署名された支払請求を送ると、この内容は受け取り側
 msgid "This invoice has been paid already"
 msgstr "この請求書はすでに支払い済みです"
 
-#: electrum/gui/qml/qeinvoice.py:319 electrum/gui/qml/qeinvoice.py:331
-#: electrum/lnworker.py:1535
+#: electrum/lnworker.py:1535 electrum/gui/qml/qeinvoice.py:319
+#: electrum/gui/qml/qeinvoice.py:331
 msgid "This invoice has expired"
 msgstr "この請求書は期限切れです。"
 
@@ -6237,11 +6224,11 @@ msgstr ""
 msgid "This is a static channel backup"
 msgstr "これは静的なチャネルのバックアップです"
 
-#: electrum/gui/qt/main_window.py:2280 electrum/wallet.py:728
+#: electrum/gui/qt/main_window.py:2292 electrum/wallet.py:728
 msgid "This is a watching-only wallet"
 msgstr "このウォレットは読み取り専用です。"
 
-#: electrum/gui/qt/main_window.py:1991 electrum/gui/qt/main_window.py:2070
+#: electrum/gui/qt/main_window.py:2003 electrum/gui/qt/main_window.py:2082
 msgid "This is a watching-only wallet."
 msgstr "これは監視専用のウォレットです。"
 
@@ -6293,15 +6280,15 @@ msgstr "このプラグインは二要素認証をあなたのウォレットに
 msgid "This plugin facilitates the use of multi-signatures wallets."
 msgstr "このプラグインはマルチシグウォレットの利用を助けます。"
 
-#: electrum/wallet.py:2987 electrum/wallet.py:2992
+#: electrum/wallet.py:2989 electrum/wallet.py:2994
 msgid "This request cannot be paid on-chain"
 msgstr "このリクエストはオンチェーンでは支払えません"
 
-#: electrum/wallet.py:2997
+#: electrum/wallet.py:2999
 msgid "This request does not have a Lightning invoice."
 msgstr "このリクエストにはライトニングのインボイスがありません。"
 
-#: electrum/wallet.py:2982
+#: electrum/wallet.py:2984
 msgid "This request has expired"
 msgstr "このリクエストは期限切れです"
 
@@ -6337,7 +6324,7 @@ msgstr "このトランザクションはあなたのローカルマシンでの
 "現在接続されたサーバーはまだこのトランザクションの情報を知りません。\n"
 "あなたはこれを今ブロードキャストするか、ただ削除することができます。"
 
-#: electrum/wallet.py:2945
+#: electrum/wallet.py:2947
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr "この取引は高額の手数料が必要であり、手数料が足りないと現在のサーバーからブロードキャストされないでしょう。"
 
@@ -6345,12 +6332,11 @@ msgstr "この取引は高額の手数料が必要であり、手数料が足り
 msgid "This transaction will spend unconfirmed coins."
 msgstr ""
 
-#: electrum/plugins/coldcard/coldcard.py:530
-#: electrum/plugins/ledger/ledger.py:1441 electrum/plugins/safe_t/safe_t.py:267
-#: electrum/plugins/jade/jade.py:447
-#: electrum/plugins/digitalbitbox/digitalbitbox.py:734
+#: electrum/plugins/coldcard/coldcard.py:530 electrum/plugins/jade/jade.py:447
 #: electrum/plugins/keepkey/keepkey.py:297
+#: electrum/plugins/safe_t/safe_t.py:267 electrum/plugins/ledger/ledger.py:1441
 #: electrum/plugins/trezor/trezor.py:318
+#: electrum/plugins/digitalbitbox/digitalbitbox.py:734
 msgid "This type of script is not supported with {}."
 msgstr "このタイプのスクリプトは{}でサポートされていません。"
 
@@ -6362,7 +6348,7 @@ msgstr "このタイプのスクリプトは{}でサポートされていませ�
 msgid "This version supports a maximum of {} characters."
 msgstr "このバージョンは最大{}文字までサポートしています。"
 
-#: electrum/plugins/revealer/qt.py:291 electrum/gui/qt/main_window.py:1924
+#: electrum/plugins/revealer/qt.py:291 electrum/gui/qt/main_window.py:1936
 msgid "This wallet has no seed"
 msgstr "このウォレットにはシードがありません。"
 
@@ -6399,7 +6385,7 @@ msgstr "{}を送信しますか?"
 msgid "This {} device can only send to base58 addresses."
 msgstr "この{}デバイスはbase58のアドレス宛の送信のみ行うことができます。"
 
-#: electrum/gui/qt/history_list.py:549
+#: electrum/gui/qt/history_list.py:556
 msgid "To"
 msgstr "宛先"
 
@@ -6485,8 +6471,8 @@ msgstr "暗号化の切替え"
 msgid "Too few QR codes detected."
 msgstr "検出されたQRコードが少なすぎます。"
 
-#: electrum/plugins/safe_t/clientbase.py:89
 #: electrum/plugins/keepkey/clientbase.py:84
+#: electrum/plugins/safe_t/clientbase.py:89
 #: electrum/plugins/trezor/clientbase.py:313
 msgid "Too long passphrase ({} > 50 chars)."
 msgstr "パスフレーズが長すぎます({} > 50文字)。"
@@ -6499,11 +6485,11 @@ msgstr "検出されたQRコードが多すぎます。"
 msgid "Too short."
 msgstr "短すぎます"
 
-#: electrum/gui/qt/main_window.py:2724
+#: electrum/gui/qt/main_window.py:2736
 msgid "Total fee"
 msgstr "合計手数料"
 
-#: electrum/gui/qt/main_window.py:2726
+#: electrum/gui/qt/main_window.py:2738
 msgid "Total feerate"
 msgstr "合計手数料率"
 
@@ -6515,7 +6501,7 @@ msgstr ""
 msgid "Total sent"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:2678
+#: electrum/gui/qt/main_window.py:2690
 msgid "Total size"
 msgstr "合計サイズ"
 
@@ -6530,9 +6516,9 @@ msgstr ""
 msgid "Transaction"
 msgstr "取引"
 
-#: electrum/gui/qt/history_list.py:774
+#: electrum/gui/qt/main_window.py:2253
 #: electrum/gui/qt/transaction_dialog.py:427
-#: electrum/gui/qt/main_window.py:2241
+#: electrum/gui/qt/history_list.py:783
 msgid "Transaction ID"
 msgstr "取引ID"
 
@@ -6540,7 +6526,7 @@ msgstr "取引ID"
 msgid "Transaction ID:"
 msgstr "取引ID:"
 
-#: electrum/gui/qt/main_window.py:2777
+#: electrum/gui/qt/main_window.py:2789
 msgid "Transaction added to wallet history."
 msgstr "ウォレットの履歴に取引が追加されました。"
 
@@ -6556,7 +6542,7 @@ msgstr "トランザクションはダストアウトプットのためにブロ
 "一部のアウトプットの値が小さすぎます（おそらく1000サトシ未満でしょう）。\n"
 "単位を混乱してないことを確認してください。例えばmBTCとBTCなど。"
 
-#: electrum/gui/qt/main_window.py:2767 electrum/gui/qml/qewallet.py:588
+#: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
 msgid "Transaction could not be saved."
 msgstr "取引は保存できませんでした。"
 
@@ -6597,7 +6583,7 @@ msgstr "このウォレットと関係ない取引情報です"
 msgid "Transaction uses non-standard version."
 msgstr "取引に非標準バージョンを使います。"
 
-#: electrum/gui/qt/main_window.py:2208
+#: electrum/gui/qt/main_window.py:2220
 msgid "Transaction:"
 msgstr "取引:"
 
@@ -6613,7 +6599,7 @@ msgstr "Trezorマトリックス復元"
 msgid "Trezor wallet"
 msgstr "Trezorウォレット"
 
-#: electrum/gui/qt/main_window.py:1768
+#: electrum/gui/qt/main_window.py:1780
 msgid "True"
 msgstr "正"
 
@@ -6645,7 +6631,7 @@ msgstr "もう一度接続を試みますか？"
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "どんなバグかだけでなく、どうすると起こるのか、過程も説明して下さい。"
 
-#: electrum/wallet.py:2946
+#: electrum/wallet.py:2948
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "取引手数料を上げてみて下さい。"
 
@@ -6685,15 +6671,15 @@ msgstr "ウクライナ語"
 msgid "Unable to create backup"
 msgstr "バックアップを作成できませんでした"
 
-#: electrum/gui/qt/main_window.py:2361
+#: electrum/gui/qt/main_window.py:2373
 msgid "Unable to create csv"
 msgstr "CSVの作成ができませんでした"
 
-#: electrum/gui/qt/history_list.py:851
+#: electrum/gui/qt/history_list.py:860
 msgid "Unable to export history"
 msgstr "履歴エクスポートに失敗しました"
 
-#: electrum/gui/qt/main_window.py:2200
+#: electrum/gui/qt/main_window.py:2212
 msgid "Unable to read file or no transaction found"
 msgstr "ファイルを読み込めないか空でした"
 
@@ -6710,8 +6696,8 @@ msgstr "報告を送信できません"
 msgid "Unable to sign this transaction"
 msgstr ""
 
+#: electrum/invoices.py:58 electrum/gui/qt/main_window.py:963
 #: electrum/gui/qt/balance_dialog.py:177 electrum/gui/qt/balance_dialog.py:198
-#: electrum/gui/qt/main_window.py:951 electrum/invoices.py:58
 #: electrum/wallet.py:98 electrum/wallet.py:834
 msgid "Unconfirmed"
 msgstr "未検証"
@@ -6728,25 +6714,25 @@ msgstr "予期せぬエラーが発生しました。"
 msgid "Unexpected password hash version"
 msgstr "予期せぬパスワードのハッシュバージョン"
 
-#: electrum/gui/qt/address_list.py:310 electrum/gui/qt/address_list.py:315
+#: electrum/gui/qt/address_list.py:316 electrum/gui/qt/address_list.py:321
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:505
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:509
 msgid "Unfreeze"
 msgstr "凍結を解除"
 
-#: electrum/gui/qt/utxo_list.py:319
+#: electrum/gui/qt/utxo_list.py:324
 msgid "Unfreeze Address"
 msgstr "アドレスを凍結解除する"
 
-#: electrum/gui/qt/utxo_list.py:333
+#: electrum/gui/qt/utxo_list.py:338
 msgid "Unfreeze Addresses"
 msgstr "アドレスを凍結解除する"
 
-#: electrum/gui/qt/utxo_list.py:315
+#: electrum/gui/qt/utxo_list.py:320
 msgid "Unfreeze Coin"
 msgstr "コインを凍結解除する"
 
-#: electrum/gui/qt/utxo_list.py:329
+#: electrum/gui/qt/utxo_list.py:334
 msgid "Unfreeze Coins"
 msgstr "コインを凍結解除する"
 
@@ -6762,9 +6748,10 @@ msgstr "解凍(送信用)"
 msgid "Units"
 msgstr ""
 
-#: electrum/gui/qt/invoice_list.py:125
-#: electrum/gui/qt/transaction_dialog.py:758 electrum/invoices.py:51
-#: electrum/util.py:806 electrum/util.py:818 electrum/lnutil.py:359
+#: electrum/invoices.py:51 electrum/lnutil.py:366
+#: electrum/gui/qt/invoice_list.py:126
+#: electrum/gui/qt/transaction_dialog.py:758 electrum/util.py:803
+#: electrum/util.py:815
 msgid "Unknown"
 msgstr "不明"
 
@@ -6780,8 +6767,8 @@ msgstr "取引のブロードキャストにて不明なエラーが起きまし
 msgid "Unknown invoice"
 msgstr "不明な請求書"
 
-#: electrum/gui/qt/balance_dialog.py:176 electrum/gui/qt/balance_dialog.py:203
-#: electrum/gui/qt/main_window.py:950
+#: electrum/gui/qt/main_window.py:962 electrum/gui/qt/balance_dialog.py:176
+#: electrum/gui/qt/balance_dialog.py:203
 msgid "Unmatured"
 msgstr "準備ができていない"
 
@@ -6789,7 +6776,7 @@ msgstr "準備ができていない"
 msgid "Unpaid"
 msgstr "未払い"
 
-#: electrum/gui/qt/history_list.py:660
+#: electrum/gui/qt/history_list.py:667
 msgid "Unrealized capital gains"
 msgstr "未実現の収益"
 
@@ -6834,13 +6821,13 @@ msgstr "アップグレード"
 msgid "Upgrading wallet format..."
 msgstr "ウォレットのフォーマットを更新中..."
 
-#: electrum/plugins/safe_t/safe_t.py:173
 #: electrum/plugins/keepkey/keepkey.py:215
+#: electrum/plugins/safe_t/safe_t.py:173
 msgid "Upload a BIP39 mnemonic to generate the seed"
 msgstr "シードを生成するBIP39ニーモニックをアップロードしてください"
 
-#: electrum/plugins/safe_t/safe_t.py:174
 #: electrum/plugins/keepkey/keepkey.py:216
+#: electrum/plugins/safe_t/safe_t.py:174
 msgid "Upload a master private key"
 msgstr "マスタープライベートキーのアップロード"
 
@@ -6918,7 +6905,7 @@ msgstr "お釣りアドレスを使うと、他人があなたの取引履歴を
 msgid "Valid."
 msgstr "有効"
 
-#: electrum/gui/qt/history_list.py:423
+#: electrum/gui/qt/history_list.py:430
 msgid "Value"
 msgstr "Value"
 
@@ -6926,7 +6913,7 @@ msgstr "Value"
 msgid "Verified block headers"
 msgstr "検証済みのプロックヘッダー"
 
-#: electrum/gui/qt/main_window.py:2057
+#: electrum/gui/qt/main_window.py:2069
 msgid "Verify"
 msgstr "検証"
 
@@ -6951,7 +6938,7 @@ msgstr "ビデオデバイス"
 msgid "Vietnamese"
 msgstr "ベトナム語"
 
-#: electrum/gui/qt/history_list.py:784
+#: electrum/gui/qt/history_list.py:793
 msgid "View Channel"
 msgstr "チャネルを見る"
 
@@ -6959,15 +6946,15 @@ msgstr "チャネルを見る"
 msgid "View in payserver"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:795 electrum/gui/qt/history_list.py:799
+#: electrum/gui/qt/history_list.py:804 electrum/gui/qt/history_list.py:808
 msgid "View invoice"
 msgstr "請求書を見る"
 
-#: electrum/gui/qt/history_list.py:759 electrum/gui/qt/invoice_list.py:192
+#: electrum/gui/qt/invoice_list.py:194 electrum/gui/qt/history_list.py:768
 msgid "View log"
 msgstr "ログを表示"
 
-#: electrum/gui/qt/address_list.py:305 electrum/gui/qt/history_list.py:801
+#: electrum/gui/qt/history_list.py:810 electrum/gui/qt/address_list.py:311
 #: electrum/gui/qt/contact_list.py:100
 msgid "View on block explorer"
 msgstr "ブロックエクスプローラーで閲覧"
@@ -6981,11 +6968,11 @@ msgstr "可視化暗号プラグイン"
 msgid "WARNING"
 msgstr "警告"
 
-#: electrum/gui/qt/main_window.py:2291
+#: electrum/gui/qt/main_window.py:2303
 msgid "WARNING: ALL your private keys are secret."
 msgstr "警告：全ての秘密鍵は絶対に公開しないで下さい。"
 
-#: electrum/gui/qt/main_window.py:2284
+#: electrum/gui/qt/main_window.py:2296
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "警告：これはマルチシグウォレットです。"
 
@@ -7013,7 +7000,7 @@ msgstr ""
 msgid "Wallet Balance"
 msgstr "ウォレットの残高"
 
-#: electrum/gui/qt/main_window.py:1760
+#: electrum/gui/qt/main_window.py:1772
 msgid "Wallet Information"
 msgstr "ウォレットの情報"
 
@@ -7037,11 +7024,11 @@ msgstr "ウォレットの作成に失敗"
 msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
 msgstr "ウォレットファイルが壊れています。シードを使って復旧してください。"
 
-#: electrum/gui/qt/main_window.py:1919
+#: electrum/gui/qt/main_window.py:1931
 msgid "Wallet file not found: {}"
 msgstr "ウォレットファイルがありません: {}"
 
-#: electrum/gui/qt/main_window.py:1776
+#: electrum/gui/qt/main_window.py:1788
 msgid "Wallet name"
 msgstr "ウォレット名"
 
@@ -7053,7 +7040,7 @@ msgstr "ウォレットは暗号化されていません"
 msgid "Wallet receiving address"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1917 electrum/gui/kivy/main_window.py:1322
+#: electrum/gui/qt/main_window.py:1929 electrum/gui/kivy/main_window.py:1322
 msgid "Wallet removed: {}"
 msgstr "ウォレットを削除済: {}"
 
@@ -7061,7 +7048,7 @@ msgstr "ウォレットを削除済: {}"
 msgid "Wallet setup file exported successfully"
 msgstr "ウォレットのセットアップファイルのエクスポートに成功しました。"
 
-#: electrum/gui/qt/main_window.py:1783
+#: electrum/gui/qt/main_window.py:1795
 msgid "Wallet type"
 msgstr "ウォレットのタイプ"
 
@@ -7078,15 +7065,15 @@ msgid "Wallets"
 msgstr "ウォレット"
 
 #: electrum/plugins/revealer/qt.py:184 electrum/plugins/revealer/qt.py:217
+#: electrum/gui/qt/transaction_dialog.py:548
+#: electrum/gui/qt/transaction_dialog.py:837
+#: electrum/gui/qt/installwizard.py:52 electrum/gui/qt/util.py:254
 #: electrum/gui/qt/seed_dialog.py:95 electrum/gui/qt/seed_dialog.py:103
-#: electrum/gui/qt/seed_dialog.py:287 electrum/gui/qt/transaction_dialog.py:548
-#: electrum/gui/qt/transaction_dialog.py:837 electrum/gui/qt/util.py:254
-#: electrum/gui/qt/installwizard.py:52
+#: electrum/gui/qt/seed_dialog.py:287 electrum/gui/qml/qetxfinalizer.py:346
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:115
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:220
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:487
-#: electrum/gui/qml/qetxfinalizer.py:346 electrum/wallet.py:2916
-#: electrum/wallet.py:2921 electrum/wallet.py:2927
+#: electrum/wallet.py:2918 electrum/wallet.py:2923 electrum/wallet.py:2929
 msgid "Warning"
 msgstr "警告"
 
@@ -7114,7 +7101,7 @@ msgstr "警告：次のアドレスはシードを使ってウォレットを復
 msgid "Warning: do not use this if it makes you pick a weaker password."
 msgstr "警告: これを使うと弱いパスワードを選択することになるならば、使わないでください。"
 
-#: electrum/gui/qt/main_window.py:1746 electrum/gui/kivy/main_window.py:1514
+#: electrum/gui/qt/main_window.py:1758 electrum/gui/kivy/main_window.py:1514
 msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet everytime you create a new channel. Create lightning keys?"
 msgstr "警告: このウォレットタイプはシードからのチャネルの回復をサポートしていません。あなたは新しいチャネルを作成するたびにウォレットをバックアップしなおす必要があります。ライトニングの鍵を作成しますか?"
 
@@ -7146,12 +7133,12 @@ msgstr "どのタイプのウォレットを作りますか？"
 msgid "While this is less than ideal, it might help if you run Electrum as Administrator."
 msgstr "これは理想的とは言えませんが、Electrumを管理者として実行すると役立つ場合があります。"
 
-#: electrum/plugins/safe_t/qt.py:476 electrum/plugins/keepkey/qt.py:546
+#: electrum/plugins/keepkey/qt.py:546 electrum/plugins/safe_t/qt.py:476
 #: electrum/plugins/trezor/qt.py:742
 msgid "Wipe Device"
 msgstr "デバイスを消去"
 
-#: electrum/plugins/safe_t/qt.py:479 electrum/plugins/keepkey/qt.py:549
+#: electrum/plugins/keepkey/qt.py:549 electrum/plugins/safe_t/qt.py:479
 #: electrum/plugins/trezor/qt.py:745
 msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
 msgstr "デバイスを消去して、全てのデータを削除します。ファームウェアは変更されません。"
@@ -7172,8 +7159,8 @@ msgstr "ウィットネス・スクリプト"
 msgid "Would you like to be notified when there is a newer version of Electrum available?"
 msgstr "新しいバージョンのElectrumが存在する場合は、お知らせしてもよろしいですか？"
 
-#: electrum/plugins/safe_t/clientbase.py:23
 #: electrum/plugins/keepkey/clientbase.py:22
+#: electrum/plugins/safe_t/clientbase.py:23
 #: electrum/plugins/trezor/clientbase.py:25
 msgid "Write down the seed word shown on your {}"
 msgstr "あなたの {} に表示されているシード単語を書き写してください。"
@@ -7190,9 +7177,9 @@ msgstr "シードフレーズを紙に書き留めてください。"
 msgid "Wrong PIN"
 msgstr "PINが違います"
 
+#: electrum/base_wizard.py:578 electrum/base_wizard.py:586
 #: electrum/gui/qml/qebitcoin.py:120 electrum/gui/qml/qebitcoin.py:129
-#: electrum/gui/qml/qebitcoin.py:133 electrum/base_wizard.py:578
-#: electrum/base_wizard.py:586
+#: electrum/gui/qml/qebitcoin.py:133
 msgid "Wrong key type"
 msgstr "鍵の種類が違います"
 
@@ -7200,11 +7187,11 @@ msgstr "鍵の種類が違います"
 msgid "Wrong password"
 msgstr "パスワードが間違っています"
 
-#: electrum/gui/qt/main_window.py:2027
+#: electrum/gui/qt/main_window.py:2039
 msgid "Wrong signature"
 msgstr "署名が間違っています"
 
-#: electrum/plugins/safe_t/qt.py:227 electrum/plugins/keepkey/qt.py:349
+#: electrum/plugins/keepkey/qt.py:349 electrum/plugins/safe_t/qt.py:227
 #: electrum/plugins/trezor/qt.py:493
 #: electrum/gui/kivy/uix/dialogs/question.py:55
 msgid "Yes"
@@ -7227,10 +7214,10 @@ msgid "You are most likely using an outdated version of Electrum. Please update.
 msgstr "古いバージョンのElectrumが使用されているようです。アップデートをお願いします。"
 
 #: electrum/plugins/labels/labels.py:176 electrum/plugins/labels/labels.py:180
-#: electrum/plugins/payserver/qt.py:63 electrum/gui/qt/main_window.py:1115
-#: electrum/gui/qt/main_window.py:2257 electrum/gui/qt/main_window.py:2409
-#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:861
+#: electrum/plugins/payserver/qt.py:63 electrum/gui/qt/main_window.py:1127
+#: electrum/gui/qt/main_window.py:2269 electrum/gui/qt/main_window.py:2421
 #: electrum/gui/qml/qeswaphelper.py:425
+#: electrum/gui/kivy/uix/dialogs/lightning_channels.py:861
 msgid "You are offline."
 msgstr "オフラインです"
 
@@ -7266,7 +7253,7 @@ msgstr "個人の好みに合わせて、あなたのデバイスのホームス
 msgid "You can use it to request a force close."
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:1206
+#: electrum/gui/qt/main_window.py:1218
 msgid "You can't broadcast a transaction without a live network connection."
 msgstr "ネットワークに接続しないと取引をブロードキャスト出来ません。"
 
@@ -7282,11 +7269,11 @@ msgstr "そのインボイスはライトニングを使って支払うことは
 msgid "You cannot use channel backups to perform lightning payments."
 msgstr "ライトニング支払いを行うためにチャネルバックアップを使うことはできません。"
 
-#: electrum/gui/qt/main_window.py:1121
+#: electrum/gui/qt/main_window.py:1133
 msgid "You do not have liquidity in your active channels."
 msgstr ""
 
-#: electrum/wallet.py:3011
+#: electrum/wallet.py:3013
 msgid "You do not have the capacity to receive this amount with Lightning."
 msgstr ""
 
@@ -7315,11 +7302,11 @@ msgstr "入力形式には、ビットコインアドレス、アドレス帳の
 msgid "You may extend your seed with custom words."
 msgstr "独自の単語を使用してシードを拡張することが可能です。"
 
-#: electrum/wallet.py:3013
+#: electrum/wallet.py:3015
 msgid "You may have that capacity if you rebalance your channels."
 msgstr "チャネルをリバランスすればその容量を獲得できるかもしれません。"
 
-#: electrum/wallet.py:3015
+#: electrum/wallet.py:3017
 msgid "You may have that capacity if you swap some of your funds."
 msgstr "資金を交換すればそのキャパシティを得られるかもしれません。"
 
@@ -7339,11 +7326,11 @@ msgstr "不適合なライブラリを使っているようです。"
 msgid "You might have to unplug and plug it in again."
 msgstr "プラグを抜いて、もう一度挿し直す必要があるかもしれません。"
 
-#: electrum/wallet.py:3006
+#: electrum/wallet.py:3008
 msgid "You must be online to receive Lightning payments."
 msgstr "ライトニング支払を受けるためにはオンラインである必要があります。"
 
-#: electrum/gui/qt/main_window.py:1709
+#: electrum/gui/qt/main_window.py:1721
 msgid "You need at least {} to open a channel."
 msgstr ""
 
@@ -7355,7 +7342,7 @@ msgstr "ウォレットの作成を完了するためにはオンラインであ
 msgid "You need to configure a backup directory in your preferences"
 msgstr "設定でバックアップディレクトリを指定する必要があります。"
 
-#: electrum/plugins/safe_t/qt.py:25 electrum/plugins/keepkey/qt.py:25
+#: electrum/plugins/keepkey/qt.py:25 electrum/plugins/safe_t/qt.py:25
 #: electrum/plugins/trezor/qt.py:25
 msgid "You need to create a separate Electrum wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
 msgstr "それぞれのパスフレーズは異なるアドレスを生成するので、別のElectrumウォレットを作成する必要があります。パスフレーズを変えても元のウォレットは失われず、元のパスフレーズを使うことでアクセスすることができます。"
@@ -7364,7 +7351,7 @@ msgstr "それぞれのパスフレーズは異なるアドレスを生成する
 msgid "You need to put at least"
 msgstr "最低限以下を置く必要があります: "
 
-#: electrum/gui/qt/utxo_list.py:195
+#: electrum/gui/qt/utxo_list.py:200
 msgid "You need to select coins from the list first.\n"
 "Use ctrl+left mouse button to select multiple items"
 msgstr ""
@@ -7381,7 +7368,7 @@ msgstr "受取額"
 msgid "You send"
 msgstr "送金額"
 
-#: electrum/plugins/safe_t/qt.py:30 electrum/plugins/keepkey/qt.py:30
+#: electrum/plugins/keepkey/qt.py:30 electrum/plugins/safe_t/qt.py:30
 #: electrum/plugins/trezor/qt.py:30
 msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
 msgstr "PINプロテクションを有効にすべきです。もしあなたのデバイスを紛失した時にあなたのビットコインを守ってくれるのはPINだけです。"
@@ -7428,13 +7415,13 @@ msgstr "あなたのビットコインはパスワードで保護されていま
 msgid "Your channels can send {}."
 msgstr "あなたのチャネルは {} を送金可能です。"
 
-#: electrum/gui/qt/main_window.py:1808 electrum/gui/kivy/main_window.py:1498
+#: electrum/gui/qt/main_window.py:1820 electrum/gui/kivy/main_window.py:1498
 msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want this wallet to have recoverable channels, you must close your existing channels and restore this wallet from seed"
 msgstr "古いバージョンのElectrumで作成されたため、あなたのチャネルはシードから回復できません。これは、あなたが新しいチャネルを作成する度にあなたのウォレットのバックアップを保存する必要があるということです。\n\n"
 "もしこのウォレットで回復可能なチャネルを作成したいのであれば、現存するチャネルをクローズしてこのウォレットを再度シードから回復させる必要があります。"
 
-#: electrum/gui/qt/main_window.py:1812 electrum/gui/kivy/main_window.py:1502
+#: electrum/gui/qt/main_window.py:1824 electrum/gui/kivy/main_window.py:1502
 msgid "Your channels cannot be recovered from seed. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
 "If you want to have recoverable channels, you must create a new wallet with an Electrum seed"
 msgstr "あなたのチャネルはシードから回復できません。これはすなわち、あなたが新しいチャネルを作成するたびにウォレットのバックアップを保存する必要があるということです。\n\n"
@@ -7444,13 +7431,13 @@ msgstr "あなたのチャネルはシードから回復できません。これ
 msgid "Your claiming transaction will be broadcast when the funding transaction is confirmed."
 msgstr ""
 
-#: electrum/plugins/safe_t/qt.py:268 electrum/plugins/keepkey/qt.py:392
+#: electrum/plugins/keepkey/qt.py:392 electrum/plugins/safe_t/qt.py:268
 #: electrum/plugins/trezor/qt.py:534
 msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
 msgstr "現在のElectrumウォレットはパスフレーズを空白にしないと使用できません。インストールウィザードから別のパスフレーズのウォレットを作る必要があります。パスフレーズごとに生成されるアドレスのセットは異なります。"
 
-#: electrum/plugins/safe_t/safe_t.py:315
 #: electrum/plugins/keepkey/keepkey.py:345
+#: electrum/plugins/safe_t/safe_t.py:315
 msgid "Your device firmware is too old"
 msgstr "お使いのデバイスのファームウェアが古くなっています"
 
@@ -7514,7 +7501,7 @@ msgstr "あなたのウォレットファイルは暗号化されています。
 msgid "Your wallet file is: {}."
 msgstr "あなたのウォレットファイルは{}です。"
 
-#: electrum/gui/qt/seed_dialog.py:384 electrum/gui/qt/installwizard.py:517
+#: electrum/gui/qt/installwizard.py:517 electrum/gui/qt/seed_dialog.py:384
 msgid "Your wallet generation seed is:"
 msgstr "ウォレットの再生用シードです:"
 
@@ -7522,7 +7509,7 @@ msgstr "ウォレットの再生用シードです:"
 msgid "Your wallet has {} prepaid transactions."
 msgstr "あなたのウォレットには {} の前払い取引があります。"
 
-#: electrum/gui/qt/history_list.py:853
+#: electrum/gui/qt/history_list.py:862
 msgid "Your wallet history has been successfully exported."
 msgstr "ウォレットの履歴が正常にエクスポートされました。"
 
@@ -7603,35 +7590,35 @@ msgstr "[r] - 自分の受け取りアドレスを表示する"
 msgid "[s] - send stored payment order"
 msgstr "[s] - 保存されたペイメントオーダーを送信する"
 
-#: electrum/util.py:857
+#: electrum/util.py:854
 msgid "about 1 day ago"
 msgstr ""
 
-#: electrum/util.py:847
+#: electrum/util.py:844
 msgid "about 1 hour ago"
 msgstr ""
 
-#: electrum/util.py:867
+#: electrum/util.py:864
 msgid "about 1 month ago"
 msgstr ""
 
-#: electrum/util.py:877
+#: electrum/util.py:874
 msgid "about 1 year ago"
 msgstr ""
 
-#: electrum/util.py:862
+#: electrum/util.py:859
 msgid "about {} days ago"
 msgstr ""
 
-#: electrum/util.py:852
+#: electrum/util.py:849
 msgid "about {} hours ago"
 msgstr ""
 
-#: electrum/util.py:842
+#: electrum/util.py:839
 msgid "about {} minutes ago"
 msgstr ""
 
-#: electrum/util.py:872
+#: electrum/util.py:869
 msgid "about {} months ago"
 msgstr ""
 
@@ -7643,7 +7630,7 @@ msgstr "有効"
 msgid "add inputs and outputs"
 msgstr "インプットとアウトプットを追加"
 
-#: electrum/wallet.py:3116
+#: electrum/wallet.py:3118
 msgid "address already in wallet"
 msgstr "既にウォレットにあるアドレス"
 
@@ -7651,7 +7638,7 @@ msgstr "既にウォレットにあるアドレス"
 msgid "are frozen"
 msgstr "凍結"
 
-#: electrum/wallet.py:2947
+#: electrum/wallet.py:2949
 msgid "below relay fee"
 msgstr "リレー手数料未満"
 
@@ -7675,11 +7662,11 @@ msgstr "受け取り可能"
 msgid "change"
 msgstr "お釣り"
 
-#: electrum/gui/qt/main_window.py:2401 electrum/gui/qt/main_window.py:2404
+#: electrum/gui/qt/main_window.py:2413 electrum/gui/qt/main_window.py:2416
 msgid "contacts"
 msgstr "連絡先"
 
-#: electrum/gui/qt/main_window.py:1849
+#: electrum/gui/qt/main_window.py:1861
 msgid "cosigner"
 msgstr "共同署名者"
 
@@ -7691,59 +7678,59 @@ msgstr "それぞれの秘密情報はワンタイムパッドなので、単一
 msgid "file size"
 msgstr "ファイルサイズ"
 
-#: electrum/wallet.py:2958
+#: electrum/wallet.py:2960
 msgid "high fee rate"
 msgstr "高い手数料レート"
 
-#: electrum/wallet.py:2953
+#: electrum/wallet.py:2955
 msgid "high fee ratio"
 msgstr "高い手数料比率"
 
-#: electrum/util.py:859
+#: electrum/util.py:856
 msgid "in about 1 day"
 msgstr ""
 
-#: electrum/util.py:849
+#: electrum/util.py:846
 msgid "in about 1 hour"
 msgstr ""
 
-#: electrum/util.py:869
+#: electrum/util.py:866
 msgid "in about 1 month"
 msgstr ""
 
-#: electrum/util.py:879
+#: electrum/util.py:876
 msgid "in about 1 year"
 msgstr ""
 
-#: electrum/util.py:864
+#: electrum/util.py:861
 msgid "in about {} days"
 msgstr ""
 
-#: electrum/util.py:854
+#: electrum/util.py:851
 msgid "in about {} hours"
 msgstr ""
 
-#: electrum/util.py:844
+#: electrum/util.py:841
 msgid "in about {} minutes"
 msgstr ""
 
-#: electrum/util.py:874
+#: electrum/util.py:871
 msgid "in about {} months"
 msgstr ""
 
-#: electrum/util.py:839
+#: electrum/util.py:836
 msgid "in less than a minute"
 msgstr ""
 
-#: electrum/gui/qt/utxo_list.py:298
+#: electrum/gui/qt/utxo_list.py:303
 msgid "in new channel"
 msgstr ""
 
-#: electrum/util.py:884
+#: electrum/util.py:881
 msgid "in over {} years"
 msgstr ""
 
-#: electrum/gui/qt/utxo_list.py:300
+#: electrum/gui/qt/utxo_list.py:305
 msgid "in submarine swap"
 msgstr ""
 
@@ -7751,7 +7738,7 @@ msgstr ""
 msgid "in {} blocks"
 msgstr ""
 
-#: electrum/util.py:834
+#: electrum/util.py:831
 msgid "in {} seconds"
 msgstr ""
 
@@ -7759,15 +7746,15 @@ msgstr ""
 msgid "initialized"
 msgstr "初期化済"
 
-#: electrum/wallet.py:3113
+#: electrum/wallet.py:3115
 msgid "invalid address"
 msgstr "不正なアドレス"
 
-#: electrum/wallet.py:3212
+#: electrum/wallet.py:3214
 msgid "invalid private key"
 msgstr "不正な秘密鍵"
 
-#: electrum/gui/qt/main_window.py:2389 electrum/gui/qt/main_window.py:2392
+#: electrum/gui/qt/main_window.py:2401 electrum/gui/qt/main_window.py:2404
 msgid "invoices"
 msgstr "請求書"
 
@@ -7775,15 +7762,15 @@ msgstr "請求書"
 msgid "json"
 msgstr "json"
 
-#: electrum/gui/qt/main_window.py:1851
+#: electrum/gui/qt/main_window.py:1863
 msgid "keystore"
 msgstr "キーストア"
 
-#: electrum/gui/qt/main_window.py:2383 electrum/gui/qt/main_window.py:2386
+#: electrum/gui/qt/main_window.py:2395 electrum/gui/qt/main_window.py:2398
 msgid "labels"
 msgstr "ラベル"
 
-#: electrum/util.py:837
+#: electrum/util.py:834
 msgid "less than a minute ago"
 msgstr ""
 
@@ -7795,7 +7782,7 @@ msgstr "ロード済み"
 msgid "loading"
 msgstr "読み込み中"
 
-#: electrum/wallet.py:3215
+#: electrum/wallet.py:3217
 msgid "not implemented type"
 msgstr "実装されていないタイプ"
 
@@ -7807,7 +7794,7 @@ msgstr "open_channelがタイムアウトしました"
 msgid "or type an existing revealer code below and click 'next':"
 msgstr "または既存のコードを下に入力して「次へ」をクリックしてください"
 
-#: electrum/util.py:882
+#: electrum/util.py:879
 msgid "over {} years ago"
 msgstr ""
 
@@ -7819,7 +7806,7 @@ msgstr "しばらくお待ちください..."
 msgid "print the calibration pdf and follow the instructions "
 msgstr "較正PDFを印刷して指示に従ってください"
 
-#: electrum/gui/qt/main_window.py:968
+#: electrum/gui/qt/main_window.py:980
 msgid "proxy enabled"
 msgstr "プロキシが有効です"
 
@@ -7827,7 +7814,7 @@ msgstr "プロキシが有効です"
 msgid "receiving"
 msgstr "受信"
 
-#: electrum/gui/qt/main_window.py:2395 electrum/gui/qt/main_window.py:2398
+#: electrum/gui/qt/main_window.py:2407 electrum/gui/qt/main_window.py:2410
 msgid "requests"
 msgstr "リクエスト"
 
@@ -7835,7 +7822,7 @@ msgstr "リクエスト"
 msgid "seed"
 msgstr "シード"
 
-#: electrum/gui/qt/utxo_list.py:296
+#: electrum/gui/qt/utxo_list.py:301
 msgid "send to address in clipboard"
 msgstr ""
 
@@ -7855,7 +7842,7 @@ msgstr "停止中"
 msgid "switch between view"
 msgstr ""
 
-#: electrum/gui/qt/main_window.py:989
+#: electrum/gui/qt/main_window.py:1001
 msgid "tasks"
 msgstr "タスク"
 
@@ -7867,8 +7854,8 @@ msgstr "英数字からなるカスタムシークレットを以下に入力し
 msgid "unavailable"
 msgstr "利用不可"
 
+#: electrum/gui/qt/main_window.py:1887 electrum/gui/qt/main_window.py:1896
 #: electrum/gui/qt/transaction_dialog.py:819
-#: electrum/gui/qt/main_window.py:1875 electrum/gui/qt/main_window.py:1884
 #: electrum/gui/qt/qrreader/qtmultimedia/camera_dialog.py:284
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:183
 #: electrum/gui/kivy/uix/dialogs/tx_dialog.py:184 electrum/wallet.py:1535
@@ -7876,7 +7863,7 @@ msgstr "利用不可"
 msgid "unknown"
 msgstr "不明"
 
-#: electrum/commands.py:1534
+#: electrum/commands.py:1539
 msgid "unknown parser {!r} (choices: {})"
 msgstr "不明なパーサー {!r} (選択肢: {})"
 
@@ -7900,7 +7887,7 @@ msgstr "ファンディングトランザクションの承認を待っていま
 msgid "watching only"
 msgstr "閲覧専用"
 
-#: electrum/gui/qt/main_window.py:1765
+#: electrum/gui/qt/main_window.py:1777
 msgid "watching-only"
 msgstr "閲覧専用"
 
@@ -7912,7 +7899,7 @@ msgstr "処理済"
 msgid "your seed extension will <b>not</b> be included in the encrypted backup."
 msgstr "シードエクステンションは暗号化されたバックアップには<b>含まれません</b>。"
 
-#: electrum/plugins/safe_t/qt.py:330 electrum/plugins/keepkey/qt.py:420
+#: electrum/plugins/keepkey/qt.py:420 electrum/plugins/safe_t/qt.py:330
 #: electrum/plugins/trezor/qt.py:596
 msgid "{:2d} minutes"
 msgstr "{:2d} 分"
@@ -7921,12 +7908,12 @@ msgstr "{:2d} 分"
 msgid "{:d} words"
 msgstr "{:d} 単語"
 
-#: electrum/gui/qt/history_list.py:781
+#: electrum/gui/qt/history_list.py:790
 msgid "{}"
 msgstr ""
 
-#: electrum/plugins/coldcard/qt.py:96 electrum/plugins/safe_t/qt.py:194
-#: electrum/plugins/keepkey/qt.py:320 electrum/plugins/trezor/qt.py:460
+#: electrum/plugins/coldcard/qt.py:96 electrum/plugins/keepkey/qt.py:320
+#: electrum/plugins/safe_t/qt.py:194 electrum/plugins/trezor/qt.py:460
 msgid "{} Settings"
 msgstr "{} 設定"
 
@@ -7942,12 +7929,12 @@ msgstr "{} チャネル"
 msgid "{} confirmations"
 msgstr "{} 承認"
 
-#: electrum/gui/kivy/main.kv:443
 #: electrum/gui/kivy/uix/ui_screens/lightning.kv:14
+#: electrum/gui/kivy/main.kv:443
 msgid "{} connections."
 msgstr "{} コネクション"
 
-#: electrum/gui/qt/main_window.py:1069
+#: electrum/gui/qt/main_window.py:1081
 msgid "{} copied to Clipboard"
 msgstr ""
 
@@ -7971,7 +7958,7 @@ msgstr "{}ノード"
 msgid "{} of {} shares needed from group {}"
 msgstr ""
 
-#: electrum/gui/qt/utxo_list.py:127
+#: electrum/gui/qt/utxo_list.py:132
 msgid "{} outputs available ({} total)"
 msgstr "{}アウトプットが利用可能(合計 {})"
 
@@ -7979,7 +7966,7 @@ msgstr "{}アウトプットが利用可能(合計 {})"
 msgid "{} plugin does not support this type of wallet."
 msgstr "{}プラグインはこのタイプのウォレットをサポートしていません。"
 
-#: electrum/util.py:832
+#: electrum/util.py:829
 msgid "{} seconds ago"
 msgstr ""
 
@@ -7987,11 +7974,11 @@ msgstr ""
 msgid "{} shares from group {}"
 msgstr ""
 
-#: electrum/gui/qt/history_list.py:362
+#: electrum/gui/qt/history_list.py:369
 msgid "{} transactions"
 msgstr ""
 
-#: electrum/gui/qt/utxo_list.py:118
+#: electrum/gui/qt/utxo_list.py:123
 msgid "{} unspent transaction outputs"
 msgstr ""
 
@@ -10183,32 +10170,32 @@ msgctxt "WCBIP39Refine|"
 msgid "legacy multisig (p2sh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:136
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:138
 msgctxt "WCBIP39Refine|"
 msgid "p2sh-segwit multisig (p2wsh-p2sh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:143
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:146
 msgctxt "WCBIP39Refine|"
 msgid "native segwit multisig (p2wsh)"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:149
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:154
 msgctxt "WCBIP39Refine|"
 msgid "You can override the suggested derivation path."
 msgstr "規定のパスを書き換え可能です。"
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:150
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:155
 msgctxt "WCBIP39Refine|"
 msgid "If you are not sure what this is, leave this field unchanged."
 msgstr "よく分からない場合、ここは変更しないで下さい。"
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:154
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:159
 msgctxt "WCBIP39Refine|"
 msgid "Derivation path"
 msgstr "派生パス"
 
-#: ../gui/qml/components/wizard/WCBIP39Refine.qml:181
+#: ../gui/qml/components/wizard/WCBIP39Refine.qml:186
 msgctxt "WCBIP39Refine|"
 msgid "Detect Existing Accounts"
 msgstr "既存のアカウントを削除"
@@ -10366,98 +10353,98 @@ msgctxt "WCHaveMasterKey|"
 msgid "Scan a master key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:40
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:49
 msgctxt "WCHaveSeed|"
 msgid "Electrum seeds are the default seed type."
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:41
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:50
 msgctxt "WCHaveSeed|"
 msgid "If you are restoring from a seed previously created by Electrum, choose this option"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:44
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:53
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "ElectrumはBIP39(+BIP44)対応ウォレットのシードをインポートすることが可能です。"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:46
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:55
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "我々の安全基準を満たさないのでBIP39シードは生成しません。"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:47
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:56
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
 msgstr "BIP39のシードはバージョン番号を含みません。これは将来のソフトに対する妥協です。"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:50
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:59
 msgctxt "WCHaveSeed|"
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "SLIP39シードはElectrumでインポートできるので、ユーザーは他のウォレットにロックされた資金にアクセスすることができます。"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:52
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:61
 msgctxt "WCHaveSeed|"
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "しかしながら、我々はSLIP39シードは生成しません。"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:71
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:80
 msgctxt "WCHaveSeed|"
 msgid "Error: duplicate master public key"
 msgstr "エラー：マスター公開鍵が重複しています"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:74
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:83
 msgctxt "WCHaveSeed|"
 msgid "Error: master public key types do not match"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:100
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:109
 msgctxt "WCHaveSeed|"
 msgid "Here is your master public key. Please share it with your cosigners"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:124
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:133
 msgctxt "WCHaveSeed|"
 msgid "Master public key"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:145
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:154
 #, qt-format
 msgctxt "WCHaveSeed|"
 msgid "Cosigner #%1 of %2"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:151
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:160
 msgctxt "WCHaveSeed|"
 msgid "Seed Type"
 msgstr "シードタイプ"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:161
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:170
 msgctxt "WCHaveSeed|"
 msgid "Electrum"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:162
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:171
 msgctxt "WCHaveSeed|"
 msgid "BIP39"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:184
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:193
 msgctxt "WCHaveSeed|"
 msgid "Enter cosigner seed"
 msgstr "共同署名者のシードを入力"
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:184
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:193
 msgctxt "WCHaveSeed|"
 msgid "Enter your seed"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:206
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:215
 msgctxt "WCHaveSeed|"
 msgid "Extend seed with custom words"
 msgstr ""
 
-#: ../gui/qml/components/wizard/WCHaveSeed.qml:214
+#: ../gui/qml/components/wizard/WCHaveSeed.qml:223
 msgctxt "WCHaveSeed|"
 msgid "Enter your custom word(s)"
 msgstr ""
