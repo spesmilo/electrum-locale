@@ -355,7 +355,7 @@ msgstr "Añade restauración de cadena para facturas lightning"
 
 #: electrum/simple_config.py:1147
 msgid "Add thousand separators to bitcoin amounts"
-msgstr "Agregue miles de separadores a las cantidades de bitcoins"
+msgstr "Agregue miles de separadores a las cantidades de bitcoin"
 
 #: electrum/gui/qt/transaction_dialog.py:501
 msgid "Add to History"
@@ -589,9 +589,9 @@ msgstr "Árabe"
 #: electrum/plugins/safe_t/qt.py:351 electrum/plugins/keepkey/qt.py:439
 #: electrum/plugins/trezor/qt.py:619
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has bitcoin in it!"
 msgstr "¿Seguro que quieres borrar el dispositivo?\n"
-"¡Tu cartera aún tiene bitcoins!"
+"¡Tu cartera aún tiene bitcoin!"
 
 #: electrum/gui/qt/channels_list.py:164
 msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
@@ -1986,9 +1986,9 @@ msgstr "Complementos de Electrum"
 
 #: electrum/plugin.py:770
 msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+"Before you request bitcoin to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoin you receive will be unspendable."
 msgstr "Electrum no puede enlazarse con tu  {}.\n\n"
-"Antes de que solicites que te envíen bitcoins a direcciones en esta cartera, asegúrate de que puedes enlazar tu dispositivo, o que tienes la semilla del mismo (y la passphrase, si es que la tiene). Si no, todos los bitcoins que recibas no se podrán gastar."
+"Antes de que solicites que te envíen bitcoin a direcciones en esta cartera, asegúrate de que puedes enlazar tu dispositivo, o que tienes la semilla del mismo (y la passphrase, si es que la tiene). Si no, todos los bitcoin que recibas no se podrán gastar."
 
 #: electrum/gui/qt/network_dialog.py:302 electrum/gui/qt/network_dialog.py:588
 msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
@@ -2197,8 +2197,8 @@ msgstr "Introduzca abajo la nueva contraseña."
 #: electrum/plugins/safe_t/clientbase.py:75
 #: electrum/plugins/keepkey/clientbase.py:70
 #: electrum/plugins/trezor/clientbase.py:318
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
-msgstr "Introduce una passphrase para generar esta cartera. Cada vez que uses esta cartera tu  {} te solicitará tu passphrase. Si olvidas la passphrase no podrás acceder a los bitcoins en la cartera."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoin in the wallet."
+msgstr "Introduce una passphrase para generar esta cartera. Cada vez que uses esta cartera tu  {} te solicitará tu passphrase. Si olvidas la passphrase no podrás acceder a los bitcoin en la cartera."
 
 #: electrum/gui/qt/main_window.py:2488
 msgid "Enter addresses"
@@ -2871,8 +2871,8 @@ msgstr "Si marca esta casilla, sus transacciones no confirmadas se consolidarán
 
 #: electrum/plugins/safe_t/qt.py:488 electrum/plugins/keepkey/qt.py:556
 #: electrum/plugins/trezor/qt.py:756
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "Si deshabilita su PIN, cualquier persona que tenga acceso físico a su dispositivo {} puede gastar sus bitcoins."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoin."
+msgstr "Si deshabilita su PIN, cualquier persona que tenga acceso físico a su dispositivo {} puede gastar sus bitcoin."
 
 #: electrum/gui/qt/wizard/wallet.py:532
 msgid "If you do not know what this is, leave this field empty."
@@ -2885,8 +2885,8 @@ msgstr "Si fuerza el cierre de este canal, los fondos que tiene en él no estar�
 
 #: electrum/plugins/safe_t/qt.py:39 electrum/plugins/keepkey/qt.py:39
 #: electrum/plugins/trezor/qt.py:41
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
-msgstr "Si olvida la contraseña, no podrá acceder a los bitcoins en la billetera. La contraseña no es un PIN. Cambie esto solo si está seguro de que lo comprende."
+msgid "If you forget a passphrase you will be unable to access any bitcoin in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr "Si olvida la contraseña, no podrá acceder a los bitcoin en la billetera. La contraseña no es un PIN. Cambie esto solo si está seguro de que lo comprende."
 
 #: electrum/gui/messages.py:67
 msgid "If you go offline before broadcasting the claiming transaction and let the swap time out, you will not get back the already pre-paid mining fees."
@@ -3577,8 +3577,8 @@ msgid "Make sure you install it with python3"
 msgstr "Asegúrese de instalarlo con python3"
 
 #: electrum/gui/qt/main_window.py:576
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Asegúrese de que posee la frase semilla o las claves privadas, antes de solicitar bitcoins que se enviarán a esta cartera."
+msgid "Make sure you own the seed phrase or the private keys, before you request bitcoin to be sent to this wallet."
+msgstr "Asegúrese de que posee la frase semilla o las claves privadas, antes de solicitar bitcoin que se enviarán a esta cartera."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:579
 msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
@@ -4038,7 +4038,7 @@ msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:513 electrum/plugins/keepkey/qt.py:581
 #: electrum/plugins/trezor/qt.py:781
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoin will be lost forever."
 msgstr ""
 
 #: electrum/gui/qt/new_channel_dialog.py:28
@@ -4141,7 +4141,7 @@ msgstr "Protección por PIN"
 
 #: electrum/plugins/safe_t/qt.py:422 electrum/plugins/keepkey/qt.py:513
 #: electrum/plugins/trezor/qt.py:690
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoin if they obtain physical access to your {}."
 msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:381 electrum/plugins/keepkey/qt.py:471
@@ -5912,8 +5912,8 @@ msgid "This may result in large QR codes"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:575
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Esto significa que no será capaz de gastar bitcoins con él."
+msgid "This means you will not be able to spend bitcoin with it."
+msgstr "Esto significa que no será capaz de gastar bitcoin con él."
 
 #: electrum/simple_config.py:970
 msgid "This might improve your privacy somewhat."
@@ -6758,11 +6758,11 @@ msgid "When sending lightning payments, this value is an upper bound for the fee
 msgstr ""
 
 #: electrum/gui/messages.py:50
-msgid "When you freeze a coin, it will not be used for sending bitcoins."
+msgid "When you freeze a coin, it will not be used for sending bitcoin."
 msgstr ""
 
 #: electrum/gui/messages.py:49
-msgid "When you freeze an address, the funds in that address will not be used for sending bitcoins."
+msgid "When you freeze an address, the funds in that address will not be used for sending bitcoin."
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:1217
@@ -6978,8 +6978,8 @@ msgstr "Usted envía"
 
 #: electrum/plugins/safe_t/qt.py:36 electrum/plugins/keepkey/qt.py:36
 #: electrum/plugins/trezor/qt.py:38
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
-msgstr "Debe habilitar la protección con PIN. Su PIN es la única protección para sus bitcoins si pierde o le roban su dispositivo."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoin if your device is lost or stolen."
+msgstr "Debe habilitar la protección con PIN. Su PIN es la única protección para sus bitcoin si pierde o le roban su dispositivo."
 
 #: electrum/gui/qt/send_tab.py:685
 msgid "You will be able to pay once the channel is open."
@@ -7011,8 +7011,8 @@ msgid "Your accounts have been moved to"
 msgstr "Sus cuentas han sido movidas a"
 
 #: electrum/gui/qt/password_dialog.py:259
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Sus bitcoins están protegidos con contraseña. Sin embargo, el archivo de su cartera no está cifrado."
+msgid "Your bitcoin is password protected. However, your wallet file is not encrypted."
+msgstr "Sus bitcoin están protegidos con contraseña. Sin embargo, el archivo de su cartera no está cifrado."
 
 #: electrum/gui/qt/send_tab.py:703
 msgid "Your channels can send {}."
