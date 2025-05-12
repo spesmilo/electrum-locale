@@ -586,7 +586,7 @@ msgstr "Arabčina"
 #: electrum/plugins/safe_t/qt.py:351 electrum/plugins/keepkey/qt.py:439
 #: electrum/plugins/trezor/qt.py:619
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has bitcoin in it!"
 msgstr "NAOZAJ si želáte vymazať toto zariadenie?\n"
 "Peňaženka stále obsahuje bitcoiny!"
 
@@ -1977,7 +1977,7 @@ msgstr "Pluginy programu Electrum"
 
 #: electrum/plugin.py:770
 msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+"Before you request bitcoin to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoin you receive will be unspendable."
 msgstr "Electrum nie je možné spárovať s vaším zariadením {}.\n\n"
 "Predtým, ako požiadate o zaslanie bitcoinov na adresy v tejto peňaženke, uistite sa, že párovanie vášho zariadenia funguje alebo že máte jeho seed (a prístupovú frázu, ak existuje). Inak nubudete môcť minúť žiadne bitcoiny, ktoré obdržíte."
 
@@ -2188,7 +2188,7 @@ msgstr "Zadajte nižšie nové heslo."
 #: electrum/plugins/safe_t/clientbase.py:75
 #: electrum/plugins/keepkey/clientbase.py:70
 #: electrum/plugins/trezor/clientbase.py:318
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoin in the wallet."
 msgstr "Pre vytvorenie tejto peňaženky zadajte prístupovú frázu. Vždy, keď budete používať túto peňaženku, vaše {} vás vyzve, aby ste zadali prístupovú frázu. Ak zabudnete prístupovú frázu, nebudete môcť pristupovať k bitcoinom v peňaženke."
 
 #: electrum/gui/qt/main_window.py:2488
@@ -2860,7 +2860,7 @@ msgstr "Ak zaškrtnete toto políčko, vaše nepotvrdené transakcie sa zlúčia
 
 #: electrum/plugins/safe_t/qt.py:488 electrum/plugins/keepkey/qt.py:556
 #: electrum/plugins/trezor/qt.py:756
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoin."
 msgstr "Ak vypnete svoj PIN, ktokoľvek s fyzickým prístupom k vášmu zariadeniu {} bude môcť míňať vaše bitcoiny."
 
 #: electrum/gui/qt/wizard/wallet.py:532
@@ -2874,7 +2874,7 @@ msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:39 electrum/plugins/keepkey/qt.py:39
 #: electrum/plugins/trezor/qt.py:41
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgid "If you forget a passphrase you will be unable to access any bitcoin in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "Ak zabudnete prístupovú frázu, stratíte prístup k bitcoinom v danej peňaženke. Prístupová fráza nie je PIN. Toto meňte iba ak ste si istý/á, že tomu rozumiete."
 
 #: electrum/gui/messages.py:67
@@ -3563,7 +3563,7 @@ msgid "Make sure you install it with python3"
 msgstr "Uistite sa, že ho inštalujete pomocou python3"
 
 #: electrum/gui/qt/main_window.py:576
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request bitcoin to be sent to this wallet."
 msgstr "Predtým, ako požiadate o zaslanie Bitcoinov do tejto peňaženky, sa uistite, že vlastníte seedovú frázu alebo súkromné kľúče."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:579
@@ -4024,7 +4024,7 @@ msgstr "{} podporuje iba výstupy adries"
 
 #: electrum/plugins/safe_t/qt.py:513 electrum/plugins/keepkey/qt.py:581
 #: electrum/plugins/trezor/qt.py:781
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoin will be lost forever."
 msgstr "Zariadenie vymažte iba ak ste si zapísali seed pre obnovu a zariadenie je prázdne, inak sa bitcoiny navždy stratia."
 
 #: electrum/gui/qt/new_channel_dialog.py:28
@@ -4127,7 +4127,7 @@ msgstr "Ochrana PIN-om"
 
 #: electrum/plugins/safe_t/qt.py:422 electrum/plugins/keepkey/qt.py:513
 #: electrum/plugins/trezor/qt.py:690
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoin if they obtain physical access to your {}."
 msgstr "Dôrazne sa odporúča ochrana PIN-om. PIN je vaša jediná ochrana voči krádeži bitcoinov v prípade, že niekto získa fyzický prístup k vášmu zariadeniu {}."
 
 #: electrum/plugins/safe_t/qt.py:381 electrum/plugins/keepkey/qt.py:471
@@ -5898,7 +5898,7 @@ msgid "This may result in large QR codes"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:575
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend bitcoin with it."
 msgstr "Znamená to, že nebudete môcť minúť bitcoiny, ktoré obsahuje."
 
 #: electrum/simple_config.py:970
@@ -6742,11 +6742,11 @@ msgid "When sending lightning payments, this value is an upper bound for the fee
 msgstr ""
 
 #: electrum/gui/messages.py:50
-msgid "When you freeze a coin, it will not be used for sending bitcoins."
+msgid "When you freeze a coin, it will not be used for sending bitcoin."
 msgstr ""
 
 #: electrum/gui/messages.py:49
-msgid "When you freeze an address, the funds in that address will not be used for sending bitcoins."
+msgid "When you freeze an address, the funds in that address will not be used for sending bitcoin."
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:1217
@@ -6962,7 +6962,7 @@ msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:36 electrum/plugins/keepkey/qt.py:36
 #: electrum/plugins/trezor/qt.py:38
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoin if your device is lost or stolen."
 msgstr "Mali by ste zapnúť ochranu PIN-om. PIN je totiž vašou jedinou ochranou voči krádeži bitcoinov v prípade straty alebo krádeže vášho zariadenia."
 
 #: electrum/gui/qt/send_tab.py:685
@@ -6996,7 +6996,7 @@ msgid "Your accounts have been moved to"
 msgstr "Vaše účty sa presunuli do"
 
 #: electrum/gui/qt/password_dialog.py:259
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgid "Your bitcoin is password protected. However, your wallet file is not encrypted."
 msgstr "Vaše bitcoiny sú chránené heslom. Avšak súbor vašej peňaženky nie je šifrovaný."
 
 #: electrum/gui/qt/send_tab.py:703
