@@ -42,17 +42,16 @@ From two commit refs directly:
 
 Exit code is 1 if any spam is detected, 0 otherwise. This allows CI to fail the build on vandalism.
 
-### Cirrus CI Integration
+### GitHub Actions Integration
 
-The repository includes a `.cirrus.yml` that runs the proofreader on every pull request. It diffs the PR branch against the default branch and checks only changed translations.
+The repository includes `.github/workflows/proofreader.yml` that runs the proofreader on every pull request. It diffs the PR branch against the default branch and checks only changed translations.
 
 #### Setting up the OpenAI API secret
 
-The OPENAI_API_KEY env variable needs to be set/overridden in the Cirrus console with the actual API key.
-(https://cirrus-ci.com/settings/...)
+The `OPENAI_API_KEY` needs to be set as a repository secret in GitHub:
+Settings → Secrets and variables → Actions → New repository secret → Name: `OPENAI_API_KEY`.
 
-Set "Decrypt Secured Environment Variables for builds initialized by" to "Only users with write permissions"
-so the llm CI is only triggered for PRs of users with write permissions.
+GitHub Actions does not expose secrets to workflows triggered by pull requests from forks, so the proofreader effectively only runs with the API key for PRs from collaborators with write access.
 
 ### Unittests
 
