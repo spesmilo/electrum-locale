@@ -1,10 +1,10 @@
 name: LLM Translation Proofreader
 
 on:
-  # danger! PRs have access to env secrets. Only safe as we manually approve CI runs for external contributors.
+  # danger! PRs have access to env secrets.
+  # Only safe as we guard the job to trusted groups below.
   pull_request_target:
     branches: [master]
-  workflow_dispatch:
 
 concurrency:
   group: proofreader-${{ github.event.pull_request.number }}
@@ -13,6 +13,8 @@ concurrency:
 jobs:
   proofreader:
     name: LLM Translation Proofreader
+    if: contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR"]'),
+                 github.event.pull_request.author_association)
     runs-on: ubuntu-24.04
     env:
       OPENAI_BASE_URL: "https://api.ppq.ai"
