@@ -349,7 +349,7 @@ async def call_openai_async(session: aiohttp.ClientSession, prompt: str) -> str:
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
 
-    while True:
+    for _attempt in range(10):
         try:
             async with session.post(url, json=payload, headers=headers, timeout=aiohttp.ClientTimeout(total=60)) as response:
                 if response.status != 200:
@@ -362,6 +362,9 @@ async def call_openai_async(session: aiohttp.ClientSession, prompt: str) -> str:
         except Exception as e:
             print(f"Request failed ({e}), retrying in {retry_delay}s...", file=sys.stderr)
             await asyncio.sleep(retry_delay)
+    else:
+        print(f"all api request attempts failed, giving up", file=sys.stderr)
+        sys.exit(1)
 
 
 async def classify_translation_async(
@@ -630,6 +633,10 @@ def main():
         os.environ["CONCURRENCY"] = str(args.concurrency)
     if args.retry_delay is not None:
         os.environ["RETRY_DELAY"] = str(args.retry_delay)
+
+    if not os.getenv("OPENAI_API_KEY"):
+        print(f"API key missing", file=sys.stderr)
+        return 1
 
     # Diff mode: check only changed translations
     if args.diff is not None or args.diff_commits is not None:
