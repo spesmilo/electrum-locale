@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-Crowdin-File-ID: 68\n"
 
 msgid "Something went wrong while executing Electrum."
-msgstr "Při provádění aplikace Electrum se něco pokazilo."
+msgstr "Při spouštění aplikace Electrum se něco pokazilo."
 
 msgid "Sorry!"
 msgstr "Promiňte!"
@@ -365,9 +365,6 @@ msgstr "Opravdu vymazat tuto peněženku?"
 msgid "Problem deleting wallet"
 msgstr "Problém s mazáním peněženky"
 
-msgid "Paid!"
-msgstr "Zaplaceno!"
-
 msgid "Payment failed: "
 msgstr "Platba selhala: "
 
@@ -395,17 +392,14 @@ msgstr "čekání na potvrzení"
 msgid "Invoice has unknown status"
 msgstr "Faktura má neznámý stav"
 
+msgid "Paid!"
+msgstr "Zaplaceno!"
+
 msgid "Cannot pay less than the amount specified in the invoice"
 msgstr "Nemůže se zaplatit méně, než je částka uvedená na faktuře"
 
 msgid "Insufficient balance"
 msgstr "Nedostatečný zůstatek"
-
-msgid "Invoice already paid"
-msgstr "Faktura již byla zaplacena"
-
-msgid "Payment request has expired"
-msgstr "Požadavek platby vypršel"
 
 msgid "Unknown invoice"
 msgstr "Neznámá faktura"
@@ -421,9 +415,6 @@ msgstr "Adresu se nepodařilo vyřešit"
 
 msgid "Could not resolve LNURL"
 msgstr "Nelze vyřešit LNURL"
-
-msgid "Could not resolve BIP70 payment request: {}"
-msgstr "Žádost o platbu BIP70 nelze vyřešit: {}"
 
 msgid "Could not resolve"
 msgstr "Nepodařilo se vyřešit"
@@ -515,6 +506,9 @@ msgstr "Nepodařilo se určit dynamické poplatky, nejste připojeni"
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "Nová sazba poplatku musí být vyšší než původní sazba poplatku."
 
+msgid "Transaction is missing info from network"
+msgstr "V transakci chybí informace ze sítě"
+
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "Nelze CPFP: neznámý poplatek za nadřízenou transakci."
 
@@ -538,12 +532,6 @@ msgstr "Sweep transakce"
 
 msgid "Amount"
 msgstr "Částka"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} nových transakcí: Celková částka přijatá v nových transakcích {}"
-
-msgid "New transaction: {}"
-msgstr "Nová transakce: {}"
 
 msgid "Synchronizing..."
 msgstr "Synchronizuji..."
@@ -613,6 +601,9 @@ msgstr "Ukončit Electrum"
 
 msgid "Cannot load wallet"
 msgstr "Nelze načíst peněženku"
+
+msgid "Updated 'Pay To' field to handle external URI"
+msgstr "Aktualizováno pole 'Komu', aby přijímalo externí URI"
 
 msgid "Text copied to Clipboard"
 msgstr "Text zkopírován do schránky"
@@ -1766,6 +1757,9 @@ msgstr "&Nápověda"
 msgid "&About"
 msgstr "&O aplikaci"
 
+msgid "&Changelog"
+msgstr "&Seznam změn"
+
 msgid "&Check for updates"
 msgstr "&Kontrola aktualizací"
 
@@ -1907,18 +1901,6 @@ msgstr "Výstupy"
 msgid "Expires"
 msgstr "Expiruje"
 
-msgid "Requestor"
-msgstr "Žadatel"
-
-msgid "Signature"
-msgstr "Podpis"
-
-msgid "Save invoice to file"
-msgstr "Uložit fakturu do souboru"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "BIP70 Faktura uložena jako {}"
-
 msgid "Creation time"
 msgstr "Datum vytvoření"
 
@@ -2042,6 +2024,9 @@ msgstr "Nesprávný podpis"
 
 msgid "Sign/verify Message"
 msgstr "Podepsat/ověřit správu"
+
+msgid "Signature"
+msgstr "Podpis"
 
 msgid "Sign"
 msgstr "Podepsat"
@@ -2438,6 +2423,12 @@ msgstr "Vypnuté"
 
 msgid "Electrum Plugins"
 msgstr "Electrum pluginy"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "Visit plugins website"
+msgstr "Navštívit web se zásuvnými moduly"
 
 msgid "Try Auto-Reset"
 msgstr "Zkuste automatický reset"
@@ -2893,6 +2884,9 @@ msgstr "Maximální délka komentáře: {} znaků"
 msgid "Amount must be between {} and {} sat."
 msgstr "Částka musí být mezi {} a {} sat."
 
+msgid "Invoice already paid"
+msgstr "Faktura již byla zaplacena"
+
 msgid "No amount"
 msgstr "Žádná částka"
 
@@ -2913,6 +2907,9 @@ msgstr "Nalezeny neplatné řádky:"
 
 msgid "Do you wish to continue?"
 msgstr "Opravdu chcete pokračovat?"
+
+msgid "Payment request has expired"
+msgstr "Požadavek platby vypršel"
 
 msgid "Rebalance existing channels"
 msgstr "Vybalancovat existující kanály"
@@ -2938,8 +2935,14 @@ msgstr "Tuto fakturu nelze zaplatit pomocí Lightning."
 msgid "Your channels can send {}."
 msgstr "Vaše kanály mohou odeslat {}."
 
-msgid "This will send {}?"
-msgstr "Toto odešle {}?"
+msgid "This will send {} to the recipient"
+msgstr "Toto odešle {} příjemci"
+
+msgid "Max routing fee"
+msgstr "Max. poplatek směrování"
+
+msgid "{}% of payment"
+msgstr "{}% platby"
 
 msgid "Sending payment"
 msgstr "Odesílání platby"
@@ -3018,9 +3021,6 @@ msgstr "Bez této možnosti se bude muset Electrum při každém spuštění syn
 
 msgid "This may impact the reliability of your payments."
 msgstr "Toto může ovlivnit spolehlivost vašich plateb."
-
-msgid "{}% of payment"
-msgstr "{}% platby"
 
 msgid "Base unit of your wallet."
 msgstr "Základní jednotka vaší peněženky."
@@ -3368,9 +3368,6 @@ msgstr "Probíhá kontrola aktualizací..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Počkejte prosím, než Electrum vyhledá dostupné aktualizace."
-
-msgid "Help"
-msgstr "Pomoc"
 
 msgid "Info"
 msgstr "Info"
@@ -6151,6 +6148,27 @@ msgstr "Dostatečnou kapacitu můžete mít, pokud provedete swap části vašic
 msgid "({} are frozen)"
 msgstr "({} jsou zmrazeny)"
 
+msgid "{} new transactions:"
+msgstr "{} nových transakcí:"
+
+msgid "Total amount sent {}"
+msgstr "Celková odeslaná částka: {}"
+
+msgid "Total amount received {}"
+msgstr "Celková přijatá částka {}"
+
+msgid "Total balance change: {}"
+msgstr "Celková změna zůstatku: {}"
+
+msgid "sent {}"
+msgstr "odesláno {}"
+
+msgid "received {}"
+msgstr "přijato {}"
+
+msgid "New transaction: {}"
+msgstr "Nová transakce: {}"
+
 msgid "invalid address"
 msgstr "neplatná adresa"
 
@@ -6160,12 +6178,6 @@ msgstr "adresa je už v peněžence"
 msgid "Cannot delete last remaining address from wallet"
 msgstr "Z peněženky není možné odstranit poslední zbývající adresu"
 
-msgid "invalid private key"
-msgstr "neplatný soukromý klíč"
-
-msgid "not implemented type"
-msgstr "neimplementovaný typ"
-
 msgid "Duplicate master keys"
 msgstr "Duplikovat hlavní klíče"
 
@@ -6174,6 +6186,9 @@ msgstr "Heterogenní hlavní klíče"
 
 msgid "File already exists at path: {}"
 msgstr "Soubor již existuje v: {}"
+
+msgid "Importing individual private keys of type '{}' is not supported."
+msgstr "Import jednotlivých soukromých klíčů typu '{}' není podporován."
 
 msgid "Wrong key type {}"
 msgstr "Klíč nesprávného typu {}"
@@ -6847,7 +6862,7 @@ msgstr "Promiňte!"
 
 msgctxt "ExceptionDialog|"
 msgid "Something went wrong while executing Electrum."
-msgstr "Při provádění aplikace Electrum se něco pokazilo."
+msgstr "Při spouštění aplikace Electrum se něco pokazilo."
 
 msgctxt "ExceptionDialog|"
 msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
@@ -7017,18 +7032,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importovat"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Importovat zálohu kanálu"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Scan a channel backup"
-msgstr "Skenovat zálohu kanálu"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importovat"
-
 msgctxt "InvoiceDialog|"
 msgid "On-chain Invoice"
 msgstr "On-chain faktura"
@@ -7064,10 +7067,6 @@ msgstr "Maximum"
 msgctxt "InvoiceDialog|"
 msgid "Technical properties"
 msgstr "Technické vlastnosti"
-
-msgctxt "InvoiceDialog|"
-msgid "Remote Pubkey"
-msgstr "Vzdálený veřejný klíč"
 
 msgctxt "InvoiceDialog|"
 msgid "Node public key"
@@ -7370,10 +7369,6 @@ msgid "Nostr relays"
 msgstr "Přenosové body Nostr"
 
 msgctxt "NostrConfigDialog|"
-msgid "Enter the list of Nostr relays"
-msgstr "Zadejte seznam přenosových bodů Nostr"
-
-msgctxt "NostrConfigDialog|"
 msgid "Nostr relays are used to send and receive submarine swap offers."
 msgstr "Přenosové body Nostr jsou používány pro odesílání a přijímání nabídek submarine swap."
 
@@ -7384,6 +7379,10 @@ msgstr "U multisig peněženek je také používán nostr k předávání transa
 msgctxt "NostrConfigDialog|"
 msgid "Connections to nostr are only made when required, and ephemerally."
 msgstr "Připojení k nostr se provádí pouze v případě potřeby a jen pomíjivě."
+
+msgctxt "NostrConfigDialog|"
+msgid "Enter the list of Nostr relays"
+msgstr "Zadejte seznam přenosových bodů Nostr"
 
 msgctxt "NostrConfigDialog|"
 msgid "Ok"
@@ -7450,10 +7449,6 @@ msgid "This means your channels cannot be recovered from seed."
 msgstr "Znamená to, že vaše kanály nemohou být obnoveny ze seedu."
 
 msgctxt "OpenChannelDialog|"
-msgid "Node"
-msgstr "Uzel"
-
-msgctxt "OpenChannelDialog|"
 msgid "Paste or scan node uri/pubkey"
 msgstr "Vložte nebo naskenujte uri / veřejný klíč uzlu"
 
@@ -7464,10 +7459,6 @@ msgstr "Neplatné ID uzlu (node-id) nebo řetězec připojení"
 msgctxt "OpenChannelDialog|"
 msgid "Scan a node-id or a connect string"
 msgstr "Skenovat ID uzlu (node-id) nebo řetězec připojení"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Částka"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -7912,10 +7903,6 @@ msgstr "Onchain adresa"
 msgctxt "ReceiveRequests|"
 msgid "To access this list from the main screen, press and hold the Receive button"
 msgstr "Chcete-li na tento seznam vstoupit z hlavní obrazovky, stiskněte a podržte tlačítko Přijmout"
-
-msgctxt "ReceiveRequests|"
-msgid "Pending requests"
-msgstr "Nevyřízené požadavky"
 
 msgctxt "ReceiveRequests|"
 msgid "Delete"
@@ -8689,14 +8676,6 @@ msgctxt "WCServerConfig|"
 msgid "Server"
 msgstr "Server"
 
-msgctxt "WCShowMasterPubkey|"
-msgid "Here is your master public key. Please share it with your cosigners"
-msgstr "Zde je váš hlavní veřejný klíč. Sdílejte jej prosím se svými spolupodepisovateli."
-
-msgctxt "WCShowMasterPubkey|"
-msgid "Master public key"
-msgstr "Hlavní veřejný klíč"
-
 msgctxt "WCTermsOfUseRequest|"
 msgid "Terms of Use"
 msgstr "Podmínky použití"
@@ -8708,10 +8687,6 @@ msgstr "Název peněženky"
 msgctxt "WCWalletPassword|"
 msgid "Enter password"
 msgstr "Zadejte heslo"
-
-msgctxt "WCWalletPassword|"
-msgid "Enter existing password"
-msgstr "Zadejte stávající heslo"
 
 msgctxt "WCWalletPassword|"
 msgid "Enter password (again)"
@@ -8812,6 +8787,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Jméno"
 
 msgctxt "WalletDetails|"
 msgid "Tap to show seed"
@@ -9094,14 +9073,6 @@ msgstr "Transakce vytvořena, ale ještě nepodepsána touto peněženkou. Podep
 msgctxt "WalletMainView|"
 msgid "Could not sign tx"
 msgstr "Nepodařilo se podepsat tx"
-
-msgctxt "WalletSummary|"
-msgid "More details"
-msgstr "Více podrobností"
-
-msgctxt "WalletSummary|"
-msgid "Switch wallet"
-msgstr "Přepnout peněženku"
 
 msgctxt "Wallets|"
 msgid "Wallets"

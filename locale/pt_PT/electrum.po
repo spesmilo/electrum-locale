@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -61,9 +61,6 @@ msgstr "Durante esse tempo, os fundos não serão recuperáveis da sua semente e
 msgid "Could not close channel: "
 msgstr "Não foi possível fechar o canal: "
 
-msgid "Payment request has expired"
-msgstr "O pedido de pagamento caducou"
-
 msgid "Error"
 msgstr "Erro"
 
@@ -84,12 +81,6 @@ msgstr "Não há fundos suficientes"
 
 msgid "Amount"
 msgstr "Quantia"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} novas transações: Quantia total recebida nas novas transações {}"
-
-msgid "New transaction: {}"
-msgstr "Nova transação: {}"
 
 msgid "Synchronizing..."
 msgstr "A sincronizar..."
@@ -748,18 +739,6 @@ msgstr "Saídas"
 msgid "Expires"
 msgstr "Caduca"
 
-msgid "Requestor"
-msgstr "Requerente"
-
-msgid "Signature"
-msgstr "Assinatura"
-
-msgid "Save invoice to file"
-msgstr "Guardar fatura para ficheiro"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "Fatura BIP70 guardada como {}"
-
 msgid "Password"
 msgstr "Palavra-passe"
 
@@ -816,6 +795,9 @@ msgstr "Assinatura errada"
 
 msgid "Sign/verify Message"
 msgstr "Assinar/verificar mensagem"
+
+msgid "Signature"
+msgstr "Assinatura"
 
 msgid "Sign"
 msgstr "Assinar"
@@ -1078,6 +1060,9 @@ msgstr "Desativado"
 msgid "Electrum Plugins"
 msgstr "Plugins do Electrum"
 
+msgid "Help"
+msgstr "Ajuda"
+
 msgid "Select where to save file"
 msgstr "Selecione onde guardar o ficheiro"
 
@@ -1247,6 +1232,9 @@ msgstr "Linhas inválidas encontradas:"
 msgid "Do you wish to continue?"
 msgstr "Quer continuar?"
 
+msgid "Payment request has expired"
+msgstr "O pedido de pagamento caducou"
+
 msgid "Invoice has expired"
 msgstr "A fatura venceu"
 
@@ -1363,9 +1351,6 @@ msgstr "A verificar atualizações..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Por favor, aguarde enquanto a Electrum procura por atualizações."
-
-msgid "Help"
-msgstr "Ajuda"
 
 msgid "Info"
 msgstr "Info"
@@ -2142,14 +2127,11 @@ msgstr "Parcialmente assinado"
 msgid "The fee for this transaction seems unusually high."
 msgstr "A taxa para esta transação parece extraordinariamente alta."
 
+msgid "New transaction: {}"
+msgstr "Nova transação: {}"
+
 msgid "invalid address"
 msgstr "endereço inválido"
-
-msgid "invalid private key"
-msgstr "chave privada inválida"
-
-msgid "not implemented type"
-msgstr "tipo não implementado"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -2371,14 +2353,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importar"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Importar cópia de segurança do canal"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importar"
-
 msgctxt "InvoiceDialog|"
 msgid "Address"
 msgstr "Endereço"
@@ -2474,10 +2448,6 @@ msgstr "Erro"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Comissão"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Quantia"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -2818,6 +2788,10 @@ msgstr "Encriptada"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Semente"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nome"
 
 msgctxt "WalletDetails|"
 msgid "unknown"

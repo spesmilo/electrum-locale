@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -187,12 +187,6 @@ msgstr "송장에 명시된 금액보다 적은 금액을 지불할 수 없음"
 msgid "Insufficient balance"
 msgstr "잔액 부족"
 
-msgid "Invoice already paid"
-msgstr "이미 결제된 송장"
-
-msgid "Payment request has expired"
-msgstr "결제 요청이 만료되었습니다"
-
 msgid "Unknown invoice"
 msgstr "알 수 없는 송장"
 
@@ -207,9 +201,6 @@ msgstr "주소 오류를 해결 할 수 없습니다."
 
 msgid "Could not resolve LNURL"
 msgstr "LNURL 오류를 해결 할 수 없습니다."
-
-msgid "Could not resolve BIP70 payment request: {}"
-msgstr "BIP70 지불 요청을 해결 할 수 없습니다."
 
 msgid "Could not resolve"
 msgstr "해결할 수 없습니다."
@@ -273,9 +264,6 @@ msgstr "충분하지 않습니다 자금"
 
 msgid "Amount"
 msgstr "결제 금액"
-
-msgid "New transaction: {}"
-msgstr "새로운 거래: {}"
 
 msgid "Synchronizing..."
 msgstr "동기화"
@@ -1291,18 +1279,6 @@ msgstr "출력"
 msgid "Expires"
 msgstr "만료일"
 
-msgid "Requestor"
-msgstr "요청자"
-
-msgid "Signature"
-msgstr "서명"
-
-msgid "Save invoice to file"
-msgstr "파일로 송장 저장"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "BIP70 송장 {}으로 저장"
-
 msgid "Creation time"
 msgstr "만든 시간"
 
@@ -1392,6 +1368,9 @@ msgstr "서명 확인"
 
 msgid "Wrong signature"
 msgstr "잘못 된 서명"
+
+msgid "Signature"
+msgstr "서명"
 
 msgid "Sign"
 msgstr "사인"
@@ -1698,6 +1677,9 @@ msgstr "비활성화됨"
 
 msgid "Electrum Plugins"
 msgstr "Electrum 플러그인"
+
+msgid "Help"
+msgstr "도움"
 
 msgid "Select where to save file"
 msgstr "파일 저장할 위치 선택"
@@ -2019,6 +2001,9 @@ msgstr "최대 댓글 길이: {}자"
 msgid "Amount must be between {} and {} sat."
 msgstr "금액은 {} 와 {} 사토시(sats) 이내로 입력해주십시오."
 
+msgid "Invoice already paid"
+msgstr "이미 결제된 송장"
+
 msgid "No amount"
 msgstr "금액 없음"
 
@@ -2039,6 +2024,9 @@ msgstr "잘못된 라인을 찾을 수 :"
 
 msgid "Do you wish to continue?"
 msgstr "계속하시겠습니까?"
+
+msgid "Payment request has expired"
+msgstr "결제 요청이 만료되었습니다"
 
 msgid "Rebalance existing channels"
 msgstr "기존 채널 재조정"
@@ -2330,9 +2318,6 @@ msgstr "업데이트 확인 중..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Electrum이 사용 가능한 업데이트를 확인하는 동안 기다려주세요."
-
-msgid "Help"
-msgstr "도움"
 
 msgid "Info"
 msgstr "정보"
@@ -4064,6 +4049,9 @@ msgstr "(수수료율: {})"
 msgid "high fee rate"
 msgstr "높은 수수료율"
 
+msgid "New transaction: {}"
+msgstr "새로운 거래: {}"
+
 msgid "invalid address"
 msgstr "유효하지 않은 주소"
 
@@ -4072,9 +4060,6 @@ msgstr "주소가 이미 지갑에 존재함"
 
 msgid "Cannot delete last remaining address from wallet"
 msgstr "지갑에서 마지막 남은 주소는 삭제할 수 없음"
-
-msgid "invalid private key"
-msgstr "유효하지 않은 개인 키"
 
 msgid "Duplicate master keys"
 msgstr "마스터 키 복제"
@@ -4390,14 +4375,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "가져오기"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "채널 백업 가져오기"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "가져오기"
-
 msgctxt "InvoiceDialog|"
 msgid "Lightning Invoice"
 msgstr "라이트닝 송장"
@@ -4521,10 +4498,6 @@ msgstr "Nostr 릴레이"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "수수료"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "결제 금액"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -4949,6 +4922,10 @@ msgstr "라이트닝"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "시드"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "이름 "
 
 msgctxt "WalletDetails|"
 msgid "Seed Extension"

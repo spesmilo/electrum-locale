@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -109,12 +109,6 @@ msgstr "Tie var tikt importēti citā maciņā ar tādu pašu sēklu."
 msgid "Close Lightning channel?"
 msgstr "Aizvērt Lightning kanālu?"
 
-msgid "Invoice already paid"
-msgstr "Rēķins jau ir samaksāts"
-
-msgid "Payment request has expired"
-msgstr "Maksājuma pieprasījums ir izbeidzies"
-
 msgid "Error"
 msgstr "Kļūda"
 
@@ -144,12 +138,6 @@ msgstr "Nav pietiekami daudz līdzekļu"
 
 msgid "Amount"
 msgstr "Summa"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} jaunas transakcijas. Kopējā saņemtā summa jaunajās transakcijās {}"
-
-msgid "New transaction: {}"
-msgstr "Jauna transakcija: {}"
 
 msgid "Synchronizing..."
 msgstr "Sinhronizējas..."
@@ -1153,15 +1141,6 @@ msgstr "Izvadi"
 msgid "Expires"
 msgstr "Beidzas"
 
-msgid "Requestor"
-msgstr "Pieprasītājs"
-
-msgid "Signature"
-msgstr "Paraksts"
-
-msgid "Save invoice to file"
-msgstr "Saglabāt rēķinu failā"
-
 msgid "Creation time"
 msgstr "Izveidošanas laiks"
 
@@ -1270,6 +1249,9 @@ msgstr "Nepareizs paraksts"
 
 msgid "Sign/verify Message"
 msgstr "Parakstīt vai pārbaudīt ziņojumu"
+
+msgid "Signature"
+msgstr "Paraksts"
 
 msgid "Sign"
 msgstr "Parakstīt"
@@ -1577,6 +1559,9 @@ msgstr "Deaktivizēts"
 msgid "Electrum Plugins"
 msgstr "Electrum spraudņi"
 
+msgid "Help"
+msgstr "Palīdzība"
+
 msgid "Select where to save file"
 msgstr "Izvēlieties, kur saglabāt failu"
 
@@ -1785,6 +1770,9 @@ msgstr "Nederīgs maksājuma identifikators starpliktuvē"
 msgid "Invalid payment identifier"
 msgstr "Nederīgs maksājuma identifikators"
 
+msgid "Invoice already paid"
+msgstr "Rēķins jau ir samaksāts"
+
 msgid "No amount"
 msgstr "Nav summas"
 
@@ -1803,6 +1791,9 @@ msgstr "Atrastas nederīgas līnijas:"
 msgid "Do you wish to continue?"
 msgstr "Vai vēlaties turpināt?"
 
+msgid "Payment request has expired"
+msgstr "Maksājuma pieprasījums ir izbeidzies"
+
 msgid "Rebalance existing channels"
 msgstr "Līdzsvarot pastāvošos kanālus"
 
@@ -1812,8 +1803,8 @@ msgstr "Atvērt jaunu kanālu"
 msgid "Your channels can send {}."
 msgstr "Jūsu kanāli var sūtīt {}."
 
-msgid "This will send {}?"
-msgstr "Tas sūtīs {}?"
+msgid "{}% of payment"
+msgstr "{}% no maksājuma"
 
 msgid "Sending payment"
 msgstr "Sūta maksājumu"
@@ -1838,9 +1829,6 @@ msgstr "Varat arī izmantot faila ikonu, lai ielādētu CSV failu."
 
 msgid "Are you sure you want to disable trampoline?"
 msgstr "Vai esat pārliecināti, ka vēlies izslēgt \"trampoline\"?"
-
-msgid "{}% of payment"
-msgstr "{}% no maksājuma"
 
 msgid "Base unit of your wallet."
 msgstr "Maciņa pamata vienība."
@@ -2015,9 +2003,6 @@ msgstr "Pārbauda atjauninājumus..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Lūdzu, uzgaidiet, kamēr Electrum pārbauda atjauninājumus."
-
-msgid "Help"
-msgstr "Palīdzība"
 
 msgid "Copy and Close"
 msgstr "Kopēt un aizvērt"
@@ -2738,17 +2723,14 @@ msgstr "Šīs transakcijas komisijas maksa šķiet neparasti augsta."
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Šī adrese jau ir izmantota. Lai nodrošinātu labāku privātumu, nelietojiet to jauniem maksājumiem."
 
+msgid "New transaction: {}"
+msgstr "Jauna transakcija: {}"
+
 msgid "invalid address"
 msgstr "nederīga adrese"
 
 msgid "address already in wallet"
 msgstr "adrese jau ir maciņā"
-
-msgid "invalid private key"
-msgstr "nederīga privātā atslēga"
-
-msgid "not implemented type"
-msgstr "tips nav ieviests"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -3062,14 +3044,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importēt"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Importēt kanāla rezerves kopiju"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importēt"
-
 msgctxt "InvoiceDialog|"
 msgid "Lightning Invoice"
 msgstr "Lightning rēķins"
@@ -3209,10 +3183,6 @@ msgstr "Kļūda"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Komisijas maksa"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Summa"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -3645,6 +3615,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Sēkla"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nosaukums"
 
 msgctxt "WalletDetails|"
 msgid "unknown"

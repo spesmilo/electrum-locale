@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -22,8 +22,17 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
+msgid "Something went wrong while executing Electrum."
+msgstr "Κάτι πήγε στραβά κατά την εκτέλεση του Electrum."
+
+msgid "Sorry!"
+msgstr "Λυπούμαστε!"
+
 msgid "Do you want to send this report?"
 msgstr "Θέλετε να στείλετε αυτήν την αναφορά;"
+
+msgid "Thanks for reporting this issue!"
+msgstr "Ευχαριστούμε για την αναφορά αυτού του σφάλματος!"
 
 msgid "&Undo"
 msgstr "&Αναίρεση"
@@ -58,9 +67,6 @@ msgstr "Προειδοποίηση:"
 msgid "File not found"
 msgstr "Το αρχείο δεν βρέθηκε"
 
-msgid "Payment request has expired"
-msgstr "Η αίτηση πληρωμής έχει λήξει"
-
 msgid "Error"
 msgstr "Σφάλμα"
 
@@ -75,9 +81,6 @@ msgstr "Δεν υπάρχει αρκετό κεφάλαιο"
 
 msgid "Amount"
 msgstr "Ποσό"
-
-msgid "New transaction: {}"
-msgstr "Νέα συναλλαγή: {}"
 
 msgid "Synchronizing..."
 msgstr "Συγχρονισμός..."
@@ -478,12 +481,6 @@ msgstr "Εκροές"
 msgid "Expires"
 msgstr "Λήγει"
 
-msgid "Requestor"
-msgstr "Αιτών"
-
-msgid "Signature"
-msgstr "Υπογραφή"
-
 msgid "Creation time"
 msgstr "Ώρα δημιουργίας"
 
@@ -534,6 +531,9 @@ msgstr "Υπογραφή πιστοποιήθηκε"
 
 msgid "Sign/verify Message"
 msgstr "Υπογραφή/Πιστοποίηση Μυνήματος"
+
+msgid "Signature"
+msgstr "Υπογραφή"
 
 msgid "Sign"
 msgstr "Υπογραφή"
@@ -718,6 +718,9 @@ msgstr "Ρυθμίσεις"
 msgid "Electrum Plugins"
 msgstr "Προσθήκες Electrum"
 
+msgid "Help"
+msgstr "Βοήθεια"
+
 msgid "Incorrect password."
 msgstr "Λανθασμένος κωδικός πρόσβασης."
 
@@ -830,6 +833,9 @@ msgstr "Λανθασμένες Γραμμές βρέθηκαν:"
 msgid "Do you wish to continue?"
 msgstr "Θέλετε να συνεχίσετε;"
 
+msgid "Payment request has expired"
+msgstr "Η αίτηση πληρωμής έχει λήξει"
+
 msgid "Payment sent."
 msgstr "Πληρωμή απεστάλει."
 
@@ -934,9 +940,6 @@ msgstr "Έχετε ήδη την τελευταία έκδοση του Electrum
 
 msgid "Checking for updates..."
 msgstr "Έλεγχος για ενημερώσεις..."
-
-msgid "Help"
-msgstr "Βοήθεια"
 
 msgid "Info"
 msgstr "Πληροφορίες"
@@ -1253,6 +1256,9 @@ msgstr "{} δευτερόλεπτα"
 msgid "{} confirmations"
 msgstr "{} επιβεβαιώσεις"
 
+msgid "New transaction: {}"
+msgstr "Νέα συναλλαγή: {}"
+
 msgctxt "About|"
 msgid "About Electrum"
 msgstr "Πληροφορίες για το Electrum"
@@ -1398,6 +1404,14 @@ msgid "Pay..."
 msgstr "Πληρωμή..."
 
 msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "Λυπούμαστε!"
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr "Κάτι πήγε στραβά κατά την εκτέλεση του Electrum."
+
+msgctxt "ExceptionDialog|"
 msgid "Do you want to send this report?"
 msgstr "Θέλετε να στείλετε αυτήν την αναφορά;"
 
@@ -1442,10 +1456,6 @@ msgid "Yesterday"
 msgstr "Χθες"
 
 msgctxt "ImportAddressesKeysDialog|"
-msgid "Import"
-msgstr "Εισαγωγή"
-
-msgctxt "ImportChannelBackupDialog|"
 msgid "Import"
 msgstr "Εισαγωγή"
 
@@ -1568,10 +1578,6 @@ msgstr "Σφάλμα"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Χρέωση"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Ποσό"
 
 msgctxt "OpenChannelDialog|"
 msgid "Error"
@@ -1874,10 +1880,6 @@ msgid "Enter password"
 msgstr "Εισαγωγή κωδικού πρόσβασης"
 
 msgctxt "WCWalletPassword|"
-msgid "Enter existing password"
-msgstr "Εισαγωγή υπάρχοντος κωδικού πρόσβασης"
-
-msgctxt "WCWalletPassword|"
 msgid "Passwords don't match"
 msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
 
@@ -1892,6 +1894,10 @@ msgstr "Κρυπτογραφημένο"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Λέξη κλειδί"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Όνομα"
 
 msgctxt "WalletDetails|"
 msgid "unknown"
@@ -1956,10 +1962,6 @@ msgstr "Αποστολή"
 msgctxt "WalletMainView|"
 msgid "Error"
 msgstr "Σφάλμα"
-
-msgctxt "WalletSummary|"
-msgid "More details"
-msgstr "Περισσότερες λεπτομέρειες"
 
 msgctxt "Wizard|"
 msgid "Cancel"
