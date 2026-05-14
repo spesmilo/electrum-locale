@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:52\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -109,9 +109,6 @@ msgstr "Не вдалося закрити канал: "
 msgid "This invoice has expired"
 msgstr "Термін дії цього рахунку збіг"
 
-msgid "Payment request has expired"
-msgstr "Запит оплати закінчився"
-
 msgid "Error"
 msgstr "Помилка"
 
@@ -141,12 +138,6 @@ msgstr "Недостатньо коштів"
 
 msgid "Amount"
 msgstr "Сума"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} отримано нових трансакцій: Загальна сума, отримана від нових трансакцій {}"
-
-msgid "New transaction: {}"
-msgstr "Нова транзакція: {}"
 
 msgid "Synchronizing..."
 msgstr "Синхронізація..."
@@ -865,15 +856,6 @@ msgstr "Вихідні"
 msgid "Expires"
 msgstr "Завершується"
 
-msgid "Requestor"
-msgstr "Запитувач"
-
-msgid "Signature"
-msgstr "Підпис"
-
-msgid "Save invoice to file"
-msgstr "Зберегти рахунок в файл"
-
 msgid "Password"
 msgstr "Пароль"
 
@@ -945,6 +927,9 @@ msgstr "Неправильний підпис"
 
 msgid "Sign/verify Message"
 msgstr "Підписати/верифікувати повідомлення"
+
+msgid "Signature"
+msgstr "Підпис"
 
 msgid "Sign"
 msgstr "Підписати"
@@ -1216,6 +1201,9 @@ msgstr "Вимкнено"
 msgid "Electrum Plugins"
 msgstr "Розширення Electrum"
 
+msgid "Help"
+msgstr "Довідка"
+
 msgid "Select where to save file"
 msgstr "Вкажіть куди зберегти файл"
 
@@ -1421,6 +1409,9 @@ msgstr "Знайдено Недійсні Рядки:"
 msgid "Do you wish to continue?"
 msgstr "Ви хочете продовжити?"
 
+msgid "Payment request has expired"
+msgstr "Запит оплати закінчився"
+
 msgid "Your channels can send {}."
 msgstr "Ваш канал може надіслати {}."
 
@@ -1576,9 +1567,6 @@ msgstr "Перевірка наявності оновлень..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Зачекайте, поки Electrum перевірить наявність оновлень."
-
-msgid "Help"
-msgstr "Довідка"
 
 msgid "Info"
 msgstr "Інфо"
@@ -2972,17 +2960,14 @@ msgstr "Комісія за цю угоду задана занадто висо
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Ця адреса вже використовувалась. Не використовуйте її знову для нових платежів для більшої конфіденційності."
 
+msgid "New transaction: {}"
+msgstr "Нова транзакція: {}"
+
 msgid "invalid address"
 msgstr "некоректна адреса"
 
 msgid "address already in wallet"
 msgstr "адреса уже в гаманці"
-
-msgid "invalid private key"
-msgstr "некоректний приватний ключ"
-
-msgid "not implemented type"
-msgstr "не реалізований тип"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -3256,14 +3241,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Імпортувати"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Імпортування резервної копії каналу"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Імпортувати"
-
 msgctxt "InvoiceDialog|"
 msgid "Address"
 msgstr "Адреса"
@@ -3371,10 +3348,6 @@ msgstr "Помилка"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Комісія"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Сума"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -3787,6 +3760,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Насіння"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Назва"
 
 msgctxt "WalletDetails|"
 msgid "unknown"

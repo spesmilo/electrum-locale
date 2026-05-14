@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -109,9 +109,6 @@ msgstr "לא מצליח לסגור ערוץ:"
 msgid "This invoice has expired"
 msgstr "פג תוקף החשבונית הזאת"
 
-msgid "Payment request has expired"
-msgstr "פג תוקפה של בקשת התשלום"
-
 msgid "Error"
 msgstr "שגיאה"
 
@@ -138,9 +135,6 @@ msgstr "אין מספיק כסף"
 
 msgid "Amount"
 msgstr "סכום"
-
-msgid "New transaction: {}"
-msgstr "עסקה חדשה: {}"
 
 msgid "Synchronizing..."
 msgstr "מסנכרן..."
@@ -928,18 +922,6 @@ msgstr "פלטים"
 msgid "Expires"
 msgstr "בתוקף עד:"
 
-msgid "Requestor"
-msgstr "המבקש"
-
-msgid "Signature"
-msgstr "חתימה"
-
-msgid "Save invoice to file"
-msgstr "שמירת חשבונית לקובץ"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "חשבונית BIP70 נשמר כ {}"
-
 msgid "Password"
 msgstr "סיסמה"
 
@@ -1024,6 +1006,9 @@ msgstr "חתימה וודאה"
 
 msgid "Sign/verify Message"
 msgstr "חתום/וודא הודעה"
+
+msgid "Signature"
+msgstr "חתימה"
 
 msgid "Sign"
 msgstr "חתום"
@@ -1277,6 +1262,9 @@ msgstr "מושבת"
 msgid "Electrum Plugins"
 msgstr "תוספי אלקטרום"
 
+msgid "Help"
+msgstr "עזרה"
+
 msgid "Select where to save file"
 msgstr "בחר מיקום שמירת הקובץ"
 
@@ -1464,8 +1452,8 @@ msgstr "שורות לא תקינות נמצאו:"
 msgid "Do you wish to continue?"
 msgstr "האם ברצונך להמשיך?"
 
-msgid "This will send {}?"
-msgstr "זה ישלח {}?"
+msgid "Payment request has expired"
+msgstr "פג תוקפה של בקשת התשלום"
 
 msgid "Invoice has expired"
 msgstr "פג תוקף חשבונית"
@@ -1619,9 +1607,6 @@ msgstr "בדיקת עדכונים..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "נא להמתין בזמן שאלקטרום מחפש עידכונים זמינים."
-
-msgid "Help"
-msgstr "עזרה"
 
 msgid "Info"
 msgstr "מידע"
@@ -2949,6 +2934,9 @@ msgstr "({}% of amount)"
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "כבר נעשה שימוש בכתובת הזאת. לפרטיות משופרת, אין להשתמש בה שוב לתשלומים חדשים."
 
+msgid "New transaction: {}"
+msgstr "עסקה חדשה: {}"
+
 msgctxt "About|"
 msgid "About Electrum"
 msgstr "אודות Electrum"
@@ -3209,14 +3197,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "ייבא"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "ייבא גיבוי ערוץ"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "ייבא"
-
 msgctxt "InvoiceDialog|"
 msgid "Lightning Invoice"
 msgstr "חשבונית לייטנינג"
@@ -3328,10 +3308,6 @@ msgstr "שגיאה"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "עמלה"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "סכום"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -3720,6 +3696,10 @@ msgstr "לייטנינג"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "זרע"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "שם"
 
 msgctxt "WalletDetails|"
 msgid "Keystore"

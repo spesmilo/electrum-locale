@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -25,11 +25,29 @@ msgstr ""
 msgid "Sorry!"
 msgstr "Maaf!"
 
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Untuk membantu kami mendiagnosis dan memperbaiki masalah, Anda dapat mengirimkan laporan masalah yang berisi informasi debug yang berguna:"
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Silakan jelaskan secara singkat apa yang menyebabkan kesalahan tersebut (pilihan lain):"
+
 msgid "Do you want to send this report?"
 msgstr "Anda ingin mengirimkan laporan ini?"
 
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
 msgstr "Jangan masukkan informasi sensitif/pribadi di sini. Laporan akan terlihat di pelacak masalah publik."
+
+msgid "Missing report URL."
+msgstr "URL laporan hilang."
+
+msgid "Thanks for reporting this issue!"
+msgstr "Terima kasih telah melaporkan masalah ini!"
+
+msgid "unknown parser {!r} (choices: {})"
+msgstr "parser {!r} tidak dikenal (pilihan: {})"
+
+msgid "Unexpected password hash version"
+msgstr "Versi kata sandi yang tidak terduga"
 
 msgid "  (No FX rate available)"
 msgstr "  (Tidak ada FX rate yg tersedia)"
@@ -64,17 +82,26 @@ msgstr "Jika Anda menutup paksa kanal ini, dana-dana yang Anda miliki di dalamny
 msgid "Could not close channel: "
 msgstr "Tidak dapat menutup saluran: "
 
+msgid "Open Lightning channel?"
+msgstr "Buka saluran Lightning?"
+
 msgid "Problem deleting wallet"
 msgstr "Masalah menghapus wallet"
 
 msgid "Insufficient balance"
 msgstr "Saldo tidak mencukupi"
 
-msgid "Payment request has expired"
-msgstr "Permintaan pembayaran sudah kadaluarsa"
+msgid "Initializing..."
+msgstr "Menginisialisasi..."
 
 msgid "Error"
 msgstr "Kesalahan"
+
+msgid "Select one of the available swap providers."
+msgstr "Pilih salah satu penyedia swap yang tersedia."
+
+msgid "You are offline."
+msgstr "Kamu offline."
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Apa anda sudah pasti untuk menghapus transaksi ini?"
@@ -694,18 +721,6 @@ msgstr "Keluaran"
 msgid "Expires"
 msgstr "Kedaluwarsa"
 
-msgid "Requestor"
-msgstr "Peminta"
-
-msgid "Signature"
-msgstr "Tanda Tangan"
-
-msgid "Save invoice to file"
-msgstr "Simpan faktur ke dalam file"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "Faktur BIP70 disimpan sebagai {}"
-
 msgid "Creation time"
 msgstr "Waktu pembuatan"
 
@@ -768,6 +783,9 @@ msgstr "Tanda tangan salah"
 
 msgid "Sign/verify Message"
 msgstr "&Tanda Tangani/verifikasi pesan"
+
+msgid "Signature"
+msgstr "Tanda Tangan"
 
 msgid "Sign"
 msgstr "Tanda Tangani"
@@ -1015,6 +1033,9 @@ msgstr "Dinonaktifkan"
 msgid "Electrum Plugins"
 msgstr "Plugin Electrum"
 
+msgid "Help"
+msgstr "Bantuan"
+
 msgid "Select where to save file"
 msgstr "Pilih lokasi untuk menyimpan file"
 
@@ -1214,6 +1235,9 @@ msgstr "Baris tidak valid ditemukan:"
 msgid "Do you wish to continue?"
 msgstr "Apakah anda ingin melanjutkan?"
 
+msgid "Payment request has expired"
+msgstr "Permintaan pembayaran sudah kadaluarsa"
+
 msgid "Payment sent."
 msgstr "Pembayaran terkirim."
 
@@ -1318,9 +1342,6 @@ msgstr "Memeriksa pembaruan..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Silakan tunggu selagi Electrum memerika update yang tersedia."
-
-msgid "Help"
-msgstr "Bantuan"
 
 msgid "Info"
 msgstr "Informasi"
@@ -2191,6 +2212,14 @@ msgid "Sorry!"
 msgstr "Maaf!"
 
 msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "Untuk membantu kami mendiagnosis dan memperbaiki masalah, Anda dapat mengirimkan laporan masalah yang berisi informasi debug yang berguna:"
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "Silakan jelaskan secara singkat apa yang menyebabkan kesalahan tersebut (pilihan lain):"
+
+msgctxt "ExceptionDialog|"
 msgid "Do you want to send this report?"
 msgstr "Anda ingin mengirimkan laporan ini?"
 
@@ -2235,10 +2264,6 @@ msgid "Mempool"
 msgstr "Mempool"
 
 msgctxt "ImportAddressesKeysDialog|"
-msgid "Import"
-msgstr "Impor"
-
-msgctxt "ImportChannelBackupDialog|"
 msgid "Import"
 msgstr "Impor"
 
@@ -2333,10 +2358,6 @@ msgstr "Kesalahan"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Biaya transaksi"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Jumlah"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -2669,6 +2690,10 @@ msgstr "Kilat"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Benih"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nama"
 
 msgctxt "WalletDetails|"
 msgid "unknown"

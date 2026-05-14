@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-05-13 02:45+0000\n"
+"PO-Revision-Date: 2026-05-13 02:45\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2737\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -66,9 +66,6 @@ msgstr "Wklej"
 
 msgid "Could not close channel: "
 msgstr "Nie zamknięto kanału: "
-
-msgid "Payment request has expired"
-msgstr "Żądanie płatności wygasło"
 
 msgid "Error"
 msgstr "Błąd"
@@ -582,18 +579,6 @@ msgstr "Wyjścia"
 msgid "Expires"
 msgstr "Wygasa"
 
-msgid "Requestor"
-msgstr "Żądający"
-
-msgid "Signature"
-msgstr "Podpis"
-
-msgid "Save invoice to file"
-msgstr "Zapisz rachunek do pliku"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "Rachunek BIP70 zapisany jako {}"
-
 msgid "Password"
 msgstr "Hasło"
 
@@ -638,6 +623,9 @@ msgstr "Nieprawidłowy podpis"
 
 msgid "Sign/verify Message"
 msgstr "Podpisz/zweryfikuj wiadomość"
+
+msgid "Signature"
+msgstr "Podpis"
 
 msgid "Sign"
 msgstr "Podpisz"
@@ -858,6 +846,9 @@ msgstr "Wyłączony"
 msgid "Electrum Plugins"
 msgstr "Wtyczki Electrum"
 
+msgid "Help"
+msgstr "Pomoc"
+
 msgid "QR code saved to file"
 msgstr "Zapisano kod QR do pliku"
 
@@ -1024,6 +1015,9 @@ msgstr "Znaleziono nieprawidłowe linie:"
 msgid "Do you wish to continue?"
 msgstr "Czy chcesz kontynuować?"
 
+msgid "Payment request has expired"
+msgstr "Żądanie płatności wygasło"
+
 msgid "Payment sent."
 msgstr "Płatność wysłana."
 
@@ -1116,9 +1110,6 @@ msgstr "Najnowsza wersja: {}"
 
 msgid "Already up to date"
 msgstr "Właściwie już zaktualizowane"
-
-msgid "Help"
-msgstr "Pomoc"
 
 msgid "Copy and Close"
 msgstr "Skopiuj i zamknij"
@@ -1849,10 +1840,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importuj"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importuj"
-
 msgctxt "InvoiceDialog|"
 msgid "Address"
 msgstr "Adres"
@@ -1948,10 +1935,6 @@ msgstr "Prowizja"
 msgctxt "OpenChannelDialog|"
 msgid "Paste or scan node uri/pubkey"
 msgstr "Wklej lub zeskanuj URI węzła/klucz publiczny"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Kwota"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -2244,6 +2227,10 @@ msgstr "Zaszyfrowany"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Ziarno"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nazwa"
 
 msgctxt "WalletDetails|"
 msgid "unknown"
