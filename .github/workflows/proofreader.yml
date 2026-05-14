@@ -1,7 +1,8 @@
 name: LLM Translation Proofreader
 
 on:
-  pull_request:
+  # danger! PRs have access to env secrets. Only safe as we manually approve CI runs for external contributors.
+  pull_request_target:
     branches: [master]
   workflow_dispatch:
 
