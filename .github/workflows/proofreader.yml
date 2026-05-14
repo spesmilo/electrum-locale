@@ -14,7 +14,6 @@ jobs:
   proofreader:
     name: LLM Translation Proofreader
     runs-on: ubuntu-24.04
-    environment: proofreader
     env:
       OPENAI_BASE_URL: "https://api.ppq.ai"
       OPENAI_MODEL: "google/gemini-3-flash-preview"
