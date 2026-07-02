@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2738\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -34,8 +34,24 @@ msgstr "&Redo"
 msgid "&Paste"
 msgstr "&Paste"
 
-msgid "Payment request has expired"
-msgstr "انتهت صلاحية طلب الدفع"
+msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
+msgstr "إذا فقدتَ ملفَّ محفظتك، فإن أقصى ما تستطيع فعله بهذه النسخة الاحتياطية هو طلب إغلاق القناة، بحيث تُعاد أموالك إلى سلسلة الكتل."
+
+msgid "This summary covers only on-chain transactions (no lightning!). Capital gains are computed by attaching an acquisition price to each UTXO in the wallet, and uses the order of blockchain events (not FIFO)."
+msgstr "يقتصر هذا الملخّص على المعاملات المسجّلة على سلسلة الكتل (ولا يشمل شبكة البرق). وتُحتسب الأرباح الرأسمالية بإسناد سعر اقتناء إلى كل مخرج غير منفَق (UTXO) في المحفظة، مع اعتماد الترتيب الزمني لأحداث سلسلة الكتل، لا طريقة الوارد أولًا صادر أولًا (FIFO)."
+
+msgid ""
+"This channel is with a non-trampoline node; it cannot be used if trampoline is enabled.\n"
+"If you want to keep using this channel, you need to disable trampoline routing in your preferences."
+msgstr ""
+"هذه القناة متصلة بعقدة لا تدعم الترامبولين؛ ولذلك لا يمكن استخدامها عند تفعيل توجيه الترامبولين.\n"
+"إذا أردت الاستمرار في استخدام هذه القناة، فعليك تعطيل توجيه الترامبولين من التفضيلات."
+
+msgid "When you freeze a coin, it will not be used for sending bitcoins."
+msgstr "عند تجميد عنوانٍ ما، لن تُستعمل الأموال الموجودة فيه عند إرسال البيتكوين."
+
+msgid "Your funding transaction has been broadcast."
+msgstr "بُثَّت معاملة تمويل قناتك إلى الشبكة."
 
 msgid "Error"
 msgstr "خطأ"
@@ -411,12 +427,6 @@ msgstr "المخرجات"
 msgid "Expires"
 msgstr "ينتهي"
 
-msgid "Requestor"
-msgstr "الطالب"
-
-msgid "Signature"
-msgstr "التوقيع"
-
 msgid "Password"
 msgstr "كلمة المرور"
 
@@ -461,6 +471,9 @@ msgstr "تم التحقق من التوقيع"
 
 msgid "Sign/verify Message"
 msgstr "توقيع/توثيق رسالة"
+
+msgid "Signature"
+msgstr "التوقيع"
 
 msgid "Sign"
 msgstr "وقع"
@@ -717,6 +730,9 @@ msgstr "مبلغ غير صالح"
 
 msgid "Do you wish to continue?"
 msgstr "هل ترغب في الاستمرار؟"
+
+msgid "Payment request has expired"
+msgstr "انتهت صلاحية طلب الدفع"
 
 msgid "Payment sent."
 msgstr "تم إرسال الحوالة."
@@ -1157,10 +1173,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "إستيراد"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "إستيراد"
-
 msgctxt "InvoiceDialog|"
 msgid "Address"
 msgstr "العنوان"
@@ -1240,10 +1252,6 @@ msgstr "خطأ"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "الرسوم"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "القيمة"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -1492,6 +1500,10 @@ msgstr "شبكة Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "عبارة الاسترداد"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "إلاسم"
 
 msgctxt "WalletDetails|"
 msgid "unknown"

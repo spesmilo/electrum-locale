@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2738\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -61,6 +61,12 @@ msgstr "  (Aucun taux FX disponible)"
 msgid "No data"
 msgstr "Aucune donnée"
 
+msgid "FIXED"
+msgstr "Corrigé"
+
+msgid "Feerate"
+msgstr "Frais"
+
 msgid "ETA"
 msgstr "HAP"
 
@@ -72,6 +78,9 @@ msgstr "Frais faible"
 
 msgid "In the next block"
 msgstr "Dans le prochain bloc"
+
+msgid "Within one day"
+msgstr "En une journée"
 
 msgid "Within {} blocks"
 msgstr "Dans les {} blocs"
@@ -124,17 +133,14 @@ msgstr "Impossible de fermer le canal : "
 msgid "Could not connect to channel peer"
 msgstr "Impossible de se connecter au canal pair"
 
-msgid "Paid!"
-msgstr "Payé !"
-
 msgid "This invoice has expired"
 msgstr "Cette facture a expiré"
 
+msgid "Paid!"
+msgstr "Payé !"
+
 msgid "Cannot pay less than the amount specified in the invoice"
 msgstr "Vous ne pouvez pas payer moins que le montant indiqué sur la facture"
-
-msgid "Payment request has expired"
-msgstr "La demande de paiement a expirée"
 
 msgid "Detected valid Lightning invoice, but Lightning not enabled for wallet and no fallback address found."
 msgstr "Facture Lightning valide détectée, mais le Lightning n'est pas activé pour le portefeuille et aucune adresse de repli n'a été trouvée."
@@ -177,9 +183,6 @@ msgstr "Fonds insuffisants"
 
 msgid "Amount"
 msgstr "Montant"
-
-msgid "New transaction: {}"
-msgstr "Nouvelle transaction : {}"
 
 msgid "Synchronizing..."
 msgstr "Synchronisation..."
@@ -964,18 +967,6 @@ msgstr "Sorties"
 msgid "Expires"
 msgstr "Expire"
 
-msgid "Requestor"
-msgstr "Demandeur"
-
-msgid "Signature"
-msgstr "Signature"
-
-msgid "Save invoice to file"
-msgstr "Enregistrer la facture comme fichier"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "Facture BIP70 enregistrée sous {}"
-
 msgid "Creation time"
 msgstr "Date de création"
 
@@ -1059,6 +1050,9 @@ msgstr "Mauvaise signature"
 
 msgid "Sign/verify Message"
 msgstr "Signer / vérifier un message"
+
+msgid "Signature"
+msgstr "Signature"
 
 msgid "Sign"
 msgstr "Signer"
@@ -1339,6 +1333,9 @@ msgstr "Désactivé"
 msgid "Electrum Plugins"
 msgstr "Plugins d'Electrum"
 
+msgid "Help"
+msgstr "Aide"
+
 msgid "QR code saved to file"
 msgstr "Le QR code a été enregistré dans un fichier"
 
@@ -1562,6 +1559,9 @@ msgstr "Lignes invalides trouvées :"
 msgid "Do you wish to continue?"
 msgstr "Souhaitez-vous continuer ?"
 
+msgid "Payment request has expired"
+msgstr "La demande de paiement a expirée"
+
 msgid "Payment sent."
 msgstr "Paiement envoyé."
 
@@ -1732,9 +1732,6 @@ msgstr "Vérification des mises à jours..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Veuillez attendre pendant qu'Electrum vérifie la disponibilité des mises à jour."
-
-msgid "Help"
-msgstr "Aide"
 
 msgid "Info"
 msgstr "Info"
@@ -3241,17 +3238,14 @@ msgstr "La requête a expiré"
 msgid "This request cannot be paid on-chain"
 msgstr "Cette demande ne peut pas être payée sur la chaîne"
 
+msgid "New transaction: {}"
+msgstr "Nouvelle transaction : {}"
+
 msgid "invalid address"
 msgstr "adresse invalide"
 
 msgid "address already in wallet"
 msgstr "adresse déjà utilisée dans le portefeuille"
-
-msgid "invalid private key"
-msgstr "clé privée invalide"
-
-msgid "not implemented type"
-msgstr "type non implémenté"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -3549,6 +3543,10 @@ msgctxt "FeeMethodComboBox|"
 msgid "Mempool"
 msgstr "Mempool"
 
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr "Frais"
+
 msgctxt "FeePicker|"
 msgid "Target"
 msgstr "Cible"
@@ -3610,10 +3608,6 @@ msgid "Import additional keys"
 msgstr "Importer d’autres clés"
 
 msgctxt "ImportAddressesKeysDialog|"
-msgid "Import"
-msgstr "Importer"
-
-msgctxt "ImportChannelBackupDialog|"
 msgid "Import"
 msgstr "Importer"
 
@@ -3748,10 +3742,6 @@ msgstr "Ok"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Frais"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Montant"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -4077,6 +4067,14 @@ msgctxt "TxDetails|"
 msgid "Error"
 msgstr "Erreur"
 
+msgctxt "TxInput|"
+msgid "swap"
+msgstr "échange"
+
+msgctxt "TxOutput|"
+msgid "swap"
+msgstr "échange"
+
 msgctxt "WCConfirmSeed|"
 msgid "Your seed is important!"
 msgstr "Votre graine est importante !"
@@ -4238,6 +4236,10 @@ msgid "Seed"
 msgstr "Graine"
 
 msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "WalletDetails|"
 msgid "2FA"
 msgstr "2FA"
 
@@ -4316,10 +4318,6 @@ msgstr "Échec du paiement"
 msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Confirmer le paiement"
-
-msgctxt "WalletSummary|"
-msgid "More details"
-msgstr "Plus d'informations"
 
 msgctxt "Wallets|"
 msgid "Wallets"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2738\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -258,6 +258,21 @@ msgstr "Electrum zal de gekozen server blijven gebruiken. Electrum zal waarschuw
 msgid "Electrum will stay with the server you selected, and it will not connect to additional nodes. This will disable fork detection. This mode is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged."
 msgstr "Electrum zal de gekozen server blijven gebruiken, en niet verbinden met andere servers. Dit zal detectie van forks uitschakelen. Deze instelling is alleen bedoeld voor het verbinden naar je eigen, volledig vertrouwde server. Deze optie gebruiken met een publieke server is een veiligheidsrisico en wordt ontraden."
 
+msgid "Submarine Payments use a reverse submarine swap to do on-chain transactions directly from your lightning balance."
+msgstr "Submarine Betalingen gebruiken een 'omgekeerde submarine swap' om on-chain transacties direct vanuit je lightningsaldo te doen."
+
+msgid "Submarine Payments happen in two stages. In the first stage, your wallet sends a lightning payment to the submarine swap provider. The swap provider will lock funds to a funding output in an on-chain transaction (the funding transaction)."
+msgstr "Submarine Betalingen gebeuren in twee fases. In de eerste fase stuurt je portemonnee een lightningbetaling naar de swap aanbieder. De swap aanbieder zet het bedrag vast aan een stortings output in een on-chain transactie (de stortingstransactie)."
+
+msgid "Once the funding transaction has one confirmation, your wallet will broadcast a claim transaction as the second stage of the payment. This claim transaction spends the funding output to the payee's address."
+msgstr "Zodra de stortingstransactie één bevestiging heeft stuurt je portemonnee een claim transactie als tweede fase van de betaling. Deze claim transactie spendeert de stortingstransactie naar het adres van de ontvanger."
+
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+msgid "The funding transaction is not visible to the payee. They will only see a pending transaction in the mempool after your wallet broadcasts the claim transaction. Since confirmation of the funding transaction can take over 30 minutes, avoid using Submarine Payments when the payee expects to see the transaction within a limited time frame (e.g., an online shop checkout). Use a regular on-chain payment instead."
+msgstr "De stortingstransactie is niet zichtbaar voor de ontvanger. Zij zien alleen een nieuwe transactie in de mempool nadat je portemonnee de claim transactie verstuurt. Omdat bevestiging van de stortingtransactie langer dan 30 minuten kan duren is het beter om Submarine Betalingen niet te gebruiken als de ontvanger de transactie binnen afzienbare tijd wil zien (bijv. een online winkel). Gebruik in dat geval een normale on-chain transactie."
+
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr "Deze transactie vereist een hogere transactievergoeding, anders zal het door de huidige server niet gepropageerd worden."
 
@@ -269,6 +284,9 @@ msgstr "Er deed zich een probleem voor bij het automatisch rapporteren:"
 
 msgid "Please report this issue manually"
 msgstr "Rapporteer het probleem handmatig"
+
+msgid "Confirm your identity"
+msgstr "Bevestig je identiteit"
 
 msgid "Not a master key"
 msgstr "Dit is geen moedersleutel"
@@ -298,7 +316,7 @@ msgid "Could not close channel: "
 msgstr "Kon kanaal niet sluiten: "
 
 msgid "Minimum required amount: {}"
-msgstr "Minimaal benodigde hoeveelheid: {}"
+msgstr "Minimaal benodigd bedrag: {}"
 
 msgid "Amount is above maximum channel size: {}"
 msgstr "Bedrag is boven de maximale kanaalgrootte: {}"
@@ -333,9 +351,6 @@ msgstr "Portemonnee echt verwijderen?"
 msgid "Problem deleting wallet"
 msgstr "Probleem tijdens verwijderen portemonnee"
 
-msgid "Paid!"
-msgstr "Betaald!"
-
 msgid "Payment failed: "
 msgstr "Betaling mislukt:"
 
@@ -363,17 +378,14 @@ msgstr "wachten op bevestiging"
 msgid "Invoice has unknown status"
 msgstr "Factuur heeft onbekende status"
 
+msgid "Paid!"
+msgstr "Betaald!"
+
 msgid "Cannot pay less than the amount specified in the invoice"
 msgstr "Kan niet minder betalen dan het bedrag in de factuur"
 
 msgid "Insufficient balance"
 msgstr "Onvoldoende saldo"
-
-msgid "Invoice already paid"
-msgstr "Factuur is reeds betaald"
-
-msgid "Payment request has expired"
-msgstr "Betaalverzoek is verlopen"
 
 msgid "Unknown invoice"
 msgstr "Onbekende factuur"
@@ -390,9 +402,6 @@ msgstr "Kon adres niet vinden"
 msgid "Could not resolve LNURL"
 msgstr "Kon LNURL niet vinden"
 
-msgid "Could not resolve BIP70 payment request: {}"
-msgstr "Kon BIP70 betaalverzoek niet vinden: {}"
-
 msgid "Could not resolve"
 msgstr "Niet gevonden"
 
@@ -400,7 +409,10 @@ msgid "The platform QR detection library is not available."
 msgstr "De QR-detectiebibliotheek van het platform is niet beschikbaar."
 
 msgid "Scan a QR code."
-msgstr "Scan een QR code"
+msgstr "Scan een QR code."
+
+msgid "Failed to create payment request for withdrawal: {}"
+msgstr "Kon geen betaalverzoek maken voor opname: {}"
 
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "Verplaats de slider om het bedrag en de richting van de swap in te stellen."
@@ -462,6 +474,9 @@ msgstr "Weet u zeker dat u deze transactie en {} kindtransacties wilt verwijdere
 msgid "Warning"
 msgstr "Waarschuwing"
 
+msgid "No dynamic fee estimates available"
+msgstr "Dynamische kostenverwachtingen niet beschikbaar"
+
 msgid "Could not spend max: a security reserve of {} was kept for your Lightning channels."
 msgstr "Kon max niet spenderen: een beveiligingsreserve van {} was aangehouden voor je Lightning kanalen."
 
@@ -498,12 +513,6 @@ msgstr "Veegtransactie"
 msgid "Amount"
 msgstr "Bedrag"
 
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} nieuwe transacties: Totaal ontvangen bedrag in de nieuwe transacties {}"
-
-msgid "New transaction: {}"
-msgstr "Nieuwe transactie: {}"
-
 msgid "Synchronizing..."
 msgstr "Bezig met synchroniseren..."
 
@@ -534,6 +543,9 @@ msgstr "Houd de Ontvangen knop ingedrukt om de lijst te zien."
 msgid "Error creating payment request"
 msgstr "Fout tijdens maken van betaalverzoek"
 
+msgid "Sign message?"
+msgstr "Onderteken bericht?"
+
 msgid "Weak"
 msgstr "Zwak"
 
@@ -544,7 +556,7 @@ msgid "Strong"
 msgstr "Sterk"
 
 msgid "Very Strong"
-msgstr "Zeer sterk"
+msgstr "Zeer Sterk"
 
 msgid "Plugins"
 msgstr "Plugins"
@@ -571,10 +583,10 @@ msgid "Cannot load wallet"
 msgstr "Kan portemonnee niet laden"
 
 msgid "Text copied to Clipboard"
-msgstr "Tekst gekopieerd naar klembord"
+msgstr "Tekst naar klembord gekopieerd"
 
 msgid "{} copied to Clipboard"
-msgstr "{} gekopiëerd naar klembord"
+msgstr "{} naar klembord gekopieerd"
 
 msgid "Error starting Electrum"
 msgstr "Fout bij starten Electrum"
@@ -589,7 +601,7 @@ msgid "Public keys"
 msgstr "Publieke sleutels"
 
 msgid "Public Key"
-msgstr "Publieke sleutel"
+msgstr "Publieke Sleutel"
 
 msgid "Redeem Script"
 msgstr "Inwisselscript"
@@ -820,7 +832,7 @@ msgid "Remote reserve:"
 msgstr "Externe reserve:"
 
 msgid "Local dust limit"
-msgstr "Lokale stof-limiet"
+msgstr "Lokale 'dust' limiet"
 
 msgid "Remote dust limit"
 msgstr "Externe 'dust' limiet"
@@ -936,6 +948,12 @@ msgstr "Kanaalback-up importeren"
 msgid "New Channel"
 msgstr "Nieuw kanaal"
 
+msgid "Lightning is not available for this wallet."
+msgstr "Lightning is niet beschikbaar voor deze portemonnee."
+
+msgid "Open a channel to send payments over the Lightning network."
+msgstr "Open een kanaal om betalingen over het Lightning netwerk te kunnen sturen."
+
 msgid "Lightning Network Statistics"
 msgstr "Lightning-netwerkstatistieken"
 
@@ -981,6 +999,18 @@ msgstr "Verder, als u RBF transacties batcht zal BIP 125 een ondergrens stellen 
 msgid "Fee rounding"
 msgstr "Afronding transactievergoeding"
 
+msgid "Onchain Transaction"
+msgstr "Onchain Transactie"
+
+msgid "Submarine Payment"
+msgstr "Submarine Betaling"
+
+msgid "Submarine Payments don't support multiple outputs (Pay-to-many)."
+msgstr "Submarine Betalingen ondersteunen geen meerdere outputs (Betaal-aan-meedere)."
+
+msgid "Submarine Payments don't support 'Max' value spends."
+msgstr "Submarine Betalingen ondersteunen niet 'Max' bedrag."
+
 msgid "Additional {} satoshis are going to be added."
 msgstr "{} extra satoshis zullen worden toegevoegd."
 
@@ -999,6 +1029,9 @@ msgstr "Batch met"
 msgid "Not available for this wallet."
 msgstr "Niet beschikbaar voor deze portemonnee."
 
+msgid "Requires a wallet with Lightning network support."
+msgstr "Vereist een portemonnee met Lightning netwerk ondersteuning."
+
 msgid "Use change addresses"
 msgstr "Wisselgeldadressen gebruiken"
 
@@ -1014,6 +1047,9 @@ msgstr "Gebruik in sommige gevallen tot drie wisselgeldadressen om grotere bedra
 msgid "This may result in higher transactions fees."
 msgstr "Dit kan zorgen voor hogere transactievergoedingen."
 
+msgid "Tools"
+msgstr "Tools"
+
 msgid "Not enough funds."
 msgstr "Niet genoeg saldo."
 
@@ -1024,13 +1060,16 @@ msgid "You need to set a lower fee."
 msgstr "Je moet een lagere vergoeding instellen."
 
 msgid "Can be unfrozen in the Addresses or in the Coins tab"
-msgstr "Kan ontdooid worden in het Adressen of in de Munten tab"
+msgstr "Kan vrijgegeven worden in het Adressen of in de Munten tab"
 
 msgid "Preparing transaction..."
 msgstr "Transactie voorbereiden..."
 
 msgid "Fee estimates not available. Please set a fixed fee or feerate."
 msgstr "Vergoeding schattingen niet beschikbaar. Gebruik een statische vergoeding."
+
+msgid "Lightning is not enabled."
+msgstr "Lightning is niet ingeschakeld."
 
 msgid "This transaction will spend unconfirmed coins."
 msgstr "Deze transactie spendeert onbevestigde munten."
@@ -1044,11 +1083,68 @@ msgstr "Deze transactie heeft {} wisselgeld outputs."
 msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
 msgstr "Zorg dat je delfvergoeding hoog genoeg is; de vergoeding kan later niet verhoogd worden."
 
+msgid "Can't show preview when sending change to lightning"
+msgstr "Kan preview niet tonen wanneer wisselgeld naar lightning wordt gestuurd"
+
 msgid "You send"
 msgstr "U verzendt"
 
+msgid "They receive"
+msgstr "Zij ontvangen"
+
+msgid "Swap fee"
+msgstr "Swap kosten"
+
 msgid "Mining fee"
 msgstr "Delfvergoeding"
+
+msgid "Connecting, please wait..."
+msgstr "Verbinden, een ogenblik geduld..."
+
+msgid "Initiating Submarine Payment..."
+msgstr "Starten Submarine Betaling..."
+
+msgid "Submarine Payment failed:"
+msgstr "Submarine betaling mislukt:"
+
+msgid "Enable Lightning in the 'Channels' tab to use Submarine Swaps."
+msgstr "Zet Lightning aan in de 'Kanalen' tab om Submarine Swaps te gebruiken."
+
+msgid "Submarine swap provider unavailable."
+msgstr "Submarine swap aanbieder niet bereikbaar."
+
+msgid "Please select a submarine swap provider."
+msgstr "Kies een submarine swap aanbieder."
+
+msgid "Payment amount below the minimum possible swap amount."
+msgstr "Betaling lager dan het minimaal mogelijke swap bedrag."
+
+msgid "Minimum amount: {}"
+msgstr "Minimale hoeveelheid: {}"
+
+msgid "You need to send a higher amount to be able to do a Submarine Payment."
+msgstr "Je moet een hoger bedrag sturen om een Submarine Betaling te kunnen doen."
+
+msgid "You don't have enough outgoing capacity in your lightning channels."
+msgstr "Je hebt niet genoeg uitgaande capaciteit in je lightning kanalen."
+
+msgid "Your lightning channels can send: {}"
+msgstr "Je lightning kanalen kunnen sturen: {}"
+
+msgid "For this transaction you need: {}"
+msgstr "Voor deze transactie heb je nodig: {}"
+
+msgid "To add outgoing capacity you can open a new lightning channel or do a submarine swap."
+msgstr "Om uitgaande capaciteit te verhogen kun je een lightning kanaal openen of een submarine swap doen."
+
+msgid "The selected swap provider is unable to offer a forward swap of this value."
+msgstr "De gekozen swap aanbieder kan geen forward swap doen van deze grootte."
+
+msgid "Available liquidity"
+msgstr "Beschikbare liquiditeit"
+
+msgid "Submarine Payment not possible:"
+msgstr "Submarine Betaling niet mogelijk:"
 
 msgid "Requesting swap invoice..."
 msgstr "Opvragen swap factuur..."
@@ -1234,13 +1330,13 @@ msgid "BTC incoming"
 msgstr "BTC inkomend"
 
 msgid "Fiat incoming"
-msgstr "Inkomend fiat"
+msgstr "Fiat inkomend"
 
 msgid "BTC outgoing"
 msgstr "BTC uitgaand"
 
 msgid "Fiat outgoing"
-msgstr "Uitgaand fiat"
+msgstr "Fiat uitgaand"
 
 msgid "Realized capital gains"
 msgstr "Gerealiseerde winst"
@@ -1687,7 +1783,7 @@ msgid "Opening channel..."
 msgstr "Kanaal openen..."
 
 msgid "Alternatively, you can save a backup of your wallet file from the File menu"
-msgstr "Als alternatief kun je een backup van je portemonnee opslaan vnauit het Bestand menu"
+msgstr "Als alternatief kun je een backup van je portemonnee opslaan vanuit het Bestand menu"
 
 msgid "Save channel backup"
 msgstr "Opslaan kanaalbackup"
@@ -1722,23 +1818,11 @@ msgstr "Outputs"
 msgid "Expires"
 msgstr "Verloopt"
 
-msgid "Requestor"
-msgstr "Aanvrager"
-
-msgid "Signature"
-msgstr "Handtekening"
-
-msgid "Save invoice to file"
-msgstr "Factuur opslaan in bestand"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "BIP70 betaalverzoek opgeslagen als {}"
-
 msgid "Creation time"
-msgstr "Aanmaak moment"
+msgstr "Aanmaak tijd"
 
 msgid "Expiration time"
-msgstr "Verlooptijd"
+msgstr "Vervaltijd"
 
 msgid "Features"
 msgstr "Kenmerken"
@@ -1802,13 +1886,13 @@ msgid "Bitcoin- or Lightning address"
 msgstr "Bitcoin of Lightning adres"
 
 msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
-msgstr "Lightning is niet ingeschakeld omdat deze portemonnee met een oude versie van Electrum is gemaakt. Aanmaken Lightning sleutels aanmaken?"
+msgstr "Lightning is niet ingeschakeld omdat deze portemonnee met een oude versie van Electrum is gemaakt. Lightning sleutels aanmaken?"
 
 msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet every time you create a new channel. Create lightning keys?"
 msgstr "Waarschuwing: dit portemonnee-type ondersteund geen kanaalherstel vanuit de seed. Je zult elke keer als je een nieuw kanaal opent een backup op moeten slaan. Lightning sleutels toch aanmaken?"
 
 msgid "Lightning keys have been initialized."
-msgstr "Lightning-sleutels zijn geïnitialiseerd."
+msgstr "Lightning sleutels zijn aangemaakt."
 
 msgid "Delete wallet file?"
 msgstr "Portemonnee-bestand verwijderen?"
@@ -1857,6 +1941,9 @@ msgstr "Onjuiste handtekening"
 
 msgid "Sign/verify Message"
 msgstr "&Bericht ondertekenen/verifiëren"
+
+msgid "Signature"
+msgstr "Handtekening"
 
 msgid "Sign"
 msgstr "Ondertekenen"
@@ -1976,7 +2063,7 @@ msgid "Sweep"
 msgstr "Leegvegen"
 
 msgid "Preparing sweep transaction..."
-msgstr "Transactie voorbereiden..."
+msgstr "Veegtransactie voorbereiden..."
 
 msgid "The following addresses were added"
 msgstr "De volgende adressen zijn toegevoegd"
@@ -2251,6 +2338,9 @@ msgstr "Uitgeschakeld"
 msgid "Electrum Plugins"
 msgstr "Electrum-plug-ins"
 
+msgid "Help"
+msgstr "Help"
+
 msgid "Try Auto-Reset"
 msgstr "Probeer Auto-Reset"
 
@@ -2265,6 +2355,9 @@ msgstr "Wachtwoord onjuist."
 
 msgid "Your plugin authorization password is required to install plugins."
 msgstr "Je plugin autorisatiewachtwoord is nodig om plugins te installeren."
+
+msgid "If you need to reset it, remove the following file:"
+msgstr "Als je dit moet resetten, verwijder dan het volgende bestand:"
 
 msgid "Your plugins key is:"
 msgstr "Je plugins sleutel is:"
@@ -2405,7 +2498,7 @@ msgid "Rebalance your channels in order to increase your sending or receiving ca
 msgstr "Balanceer je kanalen om je zend- of ontvang capaciteit te vergroten"
 
 msgid "From channel"
-msgstr "Vanaf kanaal"
+msgstr "Vanuit kanaal"
 
 msgid "To channel"
 msgstr "Naar kanaal"
@@ -2435,7 +2528,7 @@ msgid "Switch between text and QR code view"
 msgstr "Wissel tussen tekst en QR code "
 
 msgid "Show detached QR code window"
-msgstr "Toon losgekoppeld QR code venster"
+msgstr "Toon losgemaakt QR code venster"
 
 msgid "Import requests"
 msgstr "Importeer betaalverzoeken"
@@ -2535,7 +2628,7 @@ msgid "BIP39 seed"
 msgstr "BIP39-seed"
 
 msgid "SLIP39 seed"
-msgstr "SLIP39-seed"
+msgstr "SLIP39 seed"
 
 msgid "Options"
 msgstr "Opties"
@@ -2550,13 +2643,13 @@ msgid "Next share"
 msgstr "Volgend deel"
 
 msgid "Seed Options"
-msgstr "Seed opties"
+msgstr "Seed Opties"
 
 msgid "Extend this seed with custom words"
 msgstr "Deze seed uit met aangepaste woorden uitbreiden"
 
 msgid "Seed type"
-msgstr "Seedtype"
+msgstr "Seed type"
 
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "BIP39-seeds kunnen worden geïmporteerd in Electrum, zodat gebruikers hun geld uit andere portemonnees kunnen vrijmaken."
@@ -2571,7 +2664,7 @@ msgid "We do not guarantee that BIP39 imports will always be supported in Electr
 msgstr "We garanderen niet dat BIP39-imports altijd ondersteund blijven in Electrum."
 
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "SLIP39 seeds kunnen worden geimporteerd in Electrum zodat gebruikers hun fondsen uit andere wallets kunnen ontsluiten."
+msgstr "SLIP39 seeds kunnen worden geïmporteerd in Electrum zodat gebruikers hun fondsen uit andere wallets kunnen ontsluiten."
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Echter, wij genereren geen SLIP39 seeds."
@@ -2696,6 +2789,9 @@ msgstr "Max commentaar lengte: {} tekens"
 msgid "Amount must be between {} and {} sat."
 msgstr "Bedrag moet liggen tussen {} en {} sat."
 
+msgid "Invoice already paid"
+msgstr "Factuur is reeds betaald"
+
 msgid "No amount"
 msgstr "Geen bedrag"
 
@@ -2716,6 +2812,9 @@ msgstr "Ongeldige regels gevonden:"
 
 msgid "Do you wish to continue?"
 msgstr "Wilt u doorgaan?"
+
+msgid "Payment request has expired"
+msgstr "Betaalverzoek is verlopen"
 
 msgid "Rebalance existing channels"
 msgstr "Herbalanceer bestaande kanalen"
@@ -2741,8 +2840,8 @@ msgstr "Je kunt deze factuur niet met Lightning betalen."
 msgid "Your channels can send {}."
 msgstr "Je kanalen kunnen {} sturen."
 
-msgid "This will send {}?"
-msgstr "Dit zal {} versturen?"
+msgid "{}% of payment"
+msgstr "{}% van betaling"
 
 msgid "Sending payment"
 msgstr "Versturen van betaling"
@@ -2768,8 +2867,44 @@ msgstr "Één output per regel."
 msgid "You may load a CSV file using the file icon."
 msgstr "U kunt een CSV-bestand inladen met behulp van het bestandspictogram."
 
+msgid "Pay to many"
+msgstr "Betaal aan meerdere"
+
+msgid "Cannot request lightning withdrawal, wallet has no lightning channels."
+msgstr "Kon geen lightning opnameverzoek doen, portemonnee heeft geen lightning kanalen."
+
+msgid "Lightning Withdrawal"
+msgstr "Lightning Opname"
+
 msgid "Provider"
 msgstr "Aanbieder"
+
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr "Te weinig inkomende liquiditeit voor dit opnameverzoek."
+
+msgid "Can receive: {}"
+msgstr "Kan ontvangen: {}"
+
+msgid "Minimum withdrawal amount: {}"
+msgstr "Minimum opname bedrag: {}"
+
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr "Doe een submarine swap in de 'Kanalen' tab om meer inkomende liquiditeit te krijgen."
+
+msgid "Range"
+msgstr "Bereik"
+
+msgid "The maximum withdrawable amount is larger than what your channels can receive. You may need to do a submarine swap to increase your incoming liquidity."
+msgstr "Het maximaal opneembare bedrag is groter dan wat je kanalen kunnen ontvangen. Je zou een submarine swap kunnen doen om je inkomende liquiditeit te vergroten."
+
+msgid "Request Withdrawal"
+msgstr "Opnameverzoek"
+
+msgid "Enter a valid amount. You entered: {}"
+msgstr "Voer een geldig bedrag in. Je voerde in: {}"
+
+msgid "Requesting lightning withdrawal..."
+msgstr "Aanvragen lightning opname..."
 
 msgid "Are you sure you want to disable trampoline?"
 msgstr "Weet je zeker dat je trampoline wilt uitzetten?"
@@ -2779,9 +2914,6 @@ msgstr "Zonder deze instelling moet Electrum elke keer synchroniseren met het Li
 
 msgid "This may impact the reliability of your payments."
 msgstr "Dit kan invloed hebben op de betrouwbaarheid van je betalingen."
-
-msgid "{}% of payment"
-msgstr "{}% van betaling"
 
 msgid "Base unit of your wallet."
 msgstr "Basiseenheid van uw portemonnee."
@@ -2830,6 +2962,15 @@ msgstr ""
 "Als de swap niet binnen 24u succesvol is, zal het bedrag aan je worden teruggestort.\n"
 "Wil je doorgaan?"
 
+msgid "Fetching..."
+msgstr "Ophalen..."
+
+msgid "swap providers"
+msgstr "swap aanbieders"
+
+msgid "swap provider"
+msgstr "swap aanbieder"
+
 msgid "Submarine Swap"
 msgstr "Submarine Swap"
 
@@ -2847,6 +2988,9 @@ msgstr "omgekeerd"
 
 msgid "forward"
 msgstr "vooruit"
+
+msgid "No {} swap possible with this provider"
+msgstr "Geen {} swap mogelijk met deze aanbieder"
 
 msgid "no input"
 msgstr "geen input"
@@ -3118,9 +3262,6 @@ msgstr "Controleren op updates..."
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Even geduld terwijl Electrum controleert op beschikbare updates."
 
-msgid "Help"
-msgstr "Help"
-
 msgid "Info"
 msgstr "Info"
 
@@ -3253,9 +3394,6 @@ msgstr "Munt geselecteerd om uit te geven"
 msgid "Address is frozen"
 msgstr "Adres is bevroren"
 
-msgid "Coin is frozen"
-msgstr "Munt is bevroren"
-
 msgid ""
 "You need to select coins from the list first.\n"
 "Use ctrl+left mouse button to select multiple items"
@@ -3373,6 +3511,9 @@ msgstr "Kan sleutelopslag niet uitzetten. Je hebt actieve lightning kanalen"
 
 msgid "Disable keystore? This will make the keystore watching-only."
 msgstr "Uitschakelen sleutelopslag? Dit zal de sleutelopslag alleen-kijken maken."
+
+msgid "Note that this will disable wallet file encryption, because it uses your hardware wallet device."
+msgstr "Merk op dat dit portemonneebestand versleuteling uit zet, omdat het je hardware apparaat gebruikt."
 
 msgid "Keystore not found in this wallet"
 msgstr "Sleutelopslag niet gevonden in deze portemonnee"
@@ -4025,9 +4166,6 @@ msgstr "Fout bij lezen LNURL"
 msgid "Error parsing URI"
 msgstr "Fout bij verwerken van URI"
 
-msgid "Openalias address invalid"
-msgstr "Openalias adres ongeldig"
-
 msgid "Error parsing Lightning invoice"
 msgstr "Fout bij lezen lightning betaalverzoek"
 
@@ -4036,6 +4174,9 @@ msgstr "Factuur vereist onbekende of incompatible Lightning eigenschap"
 
 msgid "Nothing to plot."
 msgstr "Niets om te plotten."
+
+msgid "This file can be edited with Regedit"
+msgstr "Dit bestand kan met Regedit bewerkt worden"
 
 msgid "The file must have root permissions"
 msgstr "Het bestand moet root-permissies hebben"
@@ -4623,6 +4764,9 @@ msgstr "Firmwareversie (of \"Bitcoin\"-app) te oud om Segwit te ondersteunen. Up
 msgid "Your Ledger is locked. Please unlock it."
 msgstr "Uw Ledger is vergrendeld. Gelieve te ontgrendelen."
 
+msgid "Communication with Ledger failed. Open the Bitcoin app and try again."
+msgstr "Communicatie met Ledger mislukt. Open de Bitcoin app en probeer opnieuw."
+
 msgid "Your device might not have support for this functionality."
 msgstr "Uw apparaat ondersteunt deze functionaliteit mogelijk niet."
 
@@ -4703,6 +4847,9 @@ msgstr "Maken van verbinding mislukt"
 
 msgid "New NWC Connection"
 msgstr "Nieuwe NWC Verbinding"
+
+msgid "Scan this QR code with your nwc client:"
+msgstr "Scan deze QR code met je nwc client:"
 
 msgid "Or copy this connection string:"
 msgstr "Of kopiëer deze verbindingscode:"
@@ -4881,6 +5028,9 @@ msgstr "Om een herstelplan te maken, voer een ontvang adres is en een annulering
 msgid "✓ Signed"
 msgstr "✓ Ondertekend"
 
+msgid "Not enough funds to create the transactions."
+msgstr "Niet genoeg saldo om de transacties te maken."
+
 msgid "This is a watching-only wallet. You must sign the transactions externally - use the View button of each transaction."
 msgstr "Dit is een alleen-kijken portemonnee. Je moet transacties extern ondertekenen - gebruikt de Tonen knop voor elke transactie."
 
@@ -4911,8 +5061,26 @@ msgstr "Als de Alert Transactie onbedoeld is verzonden, zul je de Annulering Tra
 msgid "However, if the seed of this wallet is lost, broadcasting the Cancellation transaction might lock the funds on this wallet forever."
 msgstr "Maar, als de seed van deze portemonnee verloren raakt kan de Annulering Transactie het saldo in deze portemonnee voor altijd onbereikbaar maken."
 
+msgid "Alert transaction"
+msgstr "Alert transactie"
+
 msgid "View"
 msgstr "Bekijk"
+
+msgid "Recovery transaction"
+msgstr "Herstel transactie"
+
+msgid "Cancellation transaction"
+msgstr "Annulering transactie"
+
+msgid "Invalid address."
+msgstr "Ongeldig adres."
+
+msgid "At least one line must be set to max spend ('!' in the amount column)."
+msgstr "Ten minste één regel moet als spendeer-max gezet worden ('!' in bedrag kolom)."
+
+msgid "Invalid address type - must be a Bitcoin address."
+msgstr "Ongeldig adrestype - moet een Bitcoin adres zijn."
 
 msgid "Alert transaction signing was not completed"
 msgstr "Alert transactie ondertekening was niet voltooid"
@@ -4958,6 +5126,12 @@ msgstr "Annulering Transactie ID"
 
 msgid "ID of the Cancellation transaction"
 msgstr "ID van de Annulering Transactie"
+
+msgid "Save as PDF"
+msgstr "Opslaan als PDF"
+
+msgid "Save as JSON"
+msgstr "Opslaan als JSON"
 
 msgid "Save Recovery Plan"
 msgstr "Opslaan Herstel Plan"
@@ -5295,6 +5469,9 @@ msgstr "Stuur wisselgeld naar Lightning"
 msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
 msgstr "Indien mogelijk, stuur het wisselgeld van deze transactie naar je kanalen met een (submarine) swap"
 
+msgid "Submarine Payments"
+msgstr "Submarine Betalingen"
+
 msgid "Avoid spending from used addresses"
 msgstr "Vermijd spenderen van gebruikte adressen"
 
@@ -5502,6 +5679,30 @@ msgstr "Ongeldig mnemonic woord"
 msgid "The swap server errored or is unreachable."
 msgstr "De swapdienst geeft een fout of is onbereikbaar."
 
+msgid "Fetching submarine swap providers..."
+msgstr "Ophalen submarine swap aanbieders..."
+
+msgid "Will send change to lightning"
+msgstr "Stuur wisselgeld naar Lightning"
+
+msgid "Swap fees:"
+msgstr "Swapkosten:"
+
+msgid "Your channels cannot receive this amount."
+msgstr "Je kanalen kunnen dit bedrag niet ontvangen."
+
+msgid "Below the swap providers minimum value of {}."
+msgstr "Onder de swap aanbieder minimale waarde van {}."
+
+msgid "Change amount exceeds the swap providers maximum value of {}."
+msgstr "Wisselgeld bedrag overschrijdt swap aanbieder maximum van {}."
+
+msgid "Will not send change to Lightning"
+msgstr "Stuur wisselgeld niet naar Lightning"
+
+msgid "Total swap costs are insane."
+msgstr "Totale swapkosten zijn abnormaal."
+
 msgid "Swap amount outside of providers limits"
 msgstr "Swap bedrag buiten aanbieder limieten"
 
@@ -5597,6 +5798,9 @@ msgstr "Niet geverifiëerd"
 
 msgid "Local"
 msgstr "Lokaal"
+
+msgid "Unsupported script-type ({}) for sweeping."
+msgstr "Niet ondersteund script type ({}) voor vegen."
 
 msgid "No inputs found."
 msgstr "Geen invoeren gevonden."
@@ -5751,8 +5955,20 @@ msgstr "Je moet online zijn om Lightning betalingen te ontvangen."
 msgid "Cannot receive this payment. Request at least {} to purchase a Lightning channel from your service provider."
 msgstr "Kan deze betaling niet ontvangen. Verzoke ten minste {} om een Lightning kanaal van je service provider te kopen."
 
+msgid "You do not have enough capacity to receive with Lightning."
+msgstr "Onvoldoende capaciteit om dit bedrag via Lightning te ontvangen."
+
+msgid "You may have enough capacity if you rebalance your channels."
+msgstr "Je zou de capaciteit kunnen hebben als je je kanalen balanceert."
+
+msgid "You may have enough capacity if you swap some of your funds."
+msgstr "Je zou genoeg capaciteit kunnen hebben als je een deel verplaatst d.m.v. een swap."
+
 msgid "({} are frozen)"
 msgstr "({} zijn bevroren)"
+
+msgid "New transaction: {}"
+msgstr "Nieuwe transactie: {}"
 
 msgid "invalid address"
 msgstr "ongeldig adres"
@@ -5763,17 +5979,20 @@ msgstr "adres zit al in portemonnee"
 msgid "Cannot delete last remaining address from wallet"
 msgstr "Kan niet het laatst overgebleven adres uit de portemonnee verwijderen"
 
-msgid "invalid private key"
-msgstr "ongeldige privésleutel"
-
-msgid "not implemented type"
-msgstr "niet geïmplementeerd type"
-
 msgid "Duplicate master keys"
 msgstr "Dubbele moedersleutels"
 
 msgid "Heterogenous master keys"
 msgstr "Heterogene moedersteutels"
+
+msgid "File already exists at path: {}"
+msgstr "Bestand bestaat al op pad: {}"
+
+msgid "Wrong key type {}"
+msgstr "Onjuist sleuteltype {}"
+
+msgid "Multisig wallet needs to have homogeneous xpub types."
+msgstr "Multisig portemonnee moet homogene xpub types hebben."
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -6503,6 +6722,10 @@ msgctxt "FeeMethodComboBox|"
 msgid "Feerate"
 msgstr "Vergoedingstarief"
 
+msgctxt "FeeMethodComboBox|"
+msgid "Manual"
+msgstr "Handmatig"
+
 msgctxt "FeePicker|"
 msgid "Target"
 msgstr "Doel"
@@ -6514,6 +6737,10 @@ msgstr "Delfvergoeding"
 msgctxt "FeePicker|"
 msgid "Fee rate"
 msgstr "Vergoedingstarief"
+
+msgctxt "FeePicker|"
+msgid "Rate"
+msgstr "Tarief"
 
 msgctxt "FeePicker|"
 msgid "Total"
@@ -6603,18 +6830,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importeren"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Kanaalback-up importeren"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Scan a channel backup"
-msgstr "Scan een kanaalbackup"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importeren"
-
 msgctxt "InvoiceDialog|"
 msgid "On-chain Invoice"
 msgstr "On-chain Factuur"
@@ -6650,10 +6865,6 @@ msgstr "Max"
 msgctxt "InvoiceDialog|"
 msgid "Technical properties"
 msgstr "Technische eigenschappen"
-
-msgctxt "InvoiceDialog|"
-msgid "Remote Pubkey"
-msgstr "Publieke sleutel wederpartij"
 
 msgctxt "InvoiceDialog|"
 msgid "Node public key"
@@ -6776,8 +6987,36 @@ msgid "Pay..."
 msgstr "Betalen..."
 
 msgctxt "LnurlWithdrawRequestDialog|"
+msgid "LNURL Withdraw request"
+msgstr "LNURL Opnameverzoek"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr "Te weinig inkomende liquiditeit voor dit opnameverzoek."
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Can receive: %1"
+msgstr "Kan ontvangen: %1"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Minimum withdrawal amount: %1"
+msgstr "Minimum opname bedrag: %1"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr "Doe een submarine swap in de 'Kanalen' tab om meer inkomende liquiditeit te krijgen."
+
+msgctxt "LnurlWithdrawRequestDialog|"
 msgid "Amount must be between %1 and %2 %3"
 msgstr "Bedrag moet liggen tussen %1 en %2 %3"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "The maximum withdrawable amount (%1) is larger than what your channels can receive (%2)."
+msgstr "Heb maximaal opneembare bedrag (%1) is groter dan wat je kanalen kunnen ontvangen (%2)."
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "You may need to do a submarine swap to increase your incoming liquidity."
+msgstr "Je zou een submarine swap kunnen doen om je inkomende liquiditeit te vergroten."
 
 msgctxt "LnurlWithdrawRequestDialog|"
 msgid "Provider"
@@ -6790,6 +7029,10 @@ msgstr "Beschrijving"
 msgctxt "LnurlWithdrawRequestDialog|"
 msgid "Amount"
 msgstr "Bedrag"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Withdraw..."
+msgstr "Opname..."
 
 msgctxt "LoadingWalletDialog|"
 msgid "Loading Wallet"
@@ -6924,10 +7167,6 @@ msgid "Nostr relays"
 msgstr "Nostr relays"
 
 msgctxt "NostrConfigDialog|"
-msgid "Enter the list of Nostr relays"
-msgstr "Voer de lijst van Nostr relays in"
-
-msgctxt "NostrConfigDialog|"
 msgid "Nostr relays are used to send and receive submarine swap offers."
 msgstr "Nostr relays worden gebruikt voor het versturen en ontvangen van submarine swap aanbiedingen"
 
@@ -6938,6 +7177,10 @@ msgstr "Voor multisig portemonnees wordt nostr ook gebruikt voor het versturen v
 msgctxt "NostrConfigDialog|"
 msgid "Connections to nostr are only made when required, and ephemerally."
 msgstr "Verbindingen naar nostr worden alleen (tijdelijk) gemaakt indien nodig."
+
+msgctxt "NostrConfigDialog|"
+msgid "Enter the list of Nostr relays"
+msgstr "Voer de lijst van Nostr relays in"
 
 msgctxt "NostrConfigDialog|"
 msgid "Ok"
@@ -7004,10 +7247,6 @@ msgid "This means your channels cannot be recovered from seed."
 msgstr "Dit houdt in dan je kanalen niet hersteld kunnen worden met de seed."
 
 msgctxt "OpenChannelDialog|"
-msgid "Node"
-msgstr "Knooppunt"
-
-msgctxt "OpenChannelDialog|"
 msgid "Paste or scan node uri/pubkey"
 msgstr "Plak of scan knoopunt uri/pubkey"
 
@@ -7018,10 +7257,6 @@ msgstr "Ongeldig knooppunt-id of verbindingcode"
 msgctxt "OpenChannelDialog|"
 msgid "Scan a node-id or a connect string"
 msgstr "Scan een knooppunt-id of verbindingcode"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Bedrag"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -7121,7 +7356,7 @@ msgstr "Sterk"
 
 msgctxt "PasswordStrengthIndicator|"
 msgid "Very Strong"
-msgstr "Zeer sterk"
+msgstr "Zeer Sterk"
 
 msgctxt "Preferences|"
 msgid "Preferences"
@@ -7166,6 +7401,34 @@ msgstr "Synchroniseer labels"
 msgctxt "Preferences|"
 msgid "Nostr Cosigner"
 msgstr "Nostr Medeondertekenaar"
+
+msgctxt "Preferences|"
+msgid "Increase brightness when displaying QR codes"
+msgstr "Maximale helderheid bij het tonen van QR codes"
+
+msgctxt "Preferences|"
+msgid "Security"
+msgstr "Beveiliging"
+
+msgctxt "Preferences|"
+msgid "Request authentication for payments"
+msgstr "Vereis authenticatie voor betalingen"
+
+msgctxt "Preferences|"
+msgid "Failed to enable biometric authentication: "
+msgstr "Kon biometrische authenticatie niet aanzetten: "
+
+msgctxt "Preferences|"
+msgid "Unavailable"
+msgstr "Niet beschikbaar"
+
+msgctxt "Preferences|"
+msgid "Biometric authentication"
+msgstr "Biometrische authenticatie"
+
+msgctxt "Preferences|"
+msgid "Protect secrets from screenshots"
+msgstr "Bescherm gevoelige informatie tegen screenshots"
 
 msgctxt "Preferences|"
 msgid "Wallet behavior"
@@ -7432,10 +7695,6 @@ msgid "To access this list from the main screen, press and hold the Receive butt
 msgstr "Houd de 'Ontvangen' knop op het hoofdscherm ingedrukt om deze lijst te zien"
 
 msgctxt "ReceiveRequests|"
-msgid "Pending requests"
-msgstr "Lopende verzoeken"
-
-msgctxt "ReceiveRequests|"
 msgid "Delete"
 msgstr "Verwijderen"
 
@@ -7466,6 +7725,14 @@ msgstr "Nooit"
 msgctxt "ScanDialog|"
 msgid "Cancel"
 msgstr "Annuleren"
+
+msgctxt "SendDialog|"
+msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
+msgstr "Scan een Factuur, een Adres, een LNURL, een PSBT of een Kanaalbackup"
+
+msgctxt "SendDialog|"
+msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
+msgstr "Scan een Factuur, een Adres, een LNURL of een PSBT"
 
 msgctxt "SendDialog|"
 msgid "Paste"
@@ -7959,6 +8226,14 @@ msgctxt "WCEnterExt|"
 msgid "Note that this is NOT your encryption password."
 msgstr "Let op: dit is NIET uw versleutelingswachtwoord."
 
+msgctxt "WCEnterExt|"
+msgid "Extend seed with custom words"
+msgstr "Breid deze seed uit met extra woorden"
+
+msgctxt "WCEnterExt|"
+msgid "Enter your custom word(s)"
+msgstr "Voer je eigen extra woord(en) in"
+
 msgctxt "WCHaveMasterKey|"
 msgid "Error: invalid master key"
 msgstr "Fout: ongeldige moedersleutel"
@@ -8025,7 +8300,7 @@ msgstr "BIP39-seeds bevatten echter geen versienummer, wat compatibiliteit met t
 
 msgctxt "WCHaveSeed|"
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "SLIP39 seeds kunnen worden geimporteerd in Electrum zodat gebruikers hun fondsen uit andere wallets kunnen ontsluiten."
+msgstr "SLIP39 seeds kunnen worden geïmporteerd in Electrum zodat gebruikers hun fondsen uit andere wallets kunnen ontsluiten."
 
 msgctxt "WCHaveSeed|"
 msgid "Error: duplicate master public key"
@@ -8171,14 +8446,6 @@ msgctxt "WCServerConfig|"
 msgid "Server"
 msgstr "Server"
 
-msgctxt "WCShowMasterPubkey|"
-msgid "Here is your master public key. Please share it with your cosigners"
-msgstr "Dit is je publieke moedersleutel. Deel deze met je mede-ondertekenaars"
-
-msgctxt "WCShowMasterPubkey|"
-msgid "Master public key"
-msgstr "Publieke moedersleutel"
-
 msgctxt "WCTermsOfUseRequest|"
 msgid "Terms of Use"
 msgstr "Gebruiksvoorwaarden"
@@ -8278,6 +8545,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Naam"
 
 msgctxt "WalletDetails|"
 msgid "Tap to show seed"
@@ -8390,6 +8661,18 @@ msgstr "Wachtwoord wijzigen mislukt"
 msgctxt "WalletDetails|"
 msgid "Warning"
 msgstr "Waarschuwing"
+
+msgctxt "WalletDetails|"
+msgid "Biometric Authentication"
+msgstr "Biometrische Authenticatie"
+
+msgctxt "WalletMainView|"
+msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
+msgstr "Scan een Factuur, een Adres, een LNURL, een PSBT of een Kanaalbackup"
+
+msgctxt "WalletMainView|"
+msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
+msgstr "Scan een Factuur, een Adres, een LNURL of een PSBT"
 
 msgctxt "WalletMainView|"
 msgid "Import Channel Backup?"
@@ -8528,14 +8811,6 @@ msgstr "Transactie aangemaakt maar nog niet ondertekend door deze portemonnee. T
 msgctxt "WalletMainView|"
 msgid "Could not sign tx"
 msgstr "Kon tx niet ondertekenen"
-
-msgctxt "WalletSummary|"
-msgid "More details"
-msgstr "Meer details"
-
-msgctxt "WalletSummary|"
-msgid "Switch wallet"
-msgstr "Wissel van portemonnee"
 
 msgctxt "Wallets|"
 msgid "Wallets"

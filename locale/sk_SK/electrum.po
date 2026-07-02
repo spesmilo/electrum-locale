@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:52\n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2738\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -109,9 +109,6 @@ msgstr "Nepodarilo sa zavrieť kanál: "
 msgid "This invoice has expired"
 msgstr "Táto faktúra exspirovala"
 
-msgid "Payment request has expired"
-msgstr "Požiadavka na platbu expirovala"
-
 msgid "Error"
 msgstr "Chyba"
 
@@ -141,12 +138,6 @@ msgstr "Nedostatok prostriedkov"
 
 msgid "Amount"
 msgstr "Suma"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} nových transakcií: Celková suma prijatá v nových transakciách {}"
-
-msgid "New transaction: {}"
-msgstr "Nová transakcia: {}"
 
 msgid "Synchronizing..."
 msgstr "Synchronizuje sa..."
@@ -919,15 +910,6 @@ msgstr "Výstupy"
 msgid "Expires"
 msgstr "Platnosť vyprší"
 
-msgid "Requestor"
-msgstr "Žiadateľ"
-
-msgid "Signature"
-msgstr "Podpis"
-
-msgid "Save invoice to file"
-msgstr "Uložiť faktúru do súboru"
-
 msgid "Password"
 msgstr "Heslo"
 
@@ -1009,6 +991,9 @@ msgstr "Nesprávny podpis"
 
 msgid "Sign/verify Message"
 msgstr "Podpísať/overiť správu"
+
+msgid "Signature"
+msgstr "Podpis"
 
 msgid "Sign"
 msgstr "Podpísať"
@@ -1283,6 +1268,9 @@ msgstr "Vypnuté"
 msgid "Electrum Plugins"
 msgstr "Pluginy programu Electrum"
 
+msgid "Help"
+msgstr "Pomocník"
+
 msgid "Select where to save file"
 msgstr "Vybrať miesto uloženia súboru"
 
@@ -1452,6 +1440,9 @@ msgstr "Našli sa neplatné riadky:"
 msgid "Do you wish to continue?"
 msgstr "Želáte si pokračovať?"
 
+msgid "Payment request has expired"
+msgstr "Požiadavka na platbu expirovala"
+
 msgid "Invoice has expired"
 msgstr "Platnosť faktúry uplynula"
 
@@ -1619,9 +1610,6 @@ msgstr "Vyhľadávanie aktualizácií..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Prosím, počkajte, kým Electrum vyhľadá dostupné aktualizácie."
-
-msgid "Help"
-msgstr "Pomocník"
 
 msgid "Info"
 msgstr "Info"
@@ -3082,17 +3070,14 @@ msgstr "Poplatok za túto transakciu sa zdá byť nezvyčajne vysoký."
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Táto adresa už bola použitá. Pre lepšie súkromie ju nepoužívaj opätovne na nové platby."
 
+msgid "New transaction: {}"
+msgstr "Nová transakcia: {}"
+
 msgid "invalid address"
 msgstr "neplatná adresa"
 
 msgid "address already in wallet"
 msgstr "adresa je už v peňaženke"
-
-msgid "invalid private key"
-msgstr "neplatný súkromný kľúč"
-
-msgid "not implemented type"
-msgstr "neimplementovaný typ"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -3338,10 +3323,6 @@ msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
 msgstr "Importovať"
 
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import"
-msgstr "Importovať"
-
 msgctxt "InvoiceDialog|"
 msgid "Address"
 msgstr "Adresa"
@@ -3457,10 +3438,6 @@ msgstr "Chyba"
 msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Poplatok"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Suma"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -3877,6 +3854,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Meno"
 
 msgctxt "WalletDetails|"
 msgid "unknown"
