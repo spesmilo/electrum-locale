@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 02:51+0000\n"
-"PO-Revision-Date: 2026-02-21 02:51\n"
+"POT-Creation-Date: 2026-07-02 08:02+0000\n"
+"PO-Revision-Date: 2026-07-02 08:02\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2736\n"
+"X-Electrum-SourceStringCount: 2738\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -59,10 +59,13 @@ msgid "Unsupported password hash version"
 msgstr "Versione hash password non supportata"
 
 msgid "  (No FX rate available)"
-msgstr "  (Nessun tasso FX disponibile)"
+msgstr "(Nessun tasso FX disponibile)"
 
 msgid "No data"
 msgstr "Nessun dato"
+
+msgid "Feerate"
+msgstr "Tariffa oraria"
 
 msgid "ETA"
 msgstr "Tempo stimato di arrivo"
@@ -75,6 +78,12 @@ msgstr "Commissione bassa"
 
 msgid "In the next block"
 msgstr "Nel blocco successivo"
+
+msgid "Within one day"
+msgstr "Entro un giorno"
+
+msgid "Within one week"
+msgstr "Entro una settimana"
 
 msgid "Within {} blocks"
 msgstr "Entro {} blocchi"
@@ -115,6 +124,12 @@ msgstr "Seleziona Tutto"
 msgid "Copy &Link Location"
 msgstr "Copia &Posizione Collegamento"
 
+msgid "Cannot draw QR code"
+msgstr "Impossibile generare il codice QR"
+
+msgid "Not enough space available."
+msgstr "Spazio insufficiente."
+
 msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
 msgstr "Il tuo nodo negozierà la commissione di transazione con il nodo remoto. Questo metodo di chiusura del canale solitamente comporta le commissioni più basse."
 
@@ -132,6 +147,24 @@ msgstr ""
 
 msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
 msgstr "Electrum utilizza backup di canali statici. Se perdi il file del tuo portafoglio, dovrai richiedere la chiusura forzata del tuo canale da parte del peer remoto per recuperare i tuoi fondi. Ciò presuppone che il peer remoto sia raggiungibile e non abbia perso i propri dati."
+
+msgid "Warning: Third-party plugins have access to your wallet!"
+msgstr "Attenzione: I plugin di terze parti hanno accesso al tuo portafoglio!"
+
+msgid "Installing this plugin will grant third-party software access to your wallet. You must trust the plugin not to be malicious."
+msgstr "L'installazione di questo plugin consentirà a software di terze parti di accedere al tuo portafoglio. Devi fidarti del plugin e presumere che non sia dannoso."
+
+msgid "You should at minimum check who the author of the plugin is, and be careful of imposters."
+msgstr "Come minimo, dovresti verificare chi è l'autore del plugin e fare attenzione ai falsari."
+
+msgid "Third-party plugins are not endorsed by Electrum."
+msgstr "I plugin di terze parti non sono approvati da Electrum."
+
+msgid "Electrum will not be responsible in case of theft, loss of funds or privacy that might result from third-party plugins."
+msgstr "Electrum declina ogni responsabilità in caso di furto, perdita di fondi o violazione della privacy derivanti da plugin di terze parti."
+
+msgid "To install this plugin, please enter your plugin authorization password"
+msgstr "Per installare questo plugin, inserisci la password di autorizzazione del plugin."
 
 msgid ""
 "Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n"
@@ -191,6 +224,66 @@ msgstr "La transazione di richiesta verrà trasmessa quando la transazione di fi
 msgid "If you go offline before broadcasting the claiming transaction and let the swap time out, you will not get back the already pre-paid mining fees."
 msgstr "Se ti disconnetti prima di trasmettere la transazione di rivendicazione e lasci scadere il timeout dello swap, non ti verranno restituite le commissioni di mining già pagate in anticipo."
 
+msgid "You will need to come back online after the commitment transaction is confirmed, in order to broadcast second-stage htlc transactions."
+msgstr "Dopo la conferma della transazione di impegno, sarà necessario tornare online per poter trasmettere le transazioni htlc di secondo livello."
+
+msgid "If you remain offline for more than {} blocks, your channel counterparty will be able to sweep those funds."
+msgstr "Se rimani offline per più di {} blocchi, la tua controparte di canale sarà in grado di prelevare quei fondi."
+
+msgid "You will need to come back online after the funding transaction is confirmed, in order to settle the swap."
+msgstr "Dopo la conferma della transazione di finanziamento, dovrai tornare online per completare lo swap."
+
+msgid "If you remain offline for more than {} blocks, your channel will be force closed and you might lose the funds you sent in the swap."
+msgstr "Se rimani offline per più di {} blocchi, il tuo canale verrà chiuso forzatamente e potresti perdere i fondi che hai inviato nello scambio."
+
+msgid "If you remain offline for more than {} blocks, the swap will be cancelled and you will lose the prepaid mining fees."
+msgstr "Se rimani offline per più di {} blocchi, lo scambio verrà annullato e perderai le commissioni di mining prepagate."
+
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr "Non disponi di fondi on-chain sufficienti per proteggere i tuoi canali Lightning."
+
+msgid "You should have at least {} on-chain in order to be able to sweep channel outputs."
+msgstr "Dovresti avere almeno {} on-chain per poter effettuare lo sweep degli output del canale."
+
+msgid "Auto-connect"
+msgstr "Connessione automatica"
+
+msgid "Manual server selection"
+msgstr "Selezione manuale del server"
+
+msgid "Connect only to a single server"
+msgstr "Connettiti solo a un singolo server"
+
+msgid "Electrum connects to a unique server in order to receive your transaction history. This server will learn your wallet addresses."
+msgstr "Electrum si connette a un server univoco per ricevere la cronologia delle transazioni. Questo server verrà a conoscenza degli indirizzi del tuo portafoglio."
+
+msgid "In addition to your history server, Electrum will try to maintain connections with ~10 extra servers, in order to download block headers and find out the longest blockchain. These servers are only used for block header notifications and fee estimates; they do not learn your wallet addresses. Getting block headers from multiple sources is useful to detect lagging servers and forks. Fork detection is security-critical for determining number of confirmations."
+msgstr "Oltre al tuo server di cronologia, Electrum tenterà di mantenere connessioni con circa 10 server aggiuntivi per scaricare le intestazioni dei blocchi e individuare la blockchain più lunga. Questi server vengono utilizzati esclusivamente per le notifiche relative alle intestazioni dei blocchi e per la stima delle commissioni; non vengono a conoscenza degli indirizzi dei tuoi wallet. Ottenere le intestazioni dei blocchi da più fonti è utile per rilevare server lenti e fork. Il rilevamento dei fork è fondamentale per la sicurezza, in quanto permette di determinare il numero di conferme."
+
+msgid "Electrum will always use a history server that is on the longest blockchain. If your current server is unresponsive or lagging, Electrum will switch to another server."
+msgstr "Electrum utilizzerà sempre il server di cronologia che si trova sulla blockchain più lunga. Se il server corrente non risponde o presenta rallentamenti, Electrum passerà a un altro server."
+
+msgid "Electrum will stay with the server you selected. It will warn you if your server is lagging."
+msgstr "Electrum rimarrà connesso al server che hai selezionato. Ti avviserà se il tuo server presenta rallentamenti."
+
+msgid "Electrum will stay with the server you selected, and it will not connect to additional nodes. This will disable fork detection. This mode is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged."
+msgstr "Electrum rimarrà connesso al server selezionato e non si connetterà ad altri nodi. Questo disabiliterà il rilevamento dei fork. Questa modalità è pensata esclusivamente per la connessione al proprio server, che è considerato completamente affidabile. L'utilizzo di questa opzione su un server pubblico rappresenta un rischio per la sicurezza ed è pertanto sconsigliato."
+
+msgid "Submarine Payments use a reverse submarine swap to do on-chain transactions directly from your lightning balance."
+msgstr "I pagamenti Submarine utilizzano uno scambio sottomarino inverso per effettuare transazioni on-chain direttamente dal tuo saldo Lightning."
+
+msgid "Submarine Payments happen in two stages. In the first stage, your wallet sends a lightning payment to the submarine swap provider. The swap provider will lock funds to a funding output in an on-chain transaction (the funding transaction)."
+msgstr "I pagamenti Submarine avvengono in due fasi. Nella prima fase, il tuo portafoglio invia un pagamento Lightning al fornitore di swap sottomarino. Il fornitore di swap bloccherà i fondi su un output di finanziamento in una transazione on-chain (la transazione di finanziamento)."
+
+msgid "Once the funding transaction has one confirmation, your wallet will broadcast a claim transaction as the second stage of the payment. This claim transaction spends the funding output to the payee's address."
+msgstr "Una volta che la transazione di finanziamento ha ricevuto una conferma, il tuo portafoglio trasmetterà una transazione di richiesta come seconda fase del pagamento. Questa transazione di richiesta destinerà i fondi erogati all'indirizzo del beneficiario."
+
+msgid "Warning:"
+msgstr "Avvertimento:"
+
+msgid "The funding transaction is not visible to the payee. They will only see a pending transaction in the mempool after your wallet broadcasts the claim transaction. Since confirmation of the funding transaction can take over 30 minutes, avoid using Submarine Payments when the payee expects to see the transaction within a limited time frame (e.g., an online shop checkout). Use a regular on-chain payment instead."
+msgstr "La transazione di finanziamento non è visibile al beneficiario. Quest'ultimo visualizzerà una transazione in sospeso nel mempool solo dopo che il tuo portafoglio avrà trasmesso la transazione di richiesta. Poiché la conferma della transazione di finanziamento può richiedere più di 30 minuti, evita di utilizzare i pagamenti sottomarini quando il beneficiario si aspetta di visualizzare la transazione entro un lasso di tempo limitato (ad esempio, al momento del pagamento in un negozio online). Utilizza invece un normale pagamento on-chain."
+
 msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
 msgstr "Questa transazione richiede una commissione più elevata, altrimenti non sarà propagata dal server attuale."
 
@@ -202,6 +295,9 @@ msgstr "Si è verificato un problema con la segnalazione automatica:"
 
 msgid "Please report this issue manually"
 msgstr "Per favore seleziona manualmente questo problema"
+
+msgid "Confirm your identity"
+msgstr "Conferma la tua identità"
 
 msgid "Not a master key"
 msgstr "Non una chiave principale"
@@ -233,6 +329,9 @@ msgstr "Impossibile chiudere il canale: "
 msgid "Minimum required amount: {}"
 msgstr "Importo minimo richiesto: {}"
 
+msgid "Amount is above maximum channel size: {}"
+msgstr "L'importo supera la dimensione massima del canale: {}"
+
 msgid "Open Lightning channel?"
 msgstr "Vuoi aprire il canale Lightning?"
 
@@ -263,9 +362,6 @@ msgstr "Vuoi davvero eliminare questo portafoglio?"
 msgid "Problem deleting wallet"
 msgstr "Problema con l'eliminazione del portafoglio"
 
-msgid "Paid!"
-msgstr "Pagato!"
-
 msgid "Payment failed: "
 msgstr "Pagamento non riuscito: "
 
@@ -293,17 +389,14 @@ msgstr "in attesa di conferma"
 msgid "Invoice has unknown status"
 msgstr "La fattura ha uno stato sconosciuto"
 
+msgid "Paid!"
+msgstr "Pagato!"
+
 msgid "Cannot pay less than the amount specified in the invoice"
 msgstr "Non è possibile pagare un importo inferiore a quello specificato nella fattura"
 
 msgid "Insufficient balance"
 msgstr "Saldo insufficiente"
-
-msgid "Invoice already paid"
-msgstr "Fattura già pagata"
-
-msgid "Payment request has expired"
-msgstr "Il pagamento richiesto è scaduto"
 
 msgid "Unknown invoice"
 msgstr "Fattura sconosciuta"
@@ -320,9 +413,6 @@ msgstr "Impossibile risolvere l'indirizzo"
 msgid "Could not resolve LNURL"
 msgstr "Impossibile risolvere LNURL"
 
-msgid "Could not resolve BIP70 payment request: {}"
-msgstr "Impossibile risolvere la richiesta di pagamento BIP70: {}"
-
 msgid "Could not resolve"
 msgstr "Impossibile risolvere"
 
@@ -332,11 +422,17 @@ msgstr "La libreria di rilevamento QR della piattaforma non è disponibile."
 msgid "Scan a QR code."
 msgstr "Scansiona un codice QR."
 
+msgid "Failed to create payment request for withdrawal: {}"
+msgstr "Impossibile creare la richiesta di pagamento per il prelievo: {}"
+
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "Spostare il cursore per impostare l'importo e la direzione dello scambio."
 
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "Sostituendo i fondi lightning con i fondi onchain aumenterai la tua capacità di ricevere pagamenti lightning."
+
+msgid "Initializing..."
+msgstr "Inizializzazione in corso..."
 
 msgid "Error"
 msgstr "Errore"
@@ -344,8 +440,17 @@ msgstr "Errore"
 msgid "Could not connect to a Nostr relay."
 msgstr "Impossibile connettersi a un relè Nostr."
 
+msgid "Please check your relays and network connection"
+msgstr "Si prega di controllare i relè e la connessione di rete"
+
 msgid "Could not find a swap provider."
 msgstr "Impossibile trovare un fornitore di scambio."
+
+msgid "No swap provider selected."
+msgstr "Nessun provider di scambio selezionato."
+
+msgid "Select one of the available swap providers."
+msgstr "Seleziona uno dei fornitori di scambio disponibili."
 
 msgid "Performing swap..."
 msgstr "Esecuzione dello scambio..."
@@ -359,11 +464,17 @@ msgstr "Scambio fallito!"
 msgid "Swap cancelled"
 msgstr "Scambio annullato"
 
+msgid "Timeout"
+msgstr "Tempo scaduto"
+
 msgid "You are offline."
 msgstr "Sei offline."
 
 msgid "Confirm Lightning swap?"
 msgstr "Confermare lo scambio di Lightning?"
+
+msgid "removed"
+msgstr "rimosso"
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Sei sicuro di voler rimuovere questa transazione?"
@@ -374,11 +485,26 @@ msgstr "Sei sicuro di voler rimuovere questa transazione e le transazioni figlie
 msgid "Warning"
 msgstr "Attenzione"
 
+msgid "No dynamic fee estimates available"
+msgstr "Non sono disponibili stime dinamiche delle Commissioni"
+
+msgid "Could not spend max: a security reserve of {} was kept for your Lightning channels."
+msgstr "Impossibile spendere il massimo: è stata mantenuta una riserva di sicurezza di {} per i tuoi canali Lightning."
+
+msgid "Base transaction has been mined"
+msgstr "La transazione di base è stata estratta"
+
+msgid "Base transaction disappeared"
+msgstr "La transazione di base è scomparsa"
+
 msgid "Cannot determine dynamic fees, not connected"
 msgstr "Impossibile determinare le tariffe dinamiche, non connesso"
 
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "Il nuovo tasso di commissione deve essere superiore a quello vecchio."
+
+msgid "Transaction is missing info from network"
+msgstr "Alla transazione mancano informazioni dalla rete"
 
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "CPFP impossibile: commissione sconosciuta per transazione genitoriale."
@@ -389,6 +515,12 @@ msgstr "Nessuna commissione"
 msgid "Max fee exceeded"
 msgstr "Commissione massima superata"
 
+msgid "Combined feerate should be greater than the parent tx feerate"
+msgstr "La tariffa combinata deve essere superiore alla tariffa della transazione principale."
+
+msgid "Network error"
+msgstr "Errore di rete"
+
 msgid "Not enough funds"
 msgstr "Fondi insufficenti"
 
@@ -397,12 +529,6 @@ msgstr "Transazione di sweep"
 
 msgid "Amount"
 msgstr "Importo"
-
-msgid "{} new transactions: Total amount received in the new transactions {}"
-msgstr "{} nuove transazioni: Totale importo ricevuto nelle nuove transazioni {}"
-
-msgid "New transaction: {}"
-msgstr "Nuova transazione: {}"
 
 msgid "Synchronizing..."
 msgstr "Sincronizzazione..."
@@ -434,6 +560,9 @@ msgstr "Per visualizzare l'elenco, tenere premuto il pulsante Ricevi."
 msgid "Error creating payment request"
 msgstr "Errore creando la richiesta di pagamento"
 
+msgid "Sign message?"
+msgstr "Messaggio di firma?"
+
 msgid "Weak"
 msgstr "Debole"
 
@@ -445,6 +574,9 @@ msgstr "Forte"
 
 msgid "Very Strong"
 msgstr "Molto forte"
+
+msgid "Plugins"
+msgstr "Plugins"
 
 msgid "Network"
 msgstr "Rete"
@@ -466,6 +598,9 @@ msgstr "Esci da Electrum"
 
 msgid "Cannot load wallet"
 msgstr "Impossibile caricare il portafogli"
+
+msgid "Updated 'Pay To' field to handle external URI"
+msgstr "Campo \"Paga a\" aggiornato per gestire URI esterni"
 
 msgid "Text copied to Clipboard"
 msgstr "Testo copiato negli appunti"
@@ -587,6 +722,9 @@ msgstr "Non maturo"
 msgid "Unconfirmed"
 msgstr "Non confermato"
 
+msgid "On-chain"
+msgstr "On-chain"
+
 msgid "Lightning"
 msgstr "Lightning"
 
@@ -673,6 +811,9 @@ msgstr "ID Canale Breve"
 
 msgid "State"
 msgstr "Stato"
+
+msgid "Remote peer sent error [DO NOT TRUST]"
+msgstr "Il peer remoto ha inviato un errore [NON FIDARTI]"
 
 msgid "Capacity"
 msgstr "Capacità"
@@ -827,11 +968,17 @@ msgstr "Questo canale è bloccato per la ricezione. Non sarà incluso nelle fatt
 msgid "can receive"
 msgstr "può ricevere"
 
+msgid "Submarine swap"
+msgstr "Submarine scambio"
+
 msgid "Import channel backup"
 msgstr "Importare il backup del canale"
 
 msgid "New Channel"
 msgstr "Nuovo canale"
+
+msgid "Open a channel to send payments over the Lightning network."
+msgstr "Apri un canale per inviare pagamenti tramite la rete Lightning."
 
 msgid "Lightning Network Statistics"
 msgstr "Statistiche Rete Lightning"
@@ -878,6 +1025,18 @@ msgstr "Inoltre, quando le transazioni RBF sono dosate, BIP 125 impone un limite
 msgid "Fee rounding"
 msgstr "Arrotondamento commissione"
 
+msgid "Onchain Transaction"
+msgstr "Transazione on-chain"
+
+msgid "Submarine Payment"
+msgstr "Pagamento Submarine"
+
+msgid "Submarine Payments don't support multiple outputs (Pay-to-many)."
+msgstr "I pagamenti Submarine non supportano uscite multiple (pagamento a molti)."
+
+msgid "Submarine Payments don't support 'Max' value spends."
+msgstr "I pagamenti Submarine non supportano importi di spesa \"massimi\"."
+
 msgid "Additional {} satoshis are going to be added."
 msgstr "Saranno aggiunti {} satoshi aggiuntivi."
 
@@ -889,6 +1048,9 @@ msgstr "OK"
 
 msgid "Not available for this wallet."
 msgstr "Non disponibile per questo portafogli."
+
+msgid "Requires a wallet with Lightning network support."
+msgstr "Richiede un portafoglio con supporto per la rete Lightning."
 
 msgid "Use change addresses"
 msgstr "Usa indirizzo di resto"
@@ -914,8 +1076,17 @@ msgstr "Modifica le impostazioni per consentire la spesa di monete non confermat
 msgid "You need to set a lower fee."
 msgstr "È necessario impostare una tariffa più bassa."
 
+msgid "Can be unfrozen in the Addresses or in the Coins tab"
+msgstr "Può essere sbloccato nella sezione Indirizzi o nella scheda Monete."
+
 msgid "Preparing transaction..."
 msgstr "Preparazione transazione..."
+
+msgid "Fee estimates not available. Please set a fixed fee or feerate."
+msgstr "Non è possibile fornire una stima dei costi. Si prega di impostare una tariffa fissa o una tariffa oraria."
+
+msgid "Lightning is not enabled."
+msgstr "Lightning non è abilitato."
 
 msgid "This transaction will spend unconfirmed coins."
 msgstr "Questa transazione spenderà monete non confermate."
@@ -929,11 +1100,74 @@ msgstr "Questa transazione ha {} output di modifica."
 msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
 msgstr "Assicurati di pagare commissioni di mining sufficienti; non puoi aumentare la commissione in seguito."
 
+msgid "Can't show preview when sending change to lightning"
+msgstr "Impossibile visualizzare l'anteprima durante l'invio della modifica a Lightning"
+
 msgid "You send"
 msgstr "Invia"
 
+msgid "Swap fee"
+msgstr "Commissione di scambio"
+
 msgid "Mining fee"
 msgstr "Commissione di mining"
+
+msgid "Connecting, please wait..."
+msgstr "Connessione in corso, attendere prego..."
+
+msgid "Initiating Submarine Payment..."
+msgstr "Avvio del pagamento Submarine..."
+
+msgid "Submarine Payment failed:"
+msgstr "Pagamento Submarine non riuscito:"
+
+msgid "Enable Lightning in the 'Channels' tab to use Submarine Swaps."
+msgstr "Attiva Lightning nella scheda \"Canali\" per utilizzare Submarine Swaps."
+
+msgid "Submarine swap provider unavailable."
+msgstr "Fornitore di servizi di sostituzione Submarine non disponibile."
+
+msgid "Couldn't connect to your swap provider. Please select a different provider."
+msgstr "Impossibile connettersi al provider di scambio. Seleziona un provider diverso."
+
+msgid "Please select a submarine swap provider."
+msgstr "Seleziona un fornitore di servizi di sostituzione sottomarini."
+
+msgid "Payment amount below the minimum possible swap amount."
+msgstr "Importo del pagamento inferiore all'importo minimo di scambio possibile."
+
+msgid "Minimum amount: {}"
+msgstr "Importo minimo: {}"
+
+msgid "You need to send a higher amount to be able to do a Submarine Payment."
+msgstr "Per effettuare un pagamento Submarine è necessario inviare un importo maggiore."
+
+msgid "You don't have enough outgoing capacity in your lightning channels."
+msgstr "Non hai sufficiente capacità in uscita nei tuoi canali Lightning."
+
+msgid "Your lightning channels can send: {}"
+msgstr "I tuoi canali Lightning possono inviare: {}"
+
+msgid "For this transaction you need: {}"
+msgstr "Per questa transazione è necessario: {}"
+
+msgid "To add outgoing capacity you can open a new lightning channel or do a submarine swap."
+msgstr "Per aumentare la capacità in uscita è possibile aprire un nuovo canale Lightning o effettuare uno scambio submarine."
+
+msgid "The selected swap provider is unable to offer a forward swap of this value."
+msgstr "Il fornitore di scambio selezionato non è in grado di offrire uno scambio a termine di questo valore."
+
+msgid "Available liquidity"
+msgstr "Liquidità disponibile"
+
+msgid "In order to continue select a different provider or try to send a smaller amount."
+msgstr "Per continuare, seleziona un fornitore diverso oppure prova a inviare un importo inferiore."
+
+msgid "Submarine Payment not possible:"
+msgstr "Pagamento tramite Submarine non possibile:"
+
+msgid "Requesting swap invoice..."
+msgstr "Richiesta fattura di scambio..."
 
 msgid "New Transaction"
 msgstr "Nuova Transazione"
@@ -958,6 +1192,9 @@ msgstr "Una commissione viene aggiunta automaticamente a questo campo come sugge
 
 msgid "Mining Fee"
 msgstr "Commissione di Mining"
+
+msgid "Fee policy"
+msgstr "Politica tariffaria"
 
 msgid "Additional fees"
 msgstr "&Commissioni aggiuntive"
@@ -1009,6 +1246,9 @@ msgstr "Inviando segnalazione crash..."
 
 msgid "Report contents"
 msgstr "Segnala contenuti"
+
+msgid "Feerate: the fee slider uses static feerate values"
+msgstr "Tariffa: il cursore della tariffa utilizza valori di tariffa statici"
 
 msgid "ETA: fee rate is based on average confirmation time estimates"
 msgstr "Basato sul tempo: il tasso di commissione è basato su stime medie del tempo di conferma"
@@ -1124,6 +1364,15 @@ msgstr "Realizza Capital Gain"
 msgid "Cash flow"
 msgstr "Flusso di cassa"
 
+msgid "This feature requires the 'matplotlib' Python library which is not included in Electrum by default."
+msgstr "Questa funzionalità richiede la libreria Python 'matplotlib', che non è inclusa in Electrum per impostazione predefinita."
+
+msgid "If you run Electrum from source you can install matplotlib to use this feature."
+msgstr "Se esegui Electrum dai sorgenti, puoi installare matplotlib per utilizzare questa funzionalità."
+
+msgid "It is not possible to install matplotlib inside the binary executables (e.g. AppImage or Windows installation)."
+msgstr "Non è possibile installare matplotlib all'interno di eseguibili binari (ad esempio, AppImage o installazione di Windows)."
+
 msgid "Copy"
 msgstr "Copia"
 
@@ -1144,6 +1393,9 @@ msgstr "ID transazione"
 
 msgid "Edit"
 msgstr "Modifica"
+
+msgid "{}"
+msgstr "{}"
 
 msgid "View Channel"
 msgstr "Mostra Canale"
@@ -1505,6 +1757,15 @@ msgstr "Lightning è disabilitato"
 msgid "You do not have liquidity in your active channels."
 msgstr "Non hai liquidità nei tuoi canali attivi."
 
+msgid "Swap server is active"
+msgstr "Il server di scambio è attivo"
+
+msgid "Electrum uses Nostr in order to find liquidity providers."
+msgstr "Electrum utilizza Nostr per trovare fornitori di liquidità."
+
+msgid "Do you want to enable Nostr?"
+msgstr "Vuoi abilitare Nostr?"
+
 msgid "Payment sent"
 msgstr "Pagamento inviato"
 
@@ -1559,18 +1820,6 @@ msgstr "Uscite"
 msgid "Expires"
 msgstr "Scade"
 
-msgid "Requestor"
-msgstr "Richiedente"
-
-msgid "Signature"
-msgstr "Firma"
-
-msgid "Save invoice to file"
-msgstr "Salva fattura in un file"
-
-msgid "BIP70 invoice saved as {}"
-msgstr "Fattura di BIP70 salvata come {}"
-
 msgid "Creation time"
 msgstr "Tempo di creazione"
 
@@ -1594,6 +1843,9 @@ msgstr "Password"
 
 msgid "Seed"
 msgstr "Seed"
+
+msgid "Tor"
+msgstr "Tor"
 
 msgid "Reset"
 msgstr "Reimposta"
@@ -1685,6 +1937,9 @@ msgstr "Firma sbagliata"
 
 msgid "Sign/verify Message"
 msgstr "Firma/verifica messaggio"
+
+msgid "Signature"
+msgstr "Firma"
 
 msgid "Sign"
 msgstr "Firma"
@@ -1926,11 +2181,17 @@ msgstr "Immettere l'ID nodo remoto o la stringa di connessione o la fattura"
 msgid "Suggest Peer"
 msgstr "Suggerisci un peer"
 
+msgid "Min"
+msgstr "Min"
+
 msgid "Max"
 msgstr "Max"
 
 msgid "Clear"
 msgstr "Cancella"
+
+msgid "Couldn't find suitable peer yet, try again later."
+msgstr "Impossibile trovare un peer adatto, riprova più tardi."
 
 msgid "Amount too low"
 msgstr "Importo troppo basso"
@@ -1971,6 +2232,12 @@ msgstr "Password attuale:"
 msgid "Password Strength"
 msgstr "Sicurezza password"
 
+msgid "Encrypt wallet file using hardware wallet device"
+msgstr "Crittografa il file del portafoglio utilizzando un dispositivo hardware per portafogli."
+
+msgid "If you enable this setting, you will need your hardware device to open your wallet."
+msgstr "Se abiliti questa impostazione, avrai bisogno del tuo dispositivo hardware per aprire il tuo portafoglio."
+
 msgid "Your wallet is not protected."
 msgstr "Portafogli non protetto."
 
@@ -1988,6 +2255,12 @@ msgstr "Usa questa finestra di dialogo per modificare la tua password."
 
 msgid "Your wallet file is NOT encrypted."
 msgstr "Il tuo file portafoglio NON è codificato."
+
+msgid "Your wallet file is encrypted with your hardware device."
+msgstr "Il file del tuo portafoglio è crittografato insieme al tuo dispositivo hardware."
+
+msgid "Your wallet file is password-encrypted."
+msgstr "Il file del tuo portafoglio è protetto da password."
 
 msgid "Please enter your password"
 msgstr "Inserisci la tua password"
@@ -2007,6 +2280,12 @@ msgstr "Abilita"
 msgid "Settings"
 msgstr "Impostazioni"
 
+msgid "This plugin requires installation of additional dependencies."
+msgstr "Questo plugin richiede l'installazione di dipendenze aggiuntive."
+
+msgid "For Electrum to recognize external packages, you need to run it from source."
+msgstr "Affinché Electrum riconosca i pacchetti esterni, è necessario eseguirlo dai sorgenti."
+
 msgid "Enabled"
 msgstr "Abilitato"
 
@@ -2015,6 +2294,66 @@ msgstr "Disabilitato/a"
 
 msgid "Electrum Plugins"
 msgstr "Plugin Electrum"
+
+msgid "Help"
+msgstr "Aiuto"
+
+msgid "Visit plugins website"
+msgstr "Visita il sito web dei plugin"
+
+msgid "Try Auto-Reset"
+msgstr "Prova il ripristino automatico"
+
+msgid "Auto-Reset not possible. Delete the file manually."
+msgstr "Il ripristino automatico non è possibile. Eliminare il file manualmente."
+
+msgid "Auto-Reset successful. You can now setup a new password."
+msgstr "Ripristino automatico riuscito. Ora puoi impostare una nuova password."
+
+msgid "Incorrect password."
+msgstr "Password errata."
+
+msgid "Your plugin authorization password is required to install plugins."
+msgstr "Per installare i plugin è necessaria la password di autorizzazione."
+
+msgid "If you need to reset it, remove the following file:"
+msgstr "Se è necessario ripristinarlo, eliminare il seguente file:"
+
+msgid "In order to install third-party plugins, you need to choose a plugin authorization password."
+msgstr "Per installare plugin di terze parti, è necessario scegliere una password di autorizzazione per il plugin."
+
+msgid "Your plugins key is:"
+msgstr "La chiave dei tuoi plugin è:"
+
+msgid "This key has been copied to your clipboard. Please save it in:"
+msgstr "Questa chiave è stata copiata negli appunti. Salvala in:"
+
+msgid "Try Auto-Setup"
+msgstr "Prova la configurazione automatica"
+
+msgid "Auto-Setup not possible. Try the manual setup."
+msgstr "Configurazione automatica non possibile. Prova la configurazione manuale."
+
+msgid "Auto-Setup successful. You can now install plugins."
+msgstr "Configurazione automatica completata con successo. Ora puoi installare i plugin."
+
+msgid "Select your plugin zipfile"
+msgstr "Seleziona il file zip del tuo plugin"
+
+msgid "Plugin already installed."
+msgstr "Plugin già installato."
+
+msgid ""
+"Could not copy plugin file {} into directory {}:\n"
+"\n"
+"{}"
+msgstr ""
+"Impossibile copiare il file del plugin {} nella directory {}:\n"
+"\n"
+"{}"
+
+msgid "Remove plugin '{}'?"
+msgstr "Rimuovere il plugin '{}'?"
 
 msgid "Select where to save file"
 msgstr "Seleziona dove salvare il file"
@@ -2042,6 +2381,9 @@ msgstr "Errore codice QR"
 
 msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
 msgstr "Il lettore QR non è riuscito a leggere. Questo può accadere se stai utilizzando una versione precedente di PyQt."
+
+msgid "Missing camera permission."
+msgstr "Autorizzazione alla fotocamera mancante."
 
 msgid "Scan QR Code"
 msgstr "Scansiona Codice QR"
@@ -2072,6 +2414,12 @@ msgstr "Mostra come codice QR"
 
 msgid "Read QR code from screen"
 msgstr "Leggi il codice QR dallo schermo"
+
+msgid "Read QR code from file"
+msgstr "Lettura QR code da file"
+
+msgid "Read text from file"
+msgstr "Lettura testo da file"
 
 msgid "Payment Request"
 msgstr "Richiesta di pagamento"
@@ -2127,6 +2475,15 @@ msgstr "Importo richiesto"
 msgid "Expiry"
 msgstr "Scadenza"
 
+msgid "Onchain"
+msgstr "Onchain"
+
+msgid "Request"
+msgstr "Richiesta"
+
+msgid "Accept"
+msgstr "Accettare"
+
 msgid "Requests"
 msgstr "Richieste"
 
@@ -2162,6 +2519,9 @@ msgstr "Puoi riutilizzare un indirizzo Bitcoin quante volte vuoi, ma ciò non gi
 
 msgid "For Lightning requests, payments will not be accepted after the expiration."
 msgstr "Per le richieste Lightning, i pagamenti non saranno accettati dopo la scadenza."
+
+msgid "Bitcoin URI"
+msgstr "Bitcoin URI"
 
 msgid "Lightning Request"
 msgstr "Richiesta Lightning"
@@ -2311,6 +2671,9 @@ msgstr "Questo campo può contenere:"
 msgid "- a Bitcoin address or BIP21 URI"
 msgstr "- un indirizzo Bitcoin o URI BIP21"
 
+msgid "- a Lightning invoice"
+msgstr "- una fattura Lightning"
+
 msgid "- a label from your list of contacts"
 msgstr "- un'etichetta dal tuo elenco di contatti"
 
@@ -2389,6 +2752,9 @@ msgstr "Lunghezza massima del commento: {} caratteri"
 msgid "Amount must be between {} and {} sat."
 msgstr "L'importo deve essere compreso tra {} e {} sat."
 
+msgid "Invoice already paid"
+msgstr "Fattura già pagata"
+
 msgid "No amount"
 msgstr "Nessun importo"
 
@@ -2409,6 +2775,9 @@ msgstr "Trovate linee non valide:"
 
 msgid "Do you wish to continue?"
 msgstr "Desideri continuare?"
+
+msgid "Payment request has expired"
+msgstr "Il pagamento richiesto è scaduto"
 
 msgid "Rebalance existing channels"
 msgstr "Riequilibrare i canali esistenti"
@@ -2434,11 +2803,20 @@ msgstr "Non puoi pagare quella fattura tramite Lightning."
 msgid "Your channels can send {}."
 msgstr "I tuoi canali possono inviare {}."
 
-msgid "This will send {}?"
-msgstr "Questo invierà {}?"
+msgid "This will send {} to the recipient"
+msgstr "Questo invierà {} al destinatario"
+
+msgid "Max routing fee"
+msgstr "Commissione massima di instradamento"
+
+msgid "{}% of payment"
+msgstr "{}% del pagamento"
 
 msgid "Sending payment"
 msgstr "Invio del pagamento"
+
+msgid "Awaiting lightning payment..."
+msgstr "In attesa del pagamento rapido..."
 
 msgid "Invoice has expired"
 msgstr "La fattura è scaduta"
@@ -2458,8 +2836,44 @@ msgstr "Un risultato per linea."
 msgid "You may load a CSV file using the file icon."
 msgstr "Puoi caricare un file CSV usando l'icona del file."
 
+msgid "Pay to many"
+msgstr "Pagare a molti"
+
+msgid "Cannot request lightning withdrawal, wallet has no lightning channels."
+msgstr "Impossibile richiedere il prelievo Lightning, il portafoglio non dispone di canali Lightning."
+
+msgid "Lightning Withdrawal"
+msgstr "Prelievo Lightning"
+
 msgid "Provider"
 msgstr "Fornitore"
+
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr "L'afflusso di liquidità è insufficiente a soddisfare questa richiesta di prelievo."
+
+msgid "Can receive: {}"
+msgstr "Può ricevere: {}"
+
+msgid "Minimum withdrawal amount: {}"
+msgstr "Importo minimo di prelievo: {}"
+
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr "Effettua uno scambio sottomarino nella scheda \"Canali\" per ottenere maggiore liquidità in entrata."
+
+msgid "Range"
+msgstr "Range"
+
+msgid "The maximum withdrawable amount is larger than what your channels can receive. You may need to do a submarine swap to increase your incoming liquidity."
+msgstr "L'importo massimo prelevabile è superiore a quello che i tuoi canali possono ricevere. Potrebbe essere necessario effettuare uno scambio sottomarino per aumentare la liquidità in entrata."
+
+msgid "Request Withdrawal"
+msgstr "Richiesta di prelievo"
+
+msgid "Enter a valid amount. You entered: {}"
+msgstr "Inserisci un importo valido. Hai inserito: {}"
+
+msgid "Requesting lightning withdrawal..."
+msgstr "Richiesta di prelievo di lightning..."
 
 msgid "Are you sure you want to disable trampoline?"
 msgstr "Sei sicuro di voler disattivare il trampolino?"
@@ -2469,9 +2883,6 @@ msgstr "Senza questa opzione, Electrum dovrà sincronizzarsi con la rete Lightni
 
 msgid "This may impact the reliability of your payments."
 msgstr "Ciò potrebbe influire sull'affidabilità dei tuoi pagamenti."
-
-msgid "{}% of payment"
-msgstr "{}% del pagamento"
 
 msgid "Base unit of your wallet."
 msgstr "Unità base del tuo portafogli."
@@ -2487,6 +2898,9 @@ msgstr "Chiaro"
 
 msgid "Dark"
 msgstr "Scuro"
+
+msgid "This option is only available on Windows"
+msgstr "Questa opzione è disponibile solo su Windows"
 
 msgid "Custom URL"
 msgstr "URL personalizzato"
@@ -2517,20 +2931,68 @@ msgstr ""
 "Se lo scambio non può essere eseguito dopo 24 ore, verrai rimborsato.\n"
 "Vuoi continuare?"
 
+msgid "Fetching..."
+msgstr "Recupero in corso..."
+
+msgid "swap providers"
+msgstr "fornitori di scambio"
+
+msgid "swap provider"
+msgstr "fornitore di scambio"
+
 msgid "Submarine Swap"
 msgstr "Submarine Swap"
 
 msgid "You receive"
 msgstr "Ricevi"
 
+msgid "Swap limits"
+msgstr "Limiti di scambio"
+
 msgid "Server fee"
 msgstr "Commissione del server"
+
+msgid "reverse"
+msgstr "inversione"
+
+msgid "forward"
+msgstr "inoltrare"
+
+msgid "No {} swap possible with this provider"
+msgstr "Non è possibile alcuno scambio {} con questo fornitore"
+
+msgid "no input"
+msgstr "nessun input"
+
+msgid "Initiating swap..."
+msgstr "Avvio dello scambio..."
 
 msgid "Awaiting swap payment..."
 msgstr "In attesa del pagamento dello swap..."
 
+msgid "Pubkey"
+msgstr "Chiave pubblica"
+
 msgid "Fee"
 msgstr "Commissione"
+
+msgid "Max Forward"
+msgstr "Invio massimo"
+
+msgid "Max Reverse"
+msgstr "Inversione massima"
+
+msgid "Last seen"
+msgstr "Ultimo avvistamento"
+
+msgid "Choose Swap Provider"
+msgstr "Scegli il fornitore di scambio"
+
+msgid "Please choose a provider from this list."
+msgstr "Si prega di scegliere un fornitore da questo elenco."
+
+msgid "Note that fees and liquidity may be updated frequently."
+msgstr "Si prega di notare che commissioni e liquidità possono essere aggiornate frequentemente."
 
 msgid "Wallet Address"
 msgstr "Indirizzo del portafoglio"
@@ -2543,6 +3005,12 @@ msgstr "Indirizzo di resto"
 
 msgid "Wallet change address"
 msgstr "Indirizzo di resto del portafogli"
+
+msgid "Accounting Address"
+msgstr "Indirizzo di fatturazione"
+
+msgid "Address from which funds were swept to your wallet."
+msgstr "Indirizzo da cui sono stati trasferiti i fondi al tuo portafoglio."
 
 msgid "TrustedCoin (2FA) batch fee"
 msgstr "Commissione gruppo TrustedCoin (2FA)"
@@ -2558,6 +3026,9 @@ msgstr "Input"
 
 msgid "Click to open, right-click for menu"
 msgstr "Fare clic per aprire, fare clic con il tasto destro per il menu"
+
+msgid "Tx Input #{}"
+msgstr "Tx Input #{}"
 
 msgid "Coinbase Input"
 msgstr "Input Coinbase"
@@ -2576,6 +3047,9 @@ msgstr "Copia Indirizzo"
 
 msgid "Copy Amount"
 msgstr "Copia Importo"
+
+msgid "Tx Output #{}"
+msgstr "Tx Output #{}"
 
 msgid "Copy scriptPubKey"
 msgstr "Copia scriptPubKey"
@@ -2754,9 +3228,6 @@ msgstr "Verificando aggiornamenti..."
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Per favore attendi mentre Electrum controlla gli aggiornamenti disponibili."
 
-msgid "Help"
-msgstr "Aiuto"
-
 msgid "Info"
 msgstr "Info"
 
@@ -2816,6 +3287,18 @@ msgstr "Errore all'apertura del file"
 
 msgid "Invalid payment identifier in file"
 msgstr "Identificatore di pagamento non valido nel file"
+
+msgid "Failed to open image file."
+msgstr "Impossibile aprire il file immagine."
+
+msgid "No QR code was found in the image."
+msgstr "Nell'immagine non è stato trovato alcun codice QR."
+
+msgid "More than one QR code was found in the image."
+msgstr "Nell'immagine è stato rilevato più di un codice QR."
+
+msgid "Couldn't set result"
+msgstr "Impossibile impostare il risultato"
 
 msgid "Paste from clipboard"
 msgstr "Incolla dagli appunti"
@@ -2977,6 +3460,12 @@ msgstr "Lightning ID Nodo:"
 msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
 msgstr "Lightning è attualmente limitato a portafogli HD con indirizzi p2wpkh."
 
+msgid "This keystore is watching-only (disabled)"
+msgstr "Questo keystore è in modalità sola visualizzazione (disabilitato)"
+
+msgid "This keystore is active (enabled)"
+msgstr "Questo keystore è attivo (abilitato)"
+
 msgid "Master Public Key"
 msgstr "Chiave pubblica principale"
 
@@ -2986,11 +3475,47 @@ msgstr "Cofirmatario"
 msgid "Keystore"
 msgstr "Keystore"
 
+msgid "Cannot disable keystore: You have active lightning channels"
+msgstr "Impossibile disabilitare il keystore: hai canali Lightning attivi"
+
+msgid "Disable keystore? This will make the keystore watching-only."
+msgstr "Disabilitare il keystore? In questo modo il keystore sarà in modalità di sola visualizzazione."
+
+msgid "Note that this will disable wallet file encryption, because it uses your hardware wallet device."
+msgstr "Tieni presente che questa operazione disabiliterà la crittografia dei file del portafoglio, poiché utilizza il dispositivo hardware del tuo portafoglio."
+
+msgid "Keystore not found in this wallet"
+msgstr "Keystore non trovato in questo portafoglio"
+
 msgid "Network and server configuration"
 msgstr "Configurazione di rete e server"
 
 msgid "Next"
 msgstr "Avanti"
+
+msgid "Electrum Bitcoin Wallet"
+msgstr "Electrum Bitcoin Wallet"
+
+msgid "Optional settings to customize your network connection"
+msgstr "Impostazioni opzionali per personalizzare la connessione di rete."
+
+msgid "Use Proxy"
+msgstr "Usa un proxy"
+
+msgid "Select Electrum Server"
+msgstr "Seleziona il server Electrum"
+
+msgid "If you are unsure what these options are, leave them unchecked."
+msgstr "Se non sei sicuro di cosa rappresentino queste opzioni, lasciale deselezionate."
+
+msgid "Terms of Use"
+msgstr "Termini di utilizzo"
+
+msgid "I Accept"
+msgstr "Accetto"
+
+msgid "Electrum Terms of Use"
+msgstr "Termini di utilizzo di Electrom"
 
 msgid "WIF keys are typed in Electrum, based on script type."
 msgstr "Le chiavi WIF sono digitate in Electrum, in base al tipo di script."
@@ -3006,6 +3531,9 @@ msgstr "Il tuo file portafoglio non contiene segreti, principalmente solo metada
 
 msgid "It also contains your master public key that allows watching your addresses."
 msgstr "Contiene anche la tua chiave pubblica principale che consente di tenere d'occhio i tuoi indirizzi."
+
+msgid "Extend wallet keystore"
+msgstr "Estendi il portachiavi del portafoglio"
 
 msgid "Create/Restore wallet"
 msgstr "Crea/Ripristina portafoglio"
@@ -3036,6 +3564,9 @@ msgstr "Portafogli"
 
 msgid "Choose..."
 msgstr "Scegli..."
+
+msgid "New"
+msgstr "Nuovo"
 
 msgid "Cannot read file"
 msgstr "Impossibile leggere il file"
@@ -3093,6 +3624,12 @@ msgstr "Usa una chiave principale"
 
 msgid "Use a hardware device"
 msgstr "Usa un dispositivo hardware"
+
+msgid "What type of signing method do you want to add?"
+msgstr "Che tipo di metodo di firma desideri aggiungere?"
+
+msgid "Enter seed"
+msgstr "Inserisci il seme"
 
 msgid "Wallet Seed"
 msgstr "Seme del portafoglio"
@@ -3184,6 +3721,12 @@ msgstr "Per creare un portafogli di sola visione, inserisci la tua chiave pubbli
 msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
 msgstr "Per creare un portafogli di spesa, inserisci una chiave privata principale (xprv/yprv/zprv)."
 
+msgid "Please enter your master private key (xprv)."
+msgstr "Inserisci la tua chiave privata principale (xprv)"
+
+msgid "You can also enter a public key (xpub) here, but be aware you will then create a watch-only wallet if all cosigners are added using public keys"
+msgstr "Puoi anche inserire una chiave pubblica (xpub) qui, ma tieni presente che creerai un portafoglio solo per la sorveglianza se tutti i cofirmatari vengono aggiunti utilizzando chiavi pubbliche"
+
 msgid "Please enter the master public key (xpub) of your cosigner."
 msgstr "Inserisci la chiave pubblica principale (xpub) del tuo cofirmatario."
 
@@ -3219,6 +3762,9 @@ msgstr "Scegli dispositivo hardware"
 
 msgid "Rescan devices"
 msgstr "Ripeti la scansione dei dispositivi"
+
+msgid "Add plugin"
+msgstr "Aggiungi plugin"
 
 msgid "initialized"
 msgstr "inizializzato"
@@ -3358,6 +3904,12 @@ msgstr "Esci"
 msgid "[Clear]"
 msgstr "[Clear]"
 
+msgid "[Onchain]"
+msgstr "[Onchain]"
+
+msgid "[Lightning]"
+msgstr "[Lightning]"
+
 msgid "[Paste]"
 msgstr "[Incolla]"
 
@@ -3366,6 +3918,12 @@ msgstr "[Salva]"
 
 msgid "[Pay]"
 msgstr "[Paga]"
+
+msgid "No more unused address"
+msgstr "Niente più indirizzi inutilizzati"
+
+msgid "Lightning is disabled on this wallet"
+msgstr "Lightning è disabilitato su questo portafoglio"
 
 msgid "Could not parse clipboard text"
 msgstr "Impossibile analizzare il testo degli appunti"
@@ -3505,6 +4063,9 @@ msgstr "Nodo di derivazione"
 msgid "No path found"
 msgstr "Percorso non trovato"
 
+msgid "Fee budget exceeded"
+msgstr "Il budget per le tariffe è stato superato."
+
 msgid "Address unknown for node:"
 msgstr "Indirizzo sconosciuto per il nodo:"
 
@@ -3582,6 +4143,15 @@ msgstr "La fattura richiede una funzionalità Lightning sconosciuta o incompatib
 
 msgid "Nothing to plot."
 msgstr "Niente da tracciare."
+
+msgid "This file can be edited with Regedit"
+msgstr "Questo file può essere modificato con Regedit"
+
+msgid "The file must have root permissions"
+msgstr "Il file deve avere i permessi di root"
+
+msgid "To set it you can also use the Auto-Setup or run the following terminal command"
+msgstr "Per impostarlo puoi anche utilizzare la configurazione automatica oppure eseguire il seguente comando da terminale"
 
 msgid "Handler not found for {}"
 msgstr "Gestore non trovato per {}"
@@ -3870,6 +4440,9 @@ msgstr "Firmware {} obsoleto per il dispositivo contrassegnato con {}. Si prega 
 msgid "The address generated by {} does not match!"
 msgstr "L'indirizzo generato da {} non corrisponde!"
 
+msgid "Jade Status"
+msgstr "Jade Status"
+
 msgid "Confirm the transaction output on your {} device"
 msgstr "Conferma il risultato della transazione sul tuo dispositivo {}"
 
@@ -4139,6 +4712,9 @@ msgstr "Carica una chiave privata principale"
 msgid "Error connecting to {} server"
 msgstr "Errore nella connessione al server {}"
 
+msgid "LabelSync Plugin"
+msgstr "Plugin di sincronizzazione delle etichette"
+
 msgid "Labels uploaded"
 msgstr "Etichette caricate"
 
@@ -4159,6 +4735,9 @@ msgstr "Versione firmware (o app \"Bitcoin\") troppo vecchia per il supporto Seg
 
 msgid "Your Ledger is locked. Please unlock it."
 msgstr "Il tuo Ledger è bloccato. Sbloccalo."
+
+msgid "Communication with Ledger failed. Open the Bitcoin app and try again."
+msgstr "La comunicazione con Ledger non è riuscita. Apri l'app Bitcoin e riprova."
 
 msgid "Your device might not have support for this functionality."
 msgstr "Il tuo dispositivo potrebbe non supportare questa funzionalità."
@@ -4181,17 +4760,125 @@ msgstr "Coinbase non supportato"
 msgid "Input {} has a non_witness_utxo with the wrong hash"
 msgstr "L'input {} ha un non_witness_utxo con l'hash sbagliato"
 
+msgid "Cannot have witness v1+ in p2sh"
+msgstr "Non è possibile avere autenticazione v1+ in p2sh"
+
 msgid "Unable to sign this transaction"
 msgstr "Impossibile firmare questa transazione"
 
 msgid "Ledger Status"
 msgstr "Stato Ledger"
 
+msgid "{} plugin requires a lightning enabled wallet. Open a lightning-enabled wallet first."
+msgstr "Il plugin {} richiede un portafoglio abilitato per Lightning. Apri prima un portafoglio abilitato per Lightning."
+
+msgid "Nostr Wallet Connect"
+msgstr "Nostr Wallet Connect"
+
+msgid "Budget [{}]"
+msgstr "Bilancio [{}]"
+
+msgid "never"
+msgstr "mai"
+
+msgid "unlimited"
+msgstr "illimitato"
+
+msgid "Create"
+msgstr "Creare"
+
+msgid "This plugin allows you to create Nostr Wallet Connect connections and remote control your wallet using Nostr NIP-47."
+msgstr "Questo plugin consente di creare connessioni Nostr Wallet Connect e di controllare a distanza il proprio portafoglio utilizzando Nostr NIP-47."
+
+msgid "Most NWC clients only use a single of your relays, so ensure the relays accept your events."
+msgstr "La maggior parte dei clienti NWC utilizza un solo relay, quindi assicurati che i relay accettino i tuoi eventi."
+
+msgid "Supported NIP-47 methods: {}"
+msgstr "Metodi NIP-47 supportati: {}"
+
+msgid "Existing Connections:"
+msgstr "Connessioni esistenti:"
+
+msgid "Enter NWC connection parameters"
+msgstr "Inserire i parametri di connessione NWC"
+
+msgid "Connection Name (required):"
+msgstr "Nome della connessione (obbligatorio):"
+
+msgid "Daily Satoshi Budget (optional):"
+msgstr "Budget giornaliero in Satoshi (facoltativo):"
+
+msgid "Valid for seconds (optional):"
+msgstr "Valido per secondi (facoltativo):"
+
+msgid "Main NWC Relay:"
+msgstr "Relè principale NWC:"
+
+msgid "Failed to create connection"
+msgstr "Impossibile stabilire la connessione"
+
+msgid "New NWC Connection"
+msgstr "Nuova connessione NWC"
+
+msgid "Scan this QR code with your nwc client:"
+msgstr "Scansiona questo codice QR con il tuo client nwc:"
+
+msgid "Or copy this connection string:"
+msgstr "Oppure copia questa stringa di connessione:"
+
+msgid "After closing this window you won't be able to access the connection string again!"
+msgstr "Dopo aver chiuso questa finestra, non potrai più accedere alla stringa di connessione!"
+
+msgid "Unable to deserialize the transaction:"
+msgstr "Impossibile deserializzare la transazione:"
+
 msgid "Send to cosigner"
 msgstr "Invia al cofirmatario"
 
+msgid "Sending transaction to your Nostr relays..."
+msgstr "Invio della transazione ai tuoi relè Nostr."
+
+msgid "relay timeout"
+msgstr "timeout del relè"
+
+msgid "Your transaction was sent to your cosigners via Nostr."
+msgstr "La tua transazione è stata inviata ai tuoi garanti tramite Nostr."
+
+msgid "A transaction was received from your cosigner."
+msgstr "È stata ricevuta una transazione dal tuo garante."
+
+msgid "A transaction was received from your cosigner with label: <br/><big>{}</big><br/>"
+msgstr "È stata ricevuta una transazione dal tuo garante con etichetta: <br/><big>{}</big><br/>"
+
 msgid "Do you want to open it now?"
 msgstr "Vuoi aprirlo ora?"
+
+msgid "Revealer is a tool to encrypt your secrets visually."
+msgstr "Revealer è uno strumento per crittografare i tuoi segreti in modo visivo."
+
+msgid "Revealer is based on the scheme 'Visual Cryptography' by Moni Naor and Adi Shamir."
+msgstr "Revealer si basa sullo schema \"Visual Cryptography\" di Moni Naor e Adi Shamir."
+
+msgid "Each Revealer has a unique code. It starts with a version number, then 128 bits of entropy encoded in hex format, and the last three digits as a checksum."
+msgstr "Ogni Revealer ha un codice univoco. Inizia con un numero di versione, seguito da 128 bit di entropia codificati in formato esadecimale e dalle ultime tre cifre che costituiscono un checksum."
+
+msgid "This code is visible in the bottom right corner of the Revealer."
+msgstr "Questo codice è visibile nell'angolo in basso a destra del Revealer."
+
+msgid "With the 128bits of entropy as a random seed, the software generates a noise image."
+msgstr "Utilizzando i 128 bit di entropia come seme casuale, il software genera un'immagine di rumore."
+
+msgid "In the following step your secret is encrypted into a second image."
+msgstr "Nel passaggio successivo, il tuo segreto viene crittografato in una seconda immagine."
+
+msgid "Then you can print those two images on transparent film."
+msgstr "Dopodiché, puoi stampare queste due immagini su una pellicola trasparente."
+
+msgid "To decrypt the secret, you need to overlay the two films, then your secret will become visible."
+msgstr "Per decifrare il segreto, è necessario sovrapporre le due pellicole; a quel punto il segreto diventerà visibile."
+
+msgid "You can calibrate your printer in the plugin settings to achieve better print quality."
+msgstr "È possibile calibrare la stampante nelle impostazioni del plugin per ottenere una migliore qualità di stampa."
 
 msgid "To encrypt a secret, you must first create or load a noise file."
 msgstr "Per crittografare un segreto, è necessario prima creare o caricare un file di rumore."
@@ -4322,8 +5009,155 @@ msgstr ""
 "\n"
 "Quindi per favore inserisci con attenzione le parole!"
 
+msgid "I understand that the Timelock Recovery plan will be broken if I keep using this wallet"
+msgstr "Comprendo che il piano di recupero Timelock non funzionerà correttamente se continuo a utilizzare questo portafoglio."
+
+msgid "What Is Timelock Recovery?"
+msgstr "Cos'è il ripristino con blocco temporale?"
+
+msgid "To create a recovery plan, enter a recipient and a cancellation time window"
+msgstr "Per creare un piano di recupero, inserisci un destinatario e un intervallo di tempo per la cancellazione."
+
+msgid "✓ Signed"
+msgstr "Firmato"
+
+msgid "Not enough funds to create the transactions."
+msgstr "Fondi insufficienti per effettuare le transazioni."
+
+msgid "This is a watching-only wallet. You must sign the transactions externally - use the View button of each transaction."
+msgstr "Questo è un portafoglio di sola visualizzazione. È necessario firmare le transazioni esternamente, utilizzando il pulsante \"Visualizza\" per ogni transazione."
+
+msgid "Recipient of the funds"
+msgstr "Destinatario dei fondi"
+
+msgid "Recipient of the funds, after the cancellation time window has expired"
+msgstr "Destinatario dei fondi, dopo la scadenza del periodo di annullamento"
+
+msgid "This field must contain a single Bitcoin address, or multiple lines in the format: 'address, amount'."
+msgstr "Questo campo deve contenere un singolo indirizzo Bitcoin, oppure più righe nel formato: 'indirizzo, importo'."
+
+msgid "If multiple lines are used, at least one line must be set to 'max', using the '!' special character."
+msgstr "Se si utilizzano più righe, almeno una deve essere impostata su 'max', utilizzando il carattere speciale '!'."
+
+msgid "Cancellation time-window (days)"
+msgstr "Periodo di tempo per la cancellazione (giorni)"
+
+msgid "After broadcasting the Alert Transaction, you have a limited time to cancel the transaction."
+msgstr "Dopo aver trasmesso l'avviso di transazione, hai un tempo limitato per annullare la transazione."
+
+msgid "Value must be between {} and {} days."
+msgstr "Il valore deve essere compreso tra {} e {} giorni."
+
+msgid "Create a cancellation transaction"
+msgstr "Crea una transazione di annullamento"
+
+msgid "If the Alert transaction is has been broadcast against your intention, you will be able to broadcast the Cancellation transaction within {} days, to invalidate the Recovery transaction and keep the funds in this wallet - without the need to restore the seed of this wallet (i.e. in case you have split or hidden it)."
+msgstr "Se la transazione di avviso è stata trasmessa contro la tua volontà, potrai trasmettere la transazione di annullamento entro {} giorni, per invalidare la transazione di recupero e conservare i fondi in questo portafoglio, senza bisogno di ripristinare il seme di questo portafoglio (ad esempio, nel caso in cui lo avessi diviso o nascosto)."
+
+msgid "However, if the seed of this wallet is lost, broadcasting the Cancellation transaction might lock the funds on this wallet forever."
+msgstr "Tuttavia, se la chiave di recupero di questo portafoglio viene persa, la trasmissione della transazione di annullamento potrebbe bloccare i fondi presenti in questo portafoglio per sempre."
+
+msgid "Alert transaction"
+msgstr "Transazione di avviso"
+
 msgid "View"
 msgstr "Visualizza"
+
+msgid "Recovery transaction"
+msgstr "Transazione di recupero"
+
+msgid "Cancellation transaction"
+msgstr "Annullamento della transazione"
+
+msgid "Invalid address."
+msgstr "Indirizzo non valido."
+
+msgid "At least one line must be set to max spend ('!' in the amount column)."
+msgstr "Almeno una riga deve essere impostata sulla spesa massima ('!' nella colonna dell'importo)."
+
+msgid "Recovery should only send to addresses."
+msgstr "Il ripristino dovrebbe inviare solo agli indirizzi."
+
+msgid "Recovery should not send to same wallet."
+msgstr "Il recupero non deve essere effettuato nello stesso portafoglio."
+
+msgid "Invalid address type - must be a Bitcoin address."
+msgstr "Tipo di indirizzo non valido: deve essere un indirizzo Bitcoin."
+
+msgid "Alert transaction signing was not completed"
+msgstr "La firma della transazione di avviso non è stata completata"
+
+msgid "Recovery transaction signing was not completed"
+msgstr "La firma della transazione di recupero non è stata completata"
+
+msgid "Cancellation transaction signing was not completed"
+msgstr "La firma della transazione di annullamento non è stata completata"
+
+msgid "Recovery Plan ID"
+msgstr "ID del piano di ripristino"
+
+msgid "Unique identifier for this recovery plan"
+msgstr "Identificativo univoco per questo piano di recupero"
+
+msgid "Created At"
+msgstr "Creato il"
+
+msgid "Date and time when this recovery plan was created"
+msgstr "Data e ora di creazione del presente piano di recupero"
+
+msgid "Alert Address"
+msgstr "Indirizzo di allerta"
+
+msgid "This address in your wallet will receive the funds when the Alert Transaction is broadcast."
+msgstr "Questo indirizzo nel tuo portafoglio riceverà i fondi quando la notifica della transazione verrà trasmessa."
+
+msgid "ID of the Cancellation transaction"
+msgstr "ID della transazione di annullamento"
+
+msgid "Save as PDF"
+msgstr "Salva come PDF"
+
+msgid "Save as JSON"
+msgstr "Salva come JSON"
+
+msgid "Save Recovery Plan"
+msgstr "Salva  il piano di ripristino"
+
+msgid "Save Cancellation Plan"
+msgstr "Salva il piano di cancellazione"
+
+msgid "Are you sure you want to close this dialog without saving any of the files?"
+msgstr "Sei sicuro di voler chiudere questa finestra di dialogo senza salvare alcun file?"
+
+msgid "Are you sure you want to close this dialog without saving the cancellation-plan?"
+msgstr "Sei sicuro di voler chiudere questa finestra di dialogo senza salvare il piano di cancellazione?"
+
+msgid "Are you sure you want to close this dialog without saving the recovery-plan?"
+msgstr "Sei sicuro di voler chiudere questa finestra di dialogo senza salvare il piano di ripristino?"
+
+msgid "Save Recovery Plan JSON..."
+msgstr "Salva il file JSON del piano di ripristino..."
+
+msgid "JSON files (*.json)"
+msgstr "File JSON (*.json)"
+
+msgid "File saved successfully"
+msgstr "File salvato correttamente"
+
+msgid "Error saving file"
+msgstr "Errore durante il salvataggio del file"
+
+msgid "Save Cancellation Plan JSON..."
+msgstr "Salva il piano di cancellazione in formato JSON..."
+
+msgid "Save Recovery Plan PDF..."
+msgstr "Salva il PDF del piano di ripristino..."
+
+msgid "PDF files (*.pdf)"
+msgstr "File PDF (*.pdf)"
+
+msgid "Save Cancellation Plan PDF..."
+msgstr "Salva il PDF del piano di cancellazione..."
 
 msgid "Complete the initialization process on your {} device"
 msgstr "Completa il processo di inizializzazione sul tuo {} dispositivo"
@@ -4573,6 +5407,25 @@ msgstr "Assicurati di avere una telecamera collegata e abilitata."
 msgid "Select server automatically"
 msgstr "Seleziona server automaticamente"
 
+msgid "If auto-connect is enabled, Electrum will always use a server that is on the longest blockchain. If it is disabled, you have to choose a server you want to use. Electrum will warn you if your server is lagging."
+msgstr "Se la connessione automatica è abilitata, Electrum utilizzerà sempre il server che si trova sulla blockchain più lunga. Se è disabilitata, dovrai scegliere un server da utilizzare. Electrum ti avviserà se il tuo server presenta rallentamenti."
+
+msgid "Only connect to one server (full trust)"
+msgstr "Connettiti a un solo server (fiducia completa)"
+
+msgid ""
+"This is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged.\n"
+"\n"
+"By default, Electrum tries to maintain connections to ~10 servers. One of these nodes gets selected to be the history server and will learn the wallet addresses. All the other nodes are *only* used for block header notifications. \n"
+"\n"
+"Getting block headers from multiple sources is useful to detect lagging servers, chain splits, and forks. Chain split detection is security-critical for determining number of confirmations."
+msgstr ""
+"Questa opzione è destinata esclusivamente alla connessione al proprio server completamente affidabile. L'utilizzo di questa opzione su un server pubblico rappresenta un rischio per la sicurezza ed è sconsigliato.\n"
+"\n"
+"Per impostazione predefinita, Electrum tenta di mantenere le connessioni con circa 10 server. Uno di questi nodi viene selezionato come server di cronologia e apprenderà gli indirizzi del portafoglio. Tutti gli altri nodi vengono utilizzati *solo* per le notifiche di intestazione dei blocchi. \n"
+"\n"
+"Ricevere le intestazioni dei blocchi da più fonti è utile per rilevare server lenti, divisioni della catena e fork. Rilevamento di divisioni della catena"
+
 msgid "Merge duplicate outputs"
 msgstr "Unisci output duplicati"
 
@@ -4603,6 +5456,28 @@ msgstr "Invia la modifica a Lightning"
 msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
 msgstr "Se possibile, invia il cambio di questa transazione ai tuoi canali, con uno scambio sottomarino"
 
+msgid "Submarine Payments"
+msgstr "Pagamenti Submarine"
+
+msgid "Send onchain payments directly from your Lightning balance with a submarine swap. This allows you to do onchain transactions even if your entire wallet balance is inside Lightning channels."
+msgstr "Invia pagamenti on-chain direttamente dal tuo saldo Lightning tramite uno swap submarine. Questo ti permette di effettuare transazioni on-chain anche se l'intero saldo del tuo portafoglio si trova all'interno dei canali Lightning."
+
+msgid "Avoid spending from used addresses"
+msgstr "Evita di effettuare spese da indirizzi usati"
+
+msgid ""
+"Automatically freeze coins received to already used addresses.\n"
+"This can eliminate a serious privacy issue where a malicious user can track your spends by sending small payments\n"
+"to a previously-paid address of yours that would then be included with unrelated inputs in your future payments."
+msgstr ""
+"Blocca automaticamente le monete ricevute su indirizzi già utilizzati.\n"
+"Questo può eliminare un grave problema di privacy, in cui un utente malintenzionato può tracciare le tue spese inviando piccoli pagamenti\\a un tuo indirizzo già utilizzato in precedenza, che verrebbe poi incluso, insieme a dati non correlati, nei tuoi pagamenti futuri."
+
+msgid ""
+"Allows partial updates to be written to disk for the wallet DB.\n"
+"If disabled, the full wallet file is written to disk for every change. Experimental."
+msgstr "Consente la scrittura su disco di aggiornamenti parziali per il database del portafoglio. Se disabilitato, l'intero file del portafoglio viene scritto su disco per ogni modifica. Sperimentale."
+
 msgid "Download historical rates"
 msgstr "Scarica lo storico delle tariffe"
 
@@ -4611,6 +5486,17 @@ msgstr "Mostra plusvalenze"
 
 msgid "Show Fiat balances"
 msgstr "Mostra i saldi Fiat"
+
+msgid ""
+"By default the client does not listen on any port for incoming BOLT-08 transports.\n"
+"Set this to an interface:port combination, such as 'localhost:9735', to open a port and start listening.\n"
+"\n"
+"Note: if you open multiple lightning wallets, they will all try to bind the same port, conflict, and only the first will succeed."
+msgstr ""
+"Per impostazione predefinita, il client non è in ascolto su alcuna porta per i trasporti BOLT-08 in entrata.\n"
+"Imposta questa opzione su una combinazione interfaccia:porta, ad esempio 'localhost:9735', per aprire una porta e iniziare l'ascolto.\n"
+"\n"
+"Nota: se apri più portafogli Lightning, tutti tenteranno di associarsi alla stessa porta, creando un conflitto, e solo il primo avrà successo."
 
 msgid "Use trampoline routing"
 msgstr "Utilizzare il percorso del trampolino"
@@ -4683,6 +5569,12 @@ msgstr "Modifica manualmente le tariffe"
 msgid "Edit Locktime"
 msgstr "Modifica ora di blocco"
 
+msgid "Prevent screenshots"
+msgstr "Impedire gli screenshot"
+
+msgid "Signals Windows to disallow recordings and screenshots of the application window. There is no guarantee Windows will respect this signal."
+msgstr "Questo segnale indica a Windows di impedire la registrazione e l'acquisizione di screenshot della finestra dell'applicazione. Non vi è alcuna garanzia che Windows rispetti questo segnale."
+
 msgid "Zeros after decimal point"
 msgstr "Zeri dopo la virgola dei decimali"
 
@@ -4725,8 +5617,29 @@ msgstr "Scrivi i registri in un file"
 msgid "Debug logs can be persisted to disk. These are useful for troubleshooting."
 msgstr "I registri di debug possono essere persistiti al disco. Questi sono utili per risolvere i problemi."
 
+msgid "Old log files get deleted on startup, with only the newest few being kept."
+msgstr "I vecchi file di registro vengono eliminati all'avvio, conservando solo i più recenti."
+
+msgid "Old log files get deleted on startup. This value limits the max total size of the old log files kept, and also separately the max size of the current log file. Hence, the max disk usage will be twice this value."
+msgstr "I vecchi file di registro vengono eliminati all'avvio. Questo valore limita la dimensione totale massima dei vecchi file di registro conservati e, separatamente, la dimensione massima del file di registro corrente. Pertanto, l'utilizzo massimo del disco sarà il doppio di questo valore."
+
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "Seleziona la lingua da usare nella interfaccia grafica (dopo il riavvio del programma)"
+
+msgid "Nostr relays"
+msgstr "Nostr relè"
+
+msgid "Nostr relays are used to send and receive submarine swap offers."
+msgstr "I ripetitori Nostr vengono utilizzati per inviare e ricevere offerte di scambio di sottomarini."
+
+msgid "These relays are also used for some plugins, e.g. Nostr Wallet Connect or Nostr Cosigner"
+msgstr "Questi relay vengono utilizzati anche per alcuni plugin, ad esempio Nostr Wallet Connect o Nostr Cosigner."
+
+msgid "Amount that must be kept on-chain in order to sweep anchor output channels"
+msgstr "Fondi on-chain richiesti per il recupero dei canali anchor."
+
+msgid "Do not set this below dust limit"
+msgstr "Non scendere al di sotto della soglia minima (dust limit)."
 
 msgid "Too short."
 msgstr "Troppo corta."
@@ -4773,6 +5686,42 @@ msgstr "Parola mnemonica non valida"
 msgid "The swap server errored or is unreachable."
 msgstr "Il server di swap ha generato un errore oppure non è raggiungibile."
 
+msgid "Fetching submarine swap providers..."
+msgstr "Recupero dei fornitori di scambio di submarine..."
+
+msgid "Will send change to lightning"
+msgstr "Invio il resto a Lightning"
+
+msgid "Swap fees:"
+msgstr "Scambio commissioni:"
+
+msgid "Your channels cannot receive this amount."
+msgstr "I tuoi canali non possono ricevere questo importo."
+
+msgid "Below the swap providers minimum value of {}."
+msgstr "Di seguito il valore minimo dei fornitori di scambio di {}."
+
+msgid "Change amount exceeds the swap providers maximum value of {}."
+msgstr "L'importo del resto supera il valore massimo di {} consentito dai fornitori di scambio."
+
+msgid "Will not send change to Lightning"
+msgstr "Non inviare il resto a Lightning"
+
+msgid "Total swap costs are insane."
+msgstr "I costi totali dello scambio sono folli."
+
+msgid "Swap amount outside of providers limits"
+msgstr "Importo dello scambio al di fuori dei limiti del fornitore"
+
+msgid "min"
+msgstr "minimo"
+
+msgid "max"
+msgstr "massimo"
+
+msgid "Mining fee requested by swap-server larger than what was announced in their offer."
+msgstr "La commissione di mining richiesta dal server di scambio è superiore a quella annunciata nella loro offerta."
+
 msgid "Claim transaction"
 msgstr "Richiedi transazione"
 
@@ -4784,6 +5733,9 @@ msgstr "Transazione di rimborso"
 
 msgid "Insufficient funds"
 msgstr "Fondi insufficienti"
+
+msgid "The fee for the transaction is higher than the funds gained from it."
+msgstr "La commissione per la transazione è superiore ai fondi ricavati dalla stessa."
 
 msgid "Dynamic fee estimates not available"
 msgstr "Stime commissioni dinamiche non disponibili"
@@ -4802,6 +5754,42 @@ msgstr "Esportazione sul file non riuscita."
 
 msgid "No Data"
 msgstr "Nessun dato"
+
+msgid "{} ago"
+msgstr "{} fa"
+
+msgid "in {}"
+msgstr "nel {}"
+
+msgid "{} seconds"
+msgstr "{} secondi"
+
+msgid "less than a minute"
+msgstr "meno di un minuto"
+
+msgid "about {} minutes"
+msgstr "circa {} minuti"
+
+msgid "about 1 hour"
+msgstr "circa 1 ora"
+
+msgid "about {} hours"
+msgstr "circa {} ore"
+
+msgid "about 1 day"
+msgstr "circa 1 giorno"
+
+msgid "about {} days"
+msgstr "circa {} giorni"
+
+msgid "about 1 month"
+msgstr "circa 1 mese"
+
+msgid "about {} months"
+msgstr "circa {} mesi"
+
+msgid "about 1 year"
+msgstr "circa 1 anno"
 
 msgid "Invalid JSON code."
 msgstr "Codice JSON non valido."
@@ -4970,6 +5958,9 @@ msgstr "Questo indirizzo è già stato usato. per migliore privacy, non riutiliz
 msgid "You must be online to receive Lightning payments."
 msgstr "Per ricevere i pagamenti Lightning devi essere online."
 
+msgid "New transaction: {}"
+msgstr "Nuova transazione: {}"
+
 msgid "invalid address"
 msgstr "indirizzo non valido"
 
@@ -4978,12 +5969,6 @@ msgstr "indirizzo già nel portafoglio"
 
 msgid "Cannot delete last remaining address from wallet"
 msgstr "Impossibile eliminare l'ultimo indirizzo rimanente dal portafoglio"
-
-msgid "invalid private key"
-msgstr "chiave privata non valida"
-
-msgid "not implemented type"
-msgstr "tipo non implementato"
 
 msgid "Duplicate master keys"
 msgstr "Chiavi maestre duplicate"
@@ -5030,6 +6015,10 @@ msgstr "Sviluppatori"
 msgctxt "About|"
 msgid "Distributed by Electrum Technologies GmbH"
 msgstr "Distribuito da Electrum Technologies GmbH"
+
+msgctxt "AddressDelegate|"
+msgid "<no label>"
+msgstr "<no label>"
 
 msgctxt "AddressDelegate|"
 msgid "tx"
@@ -5204,6 +6193,10 @@ msgid "Lightning"
 msgstr "Lightning"
 
 msgctxt "BalanceDetails|"
+msgid "On-chain"
+msgstr "On-chain"
+
+msgctxt "BalanceDetails|"
 msgid "On-chain (frozen)"
 msgstr "On-chain (congelato)"
 
@@ -5250,6 +6243,10 @@ msgstr "Saldo"
 msgctxt "BalanceSummary|"
 msgid "Lightning"
 msgstr "Lightning"
+
+msgctxt "BalanceSummary|"
+msgid "On-chain"
+msgstr "On-chain"
 
 msgctxt "BtcField|"
 msgid "Amount"
@@ -5342,6 +6339,10 @@ msgstr "Tipo di backup"
 msgctxt "ChannelDetails|"
 msgid "imported"
 msgstr "importato"
+
+msgctxt "ChannelDetails|"
+msgid "on-chain"
+msgstr "on-chain"
 
 msgctxt "ChannelDetails|"
 msgid "Remote node ID"
@@ -5671,6 +6672,10 @@ msgctxt "FeeMethodComboBox|"
 msgid "Mempool"
 msgstr "Mempool"
 
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr "Tariffa oraria"
+
 msgctxt "FeePicker|"
 msgid "Target"
 msgstr "Obiettivo"
@@ -5735,6 +6740,10 @@ msgctxt "History|"
 msgid "No transactions in this wallet yet"
 msgstr "Ancora nessuna transazione trovata in questo portafoglio"
 
+msgctxt "HistoryItemDelegate|"
+msgid "<no label>"
+msgstr "<no label>"
+
 msgctxt "ImportAddressesKeysDialog|"
 msgid "Import additional addresses"
 msgstr "Importa indirizzi aggiuntivi"
@@ -5764,18 +6773,6 @@ msgid "Scan another private key"
 msgstr "Scansiona un'altra chiave privata"
 
 msgctxt "ImportAddressesKeysDialog|"
-msgid "Import"
-msgstr "Importa"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Import channel backup"
-msgstr "Importare il backup del canale"
-
-msgctxt "ImportChannelBackupDialog|"
-msgid "Scan a channel backup"
-msgstr "Scansiona un backup del canale"
-
-msgctxt "ImportChannelBackupDialog|"
 msgid "Import"
 msgstr "Importa"
 
@@ -5814,10 +6811,6 @@ msgstr "Max"
 msgctxt "InvoiceDialog|"
 msgid "Technical properties"
 msgstr "Proprietà tecniche"
-
-msgctxt "InvoiceDialog|"
-msgid "Remote Pubkey"
-msgstr "Chiave Publica remota"
 
 msgctxt "InvoiceDialog|"
 msgid "Node public key"
@@ -5940,6 +6933,14 @@ msgid "Pay..."
 msgstr "Paga..."
 
 msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Too little incoming liquidity to satisfy this withdrawal request."
+msgstr "L'afflusso di liquidità è insufficiente a soddisfare questa richiesta di prelievo."
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Do a submarine swap in the 'Channels' tab to get more incoming liquidity."
+msgstr "Effettua uno scambio sottomarino nella scheda \"Canali\" per ottenere maggiore liquidità in entrata."
+
+msgctxt "LnurlWithdrawRequestDialog|"
 msgid "Amount must be between %1 and %2 %3"
 msgstr "L'importo deve essere compreso tra %1 e %2 %3"
 
@@ -5982,6 +6983,10 @@ msgstr "Sì"
 msgctxt "NetworkOverview|"
 msgid "Network"
 msgstr "Rete"
+
+msgctxt "NetworkOverview|"
+msgid "On-chain"
+msgstr "On-chain"
 
 msgctxt "NetworkOverview|"
 msgid "Status"
@@ -6068,12 +7073,36 @@ msgid "Error"
 msgstr "Errore"
 
 msgctxt "NostrConfigDialog|"
+msgid "Nostr relays"
+msgstr "Nostr relè"
+
+msgctxt "NostrConfigDialog|"
+msgid "Nostr relays are used to send and receive submarine swap offers."
+msgstr "I ripetitori Nostr vengono utilizzati per inviare e ricevere offerte di scambio di sottomarini."
+
+msgctxt "NostrConfigDialog|"
 msgid "Ok"
 msgstr "OK"
 
 msgctxt "NostrSwapServersDialog|"
+msgid "Pubkey"
+msgstr "Chiave pubblica"
+
+msgctxt "NostrSwapServersDialog|"
 msgid "Fee"
 msgstr "Commissione"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Last seen"
+msgstr "Ultimo avvistamento"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Max Forward"
+msgstr "Invio massimo"
+
+msgctxt "NostrSwapServersDialog|"
+msgid "Max Reverse"
+msgstr "Inversione massima"
 
 msgctxt "OpenChannelDialog|"
 msgid "Open Lightning Channel"
@@ -6108,10 +7137,6 @@ msgid "This means your channels cannot be recovered from seed."
 msgstr "Ciò significa che i tuoi canali non possono essere recuperati dal seed."
 
 msgctxt "OpenChannelDialog|"
-msgid "Node"
-msgstr "Nodo"
-
-msgctxt "OpenChannelDialog|"
 msgid "Paste or scan node uri/pubkey"
 msgstr "Incolla o scansiona l'URI/pubkey del nodo"
 
@@ -6122,10 +7147,6 @@ msgstr "ID nodo o stringa di connessione non validi"
 msgctxt "OpenChannelDialog|"
 msgid "Scan a node-id or a connect string"
 msgstr "Esegui la scansione di un node-id o di una stringa di connessione"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Importo"
 
 msgctxt "OpenChannelDialog|"
 msgid "Max"
@@ -6424,6 +7445,10 @@ msgid "Expires after"
 msgstr "Scade dopo"
 
 msgctxt "ReceiveDetailsDialog|"
+msgid "Onchain"
+msgstr "Onchain"
+
+msgctxt "ReceiveDetailsDialog|"
 msgid "Lightning"
 msgstr "Lightning"
 
@@ -6466,10 +7491,6 @@ msgstr "Indirizzo onchain"
 msgctxt "ReceiveRequests|"
 msgid "To access this list from the main screen, press and hold the Receive button"
 msgstr "Per accedere a questo elenco dalla schermata principale, tenere premuto il pulsante Ricevi"
-
-msgctxt "ReceiveRequests|"
-msgid "Pending requests"
-msgstr "Richieste in sospeso"
 
 msgctxt "ReceiveRequests|"
 msgid "Delete"
@@ -6530,6 +7551,18 @@ msgstr "Impostazioni del server"
 msgctxt "ServerConfigDialog|"
 msgid "Ok"
 msgstr "OK"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr "Connessione automatica"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Manual server selection"
+msgstr "Selezione manuale del server"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Connect only to a single server"
+msgstr "Connettiti solo a un singolo server"
 
 msgctxt "ServerConnectWizard|"
 msgid "Network configuration"
@@ -6944,6 +7977,14 @@ msgid "Enter their master private key (xprv) if you want to be able to sign for 
 msgstr "Inserisci la loro chiave privata principale (xprv) se vuoi essere in grado di firmare per loro."
 
 msgctxt "WCHaveMasterKey|"
+msgid "Please enter your master private key (xprv)."
+msgstr "Inserisci la tua chiave privata principale (xprv)"
+
+msgctxt "WCHaveMasterKey|"
+msgid "You can also enter a public key (xpub) here, but be aware you will then create a watch-only wallet if all cosigners are added using public keys"
+msgstr "Puoi anche inserire una chiave pubblica (xpub) qui, ma tieni presente che creerai un portafoglio solo per la sorveglianza se tutti i cofirmatari vengono aggiunti utilizzando chiavi pubbliche"
+
+msgctxt "WCHaveMasterKey|"
 msgid "Scan a cosigner master public key"
 msgstr "Scansiona la chiave pubblica principale del cofirmatario"
 
@@ -7111,13 +8152,9 @@ msgctxt "WCServerConfig|"
 msgid "Server"
 msgstr "Server"
 
-msgctxt "WCShowMasterPubkey|"
-msgid "Here is your master public key. Please share it with your cosigners"
-msgstr "Ecco la tua chiave pubblica principale. Condividila con i tuoi cofirmatari"
-
-msgctxt "WCShowMasterPubkey|"
-msgid "Master public key"
-msgstr "Chiave pubblica principale"
+msgctxt "WCTermsOfUseRequest|"
+msgid "Terms of Use"
+msgstr "Termini di utilizzo"
 
 msgctxt "WCWalletName|"
 msgid "Wallet name"
@@ -7164,6 +8201,10 @@ msgid "Import Bitcoin addresses or private keys"
 msgstr "Importa gli indirizzi Bitcoin o le chiavi private"
 
 msgctxt "WCWelcome|"
+msgid "Optional settings to customize your network connection"
+msgstr "Impostazioni opzionali per personalizzare la connessione di rete."
+
+msgctxt "WCWelcome|"
 msgid "Configure Proxy"
 msgstr "Configurare il proxy"
 
@@ -7194,6 +8235,10 @@ msgstr "Lightning"
 msgctxt "WalletDetails|"
 msgid "Seed"
 msgstr "Seed"
+
+msgctxt "WalletDetails|"
+msgid "Name"
+msgstr "Nome"
 
 msgctxt "WalletDetails|"
 msgid "Tap to show seed"
@@ -7382,6 +8427,10 @@ msgid "Payment failed"
 msgstr "Pagamento non riuscito"
 
 msgctxt "WalletMainView|"
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr "Non disponi di fondi on-chain sufficienti per proteggere i tuoi canali Lightning."
+
+msgctxt "WalletMainView|"
 msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "Saldo insufficiente per pagare tramite Lightning. Pagare invece on-chain?"
 
@@ -7412,14 +8461,6 @@ msgstr "Transazione creata ma non ancora firmata da questo portafoglio. Firma la
 msgctxt "WalletMainView|"
 msgid "Could not sign tx"
 msgstr "Impossibile firmare la tx"
-
-msgctxt "WalletSummary|"
-msgid "More details"
-msgstr "Maggiori dettagli"
-
-msgctxt "WalletSummary|"
-msgid "Switch wallet"
-msgstr "Cambia portafoglio"
 
 msgctxt "Wallets|"
 msgid "Wallets"
