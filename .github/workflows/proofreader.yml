@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       OPENAI_BASE_URL: "https://api.ppq.ai"
-      OPENAI_MODEL: "google/gemini-3-flash-preview"
+      OPENAI_MODEL: "google/gemini-3.7-flash"
       CONCURRENCY: "50"
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:

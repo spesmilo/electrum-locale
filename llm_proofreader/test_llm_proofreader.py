@@ -4,7 +4,7 @@ Unit tests for vandalism detection using the real LLM API.
 Tests known vandalism cases from electrum-locale repository.
 
 Run LLM tests with API environment variables, e.g.:
-OPENAI_BASE_URL=https://api.ppq.ai OPENAI_MODEL=google/gemini-3-flash-preview OPENAI_API_KEY=ABC
+OPENAI_BASE_URL=https://api.ppq.ai OPENAI_MODEL=google/gemini-3.7-flash OPENAI_API_KEY=ABC
 
 Offline tests only (diff parsing):
 python3 -m unittest -k DiffPars -k UnescapePo -k TestExtract test_llm_proofreader

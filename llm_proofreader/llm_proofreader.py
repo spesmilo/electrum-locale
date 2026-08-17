@@ -38,11 +38,6 @@ except ImportError as e:
 CONCURRENCY_DEFAULT = 50
 RETRY_DELAY_DEFAULT = 2.0  # seconds between retries
 
-# OpenAI-compatible API configuration
-OPENAI_BASE_URL_DEFAULT = "https://api.ppq.ai"
-OPENAI_MODEL_DEFAULT = "google/gemini-3-flash-preview"  # this passes the unittest, cheaper than haiku, ~0.02 ct/req
-# OPENAI_MODEL_DEFAULT = "claude-haiku-4.5"  # this passes the unittest, seems to work well, costs ~0.06 ct/req (ppq.ai)
-
 
 PROMPT_TEMPLATE = """
 You are a binary classifier for translation quality control.
@@ -99,15 +94,15 @@ target_language: {lang}
 
 
 def get_openai_url():
-    return os.environ.get("OPENAI_BASE_URL", OPENAI_BASE_URL_DEFAULT)
+    return os.environ["OPENAI_BASE_URL"]
 
 
 def get_openai_model():
-    return os.environ.get("OPENAI_MODEL", OPENAI_MODEL_DEFAULT)
+    return os.environ["OPENAI_MODEL"]
 
 
 def get_openai_api_key():
-    return os.environ.get("OPENAI_API_KEY", "")
+    return os.environ["OPENAI_API_KEY"]
 
 
 def get_concurrency():
@@ -584,7 +579,7 @@ def main():
     parser.add_argument(
         "--openai-url",
         default=None,
-        help=f"OpenAI-compatible API base URL (default: {OPENAI_BASE_URL_DEFAULT})",
+        help=f"OpenAI-compatible API base URL",
     )
     parser.add_argument(
         "--openai-key",
