@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       OPENAI_BASE_URL: "https://api.ppq.ai"
-      OPENAI_MODEL: "google/gemini-3.7-flash"
+      OPENAI_MODEL: "google/gemini-3.8-flash"
       CONCURRENCY: "50"
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
+          allow-unsafe-pr-checkout: true
 
       - name: Set up Python
         uses: actions/setup-python@v6

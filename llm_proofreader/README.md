@@ -2,20 +2,20 @@
 
 The `llm_proofreader.py` script detects vandalism in Electrum translations using an LLM (OpenAI-compatible API).
 
-gemini-3-flash-preview works well (passes the unittests) and costs roughly ~0.02 USD cent per translation prompt.
+gemini-3.8-flash works well (passes the unittests) and costs roughly ~0.02 USD cent per translation prompt.
 
 ### Full Scan Mode
 
 Scans all .po files in a locale directory:
 
 ```bash
-./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key sk-ABCD --model google/gemini-3-flash-preview --locale-dir locale
+./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key sk-ABCD --model google/gemini-3.8-flash --locale-dir locale
 ```
 
 Single locale:
 
 ```bash
-./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key sk-ABCD --model google/gemini-3-flash-preview --locale-dir locale/eo_UY
+./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key sk-ABCD --model google/gemini-3.8-flash --locale-dir locale/eo_UY
 ```
 
 ### Diff Mode (Pull Request Proofreading for CI)
@@ -60,7 +60,7 @@ The unittests serve as a benchmark to verify an LLM is suitable for this task.
 Running all tests (requires a live API key):
 
 ```bash
-OPENAI_BASE_URL=https://api.ppq.ai OPENAI_MODEL=google/gemini-3-flash-preview OPENAI_API_KEY=sk-ABCD python3 -m unittest test_llm_proofreader
+OPENAI_BASE_URL=https://api.ppq.ai OPENAI_MODEL=google/gemini-3.8-flash OPENAI_API_KEY=sk-ABCD python3 -m unittest test_llm_proofreader
 ```
 
 Running only the offline diff-parsing tests (no API queries):
