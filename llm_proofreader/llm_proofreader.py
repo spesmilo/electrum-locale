@@ -3,7 +3,7 @@
 Vandalism detection for translation files using LLM (OpenAI-compatible API).
 
 Usage:
-  ./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key YOUR_KEY --model google/gemini-3-flash-preview --locale-dir locale
+  ./llm_proofreader.py --openai-url https://api.ppq.ai --openai-key YOUR_KEY --model google/gemini-3.8-flash --locale-dir locale
   ./llm_proofreader.py --diff path/to/file.diff
   git diff HEAD~1 | ./llm_proofreader.py --diff -
 """
