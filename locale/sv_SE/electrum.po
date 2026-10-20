@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -589,15 +589,6 @@ msgstr "QR-kod"
 msgid "Script type"
 msgstr "Scripttyp"
 
-msgid "Invalid Bitcoin address."
-msgstr "Ogiltig bitcoinadress."
-
-msgid "Address not in wallet."
-msgstr "Adressen finns inte i plånboken."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Det går inte att signera meddelanden med denna adresstyp:"
-
 msgid "Wrong signature"
 msgstr "Fel signatur"
 
@@ -606,9 +597,6 @@ msgstr "Signera/verifiera meddelande"
 
 msgid "Verify"
 msgstr "Verifiera"
-
-msgid "Invalid Public key"
-msgstr "Ogiltig publik nyckel"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Kryptera/dekryptera meddelande"
@@ -886,12 +874,6 @@ msgstr "Denna inställning påverkar fliken Skicka, och alla fält som är relat
 msgid "Base unit"
 msgstr "Basenhet"
 
-msgid "Light"
-msgstr "Ljust"
-
-msgid "Dark"
-msgstr "Mörk"
-
 msgid "Fiat currency"
 msgstr "Fiatvaluta"
 
@@ -1092,6 +1074,9 @@ msgstr "Det gick inte att tolka texten i urklipp"
 
 msgid "Invalid Bitcoin Address"
 msgstr "Ogiltig bitcoinadress"
+
+msgid "Address not in wallet."
+msgstr "Adressen finns inte i plånboken."
 
 msgid "Make sure you install it with python3"
 msgstr "Se till att du installerar den med python3"
@@ -1408,6 +1393,15 @@ msgstr "Det går inte att skapa underordnad transaktion"
 
 msgid "{} confirmations"
 msgstr "{} bekräftelser"
+
+msgid "Invalid Bitcoin address."
+msgstr "Ogiltig bitcoinadress."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Det går inte att signera meddelanden med denna adresstyp:"
+
+msgid "Invalid Public key"
+msgstr "Ogiltig publik nyckel"
 
 msgid "invalid address"
 msgstr "ogiltig adress"
@@ -1822,6 +1816,10 @@ msgstr "Meddelande"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verifiera"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Fel"
 
 msgctxt "SwapDialog|"
 msgid "You send"

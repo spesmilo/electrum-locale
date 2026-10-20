@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -516,12 +516,6 @@ msgstr "此錢包沒有種苗"
 
 msgid "QR code"
 msgstr "QR 碼"
-
-msgid "Address not in wallet."
-msgstr "地址不在錢包裡。"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "無法為這種類型的位址簽署資訊："
 
 msgid "Signature verified"
 msgstr "簽章已過驗證"
@@ -1111,6 +1105,9 @@ msgstr "橫幅"
 msgid "Invalid Bitcoin Address"
 msgstr "無效的比特幣位址"
 
+msgid "Address not in wallet."
+msgstr "地址不在錢包裡。"
+
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "OP_RETURN的輸出必須歸零."
 
@@ -1274,9 +1271,6 @@ msgstr "選擇開啟網頁瀏覽器時所要使用的線上區塊探索器"
 msgid "Video Device"
 msgstr "視訊裝置"
 
-msgid "Install the zbar package to enable this."
-msgstr "請安裝 zbar 軟體包啟用此功能。"
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias 記錄，用於接收錢幣並簽署支付請求。"
 
@@ -1294,6 +1288,9 @@ msgstr "無法增加交易費"
 
 msgid "All outputs are non-change is_mine"
 msgstr "全部輸出無找錢 is_mine"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "無法為這種類型的位址簽署資訊："
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "此交易的手續費似乎非比尋常地高。"
@@ -1647,6 +1644,10 @@ msgstr "簽署"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "驗證"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "錯誤"
 
 msgctxt "SwapDialog|"
 msgid "Mining fee"

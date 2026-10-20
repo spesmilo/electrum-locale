@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -49,6 +49,9 @@ msgstr "  (valūtas kurss nav pieejams)"
 msgid "No data"
 msgstr "Nav datu"
 
+msgid "Feerate"
+msgstr "Komisijas maksas likme"
+
 msgid "ETA"
 msgstr "Aptuvenais laiks"
 
@@ -76,6 +79,24 @@ msgstr "Aprēķins"
 msgid "{} from tip"
 msgstr "{} no galotnes"
 
+msgid "&Undo"
+msgstr "Atsa&ukt"
+
+msgid "&Redo"
+msgstr "Atkā&rtot"
+
+msgid "Cu&t"
+msgstr "Izgriez&t"
+
+msgid "&Copy"
+msgstr "&Kopēt"
+
+msgid "&Paste"
+msgstr "&Ielīmēt"
+
+msgid "Select All"
+msgstr "Atlasīt visu"
+
 msgid "Channel backups can be imported in another instance of the same wallet."
 msgstr "Kanāla rezerves kopijas var importēt tā paša maciņa citā instancē."
 
@@ -84,6 +105,15 @@ msgstr "Lūdzu, ņemiet vērā, ka kanālu rezerves kopijas nevar izmantot jūsu
 
 msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
 msgstr "Ja pazaudēsiet maciņa failu, vienīgais, ko varat darīt ar rezerves kopiju, ir pieprasīt kanāla slēgšanu, lai jūsu līdzekļi tiktu nosūtīti uz ķēdi."
+
+msgid "Auto-connect"
+msgstr "Savienoties automātiski"
+
+msgid "Manual server selection"
+msgstr "Manuālā severa atlase"
+
+msgid "Warning:"
+msgstr "Brīdinājums:"
 
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Mēģiniet paaugstināt komisijas maksu vai izmantojiet serveri ar zemāku komisijas maksas pārraides slieksni."
@@ -109,11 +139,29 @@ msgstr "Tie var tikt importēti citā maciņā ar tādu pašu sēklu."
 msgid "Close Lightning channel?"
 msgstr "Aizvērt Lightning kanālu?"
 
+msgid "File not found"
+msgstr "Fails nav atrasts"
+
+msgid "broadcasting"
+msgstr "apraidīšana"
+
+msgid "Invoice has unknown status"
+msgstr "Rēķina statuss ir nezināms"
+
+msgid "Paid!"
+msgstr "Apmaksāts!"
+
+msgid "Insufficient balance"
+msgstr "Nav pietiekoši daudz līdzekļu"
+
+msgid "Unknown invoice"
+msgstr "Nezināms rēķins"
+
 msgid "Error"
 msgstr "Kļūda"
 
 msgid "You are offline."
-msgstr "Jūs esat nesaistē"
+msgstr "Jūs esat nesaistē."
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Vai tiešām vēlaties noņemt šo transakciju?"
@@ -193,6 +241,9 @@ msgstr "Izpirkšanas skripts"
 msgid "Derivation path"
 msgstr "Atvasinājuma ceļš"
 
+msgid "All status"
+msgstr "Visi statusi"
+
 msgid "Unused"
 msgstr "Neizmantots"
 
@@ -233,7 +284,7 @@ msgid "Details"
 msgstr "Sīkāka informācija"
 
 msgid "Edit {}"
-msgstr "Rediģēt \"{}\""
+msgstr "Rediģēt {}"
 
 msgid "Private key"
 msgstr "Privātā atslēga"
@@ -287,7 +338,7 @@ msgid "Channel Backup"
 msgstr "Kanāla rezerves kopija"
 
 msgid "This is a channel backup."
-msgstr "Šī ir kanāla rezerves kopija"
+msgstr "Šī ir kanāla rezerves kopija."
 
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Parāda kanālu, ko atvēra cita šī maciņa instance"
@@ -385,6 +436,12 @@ msgstr "Kopā nosūtīts"
 msgid "Total received"
 msgstr "Kopā saņemts"
 
+msgid "{} blocks"
+msgstr "{} bloki"
+
+msgid "Current feerate"
+msgstr "Pašreizējā komisijas maksas likme"
+
 msgid "Node alias"
 msgstr "Mezgla segvārds"
 
@@ -466,8 +523,14 @@ msgstr "Šis kanāls ir iesaldēts saņemšanai. Tas netiks iekļauts rēķinos.
 msgid "can receive"
 msgstr "var saņemt"
 
+msgid "Submarine swap"
+msgstr "Submarine apmaiņa"
+
 msgid "Import channel backup"
 msgstr "Importēt kanāla rezerves kopiju"
+
+msgid "New Channel"
+msgstr "Jauns kanāls"
 
 msgid "Lightning Network Statistics"
 msgstr "Lightning tīkla statistika"
@@ -490,6 +553,9 @@ msgstr "Kanāla dalībnieks var maršrutēt \"Trampoline\" maksājumus."
 msgid "This channel cannot be recovered from your seed. You must back it up manually."
 msgstr "Šo kanālu nevar atgūt no sēklas. Jums ir jāveido tā rezerves kopijas manuāli."
 
+msgid "LockTime"
+msgstr "Bloķēšanas laiks"
+
 msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
 msgstr "Lai pasargātu jūsu privātumu, Electrum mēģina izveidot atlikumu līdzīgu citiem izvadiem."
 
@@ -510,6 +576,9 @@ msgstr "Turklāt, veicot RBF transakciju apvienošanu, BIP 125 nosaka zemāko sl
 
 msgid "Fee rounding"
 msgstr "Komisijas maksas noapaļošana"
+
+msgid "Onchain Transaction"
+msgstr "Transakcija uz ķēdes"
 
 msgid "Additional {} satoshis are going to be added."
 msgstr "Tiks pievienoti papildu {} satoshi."
@@ -535,6 +604,9 @@ msgstr "Dažos gadījumos, tiks izmantots līdz pat 3 atlikuma adresēm, lai sad
 msgid "This may result in higher transactions fees."
 msgstr "Šī opcija var palielināt transakciju komisijas maksu."
 
+msgid "Tools"
+msgstr "Rīki"
+
 msgid "Preparing transaction..."
 msgstr "Sagatavo transakciju..."
 
@@ -544,8 +616,11 @@ msgstr "Tu sūti"
 msgid "Mining fee"
 msgstr "Komisijas maksa"
 
+msgid "New Transaction"
+msgstr "Jauna transakcija"
+
 msgid "Fees are paid by the sender."
-msgstr "Komisijas maksas maksā sūtītājs"
+msgstr "Komisijas maksas maksā sūtītājs."
 
 msgid "Amount to be sent"
 msgstr "Summa nosūtīšanai"
@@ -558,6 +633,12 @@ msgstr "Komisijas maksas lielumu var brīvi izvēlēties pats sūtītājs. Tomē
 
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Ieteicamā transakcijas komisijas maksa tiek automātiski pievienota šajā lauciņā, jūs varat to pārrakstīt. Ieteicamā komisijas maksa palielinās līdz ar transakcijas izmēru."
+
+msgid "Mining Fee"
+msgstr "Komisijas maksa"
+
+msgid "Fee policy"
+msgstr "Komisijas maksas politika"
 
 msgid "Additional fees"
 msgstr "Papildu komisijas maksas"
@@ -626,7 +707,7 @@ msgid "{} transactions"
 msgstr "{} transakcijas"
 
 msgid "Value"
-msgstr "vērtība"
+msgstr "Vērtība"
 
 msgid "Acquisition price"
 msgstr "Iegādes cena"
@@ -816,6 +897,9 @@ msgstr "Tiek pieprasīti {} kanāli..."
 
 msgid "Lightning Payment"
 msgstr "Lightning maksājums"
+
+msgid "Fee: {}"
+msgstr "Komisijas maksa: {}"
 
 msgid "Description:"
 msgstr "Apraksts:"
@@ -1018,6 +1102,9 @@ msgstr "&Palīdzība"
 msgid "&About"
 msgstr "&Par"
 
+msgid "&Changelog"
+msgstr "&Izmaiņu žurnāls"
+
 msgid "&Check for updates"
 msgstr "&Pārbaudīt atjauninājumus"
 
@@ -1197,7 +1284,7 @@ msgid "Lightning is not enabled because this wallet was created with an old vers
 msgstr "Lightning nav aktivizēts, jo šis maciņš tika izveidots, izmantojot veco Electrum versiju. Vai izveidot Lightning atslēgas?"
 
 msgid "Warning: this wallet type does not support channel recovery from seed. You will need to backup your wallet every time you create a new channel. Create lightning keys?"
-msgstr "Brīdinājums: šis maciņa veids neatbalsta kanālu atkopšanu no sēklas. Jums būs jāizveido maciņa rezerves kopija katru reizi, kad veidojat jaunu kanālu. Vai izveidot Lightning atslēgas?\n"
+msgstr "Brīdinājums: šis maciņa veids neatbalsta kanālu atkopšanu no sēklas. Jums būs jāizveido maciņa rezerves kopija katru reizi, kad veidojat jaunu kanālu. Vai izveidot Lightning atslēgas?"
 
 msgid "Lightning keys have been initialized."
 msgstr "Lightning atslēgas ir inicializētas."
@@ -1223,24 +1310,6 @@ msgstr "QR kods"
 msgid "Script type"
 msgstr "Skripta tips"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Parakstīšana ar adresi faktiski nozīmē parakstīšanu ar atbilstošo privāto atslēgu un verifikāciju ar atbilstošo publisko atslēgu. Jūsu ievadītajai adresei nav unikālas publiskās atslēgas, tāpēc šīs darbības nevar veikt."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Šī darbība nav definēta. Ne tikai Electrum, bet vispārīgi."
-
-msgid "Invalid Bitcoin address."
-msgstr "Nederīga Bitcoin adrese."
-
-msgid "This is a watching-only wallet."
-msgstr "Šis maciņš ir tikai skatīšanai."
-
-msgid "Address not in wallet."
-msgstr "Adrese nav maciņā."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Nevar parakstīt ziņojumus ar šāda tipa adresi:"
-
 msgid "Signature verified"
 msgstr "Paraksts pārbaudīts"
 
@@ -1258,9 +1327,6 @@ msgstr "Parakstīt"
 
 msgid "Verify"
 msgstr "Pārbaudīt"
-
-msgid "Invalid Public key"
-msgstr "Nederīga publiskā atslēga"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Šifrēt vai atšifrēt ziņojumu"
@@ -1460,6 +1526,9 @@ msgstr "Šis ir lokālās blokķēdes kopijas augstums."
 msgid "Blockchain"
 msgstr "Blokķēde"
 
+msgid "Add"
+msgstr "Pievienot"
+
 msgid "Open Channel"
 msgstr "Atvērt kanālu"
 
@@ -1541,8 +1610,14 @@ msgstr "Jūsu maciņa fails NAV šifrēts."
 msgid "Please enter your password"
 msgstr "Lūdzu, ievadiet paroli"
 
+msgid "Author"
+msgstr "Autors"
+
 msgid "Requires"
 msgstr "Pieprasa"
+
+msgid "Disable"
+msgstr "Atspējot"
 
 msgid "Enable"
 msgstr "Aktivizēt"
@@ -1583,6 +1658,9 @@ msgstr "Kopēt tekstu"
 msgid "Save"
 msgstr "Saglabāt"
 
+msgid "Scan QR Code"
+msgstr "Skenēt QR kodu"
+
 msgid "&Close"
 msgstr "&Aizvērt"
 
@@ -1594,6 +1672,15 @@ msgstr "Lasīt QR kodu no ekrāna"
 
 msgid "Payment Request"
 msgstr "Maksājuma pieprasījums"
+
+msgid "Current fee"
+msgstr "Pašreizējā komisijas maksa"
+
+msgid "New fee"
+msgstr "Jaunā komisijas maksa"
+
+msgid "Fee target"
+msgstr "Komisijas maksas mērķis"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Palielināt transakcijas komisijas maksu, lai uzlabotu pozīciju atmiņas pūlā."
@@ -1622,8 +1709,14 @@ msgstr "Pieprasītā summa"
 msgid "Expiry"
 msgstr "Derīguma termiņš"
 
+msgid "Onchain"
+msgstr "Uz ķēdes"
+
 msgid "Requests"
 msgstr "Pieprasījumi"
+
+msgid "Expiration period of your request."
+msgstr "Pieprasījuma derīguma termiņš."
 
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Ja nosūtīsiet parakstītu maksājuma pieprasījumu, šī informācija būs redzama saņēmējam."
@@ -1827,6 +1920,9 @@ msgstr "Viens izvads katrā līnijā."
 msgid "You may load a CSV file using the file icon."
 msgstr "Varat arī izmantot faila ikonu, lai ielādētu CSV failu."
 
+msgid "Can receive: {}"
+msgstr "Var saņemt: {}"
+
 msgid "Are you sure you want to disable trampoline?"
 msgstr "Vai esat pārliecināti, ka vēlies izslēgt \"trampoline\"?"
 
@@ -1838,12 +1934,6 @@ msgstr "Šis iestatījums iespaido sūtīšanas cilni un visus ar bilanci saist�
 
 msgid "Base unit"
 msgstr "Pamata vienība"
-
-msgid "Light"
-msgstr "Gaiša"
-
-msgid "Dark"
-msgstr "Tumša"
 
 msgid "Custom URL"
 msgstr "Pielāgots URL"
@@ -1891,7 +1981,7 @@ msgid "Inputs"
 msgstr "Ievadi"
 
 msgid "Click to open, right-click for menu"
-msgstr "Noklikšķiniet, lai atvērtu. Labais klikšķis, lai piekļūtu izvēlnei."
+msgstr "Noklikšķiniet, lai atvērtu. Labais klikšķis, lai piekļūtu izvēlnei"
 
 msgid "Show Prev Tx"
 msgstr "Rādīt iepriekšējo transakciju"
@@ -1968,8 +2058,23 @@ msgstr "pievienot ievadus un izvadus"
 msgid "Error joining partial transactions"
 msgstr "Gadījās kļūda, apvienojot dalītās transakcijas"
 
+msgid "Status: {}"
+msgstr "Statuss: {}"
+
 msgid "Date: {}"
 msgstr "Datums: {}"
+
+msgid "height"
+msgstr "augstums"
+
+msgid "LockTime: {} ({})"
+msgstr "Bloķēšanas laiks: {} ({})"
+
+msgid "Relative locktime: {}"
+msgstr "Relatīvais bloķēšanas laiks: {}"
+
+msgid "Replace by fee: {}"
+msgstr "Aizvietot ar komisijas maksu: {}"
 
 msgid "True"
 msgstr "Jā"
@@ -1982,6 +2087,12 @@ msgstr "Bloka augstumā: {}"
 
 msgid "Transaction unrelated to your wallet"
 msgstr "Transakcija nesaistīta ar jūsu maciņu"
+
+msgid "Amount sent: {}"
+msgstr "Nosūtītā summa: {}"
+
+msgid "Size: {} {}"
+msgstr "Izmērs: {} {}"
 
 msgid "unknown"
 msgstr "nezināms"
@@ -2003,6 +2114,9 @@ msgstr "Pārbauda atjauninājumus..."
 
 msgid "Please wait while Electrum checks for available updates."
 msgstr "Lūdzu, uzgaidiet, kamēr Electrum pārbauda atjauninājumus."
+
+msgid "Info"
+msgstr "Informācija"
 
 msgid "Copy and Close"
 msgstr "Kopēt un aizvērt"
@@ -2040,8 +2154,14 @@ msgstr "Lasīt QR kodu ar kameru"
 msgid "Error opening file"
 msgstr "Kļūda, atverot failu"
 
+msgid "Select image file"
+msgstr "Izvēlēties attēla failu"
+
 msgid "Read file"
 msgstr "Lasīt failu"
+
+msgid "Other options"
+msgstr "Citas iespējas"
 
 msgid "Open {} file"
 msgstr "Atvērt {} failu"
@@ -2055,8 +2175,14 @@ msgstr "Izvēlieties failu, lai saglabātu {}"
 msgid "Your {0} were exported to '{1}'"
 msgstr "Jūsu {0} tika eksportēts uz \"{1}\""
 
+msgid "Coin Privacy Analysis"
+msgstr "Monētu privātuma analīze"
+
 msgid "Output point"
 msgstr "Izvada punkts"
+
+msgid "This UTXO has {} parent transactions in your wallet."
+msgstr "Šim neiztērētajam izvadam ir {} vecāku transakcijas jūsu maciņā."
 
 msgid "Parents"
 msgstr "Vecāki"
@@ -2084,7 +2210,7 @@ msgid ""
 "Use ctrl+left mouse button to select multiple items"
 msgstr ""
 "Vispirms sarakstā ir jāatlasa monētas.\n"
-"Izmantojiet Ctrl+kreiso peles taustiņu, lai atlasītu vairākus vienumus."
+"Izmantojiet Ctrl+kreiso peles taustiņu, lai atlasītu vairākus vienumus"
 
 msgid "Privacy analysis"
 msgstr "Privātuma analīze"
@@ -2164,6 +2290,9 @@ msgstr "Atslēgu glabātuve"
 msgid "Next"
 msgstr "Nākamais"
 
+msgid "Use Proxy"
+msgstr "Izmantot starpniekserveri"
+
 msgid "WIF keys are typed in Electrum, based on script type."
 msgstr "WIF atslēgas tiek ievadītas Electrum, atkarībā no to skripta tipa."
 
@@ -2205,6 +2334,9 @@ msgstr "Maciņš"
 
 msgid "Choose..."
 msgstr "Izvēlēties..."
+
+msgid "New"
+msgstr "Jauns"
 
 msgid "Cannot read file"
 msgstr "Nevar nolasīt failu"
@@ -2253,6 +2385,9 @@ msgstr "Izmantot galveno atslēgu"
 
 msgid "Use a hardware device"
 msgstr "Izmantot aparatūras ierīci"
+
+msgid "Enter seed"
+msgstr "Ievadīt sēklu"
 
 msgid "Confirm Seed"
 msgstr "Apstipriniet sēklu"
@@ -2395,11 +2530,44 @@ msgstr "Nederīga komisijas maksa"
 msgid "Addresses"
 msgstr "Adreses"
 
+msgid "Coins"
+msgstr "Monētas"
+
 msgid "Contacts"
 msgstr "Kontakti"
 
+msgid "Clipboard"
+msgstr "Starpliktuve"
+
+msgid "Quit"
+msgstr "Iziet"
+
+msgid "[Clear]"
+msgstr "[Notīrīt]"
+
+msgid "[Onchain]"
+msgstr "[Uz ķēdes]"
+
+msgid "[Lightning]"
+msgstr "[Lightning]"
+
+msgid "[Paste]"
+msgstr "[Ievietot]"
+
+msgid "[Save]"
+msgstr "[Saglabāt]"
+
+msgid "[Pay]"
+msgstr "[Maksāt]"
+
+msgid "Lightning is disabled on this wallet"
+msgstr "Lightning nav aktivizēts šim maciņam"
+
 msgid "Invalid Bitcoin Address"
 msgstr "Nederīga Bitcoin adrese"
+
+msgid "Address not in wallet."
+msgstr "Adrese nav maciņā."
 
 msgid "Outdated device firmware"
 msgstr "Novecojusi ierīces aparātprogrammatūra"
@@ -2506,6 +2674,12 @@ msgstr "Nav no kā izveidot grafiku."
 msgid "Bit rate [kbps]: "
 msgstr "Bitu ātrums [kbps]: "
 
+msgid "BitBox02 Status"
+msgstr "BitBox02 statuss"
+
+msgid "Coldcard Status"
+msgstr "Coldcard statuss"
+
 msgid "{} Settings"
 msgstr "{} iestatījumi"
 
@@ -2514,6 +2688,9 @@ msgstr "Ģenerēt jaunu, nejaušu maciņu"
 
 msgid "This function is only available for p2pkh keystores when using {}."
 msgstr "Šī funkcija ir pieejama tikai p2pkh atslēgu glabātuvēm, kad izmanto {}."
+
+msgid "Jade Status"
+msgstr "Jade statuss"
 
 msgid "Enter PIN"
 msgstr "Ievadiet PIN"
@@ -2539,6 +2716,9 @@ msgstr "Papildu"
 msgid "Your labels have been synchronised."
 msgstr "Etiķetes ir sinhronizētas."
 
+msgid "Ledger Status"
+msgstr "Ledger statuss"
+
 msgid "Error connecting to server"
 msgstr "Gadījās kļūda, savienojoties ar serveri"
 
@@ -2557,6 +2737,9 @@ msgstr "Tad ievadiet savu Google autentifikatora kodu:"
 msgid "Select server automatically"
 msgstr "Izvēlēties serveri automātiski"
 
+msgid "Merge duplicate outputs"
+msgstr "Apvienot dublētos izvadus"
+
 msgid "Spend only confirmed coins"
 msgstr "Tērēt tikai apstiprinātās monētas"
 
@@ -2574,6 +2757,12 @@ msgstr "Šis var nedaudz uzlabot jūsu privātumu."
 
 msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
 msgstr "Ja aktivizēts, ar katru transakciju var tikt zaudēts līdz pat 100 bāzes vienībām (satoshi)."
+
+msgid "Send change to Lightning"
+msgstr "Sūtīt atlikumu uz Lightning"
+
+msgid "Submarine Payments"
+msgstr "Submarine maksājumi"
 
 msgid "Download historical rates"
 msgstr "Lejupielādēt vēsturiskos datus"
@@ -2599,6 +2788,15 @@ msgstr "CoinJoin; noņemt privāto"
 msgid "For hardware device; include xpubs"
 msgstr "Aparatūras ierīcei; iekļaut xpubs"
 
+msgid "Show inputs and outputs"
+msgstr "Rādīt ievadus un izvadus"
+
+msgid "Edit fees manually"
+msgstr "Rediģēt komisijas maksu manuāli"
+
+msgid "Edit Locktime"
+msgstr "Rediģēt transakcijas bloķēšanas laiku"
+
 msgid "Zeros after decimal point"
 msgstr "Nulles aiz decimālā atdalītāja"
 
@@ -2619,9 +2817,6 @@ msgstr "Izvēlieties blokķēdes pārlūku, kuru atvērt tīmekļa pārlūkprogr
 
 msgid "Video Device"
 msgstr "Video ierīce"
-
-msgid "Install the zbar package to enable this."
-msgstr "Instalējiet zbar pakotni, lai aktivizētu šo funkciju."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias ieraksts, izmantots, lai saņemtu monētas un, lai parakstītu maksājumu pieprasījumus."
@@ -2645,7 +2840,7 @@ msgid "Insufficient funds"
 msgstr "Nav pietiekoši daudz līdzekļu"
 
 msgid "Dynamic fee estimates not available"
-msgstr "Dinamiskā komisijas maksas aprēķināšana nav pieejama."
+msgstr "Dinamiskā komisijas maksas aprēķināšana nav pieejama"
 
 msgid "Incorrect password"
 msgstr "Nepareiza parole"
@@ -2701,6 +2896,24 @@ msgstr "Neparakstīts"
 msgid "Partially signed"
 msgstr "Daļēji parakstīts"
 
+msgid "Invalid Bitcoin address."
+msgstr "Nederīga Bitcoin adrese."
+
+msgid "This is a watching-only wallet."
+msgstr "Šis maciņš ir tikai skatīšanai."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nevar parakstīt ziņojumus ar šāda tipa adresi:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Parakstīšana ar adresi faktiski nozīmē parakstīšanu ar atbilstošo privāto atslēgu un verifikāciju ar atbilstošo publisko atslēgu. Jūsu ievadītajai adresei nav unikālas publiskās atslēgas, tāpēc šīs darbības nevar veikt."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Šī darbība nav definēta. Ne tikai Electrum, bet vispārīgi."
+
+msgid "Invalid Public key"
+msgstr "Nederīga publiskā atslēga"
+
 msgid ""
 "The input amounts could not be verified as the previous transactions are missing.\n"
 "The amount of money being spent CANNOT be verified."
@@ -2720,8 +2933,17 @@ msgstr ""
 msgid "The fee for this transaction seems unusually high."
 msgstr "Šīs transakcijas komisijas maksa šķiet neparasti augsta."
 
+msgid "({}% of amount)"
+msgstr "({}% no summas)"
+
+msgid "(feerate: {})"
+msgstr "(komisijas maksas likme: {})"
+
 msgid "This address has already been used. For better privacy, do not reuse it for new payments."
 msgstr "Šī adrese jau ir izmantota. Lai nodrošinātu labāku privātumu, nelietojiet to jauniem maksājumiem."
+
+msgid "Total amount sent {}"
+msgstr "Kopējā nosūtītā summa {}"
 
 msgid "New transaction: {}"
 msgstr "Jauna transakcija: {}"
@@ -2795,6 +3017,10 @@ msgstr "Dzēst"
 msgctxt "Addresses|"
 msgid "Addresses"
 msgstr "Adreses"
+
+msgctxt "Addresses|"
+msgid "Coins"
+msgstr "Monētas"
 
 msgctxt "Addresses|"
 msgid "Freeze"
@@ -2887,6 +3113,10 @@ msgstr "Iesaldēt"
 msgctxt "ChannelDetails|"
 msgid "Can receive"
 msgstr "Var saņemt"
+
+msgctxt "ChannelDetails|"
+msgid "Current feerate"
+msgstr "Pašreizējā komisijas maksas likme"
 
 msgctxt "ChannelDetails|"
 msgid "Funding Outpoint"
@@ -3011,6 +3241,10 @@ msgstr "Aptuvenais laiks"
 msgctxt "FeeMethodComboBox|"
 msgid "Mempool"
 msgstr "Atmiņas pūls"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr "Komisijas maksas likme"
 
 msgctxt "FeePicker|"
 msgid "Target"
@@ -3257,6 +3491,10 @@ msgid "Bump Fee"
 msgstr "Palielināt komisijas maksu"
 
 msgctxt "RbfBumpFeeDialog|"
+msgid "New fee"
+msgstr "Jaunā komisijas maksa"
+
+msgctxt "RbfBumpFeeDialog|"
 msgid "Options"
 msgstr "Opcijas"
 
@@ -3271,6 +3509,10 @@ msgstr "Dažos gadījumos, tiks izmantots līdz pat 3 atlikuma adresēm, lai sad
 msgctxt "RbfBumpFeeDialog|"
 msgid "This may result in higher transactions fees."
 msgstr "Šī opcija var palielināt transakciju komisijas maksu."
+
+msgctxt "RbfCancelDialog|"
+msgid "New fee"
+msgstr "Jaunā komisijas maksa"
 
 msgctxt "ReceiveDetailsDialog|"
 msgid "Message"
@@ -3287,6 +3529,10 @@ msgstr "Summa"
 msgctxt "ReceiveDetailsDialog|"
 msgid "Expires after"
 msgstr "Derīguma termiņš"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Onchain"
+msgstr "Uz ķēdes"
 
 msgctxt "ReceiveDetailsDialog|"
 msgid "Lightning"
@@ -3352,6 +3598,14 @@ msgctxt "ServerConfig|"
 msgid "Other known servers"
 msgstr "Citi zināmie serveri"
 
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr "Savienoties automātiski"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Manual server selection"
+msgstr "Manuālā severa atlase"
+
 msgctxt "ServerConnectWizard|"
 msgid "Next"
 msgstr "Nākamais"
@@ -3375,6 +3629,10 @@ msgstr "Parakstīt"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Pārbaudīt"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Kļūda"
 
 msgctxt "SwapDialog|"
 msgid "You send"
@@ -3411,6 +3669,10 @@ msgstr "Daži piemēri"
 msgctxt "TermsOfUseWizard|"
 msgid "Next"
 msgstr "Nākamais"
+
+msgctxt "TxDetails|"
+msgid "Amount sent onchain"
+msgstr "Nosūtītā summa uz ķēdes"
 
 msgctxt "TxDetails|"
 msgid "Amount received in channels"

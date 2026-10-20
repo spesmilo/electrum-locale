@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -340,12 +340,6 @@ msgstr "آیا می خواهید اولین کانال خود را درست کن
 msgid "Delete wallet file?"
 msgstr "فایل کیف پول حذف شود؟"
 
-msgid "Address not in wallet."
-msgstr "این آدرس در کیف وجود ندارد"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "با این نوع آدرس نمی توان پیام ها را امضا کرد:"
-
 msgid "Encrypt/decrypt Message"
 msgstr "رمزگزاری / رمزگشایی پیام"
 
@@ -453,9 +447,6 @@ msgstr "واحد اصلی کیف پول شما."
 
 msgid "Base unit"
 msgstr "واحد پایه"
-
-msgid "Dark"
-msgstr "تاریک"
 
 msgid "Custom URL"
 msgstr "URL  سفارشی"
@@ -573,6 +564,9 @@ msgstr "مخاطبین"
 
 msgid "Banner"
 msgstr "پرچم"
+
+msgid "Address not in wallet."
+msgstr "این آدرس در کیف وجود ندارد"
 
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "همیشه مقدار OP_RETURN باید صفر باشد."
@@ -807,6 +801,9 @@ msgstr "نمی توان خروجی مناسبی را پیدا کرد"
 msgid "Could not find coins for output"
 msgstr "نمی توان سکه ی را برای خروجی پیدا کرد"
 
+msgid "Cannot sign messages with this type of address:"
+msgstr "با این نوع آدرس نمی توان پیام ها را امضا کرد:"
+
 msgid "invalid address"
 msgstr "آدرس نامعتبر"
 
@@ -1001,6 +998,10 @@ msgstr "لغو"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Address"
 msgstr "آدرس"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "خطا"
 
 msgctxt "SwapDialog|"
 msgid "Cancel"

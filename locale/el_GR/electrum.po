@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -541,9 +541,6 @@ msgstr "Αυτό το πορτοφόλι δεν έχει λέξεις κλειδ
 msgid "QR code"
 msgstr "Κωδικός QR"
 
-msgid "Invalid Bitcoin address."
-msgstr "Μη έγκυρη διεύθυνση Bitcoin."
-
 msgid "Signature verified"
 msgstr "Υπογραφή πιστοποιήθηκε"
 
@@ -558,9 +555,6 @@ msgstr "Υπογραφή"
 
 msgid "Verify"
 msgstr "Επαλήθευση"
-
-msgid "Invalid Public key"
-msgstr "Μη έγκυρο δημόσιο κλειδί"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Κρυπτογράφηση/Αποκρυπτογράφηση μηνύματος"
@@ -730,6 +724,9 @@ msgstr "Παρακαλώ εισάγετε τον κωδικό πρόσβασής
 msgid "Requires"
 msgstr "Απαιτεί"
 
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
 msgid "Disable"
 msgstr "Απενεργοποίηση"
 
@@ -880,9 +877,6 @@ msgstr "Βασική μονάδα του πορτοφολιού σου."
 
 msgid "Base unit"
 msgstr "Βασική Μονάδα"
-
-msgid "Dark"
-msgstr "Σκοτεινό"
 
 msgid "Custom URL"
 msgstr "Προσαρμοσμένη διεύθυνση URL"
@@ -1190,9 +1184,6 @@ msgstr "Ακυρώθηκε"
 msgid "Error showing address"
 msgstr "Σφάλμα εμφάνισης διεύθυνσης"
 
-msgid "Upgrade"
-msgstr "Αναβάθμιση"
-
 msgid "Enter password:"
 msgstr "Εισαγωγή κωδικού πρόσβασης:"
 
@@ -1363,6 +1354,12 @@ msgstr "{} δευτερόλεπτα"
 
 msgid "{} confirmations"
 msgstr "{} επιβεβαιώσεις"
+
+msgid "Invalid Bitcoin address."
+msgstr "Μη έγκυρη διεύθυνση Bitcoin."
+
+msgid "Invalid Public key"
+msgstr "Μη έγκυρο δημόσιο κλειδί"
 
 msgid "New transaction: {}"
 msgstr "Νέα συναλλαγή: {}"
@@ -1966,6 +1963,10 @@ msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Επικόλληση"
 
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "ΟΚ"
+
 msgctxt "ServerConfig|"
 msgid "Connection mode"
 msgstr "Λειτουργία σύνδεσης"
@@ -2041,6 +2042,10 @@ msgstr "Υπογραφή"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Επαλήθευση"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Σφάλμα"
 
 msgctxt "SwapDialog|"
 msgid "Ok"
@@ -2273,6 +2278,10 @@ msgstr "Επιβεβαίωση πληρωμής"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Πορτοφόλια"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "αναζήτηση"
 
 msgctxt "Wallets|"
 msgid "Create Wallet"

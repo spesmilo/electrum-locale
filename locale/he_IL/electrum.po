@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -14,8 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Electrum-SourceStringCount: 2759\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==2 ? 1 : 2);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
 "X-Crowdin-Language: he\n"
@@ -983,24 +983,6 @@ msgstr "קוד QR"
 msgid "Script type"
 msgstr "סוג תסריט"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "בפועל, חתימה באמצעות כתובת משמעותה חתימה עם המפתח הפרטי התואם, וווידוא באמצעות המפתח הציבורי התואם. לכתובת שהזנת אין מפתח ציבורי ייחודי, לכן הפעולות האלה לא יכולות להתבצע."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "הפעולה הזאת לא מוגדרת. לא רק באלקטרום, אלא בכלל."
-
-msgid "Invalid Bitcoin address."
-msgstr "כתובת ביטקוין לא תקינה"
-
-msgid "This is a watching-only wallet."
-msgstr "זהו ארנק לצפייה-בלבד."
-
-msgid "Address not in wallet."
-msgstr "כתובת אינה בארנק."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "לא ניתן לחתום על הודעות עם סוג זה של כתובת:"
-
 msgid "Signature verified"
 msgstr "חתימה וודאה"
 
@@ -1015,9 +997,6 @@ msgstr "חתום"
 
 msgid "Verify"
 msgstr "אימות"
-
-msgid "Invalid Public key"
-msgstr "מפתח ציבורי לא תקין"
 
 msgid "Encrypt/decrypt Message"
 msgstr "הצפן/פענח הודעה"
@@ -1246,6 +1225,9 @@ msgstr "אנא הזן את סיסמתך"
 
 msgid "Requires"
 msgstr "דורש"
+
+msgid "Upgrade"
+msgstr "שדרוג"
 
 msgid "Enable"
 msgstr "הפעל"
@@ -1478,12 +1460,6 @@ msgstr "ההגדרה הזאת משפיעה על תווית ה'שלח', ועל כ
 
 msgid "Base unit"
 msgstr "יחידת בסיס"
-
-msgid "Light"
-msgstr "בהיר"
-
-msgid "Dark"
-msgstr "כהה"
 
 msgid "Custom URL"
 msgstr "כתובת URL מותאמת"
@@ -1941,6 +1917,9 @@ msgstr "יציאה"
 msgid "Invalid Bitcoin Address"
 msgstr "כתובת ביטקוין לא תקינה"
 
+msgid "Address not in wallet."
+msgstr "כתובת אינה בארנק."
+
 msgid "Missing libraries for {}."
 msgstr "ספריות חסרות ל{}."
 
@@ -2193,9 +2172,6 @@ msgstr "תאריך הגרסה"
 
 msgid "Bootloader"
 msgstr "מנהל אתחול (bootloader)"
-
-msgid "Upgrade"
-msgstr "שדרוג"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "שגיאת תקשורת עם התקן. נא לנתק ולחבר מחדש את הDigital Bitbox שלך."
@@ -2758,12 +2734,6 @@ msgstr "השירות הזה עושה שימוש בארנק רב-חתימתי, כ
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "הזן את הזרע לארנק הדו-שלבי שלך:"
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "לא ניתן להפעיל את סורק הQR: איתחול נכשל."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "וודא שיש לך מצלמה מחוברת ומופעלת."
-
 msgid "Select server automatically"
 msgstr "בחירת שרת באופן אוטומטי"
 
@@ -2802,9 +2772,6 @@ msgstr "סורק בלוקים אינטרנטי"
 
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "בחר באיזה סורק בלוקים להשתמש עבור פקודות שפותחות דפדפן אינטרנט"
-
-msgid "Install the zbar package to enable this."
-msgstr "התקן חבילת zbar כדי להפעיל את זה."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "רשומת OpenAlias, בה משתמשים לקבלת מטבעות ולחתום על בקשות תשלום."
@@ -2901,6 +2868,24 @@ msgstr "לא מצליח למצוא מטבעות עבור פלט"
 
 msgid "The output value remaining after fee is too low."
 msgstr "ערך הפלט הנותר לאחר עמלה הוא נמוך מדי."
+
+msgid "Invalid Bitcoin address."
+msgstr "כתובת ביטקוין לא תקינה"
+
+msgid "This is a watching-only wallet."
+msgstr "זהו ארנק לצפייה-בלבד."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "לא ניתן לחתום על הודעות עם סוג זה של כתובת:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "בפועל, חתימה באמצעות כתובת משמעותה חתימה עם המפתח הפרטי התואם, וווידוא באמצעות המפתח הציבורי התואם. לכתובת שהזנת אין מפתח ציבורי ייחודי, לכן הפעולות האלה לא יכולות להתבצע."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "הפעולה הזאת לא מוגדרת. לא רק באלקטרום, אלא בכלל."
+
+msgid "Invalid Public key"
+msgstr "מפתח ציבורי לא תקין"
 
 msgid ""
 "The input amounts could not be verified as the previous transactions are missing.\n"
@@ -3488,6 +3473,10 @@ msgstr "חתום"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "אימות"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "שגיאה"
 
 msgctxt "SwapDialog|"
 msgid "Server fee"

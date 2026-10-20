@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "Missende URL rapporteren."
 
 msgid "Thanks for reporting this issue!"
 msgstr "Bedankt voor het melden van de fout!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "onbekende parser {!r} (keuzes: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Onverwachte wachtwoord-hashversie"
@@ -351,11 +348,8 @@ msgstr "Portemonnee echt verwijderen?"
 msgid "Problem deleting wallet"
 msgstr "Probleem tijdens verwijderen portemonnee"
 
-msgid "Payment failed: "
-msgstr "Betaling mislukt:"
-
-msgid "Enter the amount you want to send"
-msgstr "Voer het bedrag in wat je wil versturen"
+msgid "Error renaming wallet:\n"
+msgstr "Fout hernoemen portemonnee:\n"
 
 msgid "This invoice has expired"
 msgstr "Deze factuur is verlopen"
@@ -377,6 +371,12 @@ msgstr "wachten op bevestiging"
 
 msgid "Invoice has unknown status"
 msgstr "Factuur heeft onbekende status"
+
+msgid "Payment failed: "
+msgstr "Betaling mislukt:"
+
+msgid "Enter the amount you want to send"
+msgstr "Voer het bedrag in wat je wil versturen"
 
 msgid "Paid!"
 msgstr "Betaald!"
@@ -404,12 +404,6 @@ msgstr "Kon LNURL niet vinden"
 
 msgid "Could not resolve"
 msgstr "Niet gevonden"
-
-msgid "The platform QR detection library is not available."
-msgstr "De QR-detectiebibliotheek van het platform is niet beschikbaar."
-
-msgid "Scan a QR code."
-msgstr "Scan een QR code."
 
 msgid "Failed to create payment request for withdrawal: {}"
 msgstr "Kon geen betaalverzoek maken voor opname: {}"
@@ -491,6 +485,9 @@ msgstr "Kan dynamische vergoeding niet bepalen, niet verbonden"
 
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "De nieuwe transactievergoeding moet hoger zijn dan de vorige."
+
+msgid "Transaction is missing info from network"
+msgstr "Transactie mist info van netwerk"
 
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "Kan geen CPFP gebruiken: onbekende transactievergoeding voor de oudertransactie."
@@ -1067,9 +1064,6 @@ msgstr "Transactie voorbereiden..."
 
 msgid "Fee estimates not available. Please set a fixed fee or feerate."
 msgstr "Vergoeding schattingen niet beschikbaar. Gebruik een statische vergoeding."
-
-msgid "Lightning is not enabled."
-msgstr "Lightning is niet ingeschakeld."
 
 msgid "This transaction will spend unconfirmed coins."
 msgstr "Deze transactie spendeert onbevestigde munten."
@@ -1915,24 +1909,6 @@ msgstr "QR-code"
 msgid "Script type"
 msgstr "Scripttype"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Ondertekenen met een adres betekent in feite ondertekenen met de bijbehorende privésleutel, en verifiëren met de bijbehorende publieke sleutel. Het adres dat u invoerde heeft geen unieke publieke sleutel, dus deze bewerkingen kunnen niet worden uitgevoerd."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Deze bewerking is niet gedefinieerd. Niet alleen in Electrum, maar in het algemeen."
-
-msgid "Invalid Bitcoin address."
-msgstr "Ongeldig Bitcoin-adres."
-
-msgid "This is a watching-only wallet."
-msgstr "Dit is een alleen-lezenportemonnee."
-
-msgid "Address not in wallet."
-msgstr "Adres niet in portemonnee."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Kan geen berichten ondertekenen met dit adrestype:"
-
 msgid "Signature verified"
 msgstr "Handtekening geverifiëerd"
 
@@ -1950,9 +1926,6 @@ msgstr "Ondertekenen"
 
 msgid "Verify"
 msgstr "Verifiëren"
-
-msgid "Invalid Public key"
-msgstr "Ongeldige publieke sleutel"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Versleutel/ontsleutel bericht"
@@ -2085,9 +2058,6 @@ msgstr "Herstart Electrum om de nieuwe GUI-instellingen te activeren"
 
 msgid "Are you sure you want to close Electrum?"
 msgstr "Weet je zeker dat je Electrum wil afsluiten?"
-
-msgid "An ongoing operation requires you to stay online."
-msgstr "Een lopende operatie vereist dat je online blijft."
 
 msgid "Pending channel force-close"
 msgstr "Lopende kanaalsluiting (geforceerd)"
@@ -2317,6 +2287,9 @@ msgstr "Auteur"
 msgid "Requires"
 msgstr "Vereist"
 
+msgid "Upgrade"
+msgstr "Upgraden"
+
 msgid "Disable"
 msgstr "Uitschakelen"
 
@@ -2340,6 +2313,9 @@ msgstr "Electrum-plug-ins"
 
 msgid "Help"
 msgstr "Help"
+
+msgid "Visit plugins website"
+msgstr "Bezoek plugins website"
 
 msgid "Try Auto-Reset"
 msgstr "Probeer Auto-Reset"
@@ -2377,18 +2353,6 @@ msgstr "Auto-Setup geslaagd. Je kunt nu plugins installeren."
 msgid "Select your plugin zipfile"
 msgstr "Kies je plugin zipbestand"
 
-msgid "Plugin already installed."
-msgstr "Plugin al geïnstalleerd"
-
-msgid ""
-"Could not copy plugin file {} into directory {}:\n"
-"\n"
-"{}"
-msgstr ""
-"Kon plugin file {} niet kopiëren naar directory {}:\n"
-"\n"
-"{}"
-
 msgid "Remove plugin '{}'?"
 msgstr "Verwijder plugin '{}'?"
 
@@ -2413,12 +2377,6 @@ msgstr "Tekst kopiëren"
 msgid "Save"
 msgstr "Opslaan"
 
-msgid "QR Reader Error"
-msgstr "QR leesfout"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "QR-lezer kon niet laden. Dit kan gebeuren als u een oudere versie van PyQt gebruikt."
-
 msgid "Missing camera permission."
 msgstr "Ontbrekende camera permissie."
 
@@ -2439,12 +2397,6 @@ msgstr "Te weinig QR-codes gedetecteerd."
 
 msgid "Too many QR codes detected."
 msgstr "Te veel QR-codes gedetecteerd."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "Videoframe QR-code scanner met ongeldig pixelformaat"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "QR-code scanner kon videoframe niet vastleggen"
 
 msgid "Show as QR code"
 msgstr "Als QR-code weergeven"
@@ -2840,6 +2792,12 @@ msgstr "Je kunt deze factuur niet met Lightning betalen."
 msgid "Your channels can send {}."
 msgstr "Je kanalen kunnen {} sturen."
 
+msgid "This will send {} to the recipient"
+msgstr "Dit zal {} sturen naar de ontvanger"
+
+msgid "Max routing fee"
+msgstr "Max routeringskosten"
+
 msgid "{}% of payment"
 msgstr "{}% van betaling"
 
@@ -2924,11 +2882,8 @@ msgstr "Deze instelling beïnvloedt het Versturen-tab en alle saldo-gerelateerde
 msgid "Base unit"
 msgstr "Basiseenheid"
 
-msgid "Light"
-msgstr "Licht"
-
-msgid "Dark"
-msgstr "Donker"
+msgid "System"
+msgstr "Systeem"
 
 msgid "This option is only available on Windows"
 msgstr "Deze optie is alleen beschikbaar op Windows"
@@ -3962,6 +3917,9 @@ msgstr "Snap clipbord tekst niet"
 msgid "Invalid Bitcoin Address"
 msgstr "Ongeldig Bitcoin-adres"
 
+msgid "Address not in wallet."
+msgstr "Adres niet in portemonnee."
+
 msgid "Missing libraries for {}."
 msgstr "Missende bibliotheken voor {}."
 
@@ -4108,6 +4066,12 @@ msgstr ".onion-adres, maar geen proxy geconfigureerd"
 
 msgid "Hostname does not resolve (getaddrinfo failed)"
 msgstr "Hostnaam niet gevonden (getaddrinfo mislukt)"
+
+msgid "Outdated channel backups"
+msgstr "Verlopen Kanaalbackups"
+
+msgid "Unusable channel backups"
+msgstr "Onbruikbare kanaalbackups"
 
 msgid "Forwarding"
 msgstr "Doorsturen"
@@ -4326,9 +4290,6 @@ msgstr "Versiedatum"
 
 msgid "Bootloader"
 msgstr "Bootloader"
-
-msgid "Upgrade"
-msgstr "Upgraden"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "Dit apparaat onthult geen xpubs met 'non-hardened' derivatiepad"
@@ -5178,6 +5139,9 @@ msgstr "Voltooi het initialisatieproces op uw {}-apparaat"
 msgid "Please enter your passphrase on the {} device"
 msgstr "Vul uw wachtzin in op het {}-apparaat"
 
+msgid "Enter 6-digit pairing code:"
+msgstr "Voer 6-cijferige koppelcode in:"
+
 msgid "The PIN cannot be longer than {} characters."
 msgstr "De PIN kan niet langer zijn dan {} tekens."
 
@@ -5260,6 +5224,9 @@ msgstr ""
 
 msgid "Choose how you want to initialize your {}."
 msgstr "Kies hoe u uw {} wilt initialiseren."
+
+msgid "Trezor Pairing"
+msgstr "Trezor Koppelen"
 
 msgid "Please enter your Google Authenticator code:"
 msgstr "Vul uw Google Authenticator-code in:"
@@ -5408,15 +5375,6 @@ msgstr "Deze service gebruikt een multi-signature-portemonnee waarbij u 2 van de
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Vul de seed in voor uw 2-factor-portemonnee:"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "Kan QR scanner niet starten: zbar niet beschikbaar."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Kan QR scanner niet starten, initialisatie mislukt."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "Zorg dat je een camera hebt aangesloten en aangezet."
-
 msgid "Select server automatically"
 msgstr "Automatisch een server kiezen"
 
@@ -5465,9 +5423,6 @@ msgstr "Indien ingeschakeld kunnen er maximaal 100 satoshis per transactie verlo
 
 msgid "Send change to Lightning"
 msgstr "Stuur wisselgeld naar Lightning"
-
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "Indien mogelijk, stuur het wisselgeld van deze transactie naar je kanalen met een (submarine) swap"
 
 msgid "Submarine Payments"
 msgstr "Submarine Betalingen"
@@ -5601,9 +5556,6 @@ msgstr "Video-apparaat"
 msgid "For scanning QR codes."
 msgstr "Voor het scannen van QR-codes."
 
-msgid "Install the zbar package to enable this."
-msgstr "Installeer het zbar-pakket om dit in te schakelen."
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias-record, gebruikt om munten te ontvangen en om betaalverzoeken te ondertekenen."
 
@@ -5679,26 +5631,8 @@ msgstr "Ongeldig mnemonic woord"
 msgid "The swap server errored or is unreachable."
 msgstr "De swapdienst geeft een fout of is onbereikbaar."
 
-msgid "Fetching submarine swap providers..."
-msgstr "Ophalen submarine swap aanbieders..."
-
-msgid "Will send change to lightning"
-msgstr "Stuur wisselgeld naar Lightning"
-
 msgid "Swap fees:"
 msgstr "Swapkosten:"
-
-msgid "Your channels cannot receive this amount."
-msgstr "Je kanalen kunnen dit bedrag niet ontvangen."
-
-msgid "Below the swap providers minimum value of {}."
-msgstr "Onder de swap aanbieder minimale waarde van {}."
-
-msgid "Change amount exceeds the swap providers maximum value of {}."
-msgstr "Wisselgeld bedrag overschrijdt swap aanbieder maximum van {}."
-
-msgid "Will not send change to Lightning"
-msgstr "Stuur wisselgeld niet naar Lightning"
 
 msgid "Total swap costs are insane."
 msgstr "Totale swapkosten zijn abnormaal."
@@ -5874,6 +5808,27 @@ msgstr "Kon geen munten vinden voor output"
 msgid "The output value remaining after fee is too low."
 msgstr "De resterende output waarde na vergoeding is te laag."
 
+msgid "Invalid Bitcoin address."
+msgstr "Ongeldig Bitcoin-adres."
+
+msgid "This is a watching-only wallet."
+msgstr "Dit is een alleen-lezenportemonnee."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Kan geen berichten ondertekenen met dit adrestype:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Ondertekenen met een adres betekent in feite ondertekenen met de bijbehorende privésleutel, en verifiëren met de bijbehorende publieke sleutel. Het adres dat u invoerde heeft geen unieke publieke sleutel, dus deze bewerkingen kunnen niet worden uitgevoerd."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Deze bewerking is niet gedefinieerd. Niet alleen in Electrum, maar in het algemeen."
+
+msgid "Pubkey unrelated to wallet."
+msgstr "Pubkey niet gerelateerd aan portemonnee."
+
+msgid "Invalid Public key"
+msgstr "Ongeldige publieke sleutel"
+
 msgid "The fee could not be verified!"
 msgstr "Het tarief kon niet gecontroleerd worden!"
 
@@ -5900,6 +5855,9 @@ msgid ""
 "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
 msgstr "Als je deze transactie van een niet-vertrouwd apparaat hebt ontvangen, onderteken het dan slechts 1 keer, anders zou je een andere vergoeding kunnen betalen"
+
+msgid "Input {} is using an unknown sighash."
+msgstr "Input {} gebruikt een onbekende sighash."
 
 msgid "Input {} is marked SIGHASH_NONE."
 msgstr "Input {} is gemarkeerd als SIGHASH_NONE."
@@ -5955,6 +5913,9 @@ msgstr "Je moet online zijn om Lightning betalingen te ontvangen."
 msgid "Cannot receive this payment. Request at least {} to purchase a Lightning channel from your service provider."
 msgstr "Kan deze betaling niet ontvangen. Verzoke ten minste {} om een Lightning kanaal van je service provider te kopen."
 
+msgid "Receiving this payment will purchase a payment channel from your "
+msgstr "Het ontvangen van deze betaling zal automatisch een betaal kanaal kopen van je "
+
 msgid "You do not have enough capacity to receive with Lightning."
 msgstr "Onvoldoende capaciteit om dit bedrag via Lightning te ontvangen."
 
@@ -5967,6 +5928,27 @@ msgstr "Je zou genoeg capaciteit kunnen hebben als je een deel verplaatst d.m.v.
 msgid "({} are frozen)"
 msgstr "({} zijn bevroren)"
 
+msgid "{} new transactions"
+msgstr "{} nieuwe transacties"
+
+msgid "{} new transactions:"
+msgstr "{} nieuwe transacties:"
+
+msgid "Total amount sent {}"
+msgstr "Totaal verstuurd {}"
+
+msgid "Total amount received {}"
+msgstr "Totaal ontvangen {}"
+
+msgid "Total balance change: {}"
+msgstr "Totale saldowijziging: {}"
+
+msgid "sent {}"
+msgstr "verstuurd {}"
+
+msgid "received {}"
+msgstr "ontvangen {}"
+
 msgid "New transaction: {}"
 msgstr "Nieuwe transactie: {}"
 
@@ -5978,6 +5960,13 @@ msgstr "adres zit al in portemonnee"
 
 msgid "Cannot delete last remaining address from wallet"
 msgstr "Kan niet het laatst overgebleven adres uit de portemonnee verwijderen"
+
+msgid ""
+"This wallet file was created for a different network/chain.\n"
+"Current chain: {}"
+msgstr ""
+"Dit portemonneebestand was gemaakt voor een ander netwerk/chain.\n"
+"Huidige chain: {}"
 
 msgid "Duplicate master keys"
 msgstr "Dubbele moedersleutels"
@@ -7495,6 +7484,10 @@ msgid "Port"
 msgstr "Poort"
 
 msgctxt "ProxyConfig|"
+msgid "Authentication"
+msgstr "Authenticatie"
+
+msgctxt "ProxyConfig|"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
@@ -7727,6 +7720,10 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "Kanaalbackup importeren?"
+
+msgctxt "SendDialog|"
 msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
 msgstr "Scan een Factuur, een Adres, een LNURL, een PSBT of een Kanaalbackup"
 
@@ -7737,6 +7734,10 @@ msgstr "Scan een Factuur, een Adres, een LNURL of een PSBT"
 msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Plakken"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "Ok"
 
 msgctxt "ServerConfig|"
 msgid "Connection mode"
@@ -7825,6 +7826,10 @@ msgstr "Ondertekenen"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verifiëren"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Fout"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -8667,18 +8672,6 @@ msgid "Biometric Authentication"
 msgstr "Biometrische Authenticatie"
 
 msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
-msgstr "Scan een Factuur, een Adres, een LNURL, een PSBT of een Kanaalbackup"
-
-msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
-msgstr "Scan een Factuur, een Adres, een LNURL of een PSBT"
-
-msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "Kanaalbackup importeren?"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "Waarschuwing: Sommige delen (vorige txs / \"volle utxos\") zijn uit de QR code gelaten omdat het anders niet past."
 
@@ -8785,10 +8778,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "Ontoereikend saldo om te betalen via Lightning. Betaal on-chain?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "Kan Kanaalbackup niet importeren, Lightning is niet ingeschakeld."
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Bevestig betaling"
 
@@ -8815,6 +8804,10 @@ msgstr "Kon tx niet ondertekenen"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Portemonnees"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "zoek"
 
 msgctxt "Wallets|"
 msgid "Current"

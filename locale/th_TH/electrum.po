@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-20 05:51\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -22,14 +22,567 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
+msgid "Something went wrong while executing Electrum."
+msgstr "เกิดข้อผิดพลาดบางอย่างระหว่างการเรียกใช้ Electrum"
+
+msgid "Sorry!"
+msgstr "ขออภัย !"
+
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "เพื่อช่วยเราในการวินิจฉัยและแก้ไขปัญหา, คุณสามารถส่งรายงานข้อผิดพลาดที่มีข้อมูลการแก้ไขข้อผิดพลาดที่เป็นประโยชน์มาให้เราได้:"
+
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "โปรดอธิบายสั้นๆว่าอะไรเป็นสาเหตุที่ทำให้เกิดข้อผิดพลาด (ไม่บังคับ):"
+
+msgid "Do you want to send this report?"
+msgstr "คุณต้องการส่งรายงานฉบับนี้หรือไม่"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "ห้ามป้อนข้อมูลที่ละเอียดอ่อน/ข้อมูลส่วนตัวลงในช่องนี้รายงานจะปรากฏให้เห็นในระบบติดตามปัญหาแบบสาธารณะ"
+
+msgid "Missing report URL."
+msgstr "ไม่พบ URL ของรายงาน "
+
+msgid "Thanks for reporting this issue!"
+msgstr "ขอบคุณที่แจ้งปัญหาเข้ามา! "
+
+msgid "Unexpected password hash version"
+msgstr "เวอร์ชันแฮชรหัสผ่านที่ไม่คาดคิด "
+
+msgid "You are most likely using an outdated version of Electrum. Please update."
+msgstr "คุณอาจกำลังใช้อิเล็กตรัมเวอร์ชันเก่าอยู่ โปรดขึ้นวันที่เป็นเวอร์ชันใหม่ "
+
+msgid "Unsupported password hash version"
+msgstr "เวอร์ชันแฮชรหัสผ่านที่ไม่รองรับ "
+
+msgid "  (No FX rate available)"
+msgstr "(ไม่มีอัตราแลกเปลี่ยน) "
+
+msgid "No data"
+msgstr "ไม่มีข้อมูล "
+
+msgid "FIXED"
+msgstr "แก้ไข "
+
+msgid "Feerate"
+msgstr "อัตราค่าธรรมเนียม "
+
+msgid "ETA"
+msgstr "เวลาประมาณ "
+
+msgid "Mempool"
+msgstr "สระน้ำความทรงจำ "
+
+msgid "Low fee"
+msgstr "ค่าธรรมเนียมต่ำ "
+
+msgid "In the next block"
+msgstr "ในกล่องถัดไปนั้น "
+
+msgid "Within one day"
+msgstr "ภายในหนึ่งวัน "
+
+msgid "Within one week"
+msgstr "ภายในหนึ่งสัปดาห์ "
+
+msgid "Within {} blocks"
+msgstr "ภายใน {} กล่องทั้งหลาย "
+
+msgid "Target"
+msgstr "เป้าหมาย "
+
+msgid "Current rate"
+msgstr "อัตราปัจจุบัน "
+
+msgid "Fixed rate"
+msgstr "อัตราคงที่ "
+
+msgid "Estimate"
+msgstr "ประมาณการ "
+
+msgid "{} from tip"
+msgstr "{} จากทิป "
+
+msgid "&Undo"
+msgstr "&เลิกทำ"
+
+msgid "&Redo"
+msgstr "&ทำใหม่"
+
+msgid "Cu&t"
+msgstr "&ตัด"
+
+msgid "&Copy"
+msgstr "&คัดลอก"
+
+msgid "&Paste"
+msgstr "&วาง"
+
+msgid "Select All"
+msgstr "เลือกทั้งหมด  "
+
+msgid "Copy &Link Location"
+msgstr "คัดลอก &ที่ตั้ง ลิงค์ "
+
+msgid "Cannot draw QR code"
+msgstr "ไม่สามารถวาด QR code ได้ "
+
+msgid "Not enough space available."
+msgstr "มีพื้นที่ไม่เพียงพอ "
+
+msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
+msgstr "โหนดของคุณจะเจรจาค่าธรรมเนียมการทำธุรกรรมกับโหนดระยะไกล วิธีการปิดช่องทางการสื่อสารแบบนี้มักจะส่งผลให้ค่าธรรมเนียมต่ำที่สุด "
+
+msgid "If you request a force-close, your node will pretend that it has lost its data and ask the remote node to broadcast their latest state. Doing so from time to time helps make sure that nodes are honest, because your node can punish them if they broadcast a revoked state."
+msgstr "หากคุณร้องขอให้ปิดการเชื่อมต่อโดยบังคับ โหนดของคุณจะแสร้งทำเป็นว่าข้อมูลสูญหายและขอให้โหนดระยะไกลส่งสถานะล่าสุดของตนออกมา การทำเช่นนี้เป็นระยะๆ จะช่วยให้มั่นใจได้ว่าโหนดต่างๆ มีความซื่อสัตย์ เพราะโหนดของคุณสามารถลงโทษโหนดเหล่านั้นได้หากพวกเขาส่งสถานะที่ถูกยกเลิกออกมา "
+
+msgid ""
+"The channel you created is not recoverable from seed.\n"
+"To prevent fund losses, please save this backup on another device.\n"
+"It may be imported in another Electrum wallet with the same seed."
+msgstr ""
+"ช่องที่คุณสร้างไม่สามารถกู้คืนจากเมล็ด ได้\n"
+"เพื่อป้องกันการสูญเสียเงิน โปรดบันทึกข้อมูลสำรองนี้ไว้ในอุปกรณ์อื่น\n"
+"สามารถนำเข้าในกระเป๋าเงินอิเล็กตรัมอื่นโดยใช้เมล็ดเดียวกันได้ "
+
+msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
+msgstr "อิเล็กตรัมใช้การสำรองข้อมูลช่องทางแบบคงที่ หากคุณทำไฟล์กระเป๋าเงินหาย คุณจะต้องขอให้โหนดปลายทางปิดช่องทางของคุณเพื่อกู้คืนเงินของคุณ ทั้งนี้ขึ้นอยู่กับว่าโหนดปลายทางสามารถติดต่อได้หรือไม่ และข้อมูลของตนเองไม่สูญหาย "
+
+msgid "Warning: Third-party plugins have access to your wallet!"
+msgstr "คำเตือน: ปลั๊กอินจากบุคคลที่สามสามารถเข้าถึงกระเป๋าเงินของคุณได้! "
+
+msgid "Installing this plugin will grant third-party software access to your wallet. You must trust the plugin not to be malicious."
+msgstr "การติดตั้งปลั๊กอินนี้จะอนุญาตให้ซอฟต์แวร์ของบุคคลที่สามเข้าถึงกระเป๋าเงินดิจิทัลของคุณ คุณต้องเชื่อมั่นว่าปลั๊กอินนั้นไม่มีเจตนาร้าย "
+
+msgid "You should at minimum check who the author of the plugin is, and be careful of imposters."
+msgstr "อย่างน้อยที่สุด คุณควรตรวจสอบว่าใครเป็นผู้เขียนปลั๊กอิน และระวังผู้แอบอ้าง "
+
+msgid "Third-party plugins are not endorsed by Electrum."
+msgstr "อิเล็กตรัมไม่รับรองปลั๊กอินจากผู้พัฒนาภายนอก "
+
+msgid "Electrum will not be responsible in case of theft, loss of funds or privacy that might result from third-party plugins."
+msgstr "อิเล็กตรัมจะไม่รับผิดชอบในกรณีของการโจรกรรม การสูญหายของเงินทุน หรือการละเมิดความเป็นส่วนตัวที่อาจเกิดขึ้นจากปลั๊กอินของบุคคลที่สาม "
+
+msgid "To install this plugin, please enter your plugin authorization password"
+msgstr "ในการติดตั้งปลั๊กอินนี้ โปรดป้อนรหัสผ่านอนุญาตการใช้งานปลั๊กอินของคุณ "
+
+msgid ""
+"Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"กระเป๋าเงินดิจิทัลอีกใบหนึ่ง (ใช้รหัสเดียวกัน) มีช่องทางการสื่อสารที่เปิดอยู่กับโหนดระยะไกลเดียวกัน หากคุณสร้างช่องทางการสื่อสารนี้ คุณจะไม่สามารถใช้กระเป๋าเงินทั้งสองใบพร้อมกันได้\n"
+"\n"
+"คุณแน่ใจหรือ? "
+
+msgid "Channel backups can be imported in another instance of the same wallet."
+msgstr "สามารถนำเข้าข้อมูลสำรองของช่องทางต่างๆ ไปยังกระเป๋าเงินดิจิทัลอีกอินสแตนซ์หนึ่งได้ "
+
+msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
+msgstr "ในแอปพลิเคชันอิเล็กตรัมบนมือถือ ให้ใช้ปุ่มส่งเพื่อสแกนคิวอาร์โค้ดนี้ "
+
+msgid "Please note that channel backups cannot be used to restore your channels."
+msgstr "โปรดทราบว่า การสำรองข้อมูลช่องไม่สามารถนำมาใช้กู้คืนช่องของคุณได้."
+
+msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
+msgstr "หากคุณทำไฟล์กระเป๋าเงินดิจิทัลหาย, สิ่งเดียวที่คุณทำได้ด้วยไฟล์สำรองคือการขอให้ปิดช่องทางการสื่อสารของคุณ เพื่อให้เงินของคุณถูกส่งไปยังบล็อกเชน"
+
+msgid "This summary covers only on-chain transactions (no lightning!). Capital gains are computed by attaching an acquisition price to each UTXO in the wallet, and uses the order of blockchain events (not FIFO)."
+msgstr "บทสรุปนี้ครอบคลุมเฉพาะธุรกรรมบนบล็อกเชน (ไม่รวม Lightning Network!) กำไรจากส่วนต่างราคาจะคำนวณโดยการกำหนดราคาซื้อให้กับ UTXO แต่ละรายการในกระเป๋าเงิน และใช้ลำดับเหตุการณ์บนบล็อกเชน (ไม่ใช่ FIFO)"
+
+msgid ""
+"This channel is with a non-trampoline node; it cannot be used if trampoline is enabled.\n"
+"If you want to keep using this channel, you need to disable trampoline routing in your preferences."
+msgstr ""
+"ช่องสัญญาณนี้เชื่อมต่อกับโหนดที่ไม่ใช่แทรมโพลีน จึงไม่สามารถใช้งานได้หากเปิดใช้งานแทรมโพลีนอยู่\n"
+"หากคุณต้องการใช้งานช่องสัญญาณนี้ต่อไป คุณต้องปิดใช้งานการกำหนดเส้นทางแทรมโพลีนในการตั้งค่าของคุณ"
+
+msgid "When you freeze an address, the funds in that address will not be used for sending bitcoins."
+msgstr "เมื่อคุณระงับการใช้งานที่อยู่อีเมล เงินในที่อยู่อีเมลนั้นจะไม่ถูกนำไปใช้ในการส่งบิตคอยน์"
+
+msgid "When you freeze a coin, it will not be used for sending bitcoins."
+msgstr "โปรดยกเลิกการใช้อีเมลในอีเมลโดยไม่บังคับใช้ในการส่งคอยน์"
+
+msgid "Your funding transaction has been broadcast."
+msgstr "ธุรกรรมการฝากเงินของคุณได้ถูกเผยแพร่แล้ว"
+
+msgid "Please remain online until the funding transaction is confirmed."
+msgstr "โปรดรออยู่ในระบบจนกว่าการทำธุรกรรมการโอนเงินจะได้รับการยืนยัน"
+
+msgid "The swap will be finalized once your transaction is confirmed."
+msgstr "การแลกเปลี่ยนจะเสร็จสมบูรณ์เมื่อธุรกรรมของคุณได้รับการยืนยันแล้ว"
+
+msgid "After the funding transaction is mined, the server will reveal the preimage needed to fulfill the pending received lightning HTLCs. The HTLCs expire in {} blocks. You will need to be online after the funding transaction is confirmed but before the HTLCs expire, to claim your money. If you go offline for several days while the swap is pending, you risk losing the swap amount!"
+msgstr "หลังจากที่ธุรกรรมการระดมทุนได้รับการยืนยันแล้ว เซิร์ฟเวอร์จะเปิดเผยพรีอิมเมจที่จำเป็นในการดำเนินการ HTLC ที่ได้รับซึ่งรอการดำเนินการอยู่ HTLC จะหมดอายุใน {} บล็อก คุณจะต้องออนไลน์หลังจากที่ธุรกรรมการระดมทุนได้รับการยืนยันแล้ว แต่ก่อนที่ HTLC จะหมดอายุ เพื่อรับเงินของคุณ หากคุณออฟไลน์เป็นเวลาหลายวันในขณะที่การแลกเปลี่ยนยังรอการดำเนินการอยู่ คุณอาจเสี่ยงที่จะสูญเสียจำนวนเงินที่แลกเปลี่ยนไป!"
+
+msgid "The funding transaction has been detected."
+msgstr "ตรวจพบธุรกรรมการโอนเงินแล้ว"
+
+msgid "If you go offline before broadcasting the claiming transaction and let the swap time out, you will not get back the already pre-paid mining fees."
+msgstr "หากคุณออฟไลน์ก่อนที่จะประกาศธุรกรรมการเรียกร้อง และปล่อยให้การแลกเปลี่ยนหมดเวลา คุณจะไม่ได้รับค่าธรรมเนียมการขุดที่ชำระล่วงหน้าไปแล้วคืน"
+
+msgid "You will need to come back online after the commitment transaction is confirmed, in order to broadcast second-stage htlc transactions."
+msgstr "หลังจากที่ธุรกรรมการยืนยันเสร็จสมบูรณ์แล้ว คุณจะต้องกลับมาออนไลน์อีกครั้งเพื่อเผยแพร่ธุรกรรม htlc ขั้นที่สอง"
+
+msgid "If you remain offline for more than {} blocks, your channel counterparty will be able to sweep those funds."
+msgstr "หากคุณออฟไลน์นานกว่า {} บล็อก คู่ค้าในช่องทางของคุณจะสามารถโอนเงินเหล่านั้นได้"
+
+msgid "You will need to come back online after the funding transaction is confirmed, in order to settle the swap."
+msgstr "คุณจะต้องกลับมาออนไลน์อีกครั้งหลังจากที่การทำธุรกรรมการโอนเงินได้รับการยืนยันแล้ว เพื่อดำเนินการชำระเงินแลกเปลี่ยนให้เสร็จสมบูรณ์"
+
+msgid "If you remain offline for more than {} blocks, your channel will be force closed and you might lose the funds you sent in the swap."
+msgstr "หากคุณออฟไลน์นานกว่า {} บล็อก ช่องทางของคุณจะถูกปิดโดยอัตโนมัติ และคุณอาจสูญเสียเงินที่คุณส่งไปในการแลกเปลี่ยน"
+
+msgid "If you remain offline for more than {} blocks, the swap will be cancelled and you will lose the prepaid mining fees."
+msgstr "หากคุณออฟไลน์นานกว่า {} บล็อก การแลกเปลี่ยนจะถูกยกเลิก และคุณจะเสียค่าธรรมเนียมการขุดที่ชำระล่วงหน้า"
+
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr "คุณมีเงินทุนบนบล็อกเชนไม่เพียงพอที่จะปกป้องช่อง Lightning ของคุณ"
+
+msgid "You should have at least {} on-chain in order to be able to sweep channel outputs."
+msgstr "คุณควรมีอย่างน้อย {} บนเชนเพื่อให้สามารถกวาดเอาต์พุตของช่องสัญญาณได้"
+
+msgid "Auto-connect"
+msgstr "เชื่อมต่ออัตโนมัติ"
+
+msgid "Manual server selection"
+msgstr "การเลือกเซิร์ฟเวอร์ด้วยตนเอง"
+
+msgid "Connect only to a single server"
+msgstr "เชื่อมต่อกับเซิร์ฟเวอร์เพียงเครื่องเดียวเท่านั้น"
+
+msgid "Electrum connects to a unique server in order to receive your transaction history. This server will learn your wallet addresses."
+msgstr "Electrum เชื่อมต่อกับเซิร์ฟเวอร์เฉพาะเพื่อรับประวัติการทำธุรกรรมของคุณ เซิร์ฟเวอร์นี้จะเรียนรู้ที่อยู่กระเป๋าเงินของคุณ"
+
+msgid "In addition to your history server, Electrum will try to maintain connections with ~10 extra servers, in order to download block headers and find out the longest blockchain. These servers are only used for block header notifications and fee estimates; they do not learn your wallet addresses. Getting block headers from multiple sources is useful to detect lagging servers and forks. Fork detection is security-critical for determining number of confirmations."
+msgstr "นอกเหนือจากเซิร์ฟเวอร์ประวัติของคุณแล้ว Electrum จะพยายามรักษาการเชื่อมต่อกับเซิร์ฟเวอร์เพิ่มเติมอีกประมาณ ~10 เครื่อง เพื่อดาวน์โหลดส่วนหัวของบล็อกและค้นหาบล็อกเชนที่ยาวที่สุด เซิร์ฟเวอร์เหล่านี้ใช้สำหรับการแจ้งเตือนส่วนหัวของบล็อกและการประมาณค่าธรรมเนียมเท่านั้น พวกมันจะไม่รู้ที่อยู่กระเป๋าเงินของคุณ การรับส่วนหัวของบล็อกจากหลายแหล่งมีประโยชน์ในการตรวจจับเซิร์ฟเวอร์ที่ทำงานช้าและการแยกสาขา การตรวจจับการแยกสาขาเป็นสิ่งสำคัญด้านความปลอดภัยในการกำหนดจำนวนการยืนยัน"
+
+msgid "Electrum will always use a history server that is on the longest blockchain. If your current server is unresponsive or lagging, Electrum will switch to another server."
+msgstr "Electrum จะใช้เซิร์ฟเวอร์ประวัติที่อยู่บนบล็อกเชนที่ยาวที่สุดเสมอ หากเซิร์ฟเวอร์ปัจจุบันของคุณไม่ตอบสนองหรือทำงานช้า Electrum จะเปลี่ยนไปใช้เซิร์ฟเวอร์อื่น"
+
+msgid "Electrum will stay with the server you selected. It will warn you if your server is lagging."
+msgstr "Electrum จะใช้เซิร์ฟเวอร์ที่คุณเลือกไว้ และจะแจ้งเตือนคุณหากเซิร์ฟเวอร์ของคุณทำงานช้า"
+
+msgid "Electrum will stay with the server you selected, and it will not connect to additional nodes. This will disable fork detection. This mode is only intended for connecting to your own fully trusted server. Using this option on a public server is a security risk and is discouraged."
+msgstr "Electrum จะเชื่อมต่อกับเซิร์ฟเวอร์ที่คุณเลือกไว้เท่านั้น และจะไม่เชื่อมต่อกับโหนดเพิ่มเติม การทำเช่นนี้จะปิดใช้งานการตรวจจับการแยกเครือข่าย โหมดนี้มีไว้สำหรับเชื่อมต่อกับเซิร์ฟเวอร์ที่คุณไว้วางใจอย่างเต็มที่เท่านั้น การใช้ตัวเลือกนี้กับเซิร์ฟเวอร์สาธารณะมีความเสี่ยงด้านความปลอดภัยและไม่แนะนำให้ใช้"
+
+msgid "Submarine Payments use a reverse submarine swap to do on-chain transactions directly from your lightning balance."
+msgstr "การชำระเงินด้วย Submarine Payments ใช้การแลกเปลี่ยน Submarine แบบย้อนกลับเพื่อทำการธุรกรรมบนบล็อกเชนโดยตรงจากยอดคงเหลือ Lightning ของคุณ"
+
+msgid "Submarine Payments happen in two stages. In the first stage, your wallet sends a lightning payment to the submarine swap provider. The swap provider will lock funds to a funding output in an on-chain transaction (the funding transaction)."
+msgstr "การชำระเงินแบบ Submarine เกิดขึ้นสองขั้นตอน ในขั้นตอนแรก กระเป๋าเงินของคุณจะส่งการชำระเงิน Lightning ไปยังผู้ให้บริการแลกเปลี่ยน Submarine ผู้ให้บริการแลกเปลี่ยนจะล็อกเงินทุนไว้ในเอาต์พุตการระดมทุนในธุรกรรมบนบล็อกเชน (ธุรกรรมการระดมทุน)"
+
+msgid "Once the funding transaction has one confirmation, your wallet will broadcast a claim transaction as the second stage of the payment. This claim transaction spends the funding output to the payee's address."
+msgstr "เมื่อธุรกรรมการโอนเงินได้รับการยืนยันแล้วหนึ่งครั้ง กระเป๋าเงินของคุณจะส่งธุรกรรมการเรียกร้องเงินออกมาเป็นขั้นตอนที่สองของการชำระเงิน ธุรกรรมการเรียกร้องเงินนี้จะนำเงินที่ได้รับโอนไปยังที่อยู่ของผู้รับเงิน"
+
+msgid "Warning:"
+msgstr "คำเตือน:"
+
+msgid "The funding transaction is not visible to the payee. They will only see a pending transaction in the mempool after your wallet broadcasts the claim transaction. Since confirmation of the funding transaction can take over 30 minutes, avoid using Submarine Payments when the payee expects to see the transaction within a limited time frame (e.g., an online shop checkout). Use a regular on-chain payment instead."
+msgstr "ผู้รับจะไม่เห็นธุรกรรมการโอนเงิน พวกเขาจะเห็นเพียงธุรกรรมที่รอดำเนินการใน mempool หลังจากที่กระเป๋าเงินของคุณประกาศธุรกรรมการเรียกร้องแล้ว เนื่องจากกระบวนการยืนยันธุรกรรมการโอนเงินอาจใช้เวลานานกว่า 30 นาที โปรดหลีกเลี่ยงการใช้ Submarine Payments เมื่อผู้รับคาดหวังว่าจะเห็นธุรกรรมภายในระยะเวลาที่จำกัด (เช่น การชำระเงินในร้านค้าออนไลน์) ควรใช้การชำระเงินแบบปกติบนบล็อกเชนแทน"
+
+msgid "This transaction requires a higher fee, or it will not be propagated by your current server."
+msgstr "ธุรกรรมนี้ต้องเสียค่าธรรมเนียมที่สูงกว่า มิเช่นนั้นเซิร์ฟเวอร์ปัจจุบันของคุณจะไม่สามารถดำเนินการได้"
+
+msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr "ลองเพิ่มค่าธรรมเนียมการทำธุรกรรม หรือใช้เซิร์ฟเวอร์ที่มีค่าธรรมเนียมการส่งต่อต่ำกว่า"
+
+msgid "There was a problem with the automatic reporting:"
+msgstr "เกิดปัญหาเกี่ยวกับการรายงานอัตโนมัติ:"
+
+msgid "Please report this issue manually"
+msgstr "โปรดรายงานปัญหานี้ด้วยตนเอง"
+
+msgid "Confirm your identity"
+msgstr "ยืนยันตัวตนของคุณ"
+
+msgid "Not a master key"
+msgstr "ไม่ใช่มาสเตอร์คีย์"
+
+msgid "Wrong key type"
+msgstr "ประเภทคีย์ผิด"
+
+msgid "Unsupported wallet type"
+msgstr "ประเภทกระเป๋าเงินที่ไม่รองรับ"
+
 msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
-msgstr "หากคุณบังคับปิดแชนแนลนี้ เงินที่คุณมีอยู่จะไม่สามารถใช้ได้สำหรับ {} บล็อก "
+msgstr "หากคุณบังคับปิดแชนแนลนี้, เงินที่คุณมีอยู่จะไม่สามารถใช้ได้สำหรับ {} บล็อก "
+
+msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
+msgstr "ในช่วงเวลานั้น เงินทุนจะไม่สามารถกู้คืนได้จากรหัสลับของคุณ และอาจสูญหายได้หากคุณทำอุปกรณ์หาย"
+
+msgid "To prevent that, please save this channel backup."
+msgstr "เพื่อป้องกันปัญหาดังกล่าว โปรดบันทึกข้อมูลสำรองของช่องนี้ไว้"
+
+msgid "It may be imported in another wallet with the same seed."
+msgstr "สามารถนำเข้าในกระเป๋าเงินดิจิทัลอื่นโดยใช้รหัสประจำตัวเดียวกันได้"
+
+msgid "Close Lightning channel?"
+msgstr "ปิดช่องสายฟ้า?"
 
 msgid "Could not close channel: "
-msgstr "ไม่สามารถปิดแชนแนลได้"
+msgstr "ไม่สามารถปิดแชนแนลได้ :"
+
+msgid "Minimum required amount: {}"
+msgstr "จำนวนเงินขั้นต่ำที่ต้องการ: {}"
+
+msgid "Amount is above maximum channel size: {}"
+msgstr "ปริมาณเกินขนาดช่องสัญญาณสูงสุด: {}"
+
+msgid "Open Lightning channel?"
+msgstr "เปิดช่องสายฟ้า?"
+
+msgid "Could not connect to channel peer"
+msgstr "ไม่สามารถเชื่อมต่อกับช่องทางอื่นได้"
+
+msgid "File not found"
+msgstr "ไม่พบไฟล์"
+
+msgid "Could not read/write file"
+msgstr "ไม่สามารถอ่าน/เขียนไฟล์ได้"
+
+msgid "Could not open wallet: {}"
+msgstr "ไม่สามารถเปิดกระเป๋าเงินได้: {}"
+
+msgid "There are still channels that are not fully closed"
+msgstr "ยังมีช่องทางบางส่วนที่ยังปิดไม่สนิท"
+
+msgid "There are still unpaid requests. Really delete?"
+msgstr "ยังมีคำขอที่ยังไม่ได้ชำระเงินอยู่ จะลบจริงๆเหรอ?"
+
+msgid "There are still coins present in this wallet. Really delete?"
+msgstr "ยังมีเหรียญเหลืออยู่ในกระเป๋าเงินนี้อยู่ จะลบจริงๆเหรอ?"
+
+msgid "Really delete this wallet?"
+msgstr "ลบกระเป๋าเงินนี้จริงๆเหรอ?"
+
+msgid "Problem deleting wallet"
+msgstr "มีปัญหาในการลบกระเป๋าเงิน"
+
+msgid "Error renaming wallet:\n"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนชื่อกระเป๋าเงิน:\n"
+
+msgid "This invoice has expired"
+msgstr "ใบแจ้งหนี้ฉบับนี้หมดอายุแล้ว"
+
+msgid "This invoice was already paid"
+msgstr "ใบแจ้งหนี้ฉบับนี้ชำระเรียบร้อยแล้ว"
+
+msgid "Payment in progress..."
+msgstr "อยู่ระหว่างดำเนินการชำระเงิน..."
+
+msgid "broadcasting"
+msgstr "การออกอากาศ"
+
+msgid "broadcast successfully"
+msgstr "ออกอากาศได้สำเร็จ"
+
+msgid "waiting for confirmation"
+msgstr "รอการยืนยัน"
+
+msgid "Invoice has unknown status"
+msgstr "ใบแจ้งหนี้มีสถานะไม่ทราบแน่ชัด"
+
+msgid "Payment failed: "
+msgstr "   การชำระเงินล้มเหลว:  "
+
+msgid "Enter the amount you want to send"
+msgstr "ป้อนจำนวนเงินที่คุณต้องการส่ง"
+
+msgid "Paid!"
+msgstr "จ่ายแล้ว!"
+
+msgid "Cannot pay less than the amount specified in the invoice"
+msgstr "ไม่สามารถชำระเงินน้อยกว่าจำนวนเงินที่ระบุไว้ในใบแจ้งหนี้ได้"
+
+msgid "Connecting to Lightning peers..."
+msgstr "กำลังเชื่อมต่อกับอุปกรณ์ Lightning...."
+
+msgid "Connecting to Lightning peer..."
+msgstr "กำลังเชื่อมต่อกับ Lightning peer..."
+
+msgid "Insufficient balance"
+msgstr "สมดุลไม่เพียงพอ"
+
+msgid "Unknown invoice"
+msgstr "ใบแจ้งหนี้ที่ไม่รู้จัก"
+
+msgid "Detected valid Lightning invoice, but Lightning not enabled for wallet and no fallback address found."
+msgstr "ตรวจพบใบแจ้งหนี้ Lightning ที่ถูกต้อง แต่ไม่ได้เปิดใช้งาน Lightning สำหรับกระเป๋าเงิน และไม่พบที่อยู่สำรอง"
+
+msgid "Detected valid Lightning invoice, but there are no open channels"
+msgstr "ตรวจพบใบแจ้งหนี้ Lightning ที่ถูกต้อง แต่ไม่มีช่องทางการชำระเงินที่เปิดอยู่"
+
+msgid "Could not resolve address"
+msgstr "ไม่สามารถแก้ไขที่อยู่ได้"
+
+msgid "Could not resolve LNURL"
+msgstr "ไม่สามารถแก้ไข LNURL ได้"
+
+msgid "Failed to create payment request for withdrawal: {}"
+msgstr "ไม่สามารถสร้างคำขอชำระเงินสำหรับการถอนเงินได้: {}"
+
+msgid "Move the slider to set the amount and direction of the swap."
+msgstr "เลื่อนแถบเลื่อนเพื่อตั้งค่าปริมาณและทิศทางการสลับ"
+
+msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
+msgstr "การแลกเปลี่ยน Lightning Fund เป็น Onchain Fund จะช่วยเพิ่มศักยภาพในการรับชำระเงินผ่าน Lightning Fund ของคุณ"
+
+msgid "Initializing..."
+msgstr "เตรียมใช้งาน..."
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid "Could not connect to a Nostr relay."
+msgstr "ไม่สามารถเชื่อมต่อกับรีเลย์ Nostr ได้"
+
+msgid "Please check your relays and network connection"
+msgstr "โปรดตรวจสอบรีเลย์และการเชื่อมต่อเครือข่ายของคุณ"
+
+msgid "Could not find a swap provider."
+msgstr "ไม่พบผู้ให้บริการแลกเปลี่ยน"
+
+msgid "No swap provider selected."
+msgstr "ไม่ได้เลือกผู้ให้บริการแลกเปลี่ยนข้อมูล"
+
+msgid "Select one of the available swap providers."
+msgstr "เลือกผู้ให้บริการแลกเปลี่ยนที่มีอยู่รายใดรายหนึ่ง"
+
+msgid "Performing swap..."
+msgstr "กำลังดำเนินการสลับ..."
+
+msgid "Swap failed!"
+msgstr "สลับไม่สำเร็จ"
+
+msgid "Swap cancelled"
+msgstr "ยกเลิกการแลกเปลี่ยนแล้ว"
+
+msgid "Swap was already funded, refusing to cancel"
+msgstr "โครงการ Swap ได้รับเงินทุนแล้ว จึงปฏิเสธที่จะยกเลิก"
+
+msgid "Timeout"
+msgstr "หมดเวลา"
+
+msgid "You are offline."
+msgstr "คุณออฟไลน์อยู่"
+
+msgid "Confirm Lightning swap?"
+msgstr "ยืนยันการแลกเปลี่ยน Lightning หรือไม่?"
+
+msgid "removed"
+msgstr "ลบออก"
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบรายการธุรกรรมนี้?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบธุรกรรมนี้และธุรกรรมย่อย {} รายการ?"
+
+msgid "Warning"
+msgstr "คำเตือน"
+
+msgid "No dynamic fee estimates available"
+msgstr "ไม่มีการประมาณค่าธรรมเนียมแบบไดนามิกให้บริการ"
+
+msgid "Could not spend max: a security reserve of {} was kept for your Lightning channels."
+msgstr "ไม่สามารถใช้จ่ายได้สูงสุด: มีการกันวงเงินสำรองความปลอดภัยไว้จำนวน {} สำหรับช่อง Lightning ของคุณ"
+
+msgid "Base transaction has been mined"
+msgstr "ธุรกรรมพื้นฐานได้รับการขุดแล้ว"
+
+msgid "Base transaction disappeared"
+msgstr "ธุรกรรมพื้นฐานหายไป"
+
+msgid "Cannot determine dynamic fees, not connected"
+msgstr "ไม่สามารถระบุค่าธรรมเนียมแบบไดนามิกได้ เนื่องจากไม่ได้เชื่อมต่อ"
+
+msgid "The new fee rate needs to be higher than the old fee rate."
+msgstr "อัตราค่าธรรมเนียมใหม่จะต้องสูงกว่าอัตราค่าธรรมเนียมเดิม"
+
+msgid "Transaction is missing info from network"
+msgstr "ข้อมูลการทำธุรกรรมขาดหายไปจากเครือข่าย"
 
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "ไม่สามารถ CPFP: ค่าธรรมเนียมที่ไม่รู้จักสำหรับธุรกรรมหลัก"
+
+msgid "No fee"
+msgstr "ไม่มีค่าธรรมเนียม"
+
+msgid "Max fee exceeded"
+msgstr "เกินค่าธรรมเนียมสูงสุด"
+
+msgid "Combined feerate should be greater than the parent tx feerate"
+msgstr "อัตราค่าธรรมเนียมรวมควรมากกว่าอัตราค่าธรรมเนียมของธุรกรรมหลัก"
+
+msgid "Network error"
+msgstr "เครือข่ายผิดพลาด"
+
+msgid "Not enough funds"
+msgstr "จำนวนเงินคงเหลือไม่เพียงพอ"
+
+msgid "Sweep transaction"
+msgstr "การทำธุรกรรมสับเปลี่ยน"
+
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+msgid "Synchronizing..."
+msgstr "กำลังปรับเทียบ..."
+
+msgid "Sign and send on-chain transaction?"
+msgstr "ลงชื่อและส่งธุรกรรมบนบล็อกเชน?"
+
+msgid "Sign on-chain transaction?"
+msgstr "ลงนามธุรกรรมบนบล็อกเชน?"
+
+msgid "Transaction could not be saved."
+msgstr "ไม่สามารถบันทึกรายการธุรกรรมได้"
+
+msgid "It conflicts with current history."
+msgstr "มันขัดแย้งกับประวัติในปัจจุบัน"
+
+msgid "Pay lightning invoice?"
+msgstr "จ่ายใบแจ้งหนี้สายฟ้า?"
+
+msgid "No address available."
+msgstr "ไม่มีที่อยู่ที่สามารถใช้ได้"
+
+msgid "All your addresses are used in pending requests."
+msgstr "ที่อยู่ทั้งหมดของคุณถูกนำไปใช้ในคำขอที่รอการดำเนินการ"
+
+msgid "To see the list, press and hold the Receive button."
+msgstr "หากต้องการดูรายการ ให้กดปุ่มรับค้างไว้"
+
+msgid "Error creating payment request"
+msgstr "เกิดข้อผิดพลาดในการสร้างคำขอชำระเงิน"
+
+msgid "Sign message?"
+msgstr "เซ็นข้อความ?"
+
+msgid "Weak"
+msgstr "แย่"
+
+msgid "Medium"
+msgstr "ปานกลาง"
+
+msgid "Strong"
+msgstr "แข็งแกร่ง"
+
+msgid "Very Strong"
+msgstr "แข็งแรงมาก"
+
+msgid "Plugins"
+msgstr "ส่วนขยาย"
+
+msgid "Network"
+msgstr "เน็ตเวิร์ก"
+
+msgid "Lightning Network"
+msgstr "เครือข่ายสายฟ้า"
+
+msgid "Show/Hide"
+msgstr "แสดง/ซ่อน"
 
 msgid "Close"
 msgstr "ปิด"
@@ -37,38 +590,248 @@ msgstr "ปิด"
 msgid "Dark/Light"
 msgstr "โหมดมืด/สว่าง"
 
+msgid "Exit Electrum"
+msgstr "ออกจากอิเล็กตรัม"
+
 msgid "Cannot load wallet"
 msgstr "ไม่สามารถเปิดกระเป๋าได้"
+
+msgid "Updated 'Pay To' field to handle external URI"
+msgstr "อัปเดตช่อง 'ชำระเงินให้' เพื่อรองรับ URI ภายนอก"
+
+msgid "Text copied to Clipboard"
+msgstr "คัดลอกข้อความไปยังคลิปบอร์ดแล้ว"
+
+msgid "{} copied to Clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ดแล้ว"
+
+msgid "Error starting Electrum"
+msgstr "เกิดข้อผิดพลาดในการสตาร์ท Electrum"
+
+msgid "An error occurred"
+msgstr "เกิดข้อผิดพลาด"
+
+msgid "Address"
+msgstr "ที่อยู่"
 
 msgid "Public keys"
 msgstr "คีย์สาธารณะ"
 
+msgid "Public Key"
+msgstr "กุญเเจสาธารณะ"
+
+msgid "Redeem Script"
+msgstr "สคริปต์การไถ่ถอน"
+
+msgid "Witness Script"
+msgstr "บทพยาน"
+
+msgid "Derivation path"
+msgstr "เส้นทางที่มา"
+
+msgid "All status"
+msgstr "สถานะทั้งหมด"
+
+msgid "Unused"
+msgstr "ไม่ได้ใช้"
+
+msgid "Funded"
+msgstr "ลงทุนแล้ว"
+
+msgid "Used"
+msgstr "ใช้แล้ว"
+
+msgid "Funded or Unused"
+msgstr "ได้รับทุนหรือถูกนำไปใช้"
+
+msgid "All types"
+msgstr "ทุกประเภท"
+
+msgid "Receiving"
+msgstr "การรับ"
+
 msgid "Change"
 msgstr "เปลี่ยน"
+
+msgid "Show Filter"
+msgstr "สแดงตัวกรอง"
+
+msgid "Fiat"
+msgstr "สกุลเงินเฟียต"
+
+msgid "Type"
+msgstr "ประเภท"
+
+msgid "Label"
+msgstr "ป้าย"
 
 msgid "Balance"
 msgstr "Balance"
 
+msgid "Tx"
+msgstr "รายการธุรกรรม"
+
+msgid "change"
+msgstr "เปลี่ยน"
+
+msgid "receiving"
+msgstr "การรับ"
+
+msgid "{} addresses"
+msgstr "ที่อยู่ {}"
+
+msgid "Details"
+msgstr "รายละเอียด"
+
+msgid "Edit {}"
+msgstr "แก้ไข {}"
+
+msgid "Private key"
+msgstr "กุญแจส่วนตัว"
+
+msgid "Sign/verify message"
+msgstr "ลงชื่อ/ยืนยันข้อความ"
+
 msgid "Encrypt/decrypt message"
 msgstr "ข้อความ เข้ารหัส/ถอดรหัส"
+
+msgid "Remove from wallet"
+msgstr "ลบออกจากกระเป๋าเงิน"
+
+msgid "View on block explorer"
+msgstr "ดูในนักสำรวจกล่อง"
+
+msgid "Freeze"
+msgstr "แช่แข็ง"
+
+msgid "Unfreeze"
+msgstr "ทำน้ำแข็งให้ละลาย"
+
+msgid "Remove from coin control"
+msgstr "ลบออกจากการควบคุมเหรียญ"
+
+msgid "Add to coin control"
+msgstr "เพิ่มการควบคุมเหรียญ"
+
+msgid "Wallet Balance"
+msgstr "ยอดเงินในกระเป๋าสตางค์"
+
+msgid "Frozen"
+msgstr "แช่แข็ง"
+
+msgid "Unmatured"
+msgstr "ยังไม่บรรลุนิติภาวะ"
+
+msgid "Unconfirmed"
+msgstr "ไม่ได้รับการยืนยัน"
+
+msgid "On-chain"
+msgstr "บน-โซ๋"
+
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgid "Lightning frozen"
+msgstr "แช่แข็งสายฟ้า"
+
+msgid "Lightning (frozen)"
+msgstr "แช่แข็ง (สายฟ้า)"
 
 msgid "BIP39 Recovery"
 msgstr "การกู้คืน BIP39"
 
+msgid "Scanning common paths for existing accounts..."
+msgstr "กำลังสแกนเส้นทางทั่วไปสำหรับบัญชีที่มีอยู่..."
+
 msgid "Choose an account to restore."
 msgstr "เลือกบัญชีที่จะกู้คืน"
+
+msgid "Error: Account discovery failed."
+msgstr "ข้อผิดพลาด: การค้นหาบัญชีล้มเหลว"
+
+msgid "Lightning Channel"
+msgstr "เส้นทางสายฟ้า"
 
 msgid "Channel Backup"
 msgstr "แชนแนลสำรอง"
 
+msgid "This is a channel backup."
+msgstr "นี่คือช่องทางสำรอง"
+
+msgid "It shows a channel that was opened with another instance of this wallet"
+msgstr "ภาพนี้แสดงช่องทางที่ถูกเปิดขึ้นโดยใช้กระเป๋าเงินดิจิทัลอีกตัวหนึ่ง"
+
+msgid "A backup does not contain information about your local balance in the channel."
+msgstr "ไฟล์สำรองข้อมูลไม่มีข้อมูลเกี่ยวกับยอดคงเหลือในเครื่องของคุณในช่องทางนั้นๆ"
+
+msgid "You can use it to request a force close."
+msgstr "คุณสามารถใช้เพื่อขอให้ปิดโปรแกรมโดยบังคับได้"
+
+msgid "Channel stats"
+msgstr "สถานะช่องทาง"
+
+msgid "Payments (HTLCs):"
+msgstr "การชำระเงิน (HTLCs):"
+
+msgid "Sent HTLC with ID {}"
+msgstr "ส่ง HTLC ด้วยตัวตน {}"
+
 msgid "CLTV expiry"
 msgstr "CLTV หมดอายุ"
+
+msgid "Payment hash"
+msgstr "แฮชการชำระเงิน"
+
+msgid "Fulfilled HTLCs"
+msgstr "HTLC ที่ดำเนินการเสร็จสิ้นแล้ว"
+
+msgid "HTLCs in current commitment transaction"
+msgstr "HTLC ในธุรกรรมข้อผูกพันปัจจุบัน"
+
+msgid "Failed HTLCs"
+msgstr "HTLC ล้มเหลว"
+
+msgid "Transaction not found."
+msgstr "ไม่พบธุรกรรม"
+
+msgid "Remote Node ID"
+msgstr "ตัวตนโหนดระยะไกล"
+
+msgid "Remote Node"
+msgstr "โหนดระยะไกล"
 
 msgid "Channel ID"
 msgstr "ไอดีของช่อง"
 
+msgid "Short Channel ID"
+msgstr "ตัวตนช่องทางสั้น"
+
+msgid "State"
+msgstr "สถานะ"
+
+msgid "Remote peer sent error [DO NOT TRUST]"
+msgstr "ฝั่งเซิร์ฟเวอร์ระยะไกลส่งข้อผิดพลาด [ห้ามเชื่อถือ]"
+
 msgid "Capacity"
 msgstr "ความจุ"
+
+msgid "Channel type:"
+msgstr "ประเภทช่องทาง:"
+
+msgid "Initiator:"
+msgstr "ผู้สร้าง:"
+
+msgid "Funding Outpoint"
+msgstr "จุดออกเงินทุน"
+
+msgid "Closing Transaction"
+msgstr "การปิดธุรกรรม"
+
+msgid "Local balance"
+msgstr "งบดุลท้องถิ่น"
+
+msgid "Remote balance"
+msgstr "งบดุลทางไกล"
 
 msgid "Can send"
 msgstr "สามารถส่ง"
@@ -76,14 +839,68 @@ msgstr "สามารถส่ง"
 msgid "Can receive"
 msgstr "สามารถรับ"
 
+msgid "Local reserve"
+msgstr "สำรองท้องถิ่น"
+
+msgid "Remote reserve:"
+msgstr "สำรองระยะไกล:"
+
+msgid "Local dust limit"
+msgstr "ขีดจำกัดเศษบิตคอยน์ในท้องถิ่น"
+
+msgid "Remote dust limit"
+msgstr "ขีดจำกัดเศษบิตคอยน์ทางไกล"
+
+msgid "Total sent"
+msgstr "รวมส่งแล้ว"
+
+msgid "Total received"
+msgstr "ยอดรวมที่ได้รับ"
+
+msgid "Remote force-close CSV delay"
+msgstr "การหน่วงเวลาการปิดไฟล์ CSV ทางไกล"
+
+msgid "Force-close CSV delay imposed on them"
+msgstr "มีการหน่วงเวลาการปิดไฟล์ CSV ให้กับพวกเขา"
+
+msgid "Local force-close CSV delay"
+msgstr "การบังคับปิดไฟล์ CSV ในพื้นที่ ความล่าช้า"
+
+msgid "Force-close CSV delay imposed on us"
+msgstr "การปิดไฟล์ CSV แบบบังคับทำให้เกิดความล่าช้ากับเรา"
+
+msgid "{} blocks"
+msgstr "{} กล่องทั้งหลาย"
+
+msgid "Current feerate"
+msgstr "อัตราปัจจุบัน "
+
+msgid "Node alias"
+msgstr "นามแฝงโหนด"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "Cooperative close?"
+msgstr "ความร่วมมืออย่างใกล้ชิด"
+
+msgid "Please wait..."
+msgstr "กรุณารอสักครู่..."
+
 msgid "Force-close channel?"
 msgstr "บังคับปิดแชนแนล?"
 
 msgid "After that delay, funds will be swept to an address derived from your wallet seed."
 msgstr "หลังจากความล่าช้านั้น เงินจะถูกส่งไปยังที่อยู่ที่ได้รับจากวอลเล็ตของคุณ"
 
+msgid "Please create a backup of your wallet file!"
+msgstr "โปรดสำรองข้อมูลไฟล์กระเป๋าเงินของคุณ!"
+
 msgid "Funds in this channel will not be recoverable from seed until they are swept back into your wallet, and might be lost if you lose your wallet file."
 msgstr "เงินในแชนแนลนี้จะไม่สามารถกู้คืนจาก seed ได้ จนกว่าจะถูกดึงเข้ากระเป๋าเงินของคุณ และอาจสูญหายได้ หากคุณทำไฟล์กระเป๋าเงินหาย"
+
+msgid "To prevent that, you should save a backup of your wallet on another device."
+msgstr "เพื่อป้องกันปัญหานี้ คุณควรสำรองข้อมูลกระเป๋าเงินดิจิทัลของคุณไว้ในอุปกรณ์อื่น"
 
 msgid "Force-close channel"
 msgstr "บังคับปิดแชนแนล"
@@ -91,26 +908,296 @@ msgstr "บังคับปิดแชนแนล"
 msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
 msgstr "แน่ใจไหมว่าต้องการลบช่องนี้ การดำเนินการนี้จะล้างธุรกรรมที่เกี่ยวข้องออกจากประวัติกระเป๋าเงินของคุณ"
 
+msgid "Remove channel backup?"
+msgstr "ลบข้อมูลสำรองของช่องใช่ไหม"
+
+msgid "Request force-close from remote peer?"
+msgstr "ขอให้บังคับปิดโปรแกรมจากเครื่องปลายทางหรือไม่?"
+
+msgid "Request scheduled"
+msgstr "กำหนดเวลาคำขอแล้ว"
+
 msgid "Channel is frozen for sending"
 msgstr "แชนแนลกำลังถูกระงับการส่ง"
+
+msgid "Rebalance channels"
+msgstr "ช่องทางการปรับสมดุล"
+
+msgid "Node ID"
+msgstr "รหัสโหนด"
+
+msgid "Long Channel ID"
+msgstr "รหัสช่องยาว"
+
+msgid "Freeze for sending"
+msgstr "แช่แข็งเพื่อการส่ง"
+
+msgid "Unfreeze for sending"
+msgstr "ปลดแช่แข็งเพื่อการส่ง"
+
+msgid "Freeze for receiving"
+msgstr "แช่แข็งเพื่อรับ"
+
+msgid "Unfreeze for receiving"
+msgstr "ปลดแช่แข็งเพื่อรับข้อมูล"
 
 msgid "Cooperative close"
 msgstr "ความร่วมมืออย่างใกล้ชิด"
 
+msgid "Force-close"
+msgstr "บังคับปิด"
+
+msgid "Request force-close"
+msgstr "ขอบังคับปิด"
+
+msgid "Export backup"
+msgstr "ส่งออกข้อมูลสำรอง"
+
 msgid "Delete"
 msgstr "ลบ"
+
+msgid "This channel is frozen for sending. It will not be used for outgoing payments."
+msgstr "ช่องทางนี้ถูกระงับการส่งแล้ว จะไม่สามารถใช้สำหรับการชำระเงินขาออกได้"
+
+msgid "This channel is frozen for receiving. It will not be included in invoices."
+msgstr "ช่องทางนี้ถูกระงับการรับสัญญาณชั่วคราว และจะไม่ถูกรวมอยู่ในใบแจ้งหนี้"
+
+msgid "can receive"
+msgstr "สามารถรับ"
+
+msgid "Submarine swap"
+msgstr "การแลกเปลี่ยนเรือดำน้ำ"
+
+msgid "Import channel backup"
+msgstr "นำเข้าข้อมูลสำรองช่อง"
+
+msgid "New Channel"
+msgstr "ช่องใหม่"
+
+msgid "Lightning is not available for this wallet."
+msgstr "ไม่รองรับ Lightning สำหรับกระเป๋าเงินนี้"
+
+msgid "Open a channel to send payments over the Lightning network."
+msgstr "เปิดช่องทางสำหรับส่งการชำระเงินผ่านเครือข่าย Lightning"
+
+msgid "Lightning Network Statistics"
+msgstr "สถิติเครือข่ายสายฟ้า"
+
+msgid "Nodes"
+msgstr "โหนด"
 
 msgid "Channels"
 msgstr "ช่อง"
 
+msgid "This is a channel"
+msgstr "นี่คือช่อง"
+
+msgid "This is a static channel backup"
+msgstr "นี่คือการสำรองข้อมูลช่องสัญญาณแบบคงที่"
+
+msgid "The channel peer can route Trampoline payments."
+msgstr "โหนดช่องทางสามารถกำหนดเส้นทางการชำระเงินของแป้นกระโดดได้"
+
+msgid "This channel cannot be recovered from your seed. You must back it up manually."
+msgstr "ไม่สามารถกู้คืนช่องนี้จาก Seed ของคุณได้ คุณต้องสำรองข้อมูลด้วยตนเอง"
+
+msgid "LockTime"
+msgstr "เวลาล็อค"
+
+msgid "To somewhat protect your privacy, Electrum tries to create change with similar precision to other outputs."
+msgstr "เพื่อเป็นการปกป้องความเป็นส่วนตัวของคุณในระดับหนึ่ง Electrum พยายามสร้างการเปลี่ยนแปลงด้วยความแม่นยำในระดับเดียวกับผลลัพธ์อื่นๆ"
+
 msgid "At most 100 satoshis might be lost due to this rounding."
 msgstr "อาจเสียไปอย่างมากที่สุด 100 satoshi เนื่องจากการปัดเศษนี้"
+
+msgid "You can disable this setting in '{}'."
+msgstr "คุณสามารถปิดใช้งานการตั้งค่านี้ได้ใน '{}'"
+
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr "นอกจากนี้ ฝุ่นจะไม่ถูกเก็บไว้เป็นเงินทอน แต่จะถูกบวกเพิ่มเข้าไปในค่าธรรมเนียม"
 
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
 msgstr "นอกจากนี้เมื่อทำธุรกรรม RBF เป็นชุด BIP 125 จะกำหนดขอบเขตค่าธรรมเนียมที่ต่ำกว่า"
 
+msgid "Fee rounding"
+msgstr "การปัดเศษค่าธรรมเนียม"
+
+msgid "Onchain Transaction"
+msgstr "ธุรกรรมบนโซ่"
+
+msgid "Submarine Payment"
+msgstr "การชำระเงินเรือดำน้ำ"
+
+msgid "Submarine Payments don't support multiple outputs (Pay-to-many)."
+msgstr "ระบบการชำระเงินแบบ Submarine Payments ไม่รองรับการส่งออกหลายรายการ (Pay-to-many)"
+
+msgid "Submarine Payments don't support 'Max' value spends."
+msgstr "ระบบการชำระเงินผ่านเรือดำน้ำไม่รองรับการกำหนดวงเงินใช้จ่ายสูงสุด"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "จะมีการเพิ่ม {} ซาโตชิเพิ่มเติม"
+
+msgid "Preview"
+msgstr "ตัวอย่าง"
+
+msgid "OK"
+msgstr "ดีเลย"
+
+msgid "Do not batch"
+msgstr "อย่าแบทช์"
+
+msgid "Batch with"
+msgstr "แบทช์ด้วย"
+
+msgid "Not available for this wallet."
+msgstr "ไม่สามารถใช้ได้กับกระเป๋าสตางค์รุ่นนี้"
+
+msgid "Requires a wallet with Lightning network support."
+msgstr "ต้องใช้กระเป๋าเงินดิจิทัลที่รองรับเครือข่าย Lightning"
+
+msgid "Use change addresses"
+msgstr "ใช้เปลี่ยนที่อยู่"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "การระบุที่อยู่สำหรับเงินทอนจะทำให้ผู้อื่นติดตามธุรกรรมของคุณได้ยากขึ้น"
+
+msgid "Use multiple change addresses"
+msgstr "ใช้ที่อยู่การเปลี่ยนแปลงหลายรายการ"
+
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "ในบางกรณี อาจใช้ที่อยู่สำหรับเงินทอนได้มากถึง 3 ที่อยู่ เพื่อแบ่งเงินทอนจำนวนมากออกเป็นส่วนๆ และปกปิดที่อยู่ของผู้รับ"
+
+msgid "This may result in higher transactions fees."
+msgstr "อาจส่งผลให้ค่าธรรมเนียมการทำธุรกรรมสูงขึ้น"
+
+msgid "Tools"
+msgstr "เครื่องมือ"
+
+msgid "Not enough funds."
+msgstr "เงินไม่พอ"
+
+msgid "Change your settings to allow spending unconfirmed coins."
+msgstr "เปลี่ยนการตั้งค่าของคุณเพื่ออนุญาตให้ใช้เหรียญที่ยังไม่ได้รับการยืนยัน"
+
+msgid "You need to set a lower fee."
+msgstr "คุณต้องกำหนดค่าธรรมเนียมที่ต่ำกว่านี้"
+
+msgid "Can be unfrozen in the Addresses or in the Coins tab"
+msgstr "สามารถปลดล็อกได้ในแท็บที่อยู่หรือแท็บเหรียญ"
+
+msgid "Preparing transaction..."
+msgstr "กำลังเตรียมทำธุรกรรม..."
+
+msgid "Fee estimates not available. Please set a fixed fee or feerate."
+msgstr "ไม่สามารถประมาณการค่าธรรมเนียมได้ โปรดกำหนดค่าธรรมเนียมคงที่หรืออัตราค่าธรรมเนียม"
+
+msgid "Change stays on-chain (Lightning not enabled)."
+msgstr "การเปลี่ยนแปลงจะยังคงอยู่บนบล็อกเชน (ไม่ได้เปิดใช้งาน Lightning)"
+
+msgid "This transaction will spend unconfirmed coins."
+msgstr "ธุรกรรมนี้จะใช้เหรียญที่ยังไม่ได้รับการยืนยัน"
+
+msgid "This payment will be merged with another existing transaction."
+msgstr "การชำระเงินนี้จะถูกรวมเข้ากับธุรกรรมอื่นที่มีอยู่แล้ว"
+
+msgid "This transaction has {} change outputs."
+msgstr "ธุรกรรมนี้มีผลลัพธ์การเปลี่ยนแปลง {} รายการ"
+
+msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
+msgstr "โปรดตรวจสอบให้แน่ใจว่าคุณชำระค่าธรรมเนียมการขุดครบถ้วนแล้ว คุณจะไม่สามารถเพิ่มค่าธรรมเนียมได้ในภายหลัง"
+
+msgid "Can't show preview when sending change to lightning"
+msgstr "ไม่สามารถแสดงตัวอย่างเมื่อส่งการเปลี่ยนแปลงไปยัง Lightning ได้"
+
+msgid "You send"
+msgstr "คุณส่งแล้ว"
+
+msgid "They receive"
+msgstr "พวกเขาได้รับ"
+
+msgid "Swap fee"
+msgstr "ค่าธรรมเนียมการแลกเปลี่ยน"
+
+msgid "Mining fee"
+msgstr "ค่าธรรมเนียมการขุด"
+
+msgid "Connecting, please wait..."
+msgstr "กำลังเชื่อมต่อ โปรดรอสักครู่..."
+
+msgid "Initiating Submarine Payment..."
+msgstr "กำลังเริ่มการชำระเงินผ่านเรือดำน้ำ..."
+
+msgid "Submarine Payment failed:"
+msgstr "การชำระเงินสำหรับเรือดำน้ำล้มเหลว:"
+
+msgid "Enable Lightning in the 'Channels' tab to use Submarine Swaps."
+msgstr "เปิดใช้งาน Lightning ในแท็บ 'Channels' เพื่อใช้ Submarine Swaps"
+
+msgid "Submarine swap provider unavailable."
+msgstr "ผู้ให้บริการเปลี่ยนเรือดำน้ำไม่พร้อมให้บริการ"
+
+msgid "Couldn't connect to your swap provider. Please select a different provider."
+msgstr "ไม่สามารถเชื่อมต่อกับผู้ให้บริการแลกเปลี่ยนของคุณได้ โปรดเลือกผู้ให้บริการรายอื่น"
+
+msgid "Please select a submarine swap provider."
+msgstr "โปรดเลือกผู้ให้บริการแลกเปลี่ยนเรือดำน้ำ"
+
+msgid "Payment amount below the minimum possible swap amount."
+msgstr "จำนวนเงินที่ชำระต่ำกว่าจำนวนเงินแลกเปลี่ยนขั้นต่ำที่เป็นไปได้"
+
+msgid "Minimum amount: {}"
+msgstr "จำนวนขั้นต่ำ: {}"
+
+msgid "You need to send a higher amount to be able to do a Submarine Payment."
+msgstr "คุณต้องส่งเงินจำนวนที่สูงกว่านี้จึงจะสามารถชำระเงินค่าเรือดำน้ำได้"
+
+msgid "You don't have enough outgoing capacity in your lightning channels."
+msgstr "คุณมีกำลังการส่งออกไม่เพียงพอในช่อง Lightning ของคุณ"
+
+msgid "Your lightning channels can send: {}"
+msgstr "ช่อง Lightning ของคุณสามารถส่งได้: {}"
+
+msgid "For this transaction you need: {}"
+msgstr "สำหรับธุรกรรมนี้ คุณต้องมี: {}"
+
+msgid "To add outgoing capacity you can open a new lightning channel or do a submarine swap."
+msgstr "หากต้องการเพิ่มความจุขาออก คุณสามารถเปิดช่องสัญญาณ Lightning ใหม่ หรือทำการสลับสายใต้น้ำได้"
+
+msgid "The selected swap provider is unable to offer a forward swap of this value."
+msgstr "ผู้ให้บริการสัญญาแลกเปลี่ยนที่เลือกไว้ไม่สามารถเสนอสัญญาแลกเปลี่ยนล่วงหน้าที่มีมูลค่าดังกล่าวได้"
+
+msgid "Available liquidity"
+msgstr "สภาพคล่องที่มีอยู่"
+
+msgid "In order to continue select a different provider or try to send a smaller amount."
+msgstr "หากต้องการดำเนินการต่อ โปรดเลือกผู้ให้บริการรายอื่น หรือลองส่งเงินจำนวนน้อยลง"
+
+msgid "Submarine Payment not possible:"
+msgstr "ไม่สามารถชำระเงินผ่านเรือดำน้ำได้:"
+
+msgid "Requesting swap invoice..."
+msgstr "ขอใบแจ้งหนี้สำหรับการแลกเปลี่ยน..."
+
+msgid "New Transaction"
+msgstr "ธุรกรรมใหม่"
+
+msgid "The amount to be received by the recipient."
+msgstr "จำนวนเงินที่ผู้รับจะได้รับ"
+
+msgid "Fees are paid by the sender."
+msgstr "ผู้ส่งเป็นผู้รับผิดชอบค่าธรรมเนียม"
+
+msgid "Amount to be sent"
+msgstr "จำนวนเงินที่จะส่ง"
+
 msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "การทำธุรกรรม Bitcoin นั้นไม่ได้ฟรี และมีค่าธรรมเนียม ที่ผู้โอนจะต้องจ่าย."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "ผู้ส่งสามารถกำหนดค่าธรรมเนียมได้เองอย่างอิสระ อย่างไรก็ตาม ธุรกรรมที่มีค่าธรรมเนียมต่ำจะใช้เวลาในการดำเนินการนานกว่า"
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "ระบบจะเพิ่มค่าธรรมเนียมที่แนะนำลงในช่องนี้โดยอัตโนมัติ คุณสามารถแก้ไขได้ ค่าธรรมเนียมที่แนะนำจะเพิ่มขึ้นตามขนาดของธุรกรรม"
 
 msgid "Click here to hide this message."
 msgstr "คลิกที่นี่เพื่อซ่อนข้อความนี้"
@@ -313,9 +1400,6 @@ msgstr "คัดลอกภาพ"
 msgid "Copy Text"
 msgstr "คัดลอกข้อความ"
 
-msgid "QR Reader Error"
-msgstr "คิวอาร์โค้ดผิดพลาด"
-
 msgid "&Flip horizontally"
 msgstr "&พลิกในแนวนอน"
 
@@ -324,9 +1408,6 @@ msgstr "&ปิด"
 
 msgid "Cannot start QR scanner, no usable camera found."
 msgstr "ไม่สามารถแสกน QR Code, ไม่พบกล้อง."
-
-msgid "QR code scanner failed to map video frame"
-msgstr "ตัวสแกนคิวอาร์โค้ดล้มเหลวจากการจับเฟรมวิดีโอ"
 
 msgid "Bump Fee"
 msgstr "ค่าธรรมเนียมเพิ่มเติม"
@@ -354,9 +1435,6 @@ msgstr "หน่วยฐานของกระเป๋าเงินขอ
 
 msgid "Base unit"
 msgstr "หน่วยฐาน"
-
-msgid "Dark"
-msgstr "โหมดมืด"
 
 msgid "Custom URL"
 msgstr "URL ที่กำหนดเอง"
@@ -411,6 +1489,9 @@ msgstr "เลือกเหรียญที่จะใช้จ่าย"
 
 msgid "Address is frozen"
 msgstr "Adresa e blocată"
+
+msgid "Cosigner"
+msgstr "ผู้ลงนาม"
 
 msgid "Choose..."
 msgstr "เลือก..."
@@ -621,9 +1702,6 @@ msgstr "โค้ด"
 msgid "Create or restore"
 msgstr "สร้าง หรือกู้คืน"
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "ไม่สามารถแสกน QR Code ได้."
-
 msgid "Color theme"
 msgstr "ธีมสี"
 
@@ -645,21 +1723,73 @@ msgstr "ไม่สามารถสร้างธุรกรรมย่อ
 msgid "All outputs are non-change is_mine"
 msgstr "เอาต์พุตทั้งหมดไม่เปลี่ยนแปลง is_mine"
 
+msgctxt "AddressDelegate|"
+msgid "tx"
+msgstr "รายการธุรกรรม"
+
+msgctxt "AddressDetails|"
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgctxt "AddressDetails|"
+msgid "Frozen"
+msgstr "แช่แข็ง"
+
 msgctxt "AddressDetails|"
 msgid "Balance"
 msgstr "Balance"
+
+msgctxt "AddressDetails|"
+msgid "Label"
+msgstr "ป้าย"
+
+msgctxt "AddressDetails|"
+msgid "Derivation path"
+msgstr "เส้นทางที่มา"
 
 msgctxt "AddressDetails|"
 msgid "Public keys"
 msgstr "คีย์สาธารณะ"
 
 msgctxt "AddressDetails|"
+msgid "Private key"
+msgstr "กุญแจส่วนตัว"
+
+msgctxt "AddressDetails|"
 msgid "Delete"
 msgstr "ลบ"
+
+msgctxt "Addresses|"
+msgid "Freeze"
+msgstr "แช่แข็ง"
+
+msgctxt "Addresses|"
+msgid "Unfreeze"
+msgstr "ทำน้ำแข็งให้ละลาย"
 
 msgctxt "BIP39RecoveryDialog|"
 msgid "Choose an account to restore."
 msgstr "เลือกบัญชีที่จะกู้คืน"
+
+msgctxt "BalanceDetails|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgctxt "BalanceDetails|"
+msgid "On-chain"
+msgstr "บน-โซ๋"
+
+msgctxt "BalanceDetails|"
+msgid "Unconfirmed"
+msgstr "ไม่ได้รับการยืนยัน"
+
+msgctxt "BalanceDetails|"
+msgid "Unmatured"
+msgstr "ยังไม่บรรลุนิติภาวะ"
+
+msgctxt "BalanceDetails|"
+msgid "Frozen"
+msgstr "แช่แข็ง"
 
 msgctxt "BalanceDetails|"
 msgid "Can send"
@@ -673,21 +1803,61 @@ msgctxt "BalanceSummary|"
 msgid "Balance"
 msgstr "Balance"
 
+msgctxt "BalanceSummary|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgctxt "BalanceSummary|"
+msgid "On-chain"
+msgstr "บน-โซ๋"
+
+msgctxt "BtcField|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+msgctxt "ChannelDetails|"
+msgid "Lightning Channel"
+msgstr "เส้นทางสายฟ้า"
+
 msgctxt "ChannelDetails|"
 msgid "Channel Backup"
 msgstr "แชนแนลสำรอง"
+
+msgctxt "ChannelDetails|"
+msgid "State"
+msgstr "สถานะ"
 
 msgctxt "ChannelDetails|"
 msgid "Capacity"
 msgstr "ความจุ"
 
 msgctxt "ChannelDetails|"
+msgid "Local balance"
+msgstr "งบดุลท้องถิ่น"
+
+msgctxt "ChannelDetails|"
 msgid "Can send"
 msgstr "สามารถส่ง"
 
 msgctxt "ChannelDetails|"
+msgid "Unfreeze"
+msgstr "ทำน้ำแข็งให้ละลาย"
+
+msgctxt "ChannelDetails|"
+msgid "Freeze"
+msgstr "แช่แข็ง"
+
+msgctxt "ChannelDetails|"
 msgid "Can receive"
 msgstr "สามารถรับ"
+
+msgctxt "ChannelDetails|"
+msgid "Current feerate"
+msgstr "อัตราปัจจุบัน "
+
+msgctxt "ChannelDetails|"
+msgid "Funding Outpoint"
+msgstr "จุดออกเงินทุน"
 
 msgctxt "ChannelDetails|"
 msgid "Backup"
@@ -713,6 +1883,18 @@ msgctxt "CloseChannelDialog|"
 msgid "Channel closed"
 msgstr "แชนแนลปิดแล้ว"
 
+msgctxt "ConfirmTxDialog|"
+msgid "Use multiple change addresses"
+msgstr "ใช้ที่อยู่การเปลี่ยนแปลงหลายรายการ"
+
+msgctxt "ConfirmTxDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "ในบางกรณี อาจใช้ที่อยู่สำหรับเงินทอนได้มากถึง 3 ที่อยู่ เพื่อแบ่งเงินทอนจำนวนมากออกเป็นส่วนๆ และปกปิดที่อยู่ของผู้รับ"
+
+msgctxt "ConfirmTxDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "อาจส่งผลให้ค่าธรรมเนียมการทำธุรกรรมสูงขึ้น"
+
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Bump Fee"
 msgstr "ค่าธรรมเนียมเพิ่มเติม"
@@ -721,13 +1903,73 @@ msgctxt "CpfpBumpFeeDialog|"
 msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
 msgstr "CPFP คือธุรกรรมที่ส่งผลลัพธ์ที่ไม่ได้รับการยืนยันกลับมาหาตัวคุณเองโดยมีค่าธรรมเนียมสูง เป้าหมายคือให้ผู้ขุดยืนยันธุรกรรมหลักเพื่อรับค่าธรรมเนียมที่แนบมากับธุรกรรมย่อย"
 
+msgctxt "ExceptionDialog|"
+msgid "Sorry!"
+msgstr "ขออภัย !"
+
+msgctxt "ExceptionDialog|"
+msgid "Something went wrong while executing Electrum."
+msgstr "เกิดข้อผิดพลาดบางอย่างระหว่างการเรียกใช้ Electrum"
+
+msgctxt "ExceptionDialog|"
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr "เพื่อช่วยเราในการวินิจฉัยและแก้ไขปัญหา, คุณสามารถส่งรายงานข้อผิดพลาดที่มีข้อมูลการแก้ไขข้อผิดพลาดที่เป็นประโยชน์มาให้เราได้:"
+
+msgctxt "ExceptionDialog|"
+msgid "Please briefly describe what led to the error (optional):"
+msgstr "โปรดอธิบายสั้นๆว่าอะไรเป็นสาเหตุที่ทำให้เกิดข้อผิดพลาด (ไม่บังคับ):"
+
+msgctxt "ExceptionDialog|"
+msgid "Do you want to send this report?"
+msgstr "คุณต้องการส่งรายงานฉบับนี้หรือไม่"
+
+msgctxt "ExceptionDialog|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
 msgctxt "ExportTxDialog|"
 msgid "Copy"
 msgstr "คัดลอก"
 
+msgctxt "FeeMethodComboBox|"
+msgid "ETA"
+msgstr "เวลาประมาณ "
+
+msgctxt "FeeMethodComboBox|"
+msgid "Mempool"
+msgstr "สระน้ำความทรงจำ "
+
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr "อัตราค่าธรรมเนียม "
+
+msgctxt "FeePicker|"
+msgid "Target"
+msgstr "เป้าหมาย "
+
+msgctxt "FeePicker|"
+msgid "Mining fee"
+msgstr "ค่าธรรมเนียมการขุด"
+
+msgctxt "FiatField|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
 msgctxt "GenericShareDialog|"
 msgid "Copy"
 msgstr "คัดลอก"
+
+msgctxt "History|"
+msgid "Mempool"
+msgstr "สระน้ำความทรงจำ "
+
+msgctxt "InvoiceDialog|"
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgctxt "InvoiceDialog|"
+msgid "Payment hash"
+msgstr "แฮชการชำระเงิน"
 
 msgctxt "Invoices|"
 msgid "Delete"
@@ -737,9 +1979,53 @@ msgctxt "LightningPaymentDetails|"
 msgid "Date"
 msgstr "วันที่"
 
+msgctxt "LightningPaymentDetails|"
+msgid "Label"
+msgstr "ป้าย"
+
+msgctxt "LightningPaymentDetails|"
+msgid "Payment hash"
+msgstr "แฮชการชำระเงิน"
+
+msgctxt "LnurlPayRequestDialog|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+msgctxt "LnurlWithdrawRequestDialog|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+msgctxt "NetworkOverview|"
+msgid "Network"
+msgstr "เน็ตเวิร์ก"
+
+msgctxt "NetworkOverview|"
+msgid "On-chain"
+msgstr "บน-โซ๋"
+
+msgctxt "NetworkOverview|"
+msgid "Status"
+msgstr "สถานะ"
+
+msgctxt "NetworkOverview|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
 msgctxt "NetworkOverview|"
 msgid "Proxy"
 msgstr "พร็อกซี"
+
+msgctxt "NetworkOverview|"
+msgid "disabled"
+msgstr "ปิดการใช้งาน"
+
+msgctxt "NewWalletWizard|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "OpenChannelDialog|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
 
 msgctxt "OpenChannelDialog|"
 msgid "Channel established."
@@ -757,9 +2043,33 @@ msgctxt "PasswordDialog|"
 msgid "Password"
 msgstr "รหัสผ่าน:"
 
+msgctxt "PasswordStrengthIndicator|"
+msgid "Weak"
+msgstr "แย่"
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Medium"
+msgstr "ปานกลาง"
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Strong"
+msgstr "แข็งแกร่ง"
+
+msgctxt "PasswordStrengthIndicator|"
+msgid "Very Strong"
+msgstr "แข็งแรงมาก"
+
 msgctxt "Preferences|"
 msgid "Base unit"
 msgstr "หน่วยฐาน"
+
+msgctxt "Preferences|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgctxt "ProxyConfig|"
+msgid "Address"
+msgstr "ที่อยู่"
 
 msgctxt "ProxyConfig|"
 msgid "Port"
@@ -772,6 +2082,30 @@ msgstr "รหัสผ่าน:"
 msgctxt "RbfBumpFeeDialog|"
 msgid "Bump Fee"
 msgstr "ค่าธรรมเนียมเพิ่มเติม"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr "ในบางกรณี อาจใช้ที่อยู่สำหรับเงินทอนได้มากถึง 3 ที่อยู่ เพื่อแบ่งเงินทอนจำนวนมากออกเป็นส่วนๆ และปกปิดที่อยู่ของผู้รับ"
+
+msgctxt "RbfBumpFeeDialog|"
+msgid "This may result in higher transactions fees."
+msgstr "อาจส่งผลให้ค่าธรรมเนียมการทำธุรกรรมสูงขึ้น"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+msgctxt "ReceiveDetailsDialog|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgctxt "ReceiveDialog|"
+msgid "Status"
+msgstr "สถานะ"
+
+msgctxt "ReceiveDialog|"
+msgid "Amount"
+msgstr "จำนวนเงิน"
 
 msgctxt "ReceiveRequests|"
 msgid "Delete"
@@ -789,6 +2123,34 @@ msgctxt "ServerConfig|"
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr "เชื่อมต่ออัตโนมัติ"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Manual server selection"
+msgstr "การเลือกเซิร์ฟเวอร์ด้วยตนเอง"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Connect only to a single server"
+msgstr "เชื่อมต่อกับเซิร์ฟเวอร์เพียงเครื่องเดียวเท่านั้น"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "SwapDialog|"
+msgid "You send"
+msgstr "คุณส่งแล้ว"
+
+msgctxt "SwapDialog|"
+msgid "Mining fee"
+msgstr "ค่าธรรมเนียมการขุด"
+
 msgctxt "SwapDialog|"
 msgid "Cancel"
 msgstr "ยกเลิก"
@@ -802,8 +2164,28 @@ msgid "Amount withdrawn from channels"
 msgstr "จำนวนเงินที่ถอนออกจากช่อง"
 
 msgctxt "TxDetails|"
+msgid "Status"
+msgstr "สถานะ"
+
+msgctxt "TxDetails|"
 msgid "Date"
 msgstr "วันที่"
+
+msgctxt "TxDetails|"
+msgid "Label"
+msgstr "ป้าย"
+
+msgctxt "TxDetails|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "TxInput|"
+msgid "swap"
+msgstr "ปรับเปลี่ยน"
+
+msgctxt "TxOutput|"
+msgid "swap"
+msgstr "ปรับเปลี่ยน"
 
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
@@ -829,17 +2211,45 @@ msgctxt "WCScriptAndDerivation|"
 msgid "Choose the type of addresses in your wallet."
 msgstr "เลือกประเภทที่อยู่ในกระเป๋าเงินของคุณ"
 
+msgctxt "WCScriptAndDerivation|"
+msgid "Derivation path"
+msgstr "เส้นทางที่มา"
+
 msgctxt "WalletDetails|"
 msgid "Encrypted"
 msgstr "เข้ารหัส"
 
 msgctxt "WalletDetails|"
+msgid "Lightning"
+msgstr "สายฟ้า"
+
+msgctxt "WalletDetails|"
 msgid "Change Password"
 msgstr "เปลี่ยนรหัสผ่าน"
+
+msgctxt "WalletDetails|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "WalletDetails|"
+msgid "Warning"
+msgstr "คำเตือน"
+
+msgctxt "WalletMainView|"
+msgid "Sweep transaction"
+msgstr "การทำธุรกรรมสับเปลี่ยน"
 
 msgctxt "WalletMainView|"
 msgid "Channels"
 msgstr "ช่อง"
+
+msgctxt "WalletMainView|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgctxt "WalletMainView|"
+msgid "You do not have enough on-chain funds to protect your Lightning channels."
+msgstr "คุณมีเงินทุนบนบล็อกเชนไม่เพียงพอที่จะปกป้องช่อง Lightning ของคุณ"
 
 msgctxt "Wizard|"
 msgid "Cancel"
@@ -848,3 +2258,11 @@ msgstr "ยกเลิก"
 msgctxt "Wizard|"
 msgid "Back"
 msgstr "กลับ"
+
+msgctxt "main|"
+msgid "Network"
+msgstr "เน็ตเวิร์ก"
+
+msgctxt "main|"
+msgid "Error"
+msgstr "ข้อผิดพลาด"

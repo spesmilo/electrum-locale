@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "URLのリポートの失敗"
 
 msgid "Thanks for reporting this issue!"
 msgstr "問題を報告してくださりありがとうございます!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "不明なパーサー {!r} (選択肢: {})"
 
 msgid "Unexpected password hash version"
 msgstr "予期せぬパスワードのハッシュバージョン"
@@ -266,12 +263,6 @@ msgstr "本当にこのウォレットを削除しますか?"
 msgid "Problem deleting wallet"
 msgstr "ウォレット削除中に問題発生"
 
-msgid "Payment failed: "
-msgstr "支払い失敗: "
-
-msgid "Enter the amount you want to send"
-msgstr "送金したい金額を入力してください"
-
 msgid "This invoice has expired"
 msgstr "この請求書は期限切れです。"
 
@@ -292,6 +283,12 @@ msgstr "承認待ち"
 
 msgid "Invoice has unknown status"
 msgstr "請求書のステータスが不明です"
+
+msgid "Payment failed: "
+msgstr "支払い失敗: "
+
+msgid "Enter the amount you want to send"
+msgstr "送金したい金額を入力してください"
 
 msgid "Paid!"
 msgstr "支払い済み!"
@@ -319,12 +316,6 @@ msgstr "LNURLを解決できませんでした"
 
 msgid "Could not resolve"
 msgstr "解決できませんでした"
-
-msgid "The platform QR detection library is not available."
-msgstr "プラットフォームのQR検出ライブラリは利用できません。"
-
-msgid "Scan a QR code."
-msgstr "QRコードをスキャンします。"
 
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "スライダーを動かして数量とスワップの向きを設定してください。"
@@ -1667,24 +1658,6 @@ msgstr "QR コード"
 msgid "Script type"
 msgstr "スクリプトタイプ"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "アドレスによる署名とは、実際には対応する秘密鍵で署名し、対応する公開鍵で検証するということを意味します。あなたが入力したアドレスは対応する唯一の公開鍵を持っていないので、この処理を実行することができません。"
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "このオペレーションは未定義です。これはElectrumではなく、一般的な問題です。"
-
-msgid "Invalid Bitcoin address."
-msgstr "無効なビットコインアドレスです。"
-
-msgid "This is a watching-only wallet."
-msgstr "これは監視専用のウォレットです。"
-
-msgid "Address not in wallet."
-msgstr "アドレスはウォレットの中にありません"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "このアドレスにはメッセージの署名ができません"
-
 msgid "Signature verified"
 msgstr "署名認証完了"
 
@@ -2009,6 +1982,9 @@ msgstr "作成者"
 msgid "Requires"
 msgstr "必要事項"
 
+msgid "Upgrade"
+msgstr "アップグレード"
+
 msgid "Disable"
 msgstr "無効化"
 
@@ -2051,12 +2027,6 @@ msgstr "テキストをコピーする"
 msgid "Save"
 msgstr "保存"
 
-msgid "QR Reader Error"
-msgstr "QRリーダーのエラー"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "QRリーダーの読み込みに失敗しました。これは古いバージョンのPyQtを使用している場合に発生する可能性があります。"
-
 msgid "Scan QR Code"
 msgstr "QRコードの読み取り"
 
@@ -2074,12 +2044,6 @@ msgstr "検出されたQRコードが少なすぎます。"
 
 msgid "Too many QR codes detected."
 msgstr "検出されたQRコードが多すぎます。"
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "無効なピクセルフォーマットのビデオフレーム用のQRコードスキャナ"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "QRコードスキャナーでビデオフレームのマッピングに失敗"
 
 msgid "Show as QR code"
 msgstr "QRコードの表示"
@@ -2507,12 +2471,6 @@ msgstr "この設定は送信タブと残高関係の項目に影響します。
 
 msgid "Base unit"
 msgstr "基本単位"
-
-msgid "Light"
-msgstr "ライト"
-
-msgid "Dark"
-msgstr "ダーク"
 
 msgid "Custom URL"
 msgstr "カスタム URL"
@@ -3411,6 +3369,9 @@ msgstr "クリップボードのテキストをパースできませんでした
 msgid "Invalid Bitcoin Address"
 msgstr "無効なビットコインアドレスです"
 
+msgid "Address not in wallet."
+msgstr "アドレスはウォレットの中にありません"
+
 msgid "Missing libraries for {}."
 msgstr "{}のライブラリが見つかりません。"
 
@@ -3769,9 +3730,6 @@ msgstr "ビルド日時"
 
 msgid "Bootloader"
 msgstr "ブートローダー"
-
-msgid "Upgrade"
-msgstr "アップグレード"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "このデバイスはnon-hardenedパスに対応したxpubを公開していません。"
@@ -4620,15 +4578,6 @@ msgstr "このサービスはあなたが3つのうち2つの鍵を所有する�
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "二要素認証ウォレットのシードを入力してください: "
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "QRスキャナを開始出ません: zbarが利用できません。"
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "QRスキャナーを開始できません: 初期化に失敗しました。"
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "カメラが接続され有効であることを確認してください。"
-
 msgid "Select server automatically"
 msgstr "サーバーを自動選択"
 
@@ -4658,9 +4607,6 @@ msgstr "有効にすると取引当たり最高100 satoshiが失われます"
 
 msgid "Send change to Lightning"
 msgstr "お釣りをライトニングに送金"
-
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "もし可能ならば、サブマリンスワップによってこのトランザクションのお釣りをあなたのチャネルに送る"
 
 msgid "Download historical rates"
 msgstr "過去のレートをダウンロードする"
@@ -4765,9 +4711,6 @@ msgstr "ビデオデバイス"
 
 msgid "For scanning QR codes."
 msgstr "QRコードのスキャン用"
-
-msgid "Install the zbar package to enable this."
-msgstr "この機能には、zbarパッケージが必要です。"
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAliasは記録・コインの受取・送金の共同署名などを行います。"
@@ -4957,6 +4900,21 @@ msgstr "アウトプットに使われるコインを見つけられませんで
 
 msgid "The output value remaining after fee is too low."
 msgstr "手数料を支払った後に残るアウトプットの値が小さすぎます。"
+
+msgid "Invalid Bitcoin address."
+msgstr "無効なビットコインアドレスです。"
+
+msgid "This is a watching-only wallet."
+msgstr "これは監視専用のウォレットです。"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "このアドレスにはメッセージの署名ができません"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "アドレスによる署名とは、実際には対応する秘密鍵で署名し、対応する公開鍵で検証するということを意味します。あなたが入力したアドレスは対応する唯一の公開鍵を持っていないので、この処理を実行することができません。"
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "このオペレーションは未定義です。これはElectrumではなく、一般的な問題です。"
 
 msgid "The fee could not be verified!"
 msgstr "手数料を検証できませんでした!"
@@ -6617,8 +6575,16 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "チャネルバックアップをインポートしますか？"
+
+msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "貼り付け"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "OK"
 
 msgctxt "ServerConfig|"
 msgid "Server"
@@ -6691,6 +6657,10 @@ msgstr "署名"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "検証"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "エラー"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -7449,10 +7419,6 @@ msgid "Warning"
 msgstr "警告"
 
 msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "チャネルバックアップをインポートしますか？"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "警告: 一部のデータ(親tx/完全なutxo)は入りきらないためQRコードから除外されました。"
 
@@ -7535,10 +7501,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "ライトニングで支払うには残高不足です。代わりにオンチェーンで支払いますか?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "チャネルバックアップをインポートできません。ライトニングが有効化されていません。"
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "支払いを確認"
 
@@ -7565,6 +7527,10 @@ msgstr "トランザクションに署名できませんでした"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "ウォレット"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "検索"
 
 msgctxt "Wallets|"
 msgid "Current"

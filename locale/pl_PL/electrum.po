@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -609,12 +609,6 @@ msgstr "Ten portfel nie ma ziarna"
 msgid "QR code"
 msgstr "Kod QR"
 
-msgid "Address not in wallet."
-msgstr "Adresu nie ma w portfelu."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Nie można podpisywać wiadomości przy użyciu tego typu adresu."
-
 msgid "Signature verified"
 msgstr "Sygnatura zweryfikowana"
 
@@ -1039,12 +1033,6 @@ msgstr "Podstawowa jednostka w portfelu."
 msgid "Base unit"
 msgstr "Jednostka podstawowa"
 
-msgid "Light"
-msgstr "Jasny"
-
-msgid "Dark"
-msgstr "Ciemny"
-
 msgid "Custom URL"
 msgstr "Własny URL"
 
@@ -1278,6 +1266,9 @@ msgstr "[Wklej]"
 
 msgid "Invalid Bitcoin Address"
 msgstr "Nieprawidłowy adres Bitcoin"
+
+msgid "Address not in wallet."
+msgstr "Adresu nie ma w portfelu."
 
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "Kwota dla wyjścia OP_RETURN musi być zero."
@@ -1628,9 +1619,6 @@ msgstr "Wybierz których eksplorator bloków ma być użyty do funkcji które ot
 msgid "Video Device"
 msgstr "Urządzenie wideo"
 
-msgid "Install the zbar package to enable this."
-msgstr "Zainstaluj pakiet zbar, aby to włączyć."
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Rekord OpenAlias, służący do otrzymywania monet i podpisywania żądań płatności."
 
@@ -1657,6 +1645,9 @@ msgstr "Nie można podbić prowizji"
 
 msgid "Cannot cancel transaction"
 msgstr "Nie można anulować transakcji"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nie można podpisywać wiadomości przy użyciu tego typu adresu."
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "Prowizja dla tej transakcji wydaje się wyjątkowo wysoka."
@@ -2091,6 +2082,10 @@ msgstr "Podpisz"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Weryfikuj"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Błąd"
 
 msgctxt "SwapDialog|"
 msgid "Mining fee"
