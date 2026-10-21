@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:26\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -460,12 +460,6 @@ msgstr "هذه المحفظة ليس لها عبارة استرداد"
 msgid "QR code"
 msgstr "رمز QR"
 
-msgid "Invalid Bitcoin address."
-msgstr "عنوان بتكوين غير صالح."
-
-msgid "Address not in wallet."
-msgstr "العنوان ليس في المحفظة."
-
 msgid "Signature verified"
 msgstr "تم التحقق من التوقيع"
 
@@ -749,12 +743,6 @@ msgstr "الوحدة الاساسية لمحفظتك."
 msgid "Base unit"
 msgstr "الوحدة الاساسية"
 
-msgid "Light"
-msgstr "فاتح"
-
-msgid "Dark"
-msgstr "داكن"
-
 msgid "Fiat currency"
 msgstr "نوع العملة"
 
@@ -905,6 +893,9 @@ msgstr "قائمة العناوين"
 msgid "Invalid Bitcoin Address"
 msgstr "عنوان بتكوين غير صالح"
 
+msgid "Address not in wallet."
+msgstr "العنوان ليس في المحفظة."
+
 msgid "Unpaid"
 msgstr "غير مدفوع"
 
@@ -1036,12 +1027,6 @@ msgstr "للمزيد من المعلومات، قم بزيارة"
 msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
 msgstr "سيتم فرض رسوم رمزية على كل معاملة تقوم باستخدام الخادم عن بعد . ويمكنك التحقق من تفضيلات الفواتير الخاصة بك وتعديلها بمجرد الانتهاء من التثبيت."
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "كير غير متاح غير مسموح لك تصويره"
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "غير مسموح لك بالقيام  بكير تلف في البيانات"
-
 msgid "Color theme"
 msgstr "لون البرنامج"
 
@@ -1060,9 +1045,6 @@ msgstr "اختر مستكشف الكتل عبر الإنترنت الذي تري
 msgid "Video Device"
 msgstr "جهاز الفيديو"
 
-msgid "Install the zbar package to enable this."
-msgstr "قم بتثبيت حزمة zbar لتمكينها."
-
 msgid "Automatically check for software updates"
 msgstr "التحقق تلقائياً من وجود تحديثات"
 
@@ -1080,6 +1062,9 @@ msgstr "ملف المحفظة تالف. يرجى استعادة محفظتك ع�
 
 msgid "Signed"
 msgstr "تم التوقيع"
+
+msgid "Invalid Bitcoin address."
+msgstr "عنوان بتكوين غير صالح."
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -1396,6 +1381,10 @@ msgstr "وقع"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "تحقق"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "خطأ"
 
 msgctxt "SwapDialog|"
 msgid "Cancel"

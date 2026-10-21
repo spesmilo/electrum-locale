@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "Отсутствует URL отчета."
 
 msgid "Thanks for reporting this issue!"
 msgstr "Спасибо, что сообщили об этой проблеме!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "неизвестный парсер {!r} (варианты: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Непредвиденная версия хэша пароля"
@@ -187,14 +184,14 @@ msgstr "Действительно удалить этот кошелёк?"
 msgid "Problem deleting wallet"
 msgstr "Проблема при удалении кошелька"
 
+msgid "This invoice has expired"
+msgstr "Срок действия этого счета истек"
+
 msgid "Payment failed: "
 msgstr "Платёж не прошел: "
 
 msgid "Enter the amount you want to send"
 msgstr "Введите сумму, которую хотите отправить"
-
-msgid "This invoice has expired"
-msgstr "Срок действия этого счета истек"
 
 msgid "Paid!"
 msgstr "Оплачено!"
@@ -1222,24 +1219,6 @@ msgstr "QR-код"
 msgid "Script type"
 msgstr "Тип скрипта"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Подписание с адресом на самом деле означает подписание с соответствующим приватным ключем и проверку соответствующего публичного ключа. Адрес, который вы ввели, не имеет уникального публичного ключа, поэтому эти операции не могут быть выполнены."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Операция не определена. Не только в Electrum, а вообще."
-
-msgid "Invalid Bitcoin address."
-msgstr "Неверный биткойн адрес."
-
-msgid "This is a watching-only wallet."
-msgstr "Этот кошелёк только для просмотра."
-
-msgid "Address not in wallet."
-msgstr "Адрес отсутствует в кошельке."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Невозможно подписать сообщение от адреса этого типа:"
-
 msgid "Signature verified"
 msgstr "Подпись проверена"
 
@@ -1257,9 +1236,6 @@ msgstr "Подписать"
 
 msgid "Verify"
 msgstr "Подтвердить"
-
-msgid "Invalid Public key"
-msgstr "Неверный публичный ключ"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Зашифровать/расшифровать Сообщение"
@@ -1383,9 +1359,6 @@ msgstr "Пожалуйста, перезапустите Electrum для акт�
 
 msgid "Are you sure you want to close Electrum?"
 msgstr "Вы уверены, что хотите закрыть Electrum?"
-
-msgid "An ongoing operation requires you to stay online."
-msgstr "Текущая операция требует, чтобы вы оставались в сети."
 
 msgid "Child Pays for Parent"
 msgstr "Потомок Платит за Родителя"
@@ -1543,6 +1516,9 @@ msgstr "Автор"
 msgid "Requires"
 msgstr "Требуется"
 
+msgid "Upgrade"
+msgstr "Обновить"
+
 msgid "Disable"
 msgstr "Отключить"
 
@@ -1570,9 +1546,6 @@ msgstr "Неверный пароль."
 msgid "Auto-Setup successful. You can now install plugins."
 msgstr "Авто настройка прошла успешно. Теперь, вы можете установить плагины."
 
-msgid "Plugin already installed."
-msgstr "Плагин уже установлен."
-
 msgid "Remove plugin '{}'?"
 msgstr "Удалить плагин '{}'?"
 
@@ -1596,9 +1569,6 @@ msgstr "Копировать текст"
 
 msgid "Save"
 msgstr "Сохранить"
-
-msgid "QR Reader Error"
-msgstr "Ошибка чтения QR кода"
 
 msgid "Scan QR Code"
 msgstr "Сканировать QR код"
@@ -1879,12 +1849,6 @@ msgstr "Эта настройка влияет на вкладку \"Отпра�
 
 msgid "Base unit"
 msgstr "Валюта"
-
-msgid "Light"
-msgstr "Светлая"
-
-msgid "Dark"
-msgstr "Тёмная"
 
 msgid "This option is only available on Windows"
 msgstr "Эта опция доступна только для Windows"
@@ -2540,6 +2504,9 @@ msgstr "Не удалось разобрать текст из буфера об
 msgid "Invalid Bitcoin Address"
 msgstr "Неверный адрес Bitcoin"
 
+msgid "Address not in wallet."
+msgstr "Адрес отсутствует в кошельке."
+
 msgid "Missing libraries for {}."
 msgstr "Отсутствуют библиотеки для {}."
 
@@ -2791,9 +2758,6 @@ msgstr "Дата сборки"
 
 msgid "Bootloader"
 msgstr "Загрузчик"
-
-msgid "Upgrade"
-msgstr "Обновить"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "Ошибка коммуникации. Отключите и подключите заново ваш Digital Bitbox."
@@ -3529,9 +3493,6 @@ msgstr "Это сервис использует кошелек с нескол�
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Введите seed-фразу для вашего кошелька с двухфакторной аутентификацией:"
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Не удается запустить сканер QR: ошибка инициализации."
-
 msgid "Select server automatically"
 msgstr "Выбрать сервер автоматически"
 
@@ -3598,9 +3559,6 @@ msgstr "Видео устройство"
 
 msgid "For scanning QR codes."
 msgstr "Для сканирования QR кодов"
-
-msgid "Install the zbar package to enable this."
-msgstr "Установите zbar пакет, чтобы использовать это."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Запись OpenAlias (открытый псевдоним), используемая для получения монет и подписывания платежных запросов."
@@ -3763,6 +3721,24 @@ msgstr "Не удалось найти подходящий выход"
 
 msgid "Could not find coins for output"
 msgstr "Не удалось найти монеты для вывода "
+
+msgid "Invalid Bitcoin address."
+msgstr "Неверный биткойн адрес."
+
+msgid "This is a watching-only wallet."
+msgstr "Этот кошелёк только для просмотра."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Невозможно подписать сообщение от адреса этого типа:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Подписание с адресом на самом деле означает подписание с соответствующим приватным ключем и проверку соответствующего публичного ключа. Адрес, который вы ввели, не имеет уникального публичного ключа, поэтому эти операции не могут быть выполнены."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Операция не определена. Не только в Electrum, а вообще."
+
+msgid "Invalid Public key"
+msgstr "Неверный публичный ключ"
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "Комиссия за эту транзакцию кажется необычно высокой."
@@ -4759,6 +4735,10 @@ msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Вставить"
 
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "Ок"
+
 msgctxt "ServerConfig|"
 msgid "Server"
 msgstr "Сервер"
@@ -4818,6 +4798,10 @@ msgstr "Подписать"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Подтвердить"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Ошибка"
 
 msgctxt "SwapDialog|"
 msgid "You send"
@@ -5276,16 +5260,16 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "Недостаточный баланс для оплаты через Lightning. Оплатить on-chain?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "Невозможно импортировать резервную копию канала, Lightning не включён."
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Подтвердить платёж"
 
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Кошельки"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "поиск"
 
 msgctxt "Wallets|"
 msgid "Current"

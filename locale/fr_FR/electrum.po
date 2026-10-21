@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -43,8 +43,8 @@ msgstr "Ne pas saisir d'informations sensibles/privées ici. Le rapport sera vis
 msgid "Missing report URL."
 msgstr "URL de rapport manquante."
 
-msgid "unknown parser {!r} (choices: {})"
-msgstr "parseur inconnu {!r} (choix : {})"
+msgid "Thanks for reporting this issue!"
+msgstr "Merci d'avoir signalé l'erreur !"
 
 msgid "Unexpected password hash version"
 msgstr "Version de hachage du mot de passe inattendue"
@@ -82,6 +82,9 @@ msgstr "Dans le prochain bloc"
 msgid "Within one day"
 msgstr "En une journée"
 
+msgid "Within one week"
+msgstr "En une semaine"
+
 msgid "Within {} blocks"
 msgstr "Dans les {} blocs"
 
@@ -100,8 +103,68 @@ msgstr "Estimation"
 msgid "{} from tip"
 msgstr "{} depuis la pointe"
 
+msgid "&Undo"
+msgstr "&Annuler"
+
+msgid "&Redo"
+msgstr "&Rétablir"
+
+msgid "Cu&t"
+msgstr "Cou&per"
+
+msgid "&Copy"
+msgstr "&Copier"
+
+msgid "&Paste"
+msgstr "&Coller"
+
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+msgid "Copy &Link Location"
+msgstr "Copier l'adresse du &lien"
+
+msgid "Cannot draw QR code"
+msgstr "Impossible de d'afficher le QR code"
+
+msgid "Not enough space available."
+msgstr "Pas assez d'espace disponible."
+
+msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
+msgstr "Votre nœud négociera les frais de transaction avec le nœud distant. Cette méthode de fermeture du canal permet généralement d'obtenir les frais les plus bas."
+
+msgid "If you request a force-close, your node will pretend that it has lost its data and ask the remote node to broadcast their latest state. Doing so from time to time helps make sure that nodes are honest, because your node can punish them if they broadcast a revoked state."
+msgstr "Si vous demandez une fermeture forcée, votre nœud simulera une perte de diffusion et demandera au nœud distant de diffuser son état le plus récent. Cette action ponctuelle permet de garantir l'honnêteté des nœuds, car votre nœud peut les sanctionner s'ils diffusent un état révoqué."
+
+msgid ""
+"The channel you created is not recoverable from seed.\n"
+"To prevent fund losses, please save this backup on another device.\n"
+"It may be imported in another Electrum wallet with the same seed."
+msgstr ""
+"Le canal que vous avez créé ne peut pas être récupéré à partir de la graine.\n"
+"Pour éviter toute perte de fonds, veuillez enregistrer cette sauvegarde sur un autre appareil.\n"
+"Elle peut être importé dans un autre portefeuille Electrum avec la même phrase de récupération."
+
 msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
 msgstr "Electrum utilise des sauvegardes de canaux statiques. Si vous perdez votre fichier de portefeuille, vous devrez demander à ce que votre canal soit fermé de force par la pair à distance afin de récupérer vos fonds. Cela suppose que la pair à distance est joignable et qu'il n'a pas perdu ses propres données."
+
+msgid "Warning: Third-party plugins have access to your wallet!"
+msgstr "Avertissement : des plugins tiers ont accès à votre portefeuille !"
+
+msgid "Installing this plugin will grant third-party software access to your wallet. You must trust the plugin not to be malicious."
+msgstr "L'installation de ce plugin autorisera un logiciel tiers à accéder à votre portefeuille. Vous devez vous assurer que le plugin n'est pas malveillant."
+
+msgid "You should at minimum check who the author of the plugin is, and be careful of imposters."
+msgstr "Vous devriez au minimum vérifier qui est l'auteur du plugin et vous méfier des imposteurs."
+
+msgid "Third-party plugins are not endorsed by Electrum."
+msgstr "Electrum n'approuve pas les plugins tiers."
+
+msgid "Electrum will not be responsible in case of theft, loss of funds or privacy that might result from third-party plugins."
+msgstr "Electrum ne sera pas responsable en cas de vol, de perte de fonds ou d'atteinte à la vie privée pouvant résulter de plugins tiers."
+
+msgid "To install this plugin, please enter your plugin authorization password"
+msgstr "Pour installer ce plugin, veuillez saisir votre mot de passe d'autorisation de plugin"
 
 msgid ""
 "Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n"
@@ -114,6 +177,15 @@ msgstr ""
 
 msgid "Channel backups can be imported in another instance of the same wallet."
 msgstr "Les sauvegardes des canaux peuvent être importées dans une autre instance du même portefeuille."
+
+msgid "Auto-connect"
+msgstr "Connexion automatique"
+
+msgid "Manual server selection"
+msgstr "Sélection du serveur manuellement"
+
+msgid "Connect only to a single server"
+msgstr "Se connecter a un seul serveur uniquement"
 
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Essayez d'augmenter vos frais de transaction ou utilisez un serveur avec un frais de relai plus bas."
@@ -130,11 +202,35 @@ msgstr "Pendant cette période, les fonds ne pourront pas être récupérés à 
 msgid "Could not close channel: "
 msgstr "Impossible de fermer le canal : "
 
+msgid "Minimum required amount: {}"
+msgstr "Montant minimum requis : {}"
+
 msgid "Could not connect to channel peer"
 msgstr "Impossible de se connecter au canal pair"
 
+msgid "File not found"
+msgstr "Fichier non trouvé"
+
+msgid "Could not read/write file"
+msgstr "Impossible de lire/écrire le fichier"
+
+msgid "Problem deleting wallet"
+msgstr "Problème lors de la suppression du portefeuille"
+
 msgid "This invoice has expired"
 msgstr "Cette facture a expiré"
+
+msgid "broadcasting"
+msgstr "diffusion"
+
+msgid "broadcast successfully"
+msgstr "diffusion réussie"
+
+msgid "waiting for confirmation"
+msgstr "en attente de confirmation"
+
+msgid "Payment failed: "
+msgstr "Échec du paiement :"
 
 msgid "Paid!"
 msgstr "Payé !"
@@ -1024,24 +1120,6 @@ msgstr "QR code"
 msgid "Script type"
 msgstr "Type de script"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Signer avec une adresse signifie en réalité signer avec la clé privée correspondante et vérifier avec la clé publique correspondante. L'adresse que vous avez entrée n'a pas de clé publique unique ainsi ces opérations ne peuvent pas être effectuées."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Cette opération est indéfinie. Pas uniquement dans Electrum mais en général."
-
-msgid "Invalid Bitcoin address."
-msgstr "Adresse Bitcoin invalide."
-
-msgid "This is a watching-only wallet."
-msgstr "Ceci est un portefeuille spectateur."
-
-msgid "Address not in wallet."
-msgstr "L'adresse n'est pas dans le portefeuille."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Impossible de signer des messages avec ce type d’adresse :"
-
 msgid "Signature verified"
 msgstr "Signature vérifiée"
 
@@ -1059,9 +1137,6 @@ msgstr "Signer"
 
 msgid "Verify"
 msgstr "Vérifier"
-
-msgid "Invalid Public key"
-msgstr "Clé publique invalide"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Chiffrer / déchiffrer un message"
@@ -1317,6 +1392,9 @@ msgstr "Veuillez saisir votre mot de passe"
 
 msgid "Requires"
 msgstr "Requiert"
+
+msgid "Upgrade"
+msgstr "Mettre à jour"
 
 msgid "Enable"
 msgstr "Activer"
@@ -1588,12 +1666,6 @@ msgstr "Ce paramètre affecte l'onglet Envoyer et tous les champs relatifs à la
 
 msgid "Base unit"
 msgstr "Unité de base"
-
-msgid "Light"
-msgstr "Clair"
-
-msgid "Dark"
-msgstr "Sombre"
 
 msgid "Custom URL"
 msgstr "URL personnalisée"
@@ -2150,6 +2222,9 @@ msgstr "Impossible d'analyser le texte du presse-papiers"
 msgid "Invalid Bitcoin Address"
 msgstr "Adresse Bitcoin invalide"
 
+msgid "Address not in wallet."
+msgstr "L'adresse n'est pas dans le portefeuille."
+
 msgid "Missing libraries for {}."
 msgstr "Bibliothèques manquantes pour {}."
 
@@ -2374,9 +2449,6 @@ msgstr "Date de compilation"
 
 msgid "Bootloader"
 msgstr "Amorçage"
-
-msgid "Upgrade"
-msgstr "Mettre à jour"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "Erreur de communication avec l'appareil. Veuillez rebrancher votre Digital Bitbox."
@@ -3026,9 +3098,6 @@ msgstr "Ce service utilises portefeuille à signatures multiples dans lequel vou
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Entrer la graine pour votre portefeuille 2-facteurs :"
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Impossible de lancer le scanner QR : l'initialisation a échoué."
-
 msgid "Select server automatically"
 msgstr "Sélectionner un serveur automatiquement"
 
@@ -3108,9 +3177,6 @@ msgstr "Appareil vidéo"
 
 msgid "For scanning QR codes."
 msgstr "Pour scanner des codes QR."
-
-msgid "Install the zbar package to enable this."
-msgstr "Installez le paquet zbar pour activer ceci."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Enregistrement OpenAlias, utilisé pour recevoir de l'argent et signer les ordres de paiement."
@@ -3225,6 +3291,24 @@ msgstr "Impossible de trouver une sortie appropriée"
 
 msgid "Could not find coins for output"
 msgstr "Impossible de trouver des monnaies pour la sortie"
+
+msgid "Invalid Bitcoin address."
+msgstr "Adresse Bitcoin invalide."
+
+msgid "This is a watching-only wallet."
+msgstr "Ceci est un portefeuille spectateur."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Impossible de signer des messages avec ce type d’adresse :"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Signer avec une adresse signifie en réalité signer avec la clé privée correspondante et vérifier avec la clé publique correspondante. L'adresse que vous avez entrée n'a pas de clé publique unique ainsi ces opérations ne peuvent pas être effectuées."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Cette opération est indéfinie. Pas uniquement dans Electrum mais en général."
+
+msgid "Invalid Public key"
+msgstr "Clé publique invalide"
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "Les frais pour cette transaction semblent anormalement élevés."
@@ -3931,6 +4015,10 @@ msgctxt "ScanDialog|"
 msgid "Cancel"
 msgstr "Annuler"
 
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "Ok"
+
 msgctxt "ServerConfig|"
 msgid "Server"
 msgstr "Serveur"
@@ -3950,6 +4038,18 @@ msgstr "Réglages serveur"
 msgctxt "ServerConfigDialog|"
 msgid "Ok"
 msgstr "Ok"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Auto-connect"
+msgstr "Connexion automatique"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Manual server selection"
+msgstr "Sélection du serveur manuellement"
+
+msgctxt "ServerConnectModeComboBox|"
+msgid "Connect only to a single server"
+msgstr "Se connecter a un seul serveur uniquement"
 
 msgctxt "ServerConnectWizard|"
 msgid "Network configuration"
@@ -3978,6 +4078,10 @@ msgstr "Signer"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Vérifier"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Erreur"
 
 msgctxt "SwapDialog|"
 msgid "Mining fee"

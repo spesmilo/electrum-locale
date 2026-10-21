@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -778,15 +778,6 @@ msgstr "Esta carteira não tem semente"
 msgid "QR code"
 msgstr "Código QR"
 
-msgid "Invalid Bitcoin address."
-msgstr "Endereço Bitcoin inválido."
-
-msgid "Address not in wallet."
-msgstr "O endereço não está na carteira."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Não é possível assinar mensagens com este tipo de endereço:"
-
 msgid "Signature verified"
 msgstr "Assinatura verificada"
 
@@ -804,9 +795,6 @@ msgstr "Assinar"
 
 msgid "Verify"
 msgstr "Verificar"
-
-msgid "Invalid Public key"
-msgstr "Chave pública inválida"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Encriptar/desencriptar mensagem"
@@ -1045,6 +1033,9 @@ msgstr "Por favor, digite a sua palavra-passe"
 msgid "Requires"
 msgstr "Requer"
 
+msgid "Upgrade"
+msgstr "Atualizar"
+
 msgid "Enable"
 msgstr "Ativar"
 
@@ -1258,9 +1249,6 @@ msgstr "Unidade base da sua carteira."
 
 msgid "Base unit"
 msgstr "Unidade base"
-
-msgid "Dark"
-msgstr "Escuro"
 
 msgid "Custom URL"
 msgstr "URL personalizado"
@@ -1589,6 +1577,9 @@ msgstr "[Limpar]"
 msgid "Invalid Bitcoin Address"
 msgstr "Endereço Bitcoin inválido"
 
+msgid "Address not in wallet."
+msgstr "O endereço não está na carteira."
+
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "A quantia para a saída OP_RETURN tem ser zero."
 
@@ -1708,9 +1699,6 @@ msgstr "Data da compilação"
 
 msgid "Bootloader"
 msgstr "Bootloader"
-
-msgid "Upgrade"
-msgstr "Atualizar"
 
 msgid "Password must have at least 4 characters."
 msgstr "A palavra-passe deve ter no mínimo 4 caracteres."
@@ -2055,9 +2043,6 @@ msgstr "Selecione qual o explorador de blocos online a usar para funções que a
 msgid "Video Device"
 msgstr "Dispositivo de Vídeo"
 
-msgid "Install the zbar package to enable this."
-msgstr "Instale o pacote zbar para ativar esta função."
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Registo OpenAlias, utilizado para receber Bitcoins e assinar pedidos de pagamento."
 
@@ -2123,6 +2108,15 @@ msgstr "Não assinado"
 
 msgid "Partially signed"
 msgstr "Parcialmente assinado"
+
+msgid "Invalid Bitcoin address."
+msgstr "Endereço Bitcoin inválido."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Não é possível assinar mensagens com este tipo de endereço:"
+
+msgid "Invalid Public key"
+msgstr "Chave pública inválida"
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "A taxa para esta transação parece extraordinariamente alta."
@@ -2620,6 +2614,10 @@ msgstr "Assinar"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verificar"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Erro"
 
 msgctxt "SwapDialog|"
 msgid "You send"

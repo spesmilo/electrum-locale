@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Latin)\n"
 "Language: sr_CS\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -44,9 +44,6 @@ msgid "Missing report URL."
 msgstr ""
 
 msgid "Thanks for reporting this issue!"
-msgstr ""
-
-msgid "unknown parser {!r} (choices: {})"
 msgstr ""
 
 msgid "Unexpected password hash version"
@@ -356,12 +353,6 @@ msgstr ""
 msgid "Error renaming wallet:\n"
 msgstr ""
 
-msgid "Payment failed: "
-msgstr ""
-
-msgid "Enter the amount you want to send"
-msgstr ""
-
 msgid "This invoice has expired"
 msgstr ""
 
@@ -381,6 +372,12 @@ msgid "waiting for confirmation"
 msgstr ""
 
 msgid "Invoice has unknown status"
+msgstr ""
+
+msgid "Payment failed: "
+msgstr ""
+
+msgid "Enter the amount you want to send"
 msgstr ""
 
 msgid "Paid!"
@@ -414,12 +411,6 @@ msgid "Could not resolve LNURL"
 msgstr ""
 
 msgid "Could not resolve"
-msgstr ""
-
-msgid "The platform QR detection library is not available."
-msgstr ""
-
-msgid "Scan a QR code."
 msgstr ""
 
 msgid "Failed to create payment request for withdrawal: {}"
@@ -462,6 +453,9 @@ msgid "Swap failed!"
 msgstr ""
 
 msgid "Swap cancelled"
+msgstr ""
+
+msgid "Swap was already funded, refusing to cancel"
 msgstr ""
 
 msgid "Timeout"
@@ -1103,7 +1097,7 @@ msgstr ""
 msgid "Fee estimates not available. Please set a fixed fee or feerate."
 msgstr ""
 
-msgid "Lightning is not enabled."
+msgid "Change stays on-chain (Lightning not enabled)."
 msgstr ""
 
 msgid "This transaction will spend unconfirmed coins."
@@ -1967,24 +1961,6 @@ msgstr ""
 msgid "Script type"
 msgstr ""
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr ""
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr ""
-
-msgid "Invalid Bitcoin address."
-msgstr ""
-
-msgid "This is a watching-only wallet."
-msgstr ""
-
-msgid "Address not in wallet."
-msgstr ""
-
-msgid "Cannot sign messages with this type of address:"
-msgstr ""
-
 msgid "Signature verified"
 msgstr ""
 
@@ -2001,9 +1977,6 @@ msgid "Sign"
 msgstr ""
 
 msgid "Verify"
-msgstr ""
-
-msgid "Invalid Public key"
 msgstr ""
 
 msgid "Encrypt/decrypt Message"
@@ -2138,7 +2111,7 @@ msgstr ""
 msgid "Are you sure you want to close Electrum?"
 msgstr ""
 
-msgid "An ongoing operation requires you to stay online."
+msgid "An ongoing operation requires you to stay online:"
 msgstr ""
 
 msgid "Pending channel force-close"
@@ -2366,7 +2339,13 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
+msgid "Installed version"
+msgstr ""
+
 msgid "Requires"
+msgstr ""
+
+msgid "Upgrade"
 msgstr ""
 
 msgid "Disable"
@@ -2441,14 +2420,16 @@ msgstr ""
 msgid "Select your plugin zipfile"
 msgstr ""
 
-msgid "Plugin already installed."
+msgid "Plugin {} already installed."
 msgstr ""
 
-msgid "Could not copy plugin file {} into directory {}:\n\n"
-"{}"
+msgid "Please restart Electrum to use the new version."
 msgstr ""
 
 msgid "Remove plugin '{}'?"
+msgstr ""
+
+msgid "Please restart Electrum to finish removing the plugin."
 msgstr ""
 
 msgid "Select where to save file"
@@ -2472,10 +2453,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-msgid "QR Reader Error"
-msgstr ""
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
+msgid "QR scanning requires Qt Multimedia, which failed to load:"
 msgstr ""
 
 msgid "Missing camera permission."
@@ -2493,16 +2471,13 @@ msgstr ""
 msgid "Cannot start QR scanner, no usable camera found."
 msgstr ""
 
+msgid "The QR code does not contain valid UTF-8 text."
+msgstr ""
+
 msgid "Too few QR codes detected."
 msgstr ""
 
 msgid "Too many QR codes detected."
-msgstr ""
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr ""
-
-msgid "QR code scanner failed to map video frame"
 msgstr ""
 
 msgid "Show as QR code"
@@ -2981,10 +2956,7 @@ msgstr ""
 msgid "Base unit"
 msgstr ""
 
-msgid "Light"
-msgstr ""
-
-msgid "Dark"
+msgid "System"
 msgstr ""
 
 msgid "This option is only available on Windows"
@@ -4002,6 +3974,9 @@ msgstr ""
 msgid "Invalid Bitcoin Address"
 msgstr ""
 
+msgid "Address not in wallet."
+msgstr ""
+
 msgid "Missing libraries for {}."
 msgstr ""
 
@@ -4145,6 +4120,33 @@ msgstr ""
 msgid "Hostname does not resolve (getaddrinfo failed)"
 msgstr ""
 
+msgid "Outdated channel backups"
+msgstr ""
+
+msgid "This wallet contains old (v0) channel backups that can only be used to recover channel funds in some scenarios. They were exported with an older version of Electrum."
+msgstr ""
+
+msgid "Please import new backups, exported by the wallet these channels belong to."
+msgstr ""
+
+msgid "The Lightning channels of this wallet cannot be recovered from seed."
+msgstr ""
+
+msgid "Channel backups that were exported with an older version of Electrum cannot be used to request a force close of these channels."
+msgstr ""
+
+msgid "Please export new channel backups and store them in a safe place."
+msgstr ""
+
+msgid "Unusable channel backups"
+msgstr ""
+
+msgid "This wallet contains old (v2) channel backups that cannot be used to request a force close, because they were exported with an older version of Electrum."
+msgstr ""
+
+msgid "If you have lost access to that wallet, please open an issue on GitHub."
+msgstr ""
+
 msgid "Forwarding"
 msgstr ""
 
@@ -4176,6 +4178,12 @@ msgid "Missing amount"
 msgstr ""
 
 msgid "Invoice wants us to risk locking funds for unreasonably long."
+msgstr ""
+
+msgid "You already have a newer version of this backup in your wallet."
+msgstr ""
+
+msgid "The channel backup you imported cannot be used to request a force close. Please generate a new backup. If you lost your wallet data, please open an issue on GitHub."
 msgstr ""
 
 msgid "Please enable gossip"
@@ -4322,6 +4330,9 @@ msgstr ""
 msgid "Export multisig to Coldcard via USB"
 msgstr ""
 
+msgid "{} not connected."
+msgstr ""
+
 msgid "Wallet setup file '{}' imported successfully."
 msgstr ""
 
@@ -4353,9 +4364,6 @@ msgid "Build Date"
 msgstr ""
 
 msgid "Bootloader"
-msgstr ""
-
-msgid "Upgrade"
 msgstr ""
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
@@ -5456,13 +5464,7 @@ msgstr ""
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr ""
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr ""
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr ""
-
-msgid "Make sure you have a camera connected and enabled."
+msgid "The QR detection library is not available."
 msgstr ""
 
 msgid "Select server automatically"
@@ -5506,7 +5508,7 @@ msgstr ""
 msgid "Send change to Lightning"
 msgstr ""
 
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
+msgid "When possible, send transaction change to your Lightning balance using a swap. Swap fees apply. Otherwise, change stays on-chain."
 msgstr ""
 
 msgid "Submarine Payments"
@@ -5621,7 +5623,7 @@ msgstr ""
 msgid "For scanning QR codes."
 msgstr ""
 
-msgid "Install the zbar package to enable this."
+msgid "QR scanning requires Qt Multimedia and zxing-cpp."
 msgstr ""
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
@@ -5708,31 +5710,37 @@ msgstr ""
 msgid "The swap server errored or is unreachable."
 msgstr ""
 
-msgid "Fetching submarine swap providers..."
+msgid "Fetching swap providers..."
 msgstr ""
 
-msgid "Will send change to lightning"
+msgid "Change stays on-chain"
+msgstr ""
+
+msgid "Sending change to Lightning balance"
 msgstr ""
 
 msgid "Swap fees:"
 msgstr ""
 
-msgid "No change output, so no need for swap"
+msgid "change amount is larger than your Lightning receive capacity"
 msgstr ""
 
-msgid "Your channels cannot receive this amount."
+msgid "amount below the swap provider's minimum value of {}"
 msgstr ""
 
-msgid "Below the swap providers minimum value of {}."
+msgid "amount exceeds the swap provider's maximum value of {}"
 msgstr ""
 
-msgid "Change amount exceeds the swap providers maximum value of {}."
+msgid "the configured swap provider is not available"
 msgstr ""
 
-msgid "Will not send change to Lightning"
+msgid "select a swap provider if you want to send it to Lightning"
 msgstr ""
 
 msgid "Total swap costs are insane."
+msgstr ""
+
+msgid "Mining fee prepayment requested by the swap provider is insane."
 msgstr ""
 
 msgid "Swap amount outside of providers limits"
@@ -5915,6 +5923,30 @@ msgstr ""
 msgid "The output value remaining after fee is too low."
 msgstr ""
 
+msgid "Invalid Bitcoin address."
+msgstr ""
+
+msgid "This is a watching-only wallet."
+msgstr ""
+
+msgid "Cannot sign messages with this type of address:"
+msgstr ""
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr ""
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr ""
+
+msgid "Decrypting messages is currently not implemented for multisig wallets."
+msgstr ""
+
+msgid "Pubkey unrelated to wallet."
+msgstr ""
+
+msgid "Invalid Public key"
+msgstr ""
+
 msgid "The fee could not be verified!"
 msgstr ""
 
@@ -5932,6 +5964,9 @@ msgstr ""
 
 msgid "If you received this transaction from an untrusted device, do not accept to sign it more than once,\n"
 "otherwise you could end up paying a different fee."
+msgstr ""
+
+msgid "Input {} is using an unknown sighash."
 msgstr ""
 
 msgid "Input {} is marked SIGHASH_NONE."
@@ -6001,6 +6036,9 @@ msgid "You may have enough capacity if you swap some of your funds."
 msgstr ""
 
 msgid "({} are frozen)"
+msgstr ""
+
+msgid "{} new transactions"
 msgstr ""
 
 msgid "{} new transactions:"
@@ -6840,7 +6878,15 @@ msgid "Yesterday"
 msgstr ""
 
 msgctxt "History|"
+msgid "Earlier this week"
+msgstr ""
+
+msgctxt "History|"
 msgid "Last week"
+msgstr ""
+
+msgctxt "History|"
+msgid "Earlier this month"
 msgstr ""
 
 msgctxt "History|"
@@ -7804,7 +7850,19 @@ msgid "Never"
 msgstr ""
 
 msgctxt "ScanDialog|"
+msgid "Scan a QR code."
+msgstr ""
+
+msgctxt "ScanDialog|"
 msgid "Cancel"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Cannot import Channel Backup, Lightning not enabled."
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
 msgstr ""
 
 msgctxt "SendDialog|"
@@ -7816,7 +7874,27 @@ msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
 msgstr ""
 
 msgctxt "SendDialog|"
+msgid "Enter manually"
+msgstr ""
+
+msgctxt "SendDialog|"
 msgid "Paste"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Clipboard is empty"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Enter recipient"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Recipient"
+msgstr ""
+
+msgctxt "SendDialog|"
+msgid "Ok"
 msgstr ""
 
 msgctxt "ServerConfig|"
@@ -7905,6 +7983,10 @@ msgstr ""
 
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
+msgstr ""
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
 msgstr ""
 
 msgctxt "SwapDialog|"
@@ -8808,18 +8890,6 @@ msgid "Failed to update biometric authentication to new password: "
 msgstr ""
 
 msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
-msgstr ""
-
-msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
-msgstr ""
-
-msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr ""
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr ""
 
@@ -8921,10 +8991,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr ""
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr ""
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr ""
 
@@ -8950,6 +9016,10 @@ msgstr ""
 
 msgctxt "Wallets|"
 msgid "Wallets"
+msgstr ""
+
+msgctxt "Wallets|"
+msgid "search"
 msgstr ""
 
 msgctxt "Wallets|"

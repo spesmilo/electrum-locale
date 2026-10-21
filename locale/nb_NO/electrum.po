@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -429,12 +429,6 @@ msgstr "This wallet has no seed"
 
 msgid "QR code"
 msgstr "QR kode"
-
-msgid "Address not in wallet."
-msgstr "Adressen er ikke i wallet'en"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Kan ikke signere meldinger med denne typen adresse:"
 
 msgid "Signature verified"
 msgstr "Signature verified"
@@ -868,6 +862,9 @@ msgstr "Kunne ikke analysere tekst fra utklippstavlen"
 msgid "Invalid Bitcoin Address"
 msgstr "Invalid Bitcoin Address"
 
+msgid "Address not in wallet."
+msgstr "Adressen er ikke i wallet'en"
+
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "Beløpet for OP_RETURN-utdata må være null."
 
@@ -1052,9 +1049,6 @@ msgstr "Opprett eller gjenopprett"
 msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
 msgstr "Et lite gebyr vil påløpe for hver transaksjon som bruker serveren. Du kan når som helst sjekke og endre betalingsdetaljene dine når installasjonen er fullført."
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Kan ikke starte QR-skanner: initialisering mislyktes."
-
 msgid "Zeros after decimal point"
 msgstr "Zeros after decimal point"
 
@@ -1096,6 +1090,9 @@ msgstr "Kunne ikke finne passende utdata"
 
 msgid "Could not find coins for output"
 msgstr "Kunne ikke finne mynter for utdata"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Kan ikke signere meldinger med denne typen adresse:"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -1436,6 +1433,10 @@ msgstr "Sign"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verify"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Feil"
 
 msgctxt "SwapDialog|"
 msgid "Cancel"

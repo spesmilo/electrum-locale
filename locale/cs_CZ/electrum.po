@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "Chybějící URL zprávy."
 
 msgid "Thanks for reporting this issue!"
 msgstr "Děkujeme za nahlášení této chyby!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "neznámý parser {!r} (volby: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Neočekávaná verze hash hesla"
@@ -368,12 +365,6 @@ msgstr "Problém s mazáním peněženky"
 msgid "Error renaming wallet:\n"
 msgstr "Chyba při přejmenování peněženky:\n"
 
-msgid "Payment failed: "
-msgstr "Platba selhala: "
-
-msgid "Enter the amount you want to send"
-msgstr "Zadejte částku, kterou chcete poslat"
-
 msgid "This invoice has expired"
 msgstr "Platnost této faktury vypršela"
 
@@ -394,6 +385,12 @@ msgstr "čekání na potvrzení"
 
 msgid "Invoice has unknown status"
 msgstr "Faktura má neznámý stav"
+
+msgid "Payment failed: "
+msgstr "Platba selhala: "
+
+msgid "Enter the amount you want to send"
+msgstr "Zadejte částku, kterou chcete poslat"
 
 msgid "Paid!"
 msgstr "Zaplaceno!"
@@ -427,12 +424,6 @@ msgstr "Nelze vyřešit LNURL"
 
 msgid "Could not resolve"
 msgstr "Nepodařilo se vyřešit"
-
-msgid "The platform QR detection library is not available."
-msgstr "Platforma nemá k dispozici knihovnu pro rozpoznání QR."
-
-msgid "Scan a QR code."
-msgstr "Naskenujte QR kód."
 
 msgid "Failed to create payment request for withdrawal: {}"
 msgstr "Selhalo vytvoření platebního požadavku na výplatu: {}"
@@ -1114,9 +1105,6 @@ msgstr "Příprava transakce..."
 
 msgid "Fee estimates not available. Please set a fixed fee or feerate."
 msgstr "Odhad poplatku není k dispozici. Nastavte prosím pevný poplatek nebo jeho sazbu."
-
-msgid "Lightning is not enabled."
-msgstr "Lightning není zapnuto."
 
 msgid "This transaction will spend unconfirmed coins."
 msgstr "Tato transakce utratí neověřené mince."
@@ -1986,24 +1974,6 @@ msgstr "QR kód"
 msgid "Script type"
 msgstr "Typ scriptu"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Podepisování adresou ve skutečnosti znamená podepisování odpovídajícím soukromým klíčem a ověřování odpovídajícím veřejným klíčem. Zadaná adresa nemá jedinečný veřejný klíč, takže tyto operace nelze provést."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Operace není definována. Nejen v Electrum, ale obecně."
-
-msgid "Invalid Bitcoin address."
-msgstr "Neplatná Bitcoinová adresa."
-
-msgid "This is a watching-only wallet."
-msgstr "Toto je peněženka pouze pro prohlížení."
-
-msgid "Address not in wallet."
-msgstr "Adresa není v peněžence."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Nelze podepisovat zprávy s tímto typem adresy:"
-
 msgid "Signature verified"
 msgstr "Podpis ověřen"
 
@@ -2021,9 +1991,6 @@ msgstr "Podepsat"
 
 msgid "Verify"
 msgstr "Ověřit"
-
-msgid "Invalid Public key"
-msgstr "Neplatný veřejný klíč"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Šifrovat/dešifrovat zprávu"
@@ -2156,9 +2123,6 @@ msgstr "Pro aktivaci změn prosím restartujte Electrum"
 
 msgid "Are you sure you want to close Electrum?"
 msgstr "Opravdu chcete zavřít Electrum?"
-
-msgid "An ongoing operation requires you to stay online."
-msgstr "Právě probíhající operace vyžaduje, abyste zůstali připojeni k internetu."
 
 msgid "Pending channel force-close"
 msgstr "Probíhá nucené uzavření kanálu"
@@ -2388,6 +2352,9 @@ msgstr "Autor"
 msgid "Requires"
 msgstr "Požadavek"
 
+msgid "Upgrade"
+msgstr "Upgradovat"
+
 msgid "Disable"
 msgstr "Zakázat"
 
@@ -2460,18 +2427,6 @@ msgstr "Automatické nastavení bylo úspěšné. Nyní můžete nainstalovat pl
 msgid "Select your plugin zipfile"
 msgstr "Vyberte soubor zip vašeho pluginu"
 
-msgid "Plugin already installed."
-msgstr "Plugin je již nainstalován."
-
-msgid ""
-"Could not copy plugin file {} into directory {}:\n"
-"\n"
-"{}"
-msgstr ""
-"Nelze zkopírovat soubor pluginu {} do adresáře {}:\n"
-"\n"
-"{}"
-
 msgid "Remove plugin '{}'?"
 msgstr "Odebrat plugin '{}'?"
 
@@ -2496,12 +2451,6 @@ msgstr "Kopírovat Text"
 msgid "Save"
 msgstr "Uložit"
 
-msgid "QR Reader Error"
-msgstr "Chyba čtečky QR"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "Čtečku QR se nepodařilo načíst. K tomu může dojít, pokud používáte starší verzi PyQt."
-
 msgid "Missing camera permission."
 msgstr "Chybějící oprávnění k fotoaparátu."
 
@@ -2522,12 +2471,6 @@ msgstr "Zjištěno příliš málo QR kódů."
 
 msgid "Too many QR codes detected."
 msgstr "Zjištěno příliš mnoho QR kódů."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "Skener kódu QR pro snímek videa s neplatným formátem pixelů"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "Skener kódu QR nedokázal zmapovat snímek videa"
 
 msgid "Show as QR code"
 msgstr "Zobrazit jako QR kód"
@@ -3013,11 +2956,8 @@ msgstr "Toto nastavení ovlivňuje kartu Odeslat a všechna pole související s
 msgid "Base unit"
 msgstr "Základní jednotka"
 
-msgid "Light"
-msgstr "Světlý"
-
-msgid "Dark"
-msgstr "Tmavý"
+msgid "System"
+msgstr "Systém"
 
 msgid "This option is only available on Windows"
 msgstr "Tato možnost je dostupná jen na Windows"
@@ -4057,6 +3997,9 @@ msgstr "Nepodařilo se vložit text ze schránky"
 msgid "Invalid Bitcoin Address"
 msgstr "Neplatná Bitcoinová adresa"
 
+msgid "Address not in wallet."
+msgstr "Adresa není v peněžence."
+
 msgid "Missing libraries for {}."
 msgstr "Chybějící knihovny pro {}."
 
@@ -4424,9 +4367,6 @@ msgstr "Datum buildu"
 
 msgid "Bootloader"
 msgstr "Bootloader"
-
-msgid "Upgrade"
-msgstr "Upgradovat"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "Toto zařízení neodhaluje xpubs odpovídající netvrzeným cestám"
@@ -5321,6 +5261,9 @@ msgstr "Dokončete proces inicializace na svém zařízení {}"
 msgid "Please enter your passphrase on the {} device"
 msgstr "Zadejte svou bezpečnostní frázi na zařízení {}"
 
+msgid "Enter 6-digit pairing code:"
+msgstr "Zadejte 6-místný kód pro párování:"
+
 msgid "The PIN cannot be longer than {} characters."
 msgstr "PIN nesmí být delší než {} znaků."
 
@@ -5403,6 +5346,9 @@ msgstr ""
 
 msgid "Choose how you want to initialize your {}."
 msgstr "Vyberte, jak chcete inicializovat svůj {}."
+
+msgid "Trezor Pairing"
+msgstr "Párování trezoru"
 
 msgid "Please enter your Google Authenticator code:"
 msgstr "Zadejte prosím svůj kód Google Authenticator:"
@@ -5551,15 +5497,6 @@ msgstr "Tato služba používá vícepodpisovou peněženku, ve které vlastnít
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Zadejte seed pro vaši 2-faktorovou peněženku:"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "Nelze spustit QR skener: zbar není k dispozici."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Nelze spustit skener QR: inicializace se nezdařila."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "Zkontrolujte, zda máte připojenou a povolenou kameru."
-
 msgid "Select server automatically"
 msgstr "Vybrat server automaticky"
 
@@ -5608,9 +5545,6 @@ msgstr "Pokud je povoleno, v důsledku toho můžete ztrátit maximálně 100 sa
 
 msgid "Send change to Lightning"
 msgstr "Odesílat change na Lightning"
-
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "Pokud je to možné, pošlete změnu této transakce do svých kanálů, pomocí submarine swapu"
 
 msgid "Submarine Payments"
 msgstr "Submarine platby"
@@ -5758,9 +5692,6 @@ msgstr "Video zařízení"
 msgid "For scanning QR codes."
 msgstr "Pro skenování QR kódů."
 
-msgid "Install the zbar package to enable this."
-msgstr "Nainstalujte balíček zbar, aby bylo toto možné."
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias záznam, používán k obdržení mincí a k podepsání vyžádané platby."
 
@@ -5845,29 +5776,8 @@ msgstr "Neplatné mnemotechnické slovo"
 msgid "The swap server errored or is unreachable."
 msgstr "Na serveru swapu došlo k chybě nebo je nedostupný."
 
-msgid "Fetching submarine swap providers..."
-msgstr "Získávání poskytovatelů submarine swapu..."
-
-msgid "Will send change to lightning"
-msgstr "Odešle změnu do Lightning"
-
 msgid "Swap fees:"
 msgstr "Poplatky swapu:"
-
-msgid "No change output, so no need for swap"
-msgstr "Výstup beze změny, takže není potřeba swap"
-
-msgid "Your channels cannot receive this amount."
-msgstr "Vaše kanály nemohou obdržet tuto částku."
-
-msgid "Below the swap providers minimum value of {}."
-msgstr "Pod minimální hodnotou poskytovatele swapu, která je {}."
-
-msgid "Change amount exceeds the swap providers maximum value of {}."
-msgstr "Částka změny překračuje maximální hodnotou poskytovatele swapu, která je {}."
-
-msgid "Will not send change to Lightning"
-msgstr "Neodešle změnu do Lightning"
 
 msgid "Total swap costs are insane."
 msgstr "Celkové náklady na swap jsou šílené."
@@ -6051,6 +5961,24 @@ msgstr "Nelze najít mince pro výstup"
 
 msgid "The output value remaining after fee is too low."
 msgstr "Výstupní hodnota zbývající po zaplacení poplatku je příliš nízká."
+
+msgid "Invalid Bitcoin address."
+msgstr "Neplatná Bitcoinová adresa."
+
+msgid "This is a watching-only wallet."
+msgstr "Toto je peněženka pouze pro prohlížení."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nelze podepisovat zprávy s tímto typem adresy:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Podepisování adresou ve skutečnosti znamená podepisování odpovídajícím soukromým klíčem a ověřování odpovídajícím veřejným klíčem. Zadaná adresa nemá jedinečný veřejný klíč, takže tyto operace nelze provést."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Operace není definována. Nejen v Electrum, ale obecně."
+
+msgid "Invalid Public key"
+msgstr "Neplatný veřejný klíč"
 
 msgid "The fee could not be verified!"
 msgstr "Poplatek nemohl být ověřen!"
@@ -7956,6 +7884,10 @@ msgid "Cancel"
 msgstr "Zrušit"
 
 msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "Importovat zálohu kanálu?"
+
+msgctxt "SendDialog|"
 msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
 msgstr "Skenujte fakturu, adresu, LNURL, PSBT nebo zálohu kanálu"
 
@@ -7966,6 +7898,10 @@ msgstr "Skenujte fakturu, adresu, LNURL, nebo PSBT"
 msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Vložit"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "Ok"
 
 msgctxt "ServerConfig|"
 msgid "Connection mode"
@@ -8054,6 +7990,10 @@ msgstr "Podepsat"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Ověřit"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Chyba"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -8956,18 +8896,6 @@ msgid "Failed to update biometric authentication to new password: "
 msgstr "Aktualizace biometrického ověřování na nové heslo selhala:"
 
 msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
-msgstr "Skenujte fakturu, adresu, LNURL, PSBT nebo zálohu kanálu"
-
-msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
-msgstr "Skenujte fakturu, adresu, LNURL, nebo PSBT"
-
-msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "Importovat zálohu kanálu?"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "Varování: Některá data (předchozí transakce / „celé utxos“) byla z QR kódu vynechána, protože by se do něj nevešla."
 
@@ -9074,10 +9002,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "Nedostatečný zůstatek na zaplacení pomocí Lightning. Přejete si namísto toho zaplatit on-chain?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "Není možné importovat zálohu kanálu, Lightning není povoleno."
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Potvrdit platbu"
 
@@ -9104,6 +9028,10 @@ msgstr "Nepodařilo se podepsat tx"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Peněženky"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "vyhledat"
 
 msgctxt "Wallets|"
 msgid "Current"

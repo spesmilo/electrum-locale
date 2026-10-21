@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "URL para redirecionamento não informada."
 
 msgid "Thanks for reporting this issue!"
 msgstr "Obrigado por reportar este problema!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "parser {!r} desconhecido (opções: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Versão hash de senha inesperada"
@@ -340,12 +337,6 @@ msgstr "Quer realmente excluir esta carteira?"
 msgid "Problem deleting wallet"
 msgstr "Problema ao excluir a carteira"
 
-msgid "Payment failed: "
-msgstr "Pagamento falhou:"
-
-msgid "Enter the amount you want to send"
-msgstr "Digite a quantidade que você quer enviar"
-
 msgid "This invoice has expired"
 msgstr "Esta fatura expirou"
 
@@ -366,6 +357,12 @@ msgstr "Aguardando confirmação"
 
 msgid "Invoice has unknown status"
 msgstr "A fatura tem status desconhecido"
+
+msgid "Payment failed: "
+msgstr "Pagamento falhou:"
+
+msgid "Enter the amount you want to send"
+msgstr "Digite a quantidade que você quer enviar"
 
 msgid "Paid!"
 msgstr "Pago!"
@@ -393,12 +390,6 @@ msgstr "Não foi possível resolver LNURL"
 
 msgid "Could not resolve"
 msgstr "Não foi possível resolver"
-
-msgid "The platform QR detection library is not available."
-msgstr "A biblioteca de detecção de QR code da plataforma não está disponível."
-
-msgid "Scan a QR code."
-msgstr "Escanear um código QR."
 
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "Mova o controle deslizante para definir a quantidade e a direção da troca."
@@ -1832,24 +1823,6 @@ msgstr "Código QR"
 msgid "Script type"
 msgstr "Tipo de script"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Assinar com um endereço significa, na verdade, assinar com a chave privada correspondente e verificar com a chave pública correspondente. O endereço digitado não possui uma chave pública exclusiva, portanto, essas operações não podem ser executadas."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "A operação é indefinida. Não apenas na Electrum, mas em geral."
-
-msgid "Invalid Bitcoin address."
-msgstr "Endereço de bitcoin inválido."
-
-msgid "This is a watching-only wallet."
-msgstr "Esta é uma carteira somente para consulta."
-
-msgid "Address not in wallet."
-msgstr "O endereço não está na carteira."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Não é possível assinar mensagens com este tipo de endereço:"
-
 msgid "Signature verified"
 msgstr "Assinatura verificada"
 
@@ -1867,9 +1840,6 @@ msgstr "Assinar"
 
 msgid "Verify"
 msgstr "Verificar"
-
-msgid "Invalid Public key"
-msgstr "Chave Pública inválida"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Encriptar/desencriptar mensagem"
@@ -2002,9 +1972,6 @@ msgstr "Por favor reinicie o Electrum para ativar as novas definições de GUI"
 
 msgid "Are you sure you want to close Electrum?"
 msgstr "Tem certeza de que deseja fechar a Electrum?"
-
-msgid "An ongoing operation requires you to stay online."
-msgstr "Uma operação em andamento exige que você permaneça on-line."
 
 msgid "Pending channel force-close"
 msgstr "Força de fechamento de canal pendente"
@@ -2234,6 +2201,9 @@ msgstr "Autor"
 msgid "Requires"
 msgstr "Requer"
 
+msgid "Upgrade"
+msgstr "Atualizar"
+
 msgid "Disable"
 msgstr "Desativar"
 
@@ -2300,9 +2270,6 @@ msgstr "Configuração automática bem-sucedida. Agora você pode instalar plugi
 msgid "Select your plugin zipfile"
 msgstr "Selecione o arquivo zip do seu plugin"
 
-msgid "Plugin already installed."
-msgstr "Plugin já instalado."
-
 msgid "Remove plugin '{}'?"
 msgstr "Remover plugin '{}'?"
 
@@ -2327,12 +2294,6 @@ msgstr "Copiar Texto"
 msgid "Save"
 msgstr "Salvar"
 
-msgid "QR Reader Error"
-msgstr "Erro no leitor de QR"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "Falha ao carregar o leitor de QR. Isso pode acontecer se você estiver usando uma versão mais antiga do PyQt."
-
 msgid "Scan QR Code"
 msgstr "Escanear Código QR"
 
@@ -2350,12 +2311,6 @@ msgstr "Poucos códigos QR detectados."
 
 msgid "Too many QR codes detected."
 msgstr "Muitos códigos QR detectados."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "Scanner de código QR para quadro de vídeo com formato de pixel inválido"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "O scanner de código QR falhou ao mapear o quadro de vídeo"
 
 msgid "Show as QR code"
 msgstr "Exibir como um código QR"
@@ -2793,12 +2748,6 @@ msgstr "Essa configuração afeta a guia Enviar e todos os campos relacionados a
 
 msgid "Base unit"
 msgstr "Unidade base"
-
-msgid "Light"
-msgstr "Light"
-
-msgid "Dark"
-msgstr "Escuro"
 
 msgid "This option is only available on Windows"
 msgstr "Esta opção só está disponível no Windows"
@@ -3823,6 +3772,9 @@ msgstr "Não foi possível analisar o texto da área de transferência"
 msgid "Invalid Bitcoin Address"
 msgstr "Endereço Bitcoin Inválido"
 
+msgid "Address not in wallet."
+msgstr "O endereço não está na carteira."
+
 msgid "Missing libraries for {}."
 msgstr "Bibliotecas ausentes para {}."
 
@@ -4187,9 +4139,6 @@ msgstr "Data da Compilação"
 
 msgid "Bootloader"
 msgstr "Bootloader"
-
-msgid "Upgrade"
-msgstr "Atualizar"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "Este dispositivo não revela xpubs correspondentes a caminhos não endurecidos"
@@ -5260,15 +5209,6 @@ msgstr "Este serviço usa uma carteira com várias assinaturas, na qual você po
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Insira a seed para a sua carteira de duas etapas:"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "Não é possível iniciar o scanner QR: zbar não disponível."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Não é possível iniciar o scanner QR: a inicialização falhou."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "Certifique-se de ter uma câmera conectada e habilitada."
-
 msgid "Select server automatically"
 msgstr "Selecionar servidor automaticamente"
 
@@ -5317,9 +5257,6 @@ msgstr "Se habilitado, pelo menos 100 satothis podem ser perdidos devido a isso,
 
 msgid "Send change to Lightning"
 msgstr "Enviar troco para a Lightning"
-
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "Se possível, envie o troco desta transação para seus canais, com um swap submarino"
 
 msgid "Avoid spending from used addresses"
 msgstr "Evite gastar com endereços utilizados"
@@ -5442,9 +5379,6 @@ msgstr "Dispositivo de Vídeo"
 
 msgid "For scanning QR codes."
 msgstr "Para escanear códigos QR."
-
-msgid "Install the zbar package to enable this."
-msgstr "Instale o pacote zbar para habilitar isso."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Registro Apelido, usado para receber moedas e assinar pedidos de pagamento."
@@ -5694,6 +5628,24 @@ msgstr "Não foi possível encontrar moedas para a saída"
 
 msgid "The output value remaining after fee is too low."
 msgstr "O valor da saída que resta depois da taxa é baixo demais."
+
+msgid "Invalid Bitcoin address."
+msgstr "Endereço de bitcoin inválido."
+
+msgid "This is a watching-only wallet."
+msgstr "Esta é uma carteira somente para consulta."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Não é possível assinar mensagens com este tipo de endereço:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Assinar com um endereço significa, na verdade, assinar com a chave privada correspondente e verificar com a chave pública correspondente. O endereço digitado não possui uma chave pública exclusiva, portanto, essas operações não podem ser executadas."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "A operação é indefinida. Não apenas na Electrum, mas em geral."
+
+msgid "Invalid Public key"
+msgstr "Chave Pública inválida"
 
 msgid "The fee could not be verified!"
 msgstr "A taxa não pôde ser verificada!"
@@ -7456,8 +7408,16 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "Importar backup do canal?"
+
+msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Colar"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "Ok"
 
 msgctxt "ServerConfig|"
 msgid "Connection mode"
@@ -7546,6 +7506,10 @@ msgstr "Assinar"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verificar"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Erro"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -8376,10 +8340,6 @@ msgid "Warning"
 msgstr "Aviso"
 
 msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "Importar backup do canal?"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "Aviso: Alguns dados (transações anteriores / \"utxos completos\") foram deixados de fora do código QR, pois não caberiam."
 
@@ -8482,10 +8442,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "Saldo insuficiente para pagar via Lightning. Prefere pagar on-chain?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "Não é possível importar o backup do canal, o Lightning não está habilitado."
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Confirmar pagamento"
 
@@ -8512,6 +8468,10 @@ msgstr "Não foi possível assinar a transação"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Carteiras"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "pesquisa"
 
 msgctxt "Wallets|"
 msgid "Current"

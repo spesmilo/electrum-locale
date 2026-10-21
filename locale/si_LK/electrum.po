@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Sinhala\n"
 "Language: si_LK\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -42,9 +42,6 @@ msgstr "මෙහි සංවේදී/පුද්ගලික තොරතු
 
 msgid "Missing report URL."
 msgstr "වාර්තා URL අස්ථානගත වී ඇත."
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "නොදන්නා විග්‍රහකය {!r} (වරණ: {})"
 
 msgid "Unexpected password hash version"
 msgstr "අනපේක්ෂිත මුරපදය හැෂ් අනුවාදය"
@@ -1157,24 +1154,6 @@ msgstr "QR කේතය"
 msgid "Script type"
 msgstr "ස්ක්‍රිප්ට් වර්ගය"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "ලිපිනයක් සමඟ අත්සන් කිරීම යනු අදාළ පුද්ගලික යතුර සමඟ අත්සන් කිරීම සහ අදාළ පොදු යතුර සමඟ සත්‍යාපනය කිරීමයි. ඔබ ඇතුලත් කර ඇති ලිපිනයට අනන්‍ය පොදු යතුරක් නොමැති නිසා මෙම මෙහෙයුම් සිදු කල නොහැක."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "මෙහෙයුම නිර්වචනය කර නැත. Electrum වල පමණක් නොව පොදුවේ."
-
-msgid "Invalid Bitcoin address."
-msgstr "වලංගු නොවන Bitcoin ලිපිනය."
-
-msgid "This is a watching-only wallet."
-msgstr "මෙය නැරඹීමට පමණක් මුදල් පසුම්බියකි."
-
-msgid "Address not in wallet."
-msgstr "ලිපිනය මුදල් පසුම්බියේ නැත."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "මෙම ආකාරයේ ලිපින සමඟ පණිවිඩ අත්සන් කළ නොහැක:"
-
 msgid "Signature verified"
 msgstr "අත්සන තහවුරු කර ඇත"
 
@@ -1192,9 +1171,6 @@ msgstr "අත්සන් කරන්න"
 
 msgid "Verify"
 msgstr "තහවුරු කරන්න"
-
-msgid "Invalid Public key"
-msgstr "වලංගු නොවන පොදු යතුර"
 
 msgid "Encrypt/decrypt Message"
 msgstr "පණිවිඩය සංකේතනය / විකේතනය කරන්න"
@@ -1481,6 +1457,9 @@ msgstr "ඔබගේ මුරපදය ඇතුල් කරන්න"
 msgid "Requires"
 msgstr "අවශ්ය වේ"
 
+msgid "Upgrade"
+msgstr "උත්ශ්‍රේණි කරන්න"
+
 msgid "Enable"
 msgstr "සබල කරන්න"
 
@@ -1520,9 +1499,6 @@ msgstr "පෙළ පිටපත් කරන්න"
 msgid "Save"
 msgstr "සුරකින්න"
 
-msgid "QR Reader Error"
-msgstr "QR රීඩර් දෝෂය"
-
 msgid "Scan QR Code"
 msgstr "QR කේතය පරිලෝකනය කරන්න"
 
@@ -1540,12 +1516,6 @@ msgstr "QR කේත ඉතා ස්වල්පයක් අනාවරණය
 
 msgid "Too many QR codes detected."
 msgstr "QR කේත ඕනෑවට වඩා අනාවරණය විය."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "වලංගු නොවන පික්සල් ආකෘතියක් සහිත වීඩියෝ රාමුව සඳහා QR කේත ස්කෑනරය"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "QR කේත ස්කෑනරය වීඩියෝ රාමුව සිතියම්ගත කිරීමට අසමත් විය"
 
 msgid "Show as QR code"
 msgstr "QR කේතය ලෙස පෙන්වන්න"
@@ -1847,12 +1817,6 @@ msgstr "මෙම සැකසුම Send ටැබයට සහ ශේෂය �
 
 msgid "Base unit"
 msgstr "මූලික ඒකකය"
-
-msgid "Light"
-msgstr "ආලෝකය"
-
-msgid "Dark"
-msgstr "අඳුරු"
 
 msgid "Custom URL"
 msgstr "අභිරුචි URL"
@@ -2421,6 +2385,9 @@ msgstr "ඉවත්"
 msgid "Invalid Bitcoin Address"
 msgstr "වලංගු නොවන Bitcoin ලිපිනය"
 
+msgid "Address not in wallet."
+msgstr "ලිපිනය මුදල් පසුම්බියේ නැත."
+
 msgid "Missing libraries for {}."
 msgstr "{} සඳහා පුස්තකාල අතුරුදහන්."
 
@@ -2700,9 +2667,6 @@ msgstr "ස්ථිරාංග අනුවාදය"
 
 msgid "Build Date"
 msgstr "ගොඩනැගීමේ දිනය"
-
-msgid "Upgrade"
-msgstr "උත්ශ්‍රේණි කරන්න"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "උපාංග සන්නිවේදන දෝෂයකි. කරුණාකර ඔබගේ ඩිජිටල් බිට්බොක්ස් ප්ලග් ඉවත් කර නැවත සම්බන්ධ කරන්න."
@@ -3403,12 +3367,6 @@ msgstr "මෙම සේවාව බහු-අත්සන මුදල් ප�
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "ඔබේ 2-සාධක පසුම්බිය සඳහා බීජය ඇතුළු කරන්න:"
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "QR ස්කෑනරය ආරම්භ කළ නොහැක: ආරම්භ කිරීම අසාර්ථක විය."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "ඔබ කැමරාවක් සම්බන්ධ කර සබල කර ඇති බවට වග බලා ගන්න."
-
 msgid "Select server automatically"
 msgstr "ස්වයංක්රීයව සේවාදායකය තෝරන්න"
 
@@ -3465,9 +3423,6 @@ msgstr "වීඩියෝ උපාංගය"
 
 msgid "For scanning QR codes."
 msgstr "QR කේත ස්කෑන් කිරීම සඳහා."
-
-msgid "Install the zbar package to enable this."
-msgstr "මෙය සක්‍රීය කිරීමට zbar පැකේජය ස්ථාපනය කරන්න."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias වාර්තාව, කාසි ලබා ගැනීමට සහ ගෙවීම් ඉල්ලීම් අත්සන් කිරීමට භාවිතා කරයි."
@@ -3606,6 +3561,24 @@ msgstr "නිමැවුම සඳහා කාසි සොයා ගැන�
 
 msgid "The output value remaining after fee is too low."
 msgstr "ගාස්තුවෙන් පසු ඉතිරිව ඇති නිමැවුම් අගය ඉතා අඩුය."
+
+msgid "Invalid Bitcoin address."
+msgstr "වලංගු නොවන Bitcoin ලිපිනය."
+
+msgid "This is a watching-only wallet."
+msgstr "මෙය නැරඹීමට පමණක් මුදල් පසුම්බියකි."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "මෙම ආකාරයේ ලිපින සමඟ පණිවිඩ අත්සන් කළ නොහැක:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "ලිපිනයක් සමඟ අත්සන් කිරීම යනු අදාළ පුද්ගලික යතුර සමඟ අත්සන් කිරීම සහ අදාළ පොදු යතුර සමඟ සත්‍යාපනය කිරීමයි. ඔබ ඇතුලත් කර ඇති ලිපිනයට අනන්‍ය පොදු යතුරක් නොමැති නිසා මෙම මෙහෙයුම් සිදු කල නොහැක."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "මෙහෙයුම නිර්වචනය කර නැත. Electrum වල පමණක් නොව පොදුවේ."
+
+msgid "Invalid Public key"
+msgstr "වලංගු නොවන පොදු යතුර"
 
 msgid ""
 "The input amounts could not be verified as the previous transactions are missing.\n"
@@ -4273,6 +4246,10 @@ msgstr "අත්සන් කරන්න"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "තහවුරු කරන්න"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "දෝෂයකි"
 
 msgctxt "SwapDialog|"
 msgid "You send"

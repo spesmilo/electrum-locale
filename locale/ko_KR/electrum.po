@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -163,12 +163,6 @@ msgstr "정말 이 지갑을 삭제하시겠습니까?"
 msgid "Problem deleting wallet"
 msgstr "지갑 삭제 중 문제 발생"
 
-msgid "Payment failed: "
-msgstr "결제 실패:"
-
-msgid "Enter the amount you want to send"
-msgstr "전송할 금액 입력"
-
 msgid "Payment in progress..."
 msgstr "결제 진행 중..."
 
@@ -180,6 +174,12 @@ msgstr "성공적으로 브로드캐스트됨"
 
 msgid "Invoice has unknown status"
 msgstr "송장의 상태 알 수 없음"
+
+msgid "Payment failed: "
+msgstr "결제 실패:"
+
+msgid "Enter the amount you want to send"
+msgstr "전송할 금액 입력"
 
 msgid "Cannot pay less than the amount specified in the invoice"
 msgstr "송장에 명시된 금액보다 적은 금액을 지불할 수 없음"
@@ -204,9 +204,6 @@ msgstr "LNURL 오류를 해결 할 수 없습니다."
 
 msgid "Could not resolve"
 msgstr "해결할 수 없습니다."
-
-msgid "Scan a QR code."
-msgstr "QR 코드를 스캔하세요."
 
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "슬라이더를 이동하여 스왑 금액과 방향을 설정하세요."
@@ -1354,15 +1351,6 @@ msgstr "QR 코드"
 msgid "Script type"
 msgstr "스크립트 유형"
 
-msgid "Invalid Bitcoin address."
-msgstr "비트코인 주소가 유효하지 않습니다."
-
-msgid "Address not in wallet."
-msgstr "주소가 지갑 내에 없습니다."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "이 유형의 주소로 메세지에 서명할 수 없습니다:"
-
 msgid "Signature verified"
 msgstr "서명 확인"
 
@@ -1377,9 +1365,6 @@ msgstr "사인"
 
 msgid "Verify"
 msgstr "검증"
-
-msgid "Invalid Public key"
-msgstr "유효하지 않은 공개 키"
 
 msgid "Encrypt/decrypt Message"
 msgstr "암호화/복호화 메시지"
@@ -1660,6 +1645,9 @@ msgstr "작성자"
 msgid "Requires"
 msgstr "필요사항:"
 
+msgid "Upgrade"
+msgstr "업그레이드"
+
 msgid "Disable"
 msgstr "비활성화"
 
@@ -1702,12 +1690,6 @@ msgstr "텍스트 복사"
 msgid "Save"
 msgstr "저장"
 
-msgid "QR Reader Error"
-msgstr "QR 리더 오류"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "QR 리더 로드 실패. PyQt의 오래된 버전을 사용하는 경우 발생할 수 있습니다."
-
 msgid "Scan QR Code"
 msgstr "QR 코드 스캔"
 
@@ -1725,12 +1707,6 @@ msgstr "감지된 QR 코드의 개수가 너무 적습니다."
 
 msgid "Too many QR codes detected."
 msgstr "다수의 QR 코드가 감지되었습니다."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "유효하지 않은 픽셀 형식의 비디오 프레임용 QR 코드 스캐너"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "QR 코드 스캐너로 비디오 프레임 매핑 실패"
 
 msgid "Show as QR code"
 msgstr "QR 코드로 표시"
@@ -2072,9 +2048,6 @@ msgstr "지갑의 기본 단위."
 
 msgid "Base unit"
 msgstr "기본 유닛"
-
-msgid "Dark"
-msgstr "어둡게"
 
 msgid "Custom URL"
 msgstr "사용자 지정 URL"
@@ -2817,6 +2790,9 @@ msgstr "클립보드에서 텍스트를 가져오지 못했습니다."
 msgid "Invalid Bitcoin Address"
 msgstr "잘못된 비트 코인 주소"
 
+msgid "Address not in wallet."
+msgstr "주소가 지갑 내에 없습니다."
+
 msgid "Missing libraries for {}."
 msgstr "{}에 필요한 라이브러리가 누락되었습습니다."
 
@@ -3080,9 +3056,6 @@ msgstr "빌드 날짜"
 
 msgid "Bootloader"
 msgstr "부트로더"
-
-msgid "Upgrade"
-msgstr "업그레이드"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "디바이스 통신 오류가 발생했습니다. Digital Bitbox를 분리한 후 다시 연결하세요."
@@ -3735,15 +3708,6 @@ msgstr "이 서비스에 코인이 잠겨 있지 않음을 유의하세요. 지�
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "2단계 인증 지갑을 위한 시드를 입력하세요:"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "QR 스캐너 시작할 수 없음:  zbar를 사용할 수 없습니다."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "QR 스캐너 시작할 수 없음:  초기화에 실패했습니다. "
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "카메라가 연결되고 활성화되어 있는지 확인하세요."
-
 msgid "Select server automatically"
 msgstr "서버를 자동으로 선택"
 
@@ -3850,9 +3814,6 @@ msgstr "비디오 장치"
 
 msgid "For scanning QR codes."
 msgstr "QR코드 스캔용"
-
-msgid "Install the zbar package to enable this."
-msgstr "이것을 가능하게 하려면 zbar package를 설치하세요."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias 기록, 동전 하 고 결제 요청을 서명 하는 데 사용."
@@ -4012,6 +3973,15 @@ msgstr "올바른 출력을 찾지 못했습니다."
 
 msgid "Could not find coins for output"
 msgstr "출력을 위한 코인을 찾지 못했습니다."
+
+msgid "Invalid Bitcoin address."
+msgstr "비트코인 주소가 유효하지 않습니다."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "이 유형의 주소로 메세지에 서명할 수 없습니다:"
+
+msgid "Invalid Public key"
+msgstr "유효하지 않은 공개 키"
 
 msgid "Some inputs use non-default sighash flags, which might affect the fee."
 msgstr "일부 입력은 기본이 아닌 sighash flags를 사용하며, 이는 수수료에 영향을 미칠 수 있습니다."
@@ -4706,6 +4676,10 @@ msgstr "사인"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "검증"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "오류"
 
 msgctxt "SwapDialog|"
 msgid "Server fee"

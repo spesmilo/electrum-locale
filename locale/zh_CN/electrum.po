@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-20 05:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -46,9 +46,6 @@ msgstr "缺少报告网址。"
 msgid "Thanks for reporting this issue!"
 msgstr "谢谢您报告这个问题！"
 
-msgid "unknown parser {!r} (choices: {})"
-msgstr "未知解析器{!r}(选项：{})"
-
 msgid "Unexpected password hash version"
 msgstr "密码的非预期哈希版本"
 
@@ -77,10 +74,10 @@ msgid "Mempool"
 msgstr "内存池"
 
 msgid "Low fee"
-msgstr "低手续费"
+msgstr "低费用"
 
 msgid "In the next block"
-msgstr "下一个块即可确认"
+msgstr "在下一个区块中"
 
 msgid "Within one day"
 msgstr "在一天内"
@@ -107,25 +104,25 @@ msgid "{} from tip"
 msgstr "距离最优先确认的顶部{}"
 
 msgid "&Undo"
-msgstr "撤消(&U)"
+msgstr "&撤消"
 
 msgid "&Redo"
-msgstr "重做(&R)"
+msgstr "&重做"
 
 msgid "Cu&t"
-msgstr "剪切(&T)"
+msgstr "&剪切"
 
 msgid "&Copy"
-msgstr "复制(&C)"
+msgstr "&复制"
 
 msgid "&Paste"
-msgstr "粘贴(&P)"
+msgstr "&粘贴"
 
 msgid "Select All"
 msgstr "全选"
 
 msgid "Copy &Link Location"
-msgstr "复制链接地址(&L)"
+msgstr "&复制链接地址"
 
 msgid "Cannot draw QR code"
 msgstr "无法绘制二维码"
@@ -255,7 +252,7 @@ msgid "Manual server selection"
 msgstr "手动选择服务器"
 
 msgid "Connect only to a single server"
-msgstr "仅连接至单个服务器"
+msgstr "仅连接到一台服务器"
 
 msgid "Electrum connects to a unique server in order to receive your transaction history. This server will learn your wallet addresses."
 msgstr "Electrum 将连接到一个特定的服务器以获取您的交易记录。该服务器将获取您的钱包地址。"
@@ -368,12 +365,6 @@ msgstr "删除钱包时出现问题"
 msgid "Error renaming wallet:\n"
 msgstr "重命名钱包时出错：\n"
 
-msgid "Payment failed: "
-msgstr "支付失败: "
-
-msgid "Enter the amount you want to send"
-msgstr "输入您想要支付的金额"
-
 msgid "This invoice has expired"
 msgstr "这个发票已经过期"
 
@@ -394,6 +385,12 @@ msgstr "等待确认"
 
 msgid "Invoice has unknown status"
 msgstr "发票状态未知"
+
+msgid "Payment failed: "
+msgstr "支付失败: "
+
+msgid "Enter the amount you want to send"
+msgstr "输入您想要支付的金额"
 
 msgid "Paid!"
 msgstr "已支付!"
@@ -427,12 +424,6 @@ msgstr "无法解析LNURL"
 
 msgid "Could not resolve"
 msgstr "无法解析"
-
-msgid "The platform QR detection library is not available."
-msgstr "平台二维码检测库不可用。"
-
-msgid "Scan a QR code."
-msgstr "扫描二维码"
 
 msgid "Failed to create payment request for withdrawal: {}"
 msgstr "创建提现支付请求失败：{}"
@@ -475,6 +466,9 @@ msgstr "互换失败!"
 
 msgid "Swap cancelled"
 msgstr "互换已取消"
+
+msgid "Swap was already funded, refusing to cancel"
+msgstr "该兑换已完成充值，拒绝取消"
 
 msgid "Timeout"
 msgstr "超时"
@@ -522,13 +516,13 @@ msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "无法用“子为父偿”来追加手续费：父级交易的手续费不明"
 
 msgid "No fee"
-msgstr "没有手续费"
+msgstr "无费用"
 
 msgid "Max fee exceeded"
-msgstr "超出最高手续费"
+msgstr "超出最高费用"
 
 msgid "Combined feerate should be greater than the parent tx feerate"
-msgstr "组合手续费率应高于父交易手续费率"
+msgstr "综合费率应高于父交易费率"
 
 msgid "Network error"
 msgstr "网络错误"
@@ -669,7 +663,7 @@ msgid "Change"
 msgstr "找零"
 
 msgid "Show Filter"
-msgstr "显示过滤器"
+msgstr "显示筛选器"
 
 msgid "Fiat"
 msgstr "法币"
@@ -696,10 +690,10 @@ msgid "{} addresses"
 msgstr "{} 个地址"
 
 msgid "Details"
-msgstr "详细信息"
+msgstr "详情"
 
 msgid "Edit {}"
-msgstr "编辑 {}"
+msgstr "编辑{}"
 
 msgid "Private key"
 msgstr "私钥"
@@ -798,7 +792,7 @@ msgid "Sent HTLC with ID {}"
 msgstr "已用ID {} 发送HTLC"
 
 msgid "CLTV expiry"
-msgstr "CLTV过期"
+msgstr "CLTV 过期"
 
 msgid "Payment hash"
 msgstr "支付哈希值"
@@ -822,10 +816,10 @@ msgid "Remote Node"
 msgstr "远端节点"
 
 msgid "Channel ID"
-msgstr "通道ID"
+msgstr "通道 ID"
 
 msgid "Short Channel ID"
-msgstr "短通道ID"
+msgstr "短通道 ID"
 
 msgid "State"
 msgstr "状态"
@@ -915,7 +909,7 @@ msgid "After that delay, funds will be swept to an address derived from your wal
 msgstr "延迟结束后，资金将被清扫到一个由您的钱包助记词派生的地址。"
 
 msgid "Please create a backup of your wallet file!"
-msgstr "请为你的钱包文件创建一个备份！"
+msgstr "请备份您的钱包文件！"
 
 msgid "Funds in this channel will not be recoverable from seed until they are swept back into your wallet, and might be lost if you lose your wallet file."
 msgstr "该闪电网络通道中的资金在被清扫到您的钱包之前无法从助记词中恢复，如果您丢失了钱包文件，这些资金可能会丢失。"
@@ -948,7 +942,7 @@ msgid "Node ID"
 msgstr "节点ID"
 
 msgid "Long Channel ID"
-msgstr "长通道ID"
+msgstr "长通道 ID"
 
 msgid "Freeze for sending"
 msgstr "冻结付款功能"
@@ -1008,7 +1002,7 @@ msgid "Nodes"
 msgstr "节点"
 
 msgid "Channels"
-msgstr "通道"
+msgstr "闪电网络通道"
 
 msgid "This is a channel"
 msgstr "这是一个通道"
@@ -1115,8 +1109,8 @@ msgstr "准备交易..."
 msgid "Fee estimates not available. Please set a fixed fee or feerate."
 msgstr "费用估算不可用。请设定固定费用或收费率。"
 
-msgid "Lightning is not enabled."
-msgstr "闪电网络未启用。"
+msgid "Change stays on-chain (Lightning not enabled)."
+msgstr "找零保留在链上（未启用闪电网络）。"
 
 msgid "This transaction will spend unconfirmed coins."
 msgstr "此交易将会花费未确认的币。"
@@ -1236,7 +1230,7 @@ msgid "Warning!"
 msgstr "警告！"
 
 msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
-msgstr "不要在此处粘贴您不理解的代码。执行错误的代码可能会导致您的币丢失，并且不能被找回。"
+msgstr "请勿在此处粘贴您不理解的代码。执行错误的代码可能会导致您的币永久丢失。"
 
 msgid "Click here to hide this message."
 msgstr "单击此处隐藏此消息。"
@@ -1251,7 +1245,7 @@ msgid "Pay to"
 msgstr "支付给"
 
 msgid "&New contact"
-msgstr "新建联系人(&N)"
+msgstr "&新建联系人"
 
 msgid "Import"
 msgstr "导入"
@@ -1302,7 +1296,7 @@ msgid " confirmation"
 msgstr " 确认"
 
 msgid "{} transactions"
-msgstr "{} 条交易"
+msgstr "{} 笔交易"
 
 msgid "Value"
 msgstr "值"
@@ -1341,13 +1335,13 @@ msgid "Show Fiat Values"
 msgstr "显示法币价值"
 
 msgid "&Summary"
-msgstr "概要(&S)"
+msgstr "&概览"
 
 msgid "&Plot"
-msgstr "绘图(&P)"
+msgstr "&绘图"
 
 msgid "&Export"
-msgstr "导出(&E)"
+msgstr "&导出"
 
 msgid "Select date"
 msgstr "选择日期"
@@ -1533,19 +1527,19 @@ msgid "Receive"
 msgstr "接收"
 
 msgid "&Addresses"
-msgstr "地址(&A)"
+msgstr "&地址"
 
 msgid "Co&ins"
-msgstr "选币(&I)"
+msgstr "&选币"
 
 msgid "Con&tacts"
-msgstr "联系人(&T)"
+msgstr "&联系人"
 
 msgid "Con&sole"
-msgstr "控制台(&S)"
+msgstr "&控制台"
 
 msgid "&Notes"
-msgstr "备注(&N)"
+msgstr "&说明"
 
 msgid "Enable update check"
 msgstr "启用版本更新检查"
@@ -1653,31 +1647,31 @@ msgid "Wallet backup created"
 msgstr "钱包备份已创建"
 
 msgid "&File"
-msgstr "文件(&F)"
+msgstr "&文件"
 
 msgid "&Recently open"
-msgstr "最近使用(&R)"
+msgstr "&最近使用"
 
 msgid "&Open"
 msgstr "打开(&O)"
 
 msgid "&New/Restore"
-msgstr "新建/恢复(&N)"
+msgstr "&新建/恢复"
 
 msgid "&Save backup"
-msgstr "保存备份(&S)"
+msgstr "&保存备份"
 
 msgid "&Quit"
-msgstr "退出(&Q)"
+msgstr "&退出"
 
 msgid "&Wallet"
-msgstr "钱包(&W)"
+msgstr "&钱包"
 
 msgid "&Information"
-msgstr "信息(&I)"
+msgstr "&信息"
 
 msgid "&Password"
-msgstr "密码(&P)"
+msgstr "&密码"
 
 msgid "&Unlock"
 msgstr "&解锁"
@@ -1686,85 +1680,85 @@ msgid "&Seed"
 msgstr "&助记词"
 
 msgid "&Private keys"
-msgstr "私钥(&P)"
+msgstr "&私钥"
 
 msgid "&Sweep"
-msgstr "扫入钱包(&S)"
+msgstr "&扫描"
 
 msgid "&Import"
-msgstr "导入(&I)"
+msgstr "&导入"
 
 msgid "Import addresses"
 msgstr "导入地址"
 
 msgid "&Labels"
-msgstr "标签(&L)"
+msgstr "&标签"
 
 msgid "Find"
 msgstr "查找"
 
 msgid "&View"
-msgstr "视图(&V)"
+msgstr "&查看"
 
 msgid "&Tools"
-msgstr "工具(&T)"
+msgstr "&工具"
 
 msgid "Electrum preferences"
 msgstr "Electrum 偏好设置"
 
 msgid "&Network"
-msgstr "网络(&N)"
+msgstr "&网络"
 
 msgid "&Plugins"
-msgstr "插件(&P)"
+msgstr "&插件"
 
 msgid "&Sign/verify message"
-msgstr "签名/验证消息(&S)"
+msgstr "&签名/验证消息"
 
 msgid "&Encrypt/decrypt message"
-msgstr "加密/解密消息(&E)"
+msgstr "&加密/解密消息"
 
 msgid "&Load transaction"
-msgstr "载入交易(&L)"
+msgstr "&加载交易"
 
 msgid "&From file"
-msgstr "从文件(&F)"
+msgstr "&从文件"
 
 msgid "&From text"
-msgstr "从文本(&F)"
+msgstr "&从文本"
 
 msgid "&From the blockchain"
-msgstr "从区块链(&F)"
+msgstr "&从区块链"
 
 msgid "&From QR code"
 msgstr "从二维码(&F)"
 
 msgid "&Help"
-msgstr "帮助(&H)"
+msgstr "&帮助"
 
 msgid "&About"
 msgstr "关于(&A)"
 
 msgid "&Changelog"
-msgstr "&更新日志"
+msgstr "更新日志(&)"
 
 msgid "&Check for updates"
-msgstr "检查更新(&C)"
+msgstr "&检查更新"
 
 msgid "&Official website"
 msgstr "官方网站(&O)"
 
 msgid "&Documentation"
-msgstr "帮助文档(&D)"
+msgstr "&帮助文档"
 
 msgid "&Bitcoin Paper"
-msgstr "比特币白皮书(&B)"
+msgstr "&比特币白皮书"
 
 msgid "&Report Bug"
 msgstr "报告问题(&R)"
 
 msgid "&Donate to server"
-msgstr "赞助服务器(&D)"
+msgstr "&向服务器赞助"
 
 msgid "No donation address for this server"
 msgstr "此服务器未设置捐赠地址"
@@ -1809,7 +1803,7 @@ msgid "Connected"
 msgstr "已连接"
 
 msgid "Not connected"
-msgstr "无连接"
+msgstr "未连接"
 
 msgid "proxy enabled"
 msgstr "代理服务器已启用"
@@ -1878,7 +1872,7 @@ msgid "Invalid Address"
 msgstr "地址无效"
 
 msgid "Remove {} from your list of contacts?"
-msgstr "从你的联系人名单删除 {} ？"
+msgstr "是否要从您的联系人列表中删除 {}？"
 
 msgid "Onchain Invoice"
 msgstr "链上发票"
@@ -1887,7 +1881,7 @@ msgid "Outputs"
 msgstr "输出"
 
 msgid "Expires"
-msgstr "过期"
+msgstr "有效期"
 
 msgid "Creation time"
 msgstr "创建时间"
@@ -1986,24 +1980,6 @@ msgstr "二维码"
 msgid "Script type"
 msgstr "脚本类型"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "用地址签名实际上是用相应的私钥签名，并用相应的公钥进行验证。你输入的地址公钥并不唯一，因此无法执行这些操作。"
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "该操作未定义。不仅在Electrum里，其它场合也是如此。"
-
-msgid "Invalid Bitcoin address."
-msgstr "比特币地址无效。"
-
-msgid "This is a watching-only wallet."
-msgstr "这是一个仅供监视的钱包。"
-
-msgid "Address not in wallet."
-msgstr "地址不在钱包里。"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "不能用这种类型的地址签署信息："
-
 msgid "Signature verified"
 msgstr "签名已验证"
 
@@ -2022,9 +1998,6 @@ msgstr "签名"
 msgid "Verify"
 msgstr "验证"
 
-msgid "Invalid Public key"
-msgstr "公钥无效"
-
 msgid "Encrypt/decrypt Message"
 msgstr "加密/解密消息"
 
@@ -2032,7 +2005,7 @@ msgid "Public key"
 msgstr "公钥"
 
 msgid "Encrypted"
-msgstr "已加密"
+msgstr "加密内容"
 
 msgid "Encrypt"
 msgstr "加密"
@@ -2157,8 +2130,8 @@ msgstr "请重启 Electrum 以激活新的图形界面设置"
 msgid "Are you sure you want to close Electrum?"
 msgstr "您确定要关闭 Electrum 吗？"
 
-msgid "An ongoing operation requires you to stay online."
-msgstr "持续运行需要您保持在线。"
+msgid "An ongoing operation requires you to stay online:"
+msgstr "正在进行的操作要求您保持在线状态："
 
 msgid "Pending channel force-close"
 msgstr "强制关闭待处理通道"
@@ -2227,7 +2200,7 @@ msgid "Proxy"
 msgstr "代理"
 
 msgid "Height"
-msgstr "高度"
+msgstr "区块高度"
 
 msgid "Use as server"
 msgstr "用作服务器"
@@ -2266,7 +2239,7 @@ msgid "Connection mode"
 msgstr "连接模式"
 
 msgid "This is the height of your local copy of the blockchain."
-msgstr "这是您区块链本地副本的高度。"
+msgstr "这是您区块链本地副本的区块高度。"
 
 msgid "Blockchain"
 msgstr "区块链"
@@ -2356,7 +2329,7 @@ msgid "If you enable this setting, you will need your hardware device to open yo
 msgstr "若启用此设置，您将需要使用硬件设备来打开您的钱包。"
 
 msgid "Your wallet is not protected."
-msgstr "你的钱包没有被保护。"
+msgstr "您的钱包未受保护。"
 
 msgid "Use this dialog to add a password to your wallet."
 msgstr "在这个对话框中给您的钱包设置一个密码。"
@@ -2365,10 +2338,10 @@ msgid "Your bitcoins are password protected. However, your wallet file is not en
 msgstr "您的比特币被密码保护。但是您的钱包文件没有加密。"
 
 msgid "Your wallet is password protected and encrypted."
-msgstr "你的钱包被密码保护并被加密。"
+msgstr "您的钱包已设置密码保护并经过加密。"
 
 msgid "Use this dialog to change your password."
-msgstr "在这个对话框中修改您的密码。"
+msgstr "请使用此对话框来修改您的密码。"
 
 msgid "Your wallet file is NOT encrypted."
 msgstr "您的钱包文件没加密。"
@@ -2385,8 +2358,14 @@ msgstr "请输入您的密码"
 msgid "Author"
 msgstr "作者"
 
+msgid "Installed version"
+msgstr "已安装的版本"
+
 msgid "Requires"
 msgstr "需要"
+
+msgid "Upgrade"
+msgstr "升级"
 
 msgid "Disable"
 msgstr "停用"
@@ -2460,20 +2439,17 @@ msgstr "自动设置成功。您现在可以安装插件了。"
 msgid "Select your plugin zipfile"
 msgstr "选择您的插件压缩包"
 
-msgid "Plugin already installed."
-msgstr "插件已安装。"
+msgid "Plugin {} already installed."
+msgstr "插件 {} 已安装。"
 
-msgid ""
-"Could not copy plugin file {} into directory {}:\n"
-"\n"
-"{}"
-msgstr ""
-"无法将插件文件 {} 复制到目录 {}：\n"
-"\n"
-"{}"
+msgid "Please restart Electrum to use the new version."
+msgstr "请重启 Electrum 以使用新版本。"
 
 msgid "Remove plugin '{}'?"
 msgstr "移除插件 ‘{}’？"
+
+msgid "Please restart Electrum to finish removing the plugin."
+msgstr "请重启 Electrum 以完成移除插件。"
 
 msgid "Select where to save file"
 msgstr "选择文件保存位置"
@@ -2496,11 +2472,8 @@ msgstr "复制文本"
 msgid "Save"
 msgstr "保存"
 
-msgid "QR Reader Error"
-msgstr "二维码扫描器错误"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "二维码阅读器加载失败。如果您使用的是旧版本的PyQt，可能会出现这种情况。"
+msgid "QR scanning requires Qt Multimedia, which failed to load:"
+msgstr "扫描二维码需要 Qt Multimedia，但未能加载该组件："
 
 msgid "Missing camera permission."
 msgstr "缺少摄像头权限。"
@@ -2509,13 +2482,16 @@ msgid "Scan QR Code"
 msgstr "扫描二维码"
 
 msgid "&Flip horizontally"
-msgstr "水平翻转(&F)"
+msgstr "&水平翻转"
 
 msgid "&Close"
-msgstr "关闭(&C)"
+msgstr "&关闭"
 
 msgid "Cannot start QR scanner, no usable camera found."
 msgstr "找不到可用的相机，无法启动二维码扫描器。"
+
+msgid "The QR code does not contain valid UTF-8 text."
+msgstr "该二维码中未包含有效的 UTF-8 文本。"
 
 msgid "Too few QR codes detected."
 msgstr "检测到的二维码个数太少。"
@@ -2523,17 +2499,11 @@ msgstr "检测到的二维码个数太少。"
 msgid "Too many QR codes detected."
 msgstr "检测到的二维码个数过多。"
 
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "用于视频帧的二维码扫描器具有无效的像素格式"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "二维码扫描器在映射视频帧时失败"
-
 msgid "Show as QR code"
 msgstr "显示为二维码"
 
 msgid "Read QR code from screen"
-msgstr "从屏幕读取二维码"
+msgstr "从屏幕中读取二维码"
 
 msgid "Read QR code from file"
 msgstr "从文件中读取二维码"
@@ -2560,7 +2530,7 @@ msgid "No fee rate"
 msgstr "无手续费率"
 
 msgid "You will pay {} more."
-msgstr "你将会多付出 {} 。"
+msgstr "您需要多支付 {}。"
 
 msgid "The recipient will receive {} less."
 msgstr "收款方将会少收到 {} 。"
@@ -2614,13 +2584,13 @@ msgid "Show detached QR code window"
 msgstr "显示独立的二维码窗口"
 
 msgid "Import requests"
-msgstr "导入付款请求"
+msgstr "导入请求"
 
 msgid "Export requests"
 msgstr "导出请求"
 
 msgid "Delete expired requests"
-msgstr "删除已经过期的请求"
+msgstr "删除已过期的请求"
 
 msgid "Expiration period of your request."
 msgstr "付款请求的过期期限。"
@@ -2635,7 +2605,7 @@ msgid "The bitcoin address never expires and will always be part of this electru
 msgstr "比特币地址永不过期，而且永远是这个electrum钱包的一部分。"
 
 msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
-msgstr "比特币地址可以被重复使用无限次，但是这对你的隐私不利。"
+msgstr "您可以无限次重复使用一个比特币地址，但这不利于保护您的隐私。"
 
 msgid "For Lightning requests, payments will not be accepted after the expiration."
 msgstr "对于闪电网络付款请求来说，在过期后支付将不会被接受。"
@@ -2653,13 +2623,13 @@ msgid "Error adding payment request"
 msgstr "添加支付请求时出错"
 
 msgid "No more addresses in your wallet."
-msgstr "你的钱包中没有更多的地址。"
+msgstr "您的钱包中没有更多的地址了。"
 
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
-msgstr "您正在使用一个非确定性钱包，这种钱包不能创建新地址。"
+msgstr "您正在使用一个非确定性钱包，该钱包无法生成新地址。"
 
 msgid "If you want to create new addresses, use a deterministic wallet instead."
-msgstr "如果您想创建新地址，请使用确定性钱包（如Electrum标准钱包）。"
+msgstr "如果您想生成新的地址，请改用确定性钱包。"
 
 msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
 msgstr "创建新付款请求时，会重复使用您的收款地址，并且会覆盖掉一个已经存在的请求。无论如何也要继续吗？"
@@ -2717,7 +2687,7 @@ msgid "Options"
 msgstr "选项"
 
 msgid "Your seed extension is"
-msgstr "你的种子扩展密语是"
+msgstr "您的助记词扩展是"
 
 msgid "Previous share"
 msgstr "上一个碎片"
@@ -2804,7 +2774,7 @@ msgid "- an arbitrary on-chain script, e.g.:"
 msgstr "- 任意链上脚本，例如:"
 
 msgid "You can also pay to many outputs in a single transaction, specifying one output per line."
-msgstr "你也可以在一笔交易中支付给多个输出，每行分别指定一个输出即可。"
+msgstr "您还可以在单笔交易中向多个输出地址进行支付，每行指定一个输出地址。"
 
 msgid "Format: address, amount"
 msgstr "格式: 地址, 总额"
@@ -2843,7 +2813,7 @@ msgid "Invoices"
 msgstr "发票"
 
 msgid "&Pay to many"
-msgstr "支付给多个地址(&P)"
+msgstr "&支付给多个地址"
 
 msgid "Import invoices"
 msgstr "导入发票"
@@ -3013,11 +2983,8 @@ msgstr "此设置会影响发送选项卡，以及所有与余额有关的字段
 msgid "Base unit"
 msgstr "基本单位"
 
-msgid "Light"
-msgstr "浅色"
-
-msgid "Dark"
-msgstr "深色"
+msgid "System"
+msgstr "系统"
 
 msgid "This option is only available on Windows"
 msgstr "该选项仅在Windows上可用"
@@ -3265,7 +3232,7 @@ msgid "Position in mempool: {}"
 msgstr "内存池里的位置: {}"
 
 msgid "height"
-msgstr "高度"
+msgstr "区块高度"
 
 msgid "LockTime: {} ({})"
 msgstr "时间锁: {} ({})"
@@ -3397,7 +3364,7 @@ msgid "Unable to scan image."
 msgstr "无法扫描图像。"
 
 msgid "More than one QR code was found on the screen."
-msgstr "从屏幕上找到了多于一个二维码。"
+msgstr "在屏幕中发现了多个二维码。"
 
 msgid "No QR code was found on the screen."
 msgstr "屏幕上找不到二维码。"
@@ -3548,7 +3515,7 @@ msgid "Wallet name"
 msgstr "钱包名称"
 
 msgid "File created"
-msgstr "文件已创建"
+msgstr "文件创建于"
 
 msgid "Wallet type"
 msgstr "钱包类型"
@@ -3581,16 +3548,16 @@ msgstr ""
 "如果您希望拥有可恢复的通道，则必须使用 Electrum 助记词创建一个新钱包"
 
 msgid "Lightning Node ID:"
-msgstr "闪电网络节点ID:"
+msgstr "闪电网络节点 ID:"
 
 msgid "Lightning is currently restricted to HD wallets with p2wpkh addresses."
 msgstr "闪电网络当前仅限p2wpkh地址的HD钱包"
 
 msgid "This keystore is watching-only (disabled)"
-msgstr "此密钥库仅供查看（已禁用）"
+msgstr "此密钥库处于只读状态（已禁用）"
 
 msgid "This keystore is active (enabled)"
-msgstr "此密钥库可用（已启用）"
+msgstr "此密钥库处于活动状态（已启用）"
 
 msgid "Master Public Key"
 msgstr "主公钥"
@@ -4057,6 +4024,9 @@ msgstr "无法从剪贴板粘贴文字"
 msgid "Invalid Bitcoin Address"
 msgstr "比特币地址无效"
 
+msgid "Address not in wallet."
+msgstr "地址不在钱包里。"
+
 msgid "Missing libraries for {}."
 msgstr "缺少{}用到的库。"
 
@@ -4204,6 +4174,33 @@ msgstr ".onion 地址，但未配置代理服务器"
 msgid "Hostname does not resolve (getaddrinfo failed)"
 msgstr "无法解析主机名（getaddrinfo失败）"
 
+msgid "Outdated channel backups"
+msgstr "过期的通道备份"
+
+msgid "This wallet contains old (v0) channel backups that can only be used to recover channel funds in some scenarios. They were exported with an older version of Electrum."
+msgstr "此钱包包含旧版（v0）通道备份，这些备份仅可在某些情况下用于恢复通道资金。它们是使用旧版本的 Electrum 导出的。"
+
+msgid "Please import new backups, exported by the wallet these channels belong to."
+msgstr "请导入由这些通道所属钱包导出的新备份。"
+
+msgid "The Lightning channels of this wallet cannot be recovered from seed."
+msgstr "该钱包的闪电网络通道无法通过助记词恢复。"
+
+msgid "Channel backups that were exported with an older version of Electrum cannot be used to request a force close of these channels."
+msgstr "使用旧版本 Electrum 导出的通道备份无法用于请求强制关闭这些通道。"
+
+msgid "Please export new channel backups and store them in a safe place."
+msgstr "请导出新通道的备份，并将其保存在安全的地方。"
+
+msgid "Unusable channel backups"
+msgstr "无法使用的通道备份"
+
+msgid "This wallet contains old (v2) channel backups that cannot be used to request a force close, because they were exported with an older version of Electrum."
+msgstr "此钱包包含旧版（v2）的通道备份，由于这些备份是使用旧版本的 Electrum 导出的，因此无法用于请求强制关闭。"
+
+msgid "If you have lost access to that wallet, please open an issue on GitHub."
+msgstr "如果您无法访问该钱包，请在 GitHub 上提交一个问题。"
+
 msgid "Forwarding"
 msgstr "转发"
 
@@ -4236,6 +4233,12 @@ msgstr "金额未填写"
 
 msgid "Invoice wants us to risk locking funds for unreasonably long."
 msgstr "这份发票想让我们冒资金被锁定时间过长的风险。"
+
+msgid "You already have a newer version of this backup in your wallet."
+msgstr "您的钱包中已经有了该备份的更新版本。"
+
+msgid "The channel backup you imported cannot be used to request a force close. Please generate a new backup. If you lost your wallet data, please open an issue on GitHub."
+msgstr "您导入的通道备份无法用于请求强制关闭。请生成一个新的备份。如果您丢失了钱包数据，请在 GitHub 上提交一个问题。"
 
 msgid "Please enable gossip"
 msgstr "请启用 Gossip 协议"
@@ -4274,7 +4277,7 @@ msgid "This file can be edited with Regedit"
 msgstr "此文件可使用 Regedit 进行编辑"
 
 msgid "The file must have root permissions"
-msgstr "该文件必须拥有根权限"
+msgstr "该文件必须具有根用户权限"
 
 msgid "To set it you can also use the Auto-Setup or run the following terminal command"
 msgstr "要进行设置，您也可以使用“自动设置”功能，或运行以下终端命令"
@@ -4313,16 +4316,16 @@ msgid "Or click cancel to skip this keystore instead."
 msgstr "或者点击取消来跳过这个密钥库。"
 
 msgid "Audio Modem Settings"
-msgstr "音频调制解调器选项"
+msgstr "音频调制解调器设置"
 
 msgid "Bit rate [kbps]: "
 msgstr "比特率 [kbps]: "
 
 msgid "Read from microphone"
-msgstr "从麦克风读取"
+msgstr "从麦克风中读取"
 
 msgid "Send to speaker"
-msgstr "用喇叭发送"
+msgstr "发送到扬声器"
 
 msgid ""
 "Failed to register multisig\n"
@@ -4392,6 +4395,9 @@ msgstr "将Coldcard的多重签名用文件格式导出"
 msgid "Export multisig to Coldcard via USB"
 msgstr "将Coldcard的多重签名通过USB数据线导出"
 
+msgid "{} not connected."
+msgstr "{} 未连接。"
+
 msgid "Wallet setup file '{}' imported successfully."
 msgstr "钱包设置文件 '{}' 已成功导入。"
 
@@ -4424,9 +4430,6 @@ msgstr "构建日期"
 
 msgid "Bootloader"
 msgstr "引导程序"
-
-msgid "Upgrade"
-msgstr "升级"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "此设备不透露非硬化路径的xpub扩展密钥"
@@ -4711,25 +4714,25 @@ msgid "Yes"
 msgstr "是"
 
 msgid "Enable Passphrases"
-msgstr "启用附加密码(Passphrase)"
+msgstr "启用密码短语"
 
 msgid "Disable Passphrases"
-msgstr "停用附加密码"
+msgstr "禁用密码短语"
 
 msgid "Set a PIN"
 msgstr "设置 PIN 码"
 
 msgid "Change PIN"
-msgstr "更改PIN码"
+msgstr "更改 PIN 码"
 
 msgid "Confirm Toggle Passphrase Protection"
-msgstr "确认开启/关闭附加密码"
+msgstr "确认启用/禁用密码短语保护"
 
 msgid "After disabling passphrases, you can only pair this Electrum wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
-msgstr "禁用附加密码后，您只能使用空白的附加密码配对。如果您设置的附加密码不为空，则需要重新创建新的钱包来完成配对。 您可以随时重新启用附加密码，输入原先的附加密码即可重新使用这个附加密码对应的钱包。"
+msgstr "禁用密码短语后，只有在当该 Electrum 钱包的密码短语为空时，才能将其配对。如果其密码短语不为空，则需要创建一个新钱包。您可以随时通过重新启用密码短语并输入其密码短语来再次使用该钱包。"
 
 msgid "Your current Electrum wallet can only be used with an empty passphrase.  You must create a separate wallet for other passphrases as each one generates a new set of addresses."
-msgstr "目前您的Electrum钱包只能使用空的附加密码。如果你设定了其他附加密码，您必须为其单独创建新的钱包，每个不同的附加密码都对应一组独立的地址。"
+msgstr "您当前的 Electrum 钱包只能在密码短语为空的情况下使用。您必须为其他密码短语分别创建独立的钱包，因为每个密码短语都会生成一组新的地址。"
 
 msgid "Are you sure you want to proceed?"
 msgstr "您确定要继续吗?"
@@ -4751,16 +4754,16 @@ msgid "Device Label"
 msgstr "设备标签"
 
 msgid "PIN set"
-msgstr "PIN码设置"
+msgstr "已设置 PIN 码"
 
 msgid "Passphrases"
-msgstr "附加密码"
+msgstr "密码短语"
 
 msgid "Device ID"
-msgstr "设备ID"
+msgstr "设备 ID"
 
 msgid "Bootloader Hash"
-msgstr "引导程序的哈希值"
+msgstr "引导加载程序哈希值"
 
 msgid "Supported Coins"
 msgstr "已支持的数字货币"
@@ -4778,22 +4781,22 @@ msgid "Apply"
 msgstr "应用"
 
 msgid "PIN Protection"
-msgstr "PIN保护"
+msgstr "PIN 码保护"
 
 msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
-msgstr "强烈建议使用PIN保护。如果任何人能接触到你的{}，PIN就是唯一能保护你的比特币以免被盗走的措施。"
+msgstr "强烈建议设置 PIN 码保护。如果有人能够实际接触到您的 {}，PIN 码是防止其盗取您比特币的唯一保护措施。"
 
 msgid "Session Timeout"
 msgstr "会话超时"
 
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
-msgstr "指定在多长时间没有操作后就结束会话。 一旦会话超时，必须重新输入您的PIN和附加密码 (如果有的话) 才能继续使用设备。"
+msgstr "在指定时间段内无操作后，将清除当前会话。会话超时后，必须重新输入 PIN 码和密码短语（如果已启用）才能使用该设备。"
 
 msgid "Disable PIN"
-msgstr "停用PIN码"
+msgstr "禁用 PIN 码"
 
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
-msgstr "如果你停用了PIN，任何可以物理接触到{}设备的人都可以使用你的比特币。"
+msgstr "如果您禁用了 PIN 码，任何能够实际接触到您的 {} 设备的人都可以花费您的比特币。"
 
 msgid "Wipe Device"
 msgstr "擦除设备数据"
@@ -4839,7 +4842,7 @@ msgid "Error connecting to {} server"
 msgstr "连接到{}服务器时出错"
 
 msgid "LabelSync Plugin"
-msgstr "标签同步（LabelSync）插件"
+msgstr "LabelSync 插件"
 
 msgid "Labels uploaded"
 msgstr "已上传标签"
@@ -4899,7 +4902,7 @@ msgid "{} plugin requires a lightning enabled wallet. Open a lightning-enabled w
 msgstr "{} 插件需要支持闪电网络的钱包。请先打开一个支持闪电网络的钱包。"
 
 msgid "Nostr Wallet Connect"
-msgstr "Nostr 钱包连接"
+msgstr "Nostr Wallet Connect"
 
 msgid "Budget [{}]"
 msgstr "预算 [{}]"
@@ -5112,7 +5115,7 @@ msgid "Bottom"
 msgstr "底部"
 
 msgid "Choose on your {} device where to enter your passphrase"
-msgstr "在您的{}设备上选择输入密码的地方"
+msgstr "请在您的 {} 设备上选择输入密码短语的地方"
 
 msgid "{:d} words"
 msgstr "{:d} 个单词"
@@ -5124,13 +5127,13 @@ msgid "Homescreen"
 msgstr "主屏"
 
 msgid "Change..."
-msgstr "改变..."
+msgstr "更改……"
 
 msgid "Required package 'PIL' is not available - Please install it."
 msgstr "必需的包'PIL'不可用 - 请安装它。"
 
 msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
-msgstr "您可以在设备上设置主屏幕以对其进行个性化设置。您必须选择{} x {}单色黑白图像。"
+msgstr "您可以设置设备的主页，以实现个性化。您必须选择一张 {} x {} 的黑白图片。"
 
 msgid "Safe-T Setup"
 msgstr "Safe-T 设置"
@@ -5140,9 +5143,9 @@ msgid ""
 "\n"
 "So please enter the words carefully!"
 msgstr ""
-"无论您的种子的实际长度如何，您都会被要求输入24个单词。如果您输入的单词不正确或拼写错误，则无法更改或返回 - 您需要从头开始重新输入。\n"
-" \n"
-"请仔细输入单词！"
+"无论您的助记词实际长度如何，系统都会要求您输入 24 个单词。如果您输入的单词有误或拼写错误，将无法修改或返回——您需要从头开始。\n"
+"\n"
+"因此，请仔细输入这些单词！"
 
 msgid "I understand that the Timelock Recovery plan will be broken if I keep using this wallet"
 msgstr "我明白，若继续使用这个钱包，将导致时间锁恢复计划失败。"
@@ -5316,19 +5319,19 @@ msgid "Save Cancellation Plan PDF..."
 msgstr "保存取消计划 PDF……"
 
 msgid "Complete the initialization process on your {} device"
-msgstr "让您的{}设备完成初始化流程"
+msgstr "请在您的 {} 设备上完成初始化流程"
 
 msgid "Please enter your passphrase on the {} device"
-msgstr "请在{}设备上输入您的附加密码（passphrase）"
+msgstr "请在 {} 设备上输入您的密码短语"
 
 msgid "Enter 6-digit pairing code:"
-msgstr "输入 6 位数字配对代码:"
+msgstr "输入 6 位数的配对码："
 
 msgid "The PIN cannot be longer than {} characters."
-msgstr "PIN不能超过 {} 个字符。"
+msgstr "PIN 码的长度不得超过 {} 个字符。"
 
 msgid "Enter passphrase on device?"
-msgstr "要在设备上输入附加密码么？"
+msgstr "在设备上输入密码短语吗？"
 
 msgid ""
 "Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
@@ -5347,10 +5350,10 @@ msgstr ""
 "这是一项高级功能，仅建议在具有冗余的多签名配置中使用。"
 
 msgid "Trezor Matrix Recovery"
-msgstr "Trezor矩阵恢复（高级恢复）"
+msgstr "Trezor 矩阵网格恢复"
 
 msgid "Enter Passphrase on Device"
-msgstr "在设备上输入附加密码（passphrase）"
+msgstr "在设备上输入密码短语"
 
 msgid "Select backup type:"
 msgstr "选择备份类型："
@@ -5359,10 +5362,10 @@ msgid "Single seed (BIP39)"
 msgstr "单份助记词（BIP39）"
 
 msgid "Shamir"
-msgstr "Shamir秘密拆分"
+msgstr "Shamir 秘密共享方案"
 
 msgid "Super Shamir"
-msgstr "超级Shamir秘密拆分"
+msgstr "超级 Shamir 秘密共享方案"
 
 msgid "Select seed/share length:"
 msgstr "选择助记词/分片的长度："
@@ -5408,7 +5411,7 @@ msgid "Choose how you want to initialize your {}."
 msgstr "选择要用哪种方式来初始化您的{}。"
 
 msgid "Trezor Pairing"
-msgstr "Trezor配对"
+msgstr "Trezor 配对"
 
 msgid "Please enter your Google Authenticator code:"
 msgstr "请输入你的谷歌验证码："
@@ -5557,14 +5560,8 @@ msgstr "此服务使用多重签名钱包，您拥有3个密钥中的2个。第�
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "输入您双因素认证钱包里的种子"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "无法启动二维码扫描器: zbar不可用。"
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "无法启动二维码扫描器: 初始化失败。"
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "请确保你已经把摄像头连接好并且启用了它。"
+msgid "The QR detection library is not available."
+msgstr "无法使用二维码检测库。"
 
 msgid "Select server automatically"
 msgstr "自动选择服务器"
@@ -5615,8 +5612,8 @@ msgstr "启用后，对每笔交易来说，最多可能因为这种操作消耗
 msgid "Send change to Lightning"
 msgstr "把找零充入闪电网络"
 
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "可能的话，请使用潜交换把这笔交易的找零充入通道"
+msgid "When possible, send transaction change to your Lightning balance using a swap. Swap fees apply. Otherwise, change stays on-chain."
+msgstr "如果条件允许，请通过“兑换”将交易找零转入您的闪电网络余额。此操作将产生交换手续费。否则，找零将保留在链上。"
 
 msgid "Submarine Payments"
 msgstr "潜水艇支付"
@@ -5727,10 +5724,10 @@ msgid "Show inputs and outputs"
 msgstr "显示输入和输出"
 
 msgid "Edit fees manually"
-msgstr "手动编辑手续费"
+msgstr "手动编辑费用"
 
 msgid "Edit Locktime"
-msgstr "编辑锁定时间 (Locktime)"
+msgstr "编辑锁定时间"
 
 msgid "Prevent screenshots"
 msgstr "禁止截图"
@@ -5762,8 +5759,8 @@ msgstr "视频设备"
 msgid "For scanning QR codes."
 msgstr "用于扫描二维码。"
 
-msgid "Install the zbar package to enable this."
-msgstr "安装zbar包以启用此功能。"
+msgid "QR scanning requires Qt Multimedia and zxing-cpp."
+msgstr "扫描二维码需要 Qt Multimedia 和 zxing-cpp。"
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias 记录，用于接收货币并且签署支付请求。"
@@ -5849,32 +5846,38 @@ msgstr "无效的助记词"
 msgid "The swap server errored or is unreachable."
 msgstr "交换服务器出错或不可达。"
 
-msgid "Fetching submarine swap providers..."
-msgstr "正在获取潜水艇互换服务提供商....."
+msgid "Fetching swap providers..."
+msgstr "正在获取兑换提供商......"
 
-msgid "Will send change to lightning"
-msgstr "把找零发送至闪电网络"
+msgid "Change stays on-chain"
+msgstr "找零保留在链上"
+
+msgid "Sending change to Lightning balance"
+msgstr "将找零发送到闪电网络余额"
 
 msgid "Swap fees:"
 msgstr "兑换费用："
 
-msgid "No change output, so no need for swap"
-msgstr "没有找零输出，因此无需兑换"
+msgid "change amount is larger than your Lightning receive capacity"
+msgstr "找零金额大于您的闪电网络接收容量"
 
-msgid "Your channels cannot receive this amount."
-msgstr "你的通道无法接受相关金额。"
+msgid "amount below the swap provider's minimum value of {}"
+msgstr "金额低于兑换服务提供商的最低值 {}"
 
-msgid "Below the swap providers minimum value of {}."
-msgstr "低于兑换服务提供商的最低值 {}。"
+msgid "amount exceeds the swap provider's maximum value of {}"
+msgstr "金额超出了兑换提供商的最大值 {}"
 
-msgid "Change amount exceeds the swap providers maximum value of {}."
-msgstr "交换金额超过兑换服务提供商的最大值{}。"
+msgid "the configured swap provider is not available"
+msgstr "已配置的兑换服务提供商不可用"
 
-msgid "Will not send change to Lightning"
-msgstr "未将找零发送至闪电网络"
+msgid "select a swap provider if you want to send it to Lightning"
+msgstr "如果想将它发送到闪电网络，请选择一个兑换服务提供商"
 
 msgid "Total swap costs are insane."
 msgstr "总兑换成本简直离谱。"
+
+msgid "Mining fee prepayment requested by the swap provider is insane."
+msgstr "该兑换服务提供商要求预付的矿工费用简直离谱。"
 
 msgid "Swap amount outside of providers limits"
 msgstr "超出提供商限额的兑换数量"
@@ -6056,6 +6059,30 @@ msgstr "没有币可用于输出"
 msgid "The output value remaining after fee is too low."
 msgstr "减去手续费后的剩余输出金额过低。"
 
+msgid "Invalid Bitcoin address."
+msgstr "比特币地址无效。"
+
+msgid "This is a watching-only wallet."
+msgstr "这是一个仅供监视的钱包。"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "不能用这种类型的地址签署信息："
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "用地址签名实际上是用相应的私钥签名，并用相应的公钥进行验证。你输入的地址公钥并不唯一，因此无法执行这些操作。"
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "该操作未定义。不仅在Electrum里，其它场合也是如此。"
+
+msgid "Decrypting messages is currently not implemented for multisig wallets."
+msgstr "多重签名钱包当前尚未实现消息解密功能。"
+
+msgid "Pubkey unrelated to wallet."
+msgstr "该公钥与钱包无关联。"
+
+msgid "Invalid Public key"
+msgstr "公钥无效"
+
 msgid "The fee could not be verified!"
 msgstr "无法验证手续费!"
 
@@ -6084,6 +6111,9 @@ msgid ""
 msgstr ""
 "如果这笔交易来自不可信设备，这笔交易签名后请务必不要对它再签名哪怕一次，\n"
 "否则您最后可能会支出这里没显示出来的高手续费。"
+
+msgid "Input {} is using an unknown sighash."
+msgstr "输入 {} 使用了未知的签名哈希。"
 
 msgid "Input {} is marked SIGHASH_NONE."
 msgstr "输入 {} 被标记为SIGHASH_NONE。"
@@ -6153,6 +6183,9 @@ msgstr "如果您兑换部分资金，可能就有足够的容量了。"
 
 msgid "({} are frozen)"
 msgstr "({} 被冻结)"
+
+msgid "{} new transactions"
+msgstr "{} 笔新的交易"
 
 msgid "{} new transactions:"
 msgstr "{} 笔新的交易："
@@ -6994,8 +7027,16 @@ msgid "Yesterday"
 msgstr "昨天"
 
 msgctxt "History|"
+msgid "Earlier this week"
+msgstr "本周早些时候"
+
+msgctxt "History|"
 msgid "Last week"
 msgstr "上周"
+
+msgctxt "History|"
+msgid "Earlier this month"
+msgstr "本月早些时候"
 
 msgctxt "History|"
 msgid "Last month"
@@ -7007,7 +7048,7 @@ msgstr "更早"
 
 msgctxt "History|"
 msgid "No transactions in this wallet yet"
-msgstr "此钱包尚无交易"
+msgstr "该钱包目前暂无交易记录"
 
 msgctxt "HistoryItemDelegate|"
 msgid "<no label>"
@@ -7131,7 +7172,7 @@ msgstr "查看"
 
 msgctxt "LightningPaymentDetails|"
 msgid "Lightning payment details"
-msgstr "闪电网络详细信息"
+msgstr "闪电网络支付详情"
 
 msgctxt "LightningPaymentDetails|"
 msgid "Paid"
@@ -7299,7 +7340,7 @@ msgstr "本地区块高度:"
 
 msgctxt "NetworkOverview|"
 msgid "Server Height:"
-msgstr "服务器高度:"
+msgstr "服务器区块高度:"
 
 msgctxt "NetworkOverview|"
 msgid "Chain tips:"
@@ -7958,8 +7999,20 @@ msgid "Never"
 msgstr "永不"
 
 msgctxt "ScanDialog|"
+msgid "Scan a QR code."
+msgstr "扫描二维码。"
+
+msgctxt "ScanDialog|"
 msgid "Cancel"
 msgstr "取消"
+
+msgctxt "SendDialog|"
+msgid "Cannot import Channel Backup, Lightning not enabled."
+msgstr "无法导入通道备份，闪电网络未启用。"
+
+msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "导入通道备份?"
 
 msgctxt "SendDialog|"
 msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
@@ -7970,8 +8023,28 @@ msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
 msgstr "扫描发票、地址、LNURL支付或PSBT"
 
 msgctxt "SendDialog|"
+msgid "Enter manually"
+msgstr "手动输入"
+
+msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "粘贴"
+
+msgctxt "SendDialog|"
+msgid "Clipboard is empty"
+msgstr "剪贴板为空"
+
+msgctxt "SendDialog|"
+msgid "Enter recipient"
+msgstr "输入收款方"
+
+msgctxt "SendDialog|"
+msgid "Recipient"
+msgstr "收款方"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "确定"
 
 msgctxt "ServerConfig|"
 msgid "Connection mode"
@@ -8015,7 +8088,7 @@ msgstr "手动选择服务器"
 
 msgctxt "ServerConnectModeComboBox|"
 msgid "Connect only to a single server"
-msgstr "仅连接至单个服务器"
+msgstr "仅连接到一台服务器"
 
 msgctxt "ServerConnectWizard|"
 msgid "Network configuration"
@@ -8060,6 +8133,10 @@ msgstr "签名"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "验证"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "错误"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -8807,7 +8884,7 @@ msgstr "仅观察"
 
 msgctxt "WalletDetails|"
 msgid "Encrypted"
-msgstr "已加密"
+msgstr "加密内容"
 
 msgctxt "WalletDetails|"
 msgid "HW"
@@ -8835,7 +8912,7 @@ msgstr "种子扩展密语"
 
 msgctxt "WalletDetails|"
 msgid "Lightning Node ID"
-msgstr "闪电网络节点ID"
+msgstr "闪电网络节点 ID"
 
 msgctxt "WalletDetails|"
 msgid "2FA"
@@ -8962,18 +9039,6 @@ msgid "Failed to update biometric authentication to new password: "
 msgstr "无法将生物识别认证更新为新密码： "
 
 msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL, a PSBT or a Channel Backup"
-msgstr "扫描发票、地址、LNURL支付、PSBT或通道备份"
-
-msgctxt "WalletMainView|"
-msgid "Scan an Invoice, an Address, an LNURL or a PSBT"
-msgstr "扫描发票、地址、LNURL支付或PSBT"
-
-msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "导入通道备份?"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "警告: 部分数据(前笔交易/“完整的未花费交易输出”)因超出二维码容量而被移出"
 
@@ -9025,7 +9090,7 @@ msgstr "地址/币"
 
 msgctxt "WalletMainView|"
 msgid "Channels"
-msgstr "通道"
+msgstr "闪电网络通道"
 
 msgctxt "WalletMainView|"
 msgid "Sign/Verify Message"
@@ -9080,10 +9145,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "闪电网络余额不足以完成付款。要在链上完成付款吗？"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "未启用闪电网络，无法导入通道备份。"
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "确认付款"
 
@@ -9110,6 +9171,10 @@ msgstr "无法签署交此交易"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "钱包"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "搜索"
 
 msgctxt "Wallets|"
 msgid "Current"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -42,9 +42,6 @@ msgstr "Не вводіть конфіденційну/приватну інфо
 
 msgid "Missing report URL."
 msgstr "Відсутня URL-адреса для надсилання звітів."
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "невідомий синтаксичний аналізатор {!r} (варіантів: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Неочікувана хеш-версія пароля"
@@ -901,24 +898,6 @@ msgstr "QR-код"
 msgid "Script type"
 msgstr "Тип скрипта"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Підписання з адресою фактично означає підпис із відповідним приватним ключем та підтвердженням відповідного відкритого ключа. Введена вами адреса не має унікального відкритого ключа, тому ці операції не можуть бути виконані."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Операція невизначена. Не просто в Electrum, а в цілому."
-
-msgid "Invalid Bitcoin address."
-msgstr "Некоректна адреса Bitcoin."
-
-msgid "This is a watching-only wallet."
-msgstr "Цей гаманець тільки для спостереження."
-
-msgid "Address not in wallet."
-msgstr "Адреса не в гаманці."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Неможливо підписати повідомлення для даного типу адрес:"
-
 msgid "Signature verified"
 msgstr "Підпис звірена"
 
@@ -936,9 +915,6 @@ msgstr "Підписати"
 
 msgid "Verify"
 msgstr "Перевірити"
-
-msgid "Invalid Public key"
-msgstr "Недійсний відкритий ключ"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Зашифрувати/розшифрувати Повідомлення"
@@ -1185,6 +1161,9 @@ msgstr "Будь ласка, введіть ваш пароль"
 
 msgid "Requires"
 msgstr "Потрібно"
+
+msgid "Upgrade"
+msgstr "Оновлення"
 
 msgid "Enable"
 msgstr "Дозволити"
@@ -1444,12 +1423,6 @@ msgstr "Цей параметр впливає на вкладку Надісл�
 
 msgid "Base unit"
 msgstr "Валюта"
-
-msgid "Light"
-msgstr "Світлий"
-
-msgid "Dark"
-msgstr "Темний"
 
 msgid "Custom URL"
 msgstr "Власна URL"
@@ -1949,6 +1922,9 @@ msgstr "[Clear]"
 msgid "Invalid Bitcoin Address"
 msgstr "Невірна адреса Bitcoin"
 
+msgid "Address not in wallet."
+msgstr "Адреса не в гаманці."
+
 msgid "Missing libraries for {}."
 msgstr "Відсутні бібліотеки для {}."
 
@@ -2170,9 +2146,6 @@ msgstr "Дата збірки"
 
 msgid "Bootloader"
 msgstr "Завантажувач"
-
-msgid "Upgrade"
-msgstr "Оновлення"
 
 msgid "Device communication error. Please unplug and replug your Digital Bitbox."
 msgstr "Помилка зв'язку пристрою. Будь ласка, відключіть і знову підключіть ваш Digital Bitbox."
@@ -2864,9 +2837,6 @@ msgstr "Виберіть, який онлайн блок досліджуват�
 msgid "Video Device"
 msgstr "Відеопристрій"
 
-msgid "Install the zbar package to enable this."
-msgstr "Встановіть zbar-пакет, щоб використовувати це."
-
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Запис OpenAlias, який використовується для отримання монет і підписування платіжних запитів."
 
@@ -2953,6 +2923,24 @@ msgstr "Непідписано"
 
 msgid "Partially signed"
 msgstr "Частково підписано"
+
+msgid "Invalid Bitcoin address."
+msgstr "Некоректна адреса Bitcoin."
+
+msgid "This is a watching-only wallet."
+msgstr "Цей гаманець тільки для спостереження."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Неможливо підписати повідомлення для даного типу адрес:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Підписання з адресою фактично означає підпис із відповідним приватним ключем та підтвердженням відповідного відкритого ключа. Введена вами адреса не має унікального відкритого ключа, тому ці операції не можуть бути виконані."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Операція невизначена. Не просто в Electrum, а в цілому."
+
+msgid "Invalid Public key"
+msgstr "Недійсний відкритий ключ"
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "Комісія за цю угоду задана занадто високою."
@@ -3528,6 +3516,10 @@ msgstr "Підписати"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Перевірити"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Помилка"
 
 msgctxt "SwapDialog|"
 msgid "You send"

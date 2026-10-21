@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -45,9 +45,6 @@ msgstr "Hiányzó jelentés URL."
 
 msgid "Thanks for reporting this issue!"
 msgstr "Köszönjük, hogy bejelentetted a hibát!"
-
-msgid "unknown parser {!r} (choices: {})"
-msgstr "ismeretlen elemző {!r} (lehetőségek: {})"
 
 msgid "Unexpected password hash version"
 msgstr "Váratlan jelszó ellenőrzőösszeg verzió"
@@ -263,12 +260,6 @@ msgstr "Biztosan törölni akarod ezt a tárcát?"
 msgid "Problem deleting wallet"
 msgstr "Hiba a tárca törlése során"
 
-msgid "Payment failed: "
-msgstr "Fizetés sikertelen: "
-
-msgid "Enter the amount you want to send"
-msgstr "Írd be a küldeni kívánt összeget"
-
 msgid "This invoice has expired"
 msgstr "Ez a fizetési kérelem már lejárt"
 
@@ -289,6 +280,12 @@ msgstr "várakozás megerősítésre"
 
 msgid "Invoice has unknown status"
 msgstr "A fizetési kérelem állapota nem ismert"
+
+msgid "Payment failed: "
+msgstr "Fizetés sikertelen: "
+
+msgid "Enter the amount you want to send"
+msgstr "Írd be a küldeni kívánt összeget"
 
 msgid "Paid!"
 msgstr "Fizetve!"
@@ -316,12 +313,6 @@ msgstr "Nem sikerült az LNURL meghatározása"
 
 msgid "Could not resolve"
 msgstr "Nem sikerült a meghatározás"
-
-msgid "The platform QR detection library is not available."
-msgstr "Nem érhető el a rendszer QR érzékelő programja."
-
-msgid "Scan a QR code."
-msgstr "Olvass be egy QR-kódot."
 
 msgid "Move the slider to set the amount and direction of the swap."
 msgstr "Mozgasd a csúszkát a csereügylet összegének és irányának meghatározásához."
@@ -1653,24 +1644,6 @@ msgstr "QR kód"
 msgid "Script type"
 msgstr "Szkript típusa"
 
-msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
-msgstr "Egy címmel aláírás azt jelenti, hogy az aláírás a címhez tartozó titkos kulccsal történik, az ellenőrzés pedig a nyilvános kulccsal. Az általad megadott címhez nem tartozik egyedi nyilvános kulcs, tehát nem lehet vele aláírni sem."
-
-msgid "The operation is undefined. Not just in Electrum, but in general."
-msgstr "Ez a művelet nincs definiálva. Nem csak az Electrumban, hanem egyáltalán."
-
-msgid "Invalid Bitcoin address."
-msgstr "Érvénytelen Bitcoin cím."
-
-msgid "This is a watching-only wallet."
-msgstr "Ez egy figyelő-tárca."
-
-msgid "Address not in wallet."
-msgstr "A cím nem tartozik ehhez a tárcához."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Nem lehet aláírni az ilyen típusú címeket tartalmazó üzeneteket:"
-
 msgid "Signature verified"
 msgstr "Aláírás ellenőrizve"
 
@@ -1688,9 +1661,6 @@ msgstr "Aláírás"
 
 msgid "Verify"
 msgstr "Ellenőrzés"
-
-msgid "Invalid Public key"
-msgstr "Hibás nyilvános kulcs"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Üzenet titkosítása/visszafejtése"
@@ -1998,6 +1968,9 @@ msgstr "Szerző"
 msgid "Requires"
 msgstr "Szükséges"
 
+msgid "Upgrade"
+msgstr "Frissítés"
+
 msgid "Disable"
 msgstr "Letiltás"
 
@@ -2040,12 +2013,6 @@ msgstr "Szöveg másolása"
 msgid "Save"
 msgstr "Mentés"
 
-msgid "QR Reader Error"
-msgstr "QR-kód olvasási hiba"
-
-msgid "QR reader failed to load. This may happen if you are using an older version of PyQt."
-msgstr "A QR-kód olvasó nem töltődött be. Ez akkor történhet, ha régebbi PyQt verziót használsz."
-
 msgid "Scan QR Code"
 msgstr "QR-kód beolvasása"
 
@@ -2063,12 +2030,6 @@ msgstr "Túl kevés QR-kód érzékelve."
 
 msgid "Too many QR codes detected."
 msgstr "Túl sok QR-kód érzékelve."
-
-msgid "QR code scanner for video frame with invalid pixel format"
-msgstr "A QR-kód olvasón a képkocka pixelformátuma érvénytelen"
-
-msgid "QR code scanner failed to map video frame"
-msgstr "A QR-kód olvasónak nem sikerült a képkocka beolvasása"
 
 msgid "Show as QR code"
 msgstr "Megjelenítés QR-kódként"
@@ -2496,12 +2457,6 @@ msgstr "Ez a beállítás a Küldés lapot, valamint az összes egyenleggel kapc
 
 msgid "Base unit"
 msgstr "Egység"
-
-msgid "Light"
-msgstr "Világos"
-
-msgid "Dark"
-msgstr "Sötét"
 
 msgid "Custom URL"
 msgstr "Egyéni URL"
@@ -3397,6 +3352,9 @@ msgstr "Nem sikerült a vágólap tartalmának értelmezése"
 msgid "Invalid Bitcoin Address"
 msgstr "Érvénytelen Bitcoin cím"
 
+msgid "Address not in wallet."
+msgstr "A cím nem tartozik ehhez a tárcához."
+
 msgid "Missing libraries for {}."
 msgstr "Programkönyvtárak hiányoznak az alábbihoz: {}."
 
@@ -3752,9 +3710,6 @@ msgstr "Build dátuma"
 
 msgid "Bootloader"
 msgstr "Bootloader"
-
-msgid "Upgrade"
-msgstr "Frissítés"
 
 msgid "This device does not reveal xpubs corresponding to non-hardened paths"
 msgstr "Ez az eszköz nem fedi fel a nem-'hardened' útvonalakhoz tartozó xpub-okat"
@@ -4603,15 +4558,6 @@ msgstr "Ez a szolgáltatás egy több-aláírós pénztárcát használ, ahol a 
 msgid "Enter the seed for your 2-factor wallet:"
 msgstr "Add meg a kétfaktoros pénztárcához tartozó magot:"
 
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "A QR-kód olvasás nem indítható el: a zbar nincs telepítve."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "A QR-kód olvasás nem indítható el: inicializálás sikertelen."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "Ellenőrizd, hogy a kamera csatlakoztatva és engedélyezve van-e."
-
 msgid "Select server automatically"
 msgstr "Szerver automatikus kiválasztása"
 
@@ -4641,9 +4587,6 @@ msgstr "Ha engedélyezve van, akkor emiatt legfeljebb 100 satoshi veszhet el tra
 
 msgid "Send change to Lightning"
 msgstr "Visszajáró küldése Lightningra"
-
-msgid "If possible, send the change of this transaction to your channels, with a submarine swap"
-msgstr "Ha lehetséges, egy submarine csereügylettel küldje a tranzakció visszajáróját a csatornáidra"
 
 msgid "Download historical rates"
 msgstr "Történeti árfolyamadatok letöltése"
@@ -4749,9 +4692,6 @@ msgstr "Videóeszköz"
 
 msgid "For scanning QR codes."
 msgstr "QR-kódok olvasásához."
-
-msgid "Install the zbar package to enable this."
-msgstr "A használatához telepítsd a zbar csomagot."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias bejegyzés, a használatával pénzt fogadhatsz és fizetési kérelmeket írhatsz alá."
@@ -4941,6 +4881,24 @@ msgstr "Nem sikerült érméket találni a kimenethez"
 
 msgid "The output value remaining after fee is too low."
 msgstr "A díjon felül fennmaradó kimeneti összeg túl alacsony."
+
+msgid "Invalid Bitcoin address."
+msgstr "Érvénytelen Bitcoin cím."
+
+msgid "This is a watching-only wallet."
+msgstr "Ez egy figyelő-tárca."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Nem lehet aláírni az ilyen típusú címeket tartalmazó üzeneteket:"
+
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr "Egy címmel aláírás azt jelenti, hogy az aláírás a címhez tartozó titkos kulccsal történik, az ellenőrzés pedig a nyilvános kulccsal. Az általad megadott címhez nem tartozik egyedi nyilvános kulcs, tehát nem lehet vele aláírni sem."
+
+msgid "The operation is undefined. Not just in Electrum, but in general."
+msgstr "Ez a művelet nincs definiálva. Nem csak az Electrumban, hanem egyáltalán."
+
+msgid "Invalid Public key"
+msgstr "Hibás nyilvános kulcs"
 
 msgid "The fee could not be verified!"
 msgstr "A díj ellenőrzése nem sikerült!"
@@ -6598,8 +6556,16 @@ msgid "Cancel"
 msgstr "Mégsem"
 
 msgctxt "SendDialog|"
+msgid "Import Channel Backup?"
+msgstr "Csatorna mentésének importálása?"
+
+msgctxt "SendDialog|"
 msgid "Paste"
 msgstr "Beillesztés"
+
+msgctxt "SendDialog|"
+msgid "Ok"
+msgstr "OK"
 
 msgctxt "ServerConfig|"
 msgid "Server"
@@ -6672,6 +6638,10 @@ msgstr "Aláírás"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Ellenőrzés"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Hiba"
 
 msgctxt "SwapDialog|"
 msgid "Lightning Swap"
@@ -7430,10 +7400,6 @@ msgid "Warning"
 msgstr "Figyelem"
 
 msgctxt "WalletMainView|"
-msgid "Import Channel Backup?"
-msgstr "Csatorna mentésének importálása?"
-
-msgctxt "WalletMainView|"
 msgid "Warning: Some data (prev txs / \"full utxos\") was left out of the QR code as it would not fit."
 msgstr "Figyelem: bizonyos adatok (előző tranzakciók, egyenleggel rendelkező címek \"teljessége\") kimaradtak a QR-kódból, mert nem férnek bele."
 
@@ -7512,10 +7478,6 @@ msgid "Insufficient balance to pay over Lightning. Pay on-chain instead?"
 msgstr "A Lighning fizetéshez nincs elég egyenleg. Fizeted inkább a blokkláncon?"
 
 msgctxt "WalletMainView|"
-msgid "Cannot import Channel Backup, Lightning not enabled."
-msgstr "A csatorna mentés nem importálható, a Lightning nincs bekapcsolva."
-
-msgctxt "WalletMainView|"
 msgid "Confirm Payment"
 msgstr "Fizetés jóváhagyása"
 
@@ -7542,6 +7504,10 @@ msgstr "Tranzakció aláírása nem sikerült"
 msgctxt "Wallets|"
 msgid "Wallets"
 msgstr "Tárcák"
+
+msgctxt "Wallets|"
+msgid "search"
+msgstr "keresés"
 
 msgctxt "Wallets|"
 msgid "Current"

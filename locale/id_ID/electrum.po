@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 08:02+0000\n"
-"PO-Revision-Date: 2026-07-02 08:02\n"
+"POT-Creation-Date: 2026-10-19 08:26+0000\n"
+"PO-Revision-Date: 2026-10-19 08:27\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"X-Electrum-SourceStringCount: 2738\n"
+"X-Electrum-SourceStringCount: 2759\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: electrum\n"
 "X-Crowdin-Project-ID: 20482\n"
@@ -43,14 +43,26 @@ msgstr "URL laporan hilang."
 msgid "Thanks for reporting this issue!"
 msgstr "Terima kasih telah melaporkan masalah ini!"
 
-msgid "unknown parser {!r} (choices: {})"
-msgstr "parser {!r} tidak dikenal (pilihan: {})"
-
 msgid "Unexpected password hash version"
 msgstr "Versi kata sandi yang tidak terduga"
 
+msgid "You are most likely using an outdated version of Electrum. Please update."
+msgstr "Anda kemungkinan besar sedang menggunakan versi Electrum yang sudah usang. Silakan perbarui."
+
+msgid "Unsupported password hash version"
+msgstr "Versi hash kata sandi tidak didukung "
+
 msgid "  (No FX rate available)"
 msgstr "  (Tidak ada FX rate yg tersedia)"
+
+msgid "No data"
+msgstr "Tidak ada data"
+
+msgid "FIXED"
+msgstr "DITETAPKAN"
+
+msgid "Feerate"
+msgstr "Tingkat Biaya"
 
 msgid "ETA"
 msgstr "EWT"
@@ -64,14 +76,124 @@ msgstr "Biaya rendah"
 msgid "In the next block"
 msgstr "Pada block selanjutnya"
 
+msgid "Within one day"
+msgstr "Dalam satu hari"
+
+msgid "Within one week"
+msgstr "Dalam satu minggu"
+
+msgid "Within {} blocks"
+msgstr "Dalam {} blok"
+
+msgid "Target"
+msgstr "Target"
+
 msgid "Current rate"
 msgstr "Nilai tukar saat ini"
 
 msgid "Fixed rate"
 msgstr "Biaya tetap"
 
+msgid "Estimate"
+msgstr "Perkiraan"
+
+msgid "{} from tip"
+msgstr "{} dari ujung"
+
+msgid "&Undo"
+msgstr "&Batalkan"
+
+msgid "&Redo"
+msgstr "&Ulangi"
+
+msgid "Cu&t"
+msgstr "Cu&t"
+
+msgid "&Copy"
+msgstr "&Salin"
+
+msgid "&Paste"
+msgstr "&Tempel"
+
+msgid "Select All"
+msgstr "Pilih Semua"
+
+msgid "Copy &Link Location"
+msgstr "Salin & Lokasi Tautan"
+
+msgid "Cannot draw QR code"
+msgstr "Tidak dapat menggambar kode QR"
+
+msgid "Not enough space available."
+msgstr "Ruang yang tersedia tidak cukup."
+
+msgid "Your node will negotiate the transaction fee with the remote node. This method of closing the channel usually results in the lowest fees."
+msgstr "Perangkat Anda akan Berunding biaya transaksi dengan Perangkat jarak jauh. Metode penutupan saluran ini biasanya menghasilkan biaya terendah."
+
+msgid "If you request a force-close, your node will pretend that it has lost its data and ask the remote node to broadcast their latest state. Doing so from time to time helps make sure that nodes are honest, because your node can punish them if they broadcast a revoked state."
+msgstr "Jika Anda meminta penutupan paksa, perangkat Anda akan berpura-pura bahwa ia telah kehilangan data dan meminta perangkat jarak jauh untuk menyiarkan kondisi terbaru mereka. Melakukan hal ini dari waktu ke waktu membantu memastikan bahwa perangkat berlaku jujur, karena perangkat Anda dapat menghukum mereka jika mereka menyiarkan kondisi yang telah dicabut."
+
+msgid ""
+"The channel you created is not recoverable from seed.\n"
+"To prevent fund losses, please save this backup on another device.\n"
+"It may be imported in another Electrum wallet with the same seed."
+msgstr ""
+"Saluran yang Anda buat tidak dapat dipulihkan dari seed.\n"
+"\n"
+"Untuk mencegah kehilangan dana, harap simpan cadangan ini di perangkat lain.\n"
+"Cadangan ini dapat diimpor ke dompet Electrum lain dengan seed yang sama."
+
+msgid "Electrum uses static channel backups. If you lose your wallet file, you will need to request your channel to be force-closed by the remote peer in order to recover your funds. This assumes that the remote peer is reachable, and has not lost its own data."
+msgstr "Electrum menggunakan cadangan saluran statis. Jika Anda kehilangan file dompet Anda, Anda perlu meminta saluran Anda untuk ditutup paksa oleh rekan jarak jauh agar dapat memulihkan dana Anda. Hal ini mengasumsikan bahwa rekan jarak jauh dapat dijangkau, dan belum kehilangan data mereka sendiri."
+
+msgid "Warning: Third-party plugins have access to your wallet!"
+msgstr "Peringatan: Plugin pihak ketiga memiliki akses ke dompet Anda!"
+
+msgid "Installing this plugin will grant third-party software access to your wallet. You must trust the plugin not to be malicious."
+msgstr "Menginstal plugin ini akan memberikan akses kepada perangkat lunak pihak ketiga ke dompet Anda. Anda harus mempercayai plugin ini agar tidak bersifat jahat."
+
+msgid "You should at minimum check who the author of the plugin is, and be careful of imposters."
+msgstr "Anda setidaknya harus memeriksa siapa pengarang plugin tersebut, dan berhati-hatilah terhadap penipu."
+
+msgid "Third-party plugins are not endorsed by Electrum."
+msgstr "Plugin pihak ketiga tidak didukung oleh Electrum."
+
+msgid "Electrum will not be responsible in case of theft, loss of funds or privacy that might result from third-party plugins."
+msgstr "Electrum tidak akan bertanggung jawab dalam hal pencurian, kehilangan dana, atau privasi yang mungkin timbul dari penggunaan plugin pihak ketiga."
+
+msgid "To install this plugin, please enter your plugin authorization password"
+msgstr "Untuk menginstal plugin ini, silakan masukkan kata sandi otorisasi plugin Anda"
+
+msgid ""
+"Another instance of this wallet (same seed) has an open channel with the same remote node. If you create this channel, you will not be able to use both wallets at the same time.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"Contoh lain dari dompet ini (dengan seed yang sama) memiliki saluran terbuka dengan node jarak jauh yang sama. Jika Anda membuat saluran ini, Anda tidak akan dapat menggunakan kedua dompet secara bersamaan.\n"
+"\n"
+"Apakah Anda yakin?"
+
+msgid "Channel backups can be imported in another instance of the same wallet."
+msgstr "Cadangan saluran dapat diimpor ke dalam instansi lain dari dompet yang sama."
+
+msgid "In the Electrum mobile app, use the 'Send' button to scan this QR code."
+msgstr "Dalam aplikasi seluler Electrum,gunakan tombol 'Kirim' untuk pindah kode QR ini."
+
 msgid "Please note that channel backups cannot be used to restore your channels."
 msgstr "Mohon perhatikan bahwa cadangan saluran tidak dapatt digunakan untuk memulihkan saluran Anda."
+
+msgid "If you lose your wallet file, the only thing you can do with a backup is to request your channel to be closed, so that your funds will be sent on-chain."
+msgstr "Jika Anda kehilangan berkas dompet Anda, satu-satunya hal yang dapat Anda lakukan dengan cadangan adalah meminta saluran Anda untuk ditutup, sehingga dana Anda akan dikirimkan ke jaringan Blockchain."
+
+msgid ""
+"This channel is with a non-trampoline node; it cannot be used if trampoline is enabled.\n"
+"If you want to keep using this channel, you need to disable trampoline routing in your preferences."
+msgstr ""
+"Saluran ini berada pada node non-trampoline; saluran ini tidak dapat digunakan jika trampoline diaktifkan.\n"
+"Jika Anda ingin terus menggunakan saluran ini, Anda perlu menonaktifkan pengaturan routing trampoline dalam preferensi Anda."
+
+msgid "When you freeze an address, the funds in that address will not be used for sending bitcoins."
+msgstr "Saat Anda membekukan sebuah alamat, dana di alamat tersebut tidak akan digunakan untuk mengirim bitcoin."
 
 msgid "Please report this issue manually"
 msgstr "Silakan laporkan isu ini secara manual"
@@ -769,12 +891,6 @@ msgstr "Kode QR"
 msgid "Script type"
 msgstr "Jenis script"
 
-msgid "Address not in wallet."
-msgstr "Alamat tidak tertera didalam wallet."
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Tipe alamat tesebut tidak bisa tanda tangani pesan."
-
 msgid "Signature verified"
 msgstr "Tanda tangan terverifikasi"
 
@@ -1051,9 +1167,6 @@ msgstr "Salin Gambar"
 msgid "Copy Text"
 msgstr "Salin Teks"
 
-msgid "QR Reader Error"
-msgstr "Kesalahan pada pembaca QR"
-
 msgid "&Flip horizontally"
 msgstr "&Balik secara horizontal"
 
@@ -1258,12 +1371,6 @@ msgstr "Satuan dasar dompet Anda."
 
 msgid "Base unit"
 msgstr "Satuan dasar"
-
-msgid "Light"
-msgstr "Ringan"
-
-msgid "Dark"
-msgstr "Gelap"
 
 msgid "Custom URL"
 msgstr "URL kustom"
@@ -1534,6 +1641,9 @@ msgstr "Keluar"
 
 msgid "Invalid Bitcoin Address"
 msgstr "Alamat Bitcoin Salah"
+
+msgid "Address not in wallet."
+msgstr "Alamat tidak tertera didalam wallet."
 
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "Jumlah untuk keluaran OP_RETURN harus kosong."
@@ -1951,9 +2061,6 @@ msgstr "Biaya kecil akan diminta pada setiap transaksi yang menggunakan remote s
 msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
 msgstr "Langkah selanjutnya akan membuat seed untuk dompet Anda. Seed ini TIDAK akan tersimpan pada komputer Anda, dan harus disimpan pada kertas. Agar aman dari malware, Anda mungkin menginginkan melakukan ini pada komputer offline, dan pindahkan dompet Anda pada komputer online setelahnya."
 
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Tidak dapat memulai pemindai QR: inisialisasi gagal."
-
 msgid "Select server automatically"
 msgstr "Pilih server secara otomatis"
 
@@ -1986,9 +2093,6 @@ msgstr "Perangkat Video"
 
 msgid "For scanning QR codes."
 msgstr "Untuk memindai kode QR"
-
-msgid "Install the zbar package to enable this."
-msgstr "Pasang paket zbar untuk mengaktifkan ini."
 
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Rekaman OpenAlias​, digunakan untuk menerima koin dan menandatangani permintaan pembayaran."
@@ -2043,6 +2147,9 @@ msgstr "Tidak bisa meneumukan hasil yang cocok."
 
 msgid "Could not find coins for output"
 msgstr "tidak bisa menemukan coin untuk hasil."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Tipe alamat tesebut tidak bisa tanda tangani pesan."
 
 msgid "The fee for this transaction seems unusually high."
 msgstr "Biaya untuk transaksi ini sepertinya terlalu tinggi."
@@ -2246,6 +2353,14 @@ msgstr "EWT"
 msgctxt "FeeMethodComboBox|"
 msgid "Mempool"
 msgstr "Mempool"
+
+msgctxt "FeeMethodComboBox|"
+msgid "Feerate"
+msgstr "Tingkat Biaya"
+
+msgctxt "FeePicker|"
+msgid "Target"
+msgstr "Target"
 
 msgctxt "FeePicker|"
 msgid "Mining fee"
@@ -2534,6 +2649,10 @@ msgstr "Tanda Tangani"
 msgctxt "SignVerifyMessageDialog|"
 msgid "Verify"
 msgstr "Verifikasi"
+
+msgctxt "SignVerifyMessageDialog|"
+msgid "Error"
+msgstr "Kesalahan"
 
 msgctxt "SwapDialog|"
 msgid "Mining fee"
