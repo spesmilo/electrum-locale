@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-import datetime
 import glob
 import os
 import re
 import subprocess
 import sys
 import io
+import time
 import zipfile
 
 # check dependencies are available
@@ -26,6 +26,8 @@ except (subprocess.CalledProcessError, OSError):
 
 
 crowdin_project_id = 20482  # for "Electrum" project on crowdin
+crowdin_build_poll_interval_sec = 5
+crowdin_build_timeout_sec = 10 * 60
 
 BITCOIN_ADDRESS_REGEXP = re.compile('([13]|bc1)[a-zA-Z0-9]{30,}')
 EMAIL_ADDRESS_REGEXP = re.compile(r'[\w.+-]+@[\w-]+\.[\w.-]+')
@@ -75,26 +77,36 @@ def pull_locale(path, *, crowdin_api_key=None):
         os.mkdir(path)
     os.chdir(path)
 
-    # note: We won't request a build now, instead we download the latest build.
-    #       This assumes that the push_locale script was run recently (in the past few days).
-    print('Getting list of builds from crowdin...')
-    # https://support.crowdin.com/developer/api/v2/?q=api#tag/Translations/operation/api.projects.translations.builds.getMany
+    # note: A crowdin build is a snapshot, translations edited after it was created are not in it.
+    #       So we request a fresh build now, and wait for it to finish, instead of downloading an old one.
+    print('Asking crowdin to build the translations...')
+    # https://support.crowdin.com/developer/api/v2/?q=api#tag/Translations/operation/api.projects.translations.builds.post
     url = f'https://api.crowdin.com/api/v2/projects/{crowdin_project_id}/translations/builds'
     headers = {**global_headers, **{"content-type": "application/json"}}
-    response = requests.request("GET", url, headers=headers)
+    payload = {}  # same as electrum's contrib/locale/push_locale.py
+    response = requests.request("POST", url, headers=headers, json=payload)
     response.raise_for_status()
-    print("", "translations.builds.getMany:", "-" * 20, response.text, "-" * 20, sep="\n")
+    print("", "translations.builds.post:", "-" * 20, response.text, "-" * 20, sep="\n")
+    build_id = response.json()["data"]["id"]
 
-    latest_build = response.json()["data"][0]["data"]
-    assert latest_build["status"] == "finished", latest_build["status"]
-    # if latest_build["attributes"]["exportApprovedOnly"] is not True:
-    #     raise Exception("latest_build from crowdin MUST have exportApprovedOnly==true")
-    created_at = datetime.datetime.fromisoformat(latest_build["createdAt"])
-    if (datetime.datetime.now(datetime.timezone.utc) - created_at) > datetime.timedelta(days=2):
-        raise Exception(f"latest translation build looks too old. {created_at.isoformat()=}")
-    build_id = latest_build["id"]
+    print(f'Waiting for crowdin build {build_id} to finish...')
+    # https://support.crowdin.com/developer/api/v2/?q=api#tag/Translations/operation/api.projects.translations.builds.get
+    url = f'https://api.crowdin.com/api/v2/projects/{crowdin_project_id}/translations/builds/{build_id}'
+    deadline = time.monotonic() + crowdin_build_timeout_sec
+    while True:
+        response = requests.request("GET", url, headers=headers)
+        response.raise_for_status()
+        build = response.json()["data"]
+        print(f"\tstatus={build['status']}, progress={build.get('progress')}%")
+        if build["status"] == "finished":
+            break
+        if build["status"] not in ("created", "inProgress"):
+            raise Exception(f"crowdin build {build_id} did not finish: {build['status']=}")
+        if time.monotonic() > deadline:
+            raise Exception(f"timed out after {crowdin_build_timeout_sec}s waiting for crowdin build {build_id}")
+        time.sleep(crowdin_build_poll_interval_sec)
 
-    print('Asking crowdin to generate a URL for the latest build...')
+    print('Asking crowdin to generate a URL for the build...')
     # https://support.crowdin.com/developer/api/v2/?q=api#tag/Translations/operation/api.projects.translations.builds.download.download
     url = f'https://api.crowdin.com/api/v2/projects/{crowdin_project_id}/translations/builds/{build_id}/download'
     headers = {**global_headers, **{"content-type": "application/json"}}
